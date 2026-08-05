@@ -1,0 +1,235 @@
+{
+  "id": "symptome",
+  "order": 3,
+  "icon": "🌡️",
+  "title": { "de": "Symptome beschreiben", "en": "Describing the symptoms", "ur": "Takleef batana" },
+  "angle": "In the consulting room with the doctor · Doctor ke kamre mein",
+  "words": ["hals", "wehtun", "erkältung", "ausschlag", "durchfall", "appetit", "schlafen", "abstrich", "antibiotikum", "virus"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Hallo Yusuf. Was ist los?", "en": "Hello Yusuf. What's the matter?", "ur": "Hello Yusuf. Kya masla hai?" },
+        { "s": "B", "de": "Er hat seit zwei Tagen Fieber.", "en": "He has had a fever for two days.", "ur": "Usay do din se bukhar hai." },
+        { "s": "A", "de": "Wie hoch ist das Fieber?", "en": "How high is the fever?", "ur": "Bukhar kitna tez hai?" },
+        { "s": "B", "de": "Heute Morgen achtunddreißig Grad.", "en": "This morning thirty-eight degrees.", "ur": "Aaj subh athtees degree." },
+        { "s": "A", "de": "Hat er Schmerzen?", "en": "Is he in pain?", "ur": "Kya usay dard hai?" },
+        { "s": "B", "de": "Ja, sein Hals tut weh.", "en": "Yes, his throat hurts.", "ur": "Ji haan, us ke gale mein dard hai." },
+        { "s": "A", "de": "Isst er normal?", "en": "Is he eating normally?", "ur": "Kya woh normal kha raha hai?" },
+        { "s": "B", "de": "Nein, er isst sehr wenig.", "en": "No, he eats very little.", "ur": "Nahi, woh bohat kam khata hai." },
+        { "s": "A", "de": "Trinkt er genug?", "en": "Is he drinking enough?", "ur": "Kya woh kaafi pee raha hai?" },
+        { "s": "B", "de": "Er trinkt Wasser und Tee.", "en": "He drinks water and tea.", "ur": "Woh paani aur chai peeta hai." },
+        { "s": "A", "de": "Gut. Ich schaue in den Hals.", "en": "Good. I'll look into his throat.", "ur": "Acha. Main gala dekhta hoon." },
+        { "s": "A", "de": "Mach bitte den Mund auf, Yusuf.", "en": "Please open your mouth, Yusuf.", "ur": "Yusuf, munh kholo." },
+        { "s": "B", "de": "Mach den Mund auf. Gut so.", "en": "Open your mouth. Well done.", "ur": "Munh kholo. Shabash." },
+        { "s": "A", "de": "Der Hals ist rot. Die Ohren sind in Ordnung.", "en": "The throat is red. The ears are fine.", "ur": "Gala laal hai. Kaan theek hain." },
+        { "s": "B", "de": "Ist es schlimm?", "en": "Is it serious?", "ur": "Kya yeh serious hai?" },
+        { "s": "A", "de": "Nein, es ist nur eine Erkältung.", "en": "No, it's only a cold.", "ur": "Nahi, yeh sirf zukam hai." },
+        { "s": "B", "de": "Gott sei Dank. Vielen Dank, Herr Doktor.", "en": "Thank God. Thank you very much, doctor.", "ur": "Shukar hai. Bohat shukriya, doctor sahab." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Khan. Setzen Sie sich. Was führt Sie heute zu mir?", "en": "Hello, Mrs Khan. Have a seat. What brings you to me today?", "ur": "Salam, Frau Khan. Baith jayein. Aaj kis silsile mein aayi hain?" },
+        { "s": "B", "de": "Amina hat seit gestern hohes Fieber und sie fasst sich immer ans Ohr.", "en": "Amina has had a high fever since yesterday and she keeps touching her ear.", "ur": "Amina ko kal se tez bukhar hai aur woh baar baar kaan ko haath lagati hai." },
+        { "s": "A", "de": "Wie hoch war das Fieber gestern Abend?", "en": "How high was the fever yesterday evening?", "ur": "Kal sham bukhar kitna tha?" },
+        { "s": "B", "de": "Neununddreißig Komma zwei. Ich habe ihr dann Fiebersaft gegeben.", "en": "Thirty-nine point two. I then gave her fever syrup.", "ur": "Unatalees point do. Phir main ne usay bukhar ka syrup diya." },
+        { "s": "A", "de": "Das war richtig. Hat der Saft geholfen?", "en": "That was right. Did the syrup help?", "ur": "Yeh theek kiya. Kya syrup se faida hua?" },
+        { "s": "B", "de": "Für ein paar Stunden ja, dann ist das Fieber wieder gestiegen.", "en": "For a few hours yes, then the fever went up again.", "ur": "Kuch ghanton ke liye haan, phir bukhar dobara barh gaya." },
+        { "s": "A", "de": "Hat sie Durchfall oder hat sie erbrochen?", "en": "Does she have diarrhoea or has she vomited?", "ur": "Kya usay dast hain ya us ne ulti ki hai?" },
+        { "s": "B", "de": "Durchfall hatte sie einmal, erbrochen hat sie nicht.", "en": "She had diarrhoea once, she hasn't vomited.", "ur": "Ek baar dast aaye, ulti nahi ki." },
+        { "s": "A", "de": "Und wie schläft sie nachts?", "en": "And how does she sleep at night?", "ur": "Aur raat ko woh kaise soti hai?" },
+        { "s": "B", "de": "Schlecht. Sie wacht oft auf und weint.", "en": "Badly. She often wakes up and cries.", "ur": "Buri tarah. Woh aksar jaag jati hai aur roti hai." },
+        { "s": "A", "de": "Das passt zu einer Mittelohrentzündung. Ich schaue mir das Ohr an.", "en": "That fits with a middle ear infection. I'll take a look at the ear.", "ur": "Yeh kaan ki sozish se milta hai. Main kaan dekhta hoon." },
+        { "s": "B", "de": "Amina, halt bitte kurz still. Der Arzt tut dir nicht weh.", "en": "Amina, please keep still for a moment. The doctor won't hurt you.", "ur": "Amina, thora ruk jao. Doctor tumhein dard nahi dega." },
+        { "s": "A", "de": "So, fertig. Das rechte Trommelfell ist gerötet, das linke ist normal.", "en": "There, done. The right eardrum is reddened, the left one is normal.", "ur": "Lo, ho gaya. Dayan parda laal hai, baayan normal hai." },
+        { "s": "B", "de": "Braucht sie jetzt ein Antibiotikum?", "en": "Does she need an antibiotic now?", "ur": "Kya usay ab antibiotic chahiye?" },
+        { "s": "A", "de": "Noch nicht. Wir warten zwei Tage ab und behandeln erst nur die Schmerzen.", "en": "Not yet. We'll wait two days and first only treat the pain.", "ur": "Abhi nahi. Hum do din dekhte hain aur pehle sirf dard ka ilaaj karte hain." },
+        { "s": "B", "de": "Und wann soll ich mich wieder melden?", "en": "And when should I get in touch again?", "ur": "Aur main dobara kab rabta karoon?" },
+        { "s": "A", "de": "Wenn das Fieber nach zwei Tagen nicht sinkt oder wenn das Ohr läuft, kommen Sie sofort.", "en": "If the fever doesn't go down after two days, or if the ear discharges, come immediately.", "ur": "Agar do din baad bukhar kam na ho ya kaan se paani aaye to foran aayein." },
+        { "s": "B", "de": "Alles klar. Vielen Dank für die Erklärung.", "en": "All right. Thank you very much for the explanation.", "ur": "Theek hai. Wazahat ka bohat shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Khan. Am Telefon haben Sie gesagt, Yusuf hat einen Ausschlag bekommen.", "en": "Hello, Mrs Khan. On the phone you said Yusuf has developed a rash.", "ur": "Salam, Frau Khan. Phone par aap ne kaha tha ke Yusuf ko dane nikle hain." },
+        { "s": "B", "de": "Ja, seit gestern Nachmittag. Zuerst nur am Bauch, inzwischen auch am Rücken und an den Armen.", "en": "Yes, since yesterday afternoon. First only on his tummy, by now also on his back and arms.", "ur": "Ji haan, kal dopahar se. Pehle sirf pait par, ab kamar aur baazuon par bhi." },
+        { "s": "A", "de": "Juckt der Ausschlag oder tut er weh?", "en": "Does the rash itch or does it hurt?", "ur": "Kya danon mein khujli hai ya dard?" },
+        { "s": "B", "de": "Er kratzt sich ständig, vor allem abends. Wehtun scheint es ihm nicht.", "en": "He scratches himself constantly, especially in the evening. It doesn't seem to hurt him.", "ur": "Woh baar baar kharoncta hai, khaas kar sham ko. Dard nahi lagta." },
+        { "s": "A", "de": "Hatte er vorher Fieber, und wenn ja, wie lange?", "en": "Did he have a fever before, and if so, for how long?", "ur": "Kya us se pehle bukhar tha, aur agar tha to kitne din?" },
+        { "s": "B", "de": "Drei Tage lang hohes Fieber, und genau als das Fieber weg war, kam der Ausschlag.", "en": "High fever for three days, and exactly when the fever was gone, the rash came.", "ur": "Teen din tez bukhar, aur jab bukhar utra to dane nikal aaye." },
+        { "s": "A", "de": "Das ist ein typischer Verlauf. Haben Sie in den letzten Tagen etwas Neues gegeben, ein Medikament oder ein neues Essen?", "en": "That is a typical course. Have you given anything new in the last few days, a medication or a new food?", "ur": "Yeh aam tareeqa hai. Kya pichle dinon mein koi nayi cheez di, koi dawa ya naya khana?" },
+        { "s": "B", "de": "Nur Fiebersaft, den er schon oft bekommen hat. Sonst nichts Neues.", "en": "Only fever syrup, which he has often had before. Nothing else new.", "ur": "Sirf bukhar ka syrup, jo woh pehle bhi leta raha hai. Aur kuch naya nahi." },
+        { "s": "A", "de": "Dann spricht wenig für eine Allergie. Ich untersuche ihn kurz von oben bis unten.", "en": "Then there is little to suggest an allergy. I'll examine him briefly from head to toe.", "ur": "To allergy ka imkaan kam hai. Main us ka poora muaina karta hoon." },
+        { "s": "B", "de": "Soll ich ihn ausziehen?", "en": "Should I undress him?", "ur": "Kya main us ke kapre utaar doon?" },
+        { "s": "A", "de": "Bis auf die Windel, ja. Danke. — Die Flecken sind blass und verschwinden, wenn ich draufdrücke.", "en": "Down to the nappy, yes. Thank you. — The spots are pale and disappear when I press on them.", "ur": "Sirf nappy chhor kar, haan. Shukriya. — Nishan halke hain aur dabane par ghayab ho jate hain." },
+        { "s": "B", "de": "Ist das ein gutes oder ein schlechtes Zeichen?", "en": "Is that a good or a bad sign?", "ur": "Kya yeh acha ishara hai ya bura?" },
+        { "s": "A", "de": "Ein gutes. Flecken, die beim Drücken bleiben, wären ein Warnzeichen. Das ist hier nicht der Fall.", "en": "A good one. Spots that stay when pressed would be a warning sign. That is not the case here.", "ur": "Acha. Jo nishan dabane par bhi rahein woh khatre ki alamat hote hain. Yahan aisa nahi hai." },
+        { "s": "B", "de": "Also brauchen wir kein Antibiotikum?", "en": "So we don't need an antibiotic?", "ur": "To humein antibiotic ki zaroorat nahi?" },
+        { "s": "A", "de": "Nein, dahinter steckt ein Virus. Antibiotika wirken gegen Viren überhaupt nicht.", "en": "No, there is a virus behind it. Antibiotics don't work against viruses at all.", "ur": "Nahi, is ke peeche virus hai. Antibiotic virus par bilkul asar nahi karti." },
+        { "s": "B", "de": "Wie lange bleibt der Ausschlag denn?", "en": "How long will the rash stay then?", "ur": "To dane kitne din rahenge?" },
+        { "s": "A", "de": "Meistens drei bis vier Tage. Gegen das Jucken gebe ich Ihnen eine Lotion mit.", "en": "Usually three to four days. For the itching I'll give you a lotion to take with you.", "ur": "Aam tor par teen chaar din. Khujli ke liye main aap ko lotion de deta hoon." },
+        { "s": "B", "de": "Darf er wieder in die Kita?", "en": "Is he allowed back at daycare?", "ur": "Kya woh dobara kita ja sakta hai?" },
+        { "s": "A", "de": "Sobald er vierundzwanzig Stunden fieberfrei ist, ja.", "en": "As soon as he has been fever-free for twenty-four hours, yes.", "ur": "Jab woh chobees ghante bukhar ke baghair rahe, tab haan." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Sie hatten am Telefon erwähnt, dass die Beschwerden immer wiederkehren. Schildern Sie mir das bitte einmal im Zusammenhang.", "en": "You mentioned on the phone that the symptoms keep coming back. Please describe it to me as a whole.", "ur": "Aap ne phone par kaha tha ke takleef baar baar wapis aati hai. Meherbani kar ke poori baat tarteeb se batayein." },
+        { "s": "B", "de": "Es fing vor etwa drei Monaten an. Seitdem hat Amina alle zwei bis drei Wochen Bauchschmerzen, meistens morgens vor der Kita.", "en": "It started about three months ago. Since then Amina has had stomach ache every two to three weeks, mostly in the mornings before daycare.", "ur": "Taqreeban teen mahine pehle shuru hua. Tab se Amina ko har do teen hafte baad pait dard hota hai, aksar subh kita se pehle." },
+        { "s": "A", "de": "Das zeitliche Muster ist auffällig. Treten die Schmerzen auch am Wochenende oder in den Ferien auf?", "en": "The timing pattern is striking. Does the pain also occur at the weekend or in the holidays?", "ur": "Waqt ka yeh andaaz ghaur talab hai. Kya dard weekend ya chhuttiyon mein bhi hota hai?" },
+        { "s": "B", "de": "Jetzt, wo Sie es sagen — deutlich seltener. In den Sommerferien war sie zwei Wochen komplett beschwerdefrei.", "en": "Now that you mention it — noticeably less often. In the summer holidays she was completely free of symptoms for two weeks.", "ur": "Ab jab aap ne kaha — kaafi kam. Garmi ki chhuttiyon mein do hafte bilkul theek rahi." },
+        { "s": "A", "de": "Das schließt eine körperliche Ursache nicht aus, macht sie aber weniger wahrscheinlich. Wie verhält es sich mit Appetit, Gewicht und Stuhlgang?", "en": "That doesn't rule out a physical cause, but makes it less likely. What about appetite, weight and bowel movements?", "ur": "Is se jismani wajah khatam nahi hoti, lekin us ka imkaan kam ho jata hai. Bhook, wazan aur pait ka kya haal hai?" },
+        { "s": "B", "de": "Der Appetit schwankt, das Gewicht ist meines Wissens stabil. Verstopfung hatte sie im Winter häufiger.", "en": "The appetite fluctuates, the weight is stable as far as I know. She had constipation more often in the winter.", "ur": "Bhook kabhi kam kabhi zyada, wazan mere khayal mein theek hai. Sardiyon mein qabz zyada hoti thi." },
+        { "s": "A", "de": "Verstopfung ist bei Kindern eine der häufigsten Ursachen für wiederkehrende Bauchschmerzen und wird oft übersehen.", "en": "Constipation is one of the most common causes of recurring stomach ache in children and is often overlooked.", "ur": "Bachon mein baar baar pait dard ki sab se aam wajah qabz hoti hai aur aksar nazar andaaz ho jati hai." },
+        { "s": "B", "de": "Damit hätte ich nicht gerechnet. Ich dachte eher an eine Unverträglichkeit.", "en": "I wouldn't have expected that. I was rather thinking of an intolerance.", "ur": "Main ne yeh socha hi nahi tha. Main to samajh rahi thi koi cheez us ko nahi lagti." },
+        { "s": "A", "de": "Das lässt sich prüfen, aber ungezielte Tests führen bei Kindern häufig zu falschen Schlüssen. Ich würde strukturiert vorgehen.", "en": "That can be checked, but untargeted tests in children often lead to false conclusions. I would proceed in a structured way.", "ur": "Yeh dekha ja sakta hai, lekin bila wajah test bachon mein aksar ghalat nateeje dete hain. Main tarteeb se aage barhna chahoonga." },
+        { "s": "B", "de": "Was heißt das konkret?", "en": "What does that mean concretely?", "ur": "Is ka amli matlab kya hai?" },
+        { "s": "A", "de": "Zuerst tasten wir den Bauch ab und machen eine Urinprobe. Dann führen Sie zwei Wochen ein Tagebuch über Essen, Stuhlgang und Schmerzen.", "en": "First we palpate the abdomen and do a urine sample. Then you keep a diary of food, bowel movements and pain for two weeks.", "ur": "Pehle hum pait ko haath se dekhte hain aur urine test karte hain. Phir aap do hafte khane, pait aur dard ki diary rakhein." },
+        { "s": "B", "de": "Und falls dabei nichts herauskommt?", "en": "And if nothing comes out of that?", "ur": "Aur agar us se kuch na nikle?" },
+        { "s": "A", "de": "Dann sprechen wir über Stress in der Kita. Bauchschmerzen sind bei Vierjährigen eine völlig normale Reaktion auf Druck, und das ist keine eingebildete Krankheit.", "en": "Then we talk about stress at daycare. Stomach ache is a completely normal reaction to pressure in four-year-olds, and that is not an imagined illness.", "ur": "To hum kita ke stress par baat karenge. Chaar saal ke bachon mein dabao ka yeh bilkul normal rad-e-amal hai, aur yeh farzi beemari nahi." },
+        { "s": "B", "de": "Das beruhigt mich, ehrlich gesagt. Ich hatte Angst, etwas übersehen zu haben.", "en": "That reassures me, to be honest. I was afraid I had overlooked something.", "ur": "Sach kahoon to isse mujhe tasalli hui. Mujhe dar tha ke main ne kuch nazar andaaz kiya hai." },
+        { "s": "A", "de": "Sie haben sie hergebracht, statt es auszusitzen. Genau das ist richtig gewesen.", "en": "You brought her in instead of sitting it out. That was exactly the right thing.", "ur": "Aap us ko le aayin, baithe nahi rahin. Yehi theek tha." },
+        { "s": "B", "de": "Wann sollen wir wiederkommen?", "en": "When should we come back?", "ur": "Hum kab dobara aayein?" },
+        { "s": "A", "de": "In zwei Wochen mit dem Tagebuch. Sollten die Schmerzen sie nachts aufwecken oder Blut im Stuhl auftreten, sofort.", "en": "In two weeks with the diary. Should the pain wake her at night or blood appear in the stool, immediately.", "ur": "Do hafte baad diary ke saath. Agar dard raat ko jaga de ya pait se khoon aaye to foran." },
+        { "s": "B", "de": "Verstanden. Ich schreibe alles mit.", "en": "Understood. I'll note everything down.", "ur": "Samajh gayi. Main sab likh loongi." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Weber",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Sie sind mit Yusuf im Sprechzimmer. Er hat seit zwei Tagen Fieber und Halsschmerzen.",
+        "en": "You are in the consulting room with Yusuf. He has had a fever and a sore throat for two days.",
+        "ur": "Aap Yusuf ke saath doctor ke kamre mein hain. Usay do din se bukhar aur gale mein dard hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Hallo Yusuf. Guten Tag, Frau Khan. Was ist los?",
+          "goal": { "en": "Say he has had a fever for two days.", "ur": "Kahein ke usay do din se bukhar hai." },
+          "options": ["Er hat seit zwei Tagen Fieber.", "Yusuf hat seit zwei Tagen Fieber."],
+          "fallback": "Was hat er denn?",
+          "accept": [{ "kw": ["fieber", "zwei"], "next": "n2" }, { "kw": ["fieber"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie hoch ist das Fieber?",
+          "goal": { "en": "Say: this morning thirty-eight degrees.", "ur": "Kahein: aaj subh athtees degree." },
+          "options": ["Heute Morgen achtunddreißig Grad.", "Achtunddreißig Grad heute Morgen."],
+          "fallback": "Haben Sie gemessen? Wie viel Grad?",
+          "accept": [{ "kw": ["achtunddreißig", "grad"], "next": "n3" }, { "kw": ["grad"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Hat er Schmerzen?",
+          "goal": { "en": "Say yes, his throat hurts.", "ur": "Kahein haan, us ke gale mein dard hai." },
+          "options": ["Ja, sein Hals tut weh.", "Ja, er hat Halsschmerzen."],
+          "fallback": "Wo tut es ihm weh?",
+          "accept": [{ "kw": ["hals", "weh"], "next": "n4" }, { "kw": ["halsschmerzen"], "next": "n4" }, { "kw": ["hals"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Isst und trinkt er normal?",
+          "goal": { "en": "Say he eats little but drinks water and tea.", "ur": "Kahein ke woh kam khata hai lekin paani aur chai peeta hai." },
+          "options": ["Er isst wenig, aber er trinkt Wasser und Tee.", "Er isst sehr wenig. Er trinkt Wasser und Tee."],
+          "fallback": "Wie ist es mit Essen und Trinken?",
+          "accept": [{ "kw": ["isst", "trinkt"], "next": "n5" }, { "kw": ["trinkt"], "next": "n5" }, { "kw": ["wenig"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gut. Ich schaue in den Hals. — Der Hals ist rot, die Ohren sind in Ordnung.",
+          "goal": { "en": "Ask whether it is serious.", "ur": "Poochein ke kya yeh serious hai." },
+          "options": ["Ist es schlimm?", "Ist das schlimm?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["schlimm"], "next": "n6" }, { "kw": ["ist"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Nein, es ist nur eine Erkältung. In ein paar Tagen geht es ihm besser.",
+          "goal": { "en": "Say thank you to the doctor.", "ur": "Doctor ka shukriya ada karein." },
+          "options": ["Vielen Dank, Herr Doktor.", "Danke schön, Herr Doktor."],
+          "fallback": "Alles klar so weit?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern geschehen. Gute Besserung, Yusuf!", "next": "END" },
+            { "kw": ["dank"], "reply": "Gern geschehen. Gute Besserung, Yusuf!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Weber",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Yusuf hatte drei Tage Fieber. Als das Fieber weg war, kam ein Ausschlag am Bauch und am Rücken.",
+        "en": "Yusuf had a fever for three days. When the fever was gone, a rash appeared on his tummy and back.",
+        "ur": "Yusuf ko teen din bukhar tha. Bukhar utarne par pait aur kamar par dane nikal aaye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Frau Khan. Am Telefon haben Sie gesagt, Yusuf hat einen Ausschlag bekommen. Seit wann genau?",
+          "goal": { "en": "Say: since yesterday afternoon, first on the tummy, now on the back too.", "ur": "Kahein: kal dopahar se, pehle pait par, ab kamar par bhi." },
+          "options": ["Seit gestern Nachmittag, zuerst am Bauch, inzwischen auch am Rücken.", "Seit gestern Nachmittag. Zuerst am Bauch, jetzt auch am Rücken."],
+          "fallback": "Wann hat der Ausschlag angefangen und wo?",
+          "accept": [{ "kw": ["gestern", "bauch", "rücken"], "next": "n2" }, { "kw": ["bauch"], "next": "n2" }, { "kw": ["gestern"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Juckt der Ausschlag oder tut er weh?",
+          "goal": { "en": "Say he scratches constantly, especially in the evening, but it doesn't seem to hurt.", "ur": "Kahein ke woh baar baar kharoncta hai, khaas kar sham ko, lekin dard nahi lagta." },
+          "options": ["Er kratzt sich ständig, vor allem abends. Wehtun scheint es ihm nicht.", "Er kratzt sich viel, aber es tut ihm nicht weh."],
+          "fallback": "Kratzt er sich? Hat er Schmerzen dabei?",
+          "accept": [{ "kw": ["kratzt", "weh"], "next": "n3" }, { "kw": ["kratzt"], "next": "n3" }, { "kw": ["juckt"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Hatte er vorher Fieber, und wenn ja, wie lange?",
+          "goal": { "en": "Say: three days of high fever, and the rash came exactly when the fever went.", "ur": "Kahein: teen din tez bukhar, aur jab bukhar utra tab dane nikle." },
+          "options": ["Drei Tage lang hohes Fieber, und genau als das Fieber weg war, kam der Ausschlag.", "Er hatte drei Tage Fieber. Dann kam der Ausschlag."],
+          "fallback": "Wie war das mit dem Fieber?",
+          "accept": [{ "kw": ["drei", "fieber", "ausschlag"], "next": "n4" }, { "kw": ["drei", "fieber"], "next": "n4" }, { "kw": ["fieber"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Haben Sie in den letzten Tagen etwas Neues gegeben, ein Medikament oder ein neues Essen?",
+          "goal": { "en": "Say only fever syrup, which he has often had before, nothing else new.", "ur": "Kahein sirf bukhar ka syrup jo woh pehle bhi le chuka hai, aur kuch naya nahi." },
+          "options": ["Nur Fiebersaft, den er schon oft bekommen hat. Sonst nichts Neues.", "Nur Fiebersaft. Sonst nichts Neues."],
+          "fallback": "Ein neues Medikament? Ein neues Lebensmittel?",
+          "accept": [{ "kw": ["fiebersaft", "nichts"], "next": "n5" }, { "kw": ["fiebersaft"], "next": "n5" }, { "kw": ["nichts"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Die Flecken sind blass und verschwinden, wenn ich draufdrücke.",
+          "goal": { "en": "Ask whether that is a good or a bad sign.", "ur": "Poochein ke yeh acha ishara hai ya bura." },
+          "options": ["Ist das ein gutes oder ein schlechtes Zeichen?", "Ist das gut oder schlecht?"],
+          "fallback": "Möchten Sie wissen, was das bedeutet?",
+          "accept": [{ "kw": ["gutes", "zeichen"], "next": "n6" }, { "kw": ["zeichen"], "next": "n6" }, { "kw": ["gut"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ein gutes. Flecken, die beim Drücken bleiben, wären ein Warnzeichen. Dahinter steckt hier ein Virus.",
+          "goal": { "en": "Ask whether you need an antibiotic then.", "ur": "Poochein ke kya phir antibiotic chahiye." },
+          "options": ["Brauchen wir dann ein Antibiotikum?", "Also brauchen wir kein Antibiotikum?"],
+          "fallback": "Haben Sie eine Frage zur Behandlung?",
+          "accept": [{ "kw": ["antibiotikum"], "next": "n7" }, { "kw": ["antibiotika"], "next": "n7" }]
+        },
+        "n7": {
+          "say": "Nein, Antibiotika wirken gegen Viren überhaupt nicht. Gegen das Jucken gebe ich Ihnen eine Lotion mit.",
+          "goal": { "en": "Ask whether he is allowed back at daycare.", "ur": "Poochein ke kya woh dobara kita ja sakta hai." },
+          "options": ["Darf er wieder in die Kita?", "Wann darf er wieder in die Kita?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [
+            { "kw": ["kita"], "reply": "Sobald er vierundzwanzig Stunden fieberfrei ist, ja. Gute Besserung!", "next": "END" },
+            { "kw": ["darf"], "reply": "Sobald er vierundzwanzig Stunden fieberfrei ist, ja. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

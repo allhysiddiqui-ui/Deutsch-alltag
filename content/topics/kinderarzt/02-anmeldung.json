@@ -1,0 +1,224 @@
+{
+  "id": "anmeldung",
+  "order": 2,
+  "icon": "🗂️",
+  "title": { "de": "An der Anmeldung", "en": "At the reception desk", "ur": "Reception par" },
+  "angle": "Checking in, card, forms, waiting room · Card, form aur waiting room",
+  "words": ["anmeldung", "formular", "ausfüllen", "unterschreiben", "wartezimmer", "überweisung", "attest", "adresse", "geburtsdatum", "datenschutz"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Baumann (Anmeldung)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Wie kann ich helfen?", "en": "Hello. How can I help?", "ur": "Salam. Main kaise madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich habe einen Termin um drei Uhr.", "en": "Hello. I have an appointment at three o'clock.", "ur": "Salam. Mera teen baje ka appointment hai." },
+        { "s": "A", "de": "Wie ist Ihr Name?", "en": "What is your name?", "ur": "Aap ka naam kya hai?" },
+        { "s": "B", "de": "Khan. Mein Sohn heißt Yusuf Khan.", "en": "Khan. My son's name is Yusuf Khan.", "ur": "Khan. Mere bete ka naam Yusuf Khan hai." },
+        { "s": "A", "de": "Haben Sie die Versichertenkarte?", "en": "Do you have the insurance card?", "ur": "Kya aap ke paas insurance card hai?" },
+        { "s": "B", "de": "Ja, hier ist sie.", "en": "Yes, here it is.", "ur": "Ji haan, yeh raha." },
+        { "s": "A", "de": "Danke. Waren Sie schon einmal hier?", "en": "Thank you. Have you been here before?", "ur": "Shukriya. Kya aap pehle kabhi yahan aayi hain?" },
+        { "s": "B", "de": "Nein, wir sind neu.", "en": "No, we are new.", "ur": "Nahi, hum naye hain." },
+        { "s": "A", "de": "Dann füllen Sie bitte dieses Formular aus.", "en": "Then please fill in this form.", "ur": "To meherbani kar ke yeh form bhar dein." },
+        { "s": "B", "de": "Wo soll ich unterschreiben?", "en": "Where should I sign?", "ur": "Mujhe kahan dastakhat karne hain?" },
+        { "s": "A", "de": "Hier unten, bitte.", "en": "Down here, please.", "ur": "Yahan neeche, please." },
+        { "s": "B", "de": "Fertig. Und wo warten wir?", "en": "Done. And where do we wait?", "ur": "Ho gaya. Aur hum kahan intezaar karein?" },
+        { "s": "A", "de": "Im Wartezimmer links. Dort gibt es Spielzeug.", "en": "In the waiting room on the left. There is toys there.", "ur": "Baayen taraf waiting room mein. Wahan khilone hain." },
+        { "s": "B", "de": "Vielen Dank.", "en": "Thank you very much.", "ur": "Bohat shukriya." },
+        { "s": "A", "de": "Wir rufen Sie auf.", "en": "We will call you.", "ur": "Hum aap ko bula lenge." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Baumann (Anmeldung)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ki kya madad kar sakti hoon?" },
+        { "s": "B", "de": "Guten Tag. Wir haben um Viertel nach fünf einen Termin für Amina Khan.", "en": "Hello. We have an appointment at quarter past five for Amina Khan.", "ur": "Salam. Amina Khan ka sawa paanch baje appointment hai." },
+        { "s": "A", "de": "Einen Moment, ich schaue nach. Ja, hier ist sie. Die Versichertenkarte, bitte.", "en": "One moment, I'll check. Yes, here she is. The insurance card, please.", "ur": "Ek minute, main dekhti hoon. Ji haan, yeh rahi. Insurance card, please." },
+        { "s": "B", "de": "Hier, bitte schön.", "en": "Here you are.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Danke. Die Karte ist leider abgelaufen. Haben Sie eine neue bekommen?", "en": "Thank you. Unfortunately the card has expired. Have you received a new one?", "ur": "Shukriya. Afsos, card ki tareekh khatam ho gayi hai. Kya aap ko naya mila hai?" },
+        { "s": "B", "de": "Ja, aber die neue Karte liegt zu Hause. Ist das ein Problem?", "en": "Yes, but the new card is at home. Is that a problem?", "ur": "Ji haan, lekin naya card ghar par hai. Kya yeh masla hai?" },
+        { "s": "A", "de": "Heute geht es noch. Bringen Sie die Karte bitte innerhalb von zehn Tagen vorbei.", "en": "Today it's still all right. Please bring the card by within ten days.", "ur": "Aaj chalega. Meherbani kar ke das din ke andar card le aayein." },
+        { "s": "B", "de": "Das mache ich. Ich habe auch die Adresse gewechselt.", "en": "I'll do that. I have also changed address.", "ur": "Main le aaoongi. Mera address bhi badal gaya hai." },
+        { "s": "A", "de": "Gut, dass Sie das sagen. Wie lautet die neue Adresse?", "en": "Good that you mention it. What is the new address?", "ur": "Acha hua aap ne bataya. Naya address kya hai?" },
+        { "s": "B", "de": "Gartenstraße siebenundzwanzig, vierzig, zweihundertsiebzehn Düsseldorf.", "en": "Gartenstrasse 27, 40217 Düsseldorf.", "ur": "Gartenstrasse 27, 40217 Düsseldorf." },
+        { "s": "A", "de": "Danke. Hat sich die Telefonnummer auch geändert?", "en": "Thank you. Has the phone number changed as well?", "ur": "Shukriya. Kya phone number bhi badla hai?" },
+        { "s": "B", "de": "Nein, die Nummer ist gleich geblieben.", "en": "No, the number has stayed the same.", "ur": "Nahi, number wohi hai." },
+        { "s": "A", "de": "Alles notiert. Bitte füllen Sie noch dieses Formular zum Datenschutz aus und unterschreiben Sie unten.", "en": "All noted. Please also fill in this data protection form and sign at the bottom.", "ur": "Sab likh liya. Meherbani kar ke yeh privacy form bhi bharein aur neeche dastakhat karein." },
+        { "s": "B", "de": "Muss ich das jedes Mal machen?", "en": "Do I have to do that every time?", "ur": "Kya yeh har baar karna hoga?" },
+        { "s": "A", "de": "Nein, nur einmal. Danach ist es bei uns gespeichert.", "en": "No, only once. After that it is saved with us.", "ur": "Nahi, sirf ek baar. Us ke baad hamare paas mehfooz rehta hai." },
+        { "s": "B", "de": "Gut. Wie lange dauert es heute ungefähr?", "en": "Good. Roughly how long will it take today?", "ur": "Acha. Aaj taqreeban kitna waqt lagega?" },
+        { "s": "A", "de": "Etwa zwanzig Minuten. Nehmen Sie bitte im Wartezimmer Platz, wir rufen Sie auf.", "en": "About twenty minutes. Please take a seat in the waiting room, we will call you.", "ur": "Taqreeban bees minute. Waiting room mein baith jayein, hum bula lenge." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Baumann (Anmeldung)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Khan. Sie waren gestern schon einmal hier, richtig?", "en": "Hello, Mrs Khan. You were here yesterday already, right?", "ur": "Salam, Frau Khan. Aap kal bhi aayi thin, theek?" },
+        { "s": "B", "de": "Genau. Der Arzt hat gesagt, wir sollen heute noch einmal vorbeikommen.", "en": "Exactly. The doctor said we should come by again today.", "ur": "Bilkul. Doctor ne kaha tha ke hum aaj dobara aayein." },
+        { "s": "A", "de": "Dann brauche ich die Karte nicht noch einmal. Ich melde Sie direkt an.", "en": "Then I don't need the card again. I'll register you straight away.", "ur": "To mujhe card dobara nahi chahiye. Main aap ko seedha register kar deti hoon." },
+        { "s": "B", "de": "Ich habe außerdem eine Überweisung vom Hausarzt dabei.", "en": "I also have a referral from the family doctor with me.", "ur": "Mere paas family doctor ki referral bhi hai." },
+        { "s": "A", "de": "Die nehme ich gleich mit. Ist sie aus diesem Quartal?", "en": "I'll take that right away. Is it from this quarter?", "ur": "Main abhi le leti hoon. Kya yeh isi quarter ki hai?" },
+        { "s": "B", "de": "Sie ist von letzter Woche. Reicht das?", "en": "It's from last week. Is that enough?", "ur": "Yeh pichle hafte ki hai. Kya kaafi hai?" },
+        { "s": "A", "de": "Das reicht völlig. Brauchen Sie heute auch ein Attest für die Kita?", "en": "That is completely enough. Do you also need a sick note for the daycare today?", "ur": "Bilkul kaafi hai. Kya aaj kita ke liye medical certificate bhi chahiye?" },
+        { "s": "B", "de": "Ja, bitte. Die Kita will wissen, ab wann er wieder kommen darf.", "en": "Yes, please. The daycare wants to know from when he is allowed to come back.", "ur": "Ji haan. Kita jan-na chahti hai ke woh kab se dobara aa sakta hai." },
+        { "s": "A", "de": "Sagen Sie das bitte dem Arzt im Sprechzimmer, dann schreibt er es direkt auf.", "en": "Please tell the doctor in the consulting room, then he'll write it straight away.", "ur": "Meherbani kar ke doctor ko kamre mein bata dein, woh foran likh dega." },
+        { "s": "B", "de": "Mache ich. Eine Frage noch: Können wir das Attest später abholen?", "en": "I will. One more question: can we pick the certificate up later?", "ur": "Zaroor. Ek aur sawal: kya hum certificate baad mein le sakte hain?" },
+        { "s": "A", "de": "Natürlich. Ab morgen liegt es hier an der Anmeldung bereit.", "en": "Of course. From tomorrow it will be ready here at reception.", "ur": "Zaroor. Kal se yeh yahan reception par tayyar hoga." },
+        { "s": "B", "de": "Sehr gut. Und wo ist das Wartezimmer für kranke Kinder?", "en": "Very good. And where is the waiting room for sick children?", "ur": "Bohat acha. Aur beemar bachon ka waiting room kahan hai?" },
+        { "s": "A", "de": "Den Gang entlang und dann rechts. Links ist das Zimmer für die Vorsorgeuntersuchungen.", "en": "Along the corridor and then to the right. On the left is the room for check-ups.", "ur": "Corridor ke saath aur phir dayen. Baayen taraf check-up ka kamra hai." },
+        { "s": "B", "de": "Danke, das hätte ich verwechselt.", "en": "Thank you, I would have mixed that up.", "ur": "Shukriya, main ghalti kar deti." },
+        { "s": "A", "de": "Das passiert oft. Deshalb steht es auch an der Tür.", "en": "That happens often. That's why it is written on the door too.", "ur": "Yeh aksar hota hai. Isi liye darwaze par bhi likha hai." },
+        { "s": "B", "de": "Wie lange dauert es heute ungefähr?", "en": "Roughly how long will it take today?", "ur": "Aaj taqreeban kitna waqt lagega?" },
+        { "s": "A", "de": "Heute geht es schnell, es sind nur zwei Kinder vor Ihnen.", "en": "Today it's quick, there are only two children ahead of you.", "ur": "Aaj jaldi hoga, sirf do bachay aap se pehle hain." },
+        { "s": "B", "de": "Perfekt. Dann setzen wir uns.", "en": "Perfect. Then we'll sit down.", "ur": "Bohat acha. To hum baith jate hain." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Baumann (Anmeldung)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Khan. Ihre Karte lässt sich leider nicht einlesen, der Chip scheint defekt zu sein.", "en": "Hello, Mrs Khan. Unfortunately your card can't be read, the chip seems to be defective.", "ur": "Salam, Frau Khan. Afsos, aap ka card parha nahi ja raha, chip kharab lagta hai." },
+        { "s": "B", "de": "Das ist ärgerlich. Bedeutet das, dass wir die Behandlung selbst bezahlen müssen?", "en": "That's annoying. Does that mean we have to pay for the treatment ourselves?", "ur": "Yeh pareshan kun hai. Kya iska matlab hai ke ilaaj ka kharcha khud dena hoga?" },
+        { "s": "A", "de": "Nein, keine Sorge. Wir behandeln heute ganz normal und Sie reichen die Karte innerhalb von zehn Tagen nach.", "en": "No, don't worry. We'll treat as normal today and you submit the card within ten days.", "ur": "Nahi, fikar na karein. Aaj normal ilaaj hoga aur aap das din ke andar card jama kara dein." },
+        { "s": "B", "de": "Und falls die Krankenkasse bis dahin keine neue Karte geschickt hat?", "en": "And if the health insurance hasn't sent a new card by then?", "ur": "Aur agar insurance company tab tak naya card na bhejay?" },
+        { "s": "A", "de": "Dann lassen Sie sich dort eine vorläufige Bescheinigung ausstellen, die gilt genauso.", "en": "Then have them issue a provisional certificate, that counts just the same.", "ur": "To wahan se aarzi certificate bana lein, woh bhi barabar chalta hai." },
+        { "s": "B", "de": "Gut zu wissen. Ich rufe morgen früh bei der Kasse an.", "en": "Good to know. I'll call the insurance first thing tomorrow.", "ur": "Acha maloom hua. Main kal subh insurance ko phone karti hoon." },
+        { "s": "A", "de": "Machen Sie das. Und noch etwas: Bei Ihrem Sohn steht die U8 an, das wäre eigentlich schon vor drei Monaten fällig gewesen.", "en": "Do that. And one more thing: your son's U8 check-up is due, it should actually have been three months ago.", "ur": "Zaroor karein. Aur ek baat: aap ke bete ka U8 check-up baqi hai, woh asal mein teen mahine pehle hona chahiye tha." },
+        { "s": "B", "de": "Das ist mir völlig durchgerutscht. Ist der Termin dann noch möglich?", "en": "That completely slipped my mind. Is the appointment still possible then?", "ur": "Yeh mere zehen se bilkul nikal gaya. Kya ab bhi appointment mumkin hai?" },
+        { "s": "A", "de": "Es gibt ein Toleranzfenster, in dem die Kasse die Untersuchung noch übernimmt. Wir liegen gerade noch darin.", "en": "There is a tolerance window in which the insurance still covers the examination. We are just about inside it.", "ur": "Ek gunjaish ka arsa hota hai jis mein insurance test ka kharcha uthata hai. Hum abhi us ke andar hain." },
+        { "s": "B", "de": "Dann würde ich das gern gleich mit erledigen, wenn es zeitlich passt.", "en": "Then I'd like to get that done at the same time, if it fits time-wise.", "ur": "To main yeh saath hi karwa loon, agar waqt mein aa jaye." },
+        { "s": "A", "de": "Heute wird es knapp, weil eine Vorsorge etwa vierzig Minuten dauert. Ich schlage Freitagvormittag vor.", "en": "Today it will be tight, because a check-up takes about forty minutes. I suggest Friday morning.", "ur": "Aaj mushkil hoga kyunke check-up taqreeban chalees minute leta hai. Main Jumma subh tajweez karti hoon." },
+        { "s": "B", "de": "Freitagvormittag ist ungünstig, da arbeite ich. Ginge es auch am späten Nachmittag?", "en": "Friday morning is inconvenient, I'm working then. Would late afternoon be possible too?", "ur": "Jumma subh mushkil hai, main kaam par hoti hoon. Kya sham ko der se ho sakta hai?" },
+        { "s": "A", "de": "Um sechzehn Uhr dreißig hätte ich noch etwas frei. Das ist der letzte Vorsorgetermin des Tages.", "en": "At half past four I still have something free. That is the last check-up slot of the day.", "ur": "Saarhe chaar baje kuch khali hai. Woh din ka aakhri check-up ka waqt hai." },
+        { "s": "B", "de": "Den nehme ich. Bringe ich dazu das Untersuchungsheft und den Impfpass mit?", "en": "I'll take that one. Do I bring the check-up booklet and the vaccination record for it?", "ur": "Main woh le leti hoon. Kya us ke liye check-up copy aur teeka card lana hai?" },
+        { "s": "A", "de": "Beides, ja. Falls das Heft verloren gegangen ist, sagen Sie bitte vorher Bescheid.", "en": "Both, yes. If the booklet has been lost, please let us know beforehand.", "ur": "Dono, ji haan. Agar copy gum ho gayi hai to pehle bata dein." },
+        { "s": "B", "de": "Es liegt zu Hause, ich habe es neulich beim Aufräumen gesehen.", "en": "It's at home, I saw it recently while tidying up.", "ur": "Woh ghar par hai, main ne haal hi mein safai ke doran dekha tha." },
+        { "s": "A", "de": "Perfekt. Dann trage ich Freitag um halb fünf ein und Sie gehen jetzt bitte ins Wartezimmer.", "en": "Perfect. Then I'll enter Friday at half past four and you please go to the waiting room now.", "ur": "Bohat acha. To main Jumma saarhe chaar likh deti hoon aur aap ab waiting room chali jayein." },
+        { "s": "B", "de": "Vielen Dank, dass Sie mitgedacht haben.", "en": "Thank you very much for thinking along.", "ur": "Bohat shukriya ke aap ne dhyan dilaya." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Baumann, Anmeldung",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Sie kommen mit Ihrem Sohn in die Praxis. Sie haben einen Termin um drei Uhr.",
+        "en": "You arrive at the practice with your son. You have an appointment at three o'clock.",
+        "ur": "Aap apne bete ke saath clinic aate hain. Teen baje ka appointment hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Wie kann ich helfen?",
+          "goal": { "en": "Say hello and say you have an appointment at three o'clock.", "ur": "Salam karein aur kahein ke teen baje ka appointment hai." },
+          "options": ["Guten Tag. Ich habe einen Termin um drei Uhr.", "Guten Tag, wir haben einen Termin um drei Uhr."],
+          "fallback": "Haben Sie einen Termin?",
+          "accept": [{ "kw": ["termin", "drei"], "next": "n2" }, { "kw": ["termin"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie ist Ihr Name?",
+          "goal": { "en": "Say your family name is Khan and your son is called Yusuf.", "ur": "Kahein ke aap ka naam Khan hai aur bete ka naam Yusuf hai." },
+          "options": ["Khan. Mein Sohn heißt Yusuf Khan.", "Mein Name ist Khan."],
+          "fallback": "Ihren Namen bitte.",
+          "accept": [{ "kw": ["khan", "yusuf"], "next": "n3" }, { "kw": ["khan"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Haben Sie die Versichertenkarte?",
+          "goal": { "en": "Say yes, here it is.", "ur": "Kahein: ji haan, yeh raha." },
+          "options": ["Ja, hier ist sie.", "Ja, hier bitte."],
+          "fallback": "Die Karte, bitte.",
+          "accept": [{ "kw": ["ja", "hier"], "next": "n4" }, { "kw": ["hier"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Danke. Waren Sie schon einmal hier?",
+          "goal": { "en": "Say no, you are new.", "ur": "Kahein: nahi, hum naye hain." },
+          "options": ["Nein, wir sind neu.", "Nein, wir waren noch nie hier."],
+          "fallback": "Sind Sie zum ersten Mal hier?",
+          "accept": [{ "kw": ["nein", "neu"], "next": "n5" }, { "kw": ["neu"], "next": "n5" }, { "kw": ["nein"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dann füllen Sie bitte dieses Formular aus.",
+          "goal": { "en": "Ask where you should sign.", "ur": "Poochein ke dastakhat kahan karne hain." },
+          "options": ["Wo soll ich unterschreiben?", "Wo muss ich unterschreiben?"],
+          "fallback": "Haben Sie eine Frage zum Formular?",
+          "accept": [{ "kw": ["wo", "unterschreiben"], "next": "n6" }, { "kw": ["unterschreiben"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Hier unten, bitte.",
+          "goal": { "en": "Say you're done and ask where you wait.", "ur": "Kahein ke ho gaya aur poochein kahan intezaar karna hai." },
+          "options": ["Fertig. Und wo warten wir?", "Fertig. Wo ist das Wartezimmer?"],
+          "fallback": "Sind Sie fertig?",
+          "accept": [
+            { "kw": ["wo", "warten"], "reply": "Im Wartezimmer links. Wir rufen Sie auf.", "next": "END" },
+            { "kw": ["wartezimmer"], "reply": "Das Wartezimmer ist links. Wir rufen Sie auf.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Baumann, Anmeldung",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Ihre Versichertenkarte ist abgelaufen und Sie haben umgezogen. Sie brauchen außerdem ein Attest für die Kita.",
+        "en": "Your insurance card has expired and you have moved. You also need a sick note for the daycare.",
+        "ur": "Aap ka insurance card purana ho gaya hai aur aap ne ghar badla hai. Kita ke liye certificate bhi chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Die Karte ist leider abgelaufen. Haben Sie eine neue bekommen?",
+          "goal": { "en": "Say yes, but the new card is at home, and ask whether that is a problem.", "ur": "Kahein haan, lekin naya card ghar par hai, aur poochein ke kya yeh masla hai." },
+          "options": ["Ja, aber die neue Karte liegt zu Hause. Ist das ein Problem?", "Die neue Karte ist zu Hause. Ist das ein Problem?"],
+          "fallback": "Haben Sie eine neue Karte oder nicht?",
+          "accept": [{ "kw": ["hause", "problem"], "next": "n2" }, { "kw": ["hause"], "next": "n2" }, { "kw": ["problem"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Heute geht es noch. Bringen Sie die Karte bitte innerhalb von zehn Tagen vorbei.",
+          "goal": { "en": "Agree, and mention that you have also changed your address.", "ur": "Haan kahein, aur batayein ke aap ka address bhi badal gaya hai." },
+          "options": ["Das mache ich. Ich habe auch die Adresse gewechselt.", "Gut. Meine Adresse hat sich auch geändert."],
+          "fallback": "Ist noch etwas anders als beim letzten Mal?",
+          "accept": [{ "kw": ["adresse", "gewechselt"], "next": "n3" }, { "kw": ["adresse"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Gut, dass Sie das sagen. Wie lautet die neue Adresse?",
+          "goal": { "en": "Give the address: Gartenstraße 27 in Düsseldorf.", "ur": "Address batayein: Gartenstrasse 27, Düsseldorf." },
+          "options": ["Gartenstraße siebenundzwanzig in Düsseldorf.", "Gartenstraße siebenundzwanzig, Düsseldorf."],
+          "fallback": "Straße und Hausnummer, bitte.",
+          "accept": [{ "kw": ["gartenstraße", "düsseldorf"], "next": "n4" }, { "kw": ["gartenstraße"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Danke, ist notiert. Brauchen Sie heute sonst noch etwas?",
+          "goal": { "en": "Say yes, you need a sick note for the daycare.", "ur": "Kahein haan, kita ke liye medical certificate chahiye." },
+          "options": ["Ja, ich brauche ein Attest für die Kita.", "Wir brauchen noch ein Attest für die Kita."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [{ "kw": ["attest", "kita"], "next": "n5" }, { "kw": ["attest"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Sagen Sie das bitte dem Arzt im Sprechzimmer, dann schreibt er es direkt auf.",
+          "goal": { "en": "Ask whether you can pick the certificate up later.", "ur": "Poochein ke kya certificate baad mein le sakte hain." },
+          "options": ["Können wir das Attest später abholen?", "Kann ich das Attest morgen abholen?"],
+          "fallback": "Haben Sie dazu eine Frage?",
+          "accept": [{ "kw": ["attest", "abholen"], "next": "n6" }, { "kw": ["abholen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Natürlich. Ab morgen liegt es hier an der Anmeldung bereit.",
+          "goal": { "en": "Thank her and ask where the waiting room for sick children is.", "ur": "Shukriya kahein aur poochein ke beemar bachon ka waiting room kahan hai." },
+          "options": ["Danke. Wo ist das Wartezimmer für kranke Kinder?", "Vielen Dank. Wo ist das Wartezimmer für kranke Kinder?"],
+          "fallback": "Wissen Sie, wo Sie warten müssen?",
+          "accept": [
+            { "kw": ["wartezimmer", "kranke"], "reply": "Den Gang entlang und dann rechts. Wir rufen Sie auf.", "next": "END" },
+            { "kw": ["wartezimmer"], "reply": "Den Gang entlang und dann rechts. Wir rufen Sie auf.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

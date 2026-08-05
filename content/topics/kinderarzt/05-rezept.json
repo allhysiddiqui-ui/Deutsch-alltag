@@ -1,0 +1,218 @@
+{
+  "id": "rezept",
+  "order": 5,
+  "icon": "💊",
+  "title": { "de": "Rezept und Apotheke", "en": "Prescription and pharmacy", "ur": "Nuskha aur pharmacy" },
+  "angle": "Dosage, buying the medicine, questions at the pharmacy · Khurak, dawa lena, pharmacy ke sawal",
+  "words": ["rezept", "apotheke", "löffel", "packung", "beipackzettel", "kühlschrank", "zäpfchen", "einnehmen", "wechselwirkung", "kostenlos"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich schreibe Ihnen ein Rezept.", "en": "I'll write you a prescription.", "ur": "Main aap ko nuskha likh deta hoon." },
+        { "s": "B", "de": "Was ist das für eine Medizin?", "en": "What kind of medicine is that?", "ur": "Yeh kaunsi dawa hai?" },
+        { "s": "A", "de": "Ein Saft gegen die Schmerzen.", "en": "A syrup for the pain.", "ur": "Dard ke liye ek syrup." },
+        { "s": "B", "de": "Wie oft soll er den Saft nehmen?", "en": "How often should he take the syrup?", "ur": "Usay syrup kitni baar leni hai?" },
+        { "s": "A", "de": "Dreimal am Tag, nach dem Essen.", "en": "Three times a day, after meals.", "ur": "Din mein teen baar, khane ke baad." },
+        { "s": "B", "de": "Wie viel jedes Mal?", "en": "How much each time?", "ur": "Har baar kitni?" },
+        { "s": "A", "de": "Fünf Milliliter. Der Löffel ist in der Packung.", "en": "Five millilitres. The spoon is in the packet.", "ur": "Paanch millilitre. Chamach dabbe mein hai." },
+        { "s": "B", "de": "Und wie lange?", "en": "And for how long?", "ur": "Aur kitne din?" },
+        { "s": "A", "de": "Fünf Tage lang.", "en": "For five days.", "ur": "Paanch din tak." },
+        { "s": "B", "de": "Wo kann ich das kaufen?", "en": "Where can I buy that?", "ur": "Main yeh kahan se le sakti hoon?" },
+        { "s": "A", "de": "In der Apotheke. Sie ist gleich neben der Praxis.", "en": "At the pharmacy. It is right next to the practice.", "ur": "Pharmacy se. Woh clinic ke bilkul saath hai." },
+        { "s": "B", "de": "Muss ich etwas bezahlen?", "en": "Do I have to pay anything?", "ur": "Kya mujhe kuch paise dene hain?" },
+        { "s": "A", "de": "Für Kinder ist das Medikament kostenlos.", "en": "For children the medication is free.", "ur": "Bachon ke liye dawa muft hai." },
+        { "s": "B", "de": "Das ist gut. Vielen Dank.", "en": "That's good. Thank you very much.", "ur": "Yeh acha hai. Bohat shukriya." },
+        { "s": "A", "de": "Gute Besserung, Yusuf!", "en": "Get well soon, Yusuf!", "ur": "Yusuf, jald theek ho jao!" },
+        { "s": "B", "de": "Auf Wiedersehen, Herr Doktor.", "en": "Goodbye, doctor.", "ur": "Khuda hafiz, doctor sahab." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Apothekerin", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag. Ich habe ein Rezept für meine Tochter.", "en": "Hello. I have a prescription for my daughter.", "ur": "Salam. Mere paas apni beti ka nuskha hai." },
+        { "s": "A", "de": "Guten Tag. Geben Sie es mir bitte. — Ah, ein Antibiotikum. Wie alt ist Ihre Tochter?", "en": "Hello. Please give it to me. — Ah, an antibiotic. How old is your daughter?", "ur": "Salam. Meherbani kar ke dijiye. — Acha, antibiotic. Aap ki beti kitne saal ki hai?" },
+        { "s": "B", "de": "Sie ist fünf.", "en": "She is five.", "ur": "Woh paanch saal ki hai." },
+        { "s": "A", "de": "Gut. Ich muss den Saft anmischen, das dauert zwei Minuten.", "en": "Good. I have to mix the syrup, that takes two minutes.", "ur": "Acha. Mujhe syrup banana hoga, do minute lagenge." },
+        { "s": "B", "de": "Kein Problem, ich warte.", "en": "No problem, I'll wait.", "ur": "Koi masla nahi, main intezaar karti hoon." },
+        { "s": "A", "de": "So, bitte schön. Wichtig: Die Flasche vor jeder Gabe gut schütteln.", "en": "There you go. Important: shake the bottle well before every dose.", "ur": "Yeh lijiye. Ahem baat: har khurak se pehle bottle achi tarah hilayein." },
+        { "s": "B", "de": "Wie oft muss sie den Saft nehmen?", "en": "How often does she have to take the syrup?", "ur": "Usay syrup kitni baar leni hai?" },
+        { "s": "A", "de": "Zweimal täglich, morgens und abends, jeweils fünf Milliliter.", "en": "Twice daily, morning and evening, five millilitres each time.", "ur": "Rozana do baar, subh aur sham, har baar paanch millilitre." },
+        { "s": "B", "de": "Muss ich den Saft in den Kühlschrank stellen?", "en": "Do I have to put the syrup in the fridge?", "ur": "Kya syrup fridge mein rakhni hogi?" },
+        { "s": "A", "de": "Ja, bei diesem Antibiotikum schon. Und nach zehn Tagen bitte wegwerfen, auch wenn noch etwas übrig ist.", "en": "Yes, with this antibiotic you do. And after ten days please throw it away, even if some is left.", "ur": "Ji haan, is antibiotic ke liye zaroori hai. Aur das din baad phenk dein, chahe kuch bacha ho." },
+        { "s": "B", "de": "Und wenn ich eine Gabe vergesse?", "en": "And if I forget a dose?", "ur": "Aur agar main koi khurak bhool jaoon?" },
+        { "s": "A", "de": "Dann geben Sie sie, sobald es Ihnen einfällt. Aber nie zwei Gaben auf einmal.", "en": "Then give it as soon as you remember. But never two doses at once.", "ur": "To jaise hi yaad aaye de dein. Lekin do khuraken ek saath kabhi nahi." },
+        { "s": "B", "de": "Verstanden. Sie hat auch etwas Fieber. Darf sie zusätzlich Fiebersaft bekommen?", "en": "Understood. She also has a bit of a fever. Can she have fever syrup in addition?", "ur": "Samajh gayi. Usay thora bukhar bhi hai. Kya sath mein bukhar ka syrup de sakti hoon?" },
+        { "s": "A", "de": "Ja, das passt zusammen. Achten Sie nur auf den Abstand von vier Stunden.", "en": "Yes, that goes together. Just watch the four-hour gap.", "ur": "Ji haan, yeh saath chalta hai. Bas chaar ghante ka waqfa rakhein." },
+        { "s": "B", "de": "Kostet das etwas?", "en": "Does that cost anything?", "ur": "Kya is ke paise lagenge?" },
+        { "s": "A", "de": "Das Antibiotikum ist auf Rezept, also frei. Den Fiebersaft müssen Sie selbst zahlen, er kostet vier Euro achtzig.", "en": "The antibiotic is on prescription, so free. You have to pay for the fever syrup yourself, it costs four euros eighty.", "ur": "Antibiotic nuskhe par hai, is liye muft. Bukhar ka syrup khud lena hoga, woh chaar euro assi cent ka hai." },
+        { "s": "B", "de": "Das nehme ich mit. Vielen Dank für die Erklärung.", "en": "I'll take that too. Thank you very much for the explanation.", "ur": "Woh bhi le loongi. Wazahat ka bohat shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Apotheker", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag. Ich hätte gern das hier, und ich habe ein paar Fragen dazu.", "en": "Hello. I'd like this, and I have a few questions about it.", "ur": "Salam. Mujhe yeh chahiye, aur is baare mein kuch sawal hain." },
+        { "s": "A", "de": "Fragen Sie ruhig. Dafür stehe ich hier.", "en": "Go ahead and ask. That's what I'm here for.", "ur": "Zaroor poochein. Main isi liye yahan hoon." },
+        { "s": "B", "de": "Im Beipackzettel steht eine ganze Liste von Nebenwirkungen. Muss ich mir Sorgen machen?", "en": "The package insert lists a whole range of side effects. Do I need to worry?", "ur": "Dawa ke parche par side effects ki poori list hai. Kya mujhe fikar karni chahiye?" },
+        { "s": "A", "de": "Auf dem Zettel steht alles, was jemals gemeldet wurde, auch wenn es nur einmal vorkam. Häufig sind bei diesem Mittel eigentlich nur weicher Stuhl und Bauchgrummeln.", "en": "The leaflet lists everything that has ever been reported, even if it happened only once. With this medicine only loose stools and a rumbling tummy are actually common.", "ur": "Us parche par woh sab likha hota hai jo kabhi bhi report hua, chahe ek hi baar. Is dawa ke saath asal mein sirf narm pakhana aur pait mein gurgurahat aam hai." },
+        { "s": "B", "de": "Das klingt harmloser, als ich befürchtet hatte. Und wenn sie doch Durchfall bekommt?", "en": "That sounds more harmless than I feared. And if she does get diarrhoea?", "ur": "Yeh us se kam khatarnak lagta hai jitna main dar rahi thi. Aur agar phir bhi dast lag jayein?" },
+        { "s": "A", "de": "Solange sie genug trinkt und munter ist, reicht Abwarten. Bei Blut im Stuhl oder starken Schmerzen rufen Sie den Arzt an.", "en": "As long as she drinks enough and is lively, waiting is enough. With blood in the stool or severe pain, call the doctor.", "ur": "Jab tak woh kaafi peeti rahe aur chust rahe, intezaar kaafi hai. Pakhane mein khoon ya shadeed dard par doctor ko phone karein." },
+        { "s": "B", "de": "Gut zu wissen. Eine andere Sache: Muss ich die Packung wirklich zu Ende geben, obwohl es ihr schon besser geht?", "en": "Good to know. Another thing: do I really have to finish the packet even though she is already feeling better?", "ur": "Acha maloom hua. Ek aur baat: kya mujhe poora course dena hoga jab ke woh pehle hi behtar hai?" },
+        { "s": "A", "de": "Bei diesem Antibiotikum ja. Die Dauer steht auf dem Etikett, und die gilt unabhängig davon, wie sie sich fühlt.", "en": "With this antibiotic, yes. The duration is on the label, and it applies regardless of how she feels.", "ur": "Is antibiotic mein haan. Muddat label par likhi hai, aur woh us ki tabiyat se alag lagoo hoti hai." },
+        { "s": "B", "de": "Warum eigentlich? Sie ist ja offensichtlich gesund.", "en": "Why actually? She is obviously well again.", "ur": "Aakhir kyun? Woh to zahir hai theek hai." },
+        { "s": "A", "de": "Weil die zähesten Keime zuletzt sterben. Brechen Sie zu früh ab, überleben genau die, gegen die das Mittel am schlechtesten wirkt.", "en": "Because the toughest germs die last. If you stop too early, exactly those survive against which the medicine works worst.", "ur": "Kyunke sab se sakht jaraseem aakhir mein marte hain. Jaldi band kar dein to wohi bach jate hain jin par dawa sab se kam asar karti hai." },
+        { "s": "B", "de": "So hat mir das noch niemand erklärt. Kann ich den Saft mit Milch mischen? Sie mag den Geschmack nicht.", "en": "Nobody has ever explained it to me that way. Can I mix the syrup with milk? She doesn't like the taste.", "ur": "Yeh mujhe kisi ne is tarah nahi samjhaya. Kya main syrup doodh mein mila sakti hoon? Usay swaad pasand nahi." },
+        { "s": "A", "de": "Bei diesem Wirkstoff besser nicht mit Milch. Geben Sie ihn pur und lassen Sie sie danach etwas Saft trinken.", "en": "With this active ingredient better not with milk. Give it neat and let her drink some juice afterwards.", "ur": "Is dawa ke saath doodh behtar nahi. Seedhi de dein aur us ke baad thora juice pila dein." },
+        { "s": "B", "de": "Alles klar. Und wo bewahre ich die Flasche auf?", "en": "All right. And where do I store the bottle?", "ur": "Theek hai. Aur bottle kahan rakhoon?" },
+        { "s": "A", "de": "Im Kühlschrank, aber nicht in der Tür — dort schwankt die Temperatur zu stark.", "en": "In the fridge, but not in the door — the temperature fluctuates too much there.", "ur": "Fridge mein, lekin darwaze mein nahi — wahan temperature bohat badalta hai." },
+        { "s": "B", "de": "Daran hätte ich nie gedacht. Vielen Dank, Sie haben mir sehr geholfen.", "en": "I would never have thought of that. Thank you very much, you have helped me a lot.", "ur": "Yeh mere zehen mein kabhi nahi aaya. Bohat shukriya, aap ne bohat madad ki." },
+        { "s": "A", "de": "Gern. Wenn etwas unklar ist, kommen Sie einfach vorbei, auch ohne Rezept.", "en": "Gladly. If anything is unclear, just drop by, even without a prescription.", "ur": "Zaroor. Agar kuch samajh na aaye to bas aa jayein, nuskhe ke baghair bhi." },
+        { "s": "B", "de": "Das werde ich machen. Auf Wiedersehen.", "en": "I'll do that. Goodbye.", "ur": "Main aisa hi karoongi. Khuda hafiz." },
+        { "s": "A", "de": "Auf Wiedersehen und gute Besserung für Ihre Tochter.", "en": "Goodbye and get well soon to your daughter.", "ur": "Khuda hafiz aur aap ki beti jald theek ho jaye." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Apotheker", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich muss Ihnen leider sagen, dass ich Ihnen nicht genau das Präparat mitgeben kann, das auf dem Rezept steht.", "en": "Unfortunately I have to tell you that I can't give you exactly the preparation that is on the prescription.", "ur": "Afsos, mujhe kehna par raha hai ke main aap ko theek wohi dawa nahi de sakta jo nuskhe par likhi hai." },
+        { "s": "B", "de": "Ist das Mittel nicht lieferbar, oder steckt etwas anderes dahinter?", "en": "Is the medicine unavailable, or is something else behind it?", "ur": "Kya dawa dastiyab nahi, ya koi aur wajah hai?" },
+        { "s": "A", "de": "Beides trifft ein wenig zu. Ihre Kasse hat einen Rabattvertrag mit einem anderen Hersteller, und zusätzlich gibt es bei diesem Wirkstoff gerade einen Lieferengpass.", "en": "Both apply a little. Your insurance has a rebate contract with another manufacturer, and on top of that there is currently a supply shortage for this active ingredient.", "ur": "Dono baatein thori thori hain. Aap ke insurance ka doosre banane wale se muahida hai, aur is dawa ki supply mein bhi is waqt kami hai." },
+        { "s": "B", "de": "Heißt das, ich bekomme ein schlechteres Medikament, weil die Kasse sparen will?", "en": "Does that mean I get a worse medication because the insurance wants to save money?", "ur": "Kya iska matlab hai ke mujhe kam achi dawa milegi kyunke insurance paise bachana chahta hai?" },
+        { "s": "A", "de": "Nein. Der Wirkstoff, die Menge und die Freisetzung sind identisch, geprüft und gesetzlich vorgeschrieben. Unterschiedlich sind nur Hersteller, Farbe und manchmal der Geschmack.", "en": "No. The active ingredient, the amount and the release are identical, tested and legally prescribed. Only the manufacturer, the colour and sometimes the taste differ.", "ur": "Nahi. Dawa ka asal juzz, miqdar aur asar bilkul yaksan hain, jaanchay huay aur qanoonan zaroori. Sirf banane wala, rang aur kabhi swaad alag hota hai." },
+        { "s": "B", "de": "Der Geschmack ist bei einer Fünfjährigen leider kein Nebenaspekt.", "en": "With a five-year-old the taste is unfortunately not a side issue.", "ur": "Paanch saal ki bachi ke liye swaad afsos se mamooli baat nahi hai." },
+        { "s": "A", "de": "Da haben Sie völlig recht, und genau deshalb sage ich es Ihnen vorher. Wenn sie die Einnahme verweigert, nützt das billigste Präparat gar nichts.", "en": "You are completely right there, and that is exactly why I'm telling you beforehand. If she refuses to take it, the cheapest preparation is of no use at all.", "ur": "Aap bilkul theek kehti hain, isi liye main pehle bata raha hoon. Agar woh dawa lene se inkaar kare to sab se sasti dawa bhi bekaar hai." },
+        { "s": "B", "de": "Gibt es denn einen Weg, doch das gewohnte Präparat zu bekommen?", "en": "Is there a way to get the familiar preparation after all?", "ur": "Kya koi tareeqa hai ke wohi purani dawa mil jaye?" },
+        { "s": "A", "de": "Ja. Der Arzt kann auf dem Rezept das Aut-idem-Feld ankreuzen, dann ist der Austausch ausgeschlossen. Er muss das allerdings begründen können.", "en": "Yes. The doctor can tick the aut-idem box on the prescription, then substitution is excluded. However, he has to be able to justify it.", "ur": "Ji haan. Doctor nuskhe par aut-idem ka khana tick kar sakta hai, phir tabdeeli mumkin nahi. Lekin usay wajah deni hogi." },
+        { "s": "B", "de": "Würden Sie das an meiner Stelle veranlassen, oder halten Sie es für übertrieben?", "en": "Would you arrange that in my position, or do you consider it excessive?", "ur": "Kya aap meri jagah aisa karwate, ya aap ko yeh zaroorat se zyada lagta hai?" },
+        { "s": "A", "de": "Ich würde zunächst probieren. Wenn sie es nimmt, sparen Sie sich den Aufwand. Wenn nicht, rufe ich in der Praxis an und wir lösen das heute noch.", "en": "I would try first. If she takes it, you save yourself the effort. If not, I'll call the practice and we'll sort it out today.", "ur": "Main pehle azma kar dekhta. Agar woh le le to mehnat bach jaye. Warna main clinic phone kar ke aaj hi hal kar deta hoon." },
+        { "s": "B", "de": "Das ist ein faires Angebot. Eine letzte Frage: Sie nimmt seit dem Frühjahr täglich Vitamin D. Gibt es da eine Wechselwirkung?", "en": "That's a fair offer. One last question: she has taken vitamin D daily since the spring. Is there an interaction?", "ur": "Yeh munsifana pesh kash hai. Aakhri sawal: woh bahar se rozana Vitamin D leti hai. Kya koi taasur hoga?" },
+        { "s": "A", "de": "Mit diesem Antibiotikum nicht. Kritisch wären Kalzium, Eisen und Milchprodukte im selben Zeitfenster, weil sie die Aufnahme im Darm behindern.", "en": "Not with this antibiotic. Calcium, iron and dairy products in the same time window would be critical, because they hinder absorption in the gut.", "ur": "Is antibiotic ke saath nahi. Kalsiyam, loha aur doodh ki cheezein isi waqfe mein masla banti hain kyunke woh pait mein jazb hone se rokti hain." },
+        { "s": "B", "de": "Also Milch und Käse mindestens zwei Stunden vorher oder nachher.", "en": "So milk and cheese at least two hours before or after.", "ur": "To doodh aur cheese kam az kam do ghante pehle ya baad." },
+        { "s": "A", "de": "Genau so. Sie haben schnell verstanden, worauf es ankommt.", "en": "Exactly. You quickly understood what matters.", "ur": "Bilkul aisa hi. Aap ne foran samajh liya ke asal baat kya hai." },
+        { "s": "B", "de": "Ich habe gelernt, im Zweifel nachzufragen, statt zu Hause zu raten.", "en": "I have learned to ask when in doubt, instead of guessing at home.", "ur": "Main ne seekha hai ke shak ho to pooch lo, ghar par andaza mat lagao." },
+        { "s": "A", "de": "Wenn das alle täten, hätten wir hier deutlich weniger Probleme.", "en": "If everyone did that, we would have considerably fewer problems here.", "ur": "Agar sab aisa karein to yahan bohat kam masail hon." },
+        { "s": "B", "de": "Vielen Dank für Ihre Zeit. Auf Wiedersehen.", "en": "Thank you for your time. Goodbye.", "ur": "Aap ke waqt ka shukriya. Khuda hafiz." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Weber",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Der Arzt schreibt ein Rezept. Sie möchten wissen, wie Ihr Kind die Medizin nehmen soll.",
+        "en": "The doctor writes a prescription. You want to know how your child should take the medicine.",
+        "ur": "Doctor nuskha likh raha hai. Aap jan-na chahti hain ke bacha dawa kaise le."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ich schreibe Ihnen ein Rezept. Ein Saft gegen die Schmerzen.",
+          "goal": { "en": "Ask how often he should take the syrup.", "ur": "Poochein ke syrup kitni baar leni hai." },
+          "options": ["Wie oft soll er den Saft nehmen?", "Wie oft muss er den Saft nehmen?"],
+          "fallback": "Haben Sie eine Frage zum Rezept?",
+          "accept": [{ "kw": ["wie", "oft", "saft"], "next": "n2" }, { "kw": ["oft"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Dreimal am Tag, nach dem Essen.",
+          "goal": { "en": "Ask how much each time.", "ur": "Poochein ke har baar kitni." },
+          "options": ["Wie viel jedes Mal?", "Wie viel soll ich geben?"],
+          "fallback": "Noch etwas unklar?",
+          "accept": [{ "kw": ["wie", "viel"], "next": "n3" }, { "kw": ["viel"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Fünf Milliliter. Der Löffel ist in der Packung.",
+          "goal": { "en": "Ask for how long.", "ur": "Poochein ke kitne din." },
+          "options": ["Und wie lange?", "Wie lange soll er das nehmen?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["wie", "lange"], "next": "n4" }, { "kw": ["lange"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Fünf Tage lang.",
+          "goal": { "en": "Ask where you can buy it.", "ur": "Poochein ke yeh kahan se milegi." },
+          "options": ["Wo kann ich das kaufen?", "Wo bekomme ich das?"],
+          "fallback": "Wissen Sie, wohin Sie damit gehen?",
+          "accept": [{ "kw": ["wo", "kaufen"], "next": "n5" }, { "kw": ["kaufen"], "next": "n5" }, { "kw": ["bekomme"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "In der Apotheke, gleich neben der Praxis.",
+          "goal": { "en": "Ask whether you have to pay anything.", "ur": "Poochein ke kya paise dene honge." },
+          "options": ["Muss ich etwas bezahlen?", "Kostet das etwas?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [
+            { "kw": ["bezahlen"], "reply": "Für Kinder ist das Medikament kostenlos. Gute Besserung!", "next": "END" },
+            { "kw": ["kostet"], "reply": "Für Kinder ist das Medikament kostenlos. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Apotheker",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Sie sind in der Apotheke und lösen ein Rezept für ein Antibiotikum ein. Sie haben Fragen zu Nebenwirkungen und zur Einnahme.",
+        "en": "You are at the pharmacy collecting an antibiotic prescription. You have questions about side effects and how to take it.",
+        "ur": "Aap pharmacy mein antibiotic ka nuskha de rahi hain. Side effects aur khurak ke baare mein sawal hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Das Antibiotikum ist fertig. Haben Sie noch Fragen dazu?",
+          "goal": { "en": "Say the package insert lists many side effects and ask whether you need to worry.", "ur": "Kahein ke parche par bohat side effects hain aur poochein ke kya fikar karni chahiye." },
+          "options": ["Im Beipackzettel steht eine ganze Liste von Nebenwirkungen. Muss ich mir Sorgen machen?", "Der Beipackzettel macht mir Sorgen. Muss ich mir Sorgen machen?"],
+          "fallback": "Was beschäftigt Sie denn?",
+          "accept": [{ "kw": ["beipackzettel", "sorgen"], "next": "n2" }, { "kw": ["nebenwirkungen"], "next": "n2" }, { "kw": ["sorgen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Auf dem Zettel steht alles, was jemals gemeldet wurde. Häufig sind bei diesem Mittel nur weicher Stuhl und Bauchgrummeln.",
+          "goal": { "en": "Ask what to do if she does get diarrhoea.", "ur": "Poochein ke agar phir bhi dast lag jayein to kya karein." },
+          "options": ["Und wenn sie doch Durchfall bekommt?", "Was mache ich, wenn sie Durchfall bekommt?"],
+          "fallback": "Haben Sie dazu noch eine Frage?",
+          "accept": [{ "kw": ["durchfall"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Solange sie genug trinkt und munter ist, reicht Abwarten. Bei Blut im Stuhl rufen Sie den Arzt an.",
+          "goal": { "en": "Ask whether you really have to finish the packet although she is already better.", "ur": "Poochein ke kya poora course dena zaroori hai jab ke woh behtar hai." },
+          "options": ["Muss ich die Packung wirklich zu Ende geben, obwohl es ihr besser geht?", "Muss sie das Antibiotikum zu Ende nehmen?"],
+          "fallback": "Noch etwas?",
+          "accept": [{ "kw": ["ende", "geben"], "next": "n4" }, { "kw": ["packung"], "next": "n4" }, { "kw": ["ende"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, unbedingt. Die Dauer steht auf dem Etikett und gilt unabhängig davon, wie sie sich fühlt.",
+          "goal": { "en": "Ask why that is, since she is obviously well again.", "ur": "Poochein ke aisa kyun hai, jab ke woh zahiri tor par theek hai." },
+          "options": ["Warum eigentlich? Sie ist ja offensichtlich gesund.", "Warum ist das so wichtig?"],
+          "fallback": "Möchten Sie wissen, warum?",
+          "accept": [{ "kw": ["warum"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Weil die zähesten Keime zuletzt sterben. Brechen Sie zu früh ab, überleben genau die, gegen die das Mittel am schlechtesten wirkt.",
+          "goal": { "en": "Ask whether you can mix the syrup with milk, because she doesn't like the taste.", "ur": "Poochein ke kya syrup doodh mein mila sakti hain, kyunke usay swaad pasand nahi." },
+          "options": ["Kann ich den Saft mit Milch mischen? Sie mag den Geschmack nicht.", "Darf ich den Saft mit Milch mischen?"],
+          "fallback": "Haben Sie noch eine Frage zur Einnahme?",
+          "accept": [{ "kw": ["milch", "mischen"], "next": "n6" }, { "kw": ["milch"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Bei diesem Wirkstoff besser nicht mit Milch. Geben Sie ihn pur und lassen Sie sie danach etwas Saft trinken.",
+          "goal": { "en": "Ask where you should store the bottle.", "ur": "Poochein ke bottle kahan rakhni hai." },
+          "options": ["Und wo bewahre ich die Flasche auf?", "Wo soll ich die Flasche aufbewahren?"],
+          "fallback": "Noch etwas unklar?",
+          "accept": [
+            { "kw": ["flasche"], "reply": "Im Kühlschrank, aber nicht in der Tür. Gute Besserung für Ihre Tochter!", "next": "END" },
+            { "kw": ["bewahre"], "reply": "Im Kühlschrank, aber nicht in der Tür. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

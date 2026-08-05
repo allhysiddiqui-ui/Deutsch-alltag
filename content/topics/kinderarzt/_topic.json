@@ -1,0 +1,37 @@
+{
+  "id": "kinderarzt",
+  "order": 1,
+  "icon": "🧸",
+  "title": {
+    "de": "Beim Kinderarzt",
+    "en": "At the pediatrician",
+    "ur": "Bachon ke doctor ke paas"
+  },
+  "intro": "Vom Anruf in der Praxis bis zur Apotheke — alles, was Eltern in Deutschland beim Kinderarzt sagen und verstehen müssen.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "das Fieber", "opts": ["fever", "cough", "rash", "headache"], "a": 0, "ur": "bukhar", "word": "fieber" },
+      { "type": "mc", "q": "der Husten", "opts": ["cough", "fever", "stomach ache", "runny nose"], "a": 0, "ur": "khansi", "word": "husten" },
+      { "type": "mc", "q": "die Versichertenkarte", "opts": ["health insurance card", "prescription", "vaccination record", "appointment card"], "a": 0, "ur": "insurance card", "word": "versichertenkarte" },
+      { "type": "mc", "q": "die Ohrenschmerzen", "opts": ["earache", "sore throat", "back pain", "toothache"], "a": 0, "ur": "kaan ka dard", "word": "ohrenschmerzen" },
+      { "type": "mc", "q": "die Impfung", "opts": ["vaccination", "examination", "operation", "infection"], "a": 0, "ur": "teeka", "word": "impfung" },
+      { "type": "mc", "q": "das Rezept", "opts": ["prescription", "receipt", "recipe card", "referral"], "a": 0, "ur": "nuskha", "word": "rezept" },
+      { "type": "mc", "q": "der Impfpass", "opts": ["vaccination record booklet", "passport", "insurance letter", "sick note"], "a": 0, "ur": "teeka card", "word": "impfpass" },
+      { "type": "mc", "q": "die Nebenwirkung", "opts": ["side effect", "main effect", "allergy", "dose"], "a": 0, "ur": "side effect", "word": "nebenwirkung" },
+      { "type": "gap", "de": "Mein Sohn hat seit zwei Tagen hohes ___.", "a": "Fieber", "hint": "fever · bukhar", "en": "My son has had a high fever for two days.", "word": "fieber" },
+      { "type": "gap", "de": "Bitte bringen Sie die ___ mit.", "a": "Versichertenkarte", "hint": "health insurance card · insurance card", "en": "Please bring the insurance card with you.", "word": "versichertenkarte" },
+      { "type": "gap", "de": "Ich möchte einen ___ für meine Tochter vereinbaren.", "a": "Termin", "hint": "appointment · appointment", "en": "I would like to make an appointment for my daughter.", "word": "termin" },
+      { "type": "gap", "de": "Das Kind muss den Saft dreimal ___ Tag nehmen.", "a": "am", "hint": "three times a day", "en": "The child has to take the syrup three times a day.", "word": "tag" },
+      { "type": "order", "a": "Ich brauche einen Termin für meinen Sohn", "en": "I need an appointment for my son." },
+      { "type": "order", "a": "Sie hat seit gestern Ohrenschmerzen", "en": "She has had an earache since yesterday." },
+      { "type": "order", "a": "Wie oft soll ich ihm die Medizin geben", "en": "How often should I give him the medicine?" },
+      { "type": "listen", "a": "Er hustet seit drei Tagen.", "en": "He has been coughing for three days." },
+      { "type": "listen", "a": "Haben Sie den Impfpass dabei?", "en": "Do you have the vaccination record with you?" },
+      { "type": "listen", "a": "Das Fieber ist heute Morgen gestiegen.", "en": "The fever went up this morning." },
+      { "type": "prod", "en": "My daughter has a sore throat.", "ur": "Meri beti ke gale mein dard hai.", "a": "Meine Tochter hat Halsschmerzen." },
+      { "type": "prod", "en": "I would like an appointment for today.", "ur": "Mujhe aaj ke liye appointment chahiye.", "a": "Ich möchte einen Termin für heute." },
+      { "type": "prod", "en": "How often should he take the medicine?", "ur": "Usay dawa kitni baar leni hai?", "a": "Wie oft soll er die Medizin nehmen?" },
+      { "type": "prod", "en": "He is allergic to penicillin.", "ur": "Usay penicillin se allergy hai.", "a": "Er ist allergisch gegen Penicillin." }
+    ]
+  }
+}

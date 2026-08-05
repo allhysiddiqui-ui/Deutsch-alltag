@@ -1,0 +1,5 @@
+# Build output. index.html at the repo root is the tracked copy — that is what
+# GitHub Pages serves. dist/ holds the same page again for `npx surge ./dist`
+# and for copying deutsch.html onto a phone, so it doesn't need to be in git.
+dist/
+node_modules/

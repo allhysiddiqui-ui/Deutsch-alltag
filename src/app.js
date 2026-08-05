@@ -1,0 +1,761 @@
+/* Deutsch Alltag — app engine. No network calls, no dependencies. */
+(function () {
+'use strict';
+
+var D = window.__DATA__ || { topics: [], dictionary: {}, forms: {} };
+var DICT = D.dictionary, FORMS = D.forms, TOPICS = D.topics;
+var LEVELS = ['A1', 'A2', 'B1', 'B2'];
+var LVNAME = { A1: 'Anfänger', A2: 'Grundlage', B1: 'Mittel', B2: 'Fortgeschr.' };
+
+/* ---------------- storage ---------------- */
+function ls(k, d) { try { var v = localStorage.getItem('dg.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }
+function ss(k, v) { try { localStorage.setItem('dg.' + k, JSON.stringify(v)); } catch (e) {} }
+
+var S = Object.assign({ level: 'A1', en: true, ur: true, theme: 'auto', rate: 0.85, mic: true }, ls('set', {}));
+var SAVED = ls('saved', {});     // { wordKey: {t:timestamp, box:0} }
+var PROG = ls('prog', {});       // { read:{'top/sub/lvl':1}, test:{topicId:pct}, rp:{'top/sub':1} }
+if (!PROG.read) PROG.read = {}; if (!PROG.test) PROG.test = {}; if (!PROG.rp) PROG.rp = {};
+
+function saveSet() { ss('set', S); applyTheme(); }
+function saveProg() { ss('prog', PROG); }
+function saveWords() { ss('saved', SAVED); }
+
+/* "auto" leaves data-theme off entirely, so the CSS media query decides and any host
+   page that stamps data-theme keeps control. An explicit choice sets the attribute. */
+function applyTheme() {
+  if (S.theme === 'auto') document.documentElement.removeAttribute('data-theme');
+  else document.documentElement.setAttribute('data-theme', S.theme);
+}
+applyTheme();
+
+/* ---------------- utils ---------------- */
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+  });
+}
+function norm(s) {
+  return String(s).toLowerCase().replace(/[^a-zäöüß'’\-]/g, '');
+}
+function plain(s) {
+  return String(s).toLowerCase()
+    .replace(/[.,!?;:„“"'’\-–—()]/g, ' ')
+    .replace(/\s+/g, ' ').trim();
+}
+function lev(a, b) {
+  if (a === b) return 0;
+  var m = a.length, n = b.length, i, j, prev = [], cur = [];
+  if (!m) return n; if (!n) return m;
+  for (j = 0; j <= n; j++) prev[j] = j;
+  for (i = 1; i <= m; i++) {
+    cur[0] = i;
+    for (j = 1; j <= n; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    }
+    prev = cur.slice();
+  }
+  return prev[n];
+}
+function shuffle(a) {
+  a = a.slice();
+  for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; }
+  return a;
+}
+function topicById(id) { for (var i = 0; i < TOPICS.length; i++) if (TOPICS[i].id === id) return TOPICS[i]; return null; }
+function subById(t, id) { if (!t) return null; for (var i = 0; i < t.subtopics.length; i++) if (t.subtopics[i].id === id) return t.subtopics[i]; return null; }
+
+/* ---------------- speech ---------------- */
+var VOICE = null;
+function pickVoice() {
+  if (!window.speechSynthesis) return;
+  var vs = speechSynthesis.getVoices() || [];
+  var best = null;
+  for (var i = 0; i < vs.length; i++) {
+    var v = vs[i];
+    if (v.lang && v.lang.toLowerCase().indexOf('de') === 0) { if (!best || v.localService) best = v; }
+  }
+  VOICE = best;
+}
+if (window.speechSynthesis) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function say(text, cb) {
+  if (!window.speechSynthesis) { if (cb) cb(); return; }
+  try {
+    speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance(String(text));
+    u.lang = 'de-DE'; u.rate = Number(S.rate) || 0.85;
+    if (VOICE) u.voice = VOICE;
+    if (cb) { u.onend = cb; u.onerror = cb; }
+    speechSynthesis.speak(u);
+  } catch (e) { if (cb) cb(); }
+}
+function hasMic() {
+  return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+}
+
+/* ---------------- dictionary lookup ---------------- */
+var LINES = [];   // current render registry for per-line overrides
+function lookup(tok, over) {
+  var n = norm(tok);
+  if (over) {
+    if (over[tok] && DICT[over[tok]]) return DICT[over[tok]];
+    if (over[n] && DICT[over[n]]) return DICT[over[n]];
+  }
+  if (DICT[n]) return DICT[n];
+  if (FORMS[n] && DICT[FORMS[n]]) return DICT[FORMS[n]];
+  if (n.indexOf('-') > -1) {
+    var p = n.split('-');
+    for (var i = 0; i < p.length; i++) { if (DICT[p[i]]) return DICT[p[i]]; if (FORMS[p[i]]) return DICT[FORMS[p[i]]]; }
+  }
+  return null;
+}
+function keyOf(entry) {
+  for (var k in DICT) if (DICT[k] === entry) return k;
+  return null;
+}
+
+var WORD_RE = /[A-Za-zÄÖÜäöüßéÉ]+(?:[’'\-][A-Za-zÄÖÜäöüß]+)*/g;
+function tapText(text, lineIdx) {
+  var out = '', last = 0, m;
+  WORD_RE.lastIndex = 0;
+  var over = (lineIdx != null && LINES[lineIdx]) ? LINES[lineIdx].w : null;
+  while ((m = WORD_RE.exec(text)) !== null) {
+    out += esc(text.slice(last, m.index));
+    var t = m[0], e = lookup(t, over);
+    out += '<button class="w' + (e ? '' : ' miss') + '" data-w="' + esc(t) + '" data-li="' + (lineIdx == null ? '' : lineIdx) + '">' + esc(t) + '</button>';
+    last = m.index + t.length;
+  }
+  out += esc(text.slice(last));
+  return out;
+}
+
+/* ---------------- word sheet ---------------- */
+function openWord(tok, lineIdx) {
+  var over = (lineIdx !== '' && LINES[lineIdx]) ? LINES[lineIdx].w : null;
+  var e = lookup(tok, over);
+  var body;
+  if (!e) {
+    body = '<div class="wh"><div><div class="lem">' + esc(tok) + '</div></div></div>' +
+      '<p class="muted small" style="margin-top:14px">Dieses Wort ist noch nicht im Wörterbuch. / This word is not in the dictionary yet.</p>';
+  } else {
+    var k = keyOf(e);
+    var head = (e.gender ? '<span class="art">' + esc(e.gender) + '</span> ' : '') + esc(e.lemma);
+    var meta = [];
+    if (e.pos) meta.push(e.pos);
+    if (e.plural) meta.push('Pl. ' + e.plural);
+    if (e.aux) meta.push(e.aux);
+    var starred = !!SAVED[k];
+    body =
+      '<div class="wh">' +
+        '<div style="flex:1"><div class="lem">' + head + '</div>' +
+          (meta.length ? '<div class="forms">' + esc(meta.join(' · ')) + '</div>' : '') +
+        '</div>' +
+        '<button class="ico" data-act="sayw" data-t="' + esc(e.lemma) + '">🔊</button>' +
+        '<button class="ico" data-act="star" data-k="' + esc(k) + '">' + (starred ? '★' : '☆') + '</button>' +
+      '</div>' +
+      (e.note ? '<div class="tag" style="margin-top:8px;display:inline-block">' + esc(e.note) + '</div>' : '') +
+      '<div style="margin-top:10px">' +
+        '<div class="mrow"><div class="k">EN</div><div class="v">' + esc(e.en) + '</div></div>' +
+        '<div class="mrow" style="border-bottom:0"><div class="k">UR</div><div class="v">' + esc(e.ur) + '</div></div>' +
+      '</div>' +
+      (e.ex ? '<div class="ex">' +
+        '<div class="exde">' + esc(e.ex.de) + ' <button class="mini" data-act="sayw" data-t="' + esc(e.ex.de) + '">🔊</button></div>' +
+        '<div class="exen">' + esc(e.ex.en) + '</div>' +
+        '<div class="exur">' + esc(e.ex.ur) + '</div>' +
+      '</div>' : '');
+  }
+  document.getElementById('sheetBody').innerHTML = body;
+  document.getElementById('sheet').classList.add('on');
+  document.getElementById('scrim').classList.add('on');
+}
+function closeSheet() {
+  document.getElementById('sheet').classList.remove('on');
+  document.getElementById('scrim').classList.remove('on');
+}
+
+/* ---------------- shell ---------------- */
+function view(o) {
+  var hd = document.getElementById('hd');
+  hd.innerHTML =
+    (o.back ? '<button class="ico" data-act="back">‹</button>' : '<div class="ico">📘</div>') +
+    '<div class="ttl">' + esc(o.title) + (o.sub ? '<span class="sub">' + esc(o.sub) + '</span>' : '') + '</div>' +
+    (o.chip ? '<button class="chip" data-act="lvl">' + esc(o.chip) + '</button>' : '') +
+    (o.right || '');
+  document.getElementById('app').innerHTML = '<div class="wrap">' + o.body + '</div>';
+  window.scrollTo(0, 0);
+  var nav = document.getElementById('nav');
+  var h = location.hash || '#/';
+  [['#/', 'n1'], ['#/words', 'n2'], ['#/search', 'n3'], ['#/set', 'n4']].forEach(function (p) {
+    var a = document.getElementById(p[1]);
+    if (a) a.className = (h === p[0] || (p[0] === '#/' && h.indexOf('#/t/') === 0) ||
+      (p[0] === '#/' && (h.indexOf('#/d/') === 0 || h.indexOf('#/test') === 0 || h.indexOf('#/rp/') === 0))) ? 'on' : '';
+  });
+  nav.style.display = '';
+}
+
+function levelSheet() {
+  var b = '<div class="grab"></div><h3 style="margin:0 0 4px">Sprachniveau / Level</h3>' +
+    '<p class="muted small" style="margin:0 0 14px">Same conversations, different German. / Wohi baat cheet, alag German.</p>' +
+    '<div class="levels">';
+  LEVELS.forEach(function (l) {
+    b += '<button class="lv' + (S.level === l ? ' on' : '') + '" data-act="setlvl" data-l="' + l + '">' + l + '<span class="n">' + esc(LVNAME[l]) + '</span></button>';
+  });
+  b += '</div>';
+  document.getElementById('sheetBody').innerHTML = b;
+  document.getElementById('sheet').classList.add('on');
+  document.getElementById('scrim').classList.add('on');
+}
+
+/* ---------------- views ---------------- */
+function vHome() {
+  var b = '<div class="sec">Niveau</div><div class="levels">';
+  LEVELS.forEach(function (l) {
+    b += '<button class="lv' + (S.level === l ? ' on' : '') + '" data-act="setlvl" data-l="' + l + '">' + l + '<span class="n">' + esc(LVNAME[l]) + '</span></button>';
+  });
+  b += '</div><div class="sec">Themen / Topics</div><div class="grid">';
+  TOPICS.forEach(function (t) {
+    var tot = 0, done = 0;
+    t.subtopics.forEach(function (s) { tot++; if (PROG.read[t.id + '/' + s.id + '/' + S.level]) done++; });
+    var pct = tot ? Math.round(done / tot * 100) : 0;
+    b += '<button class="tile" data-go="#/t/' + t.id + '">' +
+      '<span class="em">' + esc(t.icon) + '</span>' +
+      '<span class="t">' + esc(t.title.de) + '</span>' +
+      '<span class="s">' + esc(t.title.en) + ' · ' + t.subtopics.length + ' Teile</span>' +
+      '<span class="bar"><i style="width:' + pct + '%"></i></span>' +
+      '</button>';
+  });
+  b += '</div>';
+  var n = Object.keys(SAVED).length;
+  if (n) b += '<div class="sec">Weiter</div><button class="row" data-go="#/fc"><div class="ico">🃏</div>' +
+    '<div class="g"><div class="t">Karteikarten üben</div><div class="s">' + n + ' gespeicherte Wörter</div></div><div class="ar">›</div></button>';
+  view({ title: 'Deutsch Alltag', sub: 'Alltagsgespräche · A1–B2', body: b, chip: S.level });
+}
+
+function vTopic(tid) {
+  var t = topicById(tid); if (!t) return go('#/');
+  var b = '<div class="card" style="padding:14px;margin-bottom:16px">' +
+    '<div style="font-size:15px;font-weight:640">' + esc(t.title.en) + '</div>' +
+    '<div class="small muted" style="margin-top:3px">' + esc(t.title.ur) + '</div>' +
+    (t.intro ? '<div class="small muted" style="margin-top:8px">' + esc(t.intro) + '</div>' : '') + '</div>';
+  b += '<div class="sec">Gespräche / Conversations</div><div class="rowlist">';
+  t.subtopics.forEach(function (s) {
+    var read = PROG.read[t.id + '/' + s.id + '/' + S.level];
+    var has = s.dialogues && s.dialogues[S.level];
+    b += '<button class="row" data-go="#/d/' + t.id + '/' + s.id + '"' + (has ? '' : ' disabled') + '>' +
+      '<div class="ico">' + esc(s.icon || '💬') + '</div>' +
+      '<div class="g"><div class="t">' + esc(s.title.de) + '</div>' +
+      '<div class="s">' + esc(s.angle) + '</div></div>' +
+      (read ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
+  });
+  b += '</div>';
+  b += '<div class="sec">Üben / Practice</div><div class="rowlist">';
+  t.subtopics.forEach(function (s) {
+    if (!s.roleplay) return;
+    var done = PROG.rp[t.id + '/' + s.id];
+    b += '<button class="row" data-go="#/rp/' + t.id + '/' + s.id + '">' +
+      '<div class="ico">🎙️</div><div class="g"><div class="t">Rollenspiel: ' + esc(s.title.de) + '</div>' +
+      '<div class="s">Sprich mit der App / App se baat karein</div></div>' +
+      (done ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
+  });
+  if (t.test) {
+    var sc = PROG.test[t.id];
+    b += '<button class="row" data-go="#/test/' + t.id + '">' +
+      '<div class="ico">📝</div><div class="g"><div class="t">Test: ' + esc(t.title.de) + '</div>' +
+      '<div class="s">' + (sc != null ? 'Letztes Ergebnis: ' + sc + '%' : t.test.items.length + ' Aufgaben') + '</div></div><div class="ar">›</div></button>';
+  }
+  b += '</div>';
+  view({ title: t.title.de, sub: t.title.en, body: b, back: 1, chip: S.level });
+}
+
+function vDialogue(tid, sid) {
+  var t = topicById(tid), s = subById(t, sid); if (!s) return go('#/');
+  var d = s.dialogues[S.level];
+  if (!d) { view({ title: s.title.de, body: '<div class="empty"><span class="em">🚧</span>Diese Stufe fehlt noch.</div>', back: 1, chip: S.level }); return; }
+  LINES = d.lines;
+  PROG.read[tid + '/' + sid + '/' + S.level] = 1; saveProg();
+
+  var b = '<div class="card" style="padding:12px 14px;margin-bottom:14px">' +
+    '<div class="small" style="font-weight:640">' + esc(s.angle) + '</div>' +
+    '<div class="small muted" style="margin-top:4px">Tippe auf ein Wort = Bedeutung. Tippe auf die Blase = Übersetzung.</div>' +
+    '<div class="small muted" style="margin-top:2px;font-style:italic">Lafz par tap karein = matlab. Bubble par tap karein = tarjuma.</div>' +
+    '<div class="btns"><button class="btn gh" data-act="playall">▶︎ Ganzes Gespräch hören</button></div></div>';
+
+  d.lines.forEach(function (l, i) {
+    var right = l.s === (d.right || 'B');
+    b += '<div class="bub' + (right ? ' r' : '') + '" data-b="' + i + '">' +
+      '<div class="who">' + esc(d.speakers[l.s] || l.s) + '</div>' +
+      '<div class="bl">' +
+        '<div class="de" data-de="' + i + '">' + tapText(l.de, i) + '</div>' +
+        '<div class="tr">' +
+          (S.en ? '<div class="en">' + esc(l.en) + '</div>' : '') +
+          (S.ur ? '<div class="ur">' + esc(l.ur) + '</div>' : '') +
+        '</div>' +
+        '<div class="blact">' +
+          '<button class="mini" data-act="sayline" data-i="' + i + '">🔊</button>' +
+          '<button class="mini" data-act="tr" data-i="' + i + '">A→B</button>' +
+        '</div>' +
+      '</div></div>';
+  });
+
+  if (s.words && s.words.length) {
+    b += '<div class="sec">Wortschatz</div><div class="card">';
+    s.words.forEach(function (k) {
+      var e = DICT[k]; if (!e) return;
+      b += '<div class="wc"><div class="g"><div class="l">' + (e.gender ? e.gender + ' ' : '') + esc(e.lemma) + '</div>' +
+        '<div class="m">' + esc(e.en) + ' · ' + esc(e.ur) + '</div></div>' +
+        '<button class="mini" data-act="sayw" data-t="' + esc(e.lemma) + '">🔊</button>' +
+        '<button class="mini" data-act="star" data-k="' + esc(k) + '">' + (SAVED[k] ? '★' : '☆') + '</button></div>';
+    });
+    b += '</div>';
+  }
+  if (s.roleplay) b += '<div class="btns" style="margin-top:18px"><button class="btn" data-go="#/rp/' + tid + '/' + sid + '">🎙️ Jetzt selbst sprechen</button></div>';
+
+  view({ title: s.title.de, sub: t.title.de, body: b, back: 1, chip: S.level });
+}
+
+/* ---------------- roleplay ---------------- */
+var RP = null;
+function vRoleplay(tid, sid) {
+  var t = topicById(tid), s = subById(t, sid); if (!s || !s.roleplay) return go('#/');
+  var band = (S.level === 'A1' || S.level === 'A2') ? 'easy' : 'hard';
+  var sc = s.roleplay[band] || s.roleplay.easy || s.roleplay.hard;
+  RP = { t: t, s: s, sc: sc, node: sc.start, log: [], turns: 0, good: 0, showOpts: false };
+  rpRender(true);
+}
+function rpRender(speak) {
+  var sc = RP.sc, n = sc.nodes[RP.node];
+  var b = '<div class="card" style="padding:12px 14px;margin-bottom:12px">' +
+    '<div class="small" style="font-weight:640">' + esc(sc.scene.de) + '</div>' +
+    '<div class="small muted" style="margin-top:3px">' + esc(sc.scene.en) + '</div>' +
+    '<div class="small muted" style="margin-top:2px;font-style:italic">' + esc(sc.scene.ur) + '</div>' +
+    '<div class="small muted" style="margin-top:8px">Du bist: <b>' + esc(sc.you) + '</b> · App: <b>' + esc(sc.role) + '</b></div></div>';
+
+  b += '<div class="rp">';
+  RP.log.forEach(function (m) {
+    if (m.me) b += '<div class="rpb me ' + (m.grade === 'good' ? 'ok' : m.grade === 'bad' ? 'no' : '') + '">' + esc(m.text) + '</div>';
+    else b += '<div class="rpb">' + tapText(m.text, null) + '</div>';
+  });
+  b += '</div>';
+
+  if (!n) {
+    var pct = RP.turns ? Math.round(RP.good / RP.turns * 100) : 0;
+    PROG.rp[RP.t.id + '/' + RP.s.id] = 1; saveProg();
+    b += '<div class="card" style="padding:18px"><div class="score">' + pct + '%</div>' +
+      '<div class="center muted small">' + RP.good + ' von ' + RP.turns + ' Antworten passend</div>' +
+      '<div class="btns"><button class="btn sec" data-act="rpagain">Nochmal</button>' +
+      '<button class="btn" data-go="#/t/' + RP.t.id + '">Fertig</button></div></div>';
+    view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
+    return;
+  }
+
+  b += '<div class="goal"><b>Was du sagen sollst / Aap ko kya kehna hai</b>' + esc(n.goal.en) +
+    '<div style="margin-top:4px;font-style:italic">' + esc(n.goal.ur) + '</div></div>';
+
+  b += '<div class="card" style="padding:14px">';
+  b += '<input class="inp" id="rpin" placeholder="Auf Deutsch antworten…" autocomplete="off" autocapitalize="sentences">';
+  b += '<div class="btns"><button class="btn" data-act="rpsend">Senden</button>';
+  if (hasMic() && S.mic) b += '<button class="btn sec" data-act="rpmic" id="rpmic" style="flex:0 0 64px">🎤</button>';
+  b += '</div>';
+  b += '<div class="btns"><button class="btn sec" data-act="rphelp">' + (RP.showOpts ? 'Hilfe ausblenden' : '💡 Hilfe zeigen') + '</button>' +
+       '<button class="btn sec" data-act="rprep" style="flex:0 0 64px">🔊</button></div>';
+  if (RP.showOpts && n.options) {
+    b += '<div style="margin-top:10px">';
+    n.options.forEach(function (o) { b += '<button class="opt" data-act="rppick" data-o="' + esc(o) + '">' + esc(o) + '</button>'; });
+    b += '</div>';
+  }
+  b += '</div>';
+  if (!hasMic()) b += '<p class="small muted center" style="margin-top:12px">Sprech-Eingabe braucht Internet und Chrome/Safari. Tippen geht immer.</p>';
+
+  view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
+  if (speak && RP.log.length) {
+    var lastApp = null;
+    for (var i = RP.log.length - 1; i >= 0; i--) if (!RP.log[i].me) { lastApp = RP.log[i].text; break; }
+    if (lastApp) say(lastApp);
+  }
+}
+function rpStart() {
+  var n = RP.sc.nodes[RP.node];
+  if (n && n.say) { RP.log.push({ me: false, text: n.say }); }
+  rpRender(true);
+}
+function rpAnswer(txt) {
+  txt = String(txt || '').trim(); if (!txt) return;
+  var n = RP.sc.nodes[RP.node];
+  var words = plain(txt).split(' ');
+  var best = null;
+  (n.accept || []).forEach(function (a) {
+    var hits = 0;
+    a.kw.forEach(function (k) {
+      var kk = plain(k);
+      for (var i = 0; i < words.length; i++) {
+        if (words[i] === kk || (kk.length > 3 && lev(words[i], kk) <= Math.max(1, Math.floor(kk.length / 5)))) { hits++; return; }
+      }
+    });
+    var sc = a.kw.length ? hits / a.kw.length : 0;
+    if (!best || sc > best.sc) best = { a: a, sc: sc };
+  });
+  RP.turns++;
+  if (best && best.sc >= 0.6) {
+    var grade = best.sc >= 0.999 ? 'good' : 'ok';
+    if (grade === 'good') RP.good++;
+    RP.log.push({ me: true, text: txt, grade: grade });
+    if (best.a.reply) RP.log.push({ me: false, text: best.a.reply });
+    RP.node = best.a.next;
+    var nx = RP.sc.nodes[RP.node];
+    if (nx && nx.say) RP.log.push({ me: false, text: nx.say });
+    RP.showOpts = false;
+    rpRender(true);
+  } else {
+    RP.log.push({ me: true, text: txt, grade: 'bad' });
+    RP.log.push({ me: false, text: n.fallback || 'Entschuldigung, das habe ich nicht verstanden. Können Sie das anders sagen?' });
+    RP.showOpts = true;
+    rpRender(true);
+  }
+}
+var REC = null;
+function rpMic() {
+  var C = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!C) return;
+  var btn = document.getElementById('rpmic');
+  if (REC) { try { REC.stop(); } catch (e) {} REC = null; if (btn) btn.classList.remove('rec'); return; }
+  REC = new C();
+  REC.lang = 'de-DE'; REC.interimResults = false; REC.maxAlternatives = 3;
+  if (btn) btn.classList.add('rec');
+  REC.onresult = function (ev) {
+    var txt = ev.results[0][0].transcript;
+    REC = null; if (btn) btn.classList.remove('rec');
+    var el = document.getElementById('rpin'); if (el) el.value = txt;
+    rpAnswer(txt);
+  };
+  REC.onerror = function (ev) {
+    REC = null; if (btn) btn.classList.remove('rec');
+    var el = document.getElementById('rpin');
+    if (el) el.placeholder = (ev.error === 'network')
+      ? 'Spracherkennung braucht Internet — bitte tippen.'
+      : 'Mikrofon nicht verfügbar — bitte tippen.';
+  };
+  REC.onend = function () { REC = null; if (btn) btn.classList.remove('rec'); };
+  try { REC.start(); } catch (e) { REC = null; if (btn) btn.classList.remove('rec'); }
+}
+
+/* ---------------- test ---------------- */
+var T = null;
+function vTest(tid) {
+  var t = topicById(tid); if (!t || !t.test) return go('#/');
+  T = { t: t, items: shuffle(t.test.items), i: 0, right: 0, state: 'ask', pick: null, built: [], pool: [] };
+  tRender();
+}
+function tRender() {
+  var it = T.items[T.i];
+  if (!it) return tDone();
+  var pct = Math.round(T.i / T.items.length * 100);
+  var b = '<div class="prog"><i style="width:' + pct + '%"></i></div>' +
+    '<div class="small muted" style="margin-bottom:12px">Aufgabe ' + (T.i + 1) + ' von ' + T.items.length + '</div>';
+
+  if (it.type === 'mc') {
+    b += '<div class="q">' + esc(it.q) + '</div><div class="qh">Was bedeutet das? / Iska matlab kya hai?</div>';
+    (it._opts || (it._opts = shuffle(it.opts.map(function (o, i) { return { o: o, i: i }; })))).forEach(function (o, idx) {
+      var cls = 'opt';
+      if (T.state === 'done') { if (o.i === it.a) cls += ' good'; else if (T.pick === idx) cls += ' bad'; }
+      else if (T.pick === idx) cls += ' sel';
+      b += '<button class="' + cls + '" data-act="tpick" data-i="' + idx + '">' + esc(o.o) + '</button>';
+    });
+  } else if (it.type === 'gap') {
+    b += '<div class="q">' + esc(it.de.replace('___', '_____')) + '</div><div class="qh">' + esc(it.hint || '') + '</div>' +
+      '<input class="inp" id="tin" placeholder="Fehlendes Wort…" autocomplete="off"' + (T.state === 'done' ? ' disabled' : '') + '>';
+  } else if (it.type === 'order') {
+    b += '<div class="q">' + esc(it.en) + '</div><div class="qh">Baue den deutschen Satz. / German jumla banayein.</div>';
+    if (!it._pool) { it._pool = shuffle(it.a.replace(/[.?!]$/, '').split(' ')); T.built = []; }
+    b += '<div class="tiles">' + T.built.map(function (w, i) { return '<button class="tk" data-act="tunbuild" data-i="' + i + '">' + esc(w) + '</button>'; }).join('') + '</div>';
+    b += '<div class="tiles" style="background:transparent;padding:0">' + it._pool.map(function (w, i) {
+      return T.built.indexOf(i) > -1 ? '' : '<button class="tk" data-act="tbuild" data-i="' + i + '">' + esc(w) + '</button>';
+    }).join('') + '</div>';
+  } else if (it.type === 'listen') {
+    b += '<div class="q">Hör zu und schreib den Satz.</div><div class="qh">Suno aur likho.</div>' +
+      '<div class="btns" style="margin-bottom:12px"><button class="btn gh" data-act="sayw" data-t="' + esc(it.a) + '">🔊 Nochmal hören</button></div>' +
+      '<input class="inp" id="tin" placeholder="Satz auf Deutsch…" autocomplete="off"' + (T.state === 'done' ? ' disabled' : '') + '>';
+  } else if (it.type === 'prod') {
+    b += '<div class="q">' + esc(it.en) + '</div><div class="qh">' + esc(it.ur || '') + '</div>' +
+      '<input class="inp" id="tin" placeholder="Auf Deutsch schreiben…" autocomplete="off"' + (T.state === 'done' ? ' disabled' : '') + '>';
+  }
+
+  if (T.state === 'done') {
+    var fb = T.last;
+    b += '<div class="fb ' + fb.cls + '"><b>' + esc(fb.head) + '</b>' + esc(fb.msg) + '</div>';
+    b += '<div class="btns"><button class="btn" data-act="tnext">Weiter ›</button></div>';
+  } else {
+    b += '<div class="btns"><button class="btn" data-act="tcheck">Prüfen</button></div>';
+  }
+  view({ title: 'Test: ' + T.t.title.de, body: b, back: 1, chip: S.level });
+  var inp = document.getElementById('tin');
+  if (inp && T.state !== 'done') inp.focus();
+}
+function tCheck() {
+  var it = T.items[T.i], ok = false, given = '';
+  if (it.type === 'mc') {
+    if (T.pick == null) return;
+    ok = it._opts[T.pick].i === it.a;
+    given = it._opts[T.pick].o;
+  } else if (it.type === 'order') {
+    given = T.built.map(function (i) { return it._pool[i]; }).join(' ');
+    ok = plain(given) === plain(it.a);
+  } else {
+    var el = document.getElementById('tin');
+    given = el ? el.value : '';
+    var a = plain(it.type === 'gap' ? it.a : it.a), g = plain(given);
+    ok = g === a;
+    if (!ok && g && lev(g, a) <= Math.max(1, Math.round(a.length / 12))) {
+      T.last = { cls: 'warn', head: 'Fast richtig!', msg: 'Richtig: ' + it.a + (it.en ? '  —  ' + it.en : '') };
+      T.right += 0.5; T.state = 'done'; tRender(); return;
+    }
+  }
+  if (ok) { T.right++; T.last = { cls: 'good', head: 'Richtig!', msg: (it.a && it.type !== 'mc' ? it.a : '') + (it.en ? '  —  ' + it.en : '') }; }
+  else {
+    var corr = it.type === 'mc' ? it.opts[it.a] : it.a;
+    T.last = { cls: 'bad', head: 'Nicht ganz.', msg: 'Richtig: ' + corr + (it.ur ? '  ·  ' + it.ur : '') };
+    if (it.word && DICT[it.word] && !SAVED[it.word]) { SAVED[it.word] = { t: Date.now(), box: 0 }; saveWords(); }
+  }
+  T.state = 'done'; tRender();
+}
+function tDone() {
+  var pct = Math.round(T.right / T.items.length * 100);
+  PROG.test[T.t.id] = pct; saveProg();
+  var msg = pct >= 80 ? 'Sehr gut! / Bohat acha!' : pct >= 50 ? 'Gut — üb die falschen Wörter.' : 'Weiter üben. Lies das Gespräch nochmal.';
+  var b = '<div class="card" style="padding:22px"><div class="score">' + pct + '%</div>' +
+    '<div class="center muted small">' + T.right + ' / ' + T.items.length + ' richtig</div>' +
+    '<p class="center" style="margin:16px 0 0">' + esc(msg) + '</p>' +
+    '<div class="btns"><button class="btn sec" data-act="tagain">Nochmal</button>' +
+    '<button class="btn" data-go="#/t/' + T.t.id + '">Fertig</button></div></div>' +
+    '<p class="small muted center" style="margin-top:14px">Falsche Wörter sind jetzt bei „Meine Wörter“.</p>';
+  view({ title: 'Ergebnis', body: b, back: 1, chip: S.level });
+}
+
+/* ---------------- words + flashcards ---------------- */
+function vWords() {
+  var keys = Object.keys(SAVED).sort(function (a, b) { return SAVED[b].t - SAVED[a].t; });
+  var b = '';
+  if (!keys.length) {
+    b = '<div class="empty"><span class="em">☆</span>Noch keine Wörter gespeichert.<br>Tippe auf ein Wort im Gespräch und dann auf ☆.</div>';
+  } else {
+    b += '<div class="btns" style="margin-bottom:16px"><button class="btn" data-go="#/fc">🃏 Karteikarten (' + keys.length + ')</button></div><div class="card">';
+    keys.forEach(function (k) {
+      var e = DICT[k]; if (!e) return;
+      b += '<div class="wc"><div class="g"><div class="l">' + (e.gender ? e.gender + ' ' : '') + esc(e.lemma) + '</div>' +
+        '<div class="m">' + esc(e.en) + ' · ' + esc(e.ur) + '</div></div>' +
+        '<button class="mini" data-act="sayw" data-t="' + esc(e.lemma) + '">🔊</button>' +
+        '<button class="mini" data-act="unstar" data-k="' + esc(k) + '">✕</button></div>';
+    });
+    b += '</div>';
+  }
+  view({ title: 'Meine Wörter', sub: 'Saved words', body: b, chip: S.level });
+}
+var FC = null;
+function vFC() {
+  var keys = Object.keys(SAVED).filter(function (k) { return DICT[k]; });
+  if (!keys.length) return go('#/words');
+  if (!FC || !FC.q.length) FC = { q: shuffle(keys), i: 0, rev: false, ok: 0 };
+  var k = FC.q[FC.i], e = DICT[k];
+  if (!e) { FC.q.splice(FC.i, 1); return vFC(); }
+  var b = '<div class="prog"><i style="width:' + Math.round(FC.i / FC.q.length * 100) + '%"></i></div>' +
+    '<div class="card fc"><div><div class="big">' + (e.gender ? e.gender + ' ' : '') + esc(e.lemma) + '</div>' +
+    (FC.rev ? '<div class="rev">' + esc(e.en) + '<br><i>' + esc(e.ur) + '</i>' +
+      (e.ex ? '<div class="small" style="margin-top:12px">' + esc(e.ex.de) + '</div>' : '') + '</div>'
+      : '<div class="rev">Tippe zum Umdrehen</div>') + '</div></div>';
+  b += '<div class="btns"><button class="btn sec" data-act="sayw" data-t="' + esc(e.lemma) + '">🔊</button>' +
+    (FC.rev ? '<button class="btn sec" data-act="fcno">Nochmal</button><button class="btn" data-act="fcok">Gewusst ✓</button>'
+      : '<button class="btn" data-act="fcflip">Umdrehen</button>') + '</div>';
+  view({ title: 'Karteikarten', sub: (FC.i + 1) + ' / ' + FC.q.length, body: b, back: 1, chip: S.level });
+}
+
+/* ---------------- search ---------------- */
+function vSearch(q) {
+  q = q || '';
+  var b = '<input class="inp" id="sq" placeholder="Suchen: Deutsch, English, Roman Urdu…" value="' + esc(q) + '" autocomplete="off">';
+  var n = plain(q);
+  if (n.length >= 2) {
+    var res = [];
+    TOPICS.forEach(function (t) {
+      t.subtopics.forEach(function (s) {
+        LEVELS.forEach(function (lv) {
+          var d = s.dialogues && s.dialogues[lv]; if (!d) return;
+          d.lines.forEach(function (l) {
+            if (plain(l.de).indexOf(n) > -1 || plain(l.en).indexOf(n) > -1 || plain(l.ur).indexOf(n) > -1) {
+              if (res.length < 40) res.push({ t: t, s: s, lv: lv, l: l });
+            }
+          });
+        });
+      });
+    });
+    var wres = [];
+    for (var k in DICT) {
+      var e = DICT[k];
+      if (plain(e.lemma).indexOf(n) > -1 || plain(e.en).indexOf(n) > -1 || plain(e.ur).indexOf(n) > -1) {
+        if (wres.length < 20) wres.push(k);
+      }
+    }
+    if (wres.length) {
+      b += '<div class="sec">Wörter</div><div class="card">';
+      wres.forEach(function (k) {
+        var e = DICT[k];
+        b += '<div class="wc"><div class="g"><div class="l">' + (e.gender ? e.gender + ' ' : '') + esc(e.lemma) + '</div>' +
+          '<div class="m">' + esc(e.en) + ' · ' + esc(e.ur) + '</div></div>' +
+          '<button class="mini" data-act="star" data-k="' + esc(k) + '">' + (SAVED[k] ? '★' : '☆') + '</button></div>';
+      });
+      b += '</div>';
+    }
+    if (res.length) {
+      b += '<div class="sec">Sätze (' + res.length + ')</div><div class="rowlist">';
+      res.forEach(function (r) {
+        b += '<button class="row" data-go="#/d/' + r.t.id + '/' + r.s.id + '">' +
+          '<div class="g"><div class="t" style="font-weight:500">' + esc(r.l.de) + '</div>' +
+          '<div class="s">' + esc(r.t.title.de) + ' · ' + esc(r.s.title.de) + ' · ' + r.lv + '</div></div><div class="ar">›</div></button>';
+      });
+      b += '</div>';
+    }
+    if (!res.length && !wres.length) b += '<div class="empty"><span class="em">🔍</span>Nichts gefunden.</div>';
+  }
+  view({ title: 'Suche', body: b, chip: S.level });
+  var el = document.getElementById('sq');
+  if (el) {
+    el.focus(); el.setSelectionRange(el.value.length, el.value.length);
+    var tmr = null;
+    el.oninput = function () { clearTimeout(tmr); tmr = setTimeout(function () { vSearch(el.value); }, 220); };
+  }
+}
+
+/* ---------------- settings ---------------- */
+function vSet() {
+  function sw(label, sub, act, on) {
+    return '<div class="sw"><div><div style="font-weight:600">' + label + '</div>' +
+      (sub ? '<div class="small muted">' + sub + '</div>' : '') + '</div>' +
+      '<button class="tog' + (on ? ' on' : '') + '" data-act="' + act + '"><i></i></button></div>';
+  }
+  var b = '<div class="sec">Niveau</div><div class="levels">';
+  LEVELS.forEach(function (l) {
+    b += '<button class="lv' + (S.level === l ? ' on' : '') + '" data-act="setlvl" data-l="' + l + '">' + l + '<span class="n">' + esc(LVNAME[l]) + '</span></button>';
+  });
+  b += '</div>';
+  b += '<div class="sec">Übersetzung</div><div class="card">' +
+    sw('English', 'Show English translation', 'tgen', S.en) +
+    sw('Roman Urdu', 'Roman Urdu tarjuma dikhayein', 'tgur', S.ur) + '</div>';
+  b += '<div class="sec">Sprache &amp; Ton</div><div class="card">' +
+    sw('Mikrofon im Rollenspiel', hasMic() ? 'Braucht Internet' : 'Auf diesem Browser nicht verfügbar', 'tgmic', S.mic && hasMic()) +
+    '<div class="sw"><div><div style="font-weight:600">Sprechtempo</div><div class="small muted">' + S.rate + '×</div></div>' +
+    '<input type="range" min="0.5" max="1.2" step="0.05" value="' + S.rate + '" id="rate" style="width:140px"></div></div>';
+  b += '<div class="sec">Aussehen</div><div class="card"><div class="sw"><div style="font-weight:600">Theme</div><div style="display:flex;gap:6px">' +
+    ['auto', 'light', 'dark'].map(function (t) {
+      return '<button class="mini' + (S.theme === t ? ' sel' : '') + '" data-act="theme" data-t="' + t + '" style="' +
+        (S.theme === t ? 'background:var(--acc);color:#fff' : '') + '">' + t + '</button>';
+    }).join('') + '</div></div></div>';
+  b += '<div class="sec">Daten</div><div class="card"><button class="sw" style="width:100%" data-act="reset">' +
+    '<div style="text-align:left"><div style="font-weight:600;color:var(--bad)">Fortschritt löschen</div>' +
+    '<div class="small muted">Wörter, Ergebnisse, gelesene Gespräche</div></div><div class="ar">›</div></button></div>';
+  b += '<p class="small muted center" style="margin-top:20px">Deutsch Alltag · offline · ' + TOPICS.length + ' Themen · ' + Object.keys(DICT).length + ' Wörter</p>';
+  view({ title: 'Einstellungen', body: b, chip: S.level });
+  var r = document.getElementById('rate');
+  if (r) r.oninput = function () { S.rate = Number(r.value); saveSet(); };
+}
+
+/* ---------------- router ---------------- */
+function go(h) { if (location.hash === h) route(); else location.hash = h; }
+function route() {
+  closeSheet();
+  var p = (location.hash || '#/').replace(/^#\/?/, '').split('/');
+  if (!p[0]) return vHome();
+  if (p[0] === 't') return vTopic(p[1]);
+  if (p[0] === 'd') return vDialogue(p[1], p[2]);
+  if (p[0] === 'rp') { vRoleplay(p[1], p[2]); rpStart(); return; }
+  if (p[0] === 'test') return vTest(p[1]);
+  if (p[0] === 'words') return vWords();
+  if (p[0] === 'fc') return vFC();
+  if (p[0] === 'search') return vSearch('');
+  if (p[0] === 'set') return vSet();
+  return vHome();
+}
+window.addEventListener('hashchange', route);
+
+/* ---------------- events ---------------- */
+document.addEventListener('click', function (ev) {
+  var el = ev.target.closest ? ev.target.closest('[data-act],[data-go],.w,.bub') : null;
+  if (!el) return;
+  var act = el.getAttribute('data-act');
+  var goh = el.getAttribute('data-go');
+
+  if (el.classList.contains('w')) {
+    ev.stopPropagation();
+    openWord(el.getAttribute('data-w'), el.getAttribute('data-li'));
+    return;
+  }
+  if (goh) { go(goh); return; }
+
+  switch (act) {
+    case 'back': history.back(); return;
+    case 'lvl': levelSheet(); return;
+    case 'setlvl':
+      S.level = el.getAttribute('data-l'); saveSet(); closeSheet(); route(); return;
+    case 'sayw': say(el.getAttribute('data-t')); return;
+    case 'sayline': say(LINES[el.getAttribute('data-i')].de); return;
+    case 'tr': {
+      var bub = el.closest('.bub'); if (bub) bub.classList.toggle('open'); return;
+    }
+    case 'playall': {
+      var i = 0;
+      (function nxt() { if (i >= LINES.length) return; say(LINES[i++].de, function () { setTimeout(nxt, 260); }); })();
+      return;
+    }
+    case 'star': case 'unstar': {
+      var k = el.getAttribute('data-k');
+      if (SAVED[k]) delete SAVED[k]; else SAVED[k] = { t: Date.now(), box: 0 };
+      saveWords();
+      if (act === 'unstar') { route(); }
+      else { el.textContent = SAVED[k] ? '★' : '☆'; }
+      return;
+    }
+    /* roleplay */
+    case 'rpsend': { var i2 = document.getElementById('rpin'); rpAnswer(i2 ? i2.value : ''); return; }
+    case 'rppick': rpAnswer(el.getAttribute('data-o')); return;
+    case 'rphelp': RP.showOpts = !RP.showOpts; rpRender(false); return;
+    case 'rpmic': rpMic(); return;
+    case 'rprep': {
+      for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { say(RP.log[j].text); break; }
+      return;
+    }
+    case 'rpagain': vRoleplay(RP.t.id, RP.s.id); rpStart(); return;
+    /* test */
+    case 'tpick': if (T.state !== 'done') { T.pick = Number(el.getAttribute('data-i')); tRender(); } return;
+    case 'tbuild': T.built.push(Number(el.getAttribute('data-i'))); tRender(); return;
+    case 'tunbuild': T.built.splice(Number(el.getAttribute('data-i')), 1); tRender(); return;
+    case 'tcheck': tCheck(); return;
+    case 'tnext': T.i++; T.state = 'ask'; T.pick = null; T.built = []; tRender(); return;
+    case 'tagain': vTest(T.t.id); return;
+    /* flashcards */
+    case 'fcflip': FC.rev = true; vFC(); return;
+    case 'fcok': case 'fcno':
+      if (act === 'fcok') FC.ok++;
+      FC.i++; FC.rev = false;
+      if (FC.i >= FC.q.length) { FC = null; go('#/words'); } else vFC();
+      return;
+    /* settings */
+    case 'tgen': S.en = !S.en; saveSet(); vSet(); return;
+    case 'tgur': S.ur = !S.ur; saveSet(); vSet(); return;
+    case 'tgmic': S.mic = !S.mic; saveSet(); vSet(); return;
+    case 'theme': S.theme = el.getAttribute('data-t'); saveSet(); vSet(); return;
+    case 'reset':
+      if (confirm('Wirklich allen Fortschritt löschen?')) {
+        SAVED = {}; PROG = { read: {}, test: {}, rp: {} }; saveWords(); saveProg(); vSet();
+      }
+      return;
+    case 'closesheet': closeSheet(); return;
+  }
+
+  var bub2 = ev.target.closest('.bub');
+  if (bub2) bub2.classList.toggle('open');
+});
+document.addEventListener('keydown', function (ev) {
+  if (ev.key !== 'Enter') return;
+  if (document.getElementById('rpin') === document.activeElement) { ev.preventDefault(); rpAnswer(document.getElementById('rpin').value); }
+  else if (document.getElementById('tin') === document.activeElement) { ev.preventDefault(); if (T && T.state !== 'done') tCheck(); else if (T) { T.i++; T.state = 'ask'; T.pick = null; T.built = []; tRender(); } }
+});
+document.getElementById('scrim').addEventListener('click', closeSheet);
+
+route();
+})();

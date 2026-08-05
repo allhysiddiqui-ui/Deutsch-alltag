@@ -1,0 +1,245 @@
+{
+  "id": "termin",
+  "order": 1,
+  "icon": "📞",
+  "title": { "de": "Einen Termin vereinbaren", "en": "Making an appointment", "ur": "Appointment lena" },
+  "angle": "On the phone with the practice · Phone par clinic se baat",
+  "words": ["termin", "vereinbaren", "praxis", "fieber", "husten", "versichertenkarte", "sprechstunde", "impfpass", "untersuchungsheft", "beschwerden"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Baumann (Praxis)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Praxis Doktor Weber, guten Tag.", "en": "Doctor Weber's practice, hello.", "ur": "Doctor Weber ka clinic, salam." },
+        { "s": "B", "de": "Guten Tag. Ich heiße Fatima Khan.", "en": "Hello. My name is Fatima Khan.", "ur": "Salam. Mera naam Fatima Khan hai." },
+        { "s": "B", "de": "Ich brauche einen Termin für meinen Sohn.", "en": "I need an appointment for my son.", "ur": "Mujhe apne bete ke liye appointment chahiye." },
+        { "s": "A", "de": "Wie alt ist Ihr Sohn?", "en": "How old is your son?", "ur": "Aap ka beta kitne saal ka hai?" },
+        { "s": "B", "de": "Er ist vier Jahre alt.", "en": "He is four years old.", "ur": "Woh chaar saal ka hai." },
+        { "s": "A", "de": "Was hat er denn?", "en": "What's wrong with him?", "ur": "Usay kya hua hai?" },
+        { "s": "B", "de": "Er hat Fieber. Und er hustet viel.", "en": "He has a fever. And he coughs a lot.", "ur": "Usay bukhar hai. Aur woh bohat khansta hai." },
+        { "s": "A", "de": "Seit wann hat er Fieber?", "en": "Since when has he had a fever?", "ur": "Bukhar kab se hai?" },
+        { "s": "B", "de": "Seit zwei Tagen.", "en": "For two days.", "ur": "Do din se." },
+        { "s": "A", "de": "Können Sie heute um fünfzehn Uhr kommen?", "en": "Can you come today at three o'clock?", "ur": "Kya aap aaj teen baje aa sakti hain?" },
+        { "s": "B", "de": "Ja, das geht. Um fünfzehn Uhr ist gut.", "en": "Yes, that works. Three o'clock is fine.", "ur": "Ji haan, theek hai. Teen baje acha hai." },
+        { "s": "A", "de": "Wie heißt Ihr Sohn?", "en": "What is your son's name?", "ur": "Aap ke bete ka naam kya hai?" },
+        { "s": "B", "de": "Er heißt Yusuf Khan.", "en": "His name is Yusuf Khan.", "ur": "Us ka naam Yusuf Khan hai." },
+        { "s": "A", "de": "Bitte bringen Sie die Versichertenkarte mit.", "en": "Please bring the insurance card with you.", "ur": "Meherbani kar ke insurance card saath lein." },
+        { "s": "B", "de": "Ja, natürlich. Vielen Dank.", "en": "Yes, of course. Thank you very much.", "ur": "Ji zaroor. Bohat shukriya." },
+        { "s": "A", "de": "Bis später. Auf Wiederhören.", "en": "See you later. Goodbye.", "ur": "Baad mein milte hain. Khuda hafiz." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Baumann (Praxis)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Kinderarztpraxis Doktor Weber, Baumann am Apparat. Was kann ich für Sie tun?", "en": "Doctor Weber's pediatric practice, Baumann speaking. What can I do for you?", "ur": "Doctor Weber ka bachon ka clinic, Baumann baat kar rahi hoon. Main aap ki kya madad kar sakti hoon?" },
+        { "s": "B", "de": "Guten Tag, Frau Baumann. Mein Name ist Fatima Khan.", "en": "Hello, Mrs Baumann. My name is Fatima Khan.", "ur": "Salam, Frau Baumann. Mera naam Fatima Khan hai." },
+        { "s": "B", "de": "Ich möchte einen Termin für meine Tochter vereinbaren.", "en": "I would like to make an appointment for my daughter.", "ur": "Main apni beti ke liye appointment lena chahti hoon." },
+        { "s": "A", "de": "Ist Ihre Tochter schon bei uns in Behandlung?", "en": "Is your daughter already a patient with us?", "ur": "Kya aap ki beti pehle se hamare paas ilaaj karwa rahi hai?" },
+        { "s": "B", "de": "Ja, sie war im letzten Jahr zweimal bei Ihnen.", "en": "Yes, she was here twice last year.", "ur": "Ji haan, pichle saal do baar aap ke paas aayi thi." },
+        { "s": "A", "de": "Gut. Wie heißt sie und wann ist sie geboren?", "en": "Good. What is her name and when was she born?", "ur": "Acha. Us ka naam kya hai aur woh kab paida hui?" },
+        { "s": "B", "de": "Sie heißt Amina Khan und sie ist am zwölften März zweitausendzwanzig geboren.", "en": "Her name is Amina Khan and she was born on the twelfth of March 2020.", "ur": "Us ka naam Amina Khan hai aur woh barah March do hazaar bees ko paida hui." },
+        { "s": "A", "de": "Danke. Und was fehlt ihr?", "en": "Thank you. And what's wrong with her?", "ur": "Shukriya. Aur usay kya takleef hai?" },
+        { "s": "B", "de": "Sie hat seit gestern hohes Fieber und Ohrenschmerzen.", "en": "She has had a high fever and an earache since yesterday.", "ur": "Usay kal se tez bukhar aur kaan mein dard hai." },
+        { "s": "B", "de": "Sie weint sehr viel und will nichts essen.", "en": "She cries a lot and doesn't want to eat anything.", "ur": "Woh bohat roti hai aur kuch khana nahi chahti." },
+        { "s": "A", "de": "Das klingt nicht gut. Können Sie in einer Stunde da sein?", "en": "That doesn't sound good. Can you be here in an hour?", "ur": "Yeh acha nahi lagta. Kya aap ek ghante mein aa sakti hain?" },
+        { "s": "B", "de": "Das ist schwierig, weil ich noch arbeite. Geht es auch um halb fünf?", "en": "That's difficult because I'm still working. Would half past four work too?", "ur": "Mushkil hai kyunke main abhi kaam par hoon. Kya saarhe chaar baje ho sakta hai?" },
+        { "s": "A", "de": "Um halb fünf habe ich leider nichts frei. Aber um Viertel nach fünf ist ein Termin frei.", "en": "Unfortunately I have nothing free at half past four. But there is an appointment free at quarter past five.", "ur": "Afsos, saarhe chaar baje kuch khali nahi. Lekin sawa paanch baje ek appointment khali hai." },
+        { "s": "B", "de": "Viertel nach fünf passt mir gut. Vielen Dank.", "en": "Quarter past five suits me well. Thank you very much.", "ur": "Sawa paanch baje mere liye theek hai. Bohat shukriya." },
+        { "s": "A", "de": "Bitte kommen Sie zehn Minuten früher und bringen Sie die Versichertenkarte mit.", "en": "Please come ten minutes earlier and bring the insurance card.", "ur": "Meherbani kar ke das minute pehle aayein aur insurance card saath layein." },
+        { "s": "B", "de": "Muss ich noch etwas mitbringen?", "en": "Do I have to bring anything else?", "ur": "Kya mujhe aur kuch bhi lana hoga?" },
+        { "s": "A", "de": "Wenn Sie das gelbe Untersuchungsheft haben, bringen Sie es bitte auch mit.", "en": "If you have the yellow check-up booklet, please bring that as well.", "ur": "Agar aap ke paas peela check-up copy hai to woh bhi le aayein." },
+        { "s": "B", "de": "Alles klar. Bis später, Frau Baumann.", "en": "All right. See you later, Mrs Baumann.", "ur": "Theek hai. Baad mein milte hain, Frau Baumann." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Baumann (Praxis)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Praxis Doktor Weber, mein Name ist Baumann, guten Morgen.", "en": "Doctor Weber's practice, my name is Baumann, good morning.", "ur": "Doctor Weber ka clinic, mera naam Baumann hai, subh bakhair." },
+        { "s": "B", "de": "Guten Morgen, Frau Baumann. Khan hier. Es tut mir leid, dass ich so früh anrufe.", "en": "Good morning, Mrs Baumann. Khan here. I'm sorry for calling so early.", "ur": "Subh bakhair, Frau Baumann. Khan bol rahi hoon. Maazrat ke itni jaldi phone kar rahi hoon." },
+        { "s": "B", "de": "Aber ich mache mir Sorgen um meinen Sohn.", "en": "But I am worried about my son.", "ur": "Lekin mujhe apne bete ki fikar ho rahi hai." },
+        { "s": "A", "de": "Kein Problem, dafür sind wir da. Was ist denn passiert?", "en": "No problem, that's what we're here for. What happened?", "ur": "Koi baat nahi, hum isi liye hain. Kya hua hai?" },
+        { "s": "B", "de": "Er hat die ganze Nacht gehustet und heute Morgen hatte er fast neununddreißig Grad Fieber.", "en": "He coughed all night and this morning he had almost thirty-nine degrees of fever.", "ur": "Woh saari raat khansta raha aur aaj subh usay taqreeban unatalees degree bukhar tha." },
+        { "s": "A", "de": "Hat er auch Atemprobleme oder hat er sich übergeben?", "en": "Does he also have breathing problems, or has he vomited?", "ur": "Kya usay saans lene mein bhi mushkil hai ya us ne ulti ki hai?" },
+        { "s": "B", "de": "Übergeben hat er sich nicht, aber beim Atmen pfeift es manchmal.", "en": "He hasn't vomited, but sometimes there's a wheezing when he breathes.", "ur": "Ulti nahi ki, lekin kabhi kabhi saans lete waqt seeti si awaaz aati hai." },
+        { "s": "B", "de": "Deshalb wollte ich lieber gleich anrufen.", "en": "That's why I preferred to call right away.", "ur": "Isi liye main ne foran phone karna behtar samjha." },
+        { "s": "A", "de": "Das haben Sie richtig gemacht. Wir haben eine Akutsprechstunde zwischen acht und zehn Uhr.", "en": "You did the right thing. We have an urgent walk-in surgery between eight and ten o'clock.", "ur": "Aap ne theek kiya. Hamare paas aath se das baje tak emergency waqt hota hai." },
+        { "s": "A", "de": "Da können Sie ohne festen Termin kommen.", "en": "You can come then without a fixed appointment.", "ur": "Us waqt aap bina appointment ke aa sakti hain." },
+        { "s": "B", "de": "Wie lange muss ich dann ungefähr warten?", "en": "Roughly how long will I have to wait then?", "ur": "To phir mujhe taqreeban kitna intezaar karna hoga?" },
+        { "s": "A", "de": "Das kommt darauf an, wie viele Kinder vor Ihnen da sind. Rechnen Sie mit einer halben Stunde bis zu einer Stunde.", "en": "That depends on how many children are there before you. Count on half an hour up to an hour.", "ur": "Yeh is par hai ke aap se pehle kitne bachay hain. Aadha ghanta se ek ghanta samjhein." },
+        { "s": "B", "de": "Das ist in Ordnung. Ich versuche, in zwanzig Minuten da zu sein.", "en": "That's fine. I'll try to be there in twenty minutes.", "ur": "Theek hai. Main bees minute mein pohanchne ki koshish karti hoon." },
+        { "s": "A", "de": "Falls es ihm plötzlich schlechter geht, fahren Sie bitte direkt in die Kinderklinik.", "en": "If he suddenly gets worse, please drive straight to the children's hospital.", "ur": "Agar us ki halat achanak kharab ho jaye to seedha bachon ke hospital chali jayein." },
+        { "s": "B", "de": "Woran würde ich das merken?", "en": "How would I notice that?", "ur": "Mujhe kaise pata chalega?" },
+        { "s": "A", "de": "Wenn er sehr schwer atmet, wenn die Lippen blau werden oder wenn er kaum noch trinkt.", "en": "If he breathes very heavily, if his lips turn blue, or if he barely drinks anything.", "ur": "Agar woh bohat mushkil se saans le, hont neelay ho jayein, ya woh mushkil se kuch piye." },
+        { "s": "B", "de": "Gut, darauf achte ich. Soll ich noch etwas mitbringen?", "en": "Good, I'll watch out for that. Should I bring anything else?", "ur": "Acha, main dhyan rakhoongi. Kya kuch aur bhi lana hai?" },
+        { "s": "A", "de": "Die Versichertenkarte, das Untersuchungsheft und den Impfpass, falls Sie ihn finden.", "en": "The insurance card, the check-up booklet and the vaccination record, if you can find it.", "ur": "Insurance card, check-up copy aur teeka card, agar mil jaye to." },
+        { "s": "B", "de": "Ich packe alles ein. Vielen Dank für Ihre Hilfe.", "en": "I'll pack everything. Thank you very much for your help.", "ur": "Main sab rakh loongi. Aap ki madad ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Bis gleich, Frau Khan.", "en": "You're welcome. See you shortly, Mrs Khan.", "ur": "Koi baat nahi. Abhi milte hain, Frau Khan." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Baumann (Praxis)", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Praxis Doktor Weber, Baumann, guten Tag.", "en": "Doctor Weber's practice, Baumann, hello.", "ur": "Doctor Weber ka clinic, Baumann, salam." },
+        { "s": "B", "de": "Guten Tag, Frau Baumann, Khan mein Name. Ich hätte gern einen Termin, möglichst noch in dieser Woche.", "en": "Hello, Mrs Baumann, Khan is my name. I would like an appointment, ideally still this week.", "ur": "Salam, Frau Baumann, mera naam Khan hai. Mujhe appointment chahiye, agar ho sake to isi hafte." },
+        { "s": "A", "de": "Worum geht es denn genau?", "en": "What exactly is it about?", "ur": "Baat asal mein kya hai?" },
+        { "s": "B", "de": "Meiner Tochter geht es seit etwa zehn Tagen nicht besonders gut.", "en": "My daughter hasn't been feeling particularly well for about ten days.", "ur": "Meri beti ki tabiyat taqreeban das din se theek nahi hai." },
+        { "s": "B", "de": "Sie ist ständig müde, hat wenig Appetit und klagt immer wieder über Bauchschmerzen.", "en": "She is constantly tired, has little appetite and repeatedly complains about stomach ache.", "ur": "Woh hamesha thaki rehti hai, bhook kam hai aur baar baar pait dard ki shikayat karti hai." },
+        { "s": "A", "de": "Wurde sie deswegen schon einmal untersucht?", "en": "Has she already been examined for this?", "ur": "Kya is wajah se us ka pehle muaina hua hai?" },
+        { "s": "B", "de": "Vor einer Woche waren wir im Notdienst. Dort wurde nichts Auffälliges festgestellt, aber die Beschwerden sind geblieben.", "en": "A week ago we were at the emergency service. Nothing unusual was found there, but the symptoms have remained.", "ur": "Ek hafta pehle hum emergency gaye thay. Wahan koi khaas baat nahi mili, lekin takleef bar qarar hai." },
+        { "s": "A", "de": "Dann wäre es sinnvoll, das in Ruhe abzuklären, und nicht zwischen Tür und Angel in der Akutsprechstunde.", "en": "Then it would make sense to look into it calmly, and not in passing during the walk-in surgery.", "ur": "To behtar hoga ke isay itminan se dekha jaye, jaldi jaldi emergency waqt mein nahi." },
+        { "s": "B", "de": "Genau das ist mein Gedanke. Hätten Sie einen längeren Termin, bei dem der Arzt sich Zeit nehmen kann?", "en": "That is exactly my thought. Would you have a longer appointment where the doctor can take their time?", "ur": "Bilkul yehi meri soch hai. Kya aap ke paas lamba appointment hai jis mein doctor waqt de sakein?" },
+        { "s": "A", "de": "Am Donnerstag um vierzehn Uhr ist mir gerade ein Vorsorgetermin frei geworden. Der wäre lang genug.", "en": "On Thursday at two o'clock a check-up slot has just become free. That would be long enough.", "ur": "Jumeraat ko do baje abhi ek check-up ka waqt khali hua hai. Woh kaafi lamba hoga." },
+        { "s": "B", "de": "Donnerstag um vierzehn Uhr würde mir sehr gut passen.", "en": "Thursday at two o'clock would suit me very well.", "ur": "Jumeraat do baje mere liye bohat munasib hoga." },
+        { "s": "A", "de": "Es wäre hilfreich, wenn Sie vorher notieren würden, wann die Schmerzen auftreten und was Ihre Tochter jeweils gegessen hat.", "en": "It would be helpful if you noted down beforehand when the pain occurs and what your daughter had eaten each time.", "ur": "Madadgar hoga agar aap pehle likh lein ke dard kab hota hai aur us waqt beti ne kya khaya tha." },
+        { "s": "B", "de": "Soll ich das für die ganze Woche aufschreiben?", "en": "Should I write that down for the whole week?", "ur": "Kya main poore hafte ke liye likhoon?" },
+        { "s": "A", "de": "Idealerweise ja. So ein Beschwerdetagebuch sagt uns oft mehr als jede einzelne Untersuchung.", "en": "Ideally yes. Such a symptom diary often tells us more than any single examination.", "ur": "Behtar yehi hai. Aisi shikayat diary aksar kisi bhi ek test se zyada batati hai." },
+        { "s": "B", "de": "Das mache ich. Sollte ich vorsichtshalber nüchtern kommen, falls Blut abgenommen wird?", "en": "I'll do that. Should she come on an empty stomach just in case, if blood is taken?", "ur": "Main karti hoon. Kya ehtiyatan khali pait aana chahiye, agar khoon liya jaye?" },
+        { "s": "A", "de": "Das wäre nicht verkehrt. Falls es doch nicht nötig ist, kann Ihre Tochter anschließend etwas essen.", "en": "That wouldn't be wrong. If it turns out not to be necessary, your daughter can eat something afterwards.", "ur": "Yeh ghalat nahi hoga. Agar zaroorat na pari to beti baad mein kuch kha sakti hai." },
+        { "s": "B", "de": "Verstanden. Dann bringe ich ihr ein Brot mit. Vielen Dank für Ihre Geduld.", "en": "Understood. Then I'll bring her a sandwich. Thank you for your patience.", "ur": "Samajh gayi. To main us ke liye bread le aaoongi. Aap ke sabr ka shukriya." },
+        { "s": "A", "de": "Nicht dafür. Wir sehen uns am Donnerstag, Frau Khan.", "en": "Don't mention it. We'll see each other on Thursday, Mrs Khan.", "ur": "Koi baat nahi. Jumeraat ko milte hain, Frau Khan." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Baumann, Arzthelferin",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Sie rufen in der Kinderarztpraxis an. Ihr Sohn hat seit zwei Tagen Fieber.",
+        "en": "You call the pediatric practice. Your son has had a fever for two days.",
+        "ur": "Aap bachon ke clinic phone karte hain. Bete ko do din se bukhar hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Praxis Doktor Weber, guten Tag.",
+          "goal": { "en": "Say hello and say you need an appointment for your son.", "ur": "Salam karein aur kahein ke bete ke liye appointment chahiye." },
+          "options": ["Guten Tag, ich brauche einen Termin für meinen Sohn.", "Guten Tag. Ich möchte einen Termin für meinen Sohn."],
+          "fallback": "Entschuldigung, ich habe Sie nicht verstanden. Was möchten Sie?",
+          "accept": [{ "kw": ["guten", "termin", "sohn"], "next": "n2" }, { "kw": ["termin"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gern. Wie alt ist Ihr Sohn?",
+          "goal": { "en": "Say that he is four years old.", "ur": "Kahein ke woh chaar saal ka hai." },
+          "options": ["Er ist vier Jahre alt.", "Vier Jahre."],
+          "fallback": "Wie alt ist er denn genau?",
+          "accept": [{ "kw": ["vier", "jahre"], "next": "n3" }, { "kw": ["vier"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Und was hat er?",
+          "goal": { "en": "Say he has a fever and coughs a lot.", "ur": "Kahein ke usay bukhar hai aur bohat khansta hai." },
+          "options": ["Er hat Fieber und er hustet viel.", "Er hat Fieber. Er hustet auch."],
+          "fallback": "Können Sie mir sagen, welche Beschwerden er hat?",
+          "accept": [{ "kw": ["fieber", "hustet"], "next": "n4" }, { "kw": ["fieber"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Seit wann hat er Fieber?",
+          "goal": { "en": "Say: for two days.", "ur": "Kahein: do din se." },
+          "options": ["Seit zwei Tagen.", "Er hat seit zwei Tagen Fieber."],
+          "fallback": "Seit gestern? Seit einer Woche?",
+          "accept": [{ "kw": ["seit", "zwei", "tagen"], "next": "n5" }, { "kw": ["zwei"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Können Sie heute um fünfzehn Uhr kommen?",
+          "goal": { "en": "Say yes, that works for you.", "ur": "Haan kahein, yeh waqt theek hai." },
+          "options": ["Ja, das geht.", "Ja, um fünfzehn Uhr ist gut."],
+          "fallback": "Passt Ihnen der Termin oder nicht?",
+          "accept": [
+            { "kw": ["ja"], "next": "n6" },
+            { "kw": ["nein"], "reply": "Kein Problem. Dann nehmen wir morgen um neun Uhr.", "next": "n6" }
+          ]
+        },
+        "n6": {
+          "say": "Bitte bringen Sie die Versichertenkarte mit.",
+          "goal": { "en": "Say yes and say thank you and goodbye.", "ur": "Haan kahein, shukriya kahein aur khuda hafiz." },
+          "options": ["Ja, natürlich. Vielen Dank. Auf Wiederhören.", "Gut. Danke schön. Auf Wiederhören."],
+          "fallback": "Haben Sie das notiert?",
+          "accept": [
+            { "kw": ["danke", "wiederhören"], "reply": "Bis später. Auf Wiederhören.", "next": "END" },
+            { "kw": ["danke"], "reply": "Bis später. Auf Wiederhören.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Baumann, Arzthelferin",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Ihre Tochter hat die ganze Nacht gehustet und hohes Fieber. Sie rufen morgens in der Praxis an.",
+        "en": "Your daughter coughed all night and has a high fever. You call the practice in the morning.",
+        "ur": "Aap ki beti saari raat khansti rahi aur tez bukhar hai. Aap subh clinic phone karte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Praxis Doktor Weber, mein Name ist Baumann, guten Morgen.",
+          "goal": { "en": "Greet, give your name, and say you are worried about your daughter.", "ur": "Salam karein, apna naam batayein aur kahein ke aap ko beti ki fikar hai." },
+          "options": ["Guten Morgen, Khan hier. Ich mache mir Sorgen um meine Tochter.", "Guten Morgen, mein Name ist Khan. Ich mache mir Sorgen um meine Tochter."],
+          "fallback": "Entschuldigung, worum geht es?",
+          "accept": [{ "kw": ["guten", "sorgen", "tochter"], "next": "n2" }, { "kw": ["tochter"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Problem, dafür sind wir da. Was ist denn passiert?",
+          "goal": { "en": "Say she coughed all night and had almost 39 degrees this morning.", "ur": "Kahein ke woh saari raat khansti rahi aur aaj subh taqreeban unatalees degree bukhar tha." },
+          "options": ["Sie hat die ganze Nacht gehustet und heute Morgen hatte sie fast neununddreißig Grad Fieber.", "Sie hat die ganze Nacht gehustet und hat hohes Fieber."],
+          "fallback": "Können Sie die Beschwerden genauer beschreiben?",
+          "accept": [{ "kw": ["nacht", "gehustet", "fieber"], "next": "n3" }, { "kw": ["gehustet"], "next": "n3" }, { "kw": ["fieber"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Hat sie auch Atemprobleme oder hat sie sich übergeben?",
+          "goal": { "en": "Say she hasn't vomited, but there is sometimes a wheezing when she breathes.", "ur": "Kahein ke ulti nahi ki, lekin kabhi kabhi saans lete waqt seeti si awaaz aati hai." },
+          "options": ["Übergeben hat sie sich nicht, aber beim Atmen pfeift es manchmal.", "Nein, aber beim Atmen pfeift es manchmal."],
+          "fallback": "Atmet sie normal? Hat sie erbrochen?",
+          "accept": [{ "kw": ["atmen", "pfeift"], "next": "n4" }, { "kw": ["nicht", "atmen"], "next": "n4" }, { "kw": ["pfeift"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das haben Sie richtig gemacht. Wir haben eine Akutsprechstunde zwischen acht und zehn Uhr, da können Sie ohne festen Termin kommen.",
+          "goal": { "en": "Ask roughly how long you will have to wait.", "ur": "Poochein ke taqreeban kitna intezaar karna hoga." },
+          "options": ["Wie lange muss ich ungefähr warten?", "Wie lange dauert die Wartezeit?"],
+          "fallback": "Haben Sie dazu noch eine Frage?",
+          "accept": [{ "kw": ["wie", "lange", "warten"], "next": "n5" }, { "kw": ["warten"], "next": "n5" }, { "kw": ["wartezeit"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das kommt darauf an, wie viele Kinder vor Ihnen sind. Rechnen Sie mit einer halben Stunde bis zu einer Stunde.",
+          "goal": { "en": "Say that's fine and that you'll try to be there in twenty minutes.", "ur": "Kahein theek hai aur aap bees minute mein pohanchne ki koshish karengi." },
+          "options": ["Das ist in Ordnung. Ich versuche, in zwanzig Minuten da zu sein.", "Gut. Ich bin in zwanzig Minuten da."],
+          "fallback": "Schaffen Sie das?",
+          "accept": [{ "kw": ["zwanzig", "minuten"], "next": "n6" }, { "kw": ["ordnung"], "next": "n6" }, { "kw": ["gut"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Falls es ihr plötzlich schlechter geht, fahren Sie bitte direkt in die Kinderklinik.",
+          "goal": { "en": "Ask how you would notice that.", "ur": "Poochein ke aap ko kaise pata chalega." },
+          "options": ["Woran würde ich das merken?", "Wie merke ich das?"],
+          "fallback": "Ist Ihnen das klar so?",
+          "accept": [{ "kw": ["woran", "merken"], "next": "n7" }, { "kw": ["merke"], "next": "n7" }, { "kw": ["wie"], "next": "n7" }]
+        },
+        "n7": {
+          "say": "Wenn sie sehr schwer atmet, wenn die Lippen blau werden oder wenn sie kaum noch trinkt.",
+          "goal": { "en": "Ask whether you should bring anything else.", "ur": "Poochein ke kya kuch aur bhi lana hai." },
+          "options": ["Soll ich noch etwas mitbringen?", "Muss ich noch etwas mitbringen?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["etwas", "mitbringen"], "next": "n8" }, { "kw": ["mitbringen"], "next": "n8" }]
+        },
+        "n8": {
+          "say": "Die Versichertenkarte, das Untersuchungsheft und den Impfpass, falls Sie ihn finden.",
+          "goal": { "en": "Say you'll pack everything and thank her for her help.", "ur": "Kahein ke aap sab rakh lengi aur madad ka shukriya." },
+          "options": ["Ich packe alles ein. Vielen Dank für Ihre Hilfe.", "Gut, ich bringe alles mit. Danke für Ihre Hilfe."],
+          "fallback": "Haben Sie alles notiert?",
+          "accept": [
+            { "kw": ["danke", "hilfe"], "reply": "Gern geschehen. Bis gleich, Frau Khan.", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen. Bis gleich.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

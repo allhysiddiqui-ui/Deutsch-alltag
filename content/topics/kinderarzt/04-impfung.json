@@ -1,0 +1,220 @@
+{
+  "id": "impfung",
+  "order": 4,
+  "icon": "💉",
+  "title": { "de": "Vorsorge und Impfung", "en": "Check-up and vaccination", "ur": "Check-up aur teeka" },
+  "angle": "The U check-up, measuring, and the vaccination · U check-up, napna aur teeka",
+  "words": ["impfung", "impfpass", "gesund", "größe", "wiegen", "spritze", "nebenwirkung", "masern", "aufklärung", "einwilligung"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Heute ist die U8. Wie geht es Yusuf?", "en": "Hello. Today is the U8 check-up. How is Yusuf?", "ur": "Salam. Aaj U8 check-up hai. Yusuf kaisa hai?" },
+        { "s": "B", "de": "Gut. Er ist gesund.", "en": "Good. He is healthy.", "ur": "Acha. Woh theek hai." },
+        { "s": "A", "de": "Zuerst messen wir Größe und Gewicht.", "en": "First we measure height and weight.", "ur": "Pehle hum qad aur wazan naapte hain." },
+        { "s": "B", "de": "Yusuf, stell dich bitte hierhin.", "en": "Yusuf, please stand here.", "ur": "Yusuf, yahan khare ho jao." },
+        { "s": "A", "de": "Er ist einen Meter groß und wiegt siebzehn Kilo.", "en": "He is one metre tall and weighs seventeen kilos.", "ur": "Woh ek meter lamba hai aur sattarah kilo ka hai." },
+        { "s": "B", "de": "Ist das normal?", "en": "Is that normal?", "ur": "Kya yeh normal hai?" },
+        { "s": "A", "de": "Ja, das ist sehr gut.", "en": "Yes, that is very good.", "ur": "Ji haan, yeh bohat acha hai." },
+        { "s": "A", "de": "Yusuf, kannst du auf einem Bein stehen?", "en": "Yusuf, can you stand on one leg?", "ur": "Yusuf, kya tum ek taang par khare ho sakte ho?" },
+        { "s": "B", "de": "Ja, das kann er gut.", "en": "Yes, he can do that well.", "ur": "Ji haan, woh yeh acha kar leta hai." },
+        { "s": "A", "de": "Sehr schön. Jetzt kommt die Impfung.", "en": "Very nice. Now comes the vaccination.", "ur": "Bohat khoob. Ab teeka lagega." },
+        { "s": "B", "de": "Tut das weh?", "en": "Does that hurt?", "ur": "Kya is se dard hoga?" },
+        { "s": "A", "de": "Nur ganz kurz. Wie ein kleiner Piks.", "en": "Only very briefly. Like a small prick.", "ur": "Sirf thori dair. Ek chhoti si chubhan jaisa." },
+        { "s": "B", "de": "Yusuf, halt bitte den Arm still.", "en": "Yusuf, please keep your arm still.", "ur": "Yusuf, baazu ko sakit rakho." },
+        { "s": "A", "de": "Fertig! Du warst sehr tapfer.", "en": "Done! You were very brave.", "ur": "Ho gaya! Tum bohat bahadur ho." },
+        { "s": "B", "de": "Braucht er heute noch etwas?", "en": "Does he need anything else today?", "ur": "Kya aaj usay aur kuch chahiye?" },
+        { "s": "A", "de": "Nein. Der nächste Termin ist in zwei Jahren.", "en": "No. The next appointment is in two years.", "ur": "Nahi. Agla appointment do saal baad hai." },
+        { "s": "B", "de": "Vielen Dank, Herr Doktor.", "en": "Thank you very much, doctor.", "ur": "Bohat shukriya, doctor sahab." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Khan. Haben Sie den Impfpass und das Untersuchungsheft dabei?", "en": "Hello, Mrs Khan. Do you have the vaccination record and the check-up booklet with you?", "ur": "Salam, Frau Khan. Kya teeka card aur check-up copy saath hai?" },
+        { "s": "B", "de": "Ja, beides. Hier bitte.", "en": "Yes, both. Here you are.", "ur": "Ji haan, dono. Yeh lijiye." },
+        { "s": "A", "de": "Danke. Bei der U8 prüfen wir Sehen, Hören, Sprache und Bewegung.", "en": "Thank you. At the U8 we check vision, hearing, speech and movement.", "ur": "Shukriya. U8 mein hum nazar, sunna, bolna aur harkat dekhte hain." },
+        { "s": "B", "de": "Beim Sehen bin ich nicht sicher. Er sitzt sehr nah vor dem Fernseher.", "en": "About the vision I'm not sure. He sits very close to the television.", "ur": "Nazar ke baare mein mujhe yaqeen nahi. Woh TV ke bohat qareeb baithta hai." },
+        { "s": "A", "de": "Gut, dass Sie das sagen. Wir machen gleich einen Sehtest.", "en": "Good that you say that. We'll do an eye test right away.", "ur": "Acha hua aap ne bataya. Hum abhi nazar ka test karte hain." },
+        { "s": "B", "de": "Und wenn er die Bilder nicht erkennt?", "en": "And if he doesn't recognise the pictures?", "ur": "Aur agar woh tasveerein na pehchane?" },
+        { "s": "A", "de": "Dann schicke ich Sie zum Augenarzt. Das ist in diesem Alter ganz normal.", "en": "Then I'll send you to the eye doctor. That is completely normal at this age.", "ur": "To main aap ko aankhon ke doctor ke paas bhej doonga. Is umar mein yeh aam hai." },
+        { "s": "B", "de": "Verstanden. Und die Sprache? Er mischt Deutsch und Urdu.", "en": "Understood. And speech? He mixes German and Urdu.", "ur": "Samajh gayi. Aur bolna? Woh German aur Urdu mila deta hai." },
+        { "s": "A", "de": "Das ist kein Problem, sondern ein Vorteil. Zweisprachige Kinder machen das fast alle.", "en": "That is not a problem but an advantage. Almost all bilingual children do that.", "ur": "Yeh masla nahi balke faida hai. Do zabanon wale bachay tqreeban sab yehi karte hain." },
+        { "s": "B", "de": "Das beruhigt mich. In der Kita hat man mir gesagt, ich soll zu Hause nur Deutsch sprechen.", "en": "That reassures me. At daycare I was told I should only speak German at home.", "ur": "Is se tasalli hui. Kita mein mujhe kaha gaya ke ghar par sirf German bolein." },
+        { "s": "A", "de": "Das ist ein alter Rat und er stimmt nicht. Sprechen Sie zu Hause die Sprache, die Sie am besten können.", "en": "That is old advice and it isn't correct. At home speak the language you know best.", "ur": "Yeh purani baat hai aur theek nahi. Ghar par wohi zaban bolein jo aap sab se behtar jaanti hain." },
+        { "s": "B", "de": "Das mache ich gern. Und heute steht auch eine Impfung an, oder?", "en": "I'll gladly do that. And there is also a vaccination due today, right?", "ur": "Yeh main khushi se karoongi. Aur aaj teeka bhi hai, na?" },
+        { "s": "A", "de": "Genau, die Auffrischung gegen Masern, Mumps und Röteln.", "en": "Exactly, the booster against measles, mumps and rubella.", "ur": "Bilkul, khasra, kanpere aur rubella ka booster." },
+        { "s": "B", "de": "Kann er danach Fieber bekommen?", "en": "Can he get a fever afterwards?", "ur": "Kya us ke baad bukhar ho sakta hai?" },
+        { "s": "A", "de": "Manche Kinder bekommen nach einer Woche leichtes Fieber. Das ist normal und geht von allein weg.", "en": "Some children get a slight fever after a week. That is normal and goes away by itself.", "ur": "Kuch bachon ko ek hafte baad halka bukhar hota hai. Yeh normal hai aur khud theek ho jata hai." },
+        { "s": "B", "de": "Soll ich ihm dann Fiebersaft geben?", "en": "Should I give him fever syrup then?", "ur": "To kya main usay bukhar ka syrup doon?" },
+        { "s": "A", "de": "Nur wenn er sich unwohl fühlt. Nicht vorbeugend.", "en": "Only if he feels unwell. Not as a precaution.", "ur": "Sirf agar usay takleef ho. Pehle se nahi." },
+        { "s": "B", "de": "Alles klar. Dann machen wir das so.", "en": "All right. Then we'll do it that way.", "ur": "Theek hai. To hum aisa hi karte hain." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Heute wäre die zweite Masernimpfung dran. Haben Sie dazu noch Fragen?", "en": "Today the second measles vaccination would be due. Do you have any questions about it?", "ur": "Aaj khasre ka doosra teeka hai. Kya is baare mein koi sawal hai?" },
+        { "s": "B", "de": "Ehrlich gesagt bin ich unsicher. In einer Gruppe im Internet steht, dass die Impfung zu früh kommt.", "en": "To be honest I'm unsure. In a group on the internet it says the vaccination comes too early.", "ur": "Sach kahoon to mujhe shak hai. Internet ke ek group mein likha hai ke teeka bohat jaldi lagta hai." },
+        { "s": "A", "de": "Ich verstehe die Verunsicherung. Wichtig ist, woher die Information kommt und ob sie überprüfbar ist.", "en": "I understand the uncertainty. What matters is where the information comes from and whether it can be checked.", "ur": "Main pareshani samajhta hoon. Ahem yeh hai ke maloomat kahan se aayi aur kya us ki tasdeeq ho sakti hai." },
+        { "s": "B", "de": "Woran erkenne ich denn, ob eine Quelle seriös ist?", "en": "How do I recognise whether a source is reliable?", "ur": "Mujhe kaise pata chale ke maloomat qabil-e-aitbaar hai?" },
+        { "s": "A", "de": "Seriöse Stellen nennen ihre Daten und ihre Zweifel. Wer nur Angst macht und nichts belegt, will meist etwas verkaufen.", "en": "Reliable sources name their data and their doubts. Whoever only creates fear and proves nothing usually wants to sell something.", "ur": "Qabil-e-aitbaar log apna data aur apne shukook batate hain. Jo sirf darata hai aur saboot nahi deta woh aksar kuch bechna chahta hai." },
+        { "s": "B", "de": "Das leuchtet mir ein. Trotzdem: Was passiert im schlimmsten Fall nach der Impfung?", "en": "That makes sense to me. Still: what happens in the worst case after the vaccination?", "ur": "Yeh baat samajh aati hai. Phir bhi: teeke ke baad bad tareen soorat mein kya hota hai?" },
+        { "s": "A", "de": "Bei etwa fünf von hundert Kindern kommt es zu Fieber und einem leichten Ausschlag, meist in der zweiten Woche.", "en": "In about five out of a hundred children fever and a mild rash occur, usually in the second week.", "ur": "Taqreeban har sau mein se paanch bachon ko bukhar aur halke dane hote hain, aksar doosre hafte." },
+        { "s": "B", "de": "Und wirklich schwere Reaktionen?", "en": "And really severe reactions?", "ur": "Aur waqai sangeen rad-e-amal?" },
+        { "s": "A", "de": "Die sind sehr selten, in der Größenordnung von eins zu einer Million. Eine echte Masernerkrankung ist um ein Vielfaches gefährlicher.", "en": "Those are very rare, in the order of one in a million. An actual measles infection is many times more dangerous.", "ur": "Woh bohat kam hain, das lakh mein ek jitna. Asli khasra kai guna zyada khatarnak hai." },
+        { "s": "B", "de": "Wie gefährlich ist Masern denn heute noch? Man hört ja kaum davon.", "en": "How dangerous are measles nowadays? You hardly hear about them.", "ur": "Aaj kal khasra kitna khatarnak hai? Sunne mein bohat kam aata hai." },
+        { "s": "A", "de": "Genau deshalb hört man wenig davon: weil fast alle geimpft sind. Sobald die Impfquote sinkt, kommen die Ausbrüche zurück.", "en": "That is exactly why you hear little about it: because almost everyone is vaccinated. As soon as the vaccination rate falls, the outbreaks come back.", "ur": "Isi liye kam sunte hain: kyunke taqreeban sab ko teeka laga hai. Jaise hi teeke kam hon, beemari wapis aa jati hai." },
+        { "s": "B", "de": "Das habe ich so noch nie gehört. Es gibt in Deutschland doch auch eine Pflicht, oder?", "en": "I've never heard it put that way. There is also an obligation in Germany, isn't there?", "ur": "Main ne yeh is tarah kabhi nahi suna. Germany mein is ki pabandi bhi hai, na?" },
+        { "s": "A", "de": "Für Masern ja. Kinder in der Kita müssen den Schutz nachweisen. Ohne Nachweis kann die Einrichtung Ihr Kind ablehnen.", "en": "For measles yes. Children at daycare have to prove protection. Without proof the facility can turn your child away.", "ur": "Khasre ke liye haan. Kita ke bachon ko saboot dena hota hai. Baghair saboot ke idara bache ko mana kar sakta hai." },
+        { "s": "B", "de": "Das wusste ich nicht. Dann machen wir die Impfung heute.", "en": "I didn't know that. Then let's do the vaccination today.", "ur": "Yeh mujhe nahi pata tha. To hum aaj teeka laga dete hain." },
+        { "s": "A", "de": "Ich lege Ihnen trotzdem den Aufklärungsbogen vor. Lesen Sie ihn in Ruhe, ich habe Zeit.", "en": "I'll still give you the information sheet. Read it calmly, I have time.", "ur": "Phir bhi main aap ko maloomati form deta hoon. Itminan se parhein, mere paas waqt hai." },
+        { "s": "B", "de": "Danke, dass Sie mich nicht gedrängt haben.", "en": "Thank you for not pushing me.", "ur": "Shukriya ke aap ne dabao nahi dala." },
+        { "s": "A", "de": "Eine Entscheidung, die man versteht, hält länger als eine, zu der man überredet wurde.", "en": "A decision you understand lasts longer than one you were talked into.", "ur": "Jo faisla samajh kar kiya jaye woh us se behtar hai jo baaton mein aa kar kiya jaye." },
+        { "s": "B", "de": "Da haben Sie recht. Ich unterschreibe.", "en": "You're right there. I'll sign.", "ur": "Aap theek kehte hain. Main dastakhat karti hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Weber", "B": "Frau Khan (Mutter)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Bevor wir impfen, muss ich Sie formal aufklären. Das ist keine Formalität, sondern Ihre Grundlage für die Einwilligung.", "en": "Before we vaccinate I have to inform you formally. That is not a formality but the basis for your consent.", "ur": "Teeke se pehle mujhe aap ko baqaida maloomat deni hain. Yeh sirf rasm nahi balke aap ki ijazat ki bunyaad hai." },
+        { "s": "B", "de": "Gut. Mich interessiert vor allem, wie Sie den Nutzen gegen das Risiko abwägen.", "en": "Good. What interests me above all is how you weigh the benefit against the risk.", "ur": "Acha. Mujhe sab se zyada yeh jan-na hai ke aap faide aur nuqsan ka moazna kaise karte hain." },
+        { "s": "A", "de": "Nüchtern gesagt: Der Nutzen ist gut belegt, die Risiken sind quantifiziert und beide stehen in keinem Verhältnis zueinander.", "en": "Put soberly: the benefit is well documented, the risks are quantified, and the two are in no proportion to each other.", "ur": "Saaf kahoon: faida saabit shuda hai, khatrat ginay ja chuke hain, aur dono ka koi moazna hi nahi banta." },
+        { "s": "B", "de": "Können Sie das an Zahlen festmachen? Ich arbeite selbst mit Statistik und Prozentangaben helfen mir mehr als Beruhigung.", "en": "Can you pin that down in numbers? I work with statistics myself, and percentages help me more than reassurance.", "ur": "Kya aap yeh numbers mein bata sakte hain? Main khud statistics mein kaam karti hoon, mujhe percentage tasalli se zyada madad deti hai." },
+        { "s": "A", "de": "Sehr gern. Bei Masern erkrankt eines von tausend Kindern an einer Gehirnentzündung, und ein Teil davon behält bleibende Schäden.", "en": "Gladly. With measles, one in a thousand children develops encephalitis, and some of them retain permanent damage.", "ur": "Zaroor. Khasre mein har hazaar mein se ek bache ko dimagh ki sozish hoti hai, aur un mein se kuch ko mustaqil nuqsan reh jata hai." },
+        { "s": "B", "de": "Und auf der anderen Seite?", "en": "And on the other side?", "ur": "Aur doosri taraf?" },
+        { "s": "A", "de": "Auf der Impfseite reden wir bei den schweren Ereignissen über einen Fall pro einer Million Dosen. Der Faktor liegt also bei etwa tausend.", "en": "On the vaccine side, for severe events we are talking about one case per million doses. So the factor is around a thousand.", "ur": "Teeke ki taraf sangeen waqiat das lakh khurakon mein ek hote hain. Yani farq taqreeban ek hazaar guna hai." },
+        { "s": "B", "de": "Das ist deutlich. Wie sicher sind diese Zahlen, gerade bei seltenen Ereignissen?", "en": "That is clear. How reliable are these numbers, especially for rare events?", "ur": "Yeh saaf hai. Yeh numbers kitne pukhta hain, khaas kar kam hone wale waqiat mein?" },
+        { "s": "A", "de": "Bei seltenen Ereignissen wird die Unsicherheit naturgemäß größer, deshalb werden Verdachtsfälle bundesweit erfasst und veröffentlicht.", "en": "With rare events the uncertainty naturally becomes larger, which is why suspected cases are recorded and published nationwide.", "ur": "Kam hone wale waqiat mein ghair yaqeeni surat qudrati tor par barh jati hai, isi liye shubah wale case poore mulk mein darj aur shaya kiye jate hain." },
+        { "s": "B", "de": "Das heißt, es gibt eine Stelle, an die Sie melden müssten, wenn bei Yusuf etwas auffällt?", "en": "That means there is an office you would have to report to if something unusual happened with Yusuf?", "ur": "Yani ek idara hai jise aap ko ittila deni hogi agar Yusuf mein kuch ghair mamooli ho?" },
+        { "s": "A", "de": "Genau, und ich würde es auch tun. Das gehört zum System dazu, sonst wären die Zahlen wertlos.", "en": "Exactly, and I would do it too. That is part of the system, otherwise the numbers would be worthless.", "ur": "Bilkul, aur main aisa karoonga bhi. Yeh nizam ka hissa hai, warna numbers bekaar hote." },
+        { "s": "B", "de": "Eine letzte Frage: Yusuf hatte vor drei Tagen leichten Schnupfen. Spricht das gegen den Termin heute?", "en": "One last question: Yusuf had a slight runny nose three days ago. Does that speak against today's appointment?", "ur": "Aakhri sawal: Yusuf ko teen din pehle halka zukam tha. Kya is wajah se aaj ka waqt theek nahi?" },
+        { "s": "A", "de": "Ein banaler Infekt ohne Fieber ist kein Hinderungsgrund. Wir verschieben nur bei akuten, fieberhaften Erkrankungen.", "en": "A trivial infection without fever is no reason to postpone. We only postpone with acute, feverish illnesses.", "ur": "Halka infection baghair bukhar ke rukawat nahi. Hum sirf tez bukhar wali beemari mein taal dete hain." },
+        { "s": "B", "de": "Dann ist alles geklärt. Ich unterschreibe die Einwilligung.", "en": "Then everything is clarified. I'll sign the consent.", "ur": "To sab baat saaf ho gayi. Main ijazat par dastakhat karti hoon." },
+        { "s": "A", "de": "Danke für das offene Gespräch. Ehrlich gesagt sind mir kritische Eltern lieber als gleichgültige.", "en": "Thank you for the open conversation. To be honest I prefer critical parents to indifferent ones.", "ur": "Khuli guftagu ka shukriya. Sach kahoon to mujhe sawal karne wale walidain la-taalluq walidain se behtar lagte hain." },
+        { "s": "B", "de": "Das höre ich zum ersten Mal von einem Arzt.", "en": "That's the first time I've heard that from a doctor.", "ur": "Yeh main ne kisi doctor se pehli baar suna hai." },
+        { "s": "A", "de": "Dann haben Sie bisher die falschen Ärzte getroffen. So, Yusuf, jetzt der Arm — es zwickt einmal kurz.", "en": "Then you have met the wrong doctors so far. Right, Yusuf, now the arm — it will pinch once, briefly.", "ur": "To ab tak aap ghalat doctors se mile hain. Acha Yusuf, ab baazu — ek dafa halki si chubhan hogi." },
+        { "s": "B", "de": "Er hat gar nicht geweint. Das hätte ich nicht gedacht.", "en": "He didn't cry at all. I wouldn't have thought that.", "ur": "Woh bilkul nahi roya. Main ne yeh socha bhi nahi tha." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Weber",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Yusuf hat heute die U8 und bekommt eine Impfung.",
+        "en": "Yusuf has his U8 check-up today and gets a vaccination.",
+        "ur": "Aaj Yusuf ka U8 check-up hai aur teeka bhi lagega."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Heute ist die U8. Wie geht es Yusuf?",
+          "goal": { "en": "Say he is well / healthy.", "ur": "Kahein ke woh theek aur sehatmand hai." },
+          "options": ["Gut. Er ist gesund.", "Es geht ihm gut. Er ist gesund."],
+          "fallback": "Wie geht es ihm denn?",
+          "accept": [{ "kw": ["gut", "gesund"], "next": "n2" }, { "kw": ["gesund"], "next": "n2" }, { "kw": ["gut"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Zuerst messen wir Größe und Gewicht. Er ist einen Meter groß und wiegt siebzehn Kilo.",
+          "goal": { "en": "Ask whether that is normal.", "ur": "Poochein ke kya yeh normal hai." },
+          "options": ["Ist das normal?", "Ist das normal für sein Alter?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["normal"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, das ist sehr gut. Jetzt kommt die Impfung.",
+          "goal": { "en": "Ask whether it hurts.", "ur": "Poochein ke kya is se dard hoga." },
+          "options": ["Tut das weh?", "Tut die Impfung weh?"],
+          "fallback": "Möchten Sie etwas fragen?",
+          "accept": [{ "kw": ["weh"], "next": "n4" }, { "kw": ["tut"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Nur ganz kurz, wie ein kleiner Piks. — Fertig! Er war sehr tapfer.",
+          "goal": { "en": "Ask whether he needs anything else today.", "ur": "Poochein ke kya aaj usay aur kuch chahiye." },
+          "options": ["Braucht er heute noch etwas?", "Müssen wir heute noch etwas machen?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["braucht", "etwas"], "next": "n5" }, { "kw": ["etwas"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nein. Der nächste Termin ist in zwei Jahren.",
+          "goal": { "en": "Thank the doctor and say goodbye.", "ur": "Doctor ka shukriya karein aur khuda hafiz kahein." },
+          "options": ["Vielen Dank, Herr Doktor. Auf Wiedersehen.", "Danke schön. Auf Wiedersehen."],
+          "fallback": "Alles klar so weit?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen, Frau Khan. Bis zum nächsten Mal!", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen, Frau Khan!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Weber",
+      "you": "Vater oder Mutter",
+      "scene": {
+        "de": "Die zweite Masernimpfung steht an. Sie sind unsicher und möchten Fragen stellen.",
+        "en": "The second measles vaccination is due. You are unsure and want to ask questions.",
+        "ur": "Khasre ka doosra teeka hai. Aap ko shak hai aur aap sawal poochna chahti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Heute wäre die zweite Masernimpfung dran. Haben Sie dazu noch Fragen?",
+          "goal": { "en": "Say honestly that you are unsure, because you read something on the internet.", "ur": "Sach batayein ke aap ko shak hai kyunke aap ne internet par kuch parha." },
+          "options": ["Ehrlich gesagt bin ich unsicher. Im Internet steht etwas anderes.", "Ich bin unsicher. Im Internet habe ich etwas anderes gelesen."],
+          "fallback": "Gibt es etwas, das Sie beschäftigt?",
+          "accept": [{ "kw": ["unsicher", "internet"], "next": "n2" }, { "kw": ["unsicher"], "next": "n2" }, { "kw": ["internet"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ich verstehe die Verunsicherung. Wichtig ist, woher die Information kommt und ob sie überprüfbar ist.",
+          "goal": { "en": "Ask how you can recognise whether a source is reliable.", "ur": "Poochein ke qabil-e-aitbaar maloomat kaise pehchanein." },
+          "options": ["Woran erkenne ich, ob eine Quelle seriös ist?", "Wie erkenne ich eine seriöse Quelle?"],
+          "fallback": "Was genau möchten Sie wissen?",
+          "accept": [{ "kw": ["quelle", "seriös"], "next": "n3" }, { "kw": ["erkenne"], "next": "n3" }, { "kw": ["quelle"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Seriöse Stellen nennen ihre Daten und ihre Zweifel. Wer nur Angst macht und nichts belegt, will meist etwas verkaufen.",
+          "goal": { "en": "Ask what happens in the worst case after the vaccination.", "ur": "Poochein ke teeke ke baad bad tareen soorat mein kya hota hai." },
+          "options": ["Was passiert im schlimmsten Fall nach der Impfung?", "Was kann im schlimmsten Fall passieren?"],
+          "fallback": "Möchten Sie über die Risiken sprechen?",
+          "accept": [{ "kw": ["schlimmsten", "fall"], "next": "n4" }, { "kw": ["passiert"], "next": "n4" }, { "kw": ["risiko"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Bei etwa fünf von hundert Kindern kommt es zu Fieber und einem leichten Ausschlag. Schwere Reaktionen liegen bei eins zu einer Million.",
+          "goal": { "en": "Ask how dangerous measles actually still is today.", "ur": "Poochein ke khasra aaj kal waqai kitna khatarnak hai." },
+          "options": ["Wie gefährlich ist Masern denn heute noch?", "Wie gefährlich sind Masern heute?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["gefährlich", "masern"], "next": "n5" }, { "kw": ["gefährlich"], "next": "n5" }, { "kw": ["masern"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Genau deshalb hört man wenig davon: weil fast alle geimpft sind. Sobald die Impfquote sinkt, kommen die Ausbrüche zurück.",
+          "goal": { "en": "Ask whether there is an obligation in Germany.", "ur": "Poochein ke kya Germany mein is ki pabandi hai." },
+          "options": ["Gibt es in Deutschland eine Pflicht?", "Es gibt doch auch eine Pflicht, oder?"],
+          "fallback": "Noch etwas unklar?",
+          "accept": [{ "kw": ["pflicht"], "next": "n6" }, { "kw": ["deutschland"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Für Masern ja. Kinder in der Kita müssen den Schutz nachweisen. Ohne Nachweis kann die Einrichtung Ihr Kind ablehnen.",
+          "goal": { "en": "Say you didn't know that and that you'll do the vaccination today.", "ur": "Kahein ke aap ko yeh nahi pata tha aur aaj teeka laga lenge." },
+          "options": ["Das wusste ich nicht. Dann machen wir die Impfung heute.", "Das wusste ich nicht. Wir machen es heute."],
+          "fallback": "Wie möchten Sie entscheiden?",
+          "accept": [
+            { "kw": ["impfung", "heute"], "reply": "Ich lege Ihnen trotzdem den Aufklärungsbogen vor. Lesen Sie ihn in Ruhe.", "next": "END" },
+            { "kw": ["heute"], "reply": "Gut. Lesen Sie bitte noch den Aufklärungsbogen in Ruhe.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}
