@@ -141,12 +141,15 @@ var TTSDB = null;
 function ttsDbOpen() {
   return new Promise(function (res) {
     if (TTSDB) return res(TTSDB);
+    var done = false, fin = function (v) { if (!done) { done = true; res(v); } };
     try {
       var rq = indexedDB.open('dg-tts', 1);
       rq.onupgradeneeded = function () { rq.result.createObjectStore('audio'); };
-      rq.onsuccess = function () { TTSDB = rq.result; res(TTSDB); };
-      rq.onerror = function () { res(null); };
-    } catch (e) { res(null); }
+      rq.onsuccess = function () { TTSDB = rq.result; fin(TTSDB); };
+      rq.onerror = function () { fin(null); };
+      rq.onblocked = function () { fin(null); };
+      setTimeout(function () { fin(null); }, 1500); // never let a stuck open freeze speech
+    } catch (e) { fin(null); }
   });
 }
 function ttsGet(key) {
@@ -160,7 +163,11 @@ function ttsGet(key) {
 }
 function ttsPut(key, val) { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').put(val, key); } catch (e) {} }); }
 function ttsClear() { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').clear(); } catch (e) {} }); }
-function ttsKey(text) { return 'v1|' + String(text).trim(); }
+function ttsKey(text, voice) { return 'v2|' + (voice || '') + '|' + String(text).trim(); }
+
+// one voice per speaker so a two-person dialogue sounds like two people
+var VOICE_A = 'Kore', VOICE_B = 'Puck';
+function voiceFor(speaker) { return speaker === 'B' ? VOICE_B : VOICE_A; }
 
 var AUDIO = null;
 function stopAudio() {
@@ -179,21 +186,23 @@ function playB64(b64, mime, done) {
   } catch (e) { if (done) done(); }
 }
 /* speak via AI voice (cached), falling back to the device voice on any problem */
-function aiSpeak(text, done) {
+function aiSpeak(text, voice, done) {
+  if (typeof voice === 'function') { done = voice; voice = null; }
   text = String(text || '').trim(); if (!text) { if (done) done(); return; }
-  var key = ttsKey(text);
+  var key = ttsKey(text, voice);
   ttsGet(key).then(function (cached) {
     if (cached) { playB64(cached, 'audio/wav', done); return; }
-    aiFetch('/tts', { text: text }).then(function (d) {
+    aiFetch('/tts', { text: text, voice: voice }).then(function (d) {
       if (d && d.audio) { ttsPut(key, d.audio); playB64(d.audio, d.mime || 'audio/wav', done); }
       else say(text, done);
     }).catch(function () { say(text, done); });
   }).catch(function () { say(text, done); });
 }
 /* the app's one speech entry point: AI voice when available, else device voice */
-function speakAuto(text, done) {
+function speakAuto(text, voice, done) {
+  if (typeof voice === 'function') { done = voice; voice = null; }
   stopAudio();
-  if (S.aiVoice && aiConfigured()) aiSpeak(text, done);
+  if (S.aiVoice && aiConfigured()) aiSpeak(text, voice, done);
   else say(text, done);
 }
 function aiSystemPrompt(sc, level) {
@@ -686,7 +695,7 @@ function rpPlay(text, done) {
   var step = function () { if (fired) return; fired = true; clearTimeout(RP.timer); if (done) done(); };
   // watchdog covers network + playback so a dropped event can't freeze the turn
   RP.timer = setTimeout(step, Math.max(3000, String(text).split(/\s+/).length * 500) + 8000);
-  if (S.aiVoice && aiConfigured()) aiSpeak(text, step); else say(text, step);
+  if (S.aiVoice && aiConfigured()) aiSpeak(text, VOICE_A, step); else say(text, step);
 }
 function rpAiContinue() {
   if (RP.mode !== 'ai') return;
@@ -1020,14 +1029,14 @@ document.addEventListener('click', function (ev) {
     case 'lvl': levelSheet(); return;
     case 'setlvl':
       S.level = el.getAttribute('data-l'); saveSet(); closeSheet(); route(); return;
-    case 'sayw': speakAuto(el.getAttribute('data-t')); return;
-    case 'sayline': speakAuto(LINES[el.getAttribute('data-i')].de); return;
+    case 'sayw': speakAuto(el.getAttribute('data-t'), VOICE_A); return;
+    case 'sayline': { var ln = LINES[el.getAttribute('data-i')]; speakAuto(ln.de, voiceFor(ln.s)); return; }
     case 'tr': {
       var bub = el.closest('.bub'); if (bub) bub.classList.toggle('open'); return;
     }
     case 'playall': {
       var i = 0;
-      (function nxt() { if (i >= LINES.length) return; speakAuto(LINES[i++].de, function () { setTimeout(nxt, 150); }); })();
+      (function nxt() { if (i >= LINES.length) return; var ln = LINES[i++]; speakAuto(ln.de, voiceFor(ln.s), function () { setTimeout(nxt, 150); }); })();
       return;
     }
     case 'star': case 'unstar': {
@@ -1048,7 +1057,7 @@ document.addEventListener('click', function (ev) {
     case 'rplivestop': case 'rptype': rpStopLive(false); return;
     case 'rprep': {
       stopAudio();
-      for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { speakAuto(RP.log[j].text); break; }
+      for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { speakAuto(RP.log[j].text, VOICE_A); break; }
       return;
     }
     case 'rpagain': vRoleplay(RP.t.id, RP.s.id); rpStart(); return;

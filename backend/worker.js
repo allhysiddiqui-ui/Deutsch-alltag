@@ -17,7 +17,9 @@
 
 const CHAT_MODEL = 'gemini-2.0-flash';               // strong German, fast, free tier
 const TTS_MODEL  = 'gemini-2.5-flash-preview-tts';   // natural voice; if it errors, the app falls back to the device voice
-const TTS_VOICE  = 'Kore';                            // a Gemini prebuilt voice
+const TTS_VOICE  = 'Kore';                            // default Gemini prebuilt voice
+// voices the app may request (one per speaker so a dialogue sounds like two people)
+const TTS_VOICES = ['Kore', 'Puck', 'Charon', 'Aoede', 'Fenrir', 'Leda', 'Orus', 'Zephyr'];
 
 export default {
   async fetch(req, env) {
@@ -77,11 +79,12 @@ async function chat(body, env) {
 
 async function tts(body, env) {
   const text = String(body.text || '').slice(0, 600);
+  const voice = TTS_VOICES.includes(body.voice) ? body.voice : TTS_VOICE;
   const payload = {
     contents: [{ parts: [{ text }] }],
     generationConfig: {
       responseModalities: ['AUDIO'],
-      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: TTS_VOICE } } },
+      speechConfig: { voiceConfig: { prebuiltVoiceConfig: { voiceName: voice } } },
     },
   };
   const r = await fetch(
