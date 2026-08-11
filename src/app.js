@@ -11,7 +11,7 @@ var LVNAME = { A1: 'Anfänger', A2: 'Grundlage', B1: 'Mittel', B2: 'Fortgeschr.'
 function ls(k, d) { try { var v = localStorage.getItem('dg.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }
 function ss(k, v) { try { localStorage.setItem('dg.' + k, JSON.stringify(v)); } catch (e) {} }
 
-var S = Object.assign({ level: 'A1', en: true, ur: true, theme: 'auto', rate: 0.9, mic: true, voice: '' }, ls('set', {}));
+var S = Object.assign({ level: 'A1', en: true, ur: true, theme: 'auto', rate: 0.9, mic: true, voice: '', aiUrl: '', aiKey: '', aiVoice: true }, ls('set', {}));
 var SAVED = ls('saved', {});     // { wordKey: {t:timestamp, box:0} }
 var PROG = ls('prog', {});       // { read:{'top/sub/lvl':1}, test:{topicId:pct}, rp:{'top/sub':1} }
 if (!PROG.read) PROG.read = {}; if (!PROG.test) PROG.test = {}; if (!PROG.rp) PROG.rp = {};
@@ -117,6 +117,32 @@ function say(text, cb) {
 }
 function hasMic() {
   return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+}
+
+/* ---------------- AI backend (optional, free Cloudflare Worker) ---------------- */
+function aiConfigured() { return !!(S.aiUrl && S.aiKey); }
+function aiFetch(path, body) {
+  return fetch(S.aiUrl.replace(/\/+$/, '') + path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'X-App-Pass': S.aiKey },
+    body: JSON.stringify(body || {})
+  }).then(function (r) {
+    return r.json().catch(function () { return {}; }).then(function (d) {
+      if (!r.ok) throw new Error(d.error || ('HTTP ' + r.status));
+      return d;
+    });
+  });
+}
+function aiChat(system, history) { return aiFetch('/chat', { system: system, history: history }).then(function (d) { return d.reply || ''; }); }
+function aiTTS(text) { return aiFetch('/tts', { text: text }).then(function (d) { return d.audio ? ('data:' + (d.mime || 'audio/wav') + ';base64,' + d.audio) : ''; }); }
+function aiSystemPrompt(sc, level) {
+  return 'Du spielst die Rolle: ' + sc.role + '. Der Nutzer ist: ' + sc.you + '. ' +
+    'Szene: ' + sc.scene.de + ' ' +
+    'Sprich ausschließlich Deutsch auf dem Niveau ' + level + '. ' +
+    'Antworte kurz und natürlich, ein bis zwei Sätze, bleib in der Rolle und beim Thema. ' +
+    'Wenn der Nutzer einen Fehler macht, benutze beiläufig die richtige Formulierung, ohne zu belehren. ' +
+    'Wenn der Nutzer nicht weiterkommt, hilf mit einer einfacheren Frage. ' +
+    'Bleibe freundlich und geduldig, wie mit einem Kind oder einem Deutschlerner.';
 }
 
 /* ---------------- dictionary lookup ---------------- */
@@ -395,35 +421,48 @@ function rpRender(speak) {
     return;
   }
 
-  b += '<div class="goal"><b>Was du sagen sollst / Aap ko kya kehna hai</b>' + esc(n.goal.en) +
-    '<div style="margin-top:4px;font-style:italic">' + esc(n.goal.ur) + '</div></div>';
+  var liveLike = RP.mode === 'live' || RP.mode === 'ai';
+  if (RP.mode !== 'ai') {
+    b += '<div class="goal"><b>Was du sagen sollst / Aap ko kya kehna hai</b>' + esc(n.goal.en) +
+      '<div style="margin-top:4px;font-style:italic">' + esc(n.goal.ur) + '</div></div>';
+  } else {
+    b += '<div class="goal"><b>KI-Gespräch</b>Sprich frei mit ' + esc(sc.role) + '. Die KI versteht dich und antwortet.' +
+      '<div style="margin-top:4px;font-style:italic">Aap khul kar baat karein — KI samajhti hai.</div></div>';
+  }
 
   var canLive = hasMic() && S.mic;
   b += '<div class="card" style="padding:14px">';
 
-  if (RP.mode === 'live') {
+  if (liveLike) {
     var ph = RP.phase || 'idle';
     var ic = ph === 'listening' ? '🎙️' : ph === 'speaking' ? '🔊' : ph === 'thinking' ? '…' : '▶';
     b += '<div class="orbwrap">' +
       '<button class="orb ' + ph + '" id="rporb" data-act="rporbtap"><span id="rporbic">' + ic + '</span></button>' +
       '<div class="orblabel" id="rporblab">' + esc(RP.phase ? (RP_PHASE_LABEL[ph] || '') : RP_PHASE_LABEL.idle) + '</div></div>';
     b += '<div class="btns"><button class="btn sec" data-act="rplivestop">⏸ Stopp</button>' +
-      '<button class="btn sec" data-act="rphelp" style="flex:0 0 56px">💡</button>' +
+      (RP.mode === 'live' ? '<button class="btn sec" data-act="rphelp" style="flex:0 0 56px">💡</button>' : '') +
       '<button class="btn sec" data-act="rprep" style="flex:0 0 56px">🔊</button></div>';
-    b += '<button class="btn sec" data-act="rptype" style="margin-top:8px">⌨ Lieber tippen</button>';
+    // typing works inside live/AI mode too
+    b += '<div class="btns" style="margin-top:8px"><input class="inp" id="rpin" placeholder="…oder tippen" autocomplete="off" autocapitalize="sentences">' +
+      '<button class="btn sec" data-act="rpsend" style="flex:0 0 84px">Senden</button></div>';
   } else {
+    if (aiConfigured()) {
+      b += '<button class="btn" data-act="rpstartai">🤖 Frei sprechen mit KI</button>' +
+        '<div class="livehint">Die KI antwortet als ' + esc(sc.role) + ' und versteht, was du sagst.</div>' +
+        '<div style="height:1px;background:var(--line);margin:14px 0"></div>';
+    }
     if (canLive) {
-      b += '<button class="btn" data-act="rpstartlive">🎙️ Sprechen – wie ein echtes Telefonat</button>' +
-        '<div class="livehint">Die App spricht, hört dir zu und antwortet — ganz ohne Tippen.</div>' +
+      b += '<button class="btn' + (aiConfigured() ? ' sec' : '') + '" data-act="rpstartlive">🎙️ Nach Drehbuch sprechen</button>' +
+        '<div class="livehint">Festes Gespräch: die App spricht, hört zu und antwortet — ohne Tippen.</div>' +
         '<div style="height:1px;background:var(--line);margin:14px 0"></div>';
     }
     b += '<input class="inp" id="rpin" placeholder="Auf Deutsch antworten…" autocomplete="off" autocapitalize="sentences">';
-    b += '<div class="btns"><button class="btn' + (canLive ? ' sec' : '') + '" data-act="rpsend">Senden</button></div>';
+    b += '<div class="btns"><button class="btn' + (canLive || aiConfigured() ? ' sec' : '') + '" data-act="rpsend">Senden</button></div>';
     b += '<div class="btns"><button class="btn sec" data-act="rphelp">' + (RP.showOpts ? 'Hilfe ausblenden' : '💡 Hilfe zeigen') + '</button>' +
       '<button class="btn sec" data-act="rprep" style="flex:0 0 64px">🔊</button></div>';
   }
 
-  if (RP.showOpts && n.options) {
+  if (RP.mode !== 'ai' && RP.showOpts && n.options) {
     b += '<div style="margin-top:10px">';
     n.options.forEach(function (o) { b += '<button class="opt" data-act="rppick" data-o="' + esc(o) + '">' + esc(o) + '</button>'; });
     b += '</div>';
@@ -433,7 +472,7 @@ function rpRender(speak) {
   if (!canLive) b += '<p class="small muted center" style="margin-top:12px">Sprechen braucht Internet und Chrome oder Safari. Tippen geht immer.</p>';
 
   view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
-  if (speak && RP.mode !== 'live' && RP.log.length) {
+  if (speak && !liveLike && RP.log.length) {
     for (var i = RP.log.length - 1; i >= 0; i--) if (!RP.log[i].me) { say(RP.log[i].text); break; }
   }
 }
@@ -481,7 +520,8 @@ function rpEval(txt) {
 function rpDeliver(txt) {
   txt = String(txt || '').trim(); if (!txt) return;
   rpStopRec();
-  if (RP.mode === 'live') { rpSubmitLive(txt); }
+  if (RP.mode === 'ai') { rpSubmitAi(txt); }
+  else if (RP.mode === 'live') { rpSubmitLive(txt); }
   else { if (rpEval(txt)) rpRender(true); }
 }
 function rpAnswer(txt) { rpDeliver(txt); }
@@ -504,7 +544,7 @@ function rpSpeakSequence(texts, done) {
   rpSetPhase('speaking');
   var i = 0;
   (function nxt() {
-    if (RP.mode !== 'live') return;
+    if (RP.mode !== 'live' && RP.mode !== 'ai') return;
     if (i >= texts.length) { if (done) done(); return; }
     var t = texts[i++], fired = false;
     var step = function () { if (fired) return; fired = true; clearTimeout(RP.timer); RP.timer = setTimeout(nxt, 240); };
@@ -523,16 +563,22 @@ function rpBeginLive() {
 }
 function rpStopRec() { if (REC) { try { REC.abort(); } catch (e) {} REC = null; } }
 function rpListen() {
-  if (RP.mode !== 'live') return;
+  if (RP.mode !== 'live' && RP.mode !== 'ai') return;
   var C = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!C) { rpDropToManual('Sprechen wird in diesem Browser nicht unterstützt — bitte tippen.'); return; }
+  if (!C) {
+    if (RP.mode === 'ai') { rpSetPhase('idle', 'Tippe deine Antwort'); return; }
+    rpDropToManual('Sprechen wird in diesem Browser nicht unterstützt — bitte tippen.'); return;
+  }
   rpSetPhase('listening', RP_PHASE_LABEL.listening);
   rpStopRec();
   REC = new C(); REC.lang = 'de-DE'; REC.interimResults = false; REC.maxAlternatives = 3;
   var got = false;
-  REC.onresult = function (ev) { got = true; var txt = ev.results[0][0].transcript; rpStopRec(); rpSubmitLive(txt); };
+  REC.onresult = function (ev) { got = true; var txt = ev.results[0][0].transcript; rpStopRec(); rpDeliver(txt); };
   REC.onerror = function (ev) {
     rpStopRec();
+    if (RP.mode === 'ai' && (ev.error === 'not-allowed' || ev.error === 'service-not-allowed' || ev.error === 'network')) {
+      RP.hint = 'Mikrofon nicht verfügbar — tippe deine Antwort.'; rpSetPhase('idle', 'Tippe deine Antwort'); return;
+    }
     if (ev.error === 'not-allowed' || ev.error === 'service-not-allowed') rpDropToManual('Bitte das Mikrofon erlauben. Danach die runde Taste drücken oder tippen.');
     else if (ev.error === 'network') rpDropToManual('Spracherkennung braucht Internet — bitte tippen.');
     else if (ev.error === 'no-speech') {
@@ -564,11 +610,70 @@ function rpDropToManual(msg) {
 function rpStopLive(silent) {
   if (window.speechSynthesis) try { speechSynthesis.cancel(); } catch (e) {}
   rpStopRec();
+  if (RP && RP._audio) { try { RP._audio.pause(); } catch (e) {} RP._audio = null; }
   if (RP) { clearTimeout(RP.timer); RP.mode = 'manual'; RP.phase = 'idle'; if (!silent) rpRender(false); }
 }
 function rpOrbTap() {
   if (RP.phase === 'listening') { rpStopRec(); rpSetPhase('idle'); }
   else if (RP.phase === 'idle') { RP.hint = ''; rpListen(); }
+}
+
+/* ---- AI mode: free conversation via the Worker backend ---- */
+function rpPlay(text, done) {
+  if (RP.mode !== 'ai') { if (done) done(); return; }
+  if (S.aiVoice && aiConfigured()) {
+    rpSetPhase('speaking');
+    aiTTS(text).then(function (url) {
+      if (!url || RP.mode !== 'ai') return rpSpeakSequence([text], done);
+      var a = new Audio(url); RP._audio = a; var fired = false;
+      var step = function () { if (fired) return; fired = true; clearTimeout(RP.timer); if (done) done(); };
+      // generous watchdog: covers network + playback so a dropped event can't freeze it
+      RP.timer = setTimeout(step, Math.max(3000, String(text).split(/\s+/).length * 500) + 6000);
+      a.onended = step;
+      a.onerror = function () { clearTimeout(RP.timer); rpSpeakSequence([text], step); };
+      a.play().catch(function () { clearTimeout(RP.timer); rpSpeakSequence([text], step); });
+    }).catch(function () { rpSpeakSequence([text], done); });
+  } else {
+    rpSpeakSequence([text], done);
+  }
+}
+function rpAiContinue() {
+  if (RP.mode !== 'ai') return;
+  if (hasMic() && S.mic) rpListen();
+  else rpSetPhase('idle', 'Tippe deine Antwort');
+}
+function rpBeginAi() {
+  if (!aiConfigured()) { RP.hint = 'Bitte zuerst in „Mehr" die KI einrichten.'; rpRender(false); return; }
+  RP.mode = 'ai'; RP.hint = ''; RP.log = []; RP.turns = 0;
+  RP.ai = { system: aiSystemPrompt(RP.sc, S.level), history: [] };
+  rpRender(false);
+  rpSetPhase('thinking', 'einen Moment…');
+  aiChat(RP.ai.system, [{ role: 'user', text: '(Beginne das Gespräch mit einer kurzen Begrüßung.)' }]).then(function (reply) {
+    if (RP.mode !== 'ai') return;
+    reply = reply || 'Guten Tag!';
+    RP.ai.history.push({ role: 'model', text: reply });
+    RP.log.push({ me: false, text: reply }); rpRender(false);
+    rpPlay(reply, rpAiContinue);
+  }).catch(function (e) {
+    RP.hint = 'KI nicht erreichbar: ' + e.message + '. Prüfe die Einstellungen.';
+    rpStopLive(false);
+  });
+}
+function rpSubmitAi(txt) {
+  txt = String(txt || '').trim(); if (!txt) return;
+  RP.noSpeech = 0;
+  RP.ai.history.push({ role: 'user', text: txt });
+  RP.log.push({ me: true, text: txt, grade: 'ok' }); RP.turns++;
+  rpRender(false); rpSetPhase('thinking', 'einen Moment…');
+  aiChat(RP.ai.system, RP.ai.history).then(function (reply) {
+    if (RP.mode !== 'ai') return;
+    reply = reply || 'Wie bitte?';
+    RP.ai.history.push({ role: 'model', text: reply });
+    RP.log.push({ me: false, text: reply }); rpRender(false);
+    rpPlay(reply, rpAiContinue);
+  }).catch(function (e) {
+    RP.hint = 'KI-Fehler: ' + e.message; rpSetPhase('idle', 'Tippe deine Antwort'); rpRender(false);
+  });
 }
 
 /* ---------------- test ---------------- */
@@ -794,6 +899,17 @@ function vSet() {
     '<br>• <b>iPhone</b>: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Deutsch → eine mit „Premium" oder „Erweitert" laden.' +
     '<br>• <b>Android</b>: Einstellungen → Zusätzliche Einstellungen → Sprache → Text-in-Sprache → Google → Deutsch, „Hohe Qualität" installieren.' +
     '<br>Danach die App neu öffnen und die Stimme oben auswählen.</div>';
+  b += '<div class="sec">KI-Gespräch (frei sprechen)</div><div class="card" style="padding:14px">';
+  b += '<div class="small muted" style="margin-bottom:12px">Optional. Damit antwortet die App wie eine echte Person und spricht natürlicher. Ein Elternteil richtet das einmal ein (kostenlos) und gibt euch dann nur die Adresse und das Passwort zum Eintragen.</div>';
+  b += '<div style="font-weight:600;font-size:13px">Server-Adresse (URL)</div>' +
+    '<input class="inp" id="aiurl" placeholder="https://…workers.dev" value="' + esc(S.aiUrl || '') + '" autocomplete="off" spellcheck="false" style="margin:6px 0 12px">';
+  b += '<div style="font-weight:600;font-size:13px">Familien-Passwort</div>' +
+    '<input class="inp" id="aikey" placeholder="euer geheimes Wort" value="' + esc(S.aiKey || '') + '" autocomplete="off" spellcheck="false" style="margin:6px 0 4px">';
+  b += sw('KI-Stimme verwenden', 'Aus = Stimme des Geräts', 'tgaivoice', S.aiVoice);
+  b += '<div class="btns" style="margin-top:6px"><button class="btn sec" data-act="aitest">Verbindung testen</button></div>';
+  b += '<div id="aistat" class="small" style="margin-top:8px"></div>';
+  b += '</div>';
+
   b += '<div class="sec">Aussehen</div><div class="card"><div class="sw"><div style="font-weight:600">Theme</div><div style="display:flex;gap:6px">' +
     ['auto', 'light', 'dark'].map(function (t) {
       return '<button class="mini' + (S.theme === t ? ' sel' : '') + '" data-act="theme" data-t="' + t + '" style="' +
@@ -806,6 +922,10 @@ function vSet() {
   view({ title: 'Einstellungen', body: b, chip: S.level });
   var r = document.getElementById('rate');
   if (r) r.oninput = function () { S.rate = Number(r.value); saveSet(); };
+  var au = document.getElementById('aiurl');
+  if (au) au.oninput = function () { S.aiUrl = au.value.trim(); ss('set', S); };
+  var ak = document.getElementById('aikey');
+  if (ak) ak.oninput = function () { S.aiKey = ak.value.trim(); ss('set', S); };
 }
 
 /* ---------------- router ---------------- */
@@ -869,6 +989,7 @@ document.addEventListener('click', function (ev) {
     case 'rppick': rpDeliver(el.getAttribute('data-o')); return;
     case 'rphelp': RP.showOpts = !RP.showOpts; rpRender(false); return;
     case 'rpstartlive': rpBeginLive(); return;
+    case 'rpstartai': rpBeginAi(); return;
     case 'rporbtap': rpOrbTap(); return;
     case 'rplivestop': case 'rptype': rpStopLive(false); return;
     case 'rprep': {
@@ -897,6 +1018,15 @@ document.addEventListener('click', function (ev) {
     case 'tgmic': S.mic = !S.mic; saveSet(); vSet(); return;
     case 'setvoice': S.voice = el.getAttribute('data-v'); saveSet(); pickVoice(); vSet(); sampleVoice(S.voice); return;
     case 'testvoice': sampleVoice(el.getAttribute('data-v')); return;
+    case 'tgaivoice': S.aiVoice = !S.aiVoice; saveSet(); vSet(); return;
+    case 'aitest': {
+      var st = document.getElementById('aistat');
+      if (!aiConfigured()) { if (st) { st.textContent = 'Bitte URL und Passwort eingeben.'; st.style.color = 'var(--bad)'; } return; }
+      if (st) { st.textContent = 'Teste…'; st.style.color = 'var(--tx2)'; }
+      aiFetch('/ping', {}).then(function () { if (st) { st.textContent = '✓ Verbindung OK — du kannst frei sprechen.'; st.style.color = 'var(--ok)'; } })
+        .catch(function (e) { if (st) { st.textContent = '✗ ' + e.message; st.style.color = 'var(--bad)'; } });
+      return;
+    }
     case 'theme': S.theme = el.getAttribute('data-t'); saveSet(); vSet(); return;
     case 'reset':
       if (confirm('Wirklich allen Fortschritt löschen?')) {
