@@ -77,9 +77,7 @@ async function chat(body, env) {
   return { reply: text };
 }
 
-async function tts(body, env) {
-  const text = String(body.text || '').slice(0, 600);
-  const voice = TTS_VOICES.includes(body.voice) ? body.voice : TTS_VOICE;
+async function ttsOnce(text, voice, env) {
   const payload = {
     contents: [{ parts: [{ text }] }],
     generationConfig: {
@@ -96,8 +94,19 @@ async function tts(body, env) {
   const parts = (((d.candidates || [])[0] || {}).content || {}).parts || [];
   const audio = parts.find((p) => p.inlineData && p.inlineData.data);
   if (!audio) throw new Error('no audio');
-  // Gemini returns raw PCM (16-bit, 24 kHz, mono) — wrap it in a WAV so a browser can play it.
-  return { audio: pcmToWav(audio.inlineData.data, 24000), mime: 'audio/wav' };
+  return audio.inlineData.data; // raw PCM, 16-bit 24 kHz mono
+}
+async function tts(body, env) {
+  const text = String(body.text || '').slice(0, 600);
+  const voice = TTS_VOICES.includes(body.voice) ? body.voice : TTS_VOICE;
+  let pcm;
+  try { pcm = await ttsOnce(text, voice, env); }
+  catch (e) {
+    // a bad/unsupported voice must not break playback — fall back to the default voice
+    if (voice === TTS_VOICE) throw e;
+    pcm = await ttsOnce(text, TTS_VOICE, env);
+  }
+  return { audio: pcmToWav(pcm, 24000), mime: 'audio/wav', voice };
 }
 
 function pcmToWav(b64, rate) {

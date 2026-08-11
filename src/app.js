@@ -163,13 +163,21 @@ function ttsGet(key) {
 }
 function ttsPut(key, val) { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').put(val, key); } catch (e) {} }); }
 function ttsClear() { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').clear(); } catch (e) {} }); }
-// bump the version to abandon clips cached before per-speaker voices existed
-function ttsKey(text, voice) { return 'v3|' + (voice || '') + '|' + String(text).trim(); }
+// bump the version to abandon clips cached before per-character voices existed
+function ttsKey(text, voice) { return 'v4|' + (voice || '') + '|' + String(text).trim(); }
 
-// one voice per speaker so a two-person dialogue sounds like two clearly different people.
-// Speaker B is the parent (always female here) -> a female voice; A is the other party -> a distinct male voice.
-var VOICE_A = 'Charon', VOICE_B = 'Kore';
-function voiceFor(speaker) { return speaker === 'B' ? VOICE_B : VOICE_A; }
+// Pick a voice from WHO the character is (not the A/B slot), so genders are right
+// and two same-gender speakers still get different voices.
+var VOICE_MOTHER = 'Kore';   // the parent (Frau Khan) — female
+var VOICE_FEMPRO = 'Aoede';  // a female professional (receptionist, pharmacist) — distinct female
+var VOICE_MALE   = 'Puck';   // a male professional (doctor, pharmacist)
+function characterVoice(label) {
+  var n = String(label || '').toLowerCase();
+  if (/khan|mutter|eltern/.test(n)) return VOICE_MOTHER;               // the parent
+  if (/apothekerin|ärztin|helferin|baumann|frau /.test(n)) return VOICE_FEMPRO; // female professional
+  if (/apotheker|doktor|arzt|herr /.test(n)) return VOICE_MALE;        // male professional
+  return VOICE_FEMPRO;
+}
 
 var AUDIO = null;
 function stopAudio() {
@@ -218,7 +226,8 @@ function aiSystemPrompt(sc, level) {
 }
 
 /* ---------------- dictionary lookup ---------------- */
-var LINES = [];   // current render registry for per-line overrides
+var LINES = [];     // current render registry for per-line overrides
+var SPEAKERS = {};  // current dialogue's speaker letter -> character label (for voices)
 function lookup(tok, over) {
   var n = norm(tok);
   if (over) {
@@ -395,7 +404,7 @@ function vDialogue(tid, sid) {
   var t = topicById(tid), s = subById(t, sid); if (!s) return go('#/');
   var d = s.dialogues[S.level];
   if (!d) { view({ title: s.title.de, body: '<div class="empty"><span class="em">🚧</span>Diese Stufe fehlt noch.</div>', back: 1, chip: S.level }); return; }
-  LINES = d.lines;
+  LINES = d.lines; SPEAKERS = d.speakers || {};
   PROG.read[tid + '/' + sid + '/' + S.level] = 1; saveProg();
 
   var b = '<div class="card" style="padding:12px 14px;margin-bottom:14px">' +
@@ -697,7 +706,7 @@ function rpPlay(text, done) {
   var step = function () { if (fired) return; fired = true; clearTimeout(RP.timer); if (done) done(); };
   // watchdog covers network + playback so a dropped event can't freeze the turn
   RP.timer = setTimeout(step, Math.max(3000, String(text).split(/\s+/).length * 500) + 8000);
-  if (S.aiVoice && aiConfigured()) aiSpeak(text, VOICE_A, step); else say(text, step);
+  if (S.aiVoice && aiConfigured()) aiSpeak(text, characterVoice(RP.sc.role), step); else say(text, step);
 }
 function rpAiContinue() {
   if (RP.mode !== 'ai') return;
@@ -971,6 +980,7 @@ function vSet() {
   b += '<div class="livehint" style="text-align:left;margin:4px 0 8px">Jede Zeile wird nur einmal geladen und dann dauerhaft gespeichert — danach ist sie sofort da und funktioniert auch offline.</div>';
   b += '<div class="btns" style="margin-top:6px"><button class="btn sec" data-act="aitest">Verbindung testen</button>' +
     '<button class="btn sec" data-act="clearcache">Ton-Cache leeren</button></div>';
+  b += '<div class="btns" style="margin-top:8px"><button class="btn sec" data-act="testvoices">Die 3 Stimmen anhören</button></div>';
   b += '<div id="aistat" class="small" style="margin-top:8px"></div>';
   b += '</div>';
 
@@ -1031,14 +1041,14 @@ document.addEventListener('click', function (ev) {
     case 'lvl': levelSheet(); return;
     case 'setlvl':
       S.level = el.getAttribute('data-l'); saveSet(); closeSheet(); route(); return;
-    case 'sayw': speakAuto(el.getAttribute('data-t'), VOICE_A); return;
-    case 'sayline': { var ln = LINES[el.getAttribute('data-i')]; speakAuto(ln.de, voiceFor(ln.s)); return; }
+    case 'sayw': speakAuto(el.getAttribute('data-t'), VOICE_MOTHER); return;
+    case 'sayline': { var ln = LINES[el.getAttribute('data-i')]; speakAuto(ln.de, characterVoice(SPEAKERS[ln.s])); return; }
     case 'tr': {
       var bub = el.closest('.bub'); if (bub) bub.classList.toggle('open'); return;
     }
     case 'playall': {
       var i = 0;
-      (function nxt() { if (i >= LINES.length) return; var ln = LINES[i++]; speakAuto(ln.de, voiceFor(ln.s), function () { setTimeout(nxt, 150); }); })();
+      (function nxt() { if (i >= LINES.length) return; var ln = LINES[i++]; speakAuto(ln.de, characterVoice(SPEAKERS[ln.s]), function () { setTimeout(nxt, 150); }); })();
       return;
     }
     case 'star': case 'unstar': {
@@ -1059,7 +1069,7 @@ document.addEventListener('click', function (ev) {
     case 'rplivestop': case 'rptype': rpStopLive(false); return;
     case 'rprep': {
       stopAudio();
-      for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { speakAuto(RP.log[j].text, VOICE_A); break; }
+      for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { speakAuto(RP.log[j].text, characterVoice(RP.sc.role)); break; }
       return;
     }
     case 'rpagain': vRoleplay(RP.t.id, RP.s.id); rpStart(); return;
@@ -1088,6 +1098,20 @@ document.addEventListener('click', function (ev) {
       var cs = document.getElementById('aistat');
       if (cs) { cs.textContent = 'Ton-Cache wird geleert…'; cs.style.color = 'var(--tx2)'; }
       ttsClear().then(function () { if (cs) { cs.textContent = '✓ Ton-Cache geleert.'; cs.style.color = 'var(--ok)'; } });
+      return;
+    }
+    case 'testvoices': {
+      var vs = document.getElementById('aistat');
+      if (!(S.aiVoice && aiConfigured())) { if (vs) { vs.textContent = 'Erst KI-Stimme einschalten und Verbindung testen.'; vs.style.color = 'var(--bad)'; } return; }
+      if (vs) { vs.textContent = 'Arzt (m) → Anmeldung (w) → Mutter (w) …'; vs.style.color = 'var(--tx2)'; }
+      var samples = [
+        { v: VOICE_MALE, t: 'Guten Tag, ich bin der Arzt.' },
+        { v: VOICE_FEMPRO, t: 'Guten Tag, hier ist die Anmeldung.' },
+        { v: VOICE_MOTHER, t: 'Guten Tag, ich bin die Mutter von Yusuf.' }
+      ];
+      stopAudio();
+      var i = 0;
+      (function nxt() { if (i >= samples.length) return; var s = samples[i++]; aiSpeak(s.t, s.v, function () { setTimeout(nxt, 300); }); })();
       return;
     }
     case 'aitest': {
