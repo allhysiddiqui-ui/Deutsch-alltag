@@ -222,6 +222,19 @@ h1,h2,h3{margin:0;line-height:1.25}
 .mic.rec{background:var(--bad);animation:pulse 1.1s infinite}
 @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.07)}}
 
+/* live-conversation orb: one control that shows whose turn it is */
+.orbwrap{display:flex;flex-direction:column;align-items:center;gap:9px;padding:6px 0 2px}
+.orb{width:104px;height:104px;border-radius:50%;border:0;color:#fff;font-size:40px;
+  display:grid;place-items:center;background:var(--acc);box-shadow:var(--sh);
+  transition:background .2s,transform .15s}
+.orb:active{transform:scale(.96)}
+.orb.speaking{background:var(--acc)}
+.orb.listening{background:var(--bad);animation:pulse 1.15s infinite}
+.orb.thinking{background:var(--warn)}
+.orb.idle{background:var(--ok)}
+.orblabel{font-size:13.5px;font-weight:600;color:var(--tx2);min-height:19px;text-align:center}
+.livehint{font-size:12.5px;color:var(--tx2);text-align:center;margin-top:10px;line-height:1.5}
+
 /* ---------- bottom nav ---------- */
 .nav{
   position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;
@@ -585,14 +598,35 @@ function vDialogue(tid, sid) {
 }
 
 /* ---------------- roleplay ---------------- */
-var RP = null;
+var RP = null, REC = null;
+var RP_FALLBACKS = [
+  'Wie bitte?',
+  'Entschuldigung, das habe ich nicht ganz verstanden.',
+  'Können Sie das noch einmal sagen?',
+  'Wie meinen Sie das?'
+];
+var RP_PHASE_LABEL = {
+  idle: 'Tippe die Taste und sprich',
+  speaking: '…',
+  listening: 'Sprich jetzt',
+  thinking: 'einen Moment…'
+};
+function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
+function rpSayText(node) { return Array.isArray(node.say) ? pick(node.say) : node.say; }
+
 function vRoleplay(tid, sid) {
   var t = topicById(tid), s = subById(t, sid); if (!s || !s.roleplay) return go('#/');
   var band = (S.level === 'A1' || S.level === 'A2') ? 'easy' : 'hard';
   var sc = s.roleplay[band] || s.roleplay.easy || s.roleplay.hard;
-  RP = { t: t, s: s, sc: sc, node: sc.start, log: [], turns: 0, good: 0, showOpts: false };
+  RP = { t: t, s: s, sc: sc, node: sc.start, log: [], turns: 0, good: 0,
+    showOpts: false, mode: 'manual', phase: 'idle', misses: 0, noSpeech: 0, hint: '', timer: null };
+}
+function rpStart() {
+  var n = RP.sc.nodes[RP.node];
+  if (n && n.say) RP.log.push({ me: false, text: rpSayText(n) });
   rpRender(true);
 }
+
 function rpRender(speak) {
   var sc = RP.sc, n = sc.nodes[RP.node];
   var b = '<div class="card" style="padding:12px 14px;margin-bottom:12px">' +
@@ -622,35 +656,49 @@ function rpRender(speak) {
   b += '<div class="goal"><b>Was du sagen sollst / Aap ko kya kehna hai</b>' + esc(n.goal.en) +
     '<div style="margin-top:4px;font-style:italic">' + esc(n.goal.ur) + '</div></div>';
 
+  var canLive = hasMic() && S.mic;
   b += '<div class="card" style="padding:14px">';
-  b += '<input class="inp" id="rpin" placeholder="Auf Deutsch antworten…" autocomplete="off" autocapitalize="sentences">';
-  b += '<div class="btns"><button class="btn" data-act="rpsend">Senden</button>';
-  if (hasMic() && S.mic) b += '<button class="btn sec" data-act="rpmic" id="rpmic" style="flex:0 0 64px">🎤</button>';
-  b += '</div>';
-  b += '<div class="btns"><button class="btn sec" data-act="rphelp">' + (RP.showOpts ? 'Hilfe ausblenden' : '💡 Hilfe zeigen') + '</button>' +
-       '<button class="btn sec" data-act="rprep" style="flex:0 0 64px">🔊</button></div>';
+
+  if (RP.mode === 'live') {
+    var ph = RP.phase || 'idle';
+    var ic = ph === 'listening' ? '🎙️' : ph === 'speaking' ? '🔊' : ph === 'thinking' ? '…' : '▶';
+    b += '<div class="orbwrap">' +
+      '<button class="orb ' + ph + '" id="rporb" data-act="rporbtap"><span id="rporbic">' + ic + '</span></button>' +
+      '<div class="orblabel" id="rporblab">' + esc(RP.phase ? (RP_PHASE_LABEL[ph] || '') : RP_PHASE_LABEL.idle) + '</div></div>';
+    b += '<div class="btns"><button class="btn sec" data-act="rplivestop">⏸ Stopp</button>' +
+      '<button class="btn sec" data-act="rphelp" style="flex:0 0 56px">💡</button>' +
+      '<button class="btn sec" data-act="rprep" style="flex:0 0 56px">🔊</button></div>';
+    b += '<button class="btn sec" data-act="rptype" style="margin-top:8px">⌨ Lieber tippen</button>';
+  } else {
+    if (canLive) {
+      b += '<button class="btn" data-act="rpstartlive">🎙️ Sprechen – wie ein echtes Telefonat</button>' +
+        '<div class="livehint">Die App spricht, hört dir zu und antwortet — ganz ohne Tippen.</div>' +
+        '<div style="height:1px;background:var(--line);margin:14px 0"></div>';
+    }
+    b += '<input class="inp" id="rpin" placeholder="Auf Deutsch antworten…" autocomplete="off" autocapitalize="sentences">';
+    b += '<div class="btns"><button class="btn' + (canLive ? ' sec' : '') + '" data-act="rpsend">Senden</button></div>';
+    b += '<div class="btns"><button class="btn sec" data-act="rphelp">' + (RP.showOpts ? 'Hilfe ausblenden' : '💡 Hilfe zeigen') + '</button>' +
+      '<button class="btn sec" data-act="rprep" style="flex:0 0 64px">🔊</button></div>';
+  }
+
   if (RP.showOpts && n.options) {
     b += '<div style="margin-top:10px">';
     n.options.forEach(function (o) { b += '<button class="opt" data-act="rppick" data-o="' + esc(o) + '">' + esc(o) + '</button>'; });
     b += '</div>';
   }
+  if (RP.hint) b += '<div class="livehint" style="color:var(--warn)">' + esc(RP.hint) + '</div>';
   b += '</div>';
-  if (!hasMic()) b += '<p class="small muted center" style="margin-top:12px">Sprech-Eingabe braucht Internet und Chrome/Safari. Tippen geht immer.</p>';
+  if (!canLive) b += '<p class="small muted center" style="margin-top:12px">Sprechen braucht Internet und Chrome oder Safari. Tippen geht immer.</p>';
 
   view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
-  if (speak && RP.log.length) {
-    var lastApp = null;
-    for (var i = RP.log.length - 1; i >= 0; i--) if (!RP.log[i].me) { lastApp = RP.log[i].text; break; }
-    if (lastApp) say(lastApp);
+  if (speak && RP.mode !== 'live' && RP.log.length) {
+    for (var i = RP.log.length - 1; i >= 0; i--) if (!RP.log[i].me) { say(RP.log[i].text); break; }
   }
 }
-function rpStart() {
-  var n = RP.sc.nodes[RP.node];
-  if (n && n.say) { RP.log.push({ me: false, text: n.say }); }
-  rpRender(true);
-}
-function rpAnswer(txt) {
-  txt = String(txt || '').trim(); if (!txt) return;
+
+/* evaluate one answer, mutate state, return {grade, newApp, ended} */
+function rpEval(txt) {
+  txt = String(txt || '').trim(); if (!txt) return null;
   var n = RP.sc.nodes[RP.node];
   var words = plain(txt).split(' ');
   var best = null;
@@ -666,47 +714,119 @@ function rpAnswer(txt) {
     if (!best || sc > best.sc) best = { a: a, sc: sc };
   });
   RP.turns++;
-  if (best && best.sc >= 0.6) {
+  var newApp = [];
+  if (best && best.sc >= 0.55) {
     var grade = best.sc >= 0.999 ? 'good' : 'ok';
     if (grade === 'good') RP.good++;
+    RP.misses = 0; RP.hint = '';
     RP.log.push({ me: true, text: txt, grade: grade });
-    if (best.a.reply) RP.log.push({ me: false, text: best.a.reply });
+    if (best.a.reply) { RP.log.push({ me: false, text: best.a.reply }); newApp.push(best.a.reply); }
     RP.node = best.a.next;
     var nx = RP.sc.nodes[RP.node];
-    if (nx && nx.say) RP.log.push({ me: false, text: nx.say });
+    if (nx && nx.say) { var st = rpSayText(nx); RP.log.push({ me: false, text: st }); newApp.push(st); }
     RP.showOpts = false;
-    rpRender(true);
-  } else {
-    RP.log.push({ me: true, text: txt, grade: 'bad' });
-    RP.log.push({ me: false, text: n.fallback || 'Entschuldigung, das habe ich nicht verstanden. Können Sie das anders sagen?' });
-    RP.showOpts = true;
-    rpRender(true);
+    return { grade: grade, newApp: newApp, ended: !RP.sc.nodes[RP.node] };
   }
+  RP.misses++;
+  RP.log.push({ me: true, text: txt, grade: 'bad' });
+  var fb = (RP.misses >= 2 || !n.fallback) ? pick(RP_FALLBACKS) : n.fallback;
+  RP.log.push({ me: false, text: fb }); newApp.push(fb);
+  if (RP.misses >= 2 && n.options) RP.showOpts = true;
+  return { grade: 'bad', newApp: newApp, ended: false };
 }
-var REC = null;
-function rpMic() {
+
+/* send an answer from anywhere (typed, option-tap, or voice) */
+function rpDeliver(txt) {
+  txt = String(txt || '').trim(); if (!txt) return;
+  rpStopRec();
+  if (RP.mode === 'live') { rpSubmitLive(txt); }
+  else { if (rpEval(txt)) rpRender(true); }
+}
+function rpAnswer(txt) { rpDeliver(txt); }
+
+/* ---- live (hands-free) mode ---- */
+function rpSetPhase(phase, label) {
+  RP.phase = phase;
+  var orb = document.getElementById('rporb'); if (orb) orb.className = 'orb ' + phase;
+  var ic = document.getElementById('rporbic');
+  if (ic) ic.textContent = phase === 'listening' ? '🎙️' : phase === 'speaking' ? '🔊' : phase === 'thinking' ? '…' : '▶';
+  var lab = document.getElementById('rporblab'); if (lab) lab.textContent = label || RP_PHASE_LABEL[phase] || '';
+}
+function rpTrailingApp() {
+  var out = [];
+  for (var i = RP.log.length - 1; i >= 0; i--) { if (RP.log[i].me) break; out.unshift(RP.log[i].text); }
+  return out;
+}
+function rpSpeakSequence(texts, done) {
+  if (!texts || !texts.length) { if (done) done(); return; }
+  rpSetPhase('speaking');
+  var i = 0;
+  (function nxt() {
+    if (RP.mode !== 'live') return;
+    if (i >= texts.length) { if (done) done(); return; }
+    var t = texts[i++], fired = false;
+    var step = function () { if (fired) return; fired = true; clearTimeout(RP.timer); RP.timer = setTimeout(nxt, 240); };
+    // watchdog: some browsers (notably iOS Safari) drop the speech-ended event,
+    // so advance anyway after an estimate rather than freezing the conversation.
+    var ms = Math.max(1600, String(t).split(/\s+/).length * 400 / (Number(S.rate) || 0.85));
+    RP.timer = setTimeout(step, ms);
+    say(t, step);
+  })();
+}
+function rpBeginLive() {
+  if (!hasMic() || !S.mic) return;
+  RP.mode = 'live'; RP.hint = ''; RP.noSpeech = 0;
+  rpRender(false);
+  rpSpeakSequence(rpTrailingApp(), function () { rpListen(); });
+}
+function rpStopRec() { if (REC) { try { REC.abort(); } catch (e) {} REC = null; } }
+function rpListen() {
+  if (RP.mode !== 'live') return;
   var C = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!C) return;
-  var btn = document.getElementById('rpmic');
-  if (REC) { try { REC.stop(); } catch (e) {} REC = null; if (btn) btn.classList.remove('rec'); return; }
-  REC = new C();
-  REC.lang = 'de-DE'; REC.interimResults = false; REC.maxAlternatives = 3;
-  if (btn) btn.classList.add('rec');
-  REC.onresult = function (ev) {
-    var txt = ev.results[0][0].transcript;
-    REC = null; if (btn) btn.classList.remove('rec');
-    var el = document.getElementById('rpin'); if (el) el.value = txt;
-    rpAnswer(txt);
-  };
+  if (!C) { rpDropToManual('Sprechen wird in diesem Browser nicht unterstützt — bitte tippen.'); return; }
+  rpSetPhase('listening', RP_PHASE_LABEL.listening);
+  rpStopRec();
+  REC = new C(); REC.lang = 'de-DE'; REC.interimResults = false; REC.maxAlternatives = 3;
+  var got = false;
+  REC.onresult = function (ev) { got = true; var txt = ev.results[0][0].transcript; rpStopRec(); rpSubmitLive(txt); };
   REC.onerror = function (ev) {
-    REC = null; if (btn) btn.classList.remove('rec');
-    var el = document.getElementById('rpin');
-    if (el) el.placeholder = (ev.error === 'network')
-      ? 'Spracherkennung braucht Internet — bitte tippen.'
-      : 'Mikrofon nicht verfügbar — bitte tippen.';
+    rpStopRec();
+    if (ev.error === 'not-allowed' || ev.error === 'service-not-allowed') rpDropToManual('Bitte das Mikrofon erlauben. Danach die runde Taste drücken oder tippen.');
+    else if (ev.error === 'network') rpDropToManual('Spracherkennung braucht Internet — bitte tippen.');
+    else if (ev.error === 'no-speech') {
+      RP.noSpeech++;
+      if (RP.noSpeech >= 2) { rpSetPhase('idle'); RP.hint = 'Ich habe nichts gehört. Drück die grüne Taste und sprich, oder tippe.'; var l = document.getElementById('rporblab'); if (l) l.textContent = RP_PHASE_LABEL.idle; }
+      else rpSetPhase('idle', 'Ich höre dich nicht — Taste drücken und sprechen');
+    } else rpSetPhase('idle');
   };
-  REC.onend = function () { REC = null; if (btn) btn.classList.remove('rec'); };
-  try { REC.start(); } catch (e) { REC = null; if (btn) btn.classList.remove('rec'); }
+  REC.onend = function () { if (!got && RP.phase === 'listening') rpSetPhase('idle'); };
+  try { REC.start(); } catch (e) { rpSetPhase('idle', 'Taste drücken und sprechen'); }
+}
+function rpSubmitLive(txt) {
+  RP.noSpeech = 0;
+  rpSetPhase('thinking');
+  clearTimeout(RP.timer);
+  RP.timer = setTimeout(function () {
+    var r = rpEval(txt);
+    rpRender(false);
+    if (!r) { rpSetPhase('idle'); return; }
+    if (r.ended) { RP.mode = 'live'; rpSpeakSequence(r.newApp, function () { RP.mode = 'manual'; }); }
+    else rpSpeakSequence(r.newApp, function () { rpListen(); });
+  }, 520);
+}
+function rpDropToManual(msg) {
+  rpStopLive(true);
+  RP.mode = 'manual'; RP.hint = msg || ''; RP.showOpts = true;
+  rpRender(false);
+}
+function rpStopLive(silent) {
+  if (window.speechSynthesis) try { speechSynthesis.cancel(); } catch (e) {}
+  rpStopRec();
+  if (RP) { clearTimeout(RP.timer); RP.mode = 'manual'; RP.phase = 'idle'; if (!silent) rpRender(false); }
+}
+function rpOrbTap() {
+  if (RP.phase === 'listening') { rpStopRec(); rpSetPhase('idle'); }
+  else if (RP.phase === 'idle') { RP.hint = ''; rpListen(); }
 }
 
 /* ---------------- test ---------------- */
@@ -931,6 +1051,7 @@ function vSet() {
 function go(h) { if (location.hash === h) route(); else location.hash = h; }
 function route() {
   closeSheet();
+  if (RP) rpStopLive(true); // stop any live audio/mic when leaving the roleplay
   var p = (location.hash || '#/').replace(/^#\/?/, '').split('/');
   if (!p[0]) return vHome();
   if (p[0] === 't') return vTopic(p[1]);
@@ -983,11 +1104,14 @@ document.addEventListener('click', function (ev) {
       return;
     }
     /* roleplay */
-    case 'rpsend': { var i2 = document.getElementById('rpin'); rpAnswer(i2 ? i2.value : ''); return; }
-    case 'rppick': rpAnswer(el.getAttribute('data-o')); return;
+    case 'rpsend': { var i2 = document.getElementById('rpin'); var v = i2 ? i2.value : ''; if (i2) i2.value = ''; rpDeliver(v); return; }
+    case 'rppick': rpDeliver(el.getAttribute('data-o')); return;
     case 'rphelp': RP.showOpts = !RP.showOpts; rpRender(false); return;
-    case 'rpmic': rpMic(); return;
+    case 'rpstartlive': rpBeginLive(); return;
+    case 'rporbtap': rpOrbTap(); return;
+    case 'rplivestop': case 'rptype': rpStopLive(false); return;
     case 'rprep': {
+      if (window.speechSynthesis) try { speechSynthesis.cancel(); } catch (e) {}
       for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { say(RP.log[j].text); break; }
       return;
     }
