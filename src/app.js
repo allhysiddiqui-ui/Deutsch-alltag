@@ -163,10 +163,12 @@ function ttsGet(key) {
 }
 function ttsPut(key, val) { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').put(val, key); } catch (e) {} }); }
 function ttsClear() { return ttsDbOpen().then(function (db) { if (db) try { db.transaction('audio', 'readwrite').objectStore('audio').clear(); } catch (e) {} }); }
-function ttsKey(text, voice) { return 'v2|' + (voice || '') + '|' + String(text).trim(); }
+// bump the version to abandon clips cached before per-speaker voices existed
+function ttsKey(text, voice) { return 'v3|' + (voice || '') + '|' + String(text).trim(); }
 
-// one voice per speaker so a two-person dialogue sounds like two people
-var VOICE_A = 'Kore', VOICE_B = 'Puck';
+// one voice per speaker so a two-person dialogue sounds like two clearly different people.
+// Speaker B is the parent (always female here) -> a female voice; A is the other party -> a distinct male voice.
+var VOICE_A = 'Charon', VOICE_B = 'Kore';
 function voiceFor(speaker) { return speaker === 'B' ? VOICE_B : VOICE_A; }
 
 var AUDIO = null;
