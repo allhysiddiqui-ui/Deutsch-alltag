@@ -296,7 +296,7 @@ var LVNAME = { A1: 'Anfänger', A2: 'Grundlage', B1: 'Mittel', B2: 'Fortgeschr.'
 function ls(k, d) { try { var v = localStorage.getItem('dg.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } }
 function ss(k, v) { try { localStorage.setItem('dg.' + k, JSON.stringify(v)); } catch (e) {} }
 
-var S = Object.assign({ level: 'A1', en: true, ur: true, theme: 'auto', rate: 0.85, mic: true }, ls('set', {}));
+var S = Object.assign({ level: 'A1', en: true, ur: true, theme: 'auto', rate: 0.9, mic: true, voice: '' }, ls('set', {}));
 var SAVED = ls('saved', {});     // { wordKey: {t:timestamp, box:0} }
 var PROG = ls('prog', {});       // { read:{'top/sub/lvl':1}, test:{topicId:pct}, rp:{'top/sub':1} }
 if (!PROG.read) PROG.read = {}; if (!PROG.test) PROG.test = {}; if (!PROG.rp) PROG.rp = {};
@@ -350,18 +350,45 @@ function topicById(id) { for (var i = 0; i < TOPICS.length; i++) if (TOPICS[i].i
 function subById(t, id) { if (!t) return null; for (var i = 0; i < t.subtopics.length; i++) if (t.subtopics[i].id === id) return t.subtopics[i]; return null; }
 
 /* ---------------- speech ---------------- */
-var VOICE = null;
-function pickVoice() {
+var VOICE = null, VOICES = [];
+function voiceId(v) { return v.voiceURI || v.name; }
+/* Higher = more natural. The good voices are the cloud/"enhanced" ones — the plain
+   offline default is the robotic one, so it must NOT win by default. */
+function rankVoice(v) {
+  var n = (v.name || '').toLowerCase(), s = 0;
+  if ((v.lang || '').toLowerCase() === 'de-de') s += 2; else s += 1;
+  if (n.indexOf('google') > -1) s += 4;
+  if (/enhanced|premium|neural|natural|siri/.test(n)) s += 4;
+  if (!v.localService) s += 1;
+  if (/compact|espeak|pico|eloquence/.test(n)) s -= 4;
+  return s;
+}
+function loadVoices() {
   if (!window.speechSynthesis) return;
   var vs = speechSynthesis.getVoices() || [];
-  var best = null;
-  for (var i = 0; i < vs.length; i++) {
-    var v = vs[i];
-    if (v.lang && v.lang.toLowerCase().indexOf('de') === 0) { if (!best || v.localService) best = v; }
-  }
-  VOICE = best;
+  VOICES = vs.filter(function (v) { return v.lang && v.lang.toLowerCase().indexOf('de') === 0; })
+    .sort(function (a, b) { return rankVoice(b) - rankVoice(a); });
+  pickVoice();
+  // voices load asynchronously — if Settings is already open, refresh the list
+  if ((location.hash || '') === '#/set' && typeof vSet === 'function') vSet();
 }
-if (window.speechSynthesis) { pickVoice(); speechSynthesis.onvoiceschanged = pickVoice; }
+function pickVoice() {
+  VOICE = null;
+  if (S.voice) for (var i = 0; i < VOICES.length; i++) if (voiceId(VOICES[i]) === S.voice) { VOICE = VOICES[i]; break; }
+  if (!VOICE && VOICES.length) VOICE = VOICES[0];
+}
+if (window.speechSynthesis) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+function sampleVoice(id) {
+  if (!window.speechSynthesis) return;
+  var v = null;
+  for (var i = 0; i < VOICES.length; i++) if (voiceId(VOICES[i]) === id) { v = VOICES[i]; break; }
+  try {
+    speechSynthesis.cancel();
+    var u = new SpeechSynthesisUtterance('Guten Tag! Ich helfe dir, Deutsch zu lernen.');
+    u.lang = 'de-DE'; u.rate = Number(S.rate) || 0.9; if (v) u.voice = v;
+    speechSynthesis.speak(u);
+  } catch (e) {}
+}
 function say(text, cb) {
   if (!window.speechSynthesis) { if (cb) cb(); return; }
   try {
@@ -1033,6 +1060,25 @@ function vSet() {
     sw('Mikrofon im Rollenspiel', hasMic() ? 'Braucht Internet' : 'Auf diesem Browser nicht verfügbar', 'tgmic', S.mic && hasMic()) +
     '<div class="sw"><div><div style="font-weight:600">Sprechtempo</div><div class="small muted">' + S.rate + '×</div></div>' +
     '<input type="range" min="0.5" max="1.2" step="0.05" value="' + S.rate + '" id="rate" style="width:140px"></div></div>';
+
+  b += '<div class="sec">Stimme / Voice</div>';
+  if (!VOICES.length) {
+    b += '<div class="card" style="padding:14px"><div class="small muted">Es wurde keine deutsche Stimme gefunden. Installiere eine (siehe unten) und öffne die App neu.</div></div>';
+  } else {
+    b += '<div class="card">';
+    VOICES.forEach(function (v) {
+      var id = voiceId(v), on = VOICE && voiceId(VOICE) === id;
+      b += '<div class="wc"><button style="text-align:left;flex:1;background:none" data-act="setvoice" data-v="' + esc(id) + '">' +
+        '<div class="l"' + (on ? ' style="color:var(--acc)"' : '') + '>' + (on ? '● ' : '') + esc(v.name) + '</div>' +
+        '<div class="m">' + esc(v.lang) + (v.localService ? ' · offline' : ' · online, natürlicher') + '</div></button>' +
+        '<button class="mini" data-act="testvoice" data-v="' + esc(id) + '">🔊</button></div>';
+    });
+    b += '</div>';
+  }
+  b += '<div class="livehint" style="text-align:left;margin-top:10px">Klingt die Stimme künstlich? Lade eine bessere deutsche Stimme — sie ist kostenlos, nur nicht vorinstalliert:' +
+    '<br>• <b>iPhone</b>: Einstellungen → Bedienungshilfen → Gesprochene Inhalte → Stimmen → Deutsch → eine mit „Premium" oder „Erweitert" laden.' +
+    '<br>• <b>Android</b>: Einstellungen → Zusätzliche Einstellungen → Sprache → Text-in-Sprache → Google → Deutsch, „Hohe Qualität" installieren.' +
+    '<br>Danach die App neu öffnen und die Stimme oben auswählen.</div>';
   b += '<div class="sec">Aussehen</div><div class="card"><div class="sw"><div style="font-weight:600">Theme</div><div style="display:flex;gap:6px">' +
     ['auto', 'light', 'dark'].map(function (t) {
       return '<button class="mini' + (S.theme === t ? ' sel' : '') + '" data-act="theme" data-t="' + t + '" style="' +
@@ -1134,6 +1180,8 @@ document.addEventListener('click', function (ev) {
     case 'tgen': S.en = !S.en; saveSet(); vSet(); return;
     case 'tgur': S.ur = !S.ur; saveSet(); vSet(); return;
     case 'tgmic': S.mic = !S.mic; saveSet(); vSet(); return;
+    case 'setvoice': S.voice = el.getAttribute('data-v'); saveSet(); pickVoice(); vSet(); sampleVoice(S.voice); return;
+    case 'testvoice': sampleVoice(el.getAttribute('data-v')); return;
     case 'theme': S.theme = el.getAttribute('data-t'); saveSet(); vSet(); return;
     case 'reset':
       if (confirm('Wirklich allen Fortschritt löschen?')) {
