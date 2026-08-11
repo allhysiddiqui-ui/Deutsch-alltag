@@ -41,6 +41,7 @@ fs.mkdirSync(p('dist'), { recursive: true });
 fs.writeFileSync(p('dist', 'deutsch.html'), out, 'utf8'); // the file you copy around
 fs.writeFileSync(p('dist', 'index.html'), out, 'utf8');   // so `npx surge ./dist` works
 fs.writeFileSync(p('index.html'), out, 'utf8');           // served by GitHub Pages from the repo root
+fs.writeFileSync(p('.nojekyll'), '');                     // tell GitHub Pages to serve files as-is (no Jekyll build)
 
 const words = Object.keys(data.dictionary).length;
 let dialogues = 0, lines = 0, rp = 0;
