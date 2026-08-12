@@ -1,0 +1,213 @@
+{
+  "id": "beschwerden",
+  "order": 2,
+  "icon": "🤒",
+  "title": { "de": "Beschwerden schildern", "en": "Describing your symptoms", "ur": "Takleef batana" },
+  "angle": "In the consulting room with the doctor · Doctor ke kamre mein",
+  "voices": { "A": "Puck", "B": "Kore" },
+  "words": ["beschwerden", "müde", "schwindelig", "appetit", "schlafen", "stress", "untersuchen", "blutdruck", "blutabnahme", "erschöpft"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Bitte setzen Sie sich.", "en": "Hello, Mrs Yilmaz. Please sit down.", "ur": "Salam, Frau Yilmaz. Baith jayein." },
+        { "s": "A", "de": "Was fehlt Ihnen?", "en": "What's wrong with you?", "ur": "Aap ko kya takleef hai?" },
+        { "s": "B", "de": "Ich bin sehr müde und schlapp.", "en": "I am very tired and run-down.", "ur": "Main bohat thaki aur nidhaal hoon." },
+        { "s": "A", "de": "Seit wann geht das so?", "en": "How long has this been going on?", "ur": "Yeh kab se hai?" },
+        { "s": "B", "de": "Seit ungefähr zwei Wochen.", "en": "For about two weeks.", "ur": "Taqreeban do hafte se." },
+        { "s": "A", "de": "Schlafen Sie gut?", "en": "Do you sleep well?", "ur": "Kya aap achi tarah soti hain?" },
+        { "s": "B", "de": "Nein, ich wache oft auf.", "en": "No, I often wake up.", "ur": "Nahi, main aksar jaag jati hoon." },
+        { "s": "A", "de": "Haben Sie Appetit?", "en": "Do you have an appetite?", "ur": "Kya aap ko bhook lagti hai?" },
+        { "s": "B", "de": "Nicht so viel wie früher.", "en": "Not as much as before.", "ur": "Pehle jitni nahi." },
+        { "s": "A", "de": "Ich messe zuerst den Blutdruck.", "en": "I'll measure your blood pressure first.", "ur": "Pehle main blood pressure naapta hoon." },
+        { "s": "B", "de": "In Ordnung.", "en": "All right.", "ur": "Theek hai." },
+        { "s": "A", "de": "Der Blutdruck ist normal. Wir machen eine Blutabnahme.", "en": "The blood pressure is normal. We'll do a blood test.", "ur": "Blood pressure normal hai. Hum khoon ka test karte hain." },
+        { "s": "B", "de": "Ist das schlimm?", "en": "Is that serious?", "ur": "Kya yeh serious hai?" },
+        { "s": "A", "de": "Nein. Wir schauen, ob Ihnen etwas fehlt, zum Beispiel Eisen.", "en": "No. We'll check whether you're lacking something, for example iron.", "ur": "Nahi. Hum dekhte hain ke kisi cheez ki kami to nahi, jaise loha." },
+        { "s": "B", "de": "Danke, Herr Doktor.", "en": "Thank you, doctor.", "ur": "Shukriya, doctor sahab." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Am Telefon hieß es, Sie fühlen sich seit einer Weile schlapp.", "en": "Hello, Mrs Yilmaz. On the phone you said you've felt run-down for a while.", "ur": "Salam, Frau Yilmaz. Phone par kaha tha ke aap kuch arse se nidhaal hain." },
+        { "s": "B", "de": "Genau. Ich bin ständig müde, obwohl ich früh ins Bett gehe.", "en": "Exactly. I'm constantly tired, even though I go to bed early.", "ur": "Bilkul. Main hamesha thaki rehti hoon, chahe jaldi so jaoon." },
+        { "s": "A", "de": "Sind Sie auch tagsüber erschöpft, oder nur morgens?", "en": "Are you exhausted during the day too, or only in the mornings?", "ur": "Kya din bhar bhi thakan hoti hai, ya sirf subh?" },
+        { "s": "B", "de": "Den ganzen Tag. Manchmal ist mir sogar schwindelig, wenn ich aufstehe.", "en": "The whole day. Sometimes I even feel dizzy when I stand up.", "ur": "Poora din. Kabhi to uthte waqt chakkar bhi aata hai." },
+        { "s": "A", "de": "Hat sich in Ihrem Leben etwas verändert? Mehr Stress bei der Arbeit oder zu Hause?", "en": "Has something changed in your life? More stress at work or at home?", "ur": "Kya aap ki zindagi mein kuch badla? Kaam ya ghar par zyada stress?" },
+        { "s": "B", "de": "Auf der Arbeit ist gerade sehr viel los, und ich schlafe schlecht.", "en": "There's a lot going on at work right now, and I sleep badly.", "ur": "Kaam par is waqt bohat kuch chal raha hai, aur main buri tarah soti hoon." },
+        { "s": "A", "de": "Trinken Sie genug und essen Sie regelmäßig?", "en": "Do you drink enough and eat regularly?", "ur": "Kya aap kaafi peeti hain aur waqt par khati hain?" },
+        { "s": "B", "de": "Ehrlich gesagt vergesse ich das oft, weil ich viel zu tun habe.", "en": "To be honest I often forget, because I have a lot to do.", "ur": "Sach kahoon to aksar bhool jati hoon, kyunke bohat kaam hota hai." },
+        { "s": "A", "de": "Das kann schon eine Rolle spielen. Trotzdem messe ich den Blutdruck und nehme Blut ab.", "en": "That can already play a role. Still, I'll measure your blood pressure and take blood.", "ur": "Yeh bhi asar dal sakta hai. Phir bhi main blood pressure naapta hoon aur khoon leta hoon." },
+        { "s": "B", "de": "Wonach schauen Sie im Blut?", "en": "What are you looking for in the blood?", "ur": "Khoon mein aap kya dekhte hain?" },
+        { "s": "A", "de": "Vor allem Eisen, den Blutzucker und die Schilddrüse. Das sind häufige Ursachen für Müdigkeit.", "en": "Mainly iron, blood sugar and the thyroid. Those are common causes of tiredness.", "ur": "Khaas kar loha, sugar aur thyroid. Yeh thakan ki aam wajahat hain." },
+        { "s": "B", "de": "Und wenn alles normal ist?", "en": "And if everything is normal?", "ur": "Aur agar sab normal ho?" },
+        { "s": "A", "de": "Dann liegt es wahrscheinlich am Stress und am Schlaf. Daran können wir dann gezielt arbeiten.", "en": "Then it's probably the stress and sleep. We can then work on that specifically.", "ur": "To ghaliban stress aur neend ki wajah se hai. Phir hum us par kaam kar sakte hain." },
+        { "s": "B", "de": "Wann bekomme ich die Ergebnisse?", "en": "When do I get the results?", "ur": "Nateeje kab milenge?" },
+        { "s": "A", "de": "In zwei bis drei Tagen. Die Praxis ruft Sie an oder Sie kommen kurz vorbei.", "en": "In two to three days. The practice will call you or you drop by briefly.", "ur": "Do teen din mein. Clinic aap ko phone karega ya aap aa jayein." },
+        { "s": "B", "de": "Gut, danke für die Erklärung.", "en": "Good, thank you for the explanation.", "ur": "Acha, wazahat ka shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Setzen Sie sich, Frau Yilmaz. Erzählen Sie mir in Ruhe, was los ist.", "en": "Have a seat, Mrs Yilmaz. Tell me calmly what's going on.", "ur": "Baith jayein, Frau Yilmaz. Itminan se batayein ke kya masla hai." },
+        { "s": "B", "de": "Ich schleppe mich seit Wochen durch den Tag. Selbst kleine Dinge strengen mich an.", "en": "I've been dragging myself through the day for weeks. Even small things exhaust me.", "ur": "Kai hafton se main mushkil se din guzarti hoon. Chhoti cheezein bhi thaka deti hain." },
+        { "s": "A", "de": "Ist die Erschöpfung eher körperlich, oder fühlen Sie sich auch niedergeschlagen?", "en": "Is the exhaustion more physical, or do you also feel low?", "ur": "Thakan zyada jismani hai, ya aap dil bhi udaas mehsoos karti hain?" },
+        { "s": "B", "de": "Beides, glaube ich. Ich habe zu nichts mehr Lust und bin schnell gereizt.", "en": "Both, I think. I don't feel like doing anything anymore and I get irritable quickly.", "ur": "Dono, mere khayal mein. Kisi cheez ka dil nahi karta aur jaldi chirh jati hoon." },
+        { "s": "A", "de": "Das nehme ich ernst. Solche Beschwerden können körperliche Ursachen haben, aber auch mit der Psyche zusammenhängen.", "en": "I take that seriously. Such symptoms can have physical causes, but can also be linked to mental health.", "ur": "Main isay sanjidgi se leta hoon. Aisi takleef ki jismani wajah bhi ho sakti hai aur zehni bhi." },
+        { "s": "B", "de": "Ich hätte lieber eine körperliche Erklärung, ehrlich gesagt.", "en": "I'd honestly prefer a physical explanation.", "ur": "Sach kahoon to mujhe jismani wajah zyada pasand hogi." },
+        { "s": "A", "de": "Das verstehe ich, aber wir sollten beides im Blick behalten. Zuerst schließe ich körperliche Ursachen aus.", "en": "I understand, but we should keep an eye on both. First I'll rule out physical causes.", "ur": "Samajhta hoon, lekin dono par nazar rakhni chahiye. Pehle main jismani wajahat khaarij karta hoon." },
+        { "s": "B", "de": "Was heißt das konkret?", "en": "What does that mean concretely?", "ur": "Is ka amli matlab kya hai?" },
+        { "s": "A", "de": "Blutabnahme, Blutdruck, und ein paar Fragen zum Schlaf und zur Stimmung. Danach sehen wir weiter.", "en": "A blood test, blood pressure, and a few questions about sleep and mood. Then we'll see.", "ur": "Khoon ka test, blood pressure, aur neend aur mizaj ke kuch sawal. Phir aage dekhte hain." },
+        { "s": "B", "de": "Und falls im Blut nichts gefunden wird?", "en": "And if nothing is found in the blood?", "ur": "Aur agar khoon mein kuch na mile?" },
+        { "s": "A", "de": "Dann reden wir offen über Stress, Schlaf und mögliche Unterstützung. Das ist kein Zeichen von Schwäche.", "en": "Then we'll talk openly about stress, sleep and possible support. That's not a sign of weakness.", "ur": "To hum khul kar stress, neend aur mumkin madad par baat karenge. Yeh kamzori ki alamat nahi." },
+        { "s": "B", "de": "Das zu hören tut gut. Ich dachte, ich müsste einfach durchhalten.", "en": "It's good to hear that. I thought I just had to push through.", "ur": "Yeh sun kar tasalli hui. Main samjhti thi ke bas bardasht karna hai." },
+        { "s": "A", "de": "Durchhalten allein hilft selten. Führen Sie bis nächste Woche ein kleines Tagebuch: Schlaf, Essen, Stimmung.", "en": "Pushing through alone rarely helps. Keep a small diary until next week: sleep, food, mood.", "ur": "Sirf bardasht karna kam hi madad karta hai. Agle hafte tak ek chhoti diary rakhein: neend, khana, mizaj." },
+        { "s": "B", "de": "Das mache ich. Wie schnell habe ich die Blutergebnisse?", "en": "I'll do that. How soon will I have the blood results?", "ur": "Zaroor. Khoon ke nateeje kitni jaldi milenge?" },
+        { "s": "A", "de": "In wenigen Tagen. Wenn etwas Auffälliges dabei ist, melde ich mich sofort bei Ihnen.", "en": "In a few days. If there's anything abnormal, I'll contact you immediately.", "ur": "Chand din mein. Agar koi ghair mamooli baat hui to main foran rabta karoonga." },
+        { "s": "B", "de": "Vielen Dank, dass Sie sich Zeit genommen haben.", "en": "Thank you for taking the time.", "ur": "Waqt dene ka bohat shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Frau Yilmaz, Sie sagten am Empfang, die Müdigkeit halte schon länger an. Ordnen wir das mal ein.", "en": "Mrs Yilmaz, you said at reception the tiredness has lasted a while now. Let's put it in context.", "ur": "Frau Yilmaz, aap ne reception par kaha ke thakan kaafi arse se hai. Isay tarteeb se dekhte hain." },
+        { "s": "B", "de": "Es ist schwer zu greifen. Ich funktioniere, aber ich bin nie richtig erholt, egal wie viel ich schlafe.", "en": "It's hard to pin down. I function, but I'm never properly rested, no matter how much I sleep.", "ur": "Isay samajhna mushkil hai. Main kaam kar leti hoon, lekin kabhi poori tarah taaza nahi hoti, chahe kitna bhi soun." },
+        { "s": "A", "de": "Nicht erholsamer Schlaf ist ein wichtiger Hinweis. Schnarchen Sie, oder wurde Ihnen gesagt, dass Sie im Schlaf Atemaussetzer haben?", "en": "Non-restorative sleep is an important clue. Do you snore, or have you been told you have breathing pauses in your sleep?", "ur": "Aisi neend jo taazgi na de ahem ishara hai. Kya aap kharraatay leti hain, ya kisi ne kaha ke neend mein saans rukti hai?" },
+        { "s": "B", "de": "Mein Mann sagt, ich schnarche und setze manchmal kurz aus. Ich dachte, das sei normal.", "en": "My husband says I snore and sometimes stop briefly. I thought that was normal.", "ur": "Mere shohar kehte hain main kharraatay leti hoon aur kabhi saans ruk jati hai. Main samjhti thi yeh normal hai." },
+        { "s": "A", "de": "Das ist es nicht unbedingt. Atemaussetzer im Schlaf können die Erholung massiv stören und tagsüber müde machen.", "en": "It isn't necessarily. Breathing pauses in sleep can severely disturb recovery and cause daytime tiredness.", "ur": "Zaroori nahi. Neend mein saans rukna aaram ko buri tarah kharab kar sakta hai aur din mein thaka deta hai." },
+        { "s": "B", "de": "Heißt das, meine Erschöpfung kommt vielleicht gar nicht vom Stress, sondern vom Schlaf selbst?", "en": "Does that mean my exhaustion maybe isn't from stress at all, but from the sleep itself?", "ur": "Yani meri thakan shayad stress se nahi, balke neend se hai?" },
+        { "s": "A", "de": "Möglich. Beides kann sich auch gegenseitig verstärken. Ich möchte das sauber trennen, statt vorschnell zu urteilen.", "en": "Possibly. The two can also reinforce each other. I want to separate this cleanly rather than judge prematurely.", "ur": "Mumkin. Dono ek doosre ko barha bhi sakte hain. Main jaldi faisla karne ke bajaye isay saaf alag karna chahta hoon." },
+        { "s": "B", "de": "Wie gehen Sie da methodisch vor?", "en": "How do you proceed methodically there?", "ur": "Aap is mein tarteeb se kaise aage barhte hain?" },
+        { "s": "A", "de": "Erst Basiswerte aus dem Blut, dann ein Schlaflabor oder ein Gerät für zu Hause, das nachts Atmung und Sauerstoff misst.", "en": "First baseline values from the blood, then a sleep lab or a home device that measures breathing and oxygen at night.", "ur": "Pehle khoon se bunyadi values, phir sleep lab ya ghar ka aala jo raat ko saans aur oxygen naapta hai." },
+        { "s": "B", "de": "Ein Gerät für zu Hause klingt machbar. Bekomme ich das über Sie oder über einen Facharzt?", "en": "A home device sounds doable. Do I get that through you or through a specialist?", "ur": "Ghar wala aala kar-e-amal lagta hai. Yeh aap ke zariye milega ya specialist se?" },
+        { "s": "A", "de": "Die Voruntersuchung mache ich, für die eigentliche Diagnostik überweise ich Sie gegebenenfalls zum Schlafmediziner.", "en": "I do the preliminary examination; for the actual diagnostics I'll refer you to a sleep physician if needed.", "ur": "Ibtidai muaina main karta hoon, asli tashkhees ke liye zaroorat par sleep doctor ke paas bhej doonga." },
+        { "s": "B", "de": "Und bis dahin? Ich kann nicht einfach wochenlang auf einen Termin warten und weiter so müde sein.", "en": "And until then? I can't just wait weeks for an appointment and stay this tired.", "ur": "Aur tab tak? Main hafton appointment ka intezaar kar ke itni thaki nahi reh sakti." },
+        { "s": "A", "de": "Völlig berechtigt. Wir verbessern parallel die Schlafhygiene und ich gebe Ihnen konkrete Punkte mit, keine leeren Ratschläge.", "en": "Completely fair. In parallel we'll improve sleep hygiene, and I'll give you concrete points, not empty advice.", "ur": "Bilkul jaiz. Sath sath hum neend ki aadat behtar karenge, aur main aap ko amli baatein doonga, khokhle mashware nahi." },
+        { "s": "B", "de": "Das schätze ich. Ich habe schon zu oft gehört, ich solle einfach entspannen.", "en": "I appreciate that. I've too often heard I should just relax.", "ur": "Yeh mujhe pasand hai. Mujhe aksar kaha gaya ke bas sukoon karo." },
+        { "s": "A", "de": "Entspannung ist ein Werkzeug, keine Diagnose. Lassen Sie uns mit Fakten arbeiten, dann finden wir die Ursache.", "en": "Relaxation is a tool, not a diagnosis. Let's work with facts, then we'll find the cause.", "ur": "Sukoon ek zariya hai, tashkhees nahi. Aayein haqaiq se kaam karein, phir wajah mil jaye gi." },
+        { "s": "B", "de": "Einverstanden. Fangen wir mit der Blutabnahme an.", "en": "Agreed. Let's start with the blood test.", "ur": "Manzoor. Khoon ke test se shuru karte hain." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie sind beim Hausarzt. Sie sind seit zwei Wochen sehr müde und schlapp.",
+        "en": "You're at the family doctor. You've been very tired and run-down for two weeks.",
+        "ur": "Aap family doctor ke paas hain. Do hafte se bohat thaki aur nidhaal hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Frau Yilmaz. Was fehlt Ihnen?",
+          "goal": { "en": "Say you are very tired and run-down.", "ur": "Kahein ke aap bohat thaki aur nidhaal hain." },
+          "options": ["Ich bin sehr müde und schlapp.", "Ich fühle mich müde und schlapp."],
+          "fallback": "Was für Beschwerden haben Sie?",
+          "accept": [{ "kw": ["müde", "schlapp"], "next": "n2" }, { "kw": ["müde"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Seit wann geht das so?",
+          "goal": { "en": "Say: for about two weeks.", "ur": "Kahein: taqreeban do hafte se." },
+          "options": ["Seit ungefähr zwei Wochen.", "Seit zwei Wochen."],
+          "fallback": "Wie lange schon?",
+          "accept": [{ "kw": ["zwei", "wochen"], "next": "n3" }, { "kw": ["wochen"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Schlafen Sie gut?",
+          "goal": { "en": "Say no, you often wake up.", "ur": "Kahein: nahi, aksar jaag jati hoon." },
+          "options": ["Nein, ich wache oft auf.", "Nein, ich schlafe schlecht."],
+          "fallback": "Wie ist Ihr Schlaf?",
+          "accept": [{ "kw": ["nein", "auf"], "next": "n4" }, { "kw": ["schlecht"], "next": "n4" }, { "kw": ["wache"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ich messe den Blutdruck und mache eine Blutabnahme.",
+          "goal": { "en": "Ask whether that is serious.", "ur": "Poochein ke kya yeh serious hai." },
+          "options": ["Ist das schlimm?", "Ist das etwas Ernstes?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["schlimm"], "next": "n5" }, { "kw": ["ernst"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nein. Wir schauen, ob Ihnen etwas fehlt, zum Beispiel Eisen.",
+          "goal": { "en": "Thank the doctor.", "ur": "Doctor ka shukriya karein." },
+          "options": ["Danke, Herr Doktor.", "Vielen Dank, Herr Doktor."],
+          "fallback": "Alles klar so weit?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern. Die Ergebnisse haben wir in ein paar Tagen.", "next": "END" },
+            { "kw": ["dank"], "reply": "Gern. Bis bald.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie schleppen sich seit Wochen durch den Tag und fühlen sich erschöpft und niedergeschlagen. Sie schildern das dem Hausarzt.",
+        "en": "You've been dragging yourself through the day for weeks and feel exhausted and low. You describe this to the family doctor.",
+        "ur": "Kai hafton se aap mushkil se din guzarte hain aur thake aur udaas mehsoos karte hain. Aap yeh doctor ko batate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Setzen Sie sich, Frau Yilmaz. Erzählen Sie mir in Ruhe, was los ist.",
+          "goal": { "en": "Say you've dragged yourself through the day for weeks; even small things exhaust you.", "ur": "Kahein ke kai hafton se mushkil se din guzarti hain; chhoti cheezein bhi thaka deti hain." },
+          "options": ["Ich schleppe mich seit Wochen durch den Tag. Selbst kleine Dinge strengen mich an.", "Seit Wochen bin ich erschöpft, kleine Dinge strengen mich an."],
+          "fallback": "Beschreiben Sie mir Ihre Beschwerden.",
+          "accept": [{ "kw": ["wochen", "strengen"], "next": "n2" }, { "kw": ["erschöpft"], "next": "n2" }, { "kw": ["schleppe"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ist die Erschöpfung eher körperlich, oder fühlen Sie sich auch niedergeschlagen?",
+          "goal": { "en": "Say both — you don't feel like doing anything and get irritable quickly.", "ur": "Kahein dono — kisi cheez ka dil nahi karta aur jaldi chirh jati hoon." },
+          "options": ["Beides. Ich habe zu nichts mehr Lust und bin schnell gereizt.", "Beides, ich habe keine Lust und bin gereizt."],
+          "fallback": "Körperlich oder seelisch?",
+          "accept": [{ "kw": ["beides", "gereizt"], "next": "n3" }, { "kw": ["beides"], "next": "n3" }, { "kw": ["lust"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das nehme ich ernst. Solche Beschwerden können körperliche Ursachen haben, aber auch mit der Psyche zusammenhängen.",
+          "goal": { "en": "Say you'd honestly prefer a physical explanation.", "ur": "Kahein ke sach mein aap ko jismani wajah zyada pasand hogi." },
+          "options": ["Ich hätte lieber eine körperliche Erklärung, ehrlich gesagt.", "Ehrlich gesagt hoffe ich auf eine körperliche Ursache."],
+          "fallback": "Wie denken Sie darüber?",
+          "accept": [{ "kw": ["körperliche", "erklärung"], "next": "n4" }, { "kw": ["körperliche"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das verstehe ich. Zuerst schließe ich körperliche Ursachen aus: Blutabnahme, Blutdruck und Fragen zum Schlaf.",
+          "goal": { "en": "Ask what happens if nothing is found in the blood.", "ur": "Poochein ke agar khoon mein kuch na mile to kya hoga." },
+          "options": ["Und falls im Blut nichts gefunden wird?", "Was, wenn das Blut normal ist?"],
+          "fallback": "Haben Sie dazu eine Frage?",
+          "accept": [{ "kw": ["blut", "nichts"], "next": "n5" }, { "kw": ["blut", "normal"], "next": "n5" }, { "kw": ["falls"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dann reden wir offen über Stress, Schlaf und mögliche Unterstützung. Das ist kein Zeichen von Schwäche.",
+          "goal": { "en": "Say it's good to hear; you thought you just had to push through.", "ur": "Kahein sun kar acha laga; aap samjhti thin ke bas bardasht karna hai." },
+          "options": ["Das zu hören tut gut. Ich dachte, ich müsste einfach durchhalten.", "Das tut gut. Ich dachte, ich muss nur durchhalten."],
+          "fallback": "Wie klingt das für Sie?",
+          "accept": [{ "kw": ["gut", "durchhalten"], "next": "n6" }, { "kw": ["durchhalten"], "next": "n6" }, { "kw": ["gut"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Führen Sie bis nächste Woche ein kleines Tagebuch: Schlaf, Essen, Stimmung. Dann sehen wir weiter.",
+          "goal": { "en": "Agree and ask how soon you'll have the blood results.", "ur": "Haan kahein aur poochein ke khoon ke nateeje kitni jaldi milenge." },
+          "options": ["Das mache ich. Wie schnell habe ich die Blutergebnisse?", "Gut. Wann bekomme ich die Ergebnisse?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [
+            { "kw": ["ergebnisse"], "reply": "In wenigen Tagen. Bei etwas Auffälligem melde ich mich sofort.", "next": "END" },
+            { "kw": ["blutergebnisse"], "reply": "In wenigen Tagen. Ich melde mich.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

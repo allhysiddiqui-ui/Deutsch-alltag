@@ -1,0 +1,3748 @@
+{
+"schlaf": {
+"lemma": "Schlaf",
+"pos": "Nomen",
+"gender": "der",
+"en": "sleep",
+"ur": "neend",
+"ex": {
+"de": "Mein Schlaf ist schlecht.",
+"en": "My sleep is bad.",
+"ur": "Meri neend kharab hai."
+}
+},
+"müdigkeit": {
+"lemma": "Müdigkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "tiredness",
+"ur": "thakan",
+"ex": {
+"de": "Die Müdigkeit hält lange an.",
+"en": "The tiredness lasts a long time.",
+"ur": "Thakan bohat der rehti hai."
+}
+},
+"blutabnahme": {
+"lemma": "Blutabnahme",
+"pos": "Nomen",
+"gender": "die",
+"en": "taking a blood sample / blood draw",
+"ur": "khoon lena",
+"ex": {
+"de": "Wir machen eine Blutabnahme.",
+"en": "We'll do a blood draw.",
+"ur": "Hum khoon lete hain."
+}
+},
+"erschöpfung": {
+"lemma": "Erschöpfung",
+"pos": "Nomen",
+"gender": "die",
+"en": "exhaustion",
+"ur": "shadeed thakan",
+"ex": {
+"de": "Die Erschöpfung ist körperlich und seelisch.",
+"en": "The exhaustion is physical and mental.",
+"ur": "Thakan jismani bhi hai aur zehni bhi."
+}
+},
+"erschöpft": {
+"lemma": "erschöpft",
+"pos": "Adjektiv",
+"en": "exhausted",
+"ur": "bilkul thaka hua",
+"ex": {
+"de": "Ich bin völlig erschöpft.",
+"en": "I'm completely exhausted.",
+"ur": "Main bilkul thaki hui hoon."
+}
+},
+"niedrig": {
+"lemma": "niedrig",
+"pos": "Adjektiv",
+"forms": [
+"niedriger",
+"niedrige",
+"niedrigen"
+],
+"en": "low",
+"ur": "kam / neecha",
+"ex": {
+"de": "Der Eisenwert ist zu niedrig.",
+"en": "The iron level is too low.",
+"ur": "Loha bohat kam hai."
+}
+},
+"knie": {
+"lemma": "Knie",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Knie",
+"en": "knee",
+"ur": "ghutna",
+"ex": {
+"de": "Mein Knie tut weh.",
+"en": "My knee hurts.",
+"ur": "Mera ghutna dard karta hai."
+}
+},
+"orthopäde": {
+"lemma": "Orthopäde",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Orthopäden",
+"forms": [
+"orthopäden"
+],
+"en": "orthopedist (bone & joint specialist)",
+"ur": "haddi jorron ka doctor",
+"ex": {
+"de": "Der Orthopäde untersucht das Knie.",
+"en": "The orthopedist examines the knee.",
+"ur": "Haddi ka doctor ghutna dekhta hai."
+}
+},
+"terminsuche": {
+"lemma": "Terminsuche",
+"pos": "Nomen",
+"gender": "die",
+"en": "searching for an appointment",
+"ur": "appointment dhoondna",
+"ex": {
+"de": "Viel Erfolg bei der Terminsuche.",
+"en": "Good luck with the appointment search.",
+"ur": "Appointment dhoondne mein kamyabi."
+}
+},
+"eisenmangel": {
+"lemma": "Eisenmangel",
+"pos": "Nomen",
+"gender": "der",
+"en": "iron deficiency",
+"ur": "iron ki kami",
+"ex": {
+"de": "Sie haben einen Eisenmangel.",
+"en": "You have an iron deficiency.",
+"ur": "Aap ko iron ki kami hai."
+}
+},
+"eisenwert": {
+"lemma": "Eisenwert",
+"pos": "Nomen",
+"gender": "der",
+"en": "iron level (in the blood)",
+"ur": "khoon mein loha",
+"ex": {
+"de": "Der Eisenwert ist niedrig.",
+"en": "The iron level is low.",
+"ur": "Loha kam hai."
+}
+},
+"eisentabletten": {
+"lemma": "Eisentablette",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Eisentabletten",
+"en": "iron tablets",
+"ur": "iron ki goliyan",
+"ex": {
+"de": "Nehmen Sie drei Monate Eisentabletten.",
+"en": "Take iron tablets for three months.",
+"ur": "Teen mahine iron ki goliyan lein."
+}
+},
+"eisenkontrolle": {
+"lemma": "Eisenkontrolle",
+"pos": "Nomen",
+"gender": "die",
+"en": "iron follow-up check",
+"ur": "iron ka dobara test",
+"ex": {
+"de": "Bei der Eisenkontrolle prüfen wir das noch einmal.",
+"en": "At the iron follow-up we check it again.",
+"ur": "Iron ke check par hum dobara dekhenge."
+}
+},
+"kontrolle": {
+"lemma": "Kontrolle",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Kontrollen",
+"en": "check / follow-up",
+"ur": "dobara jaanch",
+"ex": {
+"de": "Nach drei Monaten machen wir eine Kontrolle.",
+"en": "After three months we do a check.",
+"ur": "Teen mahine baad hum check karte hain."
+}
+},
+"kontrolltermin": {
+"lemma": "Kontrolltermin",
+"pos": "Nomen",
+"gender": "der",
+"en": "follow-up appointment",
+"ur": "dobara check ka appointment",
+"ex": {
+"de": "Ich trage den Kontrolltermin ein.",
+"en": "I'll book the follow-up appointment.",
+"ur": "Main dobara check ka appointment likh deta hoon."
+}
+},
+"kontrollieren": {
+"lemma": "kontrollieren",
+"pos": "Verb",
+"forms": [
+"kontrolliert",
+"kontrolliere"
+],
+"en": "to check / to monitor",
+"ur": "jaanchna",
+"ex": {
+"de": "Wir kontrollieren die Werte in drei Monaten.",
+"en": "We'll check the values in three months.",
+"ur": "Hum teen mahine mein values check karenge."
+}
+},
+"ernährung": {
+"lemma": "Ernährung",
+"pos": "Nomen",
+"gender": "die",
+"en": "diet / nutrition",
+"ur": "ghiza / khana",
+"ex": {
+"de": "Achten Sie auf die Ernährung.",
+"en": "Pay attention to your diet.",
+"ur": "Apni ghiza ka dhyan rakhein."
+}
+},
+"diagnose": {
+"lemma": "Diagnose",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Diagnosen",
+"en": "diagnosis",
+"ur": "tashkhees",
+"ex": {
+"de": "Für die Diagnose braucht es weitere Tests.",
+"en": "The diagnosis needs further tests.",
+"ur": "Tashkhees ke liye aur test chahiye."
+}
+},
+"diagnostik": {
+"lemma": "Diagnostik",
+"pos": "Nomen",
+"gender": "die",
+"en": "diagnostics (the process of finding out)",
+"ur": "tashkhees ka amal",
+"ex": {
+"de": "Die eigentliche Diagnostik macht der Facharzt.",
+"en": "The actual diagnostics is done by the specialist.",
+"ur": "Asli tashkhees specialist karta hai."
+}
+},
+"therapie": {
+"lemma": "Therapie",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Therapien",
+"en": "therapy / treatment",
+"ur": "ilaaj",
+"ex": {
+"de": "Zur Therapie: Wir starten mit Tabletten.",
+"en": "On treatment: we'll start with tablets.",
+"ur": "Ilaaj: goliyon se shuru karte hain."
+}
+},
+"therapieentscheidung": {
+"lemma": "Therapieentscheidung",
+"pos": "Nomen",
+"gender": "die",
+"en": "treatment decision",
+"ur": "ilaaj ka faisla",
+"ex": {
+"de": "Die Therapieentscheidung gehört zum Facharzt.",
+"en": "The treatment decision belongs to the specialist.",
+"ur": "Ilaaj ka faisla specialist ka kaam hai."
+}
+},
+"tablette": {
+"lemma": "Tablette",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Tabletten",
+"forms": [
+"tabletten"
+],
+"en": "tablet / pill",
+"ur": "goli",
+"ex": {
+"de": "Eine Tablette am Morgen.",
+"en": "One tablet in the morning.",
+"ur": "Ek goli subh."
+}
+},
+"wert": {
+"lemma": "Wert",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Werte",
+"forms": [
+"werte",
+"werten"
+],
+"en": "value / reading (a measured number)",
+"ur": "value / aankra",
+"ex": {
+"de": "Ein Wert ist auffällig.",
+"en": "One value is notable.",
+"ur": "Ek value ghair mamooli hai."
+}
+},
+"blutwerte": {
+"lemma": "Blutwerte",
+"pos": "Nomen",
+"gender": "die",
+"en": "blood values / blood results",
+"ur": "khoon ke nateeje",
+"ex": {
+"de": "Ihre Blutwerte sind da.",
+"en": "Your blood results are here.",
+"ur": "Aap ke khoon ke nateeje aa gaye."
+}
+},
+"leberwerte": {
+"lemma": "Leberwerte",
+"pos": "Nomen",
+"gender": "die",
+"en": "liver values",
+"ur": "jigar ki values",
+"ex": {
+"de": "Zwei Leberwerte sind leicht erhöht.",
+"en": "Two liver values are slightly elevated.",
+"ur": "Do jigar ki values thori barhi hain."
+}
+},
+"blutzucker": {
+"lemma": "Blutzucker",
+"pos": "Nomen",
+"gender": "der",
+"en": "blood sugar",
+"ur": "khoon mein sugar",
+"ex": {
+"de": "Wir schauen auch den Blutzucker an.",
+"en": "We also look at the blood sugar.",
+"ur": "Hum sugar bhi dekhte hain."
+}
+},
+"schilddrüse": {
+"lemma": "Schilddrüse",
+"pos": "Nomen",
+"gender": "die",
+"en": "thyroid gland",
+"ur": "gale ka ghudood (thyroid)",
+"ex": {
+"de": "Die Schilddrüse kann müde machen.",
+"en": "The thyroid can cause tiredness.",
+"ur": "Thyroid thakan ki wajah ban sakti hai."
+}
+},
+"blutkörperchen": {
+"lemma": "Blutkörperchen",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Blutkörperchen",
+"en": "blood cell (rote Blutkörperchen = red blood cells)",
+"ur": "khoon ke zarrat",
+"ex": {
+"de": "Der Körper bildet weniger rote Blutkörperchen.",
+"en": "The body forms fewer red blood cells.",
+"ur": "Jism kam laal khoon ke zarrat banata hai."
+}
+},
+"körper": {
+"lemma": "Körper",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Körper",
+"en": "body",
+"ur": "jism / badan",
+"ex": {
+"de": "Der Körper braucht Eisen.",
+"en": "The body needs iron.",
+"ur": "Jism ko loha chahiye."
+}
+},
+"magen": {
+"lemma": "Magen",
+"pos": "Nomen",
+"gender": "der",
+"en": "stomach",
+"ur": "maida / pait",
+"ex": {
+"de": "Ich habe einen empfindlichen Magen.",
+"en": "I have a sensitive stomach.",
+"ur": "Mera maida naazuk hai."
+}
+},
+"magen-darm-bereich": {
+"lemma": "Magen-Darm-Bereich",
+"pos": "Nomen",
+"gender": "der",
+"en": "the gastrointestinal area (stomach and gut)",
+"ur": "maide aur aanton ka hissa",
+"ex": {
+"de": "Wir suchen im Magen-Darm-Bereich.",
+"en": "We look in the gastrointestinal area.",
+"ur": "Hum maide-aanton mein dekhte hain."
+}
+},
+"regelblutung": {
+"lemma": "Regelblutung",
+"pos": "Nomen",
+"gender": "die",
+"en": "menstruation / period",
+"ur": "maahwari",
+"ex": {
+"de": "Die Regelblutung ist eine häufige Ursache.",
+"en": "Menstruation is a common cause.",
+"ur": "Maahwari aam wajah hai."
+}
+},
+"fleisch": {
+"lemma": "Fleisch",
+"pos": "Nomen",
+"gender": "das",
+"en": "meat (rotes Fleisch = red meat)",
+"ur": "gosht",
+"ex": {
+"de": "Rotes Fleisch enthält viel Eisen.",
+"en": "Red meat contains a lot of iron.",
+"ur": "Laal gosht mein loha zyada hota hai."
+}
+},
+"hülsenfrüchte": {
+"lemma": "Hülsenfrüchte",
+"pos": "Nomen",
+"gender": "die",
+"en": "legumes (lentils, beans, chickpeas)",
+"ur": "daalein / phaliyan",
+"ex": {
+"de": "Hülsenfrüchte sind gut bei Eisenmangel.",
+"en": "Legumes are good for iron deficiency.",
+"ur": "Daalein iron ki kami mein achi hain."
+}
+},
+"gemüse": {
+"lemma": "Gemüse",
+"pos": "Nomen",
+"gender": "das",
+"en": "vegetables",
+"ur": "sabzi",
+"ex": {
+"de": "Grünes Gemüse enthält Eisen.",
+"en": "Green vegetables contain iron.",
+"ur": "Hari sabzi mein loha hota hai."
+}
+},
+"stimmung": {
+"lemma": "Stimmung",
+"pos": "Nomen",
+"gender": "die",
+"en": "mood",
+"ur": "mizaj / mood",
+"ex": {
+"de": "Fragen zum Schlaf und zur Stimmung.",
+"en": "Questions about sleep and mood.",
+"ur": "Neend aur mizaj ke sawal."
+}
+},
+"psyche": {
+"lemma": "Psyche",
+"pos": "Nomen",
+"gender": "die",
+"en": "the mind / mental health",
+"ur": "zehni sehat",
+"ex": {
+"de": "Es kann mit der Psyche zusammenhängen.",
+"en": "It can be linked to mental health.",
+"ur": "Is ka zehni sehat se taalluq ho sakta hai."
+}
+},
+"unterstützung": {
+"lemma": "Unterstützung",
+"pos": "Nomen",
+"gender": "die",
+"en": "support / help",
+"ur": "madad / sahara",
+"ex": {
+"de": "Wir reden über mögliche Unterstützung.",
+"en": "We'll talk about possible support.",
+"ur": "Hum mumkin madad par baat karenge."
+}
+},
+"schwäche": {
+"lemma": "Schwäche",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Schwächen",
+"en": "weakness",
+"ur": "kamzori",
+"ex": {
+"de": "Das ist kein Zeichen von Schwäche.",
+"en": "That's not a sign of weakness.",
+"ur": "Yeh kamzori ki alamat nahi."
+}
+},
+"atemaussetzer": {
+"lemma": "Atemaussetzer",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Atemaussetzer",
+"en": "breathing pause (in sleep apnoea)",
+"ur": "neend mein saans ka rukna",
+"ex": {
+"de": "Atemaussetzer im Schlaf stören die Erholung.",
+"en": "Breathing pauses in sleep disturb recovery.",
+"ur": "Neend mein saans rukna aaram kharab karta hai."
+}
+},
+"atmung": {
+"lemma": "Atmung",
+"pos": "Nomen",
+"gender": "die",
+"en": "breathing",
+"ur": "saans",
+"ex": {
+"de": "Das Gerät misst nachts die Atmung.",
+"en": "The device measures breathing at night.",
+"ur": "Aala raat ko saans naapta hai."
+}
+},
+"sauerstoff": {
+"lemma": "Sauerstoff",
+"pos": "Nomen",
+"gender": "der",
+"en": "oxygen",
+"ur": "oxygen",
+"ex": {
+"de": "Es misst Atmung und Sauerstoff.",
+"en": "It measures breathing and oxygen.",
+"ur": "Yeh saans aur oxygen naapta hai."
+}
+},
+"schlaflabor": {
+"lemma": "Schlaflabor",
+"pos": "Nomen",
+"gender": "das",
+"en": "sleep laboratory",
+"ur": "neend ka lab",
+"ex": {
+"de": "Vielleicht brauchen Sie ein Schlaflabor.",
+"en": "Maybe you need a sleep lab.",
+"ur": "Shayad aap ko sleep lab chahiye."
+}
+},
+"schlafmediziner": {
+"lemma": "Schlafmediziner",
+"pos": "Nomen",
+"gender": "der",
+"en": "sleep physician",
+"ur": "neend ka doctor",
+"ex": {
+"de": "Ich überweise Sie zum Schlafmediziner.",
+"en": "I'll refer you to a sleep physician.",
+"ur": "Main aap ko neend ke doctor ke paas bhejta hoon."
+}
+},
+"schlafhygiene": {
+"lemma": "Schlafhygiene",
+"pos": "Nomen",
+"gender": "die",
+"en": "sleep hygiene (good sleep habits)",
+"ur": "neend ki achi aadatein",
+"ex": {
+"de": "Wir verbessern die Schlafhygiene.",
+"en": "We'll improve sleep hygiene.",
+"ur": "Hum neend ki aadat behtar karenge."
+}
+},
+"gerät": {
+"lemma": "Gerät",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Geräte",
+"en": "device / machine",
+"ur": "aala / machine",
+"ex": {
+"de": "Ein Gerät für zu Hause misst nachts.",
+"en": "A home device measures at night.",
+"ur": "Ghar ka aala raat ko naapta hai."
+}
+},
+"labor": {
+"lemma": "Labor",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Labore",
+"en": "laboratory",
+"ur": "lab",
+"ex": {
+"de": "Ich habe den Befund vom Labor.",
+"en": "I have the findings from the lab.",
+"ur": "Mujhe lab se report mili."
+}
+},
+"laborbericht": {
+"lemma": "Laborbericht",
+"pos": "Nomen",
+"gender": "der",
+"en": "lab report",
+"ur": "lab ki report",
+"ex": {
+"de": "Ein Laborbericht sieht oft dramatisch aus.",
+"en": "A lab report often looks dramatic.",
+"ur": "Lab report aksar khatarnak lagti hai."
+}
+},
+"basiswerte": {
+"lemma": "Basiswerte",
+"pos": "Nomen",
+"gender": "die",
+"en": "baseline values",
+"ur": "bunyadi values",
+"ex": {
+"de": "Erst nehmen wir Basiswerte ab.",
+"en": "First we take baseline values.",
+"ur": "Pehle hum bunyadi values lete hain."
+}
+},
+"voruntersuchung": {
+"lemma": "Voruntersuchung",
+"pos": "Nomen",
+"gender": "die",
+"en": "preliminary examination",
+"ur": "ibtidai muaina",
+"ex": {
+"de": "Die Voruntersuchung mache ich.",
+"en": "I do the preliminary examination.",
+"ur": "Ibtidai muaina main karta hoon."
+}
+},
+"vorbefunde": {
+"lemma": "Vorbefund",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Vorbefunde",
+"en": "prior findings (earlier results)",
+"ur": "pichli reports",
+"ex": {
+"de": "Ich gebe Ihnen die Vorbefunde mit.",
+"en": "I'll give you the prior findings.",
+"ur": "Main aap ko pichli reports de deta hoon."
+}
+},
+"befundung": {
+"lemma": "Befundung",
+"pos": "Nomen",
+"gender": "die",
+"en": "interpretation of the findings (reading a scan/test)",
+"ur": "report parhna aur samajhna",
+"ex": {
+"de": "Die Befundung gehört zum Facharzt.",
+"en": "The interpretation belongs to the specialist.",
+"ur": "Report parhna specialist ka kaam hai."
+}
+},
+"bildgebung": {
+"lemma": "Bildgebung",
+"pos": "Nomen",
+"gender": "die",
+"en": "imaging (X-ray, MRI, etc.)",
+"ur": "tasveeri jaanch (X-ray, MRI)",
+"ex": {
+"de": "Mir fehlt die Bildgebung.",
+"en": "I lack the imaging.",
+"ur": "Mere paas imaging nahi hai."
+}
+},
+"mrt": {
+"lemma": "MRT",
+"pos": "Nomen",
+"gender": "das",
+"en": "MRI scan",
+"ur": "MRI scan",
+"ex": {
+"de": "Für ein MRT gehen Sie zum Facharzt.",
+"en": "For an MRI you go to the specialist.",
+"ur": "MRI ke liye specialist ke paas jayein."
+}
+},
+"fragestellung": {
+"lemma": "Fragestellung",
+"pos": "Nomen",
+"gender": "die",
+"en": "the clinical question (what the doctor wants clarified)",
+"ur": "doctor ka sawal / maqsad",
+"ex": {
+"de": "Ich formuliere die Fragestellung präzise.",
+"en": "I phrase the clinical question precisely.",
+"ur": "Main sawal saaf likhta hoon."
+}
+},
+"verdacht": {
+"lemma": "Verdacht",
+"pos": "Nomen",
+"gender": "der",
+"en": "suspicion (a preliminary guess of the cause)",
+"ur": "shubah / gumaan",
+"ex": {
+"de": "Ich habe einen Verdacht.",
+"en": "I have a suspicion.",
+"ur": "Mujhe shubah hai."
+}
+},
+"annahme": {
+"lemma": "Annahme",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Annahmen",
+"en": "assumption",
+"ur": "farz / andaza",
+"ex": {
+"de": "Eine falsche Annahme wäre teuer.",
+"en": "A wrong assumption would be costly.",
+"ur": "Ghalat andaza mehnga parega."
+}
+},
+"eingriff": {
+"lemma": "Eingriff",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Eingriffe",
+"en": "procedure / operation",
+"ur": "operation / amal",
+"ex": {
+"de": "Manche Ursachen brauchen einen Eingriff.",
+"en": "Some causes need a procedure.",
+"ur": "Kuch wajahat mein operation chahiye."
+}
+},
+"meinung": {
+"lemma": "Meinung",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Meinungen",
+"en": "opinion",
+"ur": "raye",
+"ex": {
+"de": "Der Facharzt hat vielleicht eine andere Meinung.",
+"en": "The specialist may have a different opinion.",
+"ur": "Specialist ki raye alag ho sakti hai."
+}
+},
+"erkenntnis": {
+"lemma": "Erkenntnis",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Erkenntnisse",
+"en": "insight / established finding",
+"ur": "tehqeeqi natija",
+"ex": {
+"de": "Das ist eine belegte Erkenntnis, keine Meinung.",
+"en": "That's an evidence-based finding, not an opinion.",
+"ur": "Yeh saabit baat hai, raye nahi."
+}
+},
+"studien": {
+"lemma": "Studie",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Studien",
+"en": "study (research study)",
+"ur": "tehqeeq / study",
+"ex": {
+"de": "Neuere Studien zeigen das.",
+"en": "Newer studies show that.",
+"ur": "Nayi tehqeeq yeh batati hai."
+}
+},
+"pause": {
+"lemma": "Pause",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Pausen",
+"en": "break / pause",
+"ur": "waqfa",
+"ex": {
+"de": "Mit Pause nimmt der Darm Eisen besser auf.",
+"en": "With a break the gut absorbs iron better.",
+"ur": "Waqfe se aantein loha behtar jazb karti hain."
+}
+},
+"team": {
+"lemma": "Team",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Teams",
+"en": "team",
+"ur": "team",
+"ex": {
+"de": "Ich will das Team nicht im Stich lassen.",
+"en": "I don't want to let the team down.",
+"ur": "Main team ko akela nahi chhorna chahti."
+}
+},
+"teamarbeit": {
+"lemma": "Teamarbeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "teamwork",
+"ur": "team ka kaam",
+"ex": {
+"de": "Medizin ist Teamarbeit.",
+"en": "Medicine is teamwork.",
+"ur": "Medicine team ka kaam hai."
+}
+},
+"chef": {
+"lemma": "Chef",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Chefs",
+"en": "boss",
+"ur": "boss / afsar",
+"ex": {
+"de": "Was sage ich meinem Chef?",
+"en": "What do I tell my boss?",
+"ur": "Main apne boss ko kya kahoon?"
+}
+},
+"bildschirm": {
+"lemma": "Bildschirm",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Bildschirme",
+"en": "screen (computer screen)",
+"ur": "screen",
+"ex": {
+"de": "Ich arbeite am Bildschirm.",
+"en": "I work at a screen.",
+"ur": "Main screen par kaam karti hoon."
+}
+},
+"fehler": {
+"lemma": "Fehler",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Fehler",
+"en": "mistake / error",
+"ur": "ghalti",
+"ex": {
+"de": "Ich mache mehr Fehler als sonst.",
+"en": "I make more mistakes than usual.",
+"ur": "Main aam se zyada ghaltiyan karti hoon."
+}
+},
+"ablauf": {
+"lemma": "Ablauf",
+"pos": "Nomen",
+"gender": "der",
+"en": "expiry; also: sequence of events",
+"ur": "muddat khatam hona; tarteeb",
+"ex": {
+"de": "Kommen Sie vor Ablauf der Krankschreibung.",
+"en": "Come before the sick note expires.",
+"ur": "Certificate khatam hone se pehle aayein."
+}
+},
+"lücke": {
+"lemma": "Lücke",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Lücken",
+"en": "gap",
+"ur": "kami / khali jagah",
+"ex": {
+"de": "So vermeiden wir eine Lücke.",
+"en": "That way we avoid a gap.",
+"ur": "Yun hum kami se bach jate hain."
+}
+},
+"lohn": {
+"lemma": "Lohn",
+"pos": "Nomen",
+"gender": "der",
+"en": "wage / pay",
+"ur": "tankhwah",
+"ex": {
+"de": "Für den Lohn ist das wichtig.",
+"en": "For your pay this matters.",
+"ur": "Tankhwah ke liye yeh ahem hai."
+}
+},
+"zeitraum": {
+"lemma": "Zeitraum",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Zeiträume",
+"en": "period of time",
+"ur": "muddat / arsa",
+"ex": {
+"de": "Ich setze den Zeitraum ausreichend an.",
+"en": "I'll set the period generously.",
+"ur": "Main muddat kaafi rakhta hoon."
+}
+},
+"vorstellung": {
+"lemma": "Vorstellung",
+"pos": "Nomen",
+"gender": "die",
+"en": "idea / notion",
+"ur": "tasawwur / andaza",
+"ex": {
+"de": "Haben Sie eine Vorstellung?",
+"en": "Do you have an idea?",
+"ur": "Kya aap ko koi andaza hai?"
+}
+},
+"reserve": {
+"lemma": "Reserve",
+"pos": "Nomen",
+"gender": "die",
+"en": "reserve (auf Reserve = running on empty)",
+"ur": "bachi hui taaqat",
+"ex": {
+"de": "Ich funktioniere, aber auf Reserve.",
+"en": "I function, but on reserve.",
+"ur": "Main kaam karti hoon, lekin bamushkil."
+}
+},
+"konzentration": {
+"lemma": "Konzentration",
+"pos": "Nomen",
+"gender": "die",
+"en": "concentration",
+"ur": "tawajjoh / dhyan",
+"ex": {
+"de": "Meine Konzentration ist eingeschränkt.",
+"en": "My concentration is reduced.",
+"ur": "Meri tawajjoh kam hai."
+}
+},
+"belastbarkeit": {
+"lemma": "Belastbarkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "resilience / ability to handle load",
+"ur": "kaam ki bardasht",
+"ex": {
+"de": "Ihre Belastbarkeit ist eingeschränkt.",
+"en": "Your resilience is reduced.",
+"ur": "Aap ki bardasht kam hai."
+}
+},
+"arbeitsfähigkeit": {
+"lemma": "Arbeitsfähigkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "fitness for work",
+"ur": "kaam karne ki salahiyat",
+"ex": {
+"de": "Ich beurteile Ihre Arbeitsfähigkeit.",
+"en": "I assess your fitness for work.",
+"ur": "Main aap ki kaam ki salahiyat jaanchta hoon."
+}
+},
+"arbeitsunfähigkeit": {
+"lemma": "Arbeitsunfähigkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "incapacity to work",
+"ur": "kaam ke qabil na hona",
+"ex": {
+"de": "Arbeitsunfähigkeit heißt nicht bettlägerig.",
+"en": "Incapacity to work doesn't mean bedridden.",
+"ur": "Kaam ke na-qabil hona bistar par parna nahi."
+}
+},
+"rückkehr": {
+"lemma": "Rückkehr",
+"pos": "Nomen",
+"gender": "die",
+"en": "return (going back)",
+"ur": "wapsi",
+"ex": {
+"de": "Wie gestalten wir die Rückkehr?",
+"en": "How do we shape the return?",
+"ur": "Wapsi kaise ho?"
+}
+},
+"wiedereingliederung": {
+"lemma": "Wiedereingliederung",
+"pos": "Nomen",
+"gender": "die",
+"en": "phased return to work (gradual reintegration)",
+"ur": "thora thora kaam par wapsi",
+"ex": {
+"de": "Sinnvoll ist oft eine stufenweise Wiedereingliederung.",
+"en": "A phased return to work is often sensible.",
+"ur": "Aksar thori thori wapsi behtar hoti hai."
+}
+},
+"vollkrankschreibung": {
+"lemma": "Vollkrankschreibung",
+"pos": "Nomen",
+"gender": "die",
+"en": "full sick note (fully off work)",
+"ur": "mukammal chhutti",
+"ex": {
+"de": "Statt einer langen Vollkrankschreibung …",
+"en": "Instead of a long full sick note …",
+"ur": "Lambi mukammal chhutti ke bajaye …"
+}
+},
+"stufenplan": {
+"lemma": "Stufenplan",
+"pos": "Nomen",
+"gender": "der",
+"en": "step-by-step plan (for returning to work)",
+"ur": "marhala-waar mansooba",
+"ex": {
+"de": "Wir besprechen den Stufenplan.",
+"en": "We'll discuss the step plan.",
+"ur": "Hum marhala-waar mansooba par baat karenge."
+}
+},
+"stundenzahl": {
+"lemma": "Stundenzahl",
+"pos": "Nomen",
+"gender": "die",
+"en": "number of hours",
+"ur": "ghanton ki tadaad",
+"ex": {
+"de": "Sie steigen mit reduzierter Stundenzahl ein.",
+"en": "You start with reduced hours.",
+"ur": "Aap kam ghanton se shuru karti hain."
+}
+},
+"zweck": {
+"lemma": "Zweck",
+"pos": "Nomen",
+"gender": "der",
+"en": "purpose / point",
+"ur": "maqsad",
+"ex": {
+"de": "Das ist der ganze Zweck.",
+"en": "That's the whole point.",
+"ur": "Yehi poora maqsad hai."
+}
+},
+"gefälligkeit": {
+"lemma": "Gefälligkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "a favour",
+"ur": "ehsaan / meharbani",
+"ex": {
+"de": "Eine Krankschreibung ist keine Gefälligkeit.",
+"en": "A sick note isn't a favour.",
+"ur": "Certificate koi ehsaan nahi."
+}
+},
+"vorsicht": {
+"lemma": "Vorsicht",
+"pos": "Nomen",
+"gender": "die",
+"en": "caution (aus Vorsicht = as a precaution)",
+"ur": "ehtiyat",
+"ex": {
+"de": "Ich überweise nicht aus Vorsicht.",
+"en": "I'm not referring out of caution.",
+"ur": "Main ehtiyatan nahi bhej raha."
+}
+},
+"dringlichkeit": {
+"lemma": "Dringlichkeit",
+"pos": "Nomen",
+"gender": "die",
+"en": "urgency",
+"ur": "zaroorat / foran-pan",
+"ex": {
+"de": "Ich vermerke die Dringlichkeit.",
+"en": "I'll note the urgency.",
+"ur": "Main zaroorat likh deta hoon."
+}
+},
+"dringlichkeitseinstufung": {
+"lemma": "Dringlichkeitseinstufung",
+"pos": "Nomen",
+"gender": "die",
+"en": "urgency rating (marked on the referral)",
+"ur": "zaroorat ka darja",
+"ex": {
+"de": "Die Überweisung bekommt eine Dringlichkeitseinstufung.",
+"en": "The referral gets an urgency rating.",
+"ur": "Referral par zaroorat ka darja likha jata hai."
+}
+},
+"terminservicestelle": {
+"lemma": "Terminservicestelle",
+"pos": "Nomen",
+"gender": "die",
+"en": "appointment service (arranges specialist appointments, tel. 116117)",
+"ur": "appointment service (116117)",
+"ex": {
+"de": "Rufen Sie die Terminservicestelle an.",
+"en": "Call the appointment service.",
+"ur": "Appointment service ko phone karein."
+}
+},
+"ausfalltermine": {
+"lemma": "Ausfalltermin",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Ausfalltermine",
+"forms": [
+"ausfallterminen"
+],
+"en": "cancellation slot (an appointment that freed up)",
+"ur": "cancel hua appointment",
+"ex": {
+"de": "Fragen Sie nach Ausfallterminen.",
+"en": "Ask about cancellation slots.",
+"ur": "Cancel hue appointments ke baare mein poochein."
+}
+},
+"code": {
+"lemma": "Code",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Codes",
+"en": "code (number on the referral)",
+"ur": "code",
+"ex": {
+"de": "Mit dem Code können Sie anrufen.",
+"en": "With the code you can call.",
+"ur": "Code se aap phone kar sakti hain."
+}
+},
+"bericht": {
+"lemma": "Bericht",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Berichte",
+"en": "report",
+"ur": "report",
+"ex": {
+"de": "Der Facharzt schickt mir einen Bericht.",
+"en": "The specialist sends me a report.",
+"ur": "Specialist mujhe report bhejta hai."
+}
+},
+"papier": {
+"lemma": "Papier",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Papiere",
+"en": "paper / document",
+"ur": "kaghaz",
+"ex": {
+"de": "Muss ich das Papier abholen?",
+"en": "Do I have to collect the paper?",
+"ur": "Kya mujhe kaghaz lena hoga?"
+}
+},
+"punkte": {
+"lemma": "Punkt",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Punkte",
+"en": "point (item on a list)",
+"ur": "nukta / baat",
+"ex": {
+"de": "Ich drucke Ihnen die wichtigsten Punkte aus.",
+"en": "I'll print out the key points.",
+"ur": "Main ahem baatein print kar deta hoon."
+}
+},
+"ausdruck": {
+"lemma": "Ausdruck",
+"pos": "Nomen",
+"gender": "der",
+"en": "printout",
+"ur": "print / chhpa hua kaghaz",
+"ex": {
+"de": "Ich gebe Ihnen einen kurzen Ausdruck mit.",
+"en": "I'll give you a short printout.",
+"ur": "Main aap ko mukhtasar print de deta hoon."
+}
+},
+"kopie": {
+"lemma": "Kopie",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Kopien",
+"en": "copy",
+"ur": "copy / naql",
+"ex": {
+"de": "Kann ich eine Kopie bekommen?",
+"en": "Can I get a copy?",
+"ur": "Kya mujhe copy mil sakti hai?"
+}
+},
+"gewinn": {
+"lemma": "Gewinn",
+"pos": "Nomen",
+"gender": "der",
+"en": "gain / benefit",
+"ur": "faida",
+"ex": {
+"de": "Eine zweite Meinung ist ein Gewinn.",
+"en": "A second opinion is a gain.",
+"ur": "Doosri raye faida hai."
+}
+},
+"haltung": {
+"lemma": "Haltung",
+"pos": "Nomen",
+"gender": "die",
+"en": "attitude / stance",
+"ur": "rawaiya / soch",
+"ex": {
+"de": "Das ist eine ehrliche Haltung.",
+"en": "That's an honest attitude.",
+"ur": "Yeh sacha rawaiya hai."
+}
+},
+"grund": {
+"lemma": "Grund",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Gründe",
+"en": "reason",
+"ur": "wajah",
+"ex": {
+"de": "Ist das der Grund für die Müdigkeit?",
+"en": "Is that the reason for the tiredness?",
+"ur": "Kya thakan ki wajah yehi hai?"
+}
+},
+"ergebnis": {
+"lemma": "Ergebnis",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Ergebnisse",
+"forms": [
+"ergebnisse",
+"blutergebnisse"
+],
+"en": "result / outcome",
+"ur": "natija",
+"ex": {
+"de": "Wann bekomme ich das Ergebnis?",
+"en": "When do I get the result?",
+"ur": "Natija kab milega?"
+}
+},
+"kontext": {
+"lemma": "Kontext",
+"pos": "Nomen",
+"gender": "der",
+"en": "context",
+"ur": "pas-manzar / context",
+"ex": {
+"de": "Zahlen ohne Kontext verunsichern mich.",
+"en": "Numbers without context unsettle me.",
+"ur": "Bina context ke numbers pareshan karte hain."
+}
+},
+"einordnung": {
+"lemma": "Einordnung",
+"pos": "Nomen",
+"gender": "die",
+"en": "interpretation / putting into context",
+"ur": "tashreeh / samajh",
+"ex": {
+"de": "Ich möchte die Einordnung, nicht nur Zahlen.",
+"en": "I want the interpretation, not just numbers.",
+"ur": "Mujhe tashreeh chahiye, sirf numbers nahi."
+}
+},
+"nachfrage": {
+"lemma": "Nachfrage",
+"pos": "Nomen",
+"gender": "die",
+"en": "follow-up question",
+"ur": "jawaabi sawal",
+"ex": {
+"de": "Eine berechtigte Nachfrage.",
+"en": "A fair follow-up question.",
+"ur": "Ek jaiz sawal."
+}
+},
+"rückfrage": {
+"lemma": "Rückfrage",
+"pos": "Nomen",
+"gender": "die",
+"en": "query / question back",
+"ur": "jawaabi sawal",
+"ex": {
+"de": "Haben Sie eine Rückfrage?",
+"en": "Do you have a query?",
+"ur": "Kya koi sawal hai?"
+}
+},
+"rahmen": {
+"lemma": "Rahmen",
+"pos": "Nomen",
+"gender": "der",
+"en": "range / frame (im Rahmen = within the normal range)",
+"ur": "hudood / hadd",
+"ex": {
+"de": "Der Wert ist im Rahmen.",
+"en": "The value is within range.",
+"ur": "Value hadd ke andar hai."
+}
+},
+"empfang": {
+"lemma": "Empfang",
+"pos": "Nomen",
+"gender": "der",
+"en": "reception desk",
+"ur": "reception",
+"ex": {
+"de": "Sie sagten am Empfang …",
+"en": "You said at reception …",
+"ur": "Aap ne reception par kaha …"
+}
+},
+"loch": {
+"lemma": "Loch",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Löcher",
+"en": "hole (ins gleiche Loch fallen = to fall back into the same rut)",
+"ur": "gaddha",
+"ex": {
+"de": "Ich falle wieder ins gleiche Loch.",
+"en": "I fall back into the same hole.",
+"ur": "Main phir usi gaddhe mein gir jati hoon."
+}
+},
+"bett": {
+"lemma": "Bett",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Betten",
+"en": "bed",
+"ur": "bistar",
+"ex": {
+"de": "Ich gehe früh ins Bett.",
+"en": "I go to bed early.",
+"ur": "Main jaldi so jati hoon."
+}
+},
+"leben": {
+"lemma": "Leben",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Leben",
+"en": "life",
+"ur": "zindagi",
+"ex": {
+"de": "Hat sich in Ihrem Leben etwas verändert?",
+"en": "Has something changed in your life?",
+"ur": "Aap ki zindagi mein kuch badla?"
+}
+},
+"rolle": {
+"lemma": "Rolle",
+"pos": "Nomen",
+"gender": "die",
+"en": "role (eine Rolle spielen = to play a part)",
+"ur": "kirdaar (asar dalna)",
+"ex": {
+"de": "Das kann eine Rolle spielen.",
+"en": "That can play a role.",
+"ur": "Yeh asar dal sakta hai."
+}
+},
+"dinge": {
+"lemma": "Ding",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Dinge",
+"en": "thing",
+"ur": "cheez",
+"ex": {
+"de": "Kleine Dinge strengen mich an.",
+"en": "Small things exhaust me.",
+"ur": "Chhoti cheezein thaka deti hain."
+}
+},
+"lust": {
+"lemma": "Lust",
+"pos": "Nomen",
+"gender": "die",
+"en": "desire / motivation (keine Lust = no motivation)",
+"ur": "dil chahna",
+"ex": {
+"de": "Ich habe zu nichts Lust.",
+"en": "I don't feel like doing anything.",
+"ur": "Kisi cheez ka dil nahi karta."
+}
+},
+"blick": {
+"lemma": "Blick",
+"pos": "Nomen",
+"gender": "der",
+"en": "view / look (im Blick behalten = to keep an eye on)",
+"ur": "nazar",
+"ex": {
+"de": "Wir behalten beides im Blick.",
+"en": "We keep an eye on both.",
+"ur": "Hum dono par nazar rakhte hain."
+}
+},
+"hinweis": {
+"lemma": "Hinweis",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Hinweise",
+"en": "clue / hint",
+"ur": "ishara / suragh",
+"ex": {
+"de": "Das ist ein wichtiger Hinweis.",
+"en": "That's an important clue.",
+"ur": "Yeh ahem suragh hai."
+}
+},
+"erholung": {
+"lemma": "Erholung",
+"pos": "Nomen",
+"gender": "die",
+"en": "recovery / rest",
+"ur": "aaram / taazgi",
+"ex": {
+"de": "Atemaussetzer stören die Erholung.",
+"en": "Breathing pauses disturb recovery.",
+"ur": "Saans rukna aaram kharab karta hai."
+}
+},
+"mann": {
+"lemma": "Mann",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Männer",
+"en": "man; also: husband",
+"ur": "aadmi; shohar",
+"ex": {
+"de": "Mein Mann sagt, ich schnarche.",
+"en": "My husband says I snore.",
+"ur": "Mere shohar kehte hain main kharraatay leti hoon."
+}
+},
+"werkzeug": {
+"lemma": "Werkzeug",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Werkzeuge",
+"en": "tool",
+"ur": "aala / zariya",
+"ex": {
+"de": "Entspannung ist ein Werkzeug, keine Diagnose.",
+"en": "Relaxation is a tool, not a diagnosis.",
+"ur": "Sukoon ek zariya hai, tashkhees nahi."
+}
+},
+"entspannung": {
+"lemma": "Entspannung",
+"pos": "Nomen",
+"gender": "die",
+"en": "relaxation",
+"ur": "sukoon / aaram",
+"ex": {
+"de": "Entspannung allein reicht nicht.",
+"en": "Relaxation alone isn't enough.",
+"ur": "Sirf sukoon kaafi nahi."
+}
+},
+"fakten": {
+"lemma": "Fakt",
+"pos": "Nomen",
+"gender": "der",
+"plural": "Fakten",
+"en": "fact",
+"ur": "haqeeqat / fact",
+"ex": {
+"de": "Lassen Sie uns mit Fakten arbeiten.",
+"en": "Let's work with facts.",
+"ur": "Aayein haqaiq se kaam karein."
+}
+},
+"hände": {
+"lemma": "Hand",
+"pos": "Nomen",
+"gender": "die",
+"plural": "Hände",
+"en": "hand (in fachärztliche Hände = in specialist hands)",
+"ur": "haath",
+"ex": {
+"de": "Das gehört in fachärztliche Hände.",
+"en": "That belongs in specialist hands.",
+"ur": "Yeh specialist ke haath ka kaam hai."
+}
+},
+"erhöht": {
+"lemma": "erhöht",
+"pos": "Adjektiv / Partizip",
+"forms": [
+"erhöhte",
+"erhöhten"
+],
+"en": "elevated / raised",
+"ur": "barha hua",
+"ex": {
+"de": "Zwei Werte sind leicht erhöht.",
+"en": "Two values are slightly elevated.",
+"ur": "Do values thori barhi hain."
+}
+},
+"belastbar": {
+"lemma": "belastbar",
+"pos": "Adjektiv",
+"en": "able to handle load / resilient",
+"ur": "kaam ke qabil / mazboot",
+"ex": {
+"de": "Sind Sie wieder belastbar?",
+"en": "Are you fit for load again?",
+"ur": "Kya aap dobara kaam ke qabil hain?"
+}
+},
+"berechtigt": {
+"lemma": "berechtigt",
+"pos": "Adjektiv",
+"forms": [
+"berechtigte"
+],
+"en": "justified / valid",
+"ur": "jaiz / haq bajanib",
+"ex": {
+"de": "Eine berechtigte Frage.",
+"en": "A justified question.",
+"ur": "Ek jaiz sawal."
+}
+},
+"arbeitsunfähig": {
+"lemma": "arbeitsunfähig",
+"pos": "Adjektiv",
+"en": "unfit for work",
+"ur": "kaam ke qabil nahi",
+"ex": {
+"de": "Sie sind zurzeit arbeitsunfähig.",
+"en": "You're currently unfit for work.",
+"ur": "Aap is waqt kaam ke qabil nahi."
+}
+},
+"arbeitsfähig": {
+"lemma": "arbeitsfähig",
+"pos": "Adjektiv",
+"en": "fit for work",
+"ur": "kaam ke qabil",
+"ex": {
+"de": "Ich war gestern nicht arbeitsfähig.",
+"en": "I wasn't fit for work yesterday.",
+"ur": "Main kal kaam ke qabil nahi thi."
+}
+},
+"bettlägerig": {
+"lemma": "bettlägerig",
+"pos": "Adjektiv",
+"en": "bedridden",
+"ur": "bistar par para hua",
+"ex": {
+"de": "Krank heißt nicht immer bettlägerig.",
+"en": "Ill doesn't always mean bedridden.",
+"ur": "Beemar hamesha bistar par parna nahi."
+}
+},
+"leistungsfähig": {
+"lemma": "leistungsfähig",
+"pos": "Adjektiv",
+"en": "able to perform",
+"ur": "kaam kar sakne wala",
+"ex": {
+"de": "Ich bin nicht wirklich leistungsfähig.",
+"en": "I'm not really able to perform.",
+"ur": "Main asal mein kaam nahi kar pati."
+}
+},
+"eingeschränkt": {
+"lemma": "eingeschränkt",
+"pos": "Adjektiv / Partizip",
+"en": "reduced / limited",
+"ur": "mehdood / kam",
+"ex": {
+"de": "Meine Belastbarkeit ist eingeschränkt.",
+"en": "My resilience is reduced.",
+"ur": "Meri bardasht kam hai."
+}
+},
+"empfindlich": {
+"lemma": "empfindlich",
+"pos": "Adjektiv",
+"forms": [
+"empfindlichen",
+"empfindliche"
+],
+"en": "sensitive",
+"ur": "naazuk / hassaas",
+"ex": {
+"de": "Ich habe einen empfindlichen Magen.",
+"en": "I have a sensitive stomach.",
+"ur": "Mera maida naazuk hai."
+}
+},
+"niedergeschlagen": {
+"lemma": "niedergeschlagen",
+"pos": "Adjektiv",
+"en": "down / low (in mood)",
+"ur": "udaas / pas-murda",
+"ex": {
+"de": "Fühlen Sie sich niedergeschlagen?",
+"en": "Do you feel low?",
+"ur": "Kya aap udaas mehsoos karti hain?"
+}
+},
+"gereizt": {
+"lemma": "gereizt",
+"pos": "Adjektiv",
+"en": "irritable / on edge",
+"ur": "chirchira / jhunjhlaya",
+"ex": {
+"de": "Ich bin schnell gereizt.",
+"en": "I get irritable quickly.",
+"ur": "Main jaldi chirh jati hoon."
+}
+},
+"seelisch": {
+"lemma": "seelisch",
+"pos": "Adjektiv",
+"en": "mental / emotional",
+"ur": "zehni / roohani",
+"ex": {
+"de": "Körperlich oder seelisch?",
+"en": "Physical or emotional?",
+"ur": "Jismani ya zehni?"
+}
+},
+"erholsam": {
+"lemma": "erholsam",
+"pos": "Adjektiv",
+"forms": [
+"erholsamer"
+],
+"en": "restful / restorative",
+"ur": "taazgi dene wali",
+"ex": {
+"de": "Ihr Schlaf ist nicht erholsam.",
+"en": "Your sleep isn't restful.",
+"ur": "Aap ki neend taazgi nahi deti."
+}
+},
+"erholt": {
+"lemma": "erholt",
+"pos": "Adjektiv / Partizip",
+"en": "rested / recovered",
+"ur": "taaza dam",
+"ex": {
+"de": "Ich bin nie richtig erholt.",
+"en": "I'm never properly rested.",
+"ur": "Main kabhi poori tarah taaza nahi hoti."
+}
+},
+"belegt": {
+"lemma": "belegt",
+"pos": "Adjektiv / Partizip",
+"en": "documented / evidence-based",
+"ur": "saabit shuda",
+"ex": {
+"de": "Der Nutzen ist gut belegt.",
+"en": "The benefit is well documented.",
+"ur": "Faida achi tarah saabit hai."
+}
+},
+"berechtigte": {
+"lemma": "berechtigt",
+"pos": "Form von berechtigt",
+"en": "justified (eine berechtigte Sorge)",
+"ur": "jaiz",
+"ex": {
+"de": "Eine berechtigte Sorge.",
+"en": "A valid concern.",
+"ur": "Ek jaiz fikar."
+}
+},
+"behandelbar": {
+"lemma": "behandelbar",
+"pos": "Adjektiv",
+"en": "treatable",
+"ur": "qabil-e-ilaaj",
+"ex": {
+"de": "Eine klare, behandelbare Ursache.",
+"en": "A clear, treatable cause.",
+"ur": "Ek saaf, qabil-e-ilaaj wajah."
+}
+},
+"ausgeprägt": {
+"lemma": "ausgeprägt",
+"pos": "Adjektiv",
+"forms": [
+"ausgeprägten"
+],
+"en": "pronounced / marked",
+"ur": "numaya / saaf zahir",
+"ex": {
+"de": "Ein ausgeprägter Eisenmangel.",
+"en": "A pronounced iron deficiency.",
+"ur": "Numaya iron ki kami."
+}
+},
+"minimal": {
+"lemma": "minimal",
+"pos": "Adjektiv / Adverb",
+"en": "minimal / minimally",
+"ur": "maamooli sa",
+"ex": {
+"de": "Die Werte sind minimal erhöht.",
+"en": "The values are minimally elevated.",
+"ur": "Values maamooli barhi hain."
+}
+},
+"dosiert": {
+"lemma": "dosiert",
+"pos": "Adjektiv / Partizip",
+"en": "dosed (niedrig dosiert = at a low dose)",
+"ur": "khurak ke lehaz se",
+"ex": {
+"de": "Wir starten niedrig dosiert.",
+"en": "We start at a low dose.",
+"ur": "Hum kam khurak se shuru karte hain."
+}
+},
+"neuere": {
+"lemma": "neuer",
+"pos": "Adjektiv",
+"forms": [
+"neuere",
+"neueren"
+],
+"en": "newer / more recent",
+"ur": "naya / haaliya",
+"ex": {
+"de": "Neuere Studien zeigen das.",
+"en": "Newer studies show that.",
+"ur": "Nayi tehqeeq yeh dikhati hai."
+}
+},
+"geringer": {
+"lemma": "gering",
+"pos": "Adjektiv",
+"forms": [
+"geringe",
+"geringen",
+"geringer"
+],
+"en": "low / slight (geringer = lower)",
+"ur": "kam / maamooli",
+"ex": {
+"de": "Die Nebenwirkungen sind geringer.",
+"en": "The side effects are lower.",
+"ur": "Side effects kam hain."
+}
+},
+"rechtlich": {
+"lemma": "rechtlich",
+"pos": "Adjektiv / Adverb",
+"en": "legally / in legal terms",
+"ur": "qanooni tor par",
+"ex": {
+"de": "Rechtlich sind Sie geschützt.",
+"en": "Legally you're protected.",
+"ur": "Qanoonan aap mehfooz hain."
+}
+},
+"geschützt": {
+"lemma": "geschützt",
+"pos": "Adjektiv / Partizip",
+"en": "protected",
+"ur": "mehfooz",
+"ex": {
+"de": "Sie sind rechtlich geschützt.",
+"en": "You're legally protected.",
+"ur": "Aap qanoonan mehfooz hain."
+}
+},
+"realistisch": {
+"lemma": "realistisch",
+"pos": "Adjektiv / Adverb",
+"en": "realistic / realistically",
+"ur": "haqeeqat pasandana",
+"ex": {
+"de": "Realistisch eine Woche.",
+"en": "Realistically one week.",
+"ur": "Haqeeqatan ek hafta."
+}
+},
+"lückenlos": {
+"lemma": "lückenlos",
+"pos": "Adjektiv",
+"forms": [
+"lückenlose"
+],
+"en": "gapless / without a gap",
+"ur": "be-kami / mutasil",
+"ex": {
+"de": "Eine lückenlose Krankschreibung ist wichtig.",
+"en": "A gapless sick note is important.",
+"ur": "Be-kami certificate ahem hai."
+}
+},
+"medizinisch": {
+"lemma": "medizinisch",
+"pos": "Adjektiv / Adverb",
+"en": "medical / medically",
+"ur": "tibbi tor par",
+"ex": {
+"de": "Das ist medizinisch gerechtfertigt.",
+"en": "That's medically justified.",
+"ur": "Yeh tibbi tor par jaiz hai."
+}
+},
+"moralisch": {
+"lemma": "moralisch",
+"pos": "Adjektiv / Adverb",
+"en": "moral / morally",
+"ur": "akhlaqi tor par",
+"ex": {
+"de": "Ich urteile medizinisch, nicht moralisch.",
+"en": "I judge medically, not morally.",
+"ur": "Main tibbi faisla karta hoon, akhlaqi nahi."
+}
+},
+"gerechtfertigt": {
+"lemma": "gerechtfertigt",
+"pos": "Adjektiv / Partizip",
+"en": "justified",
+"ur": "jaiz / durust",
+"ex": {
+"de": "Eine Krankschreibung ist hier gerechtfertigt.",
+"en": "A sick note is justified here.",
+"ur": "Yahan certificate jaiz hai."
+}
+},
+"sinnvoller": {
+"lemma": "sinnvoll",
+"pos": "Adjektiv",
+"forms": [
+"sinnvoller"
+],
+"en": "sensible (sinnvoller = more sensible)",
+"ur": "zyada munasib",
+"ex": {
+"de": "Sinnvoller ist eine stufenweise Rückkehr.",
+"en": "A phased return is more sensible.",
+"ur": "Thori thori wapsi zyada munasib hai."
+}
+},
+"stufenweise": {
+"lemma": "stufenweise",
+"pos": "Adjektiv / Adverb",
+"en": "step by step / phased",
+"ur": "marhala-waar",
+"ex": {
+"de": "eine stufenweise Wiedereingliederung",
+"en": "a phased return to work",
+"ur": "marhala-waar wapsi"
+}
+},
+"reduziert": {
+"lemma": "reduziert",
+"pos": "Adjektiv / Partizip",
+"forms": [
+"reduzierter"
+],
+"en": "reduced",
+"ur": "kam kiya gaya",
+"ex": {
+"de": "mit reduzierter Stundenzahl",
+"en": "with reduced hours",
+"ur": "kam ghanton ke saath"
+}
+},
+"verständnisvoll": {
+"lemma": "verständnisvoll",
+"pos": "Adjektiv",
+"en": "understanding",
+"ur": "samajhdaar / hamdard",
+"ex": {
+"de": "Mein Arbeitgeber ist verständnisvoll.",
+"en": "My employer is understanding.",
+"ur": "Mera employer samajhdaar hai."
+}
+},
+"ausreichend": {
+"lemma": "ausreichend",
+"pos": "Adjektiv / Adverb",
+"en": "sufficient / generously enough",
+"ur": "kaafi",
+"ex": {
+"de": "Ich setze den Zeitraum ausreichend an.",
+"en": "I set the period generously.",
+"ur": "Main muddat kaafi rakhta hoon."
+}
+},
+"fit": {
+"lemma": "fit",
+"pos": "Adjektiv",
+"en": "fit / well",
+"ur": "chust / theek",
+"ex": {
+"de": "Wenn Sie sich fit fühlen, gehen Sie.",
+"en": "If you feel fit, go.",
+"ur": "Agar theek lagein to chali jayein."
+}
+},
+"fitter": {
+"lemma": "fit",
+"pos": "Form von fit",
+"en": "fitter / better",
+"ur": "zyada chust",
+"ex": {
+"de": "Sie sollten sich bald fitter fühlen.",
+"en": "You should feel fitter soon.",
+"ur": "Aap jald behtar mehsoos karengi."
+}
+},
+"ideal": {
+"lemma": "ideal",
+"pos": "Adjektiv",
+"en": "ideal",
+"ur": "behtareen / ideal",
+"ex": {
+"de": "Das ist gerade nicht ideal.",
+"en": "That isn't ideal right now.",
+"ur": "Yeh abhi ideal nahi."
+}
+},
+"gezielt": {
+"lemma": "gezielt",
+"pos": "Adjektiv / Adverb",
+"forms": [
+"gezielte",
+"gezielter",
+"gezielten"
+],
+"en": "targeted / in a targeted way",
+"ur": "khaas tor par / maqsad ke saath",
+"ex": {
+"de": "Wir behandeln das gezielt.",
+"en": "We treat it in a targeted way.",
+"ur": "Hum isay khaas tor par ilaaj karte hain."
+}
+},
+"dringlich": {
+"lemma": "dringlich",
+"pos": "Adjektiv",
+"forms": [
+"dringliche"
+],
+"en": "urgent (formal)",
+"ur": "foran / zaroori",
+"ex": {
+"de": "Ich vermerke, dass es dringlich ist.",
+"en": "I'll note that it's urgent.",
+"ur": "Main likh deta hoon ke zaroori hai."
+}
+},
+"unbegrenzt": {
+"lemma": "unbegrenzt",
+"pos": "Adjektiv",
+"en": "unlimited / indefinitely",
+"ur": "la-mehdood",
+"ex": {
+"de": "Gilt die Überweisung unbegrenzt?",
+"en": "Is the referral valid indefinitely?",
+"ur": "Kya referral hamesha ke liye hai?"
+}
+},
+"aktuell": {
+"lemma": "aktuell",
+"pos": "Adjektiv",
+"forms": [
+"aktuelle",
+"aktuellen"
+],
+"en": "current",
+"ur": "maujooda",
+"ex": {
+"de": "Sie gilt im aktuellen Quartal.",
+"en": "It's valid in the current quarter.",
+"ur": "Yeh maujooda quarter mein chalti hai."
+}
+},
+"laufend": {
+"lemma": "laufend",
+"pos": "Adjektiv",
+"forms": [
+"laufenden"
+],
+"en": "current / ongoing (im laufenden Quartal)",
+"ur": "jaari / maujooda",
+"ex": {
+"de": "nur im laufenden Quartal",
+"en": "only in the current quarter",
+"ur": "sirf maujooda quarter mein"
+}
+},
+"fachärztlich": {
+"lemma": "fachärztlich",
+"pos": "Adjektiv",
+"forms": [
+"fachärztliche"
+],
+"en": "specialist (relating to a specialist)",
+"ur": "specialist se mutalliq",
+"ex": {
+"de": "Das gehört in fachärztliche Hände.",
+"en": "That belongs in specialist hands.",
+"ur": "Yeh specialist ke haath ka kaam hai."
+}
+},
+"ausgestattet": {
+"lemma": "ausgestattet",
+"pos": "Adjektiv / Partizip",
+"en": "equipped",
+"ur": "lais / saaz-o-saman wala",
+"ex": {
+"de": "Der Facharzt ist besser ausgestattet.",
+"en": "The specialist is better equipped.",
+"ur": "Specialist behtar lais hai."
+}
+},
+"teuer": {
+"lemma": "teuer",
+"pos": "Adjektiv",
+"en": "expensive / costly",
+"ur": "mehnga",
+"ex": {
+"de": "Eine falsche Annahme wäre teuer.",
+"en": "A wrong assumption would be costly.",
+"ur": "Ghalat andaza mehnga parega."
+}
+},
+"konservativ": {
+"lemma": "konservativ",
+"pos": "Adjektiv / Adverb",
+"en": "conservative (without surgery)",
+"ur": "bina operation ke ilaaj",
+"ex": {
+"de": "Manche Ursachen behandelt man konservativ.",
+"en": "Some causes are treated conservatively.",
+"ur": "Kuch wajahat aaram se theek hoti hain."
+}
+},
+"unnötig": {
+"lemma": "unnötig",
+"pos": "Adjektiv",
+"forms": [
+"unnötigen"
+],
+"en": "unnecessary",
+"ur": "ghair zaroori",
+"ex": {
+"de": "…vor einer unnötigen Behandlung.",
+"en": "…from an unnecessary treatment.",
+"ur": "…ghair zaroori ilaaj se."
+}
+},
+"präzise": {
+"lemma": "präzise",
+"pos": "Adjektiv / Adverb",
+"en": "precise / precisely",
+"ur": "theek theek / saaf",
+"ex": {
+"de": "Ich formuliere die Frage präzise.",
+"en": "I phrase the question precisely.",
+"ur": "Main sawal saaf likhta hoon."
+}
+},
+"erfrischend": {
+"lemma": "erfrischend",
+"pos": "Adjektiv / Adverb",
+"en": "refreshing / refreshingly",
+"ur": "taaza kun",
+"ex": {
+"de": "Eine erfrischend ehrliche Haltung.",
+"en": "A refreshingly honest attitude.",
+"ur": "Ek taaza aur sacha rawaiya."
+}
+},
+"ehrliche": {
+"lemma": "ehrlich",
+"pos": "Form von ehrlich",
+"forms": [
+"ehrlicher"
+],
+"en": "honest",
+"ur": "sacha / imandar",
+"ex": {
+"de": "eine ehrliche Haltung",
+"en": "an honest attitude",
+"ur": "ek sacha rawaiya"
+}
+},
+"klare": {
+"lemma": "klar",
+"pos": "Form von klar",
+"forms": [
+"klarer"
+],
+"en": "clear",
+"ur": "saaf / wazeh",
+"ex": {
+"de": "Das ist ein klarer Plan.",
+"en": "That's a clear plan.",
+"ur": "Yeh saaf mansooba hai."
+}
+},
+"vernünftig": {
+"lemma": "vernünftig",
+"pos": "Adjektiv",
+"forms": [
+"vernünftigen"
+],
+"en": "sensible / reasonable",
+"ur": "maqool / munasib",
+"ex": {
+"de": "Das klingt nach einem vernünftigen Plan.",
+"en": "That sounds like a sensible plan.",
+"ur": "Yeh munasib mansooba lagta hai."
+}
+},
+"verständlich": {
+"lemma": "verständlich",
+"pos": "Adjektiv",
+"en": "understandable",
+"ur": "qabil-e-fehm / samajh mein aane wala",
+"ex": {
+"de": "Das ist verständlich.",
+"en": "That's understandable.",
+"ur": "Yeh samajh mein aata hai."
+}
+},
+"einverstanden": {
+"lemma": "einverstanden",
+"pos": "Adjektiv",
+"en": "in agreement (Ich bin einverstanden = I agree)",
+"ur": "raazi / muttafiq",
+"ex": {
+"de": "Einverstanden, fangen wir an.",
+"en": "Agreed, let's start.",
+"ur": "Manzoor, shuru karte hain."
+}
+},
+"spürbar": {
+"lemma": "spürbar",
+"pos": "Adjektiv / Adverb",
+"en": "noticeable / noticeably",
+"ur": "mehsoos hone layak",
+"ex": {
+"de": "Die Müdigkeit lässt spürbar nach.",
+"en": "The tiredness eases noticeably.",
+"ur": "Thakan mehsoos hone layak kam hoti hai."
+}
+},
+"unverändert": {
+"lemma": "unverändert",
+"pos": "Adjektiv",
+"en": "unchanged",
+"ur": "jyun ka tyun",
+"ex": {
+"de": "Bleibt es unverändert, melden Sie sich.",
+"en": "If it stays unchanged, get in touch.",
+"ur": "Agar wohi rahe to rabta karein."
+}
+},
+"machbar": {
+"lemma": "machbar",
+"pos": "Adjektiv",
+"en": "doable / feasible",
+"ur": "kar-e-amal / mumkin",
+"ex": {
+"de": "Ein Gerät für zu Hause klingt machbar.",
+"en": "A home device sounds doable.",
+"ur": "Ghar wala aala kar-e-amal lagta hai."
+}
+},
+"durch": {
+"lemma": "durch",
+"pos": "Präposition",
+"en": "through",
+"ur": "ke zariye / se ho kar",
+"ex": {
+"de": "Ich schleppe mich durch den Tag.",
+"en": "I drag myself through the day.",
+"ur": "Main mushkil se din guzarti hoon."
+}
+},
+"darüber": {
+"lemma": "darüber",
+"pos": "Adverb",
+"en": "about it",
+"ur": "is ke baare mein",
+"ex": {
+"de": "Wir reden vorher darüber.",
+"en": "We'll talk about it beforehand.",
+"ur": "Hum pehle is par baat karenge."
+}
+},
+"darum": {
+"lemma": "darum",
+"pos": "Adverb",
+"en": "that's why / about that",
+"ur": "isi liye",
+"ex": {
+"de": "Genau darum geht es.",
+"en": "That's exactly the point.",
+"ur": "Baat yehi hai."
+}
+},
+"daraus": {
+"lemma": "daraus",
+"pos": "Adverb",
+"en": "from it (what follows from it)",
+"ur": "is se",
+"ex": {
+"de": "…was daraus folgt.",
+"en": "…what follows from it.",
+"ur": "…is se kya nikalta hai."
+}
+},
+"weiter": {
+"lemma": "weiter",
+"pos": "Adverb",
+"forms": [
+"weitere",
+"weiteren"
+],
+"en": "further / on (dann sehen wir weiter = then we'll see)",
+"ur": "aage / mazeed",
+"ex": {
+"de": "Danach sehen wir weiter.",
+"en": "After that we'll see.",
+"ur": "Us ke baad aage dekhenge."
+}
+},
+"bald": {
+"lemma": "bald",
+"pos": "Adverb",
+"en": "soon",
+"ur": "jald",
+"ex": {
+"de": "Es wird Ihnen bald besser gehen.",
+"en": "You'll feel better soon.",
+"ur": "Aap jald behtar mehsoos karengi."
+}
+},
+"sogar": {
+"lemma": "sogar",
+"pos": "Adverb",
+"en": "even",
+"ur": "balke / yahan tak ke",
+"ex": {
+"de": "Manchmal ist mir sogar schwindelig.",
+"en": "Sometimes I even feel dizzy.",
+"ur": "Kabhi to chakkar bhi aata hai."
+}
+},
+"egal": {
+"lemma": "egal",
+"pos": "Adjektiv / Adverb",
+"en": "no matter / doesn't matter",
+"ur": "chahe kuch bhi / koi farq nahi",
+"ex": {
+"de": "…egal wie viel ich schlafe.",
+"en": "…no matter how much I sleep.",
+"ur": "…chahe kitna bhi soun."
+}
+},
+"tagsüber": {
+"lemma": "tagsüber",
+"pos": "Adverb",
+"en": "during the day",
+"ur": "din bhar",
+"ex": {
+"de": "Sind Sie tagsüber müde?",
+"en": "Are you tired during the day?",
+"ur": "Kya din bhar thakan hoti hai?"
+}
+},
+"zwar": {
+"lemma": "zwar",
+"pos": "Adverb",
+"en": "admittedly / it's true that (zwar … aber = although … but)",
+"ur": "halanke / go ke",
+"ex": {
+"de": "Ich brauche zwar eine Krankschreibung, aber …",
+"en": "I do need a sick note, but …",
+"ur": "Mujhe certificate to chahiye, lekin …"
+}
+},
+"rückwirkend": {
+"lemma": "rückwirkend",
+"pos": "Adverb",
+"en": "retroactively / backdated",
+"ur": "peeche ki tareekh se",
+"ex": {
+"de": "Können Sie mich rückwirkend krankschreiben?",
+"en": "Can you sign me off retroactively?",
+"ur": "Kya aap peeche ki tareekh se chhutti de sakte hain?"
+}
+},
+"langsam": {
+"lemma": "langsam",
+"pos": "Adjektiv / Adverb",
+"en": "slow / slowly",
+"ur": "aahista / dheere",
+"ex": {
+"de": "Steigern Sie langsam.",
+"en": "Increase slowly.",
+"ur": "Dheere dheere barhayein."
+}
+},
+"praktisch": {
+"lemma": "praktisch",
+"pos": "Adjektiv / Adverb",
+"en": "practical / in practice",
+"ur": "amli tor par",
+"ex": {
+"de": "Was bedeutet das praktisch?",
+"en": "What does that mean in practice?",
+"ur": "Amal mein is ka matlab kya hai?"
+}
+},
+"rechtzeitig": {
+"lemma": "rechtzeitig",
+"pos": "Adjektiv / Adverb",
+"en": "in good time / on time",
+"ur": "waqt par",
+"ex": {
+"de": "Denken Sie rechtzeitig daran.",
+"en": "Remember it in good time.",
+"ur": "Waqt par yaad rakhein."
+}
+},
+"zügig": {
+"lemma": "zügig",
+"pos": "Adjektiv / Adverb",
+"en": "promptly / briskly",
+"ur": "jaldi / bila taakheer",
+"ex": {
+"de": "Gehen Sie zügig vor.",
+"en": "Act promptly.",
+"ur": "Jaldi karein."
+}
+},
+"aktiv": {
+"lemma": "aktiv",
+"pos": "Adjektiv / Adverb",
+"en": "active / actively",
+"ur": "khud aage barh kar",
+"ex": {
+"de": "Fragen Sie aktiv nach.",
+"en": "Ask actively.",
+"ur": "Khud poochein."
+}
+},
+"fristgerecht": {
+"lemma": "fristgerecht",
+"pos": "Adjektiv / Adverb",
+"en": "within the deadline",
+"ur": "muqarrara waqt mein",
+"ex": {
+"de": "Die Stelle muss fristgerecht vermitteln.",
+"en": "The office must arrange it within the deadline.",
+"ur": "Idare ko waqt par intezaam karna hota hai."
+}
+},
+"gemeinsam": {
+"lemma": "gemeinsam",
+"pos": "Adjektiv / Adverb",
+"en": "together / jointly",
+"ur": "mil kar",
+"ex": {
+"de": "Wir entscheiden gemeinsam.",
+"en": "We decide together.",
+"ur": "Hum mil kar faisla karte hain."
+}
+},
+"gegebenenfalls": {
+"lemma": "gegebenenfalls",
+"pos": "Adverb",
+"en": "if necessary / where applicable",
+"ur": "zaroorat par",
+"ex": {
+"de": "Ich überweise Sie gegebenenfalls weiter.",
+"en": "I'll refer you on if necessary.",
+"ur": "Zaroorat par main aage bhej doonga."
+}
+},
+"wochenlang": {
+"lemma": "wochenlang",
+"pos": "Adverb",
+"en": "for weeks",
+"ur": "hafton tak",
+"ex": {
+"de": "Ich kann nicht wochenlang warten.",
+"en": "I can't wait for weeks.",
+"ur": "Main hafton intezaar nahi kar sakti."
+}
+},
+"parallel": {
+"lemma": "parallel",
+"pos": "Adverb",
+"en": "in parallel / at the same time",
+"ur": "sath sath",
+"ex": {
+"de": "Parallel verbessern wir den Schlaf.",
+"en": "In parallel we improve sleep.",
+"ur": "Sath sath hum neend behtar karte hain."
+}
+},
+"insgesamt": {
+"lemma": "insgesamt",
+"pos": "Adverb",
+"en": "overall / in total",
+"ur": "kul mila kar",
+"ex": {
+"de": "Insgesamt sieht es gut aus.",
+"en": "Overall it looks good.",
+"ur": "Kul mila kar theek hai."
+}
+},
+"gleichzeitig": {
+"lemma": "gleichzeitig",
+"pos": "Adverb",
+"en": "at the same time",
+"ur": "aik hi waqt / saath",
+"ex": {
+"de": "Es ist gleichzeitig gut behandelbar.",
+"en": "It's at the same time easily treatable.",
+"ur": "Saath hi aasaani se ilaaj hota hai."
+}
+},
+"automatisch": {
+"lemma": "automatisch",
+"pos": "Adjektiv / Adverb",
+"en": "automatically",
+"ur": "khud ba khud",
+"ex": {
+"de": "Nicht automatisch schlimm.",
+"en": "Not automatically bad.",
+"ur": "Zaroori nahi ke bura ho."
+}
+},
+"gestresst": {
+"lemma": "gestresst",
+"pos": "Adjektiv",
+"en": "stressed",
+"ur": "stress mein",
+"ex": {
+"de": "…wenn man gestresst war.",
+"en": "…if one was stressed.",
+"ur": "…agar stress mein ho."
+}
+},
+"tatsächlich": {
+"lemma": "tatsächlich",
+"pos": "Adverb",
+"en": "actually / in fact",
+"ur": "waqai",
+"ex": {
+"de": "Ich esse tatsächlich selten Fleisch.",
+"en": "I actually rarely eat meat.",
+"ur": "Main waqai kam gosht khati hoon."
+}
+},
+"sauber": {
+"lemma": "sauber",
+"pos": "Adjektiv / Adverb",
+"en": "clean / cleanly (cleanly separate)",
+"ur": "saaf / theek se",
+"ex": {
+"de": "Ich möchte das sauber trennen.",
+"en": "I want to separate this cleanly.",
+"ur": "Main isay saaf alag karna chahta hoon."
+}
+},
+"vorschnell": {
+"lemma": "vorschnell",
+"pos": "Adjektiv / Adverb",
+"en": "hastily / prematurely",
+"ur": "jaldbazi mein",
+"ex": {
+"de": "…statt vorschnell zu urteilen.",
+"en": "…instead of judging prematurely.",
+"ur": "…jaldbazi mein faisla karne ke bajaye."
+}
+},
+"methodisch": {
+"lemma": "methodisch",
+"pos": "Adjektiv / Adverb",
+"en": "methodically / systematically",
+"ur": "tarteeb se",
+"ex": {
+"de": "Wie gehen Sie methodisch vor?",
+"en": "How do you proceed methodically?",
+"ur": "Aap tarteeb se kaise aage barhte hain?"
+}
+},
+"wen": {
+"lemma": "wen",
+"pos": "Fragewort",
+"en": "whom (for whom)",
+"ur": "kis ke liye",
+"ex": {
+"de": "Für wen ist die Krankschreibung?",
+"en": "Who is the sick note for?",
+"ur": "Certificate kis ke liye hai?"
+}
+},
+"wonach": {
+"lemma": "wonach",
+"pos": "Fragewort",
+"en": "what for / for what",
+"ur": "kis cheez ke liye",
+"ex": {
+"de": "Wonach schauen Sie im Blut?",
+"en": "What are you looking for in the blood?",
+"ur": "Khoon mein aap kya dekhte hain?"
+}
+},
+"wofür": {
+"lemma": "wofür",
+"pos": "Fragewort",
+"en": "what for",
+"ur": "kis liye",
+"ex": {
+"de": "Wofür brauchen Sie die Bescheinigung?",
+"en": "What do you need the certificate for?",
+"ur": "Aap ko certificate kis liye chahiye?"
+}
+},
+"bisschen": {
+"lemma": "bisschen",
+"pos": "Adverb",
+"en": "a little (ein bisschen = a bit)",
+"ur": "thora sa",
+"ex": {
+"de": "Ich habe ein bisschen Angst.",
+"en": "I'm a bit afraid.",
+"ur": "Mujhe thora dar hai."
+}
+},
+"mehrere": {
+"lemma": "mehrere",
+"pos": "Pronomen",
+"en": "several",
+"ur": "kai / chand",
+"ex": {
+"de": "Rufen Sie mehrere Praxen an.",
+"en": "Call several practices.",
+"ur": "Kai clinics ko phone karein."
+}
+},
+"solche": {
+"lemma": "solche",
+"pos": "Pronomen",
+"forms": [
+"solch",
+"solchen"
+],
+"en": "such / such things",
+"ur": "aisi",
+"ex": {
+"de": "Solche Beschwerden nehme ich ernst.",
+"en": "I take such symptoms seriously.",
+"ur": "Aisi takleef main sanjidgi se leta hoon."
+}
+},
+"irgendetwas": {
+"lemma": "irgendetwas",
+"pos": "Pronomen",
+"en": "anything / something",
+"ur": "kuch bhi",
+"ex": {
+"de": "Bringt die Überweisung irgendetwas?",
+"en": "Does the referral do anything?",
+"ur": "Kya referral se koi faida hai?"
+}
+},
+"beispiel": {
+"lemma": "Beispiel",
+"pos": "Nomen",
+"gender": "das",
+"plural": "Beispiele",
+"en": "example (zum Beispiel = for example)",
+"ur": "misaal (zum Beispiel = masalan)",
+"ex": {
+"de": "…zum Beispiel Eisen.",
+"en": "…for example iron.",
+"ur": "…masalan loha."
+}
+},
+"nämlich": {
+"lemma": "nämlich",
+"pos": "Adverb",
+"en": "namely",
+"ur": "yani",
+"ex": {
+"de": "…eine klare Ursache, nämlich Eisenmangel.",
+"en": "…a clear cause, namely iron deficiency.",
+"ur": "…ek saaf wajah, yani iron ki kami."
+}
+},
+"überweisen-form": {
+"lemma": "überweisen",
+"pos": "Form von überweisen",
+"forms": [
+"überweise"
+],
+"en": "I refer (ich überweise Sie = I refer you)",
+"ur": "main bhejta hoon",
+"ex": {
+"de": "Ich überweise Sie zum Facharzt.",
+"en": "I refer you to the specialist.",
+"ur": "Main aap ko specialist ke paas bhejta hoon."
+}
+},
+"verlängern": {
+"lemma": "verlängern",
+"pos": "Verb",
+"forms": [
+"verlängert",
+"verlängere"
+],
+"en": "to extend",
+"ur": "barhana / muddat barhana",
+"ex": {
+"de": "Ich verlängere die Krankschreibung.",
+"en": "I'll extend the sick note.",
+"ur": "Main certificate barha deta hoon."
+}
+},
+"rückdatieren": {
+"lemma": "rückdatieren",
+"pos": "Verb",
+"forms": [
+"rückdatiert"
+],
+"en": "to backdate",
+"ur": "peeche ki tareekh dena",
+"ex": {
+"de": "Einen Tag rückdatieren ist möglich.",
+"en": "Backdating one day is possible.",
+"ur": "Ek din peeche karna mumkin hai."
+}
+},
+"anordnen": {
+"lemma": "anordnen",
+"pos": "Verb",
+"aux": "ordnet an / hat angeordnet",
+"forms": [
+"angeordnet"
+],
+"en": "to order (a test)",
+"ur": "hukm dena / likhwana",
+"ex": {
+"de": "Können Sie das MRT selbst anordnen?",
+"en": "Can you order the MRI yourself?",
+"ur": "Kya aap MRI khud likhwa sakte hain?"
+}
+},
+"vermitteln": {
+"lemma": "vermitteln",
+"pos": "Verb",
+"forms": [
+"vermittelt"
+],
+"en": "to arrange / to broker (an appointment)",
+"ur": "intezaam karwana",
+"ex": {
+"de": "Die Stelle muss einen Termin vermitteln.",
+"en": "The office must arrange an appointment.",
+"ur": "Idare ko appointment dilana hota hai."
+}
+},
+"vermerken": {
+"lemma": "vermerken",
+"pos": "Verb",
+"forms": [
+"vermerkt",
+"vermerke"
+],
+"en": "to note (on a document)",
+"ur": "likh dena",
+"ex": {
+"de": "Ich vermerke die Dringlichkeit.",
+"en": "I note the urgency.",
+"ur": "Main zaroorat likh deta hoon."
+}
+},
+"abstimmen": {
+"lemma": "abstimmen",
+"pos": "Verb",
+"aux": "stimmt ab / hat abgestimmt",
+"forms": [
+"abgestimmt"
+],
+"en": "to coordinate / to agree on",
+"ur": "aapas mein tay karna",
+"ex": {
+"de": "Wir stimmen die Behandlung ab.",
+"en": "We coordinate the treatment.",
+"ur": "Hum ilaaj aapas mein tay karte hain."
+}
+},
+"bestätigen": {
+"lemma": "bestätigen",
+"pos": "Verb",
+"forms": [
+"bestätigt"
+],
+"en": "to confirm",
+"ur": "tasdeeq karna",
+"ex": {
+"de": "Ich möchte den Verdacht bestätigen.",
+"en": "I want to confirm the suspicion.",
+"ur": "Main shubah ki tasdeeq karna chahta hoon."
+}
+},
+"auszuschließen": {
+"lemma": "ausschließen",
+"pos": "Form von ausschließen",
+"forms": [
+"auszuschließen"
+],
+"en": "to rule out",
+"ur": "khaarij karna",
+"ex": {
+"de": "…um ihn auszuschließen.",
+"en": "…in order to rule it out.",
+"ur": "…isay khaarij karne ke liye."
+}
+},
+"schützen": {
+"lemma": "schützen",
+"pos": "Verb",
+"forms": [
+"schützt",
+"geschützt"
+],
+"en": "to protect",
+"ur": "bachana / hifazat karna",
+"ex": {
+"de": "Die Überweisung schützt vor unnötiger Behandlung.",
+"en": "The referral protects from unnecessary treatment.",
+"ur": "Referral ghair zaroori ilaaj se bachati hai."
+}
+},
+"formulieren": {
+"lemma": "formulieren",
+"pos": "Verb",
+"forms": [
+"formuliert",
+"formuliere"
+],
+"en": "to phrase / to word",
+"ur": "alfaz mein bayan karna",
+"ex": {
+"de": "Ich formuliere die Frage genau.",
+"en": "I phrase the question exactly.",
+"ur": "Main sawal theek likhta hoon."
+}
+},
+"erhoffen": {
+"lemma": "erhoffen",
+"pos": "Verb",
+"forms": [
+"erhofft",
+"erhoffe"
+],
+"en": "to hope for",
+"ur": "umeed rakhna",
+"ex": {
+"de": "Was erhoffen Sie sich vom Facharzt?",
+"en": "What do you hope for from the specialist?",
+"ur": "Aap specialist se kya umeed rakhti hain?"
+}
+},
+"erzählen": {
+"lemma": "erzählen",
+"pos": "Verb",
+"forms": [
+"erzählt",
+"erzähle"
+],
+"en": "to tell / to recount",
+"ur": "batana / sunana",
+"ex": {
+"de": "Erzählen Sie mir in Ruhe, was los ist.",
+"en": "Tell me calmly what's going on.",
+"ur": "Itminan se batayein ke kya masla hai."
+}
+},
+"schleppen": {
+"lemma": "schleppen",
+"pos": "Verb",
+"forms": [
+"schleppt",
+"schleppe"
+],
+"en": "to drag; sich durch den Tag schleppen = to drag oneself through the day",
+"ur": "mushkil se ghaseetna",
+"ex": {
+"de": "Ich schleppe mich durch den Tag.",
+"en": "I drag myself through the day.",
+"ur": "Main mushkil se din guzarti hoon."
+}
+},
+"anstrengen": {
+"lemma": "anstrengen",
+"pos": "Verb",
+"aux": "strengt an / hat angestrengt",
+"forms": [
+"strengen",
+"strengt"
+],
+"en": "to exert / to be exhausting",
+"ur": "thaka dena / mehnat lagna",
+"ex": {
+"de": "Kleine Dinge strengen mich an.",
+"en": "Small things exhaust me.",
+"ur": "Chhoti cheezein thaka deti hain."
+}
+},
+"spielen": {
+"lemma": "spielen",
+"pos": "Verb",
+"forms": [
+"spielt",
+"spiele",
+"gespielt"
+],
+"en": "to play (eine Rolle spielen = to play a role)",
+"ur": "khelna; asar dalna",
+"ex": {
+"de": "Das kann eine Rolle spielen.",
+"en": "That can play a role.",
+"ur": "Yeh asar dal sakta hai."
+}
+},
+"greifen": {
+"lemma": "greifen",
+"pos": "Verb",
+"forms": [
+"greift",
+"gegriffen"
+],
+"en": "to grasp; schwer zu greifen = hard to pin down",
+"ur": "pakarna; samajhna",
+"ex": {
+"de": "Es ist schwer zu greifen.",
+"en": "It's hard to pin down.",
+"ur": "Isay samajhna mushkil hai."
+}
+},
+"ordnen": {
+"lemma": "ordnen",
+"pos": "Verb",
+"forms": [
+"ordnet",
+"geordnet"
+],
+"en": "to order / to arrange (einordnen = to put into context)",
+"ur": "tarteeb dena",
+"ex": {
+"de": "Ordnen wir das mal ein.",
+"en": "Let's put it in context.",
+"ur": "Isay tarteeb se dekhte hain."
+}
+},
+"schnarchen": {
+"lemma": "schnarchen",
+"pos": "Verb",
+"forms": [
+"schnarcht",
+"schnarche"
+],
+"en": "to snore",
+"ur": "kharraatay lena",
+"ex": {
+"de": "Mein Mann sagt, ich schnarche.",
+"en": "My husband says I snore.",
+"ur": "Mere shohar kehte hain main kharraatay leti hoon."
+}
+},
+"stören": {
+"lemma": "stören",
+"pos": "Verb",
+"forms": [
+"stört",
+"gestört"
+],
+"en": "to disturb",
+"ur": "kharab karna / khalal dalna",
+"ex": {
+"de": "Atemaussetzer stören die Erholung.",
+"en": "Breathing pauses disturb recovery.",
+"ur": "Saans rukna aaram kharab karta hai."
+}
+},
+"verstärken": {
+"lemma": "verstärken",
+"pos": "Verb",
+"forms": [
+"verstärkt"
+],
+"en": "to reinforce / to intensify",
+"ur": "barha dena / tez karna",
+"ex": {
+"de": "Beides kann sich gegenseitig verstärken.",
+"en": "The two can reinforce each other.",
+"ur": "Dono ek doosre ko barha sakte hain."
+}
+},
+"trennen": {
+"lemma": "trennen",
+"pos": "Verb",
+"forms": [
+"trennt",
+"getrennt"
+],
+"en": "to separate",
+"ur": "alag karna",
+"ex": {
+"de": "Ich möchte das sauber trennen.",
+"en": "I want to separate this cleanly.",
+"ur": "Main isay saaf alag karna chahta hoon."
+}
+},
+"urteilen": {
+"lemma": "urteilen",
+"pos": "Verb",
+"forms": [
+"urteilt",
+"urteile"
+],
+"en": "to judge",
+"ur": "faisla karna / raye dena",
+"ex": {
+"de": "…statt vorschnell zu urteilen.",
+"en": "…instead of judging prematurely.",
+"ur": "…jaldbazi mein faisla karne ke bajaye."
+}
+},
+"aufnehmen": {
+"lemma": "aufnehmen",
+"pos": "Verb",
+"aux": "nimmt auf / hat aufgenommen",
+"forms": [
+"aufnimmt",
+"aufgenommen"
+],
+"en": "to absorb / to take up",
+"ur": "jazb karna / lena",
+"ex": {
+"de": "Der Darm nimmt Eisen mit Pause besser auf.",
+"en": "The gut absorbs iron better with a break.",
+"ur": "Waqfe se aantein loha behtar jazb karti hain."
+}
+},
+"hemmen": {
+"lemma": "hemmen",
+"pos": "Verb",
+"forms": [
+"hemmt"
+],
+"en": "to inhibit / to hinder",
+"ur": "rokna",
+"ex": {
+"de": "Kaffee hemmt die Aufnahme.",
+"en": "Coffee inhibits absorption.",
+"ur": "Coffee jazb hone ko rokti hai."
+}
+},
+"enthalten": {
+"lemma": "enthalten",
+"pos": "Verb",
+"forms": [
+"enthält",
+"enthalte"
+],
+"en": "to contain",
+"ur": "mein hona / shaamil hona",
+"ex": {
+"de": "Fleisch enthält viel Eisen.",
+"en": "Meat contains a lot of iron.",
+"ur": "Gosht mein loha zyada hota hai."
+}
+},
+"vertragen": {
+"lemma": "vertragen",
+"pos": "Verb",
+"aux": "verträgt / hat vertragen",
+"forms": [
+"verträgt",
+"vertrage"
+],
+"en": "to tolerate (a medicine)",
+"ur": "dawa lagna / hazam hona",
+"ex": {
+"de": "Vertrage ich die Tabletten?",
+"en": "Will I tolerate the tablets?",
+"ur": "Kya goliyan mujhe lagengi?"
+}
+},
+"bilden": {
+"lemma": "bilden",
+"pos": "Verb",
+"forms": [
+"bildet",
+"gebildet"
+],
+"en": "to form / to produce",
+"ur": "banana",
+"ex": {
+"de": "Der Körper bildet rote Blutkörperchen.",
+"en": "The body forms red blood cells.",
+"ur": "Jism laal khoon ke zarrat banata hai."
+}
+},
+"herausfinden": {
+"lemma": "herausfinden",
+"pos": "Verb",
+"aux": "findet heraus / hat herausgefunden",
+"forms": [
+"findet",
+"herausgefunden"
+],
+"en": "to find out",
+"ur": "maloom karna / pata lagana",
+"ex": {
+"de": "Wir sollten die Ursache herausfinden.",
+"en": "We should find out the cause.",
+"ur": "Humein wajah maloom karni chahiye."
+}
+},
+"anschauen": {
+"lemma": "anschauen",
+"pos": "Verb",
+"aux": "schaut an / hat angeschaut",
+"forms": [
+"anschaut",
+"angeschaut"
+],
+"en": "to look at",
+"ur": "dekhna",
+"ex": {
+"de": "Wir sollten die Ernährung anschauen.",
+"en": "We should look at the diet.",
+"ur": "Humein khane par nazar dalni chahiye."
+}
+},
+"umstellen": {
+"lemma": "umstellen",
+"pos": "Verb",
+"aux": "stellt um / hat umgestellt",
+"forms": [
+"umstelle",
+"umgestellt"
+],
+"en": "to change over / to adjust (diet)",
+"ur": "badalna / tabdeel karna",
+"ex": {
+"de": "Wenn ich meine Ernährung umstelle?",
+"en": "If I change my diet?",
+"ur": "Agar main apna khana badloon?"
+}
+},
+"kombinieren": {
+"lemma": "kombinieren",
+"pos": "Verb",
+"forms": [
+"kombiniert",
+"kombinieren"
+],
+"en": "to combine",
+"ur": "milana / jorna",
+"ex": {
+"de": "Wir kombinieren das mit Tabletten.",
+"en": "We combine it with tablets.",
+"ur": "Hum isay goliyon ke saath milate hain."
+}
+},
+"suchen": {
+"lemma": "suchen",
+"pos": "Verb",
+"forms": [
+"sucht",
+"suche",
+"gesucht"
+],
+"en": "to search / to look for",
+"ur": "dhoondna",
+"ex": {
+"de": "Dann suchen wir gezielter nach einer Ursache.",
+"en": "Then we search more specifically for a cause.",
+"ur": "Phir hum wajah zyada khaas tor par dhoondte hain."
+}
+},
+"durchnehmen": {
+"lemma": "durchnehmen",
+"pos": "Verb",
+"aux": "nimmt durch / hat durchgenommen",
+"forms": [
+"durchnehmen"
+],
+"en": "to take through to the end (a full course)",
+"ur": "poora course lena",
+"ex": {
+"de": "Sie müssen die Tabletten durchnehmen.",
+"en": "You have to finish the tablets.",
+"ur": "Aap ko goliyan poori leni hain."
+}
+},
+"versprechen": {
+"lemma": "versprechen",
+"pos": "Verb",
+"aux": "verspricht / hat versprochen",
+"forms": [
+"verspreche",
+"verspricht"
+],
+"en": "to promise",
+"ur": "wada karna",
+"ex": {
+"de": "Das verspreche ich.",
+"en": "I promise that.",
+"ur": "Main wada karti hoon."
+}
+},
+"besprechen": {
+"lemma": "besprechen",
+"pos": "Verb",
+"aux": "bespricht / hat besprochen",
+"forms": [
+"bespricht",
+"besprochen"
+],
+"en": "to discuss",
+"ur": "baat karna / mashwara karna",
+"ex": {
+"de": "Wir besprechen den Befund.",
+"en": "We discuss the findings.",
+"ur": "Hum report par baat karte hain."
+}
+},
+"beschönigen": {
+"lemma": "beschönigen",
+"pos": "Verb",
+"forms": [
+"beschönigt",
+"beschönige"
+],
+"en": "to gloss over / to sugarcoat",
+"ur": "halka kar ke batana / chhupana",
+"ex": {
+"de": "Ich beschönige nichts.",
+"en": "I'm not glossing over anything.",
+"ur": "Main kuch nahi chhupa raha."
+}
+},
+"abtun": {
+"lemma": "abtun",
+"pos": "Verb",
+"aux": "tut ab / hat abgetan",
+"forms": [
+"abtun"
+],
+"en": "to dismiss (as unimportant)",
+"ur": "nazar andaaz karna / bekaar samajhna",
+"ex": {
+"de": "…bevor wir sie als harmlos abtun.",
+"en": "…before we dismiss them as harmless.",
+"ur": "…isay harmless kehne se pehle."
+}
+},
+"widersprechen": {
+"lemma": "widersprechen",
+"pos": "Verb",
+"aux": "widerspricht / hat widersprochen",
+"forms": [
+"widerspricht"
+],
+"en": "to contradict",
+"ur": "ulta hona / ikhtilaaf karna",
+"ex": {
+"de": "Das widerspricht dem, was ich gehört habe.",
+"en": "That contradicts what I heard.",
+"ur": "Yeh us se ulta hai jo main ne suna."
+}
+},
+"überzeugen": {
+"lemma": "überzeugen",
+"pos": "Verb",
+"forms": [
+"überzeugt"
+],
+"en": "to convince",
+"ur": "qail karna",
+"ex": {
+"de": "Das überzeugt mich.",
+"en": "That convinces me.",
+"ur": "Yeh mujhe qail karta hai."
+}
+},
+"mitentscheiden": {
+"lemma": "mitentscheiden",
+"pos": "Verb",
+"forms": [
+"mitentscheidet"
+],
+"en": "to help decide / to have a say",
+"ur": "faisle mein shareek hona",
+"ex": {
+"de": "So kann ich mitentscheiden.",
+"en": "This way I can help decide.",
+"ur": "Yun main faisle mein shareek ho sakti hoon."
+}
+},
+"befolgen": {
+"lemma": "befolgen",
+"pos": "Verb",
+"forms": [
+"befolgt",
+"befolge"
+],
+"en": "to follow (instructions)",
+"ur": "amal karna / mankar chalna",
+"ex": {
+"de": "…statt nur Anweisungen zu befolgen.",
+"en": "…instead of just following instructions.",
+"ur": "…sirf hukm mankar nahi."
+}
+},
+"drucken": {
+"lemma": "drucken",
+"pos": "Verb",
+"forms": [
+"druckt",
+"drucke",
+"gedruckt"
+],
+"en": "to print (ausdrucken = to print out)",
+"ur": "print karna",
+"ex": {
+"de": "Ich drucke Ihnen die Punkte aus.",
+"en": "I'll print out the points for you.",
+"ur": "Main aap ko baatein print kar deta hoon."
+}
+},
+"verunsichern": {
+"lemma": "verunsichern",
+"pos": "Verb",
+"forms": [
+"verunsichert",
+"verunsichern"
+],
+"en": "to unsettle / to make unsure",
+"ur": "pareshan karna / shak mein dalna",
+"ex": {
+"de": "Zahlen ohne Kontext verunsichern mich.",
+"en": "Numbers without context unsettle me.",
+"ur": "Bina context ke numbers pareshan karte hain."
+}
+},
+"berichten": {
+"lemma": "berichten",
+"pos": "Verb",
+"forms": [
+"berichtet",
+"berichte"
+],
+"en": "to report / to report back",
+"ur": "batana / report dena",
+"ex": {
+"de": "Soll ich Ihnen berichten?",
+"en": "Should I report back to you?",
+"ur": "Kya main aap ko bata doon?"
+}
+},
+"mitnehmen": {
+"lemma": "mitnehmen",
+"pos": "Verb",
+"aux": "nimmt mit / hat mitgenommen",
+"forms": [
+"mitnehmen",
+"mitnimmt"
+],
+"en": "to take with you",
+"ur": "saath le jana",
+"ex": {
+"de": "Muss ich die Überweisung mitnehmen?",
+"en": "Do I have to take the referral with me?",
+"ur": "Kya referral saath le jana hoga?"
+}
+},
+"verstreichen": {
+"lemma": "verstreichen",
+"pos": "Verb",
+"aux": "verstreicht / ist verstrichen",
+"forms": [
+"verstreicht"
+],
+"en": "to pass / to elapse (time)",
+"ur": "guzar jana",
+"ex": {
+"de": "Verstreicht das Quartal, brauchen Sie eine neue.",
+"en": "If the quarter passes, you need a new one.",
+"ur": "Quarter guzar jaye to nayi chahiye."
+}
+},
+"reagieren": {
+"lemma": "reagieren",
+"pos": "Verb",
+"forms": [
+"reagiert",
+"reagiere"
+],
+"en": "to react",
+"ur": "rad-e-amal dena",
+"ex": {
+"de": "Wie reagiert mein Arbeitgeber?",
+"en": "How does my employer react?",
+"ur": "Mera employer kaise rad-e-amal deta hai?"
+}
+},
+"erschleichen": {
+"lemma": "erschleichen",
+"pos": "Verb",
+"aux": "erschleicht / hat erschlichen",
+"forms": [
+"erschleichen"
+],
+"en": "to obtain dishonestly",
+"ur": "ghalat tareeqe se hasil karna",
+"ex": {
+"de": "Ich will sie mir nicht erschleichen.",
+"en": "I don't want to obtain it dishonestly.",
+"ur": "Main isay ghalat tareeqe se nahi lena chahti."
+}
+},
+"ehren": {
+"lemma": "ehren",
+"pos": "Verb",
+"forms": [
+"ehrt"
+],
+"en": "to honour (das ehrt Sie = that does you credit)",
+"ur": "izzat dena / achi baat",
+"ex": {
+"de": "Das ehrt Sie.",
+"en": "That does you credit.",
+"ur": "Yeh aap ki achi baat hai."
+}
+},
+"beurteilen": {
+"lemma": "beurteilen",
+"pos": "Verb",
+"forms": [
+"beurteilt",
+"beurteile"
+],
+"en": "to assess / to judge",
+"ur": "jaancha / raye qaim karna",
+"ex": {
+"de": "Ich beurteile Ihre Arbeitsfähigkeit.",
+"en": "I assess your fitness for work.",
+"ur": "Main aap ki kaam ki salahiyat jaanchta hoon."
+}
+},
+"hingehen": {
+"lemma": "hingehen",
+"pos": "Verb",
+"aux": "geht hin / ist hingegangen",
+"forms": [
+"hingehen"
+],
+"en": "to go there",
+"ur": "wahan jana",
+"ex": {
+"de": "Körperlich könnte ich hingehen.",
+"en": "Physically I could go.",
+"ur": "Jismani tor par main ja sakti hoon."
+}
+},
+"gestalten": {
+"lemma": "gestalten",
+"pos": "Verb",
+"forms": [
+"gestaltet",
+"gestalten"
+],
+"en": "to shape / to arrange",
+"ur": "tarteeb dena / banana",
+"ex": {
+"de": "Wie gestalten wir die Rückkehr?",
+"en": "How do we shape the return?",
+"ur": "Wapsi kaise banayein?"
+}
+},
+"fallen": {
+"lemma": "fallen",
+"pos": "Verb",
+"aux": "fällt / ist gefallen",
+"forms": [
+"fällt",
+"gefallen"
+],
+"en": "to fall",
+"ur": "girna",
+"ex": {
+"de": "Ich falle wieder ins gleiche Loch.",
+"en": "I fall back into the same hole.",
+"ur": "Main phir usi gaddhe mein gir jati hoon."
+}
+},
+"steigern": {
+"lemma": "steigern",
+"pos": "Verb",
+"forms": [
+"steigert",
+"steigere"
+],
+"en": "to increase (gradually)",
+"ur": "barhana",
+"ex": {
+"de": "Sie steigern die Stunden langsam.",
+"en": "You increase the hours slowly.",
+"ur": "Aap ghante dheere barhati hain."
+}
+},
+"mittragen": {
+"lemma": "mittragen",
+"pos": "Verb",
+"aux": "trägt mit / hat mitgetragen",
+"forms": [
+"mittragen",
+"trägt"
+],
+"en": "to support / to go along with",
+"ur": "saath dena",
+"ex": {
+"de": "Der Arbeitgeber muss das mittragen.",
+"en": "The employer has to support it.",
+"ur": "Employer ko iska saath dena hoga."
+}
+},
+"leiten": {
+"lemma": "einleiten",
+"pos": "Verb",
+"aux": "leitet ein / hat eingeleitet",
+"forms": [
+"leite",
+"leitet",
+"eingeleitet"
+],
+"en": "to initiate (einleiten = to set in motion)",
+"ur": "shuru karna",
+"ex": {
+"de": "Wie leite ich so etwas ein?",
+"en": "How do I initiate something like that?",
+"ur": "Aisi cheez kaise shuru karoon?"
+}
+},
+"überstürzen": {
+"lemma": "überstürzen",
+"pos": "Verb",
+"forms": [
+"überstürzt"
+],
+"en": "to rush / to do hastily",
+"ur": "jaldbazi karna",
+"ex": {
+"de": "Nichts überstürzen.",
+"en": "Don't rush anything.",
+"ur": "Jaldbazi nahi."
+}
+},
+"erwarten": {
+"lemma": "erwarten",
+"pos": "Verb",
+"forms": [
+"erwartet",
+"erwarte"
+],
+"en": "to expect",
+"ur": "tawaqqo karna",
+"ex": {
+"de": "Ich hatte erwartet, mich rechtfertigen zu müssen.",
+"en": "I'd expected to have to justify myself.",
+"ur": "Main safai deni parne ki tawaqqo kar rahi thi."
+}
+},
+"rechtfertigen": {
+"lemma": "rechtfertigen",
+"pos": "Verb",
+"forms": [
+"rechtfertigt",
+"rechtfertige"
+],
+"en": "to justify (oneself)",
+"ur": "safai dena",
+"ex": {
+"de": "Bei mir müssen Sie sich nicht rechtfertigen.",
+"en": "With me you don't have to justify yourself.",
+"ur": "Mere paas aap ko safai nahi deni."
+}
+},
+"vermeiden": {
+"lemma": "vermeiden",
+"pos": "Verb",
+"aux": "vermeidet / hat vermieden",
+"forms": [
+"vermeiden",
+"vermeidet"
+],
+"en": "to avoid",
+"ur": "bachna / na hone dena",
+"ex": {
+"de": "So vermeiden wir eine Lücke.",
+"en": "That way we avoid a gap.",
+"ur": "Yun hum kami se bach jate hain."
+}
+},
+"entspannen": {
+"lemma": "entspannen",
+"pos": "Verb",
+"forms": [
+"entspannt",
+"entspanne"
+],
+"en": "to relax",
+"ur": "sukoon karna / aaram karna",
+"ex": {
+"de": "Ich solle einfach entspannen.",
+"en": "I should just relax.",
+"ur": "Mujhe bas sukoon karna chahiye."
+}
+},
+"schätzen": {
+"lemma": "schätzen",
+"pos": "Verb",
+"forms": [
+"schätzt",
+"schätze"
+],
+"en": "to appreciate; also: to estimate",
+"ur": "qadr karna",
+"ex": {
+"de": "Das schätze ich.",
+"en": "I appreciate that.",
+"ur": "Is ki main qadr karti hoon."
+}
+},
+"ruhen": {
+"lemma": "ruhen",
+"pos": "Verb",
+"forms": [
+"ruht",
+"ruhen"
+],
+"en": "to rest",
+"ur": "aaram karna",
+"ex": {
+"de": "Ruhen Sie sich aus.",
+"en": "Rest well.",
+"ur": "Aaram karein."
+}
+},
+"konzentrieren": {
+"lemma": "konzentrieren",
+"pos": "Verb",
+"forms": [
+"konzentriert",
+"konzentriere"
+],
+"en": "to concentrate",
+"ur": "dhyan dena / tawajjoh dena",
+"ex": {
+"de": "Ich kann mich kaum konzentrieren.",
+"en": "I can hardly concentrate.",
+"ur": "Main mushkil se dhyan de pati hoon."
+}
+},
+"schaffen-form": {
+"lemma": "schaffen",
+"pos": "Form von schaffen",
+"forms": [
+"schaffe"
+],
+"en": "to manage (ich schaffe die Arbeit nicht = I can't manage the work)",
+"ur": "kar pana",
+"ex": {
+"de": "Ich schaffe die Arbeit nicht.",
+"en": "I can't manage the work.",
+"ur": "Main kaam nahi kar pati."
+}
+},
+"glauben": {
+"lemma": "glauben",
+"pos": "Verb",
+"forms": [
+"glaubt",
+"glaube",
+"geglaubt"
+],
+"en": "to believe / to think",
+"ur": "samajhna / yaqeen karna",
+"ex": {
+"de": "Beides, glaube ich.",
+"en": "Both, I think.",
+"ur": "Dono, mere khayal mein."
+}
+},
+"wachen": {
+"lemma": "aufwachen",
+"pos": "Form von aufwachen",
+"forms": [
+"wache"
+],
+"en": "to wake up (ich wache oft auf = I often wake up)",
+"ur": "jaag jana",
+"ex": {
+"de": "Ich wache oft auf.",
+"en": "I often wake up.",
+"ur": "Main aksar jaag jati hoon."
+}
+},
+"aufstehen": {
+"lemma": "aufstehen",
+"pos": "Verb",
+"aux": "steht auf / ist aufgestanden",
+"forms": [
+"aufstehe",
+"steht"
+],
+"en": "to get up / to stand up",
+"ur": "uthna",
+"ex": {
+"de": "Mir ist schwindelig, wenn ich aufstehe.",
+"en": "I feel dizzy when I stand up.",
+"ur": "Uthte waqt chakkar aata hai."
+}
+},
+"hoffen": {
+"lemma": "hoffen",
+"pos": "Verb",
+"forms": [
+"hofft",
+"hoffe",
+"gehofft"
+],
+"en": "to hope",
+"ur": "umeed karna",
+"ex": {
+"de": "Ich hoffe, es reicht.",
+"en": "I hope it's enough.",
+"ur": "Umeed hai kaafi hoga."
+}
+},
+"funktionieren": {
+"lemma": "funktionieren",
+"pos": "Verb",
+"forms": [
+"funktioniert",
+"funktioniere"
+],
+"en": "to function / to get by",
+"ur": "kaam karna / guzara karna",
+"ex": {
+"de": "Ich funktioniere, aber auf Reserve.",
+"en": "I function, but on reserve.",
+"ur": "Main kaam karti hoon, lekin bamushkil."
+}
+},
+"regelmäßig": {
+"lemma": "regelmäßig",
+"pos": "Adjektiv / Adverb",
+"en": "regular / regularly",
+"ur": "baaqaidgi se",
+"ex": {
+"de": "Essen Sie regelmäßig?",
+"en": "Do you eat regularly?",
+"ur": "Kya aap waqt par khati hain?"
+}
+},
+"vorbereitet": {
+"lemma": "vorbereitet",
+"pos": "Adjektiv / Partizip",
+"en": "prepared",
+"ur": "tayyar",
+"ex": {
+"de": "Jetzt fühle ich mich besser vorbereitet.",
+"en": "Now I feel better prepared.",
+"ur": "Ab main behtar tayyar mehsoos karti hoon."
+}
+},
+"elektronisch": {
+"lemma": "elektronisch",
+"pos": "Adjektiv / Adverb",
+"en": "electronic / electronically",
+"ur": "electronic tor par",
+"ex": {
+"de": "Die Krankschreibung geht elektronisch.",
+"en": "The sick note goes electronically.",
+"ur": "Certificate electronic bheja jata hai."
+}
+},
+"hoch-form": {
+"lemma": "hoch",
+"pos": "Form von hoch",
+"forms": [
+"höher"
+],
+"en": "high (nicht sehr hoch = not very high)",
+"ur": "tez / oonchi",
+"ex": {
+"de": "Nicht sehr hoch.",
+"en": "Not very high.",
+"ur": "Zyada nahi."
+}
+},
+"team-form": {
+"lemma": "Team",
+"pos": "Nomen",
+"gender": "das",
+"en": "team (duplicate-safe alias)",
+"ur": "team",
+"ex": {
+"de": "das ganze Team",
+"en": "the whole team",
+"ur": "poori team"
+}
+}
+}

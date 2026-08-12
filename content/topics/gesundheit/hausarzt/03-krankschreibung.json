@@ -1,0 +1,213 @@
+{
+  "id": "krankschreibung",
+  "order": 3,
+  "icon": "📄",
+  "title": { "de": "Krankschreibung", "en": "The sick note", "ur": "Medical chhutti ka certificate" },
+  "angle": "Getting a sick note for your employer · Employer ke liye chhutti ka certificate",
+  "voices": { "A": "Puck", "B": "Kore" },
+  "words": ["krankschreibung", "arbeitgeber", "arbeitsunfähig", "attest", "verlängern", "rückdatieren", "elektronisch", "krankenkasse", "belastbar", "wiederkommen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, ich brauche eine Krankschreibung.", "en": "Doctor, I need a sick note.", "ur": "Doctor sahab, mujhe chhutti ka certificate chahiye." },
+        { "s": "A", "de": "Für wen ist die Krankschreibung?", "en": "Who is the sick note for?", "ur": "Certificate kis ke liye hai?" },
+        { "s": "B", "de": "Für meinen Arbeitgeber.", "en": "For my employer.", "ur": "Mere employer ke liye." },
+        { "s": "A", "de": "Seit wann sind Sie krank?", "en": "Since when have you been ill?", "ur": "Aap kab se beemar hain?" },
+        { "s": "B", "de": "Seit heute Morgen.", "en": "Since this morning.", "ur": "Aaj subh se." },
+        { "s": "A", "de": "Wie lange brauchen Sie sie?", "en": "How long do you need it for?", "ur": "Aap ko kitne din chahiye?" },
+        { "s": "B", "de": "Vielleicht drei Tage?", "en": "Maybe three days?", "ur": "Shayad teen din?" },
+        { "s": "A", "de": "Gut. Ich schreibe Sie bis Freitag krank.", "en": "Good. I'll sign you off sick until Friday.", "ur": "Acha. Main aap ko Jumma tak chhutti de deta hoon." },
+        { "s": "B", "de": "Muss ich das Papier abholen?", "en": "Do I have to collect the paper?", "ur": "Kya mujhe kaghaz lena hoga?" },
+        { "s": "A", "de": "Nein. Die Krankschreibung geht elektronisch an die Krankenkasse.", "en": "No. The sick note goes electronically to the health insurance.", "ur": "Nahi. Certificate electronic tor par insurance ko chala jata hai." },
+        { "s": "B", "de": "Und mein Arbeitgeber?", "en": "And my employer?", "ur": "Aur mera employer?" },
+        { "s": "A", "de": "Der Arbeitgeber bekommt die Information auch. Sagen Sie ihm nur, dass Sie krank sind.", "en": "The employer gets the information too. Just tell him you're ill.", "ur": "Employer ko bhi maloomat mil jati hai. Bas usay bata dein ke aap beemar hain." },
+        { "s": "B", "de": "Und wenn es länger dauert?", "en": "And if it takes longer?", "ur": "Aur agar zyada din lagein?" },
+        { "s": "A", "de": "Dann kommen Sie wieder, und ich verlängere die Krankschreibung.", "en": "Then come back, and I'll extend the sick note.", "ur": "To dobara aayein, main certificate barha doonga." },
+        { "s": "B", "de": "Danke, Herr Doktor.", "en": "Thank you, doctor.", "ur": "Shukriya, doctor sahab." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, können Sie mich krankschreiben? Ich schaffe die Arbeit im Moment nicht.", "en": "Doctor, can you sign me off sick? I can't manage work at the moment.", "ur": "Doctor sahab, kya aap chhutti de sakte hain? Filhaal main kaam nahi kar pa rahi." },
+        { "s": "A", "de": "Das klären wir gleich. Was genau macht Ihnen zu schaffen?", "en": "We'll sort that out. What exactly is troubling you?", "ur": "Abhi tay karte hain. Aap ko kya takleef hai?" },
+        { "s": "B", "de": "Die Kopfschmerzen und die Müdigkeit. Ich kann mich kaum konzentrieren.", "en": "The headaches and the tiredness. I can hardly concentrate.", "ur": "Sar dard aur thakan. Main mushkil se dhyan de pati hoon." },
+        { "s": "A", "de": "Verstehe. Arbeiten Sie am Bildschirm oder körperlich?", "en": "I see. Do you work at a screen or physically?", "ur": "Samjha. Aap screen par kaam karti hain ya jismani?" },
+        { "s": "B", "de": "Am Bildschirm, den ganzen Tag.", "en": "At a screen, all day.", "ur": "Screen par, poora din." },
+        { "s": "A", "de": "Dann ist das gerade wirklich nicht ideal. Ich schreibe Sie zunächst für den Rest der Woche krank.", "en": "Then that really isn't ideal right now. I'll sign you off for the rest of the week first.", "ur": "To yeh abhi bilkul theek nahi. Main pehle hafte ke aakhir tak chhutti de deta hoon." },
+        { "s": "B", "de": "Können Sie mich rückwirkend seit gestern krankschreiben? Ich war gestern schon nicht arbeitsfähig.", "en": "Can you sign me off retroactively from yesterday? I already couldn't work yesterday.", "ur": "Kya aap kal se peeche ki tareekh par chhutti de sakte hain? Main kal bhi kaam ke qabil nahi thi." },
+        { "s": "A", "de": "Einen Tag rückdatieren ist möglich, mehr in der Regel nicht. Ich trage gestern als Beginn ein.", "en": "Backdating one day is possible, usually not more. I'll enter yesterday as the start.", "ur": "Ek din peeche karna mumkin hai, aam tor par is se zyada nahi. Main kal ko shuruaat likh deta hoon." },
+        { "s": "B", "de": "Muss ich die Bescheinigung selbst zum Arbeitgeber bringen?", "en": "Do I have to take the certificate to the employer myself?", "ur": "Kya mujhe certificate khud employer ko dena hoga?" },
+        { "s": "A", "de": "Nein, das läuft heute elektronisch. Ihr Arbeitgeber ruft die Daten bei der Krankenkasse ab.", "en": "No, that's done electronically these days. Your employer retrieves the data from the health insurance.", "ur": "Nahi, aaj kal yeh electronic hota hai. Aap ka employer insurance se data le leta hai." },
+        { "s": "B", "de": "Und was sage ich meinem Chef?", "en": "And what do I tell my boss?", "ur": "Aur main apne boss ko kya kahoon?" },
+        { "s": "A", "de": "Melden Sie sich nur krank. Sie müssen die Diagnose nicht nennen, das ist Ihr gutes Recht.", "en": "Just call in sick. You don't have to state the diagnosis, that's your right.", "ur": "Bas beemari ki ittila dein. Aap ko beemari ka naam batana zaroori nahi, yeh aap ka haq hai." },
+        { "s": "B", "de": "Das wusste ich nicht. Und wenn es Freitag noch nicht besser ist?", "en": "I didn't know that. And if it's not better by Friday?", "ur": "Yeh mujhe nahi pata tha. Aur agar Jumma tak behtar na ho?" },
+        { "s": "A", "de": "Dann kommen Sie am Freitag kurz vorbei, und wir verlängern, wenn es nötig ist.", "en": "Then drop by on Friday, and we'll extend it if necessary.", "ur": "To Jumma ko aa jayein, aur zaroorat par barha denge." },
+        { "s": "B", "de": "Gut. Ich hoffe, es reicht so.", "en": "Good. I hope this is enough.", "ur": "Acha. Umeed hai itna kaafi hoga." },
+        { "s": "A", "de": "Ruhen Sie sich aus und trinken Sie viel. Gute Besserung.", "en": "Rest and drink a lot. Get well soon.", "ur": "Aaram karein aur kaafi piyein. Jald sehatyabi." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, ich brauche eine Krankschreibung, aber ich habe ein bisschen Angst, wie mein Arbeitgeber reagiert.", "en": "Doctor, I need a sick note, but I'm a bit afraid of how my employer will react.", "ur": "Doctor sahab, mujhe chhutti ka certificate chahiye, lekin mujhe thora dar hai ke employer kaise rad-e-amal dega." },
+        { "s": "A", "de": "Diese Sorge höre ich oft. Rechtlich sind Sie geschützt: Wenn Sie krank sind, sind Sie krank.", "en": "I hear that worry often. Legally you're protected: if you're ill, you're ill.", "ur": "Yeh fikar main aksar sunta hoon. Qanoonan aap mehfooz hain: agar beemar hain to beemar hain." },
+        { "s": "B", "de": "Trotzdem fühlt es sich an, als würde ich das Team im Stich lassen.", "en": "Still, it feels like I'm letting the team down.", "ur": "Phir bhi lagta hai jaise main team ko akela chhor rahi hoon." },
+        { "s": "A", "de": "Krank zur Arbeit zu gehen hilft dem Team selten. Sie stecken andere an oder machen mehr Fehler.", "en": "Going to work ill rarely helps the team. You infect others or make more mistakes.", "ur": "Beemar hote hue kaam par jana team ki madad kam hi karta hai. Aap doosron ko laga dete hain ya zyada ghaltiyan karte hain." },
+        { "s": "B", "de": "Da ist etwas dran. Wie lange würden Sie mich denn krankschreiben?", "en": "There's something to that. How long would you sign me off then?", "ur": "Is mein waqai baat hai. To aap kitne din ki chhutti denge?" },
+        { "s": "A", "de": "Realistisch für Ihre Beschwerden eine Woche. Danach schauen wir, ob Sie wieder belastbar sind.", "en": "Realistically for your symptoms, one week. After that we'll see if you're fit for load again.", "ur": "Aap ki takleef ke liye haqeeqatan ek hafta. Us ke baad dekhenge ke aap dobara kaam ke qabil hain ya nahi." },
+        { "s": "B", "de": "Eine Woche klingt viel. Reicht nicht vielleicht bis Mittwoch?", "en": "A week sounds like a lot. Wouldn't until Wednesday be enough maybe?", "ur": "Ek hafta zyada lagta hai. Shayad Budh tak kaafi ho?" },
+        { "s": "A", "de": "Sie können früher zurück, wenn es Ihnen besser geht. Aber ich setze den Zeitraum lieber ausreichend an.", "en": "You can return earlier if you feel better. But I'd rather set the period generously enough.", "ur": "Agar behtar mehsoos karein to jaldi wapis aa sakti hain. Lekin main muddat kaafi rakhna behtar samajhta hoon." },
+        { "s": "B", "de": "Muss ich Ihnen sagen, wann ich zurückgehe, oder entscheide ich das selbst?", "en": "Do I have to tell you when I go back, or do I decide that myself?", "ur": "Kya mujhe batana hoga ke kab wapis jaoongi, ya main khud tay karoon?" },
+        { "s": "A", "de": "Innerhalb der Krankschreibung entscheiden Sie das selbst. Fühlen Sie sich am Donnerstag fit, gehen Sie am Donnerstag.", "en": "Within the sick note you decide that yourself. If you feel fit on Thursday, go on Thursday.", "ur": "Certificate ki muddat mein aap khud tay karti hain. Jumeraat ko theek lagein to Jumeraat ko chali jayein." },
+        { "s": "B", "de": "Und wenn ich merke, dass eine Woche nicht reicht?", "en": "And if I realise a week isn't enough?", "ur": "Aur agar mujhe lage ke ek hafta kaafi nahi?" },
+        { "s": "A", "de": "Dann kommen Sie vor Ablauf wieder, nicht erst am letzten Tag. So vermeiden wir eine Lücke.", "en": "Then come back before it expires, not just on the last day. That way we avoid a gap.", "ur": "To khatam hone se pehle aa jayein, sirf aakhri din nahi. Yun kami se bach jayenge." },
+        { "s": "B", "de": "Eine Lücke wäre schlecht?", "en": "A gap would be bad?", "ur": "Kami buri baat hogi?" },
+        { "s": "A", "de": "Ja, für den Lohn und die Kasse ist eine lückenlose Krankschreibung wichtig. Denken Sie einfach rechtzeitig daran.", "en": "Yes, for your pay and the insurance a gapless sick note matters. Just remember it in good time.", "ur": "Ji haan, tankhwah aur insurance ke liye be-kami certificate ahem hai. Bas waqt par yaad rakhein." },
+        { "s": "B", "de": "Mache ich. Vielen Dank, das beruhigt mich sehr.", "en": "I will. Thank you, that reassures me a lot.", "ur": "Zaroor. Shukriya, is se mujhe kaafi tasalli hui." },
+        { "s": "A", "de": "Sehr gern. Melden Sie sich, wenn etwas unklar ist. Gute Besserung.", "en": "You're very welcome. Get in touch if anything is unclear. Get well soon.", "ur": "Bohat khushi se. Kuch samajh na aaye to rabta karein. Jald sehatyabi." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, ich möchte offen sein: Ich brauche zwar eine Krankschreibung, aber ich will sie mir nicht erschleichen.", "en": "Doctor, I want to be honest: I do need a sick note, but I don't want to obtain it dishonestly.", "ur": "Doctor sahab, main saaf baat karna chahti hoon: mujhe certificate chahiye, lekin main isay ghalat tareeqe se hasil nahi karna chahti." },
+        { "s": "A", "de": "Das ehrt Sie, aber eine Krankschreibung ist keine Gefälligkeit. Ich beurteile Ihre Arbeitsfähigkeit medizinisch, nicht moralisch.", "en": "That does you credit, but a sick note isn't a favour. I assess your fitness for work medically, not morally.", "ur": "Yeh aap ki achi baat hai, lekin certificate koi ehsaan nahi. Main aap ki kaam ki salahiyat tibbi tor par jaanchta hoon, akhlaqi nahi." },
+        { "s": "B", "de": "Das Problem ist: Körperlich könnte ich hingehen, aber ich bin durch die Erschöpfung nicht wirklich leistungsfähig.", "en": "The problem is: physically I could go, but due to the exhaustion I'm not really able to perform.", "ur": "Masla yeh hai: jismani tor par ja sakti hoon, lekin thakan ki wajah se asal mein kaam nahi kar pati." },
+        { "s": "A", "de": "Arbeitsunfähigkeit heißt nicht bettlägerig. Wenn Ihre Konzentration und Belastbarkeit deutlich eingeschränkt sind, sind Sie arbeitsunfähig.", "en": "Incapacity to work doesn't mean bedridden. If your concentration and resilience are clearly reduced, you're unfit for work.", "ur": "Kaam ke na-qabil hone ka matlab bistar par parna nahi. Agar aap ki tawajjoh aur bardasht saaf tor par kam hai to aap kaam ke qabil nahi." },
+        { "s": "B", "de": "Das trifft es genau. Ich funktioniere, aber auf Reserve, und mache Fehler, die mir sonst nicht passieren.", "en": "That's exactly it. I function, but on reserve, and I make mistakes I normally wouldn't.", "ur": "Bilkul yehi baat hai. Main kaam karti hoon, lekin bamushkil, aur aisi ghaltiyan karti hoon jo aam tor par nahi hotin." },
+        { "s": "A", "de": "Dann ist eine Krankschreibung medizinisch gerechtfertigt. Die Frage ist eher die Dauer und wie wir die Rückkehr gestalten.", "en": "Then a sick note is medically justified. The question is rather the duration and how we shape the return.", "ur": "To certificate tibbi tor par jaiz hai. Sawal muddat ka hai aur wapsi kaise ho." },
+        { "s": "B", "de": "Genau da hätte ich gern Ihren Rat. Ich habe Angst, nach einer Woche wieder ins gleiche Loch zu fallen.", "en": "That's exactly where I'd like your advice. I'm afraid of falling back into the same hole after a week.", "ur": "Isi mein main aap ka mashwara chahoongi. Mujhe dar hai ke ek hafte baad phir usi gaddhe mein gir jaoongi." },
+        { "s": "A", "de": "Eine berechtigte Sorge. Sinnvoller als eine lange Vollkrankschreibung ist oft eine stufenweise Wiedereingliederung.", "en": "A valid concern. More sensible than a long full sick note is often a phased return to work.", "ur": "Yeh jaiz fikar hai. Lambi mukammal chhutti se behtar aksar thora thora kaam par wapsi hoti hai." },
+        { "s": "B", "de": "Was bedeutet das praktisch?", "en": "What does that mean in practice?", "ur": "Amal mein is ka kya matlab hai?" },
+        { "s": "A", "de": "Sie steigen mit reduzierter Stundenzahl ein und steigern langsam. Das muss aber der Arbeitgeber mittragen, sonst geht es nicht.", "en": "You start with reduced hours and increase slowly. But the employer has to support it, otherwise it won't work.", "ur": "Aap kam ghanton se shuru karti hain aur dheere dheere barhati hain. Lekin employer ko iska saath dena hoga, warna nahi hoga." },
+        { "s": "B", "de": "Mein Arbeitgeber ist eigentlich verständnisvoll. Wie leite ich so etwas ein?", "en": "My employer is actually understanding. How do I initiate something like that?", "ur": "Mera employer asal mein samajhdaar hai. Aisi cheez kaise shuru karoon?" },
+        { "s": "A", "de": "Ich schreibe Sie zunächst voll krank, und wir besprechen den Stufenplan, sobald Sie stabiler sind. Nichts überstürzen.", "en": "I'll sign you off fully first, and we'll discuss the phased plan once you're more stable. Nothing rushed.", "ur": "Main pehle mukammal chhutti deta hoon, aur jab aap zyada mustahkam hon to stufen-plan par baat karenge. Jaldbazi nahi." },
+        { "s": "B", "de": "Das nimmt mir wirklich Druck. Ich hatte erwartet, mich rechtfertigen zu müssen.", "en": "That really takes the pressure off me. I'd expected to have to justify myself.", "ur": "Is se waqai dabao kam hua. Main to safai deni parne ki tawaqqo kar rahi thi." },
+        { "s": "A", "de": "Bei mir müssen Sie sich nicht rechtfertigen, sondern gesund werden. Das ist der ganze Zweck.", "en": "With me you don't have to justify yourself, but get healthy. That's the whole point.", "ur": "Mere paas aap ko safai nahi deni, balke sehatyab hona hai. Yehi maqsad hai." },
+        { "s": "B", "de": "Danke. Dann fangen wir mit der vollen Krankschreibung an.", "en": "Thank you. Then let's start with the full sick note.", "ur": "Shukriya. To mukammal chhutti se shuru karte hain." },
+        { "s": "A", "de": "So machen wir es. Und kommen Sie lieber einen Tag zu früh als einen zu spät.", "en": "That's what we'll do. And come a day too early rather than a day too late.", "ur": "Aise hi karenge. Aur der se aane se behtar ek din pehle aa jayein." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie sind krank und brauchen eine Krankschreibung für Ihren Arbeitgeber.",
+        "en": "You're ill and need a sick note for your employer.",
+        "ur": "Aap beemar hain aur employer ke liye chhutti ka certificate chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Frau Yilmaz. Was kann ich für Sie tun?",
+          "goal": { "en": "Say you need a sick note.", "ur": "Kahein ke aap ko chhutti ka certificate chahiye." },
+          "options": ["Ich brauche eine Krankschreibung.", "Ich brauche eine Krankschreibung, bitte."],
+          "fallback": "Was möchten Sie genau?",
+          "accept": [{ "kw": ["krankschreibung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Für wen ist die Krankschreibung?",
+          "goal": { "en": "Say: for your employer.", "ur": "Kahein: apne employer ke liye." },
+          "options": ["Für meinen Arbeitgeber.", "Für die Arbeit."],
+          "fallback": "Wofür brauchen Sie sie?",
+          "accept": [{ "kw": ["arbeitgeber"], "next": "n3" }, { "kw": ["arbeit"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Seit wann sind Sie krank?",
+          "goal": { "en": "Say: since this morning.", "ur": "Kahein: aaj subh se." },
+          "options": ["Seit heute Morgen.", "Seit heute früh."],
+          "fallback": "Ab wann fühlen Sie sich krank?",
+          "accept": [{ "kw": ["heute", "morgen"], "next": "n4" }, { "kw": ["heute"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Gut, ich schreibe Sie bis Freitag krank. Das geht elektronisch an die Krankenkasse.",
+          "goal": { "en": "Ask what happens if it takes longer.", "ur": "Poochein ke agar zyada din lagein to kya hoga." },
+          "options": ["Und wenn es länger dauert?", "Was, wenn ich länger krank bin?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["länger"], "next": "n5" }, { "kw": ["dauert"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dann kommen Sie wieder, und ich verlängere die Krankschreibung.",
+          "goal": { "en": "Thank the doctor.", "ur": "Doctor ka shukriya karein." },
+          "options": ["Danke, Herr Doktor.", "Vielen Dank, Herr Doktor."],
+          "fallback": "Alles klar so weit?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern. Gute Besserung!", "next": "END" },
+            { "kw": ["dank"], "reply": "Gern. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie brauchen eine Krankschreibung, haben aber Angst, wie Ihr Arbeitgeber reagiert. Sie sprechen offen mit dem Arzt.",
+        "en": "You need a sick note but are afraid of how your employer will react. You speak openly with the doctor.",
+        "ur": "Aap ko chhutti ka certificate chahiye lekin dar hai ke employer kaise rad-e-amal dega. Aap doctor se khul kar baat karti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Frau Yilmaz. Wie geht es Ihnen?",
+          "goal": { "en": "Say you need a sick note, but you're a bit afraid of how your employer will react.", "ur": "Kahein ke certificate chahiye, lekin employer ke rad-e-amal ka thora dar hai." },
+          "options": ["Ich brauche eine Krankschreibung, aber ich habe Angst, wie mein Arbeitgeber reagiert.", "Ich brauche eine Krankschreibung, aber mein Arbeitgeber macht mir Sorgen."],
+          "fallback": "Was beschäftigt Sie?",
+          "accept": [{ "kw": ["krankschreibung", "arbeitgeber"], "next": "n2" }, { "kw": ["angst", "arbeitgeber"], "next": "n2" }, { "kw": ["krankschreibung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Diese Sorge höre ich oft. Rechtlich sind Sie geschützt: Wenn Sie krank sind, sind Sie krank.",
+          "goal": { "en": "Say it still feels like you're letting the team down.", "ur": "Kahein ke phir bhi lagta hai aap team ko akela chhor rahi hain." },
+          "options": ["Trotzdem fühlt es sich an, als würde ich das Team im Stich lassen.", "Trotzdem lasse ich das Team im Stich."],
+          "fallback": "Wie sehen Sie das?",
+          "accept": [{ "kw": ["team", "stich"], "next": "n3" }, { "kw": ["team"], "next": "n3" }, { "kw": ["trotzdem"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Krank zur Arbeit zu gehen hilft dem Team selten. Wie lange würde ich Sie sinnvoll krankschreiben? Was denken Sie?",
+          "goal": { "en": "Ask how long he would sign you off.", "ur": "Poochein ke woh kitne din ki chhutti denge." },
+          "options": ["Wie lange würden Sie mich krankschreiben?", "Für wie lange schreiben Sie mich krank?"],
+          "fallback": "Haben Sie eine Vorstellung?",
+          "accept": [{ "kw": ["wie", "lange"], "next": "n4" }, { "kw": ["lange"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Realistisch eine Woche. Danach schauen wir, ob Sie wieder belastbar sind.",
+          "goal": { "en": "Ask whether you decide yourself when to go back.", "ur": "Poochein ke kya aap khud tay karti hain ke kab wapis jayein." },
+          "options": ["Entscheide ich selbst, wann ich zurückgehe?", "Kann ich selbst entscheiden, wann ich zurückgehe?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["selbst", "zurück"], "next": "n5" }, { "kw": ["entscheide"], "next": "n5" }, { "kw": ["zurückgehe"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Innerhalb der Krankschreibung entscheiden Sie das selbst. Wenn eine Woche nicht reicht, kommen Sie vor Ablauf wieder, nicht erst am letzten Tag.",
+          "goal": { "en": "Ask why a gap would be bad.", "ur": "Poochein ke kami buri baat kyun hogi." },
+          "options": ["Warum wäre eine Lücke schlecht?", "Was ist an einer Lücke schlimm?"],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["lücke"], "next": "n6" }, { "kw": ["warum"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Für den Lohn und die Kasse ist eine lückenlose Krankschreibung wichtig. Denken Sie rechtzeitig daran.",
+          "goal": { "en": "Say you will and thank him; it reassures you.", "ur": "Kahein zaroor aur shukriya; is se tasalli hui." },
+          "options": ["Mache ich. Vielen Dank, das beruhigt mich.", "Gut. Danke, das beruhigt mich sehr."],
+          "fallback": "Noch etwas unklar?",
+          "accept": [
+            { "kw": ["danke", "beruhigt"], "reply": "Sehr gern. Gute Besserung, Frau Yilmaz.", "next": "END" },
+            { "kw": ["danke"], "reply": "Sehr gern. Gute Besserung.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

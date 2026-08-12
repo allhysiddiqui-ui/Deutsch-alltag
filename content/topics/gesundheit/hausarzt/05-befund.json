@@ -1,0 +1,212 @@
+{
+  "id": "befund",
+  "order": 5,
+  "icon": "🧪",
+  "title": { "de": "Befund besprechen", "en": "Discussing the results", "ur": "Report par baat" },
+  "angle": "Going over blood-test results and next steps · Test ke nateeje aur agla qadam",
+  "voices": { "A": "Puck", "B": "Kore" },
+  "words": ["befund", "blutwerte", "eisenmangel", "normal", "wert", "erhöht", "tablette", "kontrolle", "ernährung", "besprechen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ihre Blutwerte sind da.", "en": "Your blood results are here.", "ur": "Aap ke khoon ke nateeje aa gaye." },
+        { "s": "B", "de": "Ist alles in Ordnung?", "en": "Is everything all right?", "ur": "Kya sab theek hai?" },
+        { "s": "A", "de": "Fast alles ist normal.", "en": "Almost everything is normal.", "ur": "Taqreeban sab normal hai." },
+        { "s": "B", "de": "Und was ist nicht normal?", "en": "And what isn't normal?", "ur": "Aur kya normal nahi?" },
+        { "s": "A", "de": "Ihr Eisenwert ist zu niedrig. Sie haben Eisenmangel.", "en": "Your iron level is too low. You have iron deficiency.", "ur": "Aap ka loha kam hai. Aap ko iron ki kami hai." },
+        { "s": "B", "de": "Ist das der Grund für die Müdigkeit?", "en": "Is that the reason for the tiredness?", "ur": "Kya thakan ki wajah yehi hai?" },
+        { "s": "A", "de": "Sehr wahrscheinlich, ja.", "en": "Very likely, yes.", "ur": "Bohat mumkin, ji haan." },
+        { "s": "B", "de": "Was kann ich tun?", "en": "What can I do?", "ur": "Main kya karoon?" },
+        { "s": "A", "de": "Sie nehmen drei Monate lang Eisentabletten.", "en": "You take iron tablets for three months.", "ur": "Aap teen mahine iron ki goliyan lein." },
+        { "s": "B", "de": "Jeden Tag?", "en": "Every day?", "ur": "Roz?" },
+        { "s": "A", "de": "Ja, eine Tablette am Morgen, nüchtern.", "en": "Yes, one tablet in the morning, on an empty stomach.", "ur": "Ji haan, ek goli subh, khali pait." },
+        { "s": "B", "de": "Und dann?", "en": "And then?", "ur": "Aur phir?" },
+        { "s": "A", "de": "Nach drei Monaten machen wir eine Kontrolle.", "en": "After three months we'll do a check.", "ur": "Teen mahine baad hum dobara check karenge." },
+        { "s": "B", "de": "Gut. Vielen Dank, Herr Doktor.", "en": "Good. Thank you very much, doctor.", "ur": "Acha. Bohat shukriya, doctor sahab." },
+        { "s": "A", "de": "Gern. Es wird Ihnen bald besser gehen.", "en": "You're welcome. You'll feel better soon.", "ur": "Koi baat nahi. Jald behtar mehsoos karengi." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Setzen Sie sich, ich habe den Befund vom Labor. Insgesamt sieht es gut aus.", "en": "Have a seat, I have the findings from the lab. Overall it looks good.", "ur": "Baith jayein, mujhe lab se report mil gayi. Kul mila kar theek hai." },
+        { "s": "B", "de": "Das beruhigt mich. Ich hatte ein bisschen Angst.", "en": "That reassures me. I was a bit scared.", "ur": "Is se tasalli hui. Mujhe thora dar tha." },
+        { "s": "A", "de": "Verständlich. Ein Wert ist auffällig: Ihr Eisen ist deutlich zu niedrig.", "en": "Understandable. One value is notable: your iron is clearly too low.", "ur": "Samajh sakta hoon. Ek value ghair mamooli hai: aap ka loha saaf tor par kam hai." },
+        { "s": "B", "de": "Was bedeutet ein niedriger Eisenwert?", "en": "What does a low iron level mean?", "ur": "Kam loha ka matlab kya hai?" },
+        { "s": "A", "de": "Der Körper bildet weniger rote Blutkörperchen. Das macht müde und manchmal auch schwindelig.", "en": "The body forms fewer red blood cells. That causes tiredness and sometimes dizziness too.", "ur": "Jism kam laal khoon ke zarrat banata hai. Is se thakan aur kabhi chakkar bhi hota hai." },
+        { "s": "B", "de": "Das passt genau zu meinen Beschwerden.", "en": "That fits exactly with my symptoms.", "ur": "Yeh meri takleef se bilkul milta hai." },
+        { "s": "A", "de": "Genau. Deshalb behandeln wir das jetzt gezielt mit Eisentabletten.", "en": "Exactly. That's why we'll now treat it specifically with iron tablets.", "ur": "Bilkul. Isi liye ab hum iron ki goliyon se ilaaj karenge." },
+        { "s": "B", "de": "Vertrage ich die Tabletten? Ich habe einen empfindlichen Magen.", "en": "Will I tolerate the tablets? I have a sensitive stomach.", "ur": "Kya goliyan mujhe lagengi? Mera pait naazuk hai." },
+        { "s": "A", "de": "Manche bekommen Bauchschmerzen. Wenn das passiert, nehmen Sie die Tablette nicht nüchtern, sondern zum Essen.", "en": "Some get stomach ache. If that happens, don't take the tablet on an empty stomach, but with food.", "ur": "Kuch logon ko pait dard hota hai. Agar aisa ho to goli khali pait nahi, khane ke saath lein." },
+        { "s": "B", "de": "Kann ich auch über die Ernährung etwas tun?", "en": "Can I also do something through diet?", "ur": "Kya main khane se bhi kuch kar sakti hoon?" },
+        { "s": "A", "de": "Ja. Rotes Fleisch, Hülsenfrüchte und grünes Gemüse enthalten viel Eisen. Vitamin C hilft bei der Aufnahme.", "en": "Yes. Red meat, legumes and green vegetables contain a lot of iron. Vitamin C helps with absorption.", "ur": "Ji haan. Laal gosht, daalein aur hari sabzi mein loha zyada hota hai. Vitamin C jazb hone mein madad karta hai." },
+        { "s": "B", "de": "Und Kaffee? Den trinke ich viel.", "en": "And coffee? I drink a lot of it.", "ur": "Aur coffee? Woh main zyada peeti hoon." },
+        { "s": "A", "de": "Kaffee direkt zur Tablette hemmt die Aufnahme. Lassen Sie lieber eine Stunde Abstand.", "en": "Coffee right with the tablet inhibits absorption. Better leave an hour's gap.", "ur": "Goli ke saath coffee jazb hone ko rokti hai. Behtar hai ek ghante ka waqfa rakhein." },
+        { "s": "B", "de": "Gut zu wissen. Wann kontrollieren wir die Werte?", "en": "Good to know. When do we check the values?", "ur": "Acha maloom hua. Values kab check karenge?" },
+        { "s": "A", "de": "In drei Monaten. Bis dahin sollten Sie sich deutlich fitter fühlen.", "en": "In three months. By then you should feel considerably fitter.", "ur": "Teen mahine mein. Tab tak aap kaafi behtar mehsoos karengi." },
+        { "s": "B", "de": "Das hoffe ich sehr. Vielen Dank für die genaue Erklärung.", "en": "I really hope so. Thank you for the detailed explanation.", "ur": "Mujhe poori umeed hai. Tafseeli wazahat ka shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, ich habe mir den Befund selbst schon angesehen und viele Werte nicht verstanden.", "en": "Doctor, I've already looked at the findings myself and didn't understand many values.", "ur": "Doctor sahab, main ne report khud dekhi thi lekin kai values samajh nahi aayin." },
+        { "s": "A", "de": "Das geht vielen so. Ein Laborbericht sieht dramatischer aus, als er ist. Gehen wir ihn zusammen durch.", "en": "That happens to many people. A lab report looks more dramatic than it is. Let's go through it together.", "ur": "Yeh bohat logon ke saath hota hai. Lab report asli se zyada khatarnak lagti hai. Aayein sath dekhte hain." },
+        { "s": "B", "de": "Bei einigen Werten stand ein Pfeil nach oben. Ist das schlimm?", "en": "Next to some values there was an arrow pointing up. Is that bad?", "ur": "Kuch values ke saath upar wala teer tha. Kya yeh bura hai?" },
+        { "s": "A", "de": "Nicht automatisch. Leicht erhöhte Werte können harmlos sein, gerade wenn man vorher gegessen hat oder gestresst war.", "en": "Not automatically. Slightly elevated values can be harmless, especially if you ate beforehand or were stressed.", "ur": "Zaroori nahi. Thori barhi values be-zarar ho sakti hain, khaas kar agar pehle khaya ho ya stress ho." },
+        { "s": "B", "de": "Der einzige Wert, der mir Sorgen macht, ist das Eisen. Es war deutlich zu niedrig.", "en": "The only value that worries me is the iron. It was clearly too low.", "ur": "Sirf jo value mujhe pareshan karti hai woh loha hai. Woh saaf tor par kam tha." },
+        { "s": "A", "de": "Da haben Sie richtig gelesen. Das erklärt Ihre Müdigkeit gut und ist gleichzeitig gut behandelbar.", "en": "You read that correctly. It explains your tiredness well and is at the same time easily treatable.", "ur": "Aap ne theek parha. Yeh aap ki thakan ki achi wajah hai aur saath hi aasaani se ilaaj hota hai." },
+        { "s": "B", "de": "Sollten wir nicht herausfinden, warum ich zu wenig Eisen habe?", "en": "Shouldn't we find out why I have too little iron?", "ur": "Kya humein maloom nahi karna chahiye ke mera loha kam kyun hai?" },
+        { "s": "A", "de": "Sehr gute Frage. Bei Frauen ist die Regelblutung eine häufige Ursache, aber wir sollten auch die Ernährung anschauen.", "en": "Very good question. In women, menstruation is a common cause, but we should also look at diet.", "ur": "Bohat acha sawal. Auraton mein maahwari aam wajah hai, lekin khane par bhi nazar dalni chahiye." },
+        { "s": "B", "de": "Ich esse tatsächlich selten Fleisch. Reicht es, wenn ich meine Ernährung umstelle?", "en": "I actually rarely eat meat. Is it enough if I change my diet?", "ur": "Main waqai kam gosht khati hoon. Kya sirf khana badalna kaafi hoga?" },
+        { "s": "A", "de": "Ernährung allein füllt einen echten Mangel nur langsam auf. Deshalb kombinieren wir das mit Tabletten für einige Monate.", "en": "Diet alone fills a real deficiency only slowly. That's why we combine it with tablets for a few months.", "ur": "Sirf khana asli kami ko dheere bharta hai. Isi liye hum kuch mahine goliyon ke saath milate hain." },
+        { "s": "B", "de": "Und wenn die Kontrolle nach drei Monaten noch schlecht ist?", "en": "And if the check after three months is still bad?", "ur": "Aur agar teen mahine baad check phir bhi kharab ho?" },
+        { "s": "A", "de": "Dann suchen wir gezielter nach einer Ursache, zum Beispiel im Magen-Darm-Bereich. Aber das ist selten nötig.", "en": "Then we'll look more specifically for a cause, for example in the gastrointestinal area. But that's rarely necessary.", "ur": "To hum zyada khaas tor par wajah dhoondenge, jaise pait-aanton mein. Lekin yeh kam hi zaroori hota hai." },
+        { "s": "B", "de": "Das klingt nach einem vernünftigen Plan.", "en": "That sounds like a sensible plan.", "ur": "Yeh munasib mansooba lagta hai." },
+        { "s": "A", "de": "Wichtig ist, dass Sie die Tabletten wirklich durchnehmen, auch wenn es Ihnen schon besser geht.", "en": "It's important that you really finish the tablets, even when you already feel better.", "ur": "Ahem yeh hai ke aap goliyan poori lein, chahe pehle hi behtar mehsoos karein." },
+        { "s": "B", "de": "Das verspreche ich. Danke, dass Sie sich die Zeit genommen haben, alles zu erklären.", "en": "I promise. Thank you for taking the time to explain everything.", "ur": "Main wada karti hoon. Sab samjhane ke liye waqt dene ka shukriya." },
+        { "s": "A", "de": "Dafür bin ich da. Ich trage Ihnen den Kontrolltermin gleich in drei Monaten ein.", "en": "That's what I'm here for. I'll book your check-up appointment for three months from now right away.", "ur": "Main isi liye hoon. Main abhi teen mahine baad ka check appointment likh deta hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Bevor wir zum Ergebnis kommen: Möchten Sie zuerst die Zahlen im Detail oder lieber die Einordnung und was daraus folgt?", "en": "Before we get to the result: would you first like the numbers in detail, or rather the interpretation and what follows from it?", "ur": "Nateeje se pehle: aap pehle tafseeli numbers chahengi ya us ki tashreeh aur us ka natija?" },
+        { "s": "B", "de": "Die Einordnung, bitte. Zahlen ohne Kontext verunsichern mich nur.", "en": "The interpretation, please. Numbers without context just unsettle me.", "ur": "Tashreeh, please. Bina context ke numbers mujhe sirf pareshan karte hain." },
+        { "s": "A", "de": "Vernünftig. Kurz gesagt: Ihre Erschöpfung hat eine klare, behandelbare Ursache, nämlich einen ausgeprägten Eisenmangel.", "en": "Sensible. In short: your exhaustion has a clear, treatable cause, namely a pronounced iron deficiency.", "ur": "Munasib. Mukhtasaran: aap ki thakan ki ek saaf, qabil-e-ilaaj wajah hai, yani numaya iron ki kami." },
+        { "s": "B", "de": "Ist das der einzige auffällige Wert, oder beschönigen Sie gerade etwas?", "en": "Is that the only abnormal value, or are you glossing over something right now?", "ur": "Kya sirf yehi ghair mamooli value hai, ya aap kuch chhupa rahe hain?" },
+        { "s": "A", "de": "Berechtigte Nachfrage. Nein, ich beschönige nichts. Zwei Leberwerte sind minimal erhöht, aber im Rahmen, den man bei Stress und wenig Schlaf oft sieht.", "en": "A fair follow-up. No, I'm not glossing over anything. Two liver values are minimally elevated, but within the range one often sees with stress and little sleep.", "ur": "Jaiz sawal. Nahi, main kuch nahi chhupa raha. Do jigar ki values thori barhi hain, lekin us hadd mein jo stress aur kam neend mein aksar dikhti hai." },
+        { "s": "B", "de": "Sollten die Leberwerte nicht kontrolliert werden, bevor wir sie als harmlos abtun?", "en": "Shouldn't the liver values be monitored before we dismiss them as harmless?", "ur": "Kya jigar ki values ko harmless kehne se pehle check nahi karna chahiye?" },
+        { "s": "A", "de": "Doch, genau das schlage ich vor. Wir kontrollieren sie bei der Eisenkontrolle in drei Monaten gleich mit.", "en": "Yes, that's exactly what I'm proposing. We'll check them together with the iron follow-up in three months.", "ur": "Ji haan, main yehi tajweez kar raha hoon. Teen mahine baad iron ke check ke saath yeh bhi dekh lenge." },
+        { "s": "B", "de": "Gut. Zur Therapie: Ich habe gelesen, dass Eisentabletten oft schlecht vertragen werden und viele sie abbrechen.", "en": "Good. On the treatment: I've read that iron tablets are often poorly tolerated and many people stop them.", "ur": "Acha. Ilaaj ke baare mein: main ne parha ke iron ki goliyan aksar nahi lagtin aur log chhor dete hain." },
+        { "s": "A", "de": "Das stimmt, und deshalb reden wir vorher darüber. Wir starten niedrig dosiert, und Sie müssen sie nicht täglich nehmen, jeden zweiten Tag reicht oft.", "en": "That's true, which is why we talk about it beforehand. We start at a low dose, and you don't have to take them daily; every other day is often enough.", "ur": "Yeh sahi hai, isi liye pehle baat karte hain. Hum kam khurak se shuru karte hain, aur rozana zaroori nahi; har doosre din aksar kaafi hai." },
+        { "s": "B", "de": "Das widerspricht dem, was ich sonst gehört habe. Warum jeden zweiten Tag?", "en": "That contradicts what I've heard elsewhere. Why every other day?", "ur": "Yeh us se ulta hai jo main ne suna. Har doosre din kyun?" },
+        { "s": "A", "de": "Neuere Studien zeigen, dass der Darm Eisen mit Pause sogar besser aufnimmt und die Nebenwirkungen geringer sind. Belegte Erkenntnis, keine Meinung.", "en": "Newer studies show that the gut actually absorbs iron better with a break and the side effects are lower. Evidence-based, not opinion.", "ur": "Nayi tehqeeq batati hai ke waqfe ke saath aantein loha behtar jazb karti hain aur side effects kam hote hain. Saabit baat hai, raye nahi." },
+        { "s": "B", "de": "Das überzeugt mich. Woran merke ich selbst, ob die Behandlung wirkt, ohne auf die Kontrolle zu warten?", "en": "That convinces me. How do I notice myself whether the treatment is working, without waiting for the check?", "ur": "Yeh mujhe qail karta hai. Main khud kaise pata karoon ke ilaaj asar kar raha hai, check ka intezaar kiye baghair?" },
+        { "s": "A", "de": "Meist lässt die Müdigkeit nach zwei bis vier Wochen spürbar nach. Bleibt sie unverändert, melden Sie sich früher, dann denken wir um.", "en": "Usually the tiredness eases noticeably after two to four weeks. If it stays unchanged, get in touch earlier, then we'll rethink.", "ur": "Aam tor par thakan do se chaar hafton mein mehsoos hone layak kam ho jati hai. Agar wohi rahe to jaldi rabta karein, phir naye sire se sochenge." },
+        { "s": "B", "de": "Das ist ein klarer, ehrlicher Plan. So kann ich mitentscheiden, statt nur Anweisungen zu befolgen.", "en": "That's a clear, honest plan. This way I can help decide, instead of just following instructions.", "ur": "Yeh saaf, sacha mansooba hai. Yun main faislay mein shareek ho sakti hoon, sirf hukm mankar nahi." },
+        { "s": "A", "de": "Genau so soll es sein. Ich fasse alles kurz für Sie zusammen und drucke Ihnen die wichtigsten Punkte aus.", "en": "That's exactly how it should be. I'll summarize everything briefly for you and print out the key points.", "ur": "Aise hi hona chahiye. Main sab mukhtasar likh deta hoon aur ahem baatein print kar deta hoon." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Der Arzt bespricht Ihre Blutwerte mit Ihnen. Sie haben Eisenmangel.",
+        "en": "The doctor discusses your blood results with you. You have iron deficiency.",
+        "ur": "Doctor aap ke khoon ke nateeje batata hai. Aap ko iron ki kami hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ihre Blutwerte sind da. Fast alles ist normal.",
+          "goal": { "en": "Ask what isn't normal.", "ur": "Poochein ke kya normal nahi." },
+          "options": ["Und was ist nicht normal?", "Was ist nicht in Ordnung?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["nicht", "normal"], "next": "n2" }, { "kw": ["ordnung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ihr Eisenwert ist zu niedrig. Sie haben Eisenmangel.",
+          "goal": { "en": "Ask if that's the reason for the tiredness.", "ur": "Poochein ke kya thakan ki wajah yehi hai." },
+          "options": ["Ist das der Grund für die Müdigkeit?", "Kommt die Müdigkeit davon?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["müdigkeit"], "next": "n3" }, { "kw": ["grund"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Sehr wahrscheinlich, ja.",
+          "goal": { "en": "Ask what you can do.", "ur": "Poochein ke aap kya kar sakti hain." },
+          "options": ["Was kann ich tun?", "Was soll ich jetzt machen?"],
+          "fallback": "Haben Sie eine Frage?",
+          "accept": [{ "kw": ["tun"], "next": "n4" }, { "kw": ["machen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Sie nehmen drei Monate lang Eisentabletten, eine am Morgen.",
+          "goal": { "en": "Ask what happens after that.", "ur": "Poochein ke us ke baad kya." },
+          "options": ["Und dann?", "Und was passiert danach?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["dann"], "next": "n5" }, { "kw": ["danach"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nach drei Monaten machen wir eine Kontrolle.",
+          "goal": { "en": "Thank the doctor.", "ur": "Doctor ka shukriya karein." },
+          "options": ["Gut. Vielen Dank, Herr Doktor.", "Danke schön, Herr Doktor."],
+          "fallback": "Alles klar so weit?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern. Es wird Ihnen bald besser gehen!", "next": "END" },
+            { "kw": ["dank"], "reply": "Gern. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie besprechen den Laborbefund. Sie haben ihn selbst gelesen und stellen kritische Fragen zu Werten und Therapie.",
+        "en": "You discuss the lab findings. You've read them yourself and ask critical questions about values and treatment.",
+        "ur": "Aap lab report par baat karte hain. Aap ne khud parhi hai aur values aur ilaaj par sawal karte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ich habe den Befund vom Labor. Möchten Sie die Zahlen im Detail oder die Einordnung?",
+          "goal": { "en": "Say the interpretation — numbers without context just unsettle you.", "ur": "Kahein: tashreeh — bina context ke numbers pareshan karte hain." },
+          "options": ["Die Einordnung, bitte. Zahlen ohne Kontext verunsichern mich.", "Lieber die Einordnung, die Zahlen allein sagen mir wenig."],
+          "fallback": "Was möchten Sie zuerst?",
+          "accept": [{ "kw": ["einordnung"], "next": "n2" }, { "kw": ["kontext"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kurz gesagt: Ihre Erschöpfung hat eine klare, behandelbare Ursache, einen ausgeprägten Eisenmangel.",
+          "goal": { "en": "Ask if that's the only abnormal value or if he's glossing over something.", "ur": "Poochein ke kya sirf yehi ghair mamooli value hai ya kuch chhupa rahe hain." },
+          "options": ["Ist das der einzige auffällige Wert, oder beschönigen Sie etwas?", "Ist das wirklich der einzige auffällige Wert?"],
+          "fallback": "Haben Sie eine Rückfrage?",
+          "accept": [{ "kw": ["einzige", "auffällige"], "next": "n3" }, { "kw": ["beschönigen"], "next": "n3" }, { "kw": ["auffällige"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ich beschönige nichts. Zwei Leberwerte sind minimal erhöht, aber im Rahmen, den man bei Stress oft sieht.",
+          "goal": { "en": "Ask whether the liver values shouldn't be monitored before dismissing them.", "ur": "Poochein ke kya jigar ki values ko harmless kehne se pehle check nahi karna chahiye." },
+          "options": ["Sollten die Leberwerte nicht kontrolliert werden, bevor wir sie als harmlos abtun?", "Müssen die Leberwerte nicht kontrolliert werden?"],
+          "fallback": "Wie sehen Sie das?",
+          "accept": [{ "kw": ["leberwerte", "kontrolliert"], "next": "n4" }, { "kw": ["kontrolliert"], "next": "n4" }, { "kw": ["leberwerte"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Genau das schlage ich vor: Wir kontrollieren sie in drei Monaten mit. Zur Therapie starten wir Eisen niedrig dosiert, jeden zweiten Tag.",
+          "goal": { "en": "Ask why every other day, since you've heard otherwise.", "ur": "Poochein ke har doosre din kyun, jab ke aap ne ulta suna." },
+          "options": ["Warum jeden zweiten Tag? Das widerspricht dem, was ich gehört habe.", "Warum nur jeden zweiten Tag?"],
+          "fallback": "Haben Sie eine Frage zur Einnahme?",
+          "accept": [{ "kw": ["jeden", "zweiten"], "next": "n5" }, { "kw": ["warum"], "next": "n5" }, { "kw": ["widerspricht"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Neuere Studien zeigen: mit Pause nimmt der Darm Eisen besser auf und die Nebenwirkungen sind geringer.",
+          "goal": { "en": "Ask how you'll notice yourself whether it's working, without waiting for the check.", "ur": "Poochein ke check ke baghair khud kaise pata chale ke asar ho raha hai." },
+          "options": ["Woran merke ich selbst, ob es wirkt, ohne auf die Kontrolle zu warten?", "Wie merke ich, ob die Behandlung wirkt?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["merke", "wirkt"], "next": "n6" }, { "kw": ["wirkt"], "next": "n6" }, { "kw": ["merke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Meist lässt die Müdigkeit nach zwei bis vier Wochen nach. Bleibt sie, melden Sie sich früher, dann denken wir um.",
+          "goal": { "en": "Say it's a clear, honest plan and thank him.", "ur": "Kahein yeh saaf, sacha mansooba hai aur shukriya." },
+          "options": ["Das ist ein klarer, ehrlicher Plan. Vielen Dank.", "Danke, das ist ein klarer Plan."],
+          "fallback": "Sind Sie einverstanden?",
+          "accept": [
+            { "kw": ["danke", "plan"], "reply": "Genau so soll es sein. Ich drucke Ihnen die wichtigsten Punkte aus.", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern. Ich drucke Ihnen die Punkte aus.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

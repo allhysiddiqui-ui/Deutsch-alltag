@@ -1,0 +1,205 @@
+{
+  "id": "ueberweisung",
+  "order": 4,
+  "icon": "➡️",
+  "title": { "de": "Überweisung zum Facharzt", "en": "Referral to a specialist", "ur": "Specialist ke liye referral" },
+  "angle": "Getting referred to a specialist · Specialist ke paas referral",
+  "voices": { "A": "Puck", "B": "Kore" },
+  "words": ["überweisung", "facharzt", "orthopäde", "termin", "quartal", "dringlichkeit", "wartezeit", "befund", "mitgeben", "vereinbaren"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ihr Knie sollte ein Facharzt ansehen.", "en": "A specialist should look at your knee.", "ur": "Aap ka ghutna ek specialist ko dekhna chahiye." },
+        { "s": "B", "de": "Welcher Facharzt ist das?", "en": "Which specialist is that?", "ur": "Yeh kaunsa specialist hai?" },
+        { "s": "A", "de": "Ein Orthopäde.", "en": "An orthopedist.", "ur": "Ek haddi ka doctor (orthopedist)." },
+        { "s": "B", "de": "Bekomme ich eine Überweisung?", "en": "Do I get a referral?", "ur": "Kya mujhe referral milega?" },
+        { "s": "A", "de": "Ja, ich schreibe Ihnen eine Überweisung.", "en": "Yes, I'll write you a referral.", "ur": "Ji haan, main aap ko referral likh deta hoon." },
+        { "s": "B", "de": "Muss ich dafür bezahlen?", "en": "Do I have to pay for it?", "ur": "Kya is ke paise dene honge?" },
+        { "s": "A", "de": "Nein, mit der Überweisung ist es kostenlos.", "en": "No, with the referral it's free.", "ur": "Nahi, referral ke saath muft hai." },
+        { "s": "B", "de": "Wo finde ich einen Orthopäden?", "en": "Where do I find an orthopedist?", "ur": "Haddi ka doctor kahan milega?" },
+        { "s": "A", "de": "Hier ist eine Liste. Sie rufen an und machen einen Termin.", "en": "Here is a list. You call and make an appointment.", "ur": "Yeh list hai. Aap phone kar ke appointment banayein." },
+        { "s": "B", "de": "Muss ich die Überweisung mitnehmen?", "en": "Do I have to take the referral with me?", "ur": "Kya referral saath le jana hoga?" },
+        { "s": "A", "de": "Ja, bringen Sie sie zum Termin mit.", "en": "Yes, bring it to the appointment.", "ur": "Ji haan, appointment par saath layein." },
+        { "s": "B", "de": "Und meine Versichertenkarte?", "en": "And my insurance card?", "ur": "Aur mera insurance card?" },
+        { "s": "A", "de": "Die auch. Karte und Überweisung.", "en": "That too. Card and referral.", "ur": "Woh bhi. Card aur referral." },
+        { "s": "B", "de": "Alles klar. Vielen Dank.", "en": "All right. Thank you very much.", "ur": "Theek hai. Bohat shukriya." },
+        { "s": "A", "de": "Gute Besserung für das Knie.", "en": "Get well soon with the knee.", "ur": "Ghutne ke liye jald sehatyabi." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Die Schmerzen im Knie halten jetzt schon länger an. Ich möchte Sie zum Orthopäden überweisen.", "en": "The knee pain has now lasted quite a while. I'd like to refer you to an orthopedist.", "ur": "Ghutne ka dard ab kaafi arse se hai. Main aap ko haddi ke doctor ke paas bhejna chahta hoon." },
+        { "s": "B", "de": "Warum kann das nicht der Hausarzt machen?", "en": "Why can't the family doctor do that?", "ur": "Yeh family doctor kyun nahi kar sakta?" },
+        { "s": "A", "de": "Für ein MRT und die genaue Diagnose ist der Facharzt besser ausgestattet.", "en": "For an MRI and the exact diagnosis the specialist is better equipped.", "ur": "MRI aur theek tashkhees ke liye specialist behtar hai." },
+        { "s": "B", "de": "Wie lange dauert es, bis ich einen Termin bekomme?", "en": "How long will it take to get an appointment?", "ur": "Appointment milne mein kitna waqt lagega?" },
+        { "s": "A", "de": "Das ist unterschiedlich. Bei Orthopäden sind die Wartezeiten leider oft lang.", "en": "That varies. With orthopedists the waiting times are unfortunately often long.", "ur": "Yeh alag alag hota hai. Haddi ke doctors ke paas afsos intezaar aksar lamba hota hai." },
+        { "s": "B", "de": "Kann man da etwas machen?", "en": "Can anything be done about that?", "ur": "Kya us ke liye kuch kiya ja sakta hai?" },
+        { "s": "A", "de": "Ich vermerke auf der Überweisung, dass es dringlich ist. Das hilft manchmal.", "en": "I'll note on the referral that it's urgent. That sometimes helps.", "ur": "Main referral par likh deta hoon ke zaroori hai. Yeh kabhi madad karta hai." },
+        { "s": "B", "de": "Gibt es auch eine Terminservicestelle?", "en": "Is there an appointment service too?", "ur": "Kya koi appointment service bhi hai?" },
+        { "s": "A", "de": "Ja. Mit dem Code auf der Überweisung können Sie dort anrufen, wenn Sie selbst keinen Termin finden.", "en": "Yes. With the code on the referral you can call them if you can't find an appointment yourself.", "ur": "Ji haan. Referral par diye code se aap unhein phone kar sakti hain agar khud appointment na mile." },
+        { "s": "B", "de": "Das ist gut zu wissen. Gilt die Überweisung unbegrenzt?", "en": "That's good to know. Is the referral valid indefinitely?", "ur": "Yeh acha maloom hua. Kya referral hamesha ke liye chalta hai?" },
+        { "s": "A", "de": "Sie gilt für das aktuelle Quartal. Gehen Sie also möglichst bald hin.", "en": "It's valid for the current quarter. So go as soon as possible.", "ur": "Yeh maujooda quarter ke liye hai. To jitni jaldi ho sake chali jayein." },
+        { "s": "B", "de": "Soll ich Ihnen danach berichten, was der Facharzt sagt?", "en": "Should I report back to you afterwards what the specialist says?", "ur": "Kya baad mein aap ko bataoon ke specialist ne kya kaha?" },
+        { "s": "A", "de": "Der Facharzt schickt mir einen Bericht. Bringen Sie den Befund aber gern auch selbst mit.", "en": "The specialist sends me a report. But feel free to bring the findings yourself too.", "ur": "Specialist mujhe report bhejta hai. Lekin aap report khud bhi le aayein to acha hai." },
+        { "s": "B", "de": "Mache ich. Danke für die Überweisung.", "en": "I will. Thank you for the referral.", "ur": "Zaroor. Referral ka shukriya." },
+        { "s": "A", "de": "Gern. Melden Sie sich, wenn Sie keinen Termin bekommen.", "en": "You're welcome. Get in touch if you can't get an appointment.", "ur": "Koi baat nahi. Agar appointment na mile to rabta karein." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, ehrlich gesagt bin ich unsicher, ob ich wirklich zum Facharzt muss oder ob das übertrieben ist.", "en": "Doctor, honestly I'm unsure whether I really need to see a specialist or whether that's excessive.", "ur": "Doctor sahab, sach kahoon to mujhe yaqeen nahi ke waqai specialist ke paas jana hai ya yeh zyada hai." },
+        { "s": "A", "de": "Eine berechtigte Frage. Ich überweise nicht aus Vorsicht, sondern weil ich hier eine gezielte Untersuchung brauche.", "en": "A fair question. I'm not referring out of caution, but because I need a targeted examination here.", "ur": "Jaiz sawal. Main ehtiyatan nahi bhej raha, balke is liye ke yahan khaas muaina chahiye." },
+        { "s": "B", "de": "Können Sie das MRT nicht einfach selbst anordnen?", "en": "Can't you just order the MRI yourself?", "ur": "Kya aap MRI khud nahi likhwa sakte?" },
+        { "s": "A", "de": "Anordnen teils schon, aber die Befundung und die Therapieentscheidung gehören in fachärztliche Hände.", "en": "Ordering, partly yes, but the interpretation and the treatment decision belong in specialist hands.", "ur": "Likhwana kuch had tak, lekin report parhna aur ilaaj ka faisla specialist ka kaam hai." },
+        { "s": "B", "de": "Das leuchtet mir ein. Mein Problem ist eher, dass ich schlecht an Termine komme.", "en": "That makes sense to me. My problem is rather that I struggle to get appointments.", "ur": "Yeh samajh aata hai. Mera masla yeh hai ke mujhe appointments mushkil se milte hain." },
+        { "s": "A", "de": "Deshalb gebe ich Ihnen die Überweisung mit einer Dringlichkeitseinstufung. Rufen Sie mehrere Praxen an, nicht nur eine.", "en": "That's why I'll give you the referral with an urgency rating. Call several practices, not just one.", "ur": "Isi liye main referral par zaroorat ka darja likh deta hoon. Kai clinics ko phone karein, sirf ek ko nahi." },
+        { "s": "B", "de": "Was sage ich am Telefon, damit ich schneller drankomme?", "en": "What do I say on the phone so I'm seen sooner?", "ur": "Phone par kya kahoon ke jaldi baari aaye?" },
+        { "s": "A", "de": "Sagen Sie, dass Sie eine Überweisung mit Dringlichkeit haben und fragen Sie aktiv nach Ausfalltermine.", "en": "Say you have a referral marked urgent and actively ask about cancellation slots.", "ur": "Kahein ke aap ke paas zaroori referral hai aur cancel hone wale appointments ke baare mein zaroor poochein." },
+        { "s": "B", "de": "Und wenn ich trotzdem erst in drei Monaten einen Termin bekomme?", "en": "And if I still only get an appointment in three months?", "ur": "Aur agar phir bhi teen mahine baad appointment mile?" },
+        { "s": "A", "de": "Dann rufen Sie die Terminservicestelle unter der 116117 an. Die müssen Ihnen fristgerecht einen Termin vermitteln.", "en": "Then call the appointment service on 116117. They have to arrange an appointment for you within the deadline.", "ur": "To 116117 par appointment service ko phone karein. Unhein waqt par appointment dilana hota hai." },
+        { "s": "B", "de": "Das wusste ich gar nicht. Bringt die Überweisung denn irgendetwas, wenn ich sie länger liegen lasse?", "en": "I didn't know that at all. Does the referral still count if I leave it lying around for a while?", "ur": "Yeh mujhe bilkul nahi pata tha. Kya referral chalti rahegi agar main isay kuch arse rakh loon?" },
+        { "s": "A", "de": "Sie gilt nur im laufenden Quartal. Verstreicht das, brauchen Sie eine neue. Gehen Sie also zügig vor.", "en": "It's only valid in the current quarter. If that passes, you need a new one. So act promptly.", "ur": "Yeh sirf maujooda quarter mein chalti hai. Woh guzar jaye to nayi chahiye. To jaldi karein." },
+        { "s": "B", "de": "Verstanden. Und den Befund bringe ich Ihnen dann mit?", "en": "Understood. And I'll bring you the findings then?", "ur": "Samajh gayi. Aur report aap ko le aaoon?" },
+        { "s": "A", "de": "Sehr gern. So kann ich die weitere Behandlung mit Ihnen abstimmen und wir verlieren keine Zeit.", "en": "Very much so. That way I can coordinate the further treatment with you and we don't lose time.", "ur": "Bilkul. Yun main aage ka ilaaj aap ke saath tay kar sakoonga aur waqt zaya nahi hoga." },
+        { "s": "B", "de": "Danke, jetzt fühle ich mich besser vorbereitet.", "en": "Thank you, now I feel better prepared.", "ur": "Shukriya, ab main behtar tayyar mehsoos karti hoon." },
+        { "s": "A", "de": "Genau darum geht es. Viel Erfolg bei der Terminsuche.", "en": "That's exactly the point. Good luck with the appointment search.", "ur": "Yehi to maqsad hai. Appointment dhoondne mein kamyabi." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Schulz", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Herr Doktor, bevor Sie überweisen: Ich möchte verstehen, was genau Sie sich vom Facharzt erhoffen.", "en": "Doctor, before you refer: I'd like to understand what exactly you hope to get from the specialist.", "ur": "Doctor sahab, referral se pehle: main samajhna chahti hoon ke aap ko specialist se asal mein kya umeed hai." },
+        { "s": "A", "de": "Berechtigt. Ich habe einen Verdacht, aber mir fehlt die Bildgebung, um ihn zu bestätigen oder auszuschließen.", "en": "Fair. I have a suspicion, but I lack the imaging to confirm or rule it out.", "ur": "Jaiz. Mujhe shubah hai, lekin tasdeeq ya khaarij karne ke liye imaging nahi hai." },
+        { "s": "B", "de": "Wenn Sie schon einen Verdacht haben, warum behandeln wir nicht direkt danach?", "en": "If you already have a suspicion, why don't we treat according to it directly?", "ur": "Agar aap ko pehle se shubah hai to hum us ke mutabiq seedha ilaaj kyun nahi karte?" },
+        { "s": "A", "de": "Weil eine falsche Annahme hier teuer wäre. Manche Ursachen behandelt man konservativ, andere brauchen einen Eingriff.", "en": "Because a wrong assumption would be costly here. Some causes are treated conservatively, others need a procedure.", "ur": "Kyunke ghalat andaza yahan mehnga parega. Kuch wajahat aaram se theek hoti hain, kuch mein operation chahiye." },
+        { "s": "B", "de": "Das heißt, die Überweisung schützt mich auch vor einer unnötigen Behandlung?", "en": "So the referral also protects me from an unnecessary treatment?", "ur": "Yani referral mujhe faltu ilaaj se bhi bachati hai?" },
+        { "s": "A", "de": "Genau so sehe ich das. Diagnostik zuerst, Therapie danach, nicht umgekehrt.", "en": "That's exactly how I see it. Diagnostics first, therapy after, not the other way round.", "ur": "Main bilkul aise dekhta hoon. Pehle tashkhees, phir ilaaj, ulta nahi." },
+        { "s": "B", "de": "Wie stelle ich sicher, dass der Facharzt Ihre Fragestellung überhaupt versteht?", "en": "How do I make sure the specialist even understands your clinical question?", "ur": "Main kaise yaqeeni banaoon ke specialist aap ka sawal samjhe?" },
+        { "s": "A", "de": "Ich formuliere die Fragestellung präzise auf der Überweisung, nicht nur eine Diagnose, sondern was ich geklärt haben möchte.", "en": "I'll phrase the clinical question precisely on the referral, not just a diagnosis, but what I want clarified.", "ur": "Main referral par sawal saaf likhta hoon, sirf tashkhees nahi, balke jo main jaanna chahta hoon." },
+        { "s": "B", "de": "Kann ich eine Kopie davon bekommen, damit ich beim Facharzt nichts vergesse?", "en": "Can I get a copy of that so I don't forget anything at the specialist?", "ur": "Kya mujhe is ki copy mil sakti hai taake specialist ke paas kuch na bhooloon?" },
+        { "s": "A", "de": "Selbstverständlich. Ich gebe Ihnen die Überweisung und einen kurzen Ausdruck der wichtigsten Vorbefunde mit.", "en": "Of course. I'll give you the referral and a short printout of the most important prior findings.", "ur": "Zaroor. Main aap ko referral aur ahem purani reports ka mukhtasar print de deta hoon." },
+        { "s": "B", "de": "Und wenn der Facharzt eine ganz andere Meinung hat als Sie?", "en": "And if the specialist has a completely different opinion than you?", "ur": "Aur agar specialist ki raye aap se bilkul mukhtalif ho?" },
+        { "s": "A", "de": "Dann ist das ein Gewinn, kein Problem. Ich will die richtige Antwort, nicht recht behalten.", "en": "Then that's a gain, not a problem. I want the right answer, not to be proven right.", "ur": "To yeh faida hai, masla nahi. Mujhe sahi jawab chahiye, apni baat manwana nahi." },
+        { "s": "B", "de": "Das ist eine erfrischend ehrliche Haltung.", "en": "That's a refreshingly honest attitude.", "ur": "Yeh aik taaza aur sacha rawaiya hai." },
+        { "s": "A", "de": "Medizin ist Teamarbeit. Bringen Sie den Befund zurück, dann entscheiden wir gemeinsam über die nächsten Schritte.", "en": "Medicine is teamwork. Bring the findings back, then we'll decide the next steps together.", "ur": "Medicine team ka kaam hai. Report wapis layein, phir hum mil kar agle qadam tay karenge." },
+        { "s": "B", "de": "Abgemacht. Dann nehme ich die Überweisung und die Vorbefunde mit.", "en": "Agreed. Then I'll take the referral and the prior findings with me.", "ur": "Tay raha. To main referral aur purani reports le jati hoon." },
+        { "s": "A", "de": "Sehr gut. Und wenn die Terminsuche hakt, wissen Sie ja jetzt, wo Sie anrufen.", "en": "Very good. And if the appointment search stalls, you now know where to call.", "ur": "Bohat acha. Aur agar appointment mein rukawat ho to ab aap ko pata hai kahan phone karna hai." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Der Arzt möchte Sie wegen Ihres Knies zum Orthopäden überweisen.",
+        "en": "The doctor wants to refer you to an orthopedist because of your knee.",
+        "ur": "Doctor aap ke ghutne ki wajah se haddi ke doctor ke paas bhejna chahta hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ihr Knie sollte ein Facharzt ansehen, ein Orthopäde.",
+          "goal": { "en": "Ask whether you get a referral.", "ur": "Poochein ke kya aap ko referral milega." },
+          "options": ["Bekomme ich eine Überweisung?", "Geben Sie mir eine Überweisung?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["überweisung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ja, ich schreibe Ihnen eine Überweisung.",
+          "goal": { "en": "Ask whether you have to pay for it.", "ur": "Poochein ke kya is ke paise dene honge." },
+          "options": ["Muss ich dafür bezahlen?", "Kostet das etwas?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["bezahlen"], "next": "n3" }, { "kw": ["kostet"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Nein, mit der Überweisung ist es kostenlos. Hier ist eine Liste mit Orthopäden.",
+          "goal": { "en": "Ask whether you have to take the referral with you.", "ur": "Poochein ke kya referral saath le jana hoga." },
+          "options": ["Muss ich die Überweisung mitnehmen?", "Nehme ich die Überweisung mit?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["mitnehmen"], "next": "n4" }, { "kw": ["überweisung"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, bringen Sie sie und die Versichertenkarte zum Termin mit.",
+          "goal": { "en": "Say all right and thank the doctor.", "ur": "Kahein theek hai aur shukriya." },
+          "options": ["Alles klar. Vielen Dank.", "Gut. Danke schön."],
+          "fallback": "Ist das so weit klar?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern. Gute Besserung für das Knie!", "next": "END" },
+            { "kw": ["dank"], "reply": "Gern. Gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Schulz",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Der Arzt will Sie zum Orthopäden überweisen. Sie sind unsicher, ob das nötig ist, und fürchten lange Wartezeiten.",
+        "en": "The doctor wants to refer you to an orthopedist. You're unsure it's necessary and fear long waits.",
+        "ur": "Doctor aap ko haddi ke doctor ke paas bhejna chahta hai. Aap ko yaqeen nahi ke zaroori hai, aur lambe intezaar ka dar hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Die Schmerzen halten schon länger an. Ich möchte Sie zum Orthopäden überweisen.",
+          "goal": { "en": "Say you're honestly unsure whether you really need a specialist or whether it's excessive.", "ur": "Kahein ke aap ko yaqeen nahi ke specialist zaroori hai ya yeh zyada hai." },
+          "options": ["Ehrlich gesagt bin ich unsicher, ob ich wirklich zum Facharzt muss oder ob das übertrieben ist.", "Ich bin unsicher, ob ich wirklich zum Facharzt muss."],
+          "fallback": "Wie sehen Sie das?",
+          "accept": [{ "kw": ["unsicher", "facharzt"], "next": "n2" }, { "kw": ["übertrieben"], "next": "n2" }, { "kw": ["unsicher"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ich überweise nicht aus Vorsicht, sondern weil ich eine gezielte Untersuchung brauche, ein MRT.",
+          "goal": { "en": "Say your problem is rather that you struggle to get appointments.", "ur": "Kahein ke aap ka masla yeh hai ke appointments mushkil se milte hain." },
+          "options": ["Mein Problem ist eher, dass ich schlecht an Termine komme.", "Ich komme schwer an Termine."],
+          "fallback": "Was ist Ihre größte Sorge?",
+          "accept": [{ "kw": ["termine"], "next": "n3" }, { "kw": ["termin"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Deshalb gebe ich Ihnen die Überweisung mit einer Dringlichkeitseinstufung. Rufen Sie mehrere Praxen an.",
+          "goal": { "en": "Ask what to say on the phone so you're seen sooner.", "ur": "Poochein ke phone par kya kahoon ke jaldi baari aaye." },
+          "options": ["Was sage ich am Telefon, damit ich schneller drankomme?", "Wie komme ich schneller an einen Termin?"],
+          "fallback": "Haben Sie eine Frage zur Terminsuche?",
+          "accept": [{ "kw": ["telefon"], "next": "n4" }, { "kw": ["schneller"], "next": "n4" }, { "kw": ["sage"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Sagen Sie, dass Sie eine dringliche Überweisung haben, und fragen Sie nach Ausfallterminen.",
+          "goal": { "en": "Ask what if you still only get an appointment in three months.", "ur": "Poochein ke agar phir bhi teen mahine baad mile to kya." },
+          "options": ["Und wenn ich trotzdem erst in drei Monaten einen Termin bekomme?", "Was, wenn ich erst in Monaten einen Termin bekomme?"],
+          "fallback": "Noch eine Frage?",
+          "accept": [{ "kw": ["drei", "monaten"], "next": "n5" }, { "kw": ["monaten"], "next": "n5" }, { "kw": ["trotzdem"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dann rufen Sie die Terminservicestelle unter der 116117 an. Die müssen Ihnen fristgerecht einen Termin vermitteln. Die Überweisung gilt nur im laufenden Quartal.",
+          "goal": { "en": "Ask whether you bring the findings back to him.", "ur": "Poochein ke kya report unko wapis le aaoon." },
+          "options": ["Und den Befund bringe ich Ihnen dann mit?", "Soll ich Ihnen den Befund mitbringen?"],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["befund"], "next": "n6" }, { "kw": ["mitbringen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Sehr gern. So können wir die weitere Behandlung gemeinsam abstimmen.",
+          "goal": { "en": "Say thanks; now you feel better prepared.", "ur": "Shukriya kahein; ab behtar tayyar mehsoos karti hain." },
+          "options": ["Danke, jetzt fühle ich mich besser vorbereitet.", "Vielen Dank, das hilft mir sehr."],
+          "fallback": "Noch etwas unklar?",
+          "accept": [
+            { "kw": ["danke", "vorbereitet"], "reply": "Genau darum geht es. Viel Erfolg bei der Terminsuche!", "next": "END" },
+            { "kw": ["danke"], "reply": "Viel Erfolg bei der Terminsuche!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}
