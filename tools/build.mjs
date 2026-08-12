@@ -44,13 +44,17 @@ fs.writeFileSync(p('index.html'), out, 'utf8');           // served by GitHub Pa
 fs.writeFileSync(p('.nojekyll'), '');                     // tell GitHub Pages to serve files as-is (no Jekyll build)
 
 const words = Object.keys(data.dictionary).length;
-let dialogues = 0, lines = 0, rp = 0;
+let subtopics = 0, subs = 0, dialogues = 0, lines = 0, rp = 0;
 for (const t of data.topics)
   for (const s of t.subtopics || []) {
-    for (const d of Object.values(s.dialogues || {})) { dialogues++; lines += d.lines.length; }
-    rp += Object.keys(s.roleplay || {}).length;
+    subtopics++;
+    for (const ss of s.subs || []) {
+      subs++;
+      for (const d of Object.values(ss.dialogues || {})) { dialogues++; lines += d.lines.length; }
+      rp += Object.keys(ss.roleplay || {}).length;
+    }
   }
 
 console.log(`\n  dist/deutsch.html  ${(out.length / 1024).toFixed(0)} KB`);
-console.log(`  ${data.topics.length} topic(s) · ${dialogues} dialogues · ${lines} lines · ${rp} roleplays · ${words} words`);
+console.log(`  ${data.topics.length} topic(s) · ${subtopics} subtopic(s) · ${subs} conversations · ${dialogues} dialogues · ${lines} lines · ${rp} roleplays · ${words} words`);
 console.log(`  ${missing.length ? missing.length + ' unresolved word(s)' : 'every word resolves'}\n`);

@@ -1,0 +1,11 @@
+{
+  "id": "gesundheit",
+  "order": 1,
+  "icon": "🩺",
+  "title": {
+    "de": "Gesundheit",
+    "en": "Health",
+    "ur": "Sehat"
+  },
+  "intro": "Arztbesuche, Apotheke und Krankenhaus — die wichtigsten Gespräche rund um die Gesundheit."
+}

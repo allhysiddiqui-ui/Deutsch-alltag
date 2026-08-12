@@ -62,7 +62,8 @@ function shuffle(a) {
   return a;
 }
 function topicById(id) { for (var i = 0; i < TOPICS.length; i++) if (TOPICS[i].id === id) return TOPICS[i]; return null; }
-function subById(t, id) { if (!t) return null; for (var i = 0; i < t.subtopics.length; i++) if (t.subtopics[i].id === id) return t.subtopics[i]; return null; }
+function subById(t, id) { if (!t) return null; var a = t.subtopics || []; for (var i = 0; i < a.length; i++) if (a[i].id === id) return a[i]; return null; }
+function subsubById(s, id) { if (!s) return null; var a = s.subs || []; for (var i = 0; i < a.length; i++) if (a[i].id === id) return a[i]; return null; }
 
 /* ---------------- speech ---------------- */
 var VOICE = null, VOICES = [];
@@ -318,10 +319,10 @@ function view(o) {
   window.scrollTo(0, 0);
   var nav = document.getElementById('nav');
   var h = location.hash || '#/';
+  var homeish = h === '#/' || /^#\/(t|s|d|rp|test|fc)\b/.test(h);
   [['#/', 'n1'], ['#/words', 'n2'], ['#/search', 'n3'], ['#/set', 'n4']].forEach(function (p) {
     var a = document.getElementById(p[1]);
-    if (a) a.className = (h === p[0] || (p[0] === '#/' && h.indexOf('#/t/') === 0) ||
-      (p[0] === '#/' && (h.indexOf('#/d/') === 0 || h.indexOf('#/test') === 0 || h.indexOf('#/rp/') === 0))) ? 'on' : '';
+    if (a) a.className = (h === p[0] || (p[0] === '#/' && homeish)) ? 'on' : '';
   });
   nav.style.display = '';
 }
@@ -348,12 +349,14 @@ function vHome() {
   b += '</div><div class="sec">Themen / Topics</div><div class="grid">';
   TOPICS.forEach(function (t) {
     var tot = 0, done = 0;
-    t.subtopics.forEach(function (s) { tot++; if (PROG.read[t.id + '/' + s.id + '/' + S.level]) done++; });
+    (t.subtopics || []).forEach(function (s) {
+      (s.subs || []).forEach(function (ss) { tot++; if (PROG.read[t.id + '/' + s.id + '/' + ss.id + '/' + S.level]) done++; });
+    });
     var pct = tot ? Math.round(done / tot * 100) : 0;
     b += '<button class="tile" data-go="#/t/' + t.id + '">' +
       '<span class="em">' + esc(t.icon) + '</span>' +
       '<span class="t">' + esc(t.title.de) + '</span>' +
-      '<span class="s">' + esc(t.title.en) + ' · ' + t.subtopics.length + ' Teile</span>' +
+      '<span class="s">' + esc(t.title.en) + ' · ' + (t.subtopics || []).length + ' Bereiche</span>' +
       '<span class="bar"><i style="width:' + pct + '%"></i></span>' +
       '</button>';
   });
@@ -364,51 +367,73 @@ function vHome() {
   view({ title: 'Deutsch Alltag', sub: 'Alltagsgespräche · A1–B2', body: b, chip: S.level });
 }
 
+/* level 2: a topic lists its subtopics (areas) */
 function vTopic(tid) {
   var t = topicById(tid); if (!t) return go('#/');
   var b = '<div class="card" style="padding:14px;margin-bottom:16px">' +
     '<div style="font-size:15px;font-weight:640">' + esc(t.title.en) + '</div>' +
     '<div class="small muted" style="margin-top:3px">' + esc(t.title.ur) + '</div>' +
     (t.intro ? '<div class="small muted" style="margin-top:8px">' + esc(t.intro) + '</div>' : '') + '</div>';
-  b += '<div class="sec">Gespräche / Conversations</div><div class="rowlist">';
-  t.subtopics.forEach(function (s) {
-    var read = PROG.read[t.id + '/' + s.id + '/' + S.level];
-    var has = s.dialogues && s.dialogues[S.level];
-    b += '<button class="row" data-go="#/d/' + t.id + '/' + s.id + '"' + (has ? '' : ' disabled') + '>' +
-      '<div class="ico">' + esc(s.icon || '💬') + '</div>' +
+  b += '<div class="sec">Bereiche / Areas</div><div class="rowlist">';
+  (t.subtopics || []).forEach(function (s) {
+    var subs = s.subs || [], done = 0;
+    subs.forEach(function (ss) { if (PROG.read[t.id + '/' + s.id + '/' + ss.id + '/' + S.level]) done++; });
+    b += '<button class="row" data-go="#/s/' + t.id + '/' + s.id + '">' +
+      '<div class="ico">' + esc(s.icon || '📁') + '</div>' +
       '<div class="g"><div class="t">' + esc(s.title.de) + '</div>' +
-      '<div class="s">' + esc(s.angle) + '</div></div>' +
-      (read ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
+      '<div class="s">' + esc(s.title.en) + ' · ' + subs.length + ' Gespräche</div></div>' +
+      (subs.length && done >= subs.length ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
   });
-  b += '</div>';
-  b += '<div class="sec">Üben / Practice</div><div class="rowlist">';
-  t.subtopics.forEach(function (s) {
-    if (!s.roleplay) return;
-    var done = PROG.rp[t.id + '/' + s.id];
-    b += '<button class="row" data-go="#/rp/' + t.id + '/' + s.id + '">' +
-      '<div class="ico">🎙️</div><div class="g"><div class="t">Rollenspiel: ' + esc(s.title.de) + '</div>' +
-      '<div class="s">Sprich mit der App / App se baat karein</div></div>' +
-      (done ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
-  });
-  if (t.test) {
-    var sc = PROG.test[t.id];
-    b += '<button class="row" data-go="#/test/' + t.id + '">' +
-      '<div class="ico">📝</div><div class="g"><div class="t">Test: ' + esc(t.title.de) + '</div>' +
-      '<div class="s">' + (sc != null ? 'Letztes Ergebnis: ' + sc + '%' : t.test.items.length + ' Aufgaben') + '</div></div><div class="ar">›</div></button>';
-  }
   b += '</div>';
   view({ title: t.title.de, sub: t.title.en, body: b, back: 1, chip: S.level });
 }
 
-function vDialogue(tid, sid) {
+/* level 3: a subtopic lists its sub-subtopics (the actual conversations) + practice + test */
+function vSubtopic(tid, sid) {
   var t = topicById(tid), s = subById(t, sid); if (!s) return go('#/');
-  var d = s.dialogues[S.level];
-  if (!d) { view({ title: s.title.de, body: '<div class="empty"><span class="em">🚧</span>Diese Stufe fehlt noch.</div>', back: 1, chip: S.level }); return; }
+  var b = '<div class="card" style="padding:14px;margin-bottom:16px">' +
+    '<div style="font-size:15px;font-weight:640">' + esc(s.title.en) + '</div>' +
+    '<div class="small muted" style="margin-top:3px">' + esc(s.title.ur || '') + '</div>' +
+    (s.intro ? '<div class="small muted" style="margin-top:8px">' + esc(s.intro) + '</div>' : '') + '</div>';
+  b += '<div class="sec">Gespräche / Conversations</div><div class="rowlist">';
+  (s.subs || []).forEach(function (ss) {
+    var read = PROG.read[t.id + '/' + s.id + '/' + ss.id + '/' + S.level];
+    var has = ss.dialogues && ss.dialogues[S.level];
+    b += '<button class="row" data-go="#/d/' + t.id + '/' + s.id + '/' + ss.id + '"' + (has ? '' : ' disabled') + '>' +
+      '<div class="ico">' + esc(ss.icon || '💬') + '</div>' +
+      '<div class="g"><div class="t">' + esc(ss.title.de) + '</div>' +
+      '<div class="s">' + esc(ss.angle || '') + '</div></div>' +
+      (read ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
+  });
+  b += '</div>';
+  b += '<div class="sec">Üben / Practice</div><div class="rowlist">';
+  (s.subs || []).forEach(function (ss) {
+    if (!ss.roleplay) return;
+    var done = PROG.rp[t.id + '/' + s.id + '/' + ss.id];
+    b += '<button class="row" data-go="#/rp/' + t.id + '/' + s.id + '/' + ss.id + '">' +
+      '<div class="ico">🎙️</div><div class="g"><div class="t">Rollenspiel: ' + esc(ss.title.de) + '</div>' +
+      '<div class="s">Sprich mit der App / App se baat karein</div></div>' +
+      (done ? '<div class="dot"></div>' : '') + '<div class="ar">›</div></button>';
+  });
+  if (s.test) {
+    var scv = PROG.test[t.id + '/' + s.id];
+    b += '<button class="row" data-go="#/test/' + t.id + '/' + s.id + '">' +
+      '<div class="ico">📝</div><div class="g"><div class="t">Test: ' + esc(s.title.de) + '</div>' +
+      '<div class="s">' + (scv != null ? 'Letztes Ergebnis: ' + scv + '%' : s.test.items.length + ' Aufgaben') + '</div></div><div class="ar">›</div></button>';
+  }
+  b += '</div>';
+  view({ title: s.title.de, sub: t.title.de, body: b, back: 1, chip: S.level });
+}
+
+function vDialogue(tid, sid, ssid) {
+  var t = topicById(tid), s = subById(t, sid), ss = subsubById(s, ssid); if (!ss) return go('#/');
+  var d = ss.dialogues[S.level];
+  if (!d) { view({ title: ss.title.de, body: '<div class="empty"><span class="em">🚧</span>Diese Stufe fehlt noch.</div>', back: 1, chip: S.level }); return; }
   LINES = d.lines; SPEAKERS = d.speakers || {};
-  PROG.read[tid + '/' + sid + '/' + S.level] = 1; saveProg();
+  PROG.read[tid + '/' + sid + '/' + ssid + '/' + S.level] = 1; saveProg();
 
   var b = '<div class="card" style="padding:12px 14px;margin-bottom:14px">' +
-    '<div class="small" style="font-weight:640">' + esc(s.angle) + '</div>' +
+    '<div class="small" style="font-weight:640">' + esc(ss.angle || '') + '</div>' +
     '<div class="small muted" style="margin-top:4px">Tippe auf ein Wort = Bedeutung. Tippe auf die Blase = Übersetzung.</div>' +
     '<div class="small muted" style="margin-top:2px;font-style:italic">Lafz par tap karein = matlab. Bubble par tap karein = tarjuma.</div>' +
     '<div class="btns"><button class="btn gh" data-act="playall">▶︎ Ganzes Gespräch hören</button></div></div>';
@@ -430,9 +455,9 @@ function vDialogue(tid, sid) {
       '</div></div>';
   });
 
-  if (s.words && s.words.length) {
+  if (ss.words && ss.words.length) {
     b += '<div class="sec">Wortschatz</div><div class="card">';
-    s.words.forEach(function (k) {
+    ss.words.forEach(function (k) {
       var e = DICT[k]; if (!e) return;
       b += '<div class="wc"><div class="g"><div class="l">' + (e.gender ? e.gender + ' ' : '') + esc(e.lemma) + '</div>' +
         '<div class="m">' + esc(e.en) + ' · ' + esc(e.ur) + '</div></div>' +
@@ -441,9 +466,9 @@ function vDialogue(tid, sid) {
     });
     b += '</div>';
   }
-  if (s.roleplay) b += '<div class="btns" style="margin-top:18px"><button class="btn" data-go="#/rp/' + tid + '/' + sid + '">🎙️ Jetzt selbst sprechen</button></div>';
+  if (ss.roleplay) b += '<div class="btns" style="margin-top:18px"><button class="btn" data-go="#/rp/' + tid + '/' + sid + '/' + ssid + '">🎙️ Jetzt selbst sprechen</button></div>';
 
-  view({ title: s.title.de, sub: t.title.de, body: b, back: 1, chip: S.level });
+  view({ title: ss.title.de, sub: s.title.de, body: b, back: 1, chip: S.level });
 }
 
 /* ---------------- roleplay ---------------- */
@@ -463,11 +488,11 @@ var RP_PHASE_LABEL = {
 function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
 function rpSayText(node) { return Array.isArray(node.say) ? pick(node.say) : node.say; }
 
-function vRoleplay(tid, sid) {
-  var t = topicById(tid), s = subById(t, sid); if (!s || !s.roleplay) return go('#/');
+function vRoleplay(tid, sid, ssid) {
+  var t = topicById(tid), s = subById(t, sid), ss = subsubById(s, ssid); if (!ss || !ss.roleplay) { RP = null; return go('#/'); }
   var band = (S.level === 'A1' || S.level === 'A2') ? 'easy' : 'hard';
-  var sc = s.roleplay[band] || s.roleplay.easy || s.roleplay.hard;
-  RP = { t: t, s: s, sc: sc, node: sc.start, log: [], turns: 0, good: 0,
+  var sc = ss.roleplay[band] || ss.roleplay.easy || ss.roleplay.hard;
+  RP = { t: t, s: s, ss: ss, sc: sc, node: sc.start, log: [], turns: 0, good: 0,
     showOpts: false, mode: 'manual', phase: 'idle', misses: 0, noSpeech: 0, hint: '', timer: null };
 }
 function rpStart() {
@@ -493,12 +518,12 @@ function rpRender(speak) {
 
   if (!n) {
     var pct = RP.turns ? Math.round(RP.good / RP.turns * 100) : 0;
-    PROG.rp[RP.t.id + '/' + RP.s.id] = 1; saveProg();
+    PROG.rp[RP.t.id + '/' + RP.s.id + '/' + RP.ss.id] = 1; saveProg();
     b += '<div class="card" style="padding:18px"><div class="score">' + pct + '%</div>' +
       '<div class="center muted small">' + RP.good + ' von ' + RP.turns + ' Antworten passend</div>' +
       '<div class="btns"><button class="btn sec" data-act="rpagain">Nochmal</button>' +
-      '<button class="btn" data-go="#/t/' + RP.t.id + '">Fertig</button></div></div>';
-    view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
+      '<button class="btn" data-go="#/s/' + RP.t.id + '/' + RP.s.id + '">Fertig</button></div></div>';
+    view({ title: 'Rollenspiel', sub: RP.ss.title.de, body: b, back: 1, chip: S.level });
     return;
   }
 
@@ -552,7 +577,7 @@ function rpRender(speak) {
   b += '</div>';
   if (!canLive) b += '<p class="small muted center" style="margin-top:12px">Sprechen braucht Internet und Chrome oder Safari. Tippen geht immer.</p>';
 
-  view({ title: 'Rollenspiel', sub: RP.s.title.de, body: b, back: 1, chip: S.level });
+  view({ title: 'Rollenspiel', sub: RP.ss.title.de, body: b, back: 1, chip: S.level });
   if (speak && !liveLike && RP.log.length) {
     for (var i = RP.log.length - 1; i >= 0; i--) if (!RP.log[i].me) { say(RP.log[i].text); break; }
   }
@@ -749,9 +774,9 @@ function rpSubmitAi(txt) {
 
 /* ---------------- test ---------------- */
 var T = null;
-function vTest(tid) {
-  var t = topicById(tid); if (!t || !t.test) return go('#/');
-  T = { t: t, items: shuffle(t.test.items), i: 0, right: 0, state: 'ask', pick: null, built: [], pool: [] };
+function vTest(tid, sid) {
+  var t = topicById(tid), s = subById(t, sid); if (!s || !s.test) return go('#/');
+  T = { t: t, s: s, items: shuffle(s.test.items), i: 0, right: 0, state: 'ask', pick: null, built: [], pool: [] };
   tRender();
 }
 function tRender() {
@@ -795,7 +820,7 @@ function tRender() {
   } else {
     b += '<div class="btns"><button class="btn" data-act="tcheck">Prüfen</button></div>';
   }
-  view({ title: 'Test: ' + T.t.title.de, body: b, back: 1, chip: S.level });
+  view({ title: 'Test: ' + T.s.title.de, body: b, back: 1, chip: S.level });
   var inp = document.getElementById('tin');
   if (inp && T.state !== 'done') inp.focus();
 }
@@ -828,13 +853,13 @@ function tCheck() {
 }
 function tDone() {
   var pct = Math.round(T.right / T.items.length * 100);
-  PROG.test[T.t.id] = pct; saveProg();
+  PROG.test[T.t.id + '/' + T.s.id] = pct; saveProg();
   var msg = pct >= 80 ? 'Sehr gut! / Bohat acha!' : pct >= 50 ? 'Gut — üb die falschen Wörter.' : 'Weiter üben. Lies das Gespräch nochmal.';
   var b = '<div class="card" style="padding:22px"><div class="score">' + pct + '%</div>' +
     '<div class="center muted small">' + T.right + ' / ' + T.items.length + ' richtig</div>' +
     '<p class="center" style="margin:16px 0 0">' + esc(msg) + '</p>' +
     '<div class="btns"><button class="btn sec" data-act="tagain">Nochmal</button>' +
-    '<button class="btn" data-go="#/t/' + T.t.id + '">Fertig</button></div></div>' +
+    '<button class="btn" data-go="#/s/' + T.t.id + '/' + T.s.id + '">Fertig</button></div></div>' +
     '<p class="small muted center" style="margin-top:14px">Falsche Wörter sind jetzt bei „Meine Wörter“.</p>';
   view({ title: 'Ergebnis', body: b, back: 1, chip: S.level });
 }
@@ -884,13 +909,15 @@ function vSearch(q) {
   if (n.length >= 2) {
     var res = [];
     TOPICS.forEach(function (t) {
-      t.subtopics.forEach(function (s) {
-        LEVELS.forEach(function (lv) {
-          var d = s.dialogues && s.dialogues[lv]; if (!d) return;
-          d.lines.forEach(function (l) {
-            if (plain(l.de).indexOf(n) > -1 || plain(l.en).indexOf(n) > -1 || plain(l.ur).indexOf(n) > -1) {
-              if (res.length < 40) res.push({ t: t, s: s, lv: lv, l: l });
-            }
+      (t.subtopics || []).forEach(function (s) {
+        (s.subs || []).forEach(function (ss) {
+          LEVELS.forEach(function (lv) {
+            var d = ss.dialogues && ss.dialogues[lv]; if (!d) return;
+            d.lines.forEach(function (l) {
+              if (plain(l.de).indexOf(n) > -1 || plain(l.en).indexOf(n) > -1 || plain(l.ur).indexOf(n) > -1) {
+                if (res.length < 40) res.push({ t: t, s: s, ss: ss, lv: lv, l: l });
+              }
+            });
           });
         });
       });
@@ -915,9 +942,9 @@ function vSearch(q) {
     if (res.length) {
       b += '<div class="sec">Sätze (' + res.length + ')</div><div class="rowlist">';
       res.forEach(function (r) {
-        b += '<button class="row" data-go="#/d/' + r.t.id + '/' + r.s.id + '">' +
+        b += '<button class="row" data-go="#/d/' + r.t.id + '/' + r.s.id + '/' + r.ss.id + '">' +
           '<div class="g"><div class="t" style="font-weight:500">' + esc(r.l.de) + '</div>' +
-          '<div class="s">' + esc(r.t.title.de) + ' · ' + esc(r.s.title.de) + ' · ' + r.lv + '</div></div><div class="ar">›</div></button>';
+          '<div class="s">' + esc(r.s.title.de) + ' · ' + esc(r.ss.title.de) + ' · ' + r.lv + '</div></div><div class="ar">›</div></button>';
       });
       b += '</div>';
     }
@@ -1011,9 +1038,10 @@ function route() {
   var p = (location.hash || '#/').replace(/^#\/?/, '').split('/');
   if (!p[0]) return vHome();
   if (p[0] === 't') return vTopic(p[1]);
-  if (p[0] === 'd') return vDialogue(p[1], p[2]);
-  if (p[0] === 'rp') { vRoleplay(p[1], p[2]); rpStart(); return; }
-  if (p[0] === 'test') return vTest(p[1]);
+  if (p[0] === 's') return vSubtopic(p[1], p[2]);
+  if (p[0] === 'd') return vDialogue(p[1], p[2], p[3]);
+  if (p[0] === 'rp') { vRoleplay(p[1], p[2], p[3]); if (RP) rpStart(); return; }
+  if (p[0] === 'test') return vTest(p[1], p[2]);
   if (p[0] === 'words') return vWords();
   if (p[0] === 'fc') return vFC();
   if (p[0] === 'search') return vSearch('');
@@ -1072,14 +1100,14 @@ document.addEventListener('click', function (ev) {
       for (var j = RP.log.length - 1; j >= 0; j--) if (!RP.log[j].me) { speakAuto(RP.log[j].text, characterVoice(RP.sc.role)); break; }
       return;
     }
-    case 'rpagain': vRoleplay(RP.t.id, RP.s.id); rpStart(); return;
+    case 'rpagain': vRoleplay(RP.t.id, RP.s.id, RP.ss.id); rpStart(); return;
     /* test */
     case 'tpick': if (T.state !== 'done') { T.pick = Number(el.getAttribute('data-i')); tRender(); } return;
     case 'tbuild': T.built.push(Number(el.getAttribute('data-i'))); tRender(); return;
     case 'tunbuild': T.built.splice(Number(el.getAttribute('data-i')), 1); tRender(); return;
     case 'tcheck': tCheck(); return;
     case 'tnext': T.i++; T.state = 'ask'; T.pick = null; T.built = []; tRender(); return;
-    case 'tagain': vTest(T.t.id); return;
+    case 'tagain': vTest(T.t.id, T.s.id); return;
     /* flashcards */
     case 'fcflip': FC.rev = true; vFC(); return;
     case 'fcok': case 'fcno':

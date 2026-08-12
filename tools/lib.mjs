@@ -29,24 +29,34 @@ export function load() {
     }
   }
 
-  // topics: one folder per topic — _topic.json holds the meta + test,
-  // every other *.json in the folder is one subtopic (ordered by "order").
+  // 3-level content tree:
+  //   content/topics/<topic>/_topic.json                       -> topic meta
+  //   content/topics/<topic>/<subtopic>/_sub.json              -> subtopic meta (+ test)
+  //   content/topics/<topic>/<subtopic>/NN-<subsub>.json       -> one sub-subtopic (dialogues/roleplay)
   const topicDir = p('content', 'topics');
+  const byOrder = (a, b) => (a.order ?? 99) - (b.order ?? 99);
   const topics = [];
   if (fs.existsSync(topicDir)) {
-    for (const name of fs.readdirSync(topicDir).sort()) {
-      const dir = path.join(topicDir, name);
-      if (!fs.statSync(dir).isDirectory()) continue;
-      const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json'));
-      if (!files.includes('_topic.json')) throw new Error(`content/topics/${name}: no _topic.json`);
-      const topic = readJson(path.join(dir, '_topic.json'));
-      topic.subtopics = files
-        .filter((f) => f !== '_topic.json').sort()
-        .map((f) => readJson(path.join(dir, f)))
-        .sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+    for (const tname of fs.readdirSync(topicDir).sort()) {
+      const tdir = path.join(topicDir, tname);
+      if (!fs.statSync(tdir).isDirectory()) continue;
+      if (!fs.existsSync(path.join(tdir, '_topic.json'))) throw new Error(`content/topics/${tname}: no _topic.json`);
+      const topic = readJson(path.join(tdir, '_topic.json'));
+      topic.subtopics = [];
+      for (const sname of fs.readdirSync(tdir).sort()) {
+        const sdir = path.join(tdir, sname);
+        if (sname === '_topic.json' || !fs.statSync(sdir).isDirectory()) continue;
+        if (!fs.existsSync(path.join(sdir, '_sub.json'))) throw new Error(`content/topics/${tname}/${sname}: no _sub.json`);
+        const sub = readJson(path.join(sdir, '_sub.json'));
+        sub.subs = fs.readdirSync(sdir).filter((f) => f.endsWith('.json') && f !== '_sub.json').sort()
+          .map((f) => readJson(path.join(sdir, f)))
+          .sort(byOrder);
+        topic.subtopics.push(sub);
+      }
+      topic.subtopics.sort(byOrder);
       topics.push(topic);
     }
-    topics.sort((a, b) => (a.order ?? 99) - (b.order ?? 99));
+    topics.sort(byOrder);
   }
 
   // inflected form -> dictionary key
@@ -90,21 +100,24 @@ export function findMissing({ dictionary, forms, topics }) {
 
   for (const t of topics) {
     for (const s of t.subtopics || []) {
-      for (const [lv, d] of Object.entries(s.dialogues || {})) {
-        (d.lines || []).forEach((l, i) => scan(l.de, `${t.id}/${s.id}/${lv}#${i + 1}`, l.w));
-      }
-      for (const [band, sc] of Object.entries(s.roleplay || {})) {
-        for (const [id, n] of Object.entries(sc.nodes || {})) {
-          scan(n.say, `${t.id}/${s.id}/rp-${band}/${id}`);
-          scan(n.fallback, `${t.id}/${s.id}/rp-${band}/${id}`);
-          (n.accept || []).forEach((a) => scan(a.reply, `${t.id}/${s.id}/rp-${band}/${id}`));
+      for (const ss of s.subs || []) {
+        const at = `${t.id}/${s.id}/${ss.id}`;
+        for (const [lv, d] of Object.entries(ss.dialogues || {})) {
+          (d.lines || []).forEach((l, i) => scan(l.de, `${at}/${lv}#${i + 1}`, l.w));
         }
-      }
-      for (const k of s.words || []) {
-        if (!dictionary[k]) {
-          const rec = miss.get(k) || { token: k, count: 0, where: [] };
-          rec.count++; rec.where.push(`${t.id}/${s.id} words[]`);
-          miss.set(k, rec);
+        for (const [band, sc] of Object.entries(ss.roleplay || {})) {
+          for (const [id, n] of Object.entries(sc.nodes || {})) {
+            scan(n.say, `${at}/rp-${band}/${id}`);
+            scan(n.fallback, `${at}/rp-${band}/${id}`);
+            (n.accept || []).forEach((a) => scan(a.reply, `${at}/rp-${band}/${id}`));
+          }
+        }
+        for (const k of ss.words || []) {
+          if (!dictionary[k]) {
+            const rec = miss.get(k) || { token: k, count: 0, where: [] };
+            rec.count++; rec.where.push(`${at} words[]`);
+            miss.set(k, rec);
+          }
         }
       }
     }
@@ -116,24 +129,27 @@ export function findMissing({ dictionary, forms, topics }) {
 export function findWarnings({ dictionary, topics }) {
   const w = [];
   for (const t of topics) {
-    if (!t.test) w.push(`${t.id}: no test`);
     for (const s of t.subtopics || []) {
-      for (const lv of ['A1', 'A2', 'B1', 'B2']) {
-        const d = s.dialogues?.[lv];
-        if (!d) { w.push(`${t.id}/${s.id}: missing level ${lv}`); continue; }
-        if ((d.lines || []).length < 10) w.push(`${t.id}/${s.id}/${lv}: only ${d.lines.length} lines`);
-        for (const [i, l] of d.lines.entries()) {
-          if (!l.en || !l.ur) w.push(`${t.id}/${s.id}/${lv}#${i + 1}: missing en/ur`);
-          if (!d.speakers?.[l.s]) w.push(`${t.id}/${s.id}/${lv}#${i + 1}: unknown speaker "${l.s}"`);
+      if (!s.test) w.push(`${t.id}/${s.id}: no test`);
+      for (const ss of s.subs || []) {
+        const at = `${t.id}/${s.id}/${ss.id}`;
+        for (const lv of ['A1', 'A2', 'B1', 'B2']) {
+          const d = ss.dialogues?.[lv];
+          if (!d) { w.push(`${at}: missing level ${lv}`); continue; }
+          if ((d.lines || []).length < 10) w.push(`${at}/${lv}: only ${d.lines.length} lines`);
+          for (const [i, l] of d.lines.entries()) {
+            if (!l.en || !l.ur) w.push(`${at}/${lv}#${i + 1}: missing en/ur`);
+            if (!d.speakers?.[l.s]) w.push(`${at}/${lv}#${i + 1}: unknown speaker "${l.s}"`);
+          }
         }
-      }
-      if (!s.roleplay) w.push(`${t.id}/${s.id}: no roleplay`);
-      for (const [band, sc] of Object.entries(s.roleplay || {})) {
-        const ids = new Set(Object.keys(sc.nodes || {}));
-        if (!ids.has(sc.start)) w.push(`${t.id}/${s.id}/${band}: start node "${sc.start}" missing`);
-        for (const [id, n] of Object.entries(sc.nodes || {})) {
-          for (const a of n.accept || []) {
-            if (a.next && !ids.has(a.next) && a.next !== 'END') w.push(`${t.id}/${s.id}/${band}/${id}: dead link "${a.next}"`);
+        if (!ss.roleplay) w.push(`${at}: no roleplay`);
+        for (const [band, sc] of Object.entries(ss.roleplay || {})) {
+          const ids = new Set(Object.keys(sc.nodes || {}));
+          if (!ids.has(sc.start)) w.push(`${at}/${band}: start node "${sc.start}" missing`);
+          for (const [id, n] of Object.entries(sc.nodes || {})) {
+            for (const a of n.accept || []) {
+              if (a.next && !ids.has(a.next) && a.next !== 'END') w.push(`${at}/${band}/${id}: dead link "${a.next}"`);
+            }
           }
         }
       }
