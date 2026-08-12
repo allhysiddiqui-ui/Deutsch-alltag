@@ -1,0 +1,34 @@
+{
+  "id": "hausarzt",
+  "order": 2,
+  "icon": "🩻",
+  "title": {
+    "de": "Beim Hausarzt",
+    "en": "At the family doctor",
+    "ur": "Family doctor ke paas"
+  },
+  "intro": "Termin, Beschwerden, Krankschreibung, Überweisung und Befund — die wichtigsten Gespräche für Erwachsene beim Hausarzt.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "die Krankschreibung", "opts": ["sick note (for work)", "prescription", "referral", "vaccination"], "a": 0, "ur": "kaam ke liye medical chhutti", "word": "krankschreibung" },
+      { "type": "mc", "q": "die Überweisung", "opts": ["referral to a specialist", "money transfer only", "prescription", "diagnosis"], "a": 0, "ur": "specialist ke liye referral", "word": "überweisung" },
+      { "type": "mc", "q": "der Blutdruck", "opts": ["blood pressure", "blood test", "pulse", "temperature"], "a": 0, "ur": "blood pressure", "word": "blutdruck" },
+      { "type": "mc", "q": "der Facharzt", "opts": ["specialist doctor", "family doctor", "dentist", "pharmacist"], "a": 0, "ur": "mahir doctor / specialist", "word": "facharzt" },
+      { "type": "mc", "q": "der Befund", "opts": ["medical findings / result", "appointment", "sick note", "waiting room"], "a": 0, "ur": "test ka nateeja / report", "word": "befund" },
+      { "type": "mc", "q": "die Beschwerden", "opts": ["symptoms / complaints", "costs", "documents", "medicines"], "a": 0, "ur": "takleef / shikayat", "word": "beschwerden" },
+      { "type": "gap", "de": "Ich brauche eine ___ für meinen Arbeitgeber.", "a": "Krankschreibung", "hint": "sick note · medical chhutti", "en": "I need a sick note for my employer.", "word": "krankschreibung" },
+      { "type": "gap", "de": "Der Arzt misst zuerst den ___.", "a": "Blutdruck", "hint": "blood pressure", "en": "The doctor measures the blood pressure first.", "word": "blutdruck" },
+      { "type": "gap", "de": "Ich hätte gern einen ___ bei Doktor Schulz.", "a": "Termin", "hint": "appointment", "en": "I'd like an appointment with Doctor Schulz.", "word": "termin" },
+      { "type": "order", "a": "Ich fühle mich seit einer Woche schlapp", "en": "I've been feeling weak for a week." },
+      { "type": "order", "a": "Können Sie mich zum Facharzt überweisen", "en": "Can you refer me to a specialist?" },
+      { "type": "order", "a": "Wie lange bin ich krankgeschrieben", "en": "How long am I signed off sick?" },
+      { "type": "listen", "a": "Ich habe seit drei Tagen Kopfschmerzen.", "en": "I've had a headache for three days." },
+      { "type": "listen", "a": "Nehmen Sie regelmäßig Medikamente?", "en": "Do you take any medication regularly?" },
+      { "type": "listen", "a": "Ich schreibe Sie bis Freitag krank.", "en": "I'll sign you off sick until Friday." },
+      { "type": "prod", "en": "I would like an appointment this week.", "ur": "Mujhe is hafte appointment chahiye.", "a": "Ich hätte gern einen Termin in dieser Woche." },
+      { "type": "prod", "en": "I need a sick note for my employer.", "ur": "Mujhe apne employer ke liye medical chhutti chahiye.", "a": "Ich brauche eine Krankschreibung für meinen Arbeitgeber." },
+      { "type": "prod", "en": "Can you refer me to a specialist?", "ur": "Kya aap mujhe specialist ke paas bhej sakte hain?", "a": "Können Sie mich zum Facharzt überweisen?" },
+      { "type": "prod", "en": "I feel dizzy and tired.", "ur": "Mujhe chakkar aate hain aur thakan hai.", "a": "Mir ist schwindelig und ich bin müde." }
+    ]
+  }
+}

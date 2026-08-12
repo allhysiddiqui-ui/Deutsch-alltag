@@ -227,8 +227,10 @@ function aiSystemPrompt(sc, level) {
 }
 
 /* ---------------- dictionary lookup ---------------- */
-var LINES = [];     // current render registry for per-line overrides
-var SPEAKERS = {};  // current dialogue's speaker letter -> character label (for voices)
+var LINES = [];       // current render registry for per-line overrides
+var SPEAKERS = {};    // current dialogue's speaker letter -> character label (for voices)
+var CUR_VOICES = {};  // optional per-conversation voice override: speaker letter -> voice name
+function lineVoice(l) { return (l && CUR_VOICES[l.s]) || characterVoice(SPEAKERS[l && l.s]); }
 function lookup(tok, over) {
   var n = norm(tok);
   if (over) {
@@ -429,7 +431,7 @@ function vDialogue(tid, sid, ssid) {
   var t = topicById(tid), s = subById(t, sid), ss = subsubById(s, ssid); if (!ss) return go('#/');
   var d = ss.dialogues[S.level];
   if (!d) { view({ title: ss.title.de, body: '<div class="empty"><span class="em">🚧</span>Diese Stufe fehlt noch.</div>', back: 1, chip: S.level }); return; }
-  LINES = d.lines; SPEAKERS = d.speakers || {};
+  LINES = d.lines; SPEAKERS = d.speakers || {}; CUR_VOICES = ss.voices || {};
   PROG.read[tid + '/' + sid + '/' + ssid + '/' + S.level] = 1; saveProg();
 
   var b = '<div class="card" style="padding:12px 14px;margin-bottom:14px">' +
@@ -1070,13 +1072,13 @@ document.addEventListener('click', function (ev) {
     case 'setlvl':
       S.level = el.getAttribute('data-l'); saveSet(); closeSheet(); route(); return;
     case 'sayw': speakAuto(el.getAttribute('data-t'), VOICE_MOTHER); return;
-    case 'sayline': { var ln = LINES[el.getAttribute('data-i')]; speakAuto(ln.de, characterVoice(SPEAKERS[ln.s])); return; }
+    case 'sayline': { var ln = LINES[el.getAttribute('data-i')]; speakAuto(ln.de, lineVoice(ln)); return; }
     case 'tr': {
       var bub = el.closest('.bub'); if (bub) bub.classList.toggle('open'); return;
     }
     case 'playall': {
       var i = 0;
-      (function nxt() { if (i >= LINES.length) return; var ln = LINES[i++]; speakAuto(ln.de, characterVoice(SPEAKERS[ln.s]), function () { setTimeout(nxt, 150); }); })();
+      (function nxt() { if (i >= LINES.length) return; var ln = LINES[i++]; speakAuto(ln.de, lineVoice(ln), function () { setTimeout(nxt, 150); }); })();
       return;
     }
     case 'star': case 'unstar': {
