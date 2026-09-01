@@ -1,0 +1,217 @@
+{
+  "id": "aufnahme",
+  "order": 2,
+  "icon": "📋",
+  "title": { "de": "Aufnahme im Krankenhaus", "en": "Hospital admission", "ur": "Hospital mein admission" },
+  "angle": "Checking in at the admission desk before a planned stay · Planned stay se pehle admission desk par jana",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["aufnahme", "patientenaufnahme", "versichertenkarte", "einweisung", "station", "zimmer", "unterschreiben", "gepäck", "besuchszeit", "stationsarzt"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Voigt (Patientenaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Haben Sie einen Termin?", "en": "Hello. Do you have an appointment?", "ur": "Salam. Kya aap ka appointment hai?" },
+        { "s": "B", "de": "Ja, für eine Operation morgen.", "en": "Yes, for an operation tomorrow.", "ur": "Ji haan, kal ke operation ke liye." },
+        { "s": "A", "de": "Ihr Name, bitte?", "en": "Your name, please?", "ur": "Aap ka naam?" },
+        { "s": "B", "de": "Aylin Yilmaz.", "en": "Aylin Yilmaz.", "ur": "Aylin Yilmaz." },
+        { "s": "A", "de": "Haben Sie die Versichertenkarte dabei?", "en": "Do you have your insurance card with you?", "ur": "Kya insurance card saath hai?" },
+        { "s": "B", "de": "Ja, hier bitte.", "en": "Yes, here you go.", "ur": "Ji haan, yeh lein." },
+        { "s": "A", "de": "Danke. Sie sind auf Station drei, Zimmer sieben.", "en": "Thanks. You're on ward three, room seven.", "ur": "Shukriya. Aap station teen, kamra saat mein hain." },
+        { "s": "B", "de": "Wo ist das?", "en": "Where is that?", "ur": "Yeh kahan hai?" },
+        { "s": "A", "de": "Im zweiten Stock, links.", "en": "On the second floor, left.", "ur": "Doosri manzil par, bayen taraf." },
+        { "s": "B", "de": "Vielen Dank.", "en": "Thank you very much.", "ur": "Bohat shukriya." },
+        { "s": "A", "de": "Bitte unterschreiben Sie hier.", "en": "Please sign here.", "ur": "Meherbani kar ke yahan dastkhat karein." },
+        { "s": "B", "de": "In Ordnung.", "en": "All right.", "ur": "Theek hai." },
+        { "s": "A", "de": "Eine Schwester bringt Sie zum Zimmer.", "en": "A nurse will take you to the room.", "ur": "Aik nurse aap ko kamre tak le jayegi." },
+        { "s": "B", "de": "Danke schön.", "en": "Thank you.", "ur": "Shukriya." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Voigt (Patientenaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Sie kommen wegen der geplanten Operation morgen?", "en": "Hello, are you here for the planned operation tomorrow?", "ur": "Salam, aap kal ke planned operation ke liye aayi hain?" },
+        { "s": "B", "de": "Genau, ich wurde von meinem Hausarzt eingewiesen.", "en": "Exactly, I was admitted by my family doctor.", "ur": "Bilkul, mujhe family doctor ne bheja hai." },
+        { "s": "A", "de": "Haben Sie die Einweisung dabei?", "en": "Do you have the referral document with you?", "ur": "Kya referral ka kagaz saath hai?" },
+        { "s": "B", "de": "Ja, hier ist sie.", "en": "Yes, here it is.", "ur": "Ji haan, yeh hai." },
+        { "s": "A", "de": "Danke. Ich brauche außerdem Ihre Versichertenkarte und einen Ausweis.", "en": "Thanks. I also need your insurance card and an ID.", "ur": "Shukriya. Mujhe aap ka insurance card aur ID bhi chahiye." },
+        { "s": "B", "de": "Beides hier, bitte.", "en": "Both here, please.", "ur": "Dono yahan hain, meherbani." },
+        { "s": "A", "de": "Perfekt. Haben Sie Gepäck für den Krankenhausaufenthalt dabei?", "en": "Perfect. Do you have luggage for the hospital stay with you?", "ur": "Bohat acha. Kya hospital ke qeyam ke liye saman saath hai?" },
+        { "s": "B", "de": "Ja, eine kleine Tasche.", "en": "Yes, a small bag.", "ur": "Ji haan, aik chhoti bag." },
+        { "s": "A", "de": "Sehr gut. Sie sind auf Station drei untergebracht, Zimmer sieben, ein Zweibettzimmer.", "en": "Very good. You're placed on ward three, room seven, a double room.", "ur": "Bohat acha. Aap station teen, kamra saat, do bister wale kamre mein hain." },
+        { "s": "B", "de": "Wann ist die Besuchszeit für meinen Mann?", "en": "When is visiting time for my husband?", "ur": "Mere shohar ke liye visiting time kab hai?" },
+        { "s": "A", "de": "Von vierzehn bis achtzehn Uhr, täglich.", "en": "From two to six p.m., daily.", "ur": "Do se chhe baje tak, roz." },
+        { "s": "B", "de": "Verstanden. Wo finde ich die Station?", "en": "Understood. Where do I find the ward?", "ur": "Samajh gayi. Station kahan milega?" },
+        { "s": "A", "de": "Fahren Sie mit dem Aufzug in den zweiten Stock, dann links.", "en": "Take the elevator to the second floor, then left.", "ur": "Lift se doosri manzil par jayein, phir bayen taraf." },
+        { "s": "B", "de": "Muss ich noch etwas unterschreiben?", "en": "Do I still need to sign anything?", "ur": "Kya mujhe abhi kuch aur dastkhat karna hai?" },
+        { "s": "A", "de": "Ja, bitte die Aufnahmeunterlagen hier.", "en": "Yes, please the admission documents here.", "ur": "Ji haan, meherbani kar ke admission ke kagazat yahan." },
+        { "s": "B", "de": "Erledigt. Vielen Dank für Ihre Hilfe.", "en": "Done. Thank you very much for your help.", "ur": "Ho gaya. Aap ki madad ka bohat shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Voigt (Patientenaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich sehe hier, Sie wurden gestern aus der Notaufnahme angemeldet.", "en": "Hello, Mrs Yilmaz. I see here you were registered from the emergency room yesterday.", "ur": "Salam, Frau Yilmaz. Yahan dikh raha hai kal aap emergency room se register hui thin." },
+        { "s": "B", "de": "Ja, genau, wegen der Blinddarmoperation.", "en": "Yes, exactly, because of the appendix operation.", "ur": "Ji haan, bilkul, appendix ke operation ki wajah se." },
+        { "s": "A", "de": "Alles Weitere ist bereits erfasst, ich brauche nur noch Ihre Unterschrift für die reguläre Aufnahme.", "en": "Everything else is already recorded, I just need your signature for the regular admission.", "ur": "Baqi sab kuch pehle se darj hai, sirf regular admission ke liye dastkhat chahiye." },
+        { "s": "B", "de": "Kein Problem. Kann ich fragen, wie lange ich ungefähr bleiben werde?", "en": "No problem. Can I ask how long I'll roughly be staying?", "ur": "Koi baat nahi. Kya main poochh sakti hoon taqreeban kitne din rahoongi?" },
+        { "s": "A", "de": "Bei einer unkomplizierten Blinddarmoperation meistens zwei bis drei Tage.", "en": "With an uncomplicated appendix operation usually two to three days.", "ur": "Aik seedhe appendix operation mein aksar do se teen din." },
+        { "s": "B", "de": "Werde ich im gleichen Zimmer bleiben wie in der Nacht?", "en": "Will I stay in the same room as during the night?", "ur": "Kya main usi kamre mein rahoongi jaise raat ko thi?" },
+        { "s": "A", "de": "Nach der Operation kommen Sie zuerst in den Aufwachraum, danach zurück auf Station drei.", "en": "After the operation you'll first go to the recovery room, then back to ward three.", "ur": "Operation ke baad pehle aap aufwachraum mein jayengi, phir wapas station teen mein." },
+        { "s": "B", "de": "Wann darf mein Mann mich heute noch besuchen?", "en": "When may my husband still visit me today?", "ur": "Aaj mera shohar mujhse kab mil sakta hai?" },
+        { "s": "A", "de": "Die reguläre Besuchszeit ist bis achtzehn Uhr, aber vor einer Operation ist das oft flexibler.", "en": "The regular visiting time is until six p.m., but before an operation it's often more flexible.", "ur": "Regular visiting time chhe baje tak hai, lekin operation se pehle aksar flexible hota hai." },
+        { "s": "B", "de": "Das ist beruhigend. Muss ich Wertsachen abgeben?", "en": "That's reassuring. Do I need to hand in valuables?", "ur": "Yeh sun kar itminaan hua. Kya keemti cheezein jama karani hain?" },
+        { "s": "A", "de": "Wir empfehlen, Schmuck und größere Geldbeträge zu Hause zu lassen oder Ihrem Mann mitzugeben.", "en": "We recommend leaving jewelry and larger amounts of money at home or giving them to your husband.", "ur": "Hum tajweez karte hain zewar aur zyada paise ghar par chhorein ya shohar ko de dein." },
+        { "s": "B", "de": "Gut, das mache ich. Was passiert mit meinen Kleidern während der Operation?", "en": "Good, I'll do that. What happens to my clothes during the operation?", "ur": "Acha, aisa hi karti hoon. Operation ke doran mere kapron ka kya hoga?" },
+        { "s": "A", "de": "Die Schwester gibt Ihnen ein Fach im Zimmer, dort können Sie alles aufbewahren.", "en": "The nurse will give you a locker in the room, you can store everything there.", "ur": "Nurse aap ko kamre mein aik locker degi, wahan sab kuch rakh sakti hain." },
+        { "s": "B", "de": "Vielen Dank für die vielen Informationen.", "en": "Thank you very much for all the information.", "ur": "Itni maloomat ka bohat shukriya." },
+        { "s": "A", "de": "Gerne. Die Schwester holt Sie gleich ab.", "en": "You're welcome. The nurse will pick you up shortly.", "ur": "Khushi se. Nurse abhi aap ko lene aati hai." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Voigt (Patientenaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Bevor wir die Formalitäten erledigen, habe ich eine organisatorische Frage.", "en": "Hello, Mrs Yilmaz. Before we take care of the formalities, I have an organizational question.", "ur": "Salam, Frau Yilmaz. Kagazi karwai se pehle mujhe aik intezami sawal poochna hai." },
+        { "s": "B", "de": "Natürlich, fragen Sie.", "en": "Of course, go ahead and ask.", "ur": "Zaroor, poochein." },
+        { "s": "A", "de": "Möchten Sie ein Einzelzimmer gegen Aufpreis, oder reicht Ihnen das reguläre Zweibettzimmer?", "en": "Would you like a private room for an extra charge, or is the regular double room enough for you?", "ur": "Kya aap extra paise dekar single kamra chahti hain, ya regular do bister wala kamra kaafi hai?" },
+        { "s": "B", "de": "Was würde das Einzelzimmer kosten, und übernimmt meine Krankenkasse das?", "en": "What would the private room cost, and does my health insurance cover it?", "ur": "Single kamra ka kharcha kya hoga, aur kya health insurance dega?" },
+        { "s": "A", "de": "Als gesetzlich Versicherte müssten Sie das selbst tragen, etwa achtzig Euro pro Nacht.", "en": "As a statutorily insured patient you'd have to bear that yourself, about eighty euros per night.", "ur": "Sarkari insurance ke tor par yeh aap ko khud dena hoga, taqreeban assi euro har raat." },
+        { "s": "B", "de": "Das ist mir zu teuer, das reguläre Zimmer reicht mir völlig.", "en": "That's too expensive for me, the regular room is completely fine for me.", "ur": "Yeh mere liye zyada mehnga hai, regular kamra mere liye kaafi hai." },
+        { "s": "A", "de": "In Ordnung, dann bleibt es beim Zweibettzimmer auf Station drei.", "en": "All right, then it stays with the double room on ward three.", "ur": "Theek hai, to station teen mein do bister wala kamra rahega." },
+        { "s": "B", "de": "Eine weitere Frage: Kann mein Mann während der Operation im Krankenhaus warten?", "en": "Another question: can my husband wait at the hospital during the operation?", "ur": "Aik aur sawal: kya operation ke doran mera shohar hospital mein intezaar kar sakta hai?" },
+        { "s": "A", "de": "Ja, im Wartebereich der Chirurgie im Erdgeschoss, dort wird er informiert, sobald die Operation vorbei ist.", "en": "Yes, in the surgery waiting area on the ground floor, he'll be informed there as soon as the operation is over.", "ur": "Ji haan, ground floor par surgery ke waiting area mein, operation khatam hote hi usay bata diya jayega." },
+        { "s": "B", "de": "Wird man ihn direkt informieren, oder muss er nachfragen?", "en": "Will he be informed directly, or does he have to ask?", "ur": "Kya usay khud batayenge, ya khud pochhna hoga?" },
+        { "s": "A", "de": "Die Chirurgin kommt nach der Operation aktiv zu den Angehörigen und berichtet.", "en": "The surgeon actively comes to the relatives after the operation and reports.", "ur": "Operation ke baad surgeon khud family ke paas aa kar bataegi." },
+        { "s": "B", "de": "Das beruhigt mich sehr. Wie läuft die Kommunikation, falls es Komplikationen gibt?", "en": "That reassures me a lot. How does communication work if there are complications?", "ur": "Yeh sun kar bohat itminaan hua. Agar koi masla ho to kaise bataya jayega?" },
+        { "s": "A", "de": "In diesem Fall würde die Chirurgin Ihren Mann sofort persönlich informieren, nicht nur telefonisch.", "en": "In that case the surgeon would inform your husband immediately in person, not just by phone.", "ur": "Aisi soorat mein surgeon foran khud shohar ko bataegi, sirf phone se nahi." },
+        { "s": "B", "de": "Vielen Dank, das nimmt mir etwas die Sorge. Können wir jetzt mit den Unterlagen weitermachen?", "en": "Thank you very much, that takes away some of my worry. Can we continue with the documents now?", "ur": "Bohat shukriya, isse thori fikar kam hui. Ab kya hum kagazat ki taraf badh sakte hain?" },
+        { "s": "A", "de": "Gerne, unterschreiben Sie bitte hier und hier.", "en": "Sure, please sign here and here.", "ur": "Zaroor, meherbani kar ke yahan aur yahan dastkhat karein." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Voigt, Patientenaufnahme",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie kommen zur Patientenaufnahme wegen einer Operation morgen.",
+        "en": "You come to the admission desk for an operation tomorrow.",
+        "ur": "Aap kal ke operation ke liye admission desk par aate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Haben Sie einen Termin?",
+          "goal": { "en": "Say yes, for an operation tomorrow.", "ur": "Kahein haan, kal ke operation ke liye." },
+          "options": ["Ja, für eine Operation morgen.", "Ja, ich habe morgen eine Operation."],
+          "fallback": "Wofür kommen Sie?",
+          "accept": [{ "kw": ["operation"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ihr Name, bitte?",
+          "goal": { "en": "Give your name.", "ur": "Naam batayein." },
+          "options": ["Aylin Yilmaz.", "Mein Name ist Aylin Yilmaz."],
+          "fallback": "Wie heißen Sie?",
+          "accept": [{ "kw": ["yilmaz"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Haben Sie die Versichertenkarte dabei?",
+          "goal": { "en": "Say yes and hand it over.", "ur": "Kahein haan aur dein." },
+          "options": ["Ja, hier bitte.", "Ja, hier ist sie."],
+          "fallback": "Bringen Sie die Karte mit?",
+          "accept": [{ "kw": ["ja"], "next": "n4" }, { "kw": ["hier"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Danke. Sie sind auf Station drei, Zimmer sieben.",
+          "goal": { "en": "Ask where that is.", "ur": "Poochein yeh kahan hai." },
+          "options": ["Wo ist das?", "Wo finde ich das?"],
+          "fallback": "Wissen Sie, wo die Station ist?",
+          "accept": [{ "kw": ["wo"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Im zweiten Stock, links.",
+          "goal": { "en": "Thank him.", "ur": "Shukriya kahein." },
+          "options": ["Vielen Dank.", "Danke schön."],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Bitte unterschreiben Sie hier.",
+          "goal": { "en": "Say all right.", "ur": "Theek hai kahein." },
+          "options": ["In Ordnung.", "Natürlich."],
+          "fallback": "Passt das?",
+          "accept": [
+            { "kw": ["ordnung"], "reply": "Eine Schwester bringt Sie zum Zimmer.", "next": "END" },
+            { "kw": ["natürlich"], "reply": "Eine Schwester bringt Sie zum Zimmer.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Voigt, Patientenaufnahme",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Vor der Aufnahme klären Sie noch die Zimmerwahl und was mit Ihrem Mann während der Operation passiert.",
+        "en": "Before admission you clarify the room choice and what happens with your husband during the operation.",
+        "ur": "Admission se pehle aap kamre ka intekhab aur shohar ke liye intezam poochte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Möchten Sie ein Einzelzimmer gegen Aufpreis, oder reicht Ihnen das reguläre Zweibettzimmer?",
+          "goal": { "en": "Ask what the private room would cost and if insurance covers it.", "ur": "Poochein single kamra kitne ka hai aur insurance deta hai ya nahi." },
+          "options": ["Was würde das Einzelzimmer kosten, und übernimmt meine Krankenkasse das?", "Was kostet das Einzelzimmer, und zahlt die Krankenkasse das?"],
+          "fallback": "Welches Zimmer möchten Sie?",
+          "accept": [{ "kw": ["kosten"], "next": "n2" }, { "kw": ["krankenkasse"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Als gesetzlich Versicherte müssten Sie das selbst tragen, etwa achtzig Euro pro Nacht.",
+          "goal": { "en": "Say that's too expensive, the regular room is fine.", "ur": "Kahein zyada mehnga hai, regular kamra kaafi hai." },
+          "options": ["Das ist mir zu teuer, das reguläre Zimmer reicht mir völlig.", "Das ist zu teuer, ich nehme das reguläre Zimmer."],
+          "fallback": "Möchten Sie das Einzelzimmer?",
+          "accept": [{ "kw": ["teuer"], "next": "n3" }, { "kw": ["reguläre"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "In Ordnung, dann bleibt es beim Zweibettzimmer.",
+          "goal": { "en": "Ask if your husband can wait at the hospital during the operation.", "ur": "Poochein kya shohar operation ke doran hospital mein intezaar kar sakta hai." },
+          "options": ["Kann mein Mann während der Operation im Krankenhaus warten?", "Darf mein Mann während der Operation hierbleiben?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["mann"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, im Wartebereich der Chirurgie im Erdgeschoss.",
+          "goal": { "en": "Ask whether he'll be informed directly or has to ask.", "ur": "Poochein kya usay khud batayenge ya pochhna hoga." },
+          "options": ["Wird man ihn direkt informieren, oder muss er nachfragen?", "Informiert ihr ihn direkt?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["informieren"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Die Chirurgin kommt nach der Operation aktiv zu den Angehörigen und berichtet.",
+          "goal": { "en": "Ask how communication works if there are complications.", "ur": "Poochein masle ki soorat mein kaise bataya jayega." },
+          "options": ["Wie läuft die Kommunikation, falls es Komplikationen gibt?", "Was passiert, falls es Komplikationen gibt?"],
+          "fallback": "Sind Sie beruhigt?",
+          "accept": [{ "kw": ["komplikationen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "In diesem Fall würde die Chirurgin Ihren Mann sofort persönlich informieren.",
+          "goal": { "en": "Thank him and ask to continue with the documents.", "ur": "Shukriya kahein aur kagazat ki taraf badhne ko kahein." },
+          "options": ["Vielen Dank. Können wir mit den Unterlagen weitermachen?", "Danke. Machen wir mit den Unterlagen weiter?"],
+          "fallback": "Sind Sie bereit?",
+          "accept": [
+            { "kw": ["danke", "unterlagen"], "reply": "Gerne, unterschreiben Sie bitte hier und hier.", "next": "END" },
+            { "kw": ["unterlagen"], "reply": "Gerne, unterschreiben Sie bitte hier und hier.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

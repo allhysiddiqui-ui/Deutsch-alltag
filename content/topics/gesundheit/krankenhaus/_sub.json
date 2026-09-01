@@ -1,0 +1,37 @@
+{
+  "id": "krankenhaus",
+  "order": 4,
+  "icon": "🏥",
+  "title": {
+    "de": "Im Krankenhaus",
+    "en": "At the hospital",
+    "ur": "Hospital mein"
+  },
+  "intro": "Von der Notaufnahme über die Operation bis zur Entlassung — alles, was man bei einem Krankenhausaufenthalt in Deutschland sagen und verstehen muss.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "die Notaufnahme", "opts": ["emergency room", "operating room", "waiting room", "pharmacy"], "a": 0, "ur": "emergency room", "word": "notaufnahme" },
+      { "type": "mc", "q": "die Aufnahme", "opts": ["admission", "discharge", "operation", "visit"], "a": 0, "ur": "admission", "word": "aufnahme" },
+      { "type": "mc", "q": "die Visite", "opts": ["doctor's ward round", "surgery", "vaccination", "check-in"], "a": 0, "ur": "doctor ka round", "word": "visite" },
+      { "type": "mc", "q": "die Narkose", "opts": ["anesthesia", "infection", "bandage", "wound"], "a": 0, "ur": "behoshi", "word": "narkose" },
+      { "type": "mc", "q": "die Einwilligung", "opts": ["consent", "diagnosis", "prescription", "appointment"], "a": 0, "ur": "razamandi", "word": "einwilligung" },
+      { "type": "mc", "q": "die Entlassung", "opts": ["discharge", "admission", "surgery", "referral"], "a": 0, "ur": "discharge", "word": "entlassung" },
+      { "type": "mc", "q": "die Station", "opts": ["hospital ward", "pharmacy", "reception", "operating room"], "a": 0, "ur": "hospital ka ward", "word": "station" },
+      { "type": "mc", "q": "der Entlassungsbrief", "opts": ["discharge letter", "prescription", "invoice", "consent form"], "a": 0, "ur": "discharge letter", "word": "entlassungsbrief" },
+      { "type": "gap", "de": "Ich habe starke ___.", "a": "Bauchschmerzen", "hint": "stomach pain · pait dard", "en": "I have strong stomach pain.", "word": "bauchschmerzen" },
+      { "type": "gap", "de": "Sie bekommen eine ___.", "a": "Vollnarkose", "hint": "general anesthesia", "en": "You'll get general anesthesia.", "word": "vollnarkose" },
+      { "type": "gap", "de": "Wann darf ich wieder ___?", "a": "arbeiten", "hint": "to work", "en": "When may I work again?", "word": "arbeiten" },
+      { "type": "gap", "de": "Bitte ___ Sie hier.", "a": "unterschreiben", "hint": "to sign", "en": "Please sign here.", "word": "unterschreiben" },
+      { "type": "order", "a": "Ich habe seit heute Morgen starke Schmerzen", "en": "I've had strong pain since this morning." },
+      { "type": "order", "a": "Wie lange dauert die Operation", "en": "How long does the operation take?" },
+      { "type": "order", "a": "Wann darf ich nach Hause gehen", "en": "When may I go home?" },
+      { "type": "listen", "a": "Ein Arzt kommt gleich.", "en": "A doctor will come shortly." },
+      { "type": "listen", "a": "Die Wunde heilt gut.", "en": "The wound is healing well." },
+      { "type": "listen", "a": "Heute dürfen Sie nach Hause.", "en": "Today you may go home." },
+      { "type": "prod", "en": "I have strong stomach pain.", "ur": "Mujhe tez pait dard hai.", "a": "Ich habe starke Bauchschmerzen." },
+      { "type": "prod", "en": "When may I get up?", "ur": "Main kab uth sakti hoon?", "a": "Wann darf ich aufstehen?" },
+      { "type": "prod", "en": "How long does the operation take?", "ur": "Operation mein kitna waqt lagta hai?", "a": "Wie lange dauert die Operation?" },
+      { "type": "prod", "en": "Thank you very much for the good care.", "ur": "Achi dekhbhaal ka bohat shukriya.", "a": "Vielen Dank für die gute Betreuung." }
+    ]
+  }
+}

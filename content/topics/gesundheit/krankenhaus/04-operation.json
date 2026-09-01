@@ -1,0 +1,217 @@
+{
+  "id": "operation",
+  "order": 4,
+  "icon": "🔪",
+  "title": { "de": "Vor der Operation", "en": "Before the operation", "ur": "Operation se pehle" },
+  "angle": "The surgeon explains the procedure and gets consent · Surgeon operation samjhati hai aur razamandi leti hai",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["operation", "narkose", "chirurgin", "einwilligung", "risiko", "aufklärung", "narbe", "eingriff", "vollnarkose", "aufklärungsbogen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Dr. Werner (Chirurgin)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, ich bin Ihre Chirurgin.", "en": "Hello, I'm your surgeon.", "ur": "Salam, main aap ki surgeon hoon." },
+        { "s": "B", "de": "Guten Tag.", "en": "Hello.", "ur": "Salam." },
+        { "s": "A", "de": "Wir operieren heute Ihren Blinddarm.", "en": "We're operating on your appendix today.", "ur": "Aaj hum aap ka appendix operate karenge." },
+        { "s": "B", "de": "Ja, das weiß ich.", "en": "Yes, I know.", "ur": "Ji haan, mujhe maloom hai." },
+        { "s": "A", "de": "Sie bekommen eine Vollnarkose.", "en": "You'll get general anesthesia.", "ur": "Aap ko poori behoshi mein rakha jayega." },
+        { "s": "B", "de": "Tut das weh?", "en": "Does that hurt?", "ur": "Kya isse dard hota hai?" },
+        { "s": "A", "de": "Nein, Sie spüren nichts.", "en": "No, you won't feel anything.", "ur": "Nahi, aap ko kuch mehsoos nahi hoga." },
+        { "s": "B", "de": "Wie lange dauert die Operation?", "en": "How long does the operation take?", "ur": "Operation mein kitna waqt lagta hai?" },
+        { "s": "A", "de": "Etwa eine Stunde.", "en": "About an hour.", "ur": "Taqreeban aik ghanta." },
+        { "s": "B", "de": "Und danach?", "en": "And afterward?", "ur": "Aur uske baad?" },
+        { "s": "A", "de": "Danach ruhen Sie sich aus.", "en": "Afterward you rest.", "ur": "Uske baad aaram karengi." },
+        { "s": "B", "de": "Muss ich noch etwas unterschreiben?", "en": "Do I still need to sign something?", "ur": "Kya mujhe kuch dastkhat karna hai?" },
+        { "s": "A", "de": "Ja, bitte hier.", "en": "Yes, here please.", "ur": "Ji haan, yahan meherbani." },
+        { "s": "B", "de": "In Ordnung.", "en": "All right.", "ur": "Theek hai." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Dr. Werner (Chirurgin)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich bin Doktor Werner, Ihre Chirurgin für heute.", "en": "Hello, Mrs Yilmaz. I'm Doctor Werner, your surgeon for today.", "ur": "Salam, Frau Yilmaz. Main Doktor Werner hoon, aaj aap ki surgeon." },
+        { "s": "B", "de": "Guten Tag, Frau Doktor. Schön, Sie kennenzulernen.", "en": "Hello, doctor. Nice to meet you.", "ur": "Salam, Frau Doktor. Aap se mil kar khushi hui." },
+        { "s": "A", "de": "Ich möchte kurz mit Ihnen den Ablauf der Operation besprechen.", "en": "I'd like to briefly discuss the course of the operation with you.", "ur": "Main mukhtasar tor par operation ka tareeqa batana chahti hoon." },
+        { "s": "B", "de": "Gerne, ich bin gespannt.", "en": "Sure, I'm curious.", "ur": "Zaroor, main sunna chahti hoon." },
+        { "s": "A", "de": "Wir entfernen den entzündeten Blinddarm laparoskopisch, also mit drei kleinen Schnitten.", "en": "We remove the inflamed appendix laparoscopically, so with three small incisions.", "ur": "Hum soojan wala appendix laparoscopic tareeqe se nikaalenge, yani teen chhote cuts se." },
+        { "s": "B", "de": "Wie groß sind die Narben danach?", "en": "How big are the scars afterward?", "ur": "Baad mein daagh kitne bare honge?" },
+        { "s": "A", "de": "Sehr klein, etwa einen Zentimeter, und sie verblassen mit der Zeit.", "en": "Very small, about one centimeter, and they fade with time.", "ur": "Bohat chhote, taqreeban aik centimeter, aur waqt ke saath halke ho jate hain." },
+        { "s": "B", "de": "Welche Art von Narkose bekomme ich?", "en": "What kind of anesthesia will I get?", "ur": "Kaunsi behoshi di jayegi?" },
+        { "s": "A", "de": "Eine Vollnarkose, der Anästhesist bespricht das gleich noch genauer mit Ihnen.", "en": "A general anesthesia, the anesthesiologist will discuss that with you in more detail shortly.", "ur": "Poori behoshi, anesthesiologist abhi aap se tafseel se baat karenge." },
+        { "s": "B", "de": "Wie lange bin ich nach der Operation im Aufwachraum?", "en": "How long will I be in the recovery room after the operation?", "ur": "Operation ke baad aufwachraum mein kitni der rahoongi?" },
+        { "s": "A", "de": "Meistens ein bis zwei Stunden, bis Sie richtig wach sind.", "en": "Usually one to two hours, until you're fully awake.", "ur": "Aksar aik do ghante, jab tak poori tarah jaag na jayein." },
+        { "s": "B", "de": "Wird jemand meiner Familie über den Verlauf informiert?", "en": "Will someone from my family be informed about the progress?", "ur": "Kya mere family mein kisi ko progress bataya jayega?" },
+        { "s": "A", "de": "Ja, ich komme nach der Operation persönlich zu Ihrem Mann.", "en": "Yes, I'll come personally to your husband after the operation.", "ur": "Ji haan, operation ke baad main khud aap ke shohar ke paas aaoongi." },
+        { "s": "B", "de": "Das beruhigt mich. Muss ich noch etwas unterschreiben?", "en": "That reassures me. Do I still need to sign something?", "ur": "Yeh sun kar itminaan hua. Kya mujhe kuch aur dastkhat karna hai?" },
+        { "s": "A", "de": "Ja, den Aufklärungsbogen, damit Sie Ihr Einverständnis geben.", "en": "Yes, the consent form, so that you give your agreement.", "ur": "Ji haan, razamandi ka form, taake aap ijazat dein." },
+        { "s": "B", "de": "In Ordnung, ich unterschreibe.", "en": "All right, I'll sign.", "ur": "Theek hai, main dastkhat karti hoon." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Dr. Werner (Chirurgin)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich möchte vor der Operation noch einmal alles mit Ihnen durchgehen.", "en": "Hello, Mrs Yilmaz. I'd like to go through everything with you once more before the operation.", "ur": "Salam, Frau Yilmaz. Operation se pehle main sab kuch dobara samjhana chahti hoon." },
+        { "s": "B", "de": "Gerne, ich habe auch ein paar Fragen vorbereitet.", "en": "Sure, I've also prepared a few questions.", "ur": "Zaroor, maine bhi kuch sawal taiyar kiye hain." },
+        { "s": "A", "de": "Fragen Sie ruhig, dafür bin ich hier.", "en": "Ask away, that's what I'm here for.", "ur": "Be-jhijhak poochein, isi liye main yahan hoon." },
+        { "s": "B", "de": "Wie hoch ist das Risiko, dass während der Operation etwas schiefgeht?", "en": "How high is the risk that something goes wrong during the operation?", "ur": "Operation ke doran kuch ghalat hone ka khatra kitna hai?" },
+        { "s": "A", "de": "Bei einer laparoskopischen Blinddarmentfernung ist das Risiko für ernste Komplikationen sehr gering, unter einem Prozent.", "en": "For a laparoscopic appendix removal, the risk of serious complications is very low, under one percent.", "ur": "Laparoscopic appendix operation mein sangeen masle ka khatra bohat kam hai, aik faisad se kam." },
+        { "s": "B", "de": "Was passiert, falls es doch Komplikationen gibt?", "en": "What happens if there are complications after all?", "ur": "Agar phir bhi koi masla ho jaye to kya hoga?" },
+        { "s": "A", "de": "Dann können wir während der Operation zu einem offenen Eingriff wechseln, das entscheiden wir vor Ort.", "en": "Then we can switch to an open procedure during the operation, we decide that on the spot.", "ur": "Phir hum operation ke doran open tareeqe par switch kar sakte hain, yeh mauqe par tay hota hai." },
+        { "s": "B", "de": "Wie geht es mir direkt nach der Narkose?", "en": "How will I feel right after the anesthesia?", "ur": "Behoshi ke foran baad main kaisa mehsoos karoongi?" },
+        { "s": "A", "de": "Manche Patienten sind etwas benommen oder haben leichte Übelkeit, das geht meist schnell vorbei.", "en": "Some patients are a bit dazed or have mild nausea, that usually passes quickly.", "ur": "Kuch patients thora sust ya halki matli mehsoos karte hain, yeh aksar jaldi theek ho jata hai." },
+        { "s": "B", "de": "Wie lange muss ich nach der Operation nüchtern bleiben?", "en": "How long do I have to stay fasting after the operation?", "ur": "Operation ke baad kitni der khali pait rehna hoga?" },
+        { "s": "A", "de": "Sobald Sie richtig wach sind und keine Übelkeit haben, dürfen Sie langsam trinken.", "en": "As soon as you're fully awake and have no nausea, you may drink slowly.", "ur": "Jaise hi poori tarah jaagein aur matli na ho, aahista pani pi sakti hain." },
+        { "s": "B", "de": "Wer erklärt mir die Narkose genauer?", "en": "Who will explain the anesthesia to me in more detail?", "ur": "Behoshi ke baare mein tafseel se kaun bataega?" },
+        { "s": "A", "de": "Der Anästhesist kommt gleich noch zu Ihnen und klärt alles Weitere.", "en": "The anesthesiologist will come to you shortly and clarify everything else.", "ur": "Anesthesiologist abhi aap ke paas aayenge aur baaqi sab batayenge." },
+        { "s": "B", "de": "Gut. Ich bin trotzdem etwas nervös.", "en": "Good. I'm still a bit nervous though.", "ur": "Acha. Phir bhi main thori nervous hoon." },
+        { "s": "A", "de": "Das ist völlig normal, das geht fast allen Patienten so.", "en": "That's completely normal, that's how almost all patients feel.", "ur": "Yeh bilkul normal hai, taqreeban sab patients aisa hi mehsoos karte hain." },
+        { "s": "B", "de": "Danke, das hilft. Ich unterschreibe jetzt die Einwilligung.", "en": "Thanks, that helps. I'll sign the consent now.", "ur": "Shukriya, isse madad milti hai. Ab main razamandi par dastkhat karti hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Dr. Werner (Chirurgin)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Bevor Sie unterschreiben, möchte ich sichergehen, dass Sie alle Aspekte des Eingriffs verstanden haben.", "en": "Hello, Mrs Yilmaz. Before you sign, I'd like to make sure you've understood all aspects of the procedure.", "ur": "Salam, Frau Yilmaz. Dastkhat se pehle main yaqeeni banana chahti hoon ke aap ne operation ke sab pehlu samajh liye hain." },
+        { "s": "B", "de": "Ich glaube schon, aber ich habe noch eine grundsätzliche Frage zur Notwendigkeit.", "en": "I think so, but I still have a fundamental question about the necessity.", "ur": "Mera khayal hai, lekin mujhe zaroori hone ke baare mein aik bunyadi sawal hai." },
+        { "s": "A", "de": "Bitte, fragen Sie alles, was Ihnen wichtig ist.", "en": "Please, ask whatever is important to you.", "ur": "Meherbani, jo bhi zaroori ho poochein." },
+        { "s": "B", "de": "Gibt es überhaupt eine Alternative zur Operation, oder ist das die einzige Option?", "en": "Is there even an alternative to the operation, or is that the only option?", "ur": "Kya operation ke ilawa koi doosra rasta hai, ya yehi aik option hai?" },
+        { "s": "A", "de": "Bei einer bestätigten akuten Blinddarmentzündung ist die Operation der Standard, konservative Behandlung mit Antibiotika ist nur in Ausnahmefällen sinnvoll.", "en": "With a confirmed acute appendicitis, the operation is the standard, conservative treatment with antibiotics is only sensible in exceptional cases.", "ur": "Confirmed appendix ki infection mein operation hi standard hai, antibiotics wala tareeqa sirf khaas soorat mein munasib hota hai." },
+        { "s": "B", "de": "Warum ist die Operation in meinem Fall die bessere Wahl als Antibiotika?", "en": "Why is the operation the better choice than antibiotics in my case?", "ur": "Mere case mein antibiotics se behtar operation kyun hai?" },
+        { "s": "A", "de": "Bei Ihnen liegt bereits eine deutliche Entzündung mit erhöhtem Risiko für einen Durchbruch vor, deshalb raten wir klar zur Operation.", "en": "In your case there's already a significant inflammation with an increased risk of rupture, so we clearly recommend the operation.", "ur": "Aap mein pehle hi kaafi soojan hai jis mein phatne ka khatra zyada hai, isliye hum operation ki wazeh salah dete hain." },
+        { "s": "B", "de": "Verstanden. Wie lange hält die Wirkung der Narkose nach der Operation an?", "en": "Understood. How long does the effect of the anesthesia last after the operation?", "ur": "Samajh gayi. Operation ke baad behoshi ka asar kitni der rehta hai?" },
+        { "s": "A", "de": "Die eigentliche Narkose lässt innerhalb von Minuten nach, aber leichte Müdigkeit kann noch Stunden anhalten.", "en": "The actual anesthesia wears off within minutes, but mild tiredness can persist for hours.", "ur": "Asli behoshi minuton mein khatam ho jati hai, lekin halki thakan ghanton tak reh sakti hai." },
+        { "s": "B", "de": "Besteht ein Risiko, dass ich während der Narkose etwas mitbekomme?", "en": "Is there a risk that I'll be aware of anything during the anesthesia?", "ur": "Kya behoshi ke doran kuch mehsoos hone ka khatra hai?" },
+        { "s": "A", "de": "Das ist bei modernen Vollnarkosen extrem selten, der Anästhesist überwacht Sie durchgehend.", "en": "That is extremely rare with modern general anesthesia, the anesthesiologist monitors you continuously.", "ur": "Modern behoshi mein yeh bohat kam hota hai, anesthesiologist musalsal nigrani karte hain." },
+        { "s": "B", "de": "Danke, das beantwortet meine Bedenken. Was passiert konkret, wenn ich jetzt unterschreibe?", "en": "Thanks, that answers my concerns. What exactly happens once I sign now?", "ur": "Shukriya, is se meri fikar dur hui. Ab dastkhat karne ke baad theek se kya hoga?" },
+        { "s": "A", "de": "Dann bereiten wir Sie für den Operationssaal vor, das dauert etwa dreißig Minuten.", "en": "Then we'll prepare you for the operating room, that takes about thirty minutes.", "ur": "Phir hum aap ko operation theatre ke liye taiyar karenge, isme taqreeban tees minute lagte hain." },
+        { "s": "B", "de": "Alles klar, ich bin bereit. Ich unterschreibe jetzt den Aufklärungsbogen.", "en": "All right, I'm ready. I'll sign the consent form now.", "ur": "Theek hai, main tayyar hoon. Ab main razamandi ke form par dastkhat karti hoon." },
+        { "s": "A", "de": "Sehr gut. Wir sehen uns gleich im Operationssaal.", "en": "Very good. See you shortly in the operating room.", "ur": "Bohat acha. Operation theatre mein milte hain." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Dr. Werner, Chirurgin",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Die Chirurgin erklärt Ihnen kurz die bevorstehende Operation.",
+        "en": "The surgeon briefly explains the upcoming operation to you.",
+        "ur": "Surgeon aap ko operation ke baare mein mukhtasar batati hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, ich bin Ihre Chirurgin. Wir operieren heute Ihren Blinddarm.",
+          "goal": { "en": "Say yes, you know.", "ur": "Kahein haan, maloom hai." },
+          "options": ["Ja, das weiß ich.", "Ja, ich weiß."],
+          "fallback": "Ist Ihnen das bekannt?",
+          "accept": [{ "kw": ["weiß"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Sie bekommen eine Vollnarkose.",
+          "goal": { "en": "Ask if that hurts.", "ur": "Poochein isse dard hota hai." },
+          "options": ["Tut das weh?", "Schmerzt das?"],
+          "fallback": "Haben Sie eine Frage zur Narkose?",
+          "accept": [{ "kw": ["weh"], "next": "n3" }, { "kw": ["schmerzt"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Nein, Sie spüren nichts.",
+          "goal": { "en": "Ask how long the operation takes.", "ur": "Poochein operation mein kitna waqt lagta hai." },
+          "options": ["Wie lange dauert die Operation?", "Wie lange dauert das?"],
+          "fallback": "Möchten Sie die Dauer wissen?",
+          "accept": [{ "kw": ["dauert"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Etwa eine Stunde.",
+          "goal": { "en": "Ask what happens afterward.", "ur": "Poochein uske baad kya hoga." },
+          "options": ["Und danach?", "Was passiert danach?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["danach"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Danach ruhen Sie sich aus.",
+          "goal": { "en": "Ask if you still need to sign something.", "ur": "Poochein kuch dastkhat karna hai." },
+          "options": ["Muss ich noch etwas unterschreiben?", "Muss ich etwas unterschreiben?"],
+          "fallback": "Ist noch etwas offen?",
+          "accept": [{ "kw": ["unterschreiben"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, bitte hier.",
+          "goal": { "en": "Say all right.", "ur": "Theek hai kahein." },
+          "options": ["In Ordnung.", "Gut."],
+          "fallback": "Passt das?",
+          "accept": [
+            { "kw": ["ordnung"], "reply": "Vielen Dank, wir sehen uns im Operationssaal.", "next": "END" },
+            { "kw": ["gut"], "reply": "Vielen Dank, wir sehen uns im Operationssaal.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Dr. Werner, Chirurgin",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie fragen die Chirurgin nach Alternativen zur Operation und was das Risiko genau ist.",
+        "en": "You ask the surgeon about alternatives to the operation and what the risk exactly is.",
+        "ur": "Aap surgeon se operation ke alternatives aur khatre ke baare mein poochte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Bevor Sie unterschreiben, möchte ich sichergehen, dass Sie alle Aspekte verstanden haben.",
+          "goal": { "en": "Say you have a fundamental question about the necessity.", "ur": "Kahein zaroori hone ke baare mein bunyadi sawal hai." },
+          "options": ["Ich habe noch eine grundsätzliche Frage zur Notwendigkeit.", "Ich habe eine Frage zur Notwendigkeit der Operation."],
+          "fallback": "Haben Sie eine Frage?",
+          "accept": [{ "kw": ["notwendigkeit"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Bitte, fragen Sie alles, was Ihnen wichtig ist.",
+          "goal": { "en": "Ask if there's an alternative to the operation.", "ur": "Poochein koi alternative hai kya." },
+          "options": ["Gibt es eine Alternative zur Operation?", "Gibt es eine andere Möglichkeit als die Operation?"],
+          "fallback": "Was möchten Sie fragen?",
+          "accept": [{ "kw": ["alternative"], "next": "n3" }, { "kw": ["möglichkeit"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Die Operation ist der Standard, konservative Behandlung ist nur in Ausnahmefällen sinnvoll.",
+          "goal": { "en": "Ask why the operation is the better choice in your case.", "ur": "Poochein aap ke case mein operation behtar kyun hai." },
+          "options": ["Warum ist die Operation in meinem Fall die bessere Wahl?", "Warum ist die Operation bei mir besser als Antibiotika?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["bessere"], "next": "n4" }, { "kw": ["warum"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Bei Ihnen liegt bereits eine deutliche Entzündung mit erhöhtem Risiko für einen Durchbruch vor.",
+          "goal": { "en": "Ask if there's a risk you'll be aware of anything during the anesthesia.", "ur": "Poochein behoshi ke doran kuch mehsoos hone ka khatra hai." },
+          "options": ["Besteht ein Risiko, dass ich während der Narkose etwas mitbekomme?", "Kann es sein, dass ich während der Narkose etwas spüre?"],
+          "fallback": "Haben Sie Sorgen wegen der Narkose?",
+          "accept": [{ "kw": ["narkose"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das ist extrem selten, der Anästhesist überwacht Sie durchgehend.",
+          "goal": { "en": "Say that answers your concerns and ask what happens once you sign.", "ur": "Kahein fikar dur hui aur poochein dastkhat ke baad kya hoga." },
+          "options": ["Das beantwortet meine Bedenken. Was passiert, wenn ich jetzt unterschreibe?", "Danke, das hilft. Was passiert nach der Unterschrift?"],
+          "fallback": "Sind Sie beruhigt?",
+          "accept": [{ "kw": ["unterschreibe"], "next": "n6" }, { "kw": ["unterschrift"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Dann bereiten wir Sie für den Operationssaal vor, das dauert etwa dreißig Minuten.",
+          "goal": { "en": "Say you're ready and you'll sign the consent form now.", "ur": "Kahein tayyar hain aur ab razamandi ke form par dastkhat karengi." },
+          "options": ["Alles klar, ich bin bereit. Ich unterschreibe jetzt den Aufklärungsbogen.", "Gut, ich bin bereit und unterschreibe jetzt."],
+          "fallback": "Sind Sie bereit?",
+          "accept": [
+            { "kw": ["bereit"], "reply": "Sehr gut. Wir sehen uns gleich im Operationssaal.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

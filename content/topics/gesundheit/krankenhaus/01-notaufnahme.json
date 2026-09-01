@@ -1,0 +1,218 @@
+{
+  "id": "notaufnahme",
+  "order": 1,
+  "icon": "🚑",
+  "title": { "de": "In der Notaufnahme", "en": "At the emergency room", "ur": "Emergency room mein" },
+  "angle": "Arriving with an acute problem and going through triage · Fori masla lekar emergency mein pohochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["notaufnahme", "bauchschmerzen", "triage", "dringlichkeit", "aufnahme", "untersuchen", "warten", "blutabnahme", "ultraschall", "verdacht"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Fischer (Notaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, wie kann ich Ihnen helfen?", "en": "Hello, how can I help you?", "ur": "Salam, main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Ich habe starke Bauchschmerzen.", "en": "I have strong stomach pain.", "ur": "Mujhe tez pait dard hai." },
+        { "s": "A", "de": "Wie heißen Sie?", "en": "What is your name?", "ur": "Aap ka naam kya hai?" },
+        { "s": "B", "de": "Aylin Yilmaz.", "en": "Aylin Yilmaz.", "ur": "Aylin Yilmaz." },
+        { "s": "A", "de": "Seit wann haben Sie die Schmerzen?", "en": "Since when have you had the pain?", "ur": "Yeh dard kab se hai?" },
+        { "s": "B", "de": "Seit heute Morgen.", "en": "Since this morning.", "ur": "Aaj subh se." },
+        { "s": "A", "de": "Haben Sie auch Fieber?", "en": "Do you also have a fever?", "ur": "Kya bukhar bhi hai?" },
+        { "s": "B", "de": "Ja, ein bisschen.", "en": "Yes, a little.", "ur": "Ji haan, thora sa." },
+        { "s": "A", "de": "Bitte setzen Sie sich. Ein Arzt kommt gleich.", "en": "Please sit down. A doctor will come shortly.", "ur": "Meherbani kar ke baith jayein. Doctor abhi aata hai." },
+        { "s": "B", "de": "Wie lange dauert das?", "en": "How long will that take?", "ur": "Isme kitna waqt lagega?" },
+        { "s": "A", "de": "Nicht lange, Ihr Fall ist dringend.", "en": "Not long, your case is urgent.", "ur": "Zyada nahi, aap ka case fori hai." },
+        { "s": "B", "de": "Danke schön.", "en": "Thank you.", "ur": "Shukriya." },
+        { "s": "A", "de": "Kommen Sie bitte mit in Zimmer drei.", "en": "Please come with me to room three.", "ur": "Meherbani kar ke kamra teen mein aayein." },
+        { "s": "B", "de": "In Ordnung.", "en": "All right.", "ur": "Theek hai." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Fischer (Notaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was führt Sie zu uns?", "en": "Hello, what brings you to us?", "ur": "Salam, aap kis liye aayi hain?" },
+        { "s": "B", "de": "Ich habe seit heute Morgen sehr starke Bauchschmerzen, rechts unten.", "en": "I've had very strong stomach pain since this morning, lower right.", "ur": "Aaj subh se mujhe tez pait dard hai, neechay dayen taraf." },
+        { "s": "A", "de": "Wie stark ist der Schmerz auf einer Skala von eins bis zehn?", "en": "How strong is the pain on a scale of one to ten?", "ur": "Aik se das ke scale par dard kitna hai?" },
+        { "s": "B", "de": "Ungefähr acht. Es tut auch weh, wenn ich mich bewege.", "en": "About eight. It also hurts when I move.", "ur": "Taqreeban aath. Jab main hilti hoon to bhi dard hota hai." },
+        { "s": "A", "de": "Haben Sie Übelkeit oder Erbrechen gehabt?", "en": "Have you had nausea or vomiting?", "ur": "Kya matli ya ulti hui hai?" },
+        { "s": "B", "de": "Übelkeit ja, erbrochen habe ich nicht.", "en": "Nausea yes, I haven't vomited.", "ur": "Matli haan, ulti nahi hui." },
+        { "s": "A", "de": "In Ordnung. Ich messe kurz Ihren Blutdruck und Puls.", "en": "All right. I'll briefly measure your blood pressure and pulse.", "ur": "Theek hai. Main aap ka blood pressure aur pulse check karta hoon." },
+        { "s": "B", "de": "Gut. Was denken Sie, was es sein könnte?", "en": "Good. What do you think it could be?", "ur": "Acha. Aap ke khayal mein yeh kya ho sakta hai?" },
+        { "s": "A", "de": "Das kann ich noch nicht sagen, aber es klingt nach einer Blinddarmentzündung.", "en": "I can't say yet, but it sounds like appendicitis.", "ur": "Abhi nahi keh sakta, lekin appendix ki infection lagti hai." },
+        { "s": "B", "de": "Was passiert jetzt?", "en": "What happens now?", "ur": "Ab kya hoga?" },
+        { "s": "A", "de": "Wir nehmen Ihnen Blut ab und machen einen Ultraschall vom Bauch.", "en": "We'll take a blood sample and do an ultrasound of your abdomen.", "ur": "Hum aap ka khoon lenge aur pait ka ultrasound karenge." },
+        { "s": "B", "de": "Tut die Blutabnahme weh?", "en": "Does the blood draw hurt?", "ur": "Kya khoon lena dard karta hai?" },
+        { "s": "A", "de": "Nur ein kurzer Piks, es geht schnell.", "en": "Just a short prick, it's quick.", "ur": "Sirf aik lamha ki chubhan, jaldi ho jata hai." },
+        { "s": "B", "de": "In Ordnung. Wie lange muss ich warten?", "en": "All right. How long do I have to wait?", "ur": "Theek hai. Kitna intezaar karna hoga?" },
+        { "s": "A", "de": "Die Ergebnisse dauern etwa eine Stunde.", "en": "The results take about an hour.", "ur": "Natije taqreeban aik ghante mein aa jayenge." },
+        { "s": "B", "de": "Gut, ich warte hier.", "en": "Good, I'll wait here.", "ur": "Theek hai, main yahan intezaar karti hoon." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Fischer (Notaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Die Triage hat mir gesagt, Sie haben starke Bauchschmerzen.", "en": "Hello, Mrs Yilmaz. Triage told me you have strong stomach pain.", "ur": "Salam, Frau Yilmaz. Triage ne bataya aap ko tez pait dard hai." },
+        { "s": "B", "de": "Genau, seit heute Morgen, und es wird immer schlimmer.", "en": "Exactly, since this morning, and it keeps getting worse.", "ur": "Bilkul, aaj subh se, aur barhta ja raha hai." },
+        { "s": "A", "de": "Können Sie mir genau zeigen, wo es wehtut?", "en": "Can you show me exactly where it hurts?", "ur": "Kya aap dikha sakti hain kahan dard hai?" },
+        { "s": "B", "de": "Hier, rechts unten. Es tut besonders weh, wenn ich loslasse, nachdem ich gedrückt habe.", "en": "Here, lower right. It especially hurts when I let go after pressing.", "ur": "Yahan, neechay dayen taraf. Dabane ke baad chhorne par khaas dard hota hai." },
+        { "s": "A", "de": "Das nennt man Loslassschmerz, das ist ein typisches Zeichen für eine Blinddarmentzündung.", "en": "That's called rebound tenderness, it's a typical sign of appendicitis.", "ur": "Isay loslassschmerz kehte hain, yeh appendix ki infection ki khaas alamat hai." },
+        { "s": "B", "de": "Muss ich deswegen operiert werden?", "en": "Do I need to have surgery because of that?", "ur": "Kya iski wajah se operation karana pare ga?" },
+        { "s": "A", "de": "Das wissen wir erst nach dem Ultraschall und den Blutwerten. Ich veranlasse beides jetzt.", "en": "We'll only know after the ultrasound and blood values. I'll arrange both now.", "ur": "Ultrasound aur blood test ke baad hi pata chalega. Main abhi dono ka intezam karta hoon." },
+        { "s": "B", "de": "Wie hoch ist der Verdacht auf eine Blinddarmentzündung?", "en": "How strong is the suspicion of appendicitis?", "ur": "Appendix ki infection ka shak kitna zyada hai?" },
+        { "s": "A", "de": "Aufgrund Ihrer Symptome relativ hoch, aber wir müssen es bestätigen.", "en": "Based on your symptoms relatively high, but we need to confirm it.", "ur": "Aap ki alamaat ke mutabiq kaafi zyada, lekin tasdeeq karni hogi." },
+        { "s": "B", "de": "Was passiert, wenn es sich bestätigt?", "en": "What happens if it's confirmed?", "ur": "Agar tasdeeq ho jaye to kya hoga?" },
+        { "s": "A", "de": "Dann wird eine Chirurgin den Blinddarm meistens noch am selben Tag entfernen.", "en": "Then a surgeon will usually remove the appendix the same day.", "ur": "Phir aksar usi din surgeon appendix nikaal deti hai." },
+        { "s": "B", "de": "Ist das ein großer Eingriff?", "en": "Is that a major procedure?", "ur": "Kya yeh bara operation hai?" },
+        { "s": "A", "de": "Nein, heute meistens minimalinvasiv mit kleinen Schnitten, und die Erholung geht schnell.", "en": "No, nowadays usually minimally invasive with small incisions, and recovery is quick.", "ur": "Nahi, aaj kal aksar chhote cuts ke saath, aur jaldi theek ho jate hain." },
+        { "s": "B", "de": "Das beruhigt mich etwas. Darf ich bis dahin etwas essen oder trinken?", "en": "That reassures me a bit. May I eat or drink anything until then?", "ur": "Yeh sun kar thora itminaan hua. Kya tab tak kuch kha ya pi sakti hoon?" },
+        { "s": "A", "de": "Nein, bitte nüchtern bleiben, falls eine Operation nötig wird.", "en": "No, please stay fasting, in case an operation becomes necessary.", "ur": "Nahi, meherbani kar ke khali pait rahein, agar operation ki zaroorat pare." },
+        { "s": "B", "de": "Verstanden. Ich warte nüchtern.", "en": "Understood. I'll wait fasting.", "ur": "Samajh gayi. Khali pait intezaar karti hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Fischer (Notaufnahme)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Frau Yilmaz, ich habe Ihre Blutwerte und den Ultraschall angeschaut.", "en": "Mrs Yilmaz, I've looked at your blood values and the ultrasound.", "ur": "Frau Yilmaz, maine aap ke blood test aur ultrasound dekh liye hain." },
+        { "s": "B", "de": "Und? Was zeigen die Ergebnisse?", "en": "And? What do the results show?", "ur": "Aur? Natije kya dikhate hain?" },
+        { "s": "A", "de": "Ihre Entzündungswerte im Blut sind deutlich erhöht, und der Ultraschall bestätigt eine akute Blinddarmentzündung.", "en": "Your inflammation markers in the blood are clearly elevated, and the ultrasound confirms acute appendicitis.", "ur": "Blood mein soojan ki values kaafi barhi hui hain, aur ultrasound se acute appendix ki infection ki tasdeeq hoti hai." },
+        { "s": "B", "de": "Das habe ich befürchtet. Was ist der nächste Schritt?", "en": "That's what I feared. What's the next step?", "ur": "Yehi dar tha. Agla qadam kya hai?" },
+        { "s": "A", "de": "Ich bespreche das jetzt mit der Chirurgie, eine Operation heute Abend ist wahrscheinlich am sinnvollsten.", "en": "I'll discuss this with surgery now, an operation this evening is probably most sensible.", "ur": "Main abhi surgery team se baat karta hoon, aaj sham operation shayad behtar rahega." },
+        { "s": "B", "de": "Wie dringend ist das? Kann ich nicht bis morgen warten?", "en": "How urgent is that? Can't I wait until tomorrow?", "ur": "Yeh kitna zaroori hai? Kya main kal tak intezaar nahi kar sakti?" },
+        { "s": "A", "de": "Davon rate ich dringend ab. Unbehandelt kann der Blinddarm durchbrechen, das wäre viel gefährlicher.", "en": "I strongly advise against that. Left untreated, the appendix can rupture, which would be much more dangerous.", "ur": "Main is se sakhti se mana karta hoon. Agar ilaj na ho to appendix phat sakta hai, jo bohat zyada khatarnaak hoga." },
+        { "s": "B", "de": "Verstehe. Wie läuft die Operation grundsätzlich ab?", "en": "I understand. How does the operation basically work?", "ur": "Samajh gayi. Operation aam tor par kaise hota hai?" },
+        { "s": "A", "de": "In der Regel laparoskopisch, also über drei kleine Schnitte, unter Vollnarkose, etwa eine Stunde.", "en": "As a rule laparoscopically, so through three small incisions, under general anesthesia, about an hour.", "ur": "Aam tor par laparoscopic, yani teen chhote cuts se, poori behoshi mein, taqreeban aik ghanta." },
+        { "s": "B", "de": "Welche Risiken sollte ich vorher kennen?", "en": "What risks should I know about beforehand?", "ur": "Pehle mujhe kaunse risks jaanne chahiye?" },
+        { "s": "A", "de": "Wie bei jeder Operation gibt es Risiken wie Blutung oder Infektion, aber bei diesem Eingriff sind sie selten.", "en": "As with any operation there are risks like bleeding or infection, but they're rare with this procedure.", "ur": "Har operation ki tarah khoon behna ya infection ka khatra hota hai, lekin is operation mein kam hai." },
+        { "s": "B", "de": "Wer wird mich genauer über die Operation aufklären?", "en": "Who will inform me in more detail about the operation?", "ur": "Operation ke baare mein tafseel se kaun bataega?" },
+        { "s": "A", "de": "Die Chirurgin kommt gleich vorbei und bespricht mit Ihnen die Einzelheiten und die Einwilligung.", "en": "The surgeon will come by shortly and discuss the details and consent with you.", "ur": "Surgeon abhi aa kar tafseelat aur razamandi ke baare mein baat karegi." },
+        { "s": "B", "de": "Gut. Kann ich vorher noch meinen Mann anrufen?", "en": "Good. Can I still call my husband beforehand?", "ur": "Acha. Kya main pehle apne shohar ko phone kar sakti hoon?" },
+        { "s": "A", "de": "Natürlich, dafür ist noch genug Zeit.", "en": "Of course, there's still enough time for that.", "ur": "Zaroor, iske liye abhi kaafi waqt hai." },
+        { "s": "B", "de": "Danke, Doktor Fischer, für die ausführliche Erklärung.", "en": "Thank you, Doctor Fischer, for the detailed explanation.", "ur": "Shukriya, Doktor Fischer, tafseeli wazahat ke liye." },
+        { "s": "A", "de": "Gerne. Die Chirurgin ist gleich bei Ihnen.", "en": "You're welcome. The surgeon will be with you shortly.", "ur": "Khushi se. Surgeon abhi aap ke paas aati hai." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Fischer, Notaufnahme",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Sie kommen mit starken Bauchschmerzen in die Notaufnahme.",
+        "en": "You come to the emergency room with strong stomach pain.",
+        "ur": "Aap tez pait dard ke saath emergency room aate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, wie kann ich Ihnen helfen?",
+          "goal": { "en": "Say you have strong stomach pain.", "ur": "Kahein tez pait dard hai." },
+          "options": ["Ich habe starke Bauchschmerzen.", "Ich habe sehr starke Bauchschmerzen."],
+          "fallback": "Was fehlt Ihnen?",
+          "accept": [{ "kw": ["bauchschmerzen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie heißen Sie?",
+          "goal": { "en": "Give your name.", "ur": "Naam batayein." },
+          "options": ["Aylin Yilmaz.", "Mein Name ist Aylin Yilmaz."],
+          "fallback": "Können Sie mir Ihren Namen sagen?",
+          "accept": [{ "kw": ["yilmaz"], "next": "n3" }, { "kw": ["name"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Seit wann haben Sie die Schmerzen?",
+          "goal": { "en": "Say since this morning.", "ur": "Kahein aaj subh se." },
+          "options": ["Seit heute Morgen.", "Seit heute früh."],
+          "fallback": "Wann hat es angefangen?",
+          "accept": [{ "kw": ["morgen"], "next": "n4" }, { "kw": ["früh"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Haben Sie auch Fieber?",
+          "goal": { "en": "Say yes, a little.", "ur": "Kahein haan, thora sa." },
+          "options": ["Ja, ein bisschen.", "Ja, etwas."],
+          "fallback": "Fieber gemessen?",
+          "accept": [{ "kw": ["ja"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Bitte setzen Sie sich. Ein Arzt kommt gleich.",
+          "goal": { "en": "Ask how long that will take.", "ur": "Poochein kitna waqt lagega." },
+          "options": ["Wie lange dauert das?", "Wie lange muss ich warten?"],
+          "fallback": "Ist das in Ordnung?",
+          "accept": [{ "kw": ["lange"], "next": "n6" }, { "kw": ["warten"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Nicht lange, Ihr Fall ist dringend.",
+          "goal": { "en": "Thank him.", "ur": "Shukriya kahein." },
+          "options": ["Danke schön.", "Vielen Dank."],
+          "fallback": "Ist das klar?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Kommen Sie bitte mit in Zimmer drei.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Fischer, Notaufnahme",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Ihre Blutwerte und der Ultraschall bestätigen eine akute Blinddarmentzündung, und Sie sprechen mit dem Arzt über die Operation.",
+        "en": "Your blood values and the ultrasound confirm acute appendicitis, and you're talking to the doctor about the operation.",
+        "ur": "Blood test aur ultrasound se appendix ki infection ki tasdeeq hoti hai, aur aap doctor se operation ke baare mein baat karte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ihre Entzündungswerte sind erhöht, und der Ultraschall bestätigt eine akute Blinddarmentzündung.",
+          "goal": { "en": "Say that's what you feared and ask what the next step is.", "ur": "Kahein yehi dar tha aur agla qadam poochein." },
+          "options": ["Das habe ich befürchtet. Was ist der nächste Schritt?", "Das habe ich vermutet. Was passiert jetzt?"],
+          "fallback": "Haben Sie das erwartet?",
+          "accept": [{ "kw": ["nächste", "schritt"], "next": "n2" }, { "kw": ["jetzt"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Eine Operation heute Abend ist wahrscheinlich am sinnvollsten.",
+          "goal": { "en": "Ask whether you can wait until tomorrow instead.", "ur": "Poochein kya kal tak intezaar kar sakte hain." },
+          "options": ["Kann ich nicht bis morgen warten?", "Muss das heute sein, oder geht morgen auch?"],
+          "fallback": "Ist das dringend?",
+          "accept": [{ "kw": ["morgen"], "next": "n3" }, { "kw": ["warten"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Davon rate ich dringend ab. Unbehandelt kann der Blinddarm durchbrechen.",
+          "goal": { "en": "Say you understand and ask how the operation basically works.", "ur": "Kahein samajh gaye aur poochein operation kaise hota hai." },
+          "options": ["Verstehe. Wie läuft die Operation ab?", "Verstanden. Wie funktioniert die Operation?"],
+          "fallback": "Haben Sie eine Frage zur Operation?",
+          "accept": [{ "kw": ["operation"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "In der Regel laparoskopisch, über drei kleine Schnitte, unter Vollnarkose.",
+          "goal": { "en": "Ask what risks you should know about beforehand.", "ur": "Poochein kaunse risks jaanne chahiye." },
+          "options": ["Welche Risiken sollte ich vorher kennen?", "Gibt es Risiken, die ich kennen sollte?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["risiken"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Wie bei jeder Operation gibt es Risiken wie Blutung oder Infektion, aber sie sind selten.",
+          "goal": { "en": "Ask if you can still call your husband beforehand.", "ur": "Poochein kya shohar ko phone kar sakti hain." },
+          "options": ["Kann ich vorher noch meinen Mann anrufen?", "Darf ich vorher meinen Mann anrufen?"],
+          "fallback": "Möchten Sie noch etwas fragen?",
+          "accept": [{ "kw": ["mann", "anrufen"], "next": "n6" }, { "kw": ["anrufen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Natürlich, dafür ist noch genug Zeit.",
+          "goal": { "en": "Thank the doctor for the detailed explanation.", "ur": "Tafseeli wazahat ka shukriya kahein." },
+          "options": ["Danke für die ausführliche Erklärung.", "Vielen Dank für die ausführliche Erklärung."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne. Die Chirurgin ist gleich bei Ihnen.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

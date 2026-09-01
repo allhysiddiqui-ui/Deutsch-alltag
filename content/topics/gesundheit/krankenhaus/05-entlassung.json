@@ -1,0 +1,217 @@
+{
+  "id": "entlassung",
+  "order": 5,
+  "icon": "🏠",
+  "title": { "de": "Die Entlassung", "en": "The discharge", "ur": "Discharge hona" },
+  "angle": "Leaving the hospital with aftercare instructions · Aftercare ki hidayaat ke saath hospital se ghar jana",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["entlassung", "entlassungsbrief", "nachsorge", "fäden ziehen", "schonen", "nachkontrolle", "arbeitsunfähigkeit", "physiotherapie", "mitgeben", "abholen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Schwester Bauer (Pflegekraft)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Heute dürfen Sie nach Hause.", "en": "Good morning, Mrs Yilmaz. Today you may go home.", "ur": "Subh bakhair, Frau Yilmaz. Aaj aap ghar ja sakti hain." },
+        { "s": "B", "de": "Das ist eine gute Nachricht!", "en": "That's good news!", "ur": "Yeh acha khabar hai!" },
+        { "s": "A", "de": "Der Arzt kommt gleich noch einmal vorbei.", "en": "The doctor will stop by once more shortly.", "ur": "Doctor abhi aik baar aur aayenge." },
+        { "s": "B", "de": "Gut, ich warte.", "en": "Good, I'll wait.", "ur": "Acha, main intezaar karti hoon." },
+        { "s": "A", "de": "Hier ist Ihr Entlassungsbrief.", "en": "Here is your discharge letter.", "ur": "Yeh lein aap ka discharge letter." },
+        { "s": "B", "de": "Danke schön.", "en": "Thank you.", "ur": "Shukriya." },
+        { "s": "A", "de": "Und hier sind Ihre Tabletten für zu Hause.", "en": "And here are your tablets for home.", "ur": "Aur yeh ghar ke liye aap ki goliyan hain." },
+        { "s": "B", "de": "Vielen Dank.", "en": "Thank you very much.", "ur": "Bohat shukriya." },
+        { "s": "A", "de": "Ruhen Sie sich zu Hause noch etwas aus.", "en": "Rest a bit more at home.", "ur": "Ghar par aur thora aaram karein." },
+        { "s": "B", "de": "Mache ich.", "en": "I will.", "ur": "Zaroor karoongi." },
+        { "s": "A", "de": "Holt Sie jemand ab?", "en": "Is someone picking you up?", "ur": "Aap ko koi lene aa raha hai?" },
+        { "s": "B", "de": "Ja, mein Mann.", "en": "Yes, my husband.", "ur": "Ji haan, mera shohar." },
+        { "s": "A", "de": "Sehr gut. Gute Besserung weiterhin!", "en": "Very good. Continued good health!", "ur": "Bohat acha. Aage bhi jald sehatyabi!" },
+        { "s": "B", "de": "Vielen Dank für alles.", "en": "Thank you for everything.", "ur": "Sab kuch ke liye bohat shukriya." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Schwester Bauer (Pflegekraft)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Der Arzt hat grünes Licht gegeben, Sie können heute entlassen werden.", "en": "Good morning, Mrs Yilmaz. The doctor has given the green light, you can be discharged today.", "ur": "Subh bakhair, Frau Yilmaz. Doctor ne ijazat de di hai, aaj aap discharge ho sakti hain." },
+        { "s": "B", "de": "Endlich, ich freue mich schon auf zu Hause.", "en": "Finally, I'm already looking forward to being home.", "ur": "Aakhirkar, ghar jaane ka intezaar tha." },
+        { "s": "A", "de": "Ich gehe mit Ihnen die wichtigsten Punkte durch, bevor Sie gehen.", "en": "I'll go through the most important points with you before you leave.", "ur": "Jaane se pehle main aap se zaroori baatein kar leti hoon." },
+        { "s": "B", "de": "Gerne, ich höre zu.", "en": "Sure, I'm listening.", "ur": "Zaroor, main sun rahi hoon." },
+        { "s": "A", "de": "Nehmen Sie die Schmerztabletten weiterhin dreimal täglich, solange es nötig ist.", "en": "Keep taking the pain tablets three times daily, as long as it's necessary.", "ur": "Dard ki goliyan din mein teen baar lena jaari rakhein, jab tak zaroorat ho." },
+        { "s": "B", "de": "Wann werden die Fäden gezogen?", "en": "When will the stitches be removed?", "ur": "Taanke kab nikaale jayenge?" },
+        { "s": "A", "de": "Etwa in zehn Tagen, das macht Ihr Hausarzt.", "en": "In about ten days, your family doctor will do that.", "ur": "Taqreeban das din mein, yeh aap ka family doctor karega." },
+        { "s": "B", "de": "Muss ich mich schonen?", "en": "Do I need to take it easy?", "ur": "Kya mujhe khayal rakhna hoga?" },
+        { "s": "A", "de": "Ja, keine schweren Sachen heben und nicht duschen mit nassem Verband.", "en": "Yes, no lifting heavy things and don't shower with a wet bandage.", "ur": "Ji haan, bhaari cheezein na uthayein aur geeli bandage ke saath shower na lein." },
+        { "s": "B", "de": "Wie lange bin ich arbeitsunfähig geschrieben?", "en": "How long am I signed off as unable to work?", "ur": "Kitne din ke liye medical chhutti hai?" },
+        { "s": "A", "de": "Zehn Tage, danach entscheidet Ihr Hausarzt weiter.", "en": "Ten days, after that your family doctor decides further.", "ur": "Das din, uske baad family doctor faisla karega." },
+        { "s": "B", "de": "Bekomme ich einen Termin zur Nachkontrolle?", "en": "Will I get an appointment for a follow-up check?", "ur": "Follow-up appointment milega?" },
+        { "s": "A", "de": "Ja, das steht im Entlassungsbrief, den Sie Ihrem Hausarzt zeigen sollten.", "en": "Yes, that's in the discharge letter, which you should show your family doctor.", "ur": "Ji haan, yeh discharge letter mein hai, jo family doctor ko dikhayein." },
+        { "s": "B", "de": "Alles klar. Ich rufe meinen Mann zum Abholen an.", "en": "All right. I'll call my husband to pick me up.", "ur": "Theek hai. Main shohar ko lene ke liye phone karti hoon." },
+        { "s": "A", "de": "Gute Idee. Gute Besserung weiterhin, Frau Yilmaz!", "en": "Good idea. Continued good health, Mrs Yilmaz!", "ur": "Acha khayal hai. Aage bhi jald sehatyabi, Frau Yilmaz!" },
+        { "s": "B", "de": "Vielen Dank für die gute Pflege.", "en": "Thank you very much for the good care.", "ur": "Achi dekhbhaal ka bohat shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Schwester Bauer (Pflegekraft)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Ich habe gute Nachrichten, der Arzt entlässt Sie heute.", "en": "Good morning, Mrs Yilmaz. I have good news, the doctor is discharging you today.", "ur": "Subh bakhair, Frau Yilmaz. Achi khabar hai, doctor aaj aap ko discharge kar raha hai." },
+        { "s": "B", "de": "Endlich, ich habe mich schon so auf mein eigenes Bett gefreut.", "en": "Finally, I was already so looking forward to my own bed.", "ur": "Aakhirkar, apne bister ka bohat intezaar tha." },
+        { "s": "A", "de": "Das verstehe ich gut. Bevor Sie gehen, gehe ich mit Ihnen die Nachsorge durch.", "en": "I understand that well. Before you leave, I'll go through the aftercare with you.", "ur": "Main samajh sakti hoon. Jaane se pehle aftercare samjha deti hoon." },
+        { "s": "B", "de": "Bitte, ich möchte alles richtig machen.", "en": "Please, I want to do everything right.", "ur": "Meherbani, sab kuch sahi karna chahti hoon." },
+        { "s": "A", "de": "Nehmen Sie die Schmerztabletten nach Bedarf, aber nicht mehr als vier am Tag.", "en": "Take the pain tablets as needed, but no more than four a day.", "ur": "Zaroorat ke mutabiq dard ki goliyan lein, lekin din mein chaar se zyada nahi." },
+        { "s": "B", "de": "Was mache ich, wenn der Schmerz plötzlich stärker wird?", "en": "What do I do if the pain suddenly gets stronger?", "ur": "Agar achanak dard zyada ho jaye to kya karoon?" },
+        { "s": "A", "de": "Falls der Schmerz die Tabletten nicht mehr ausreichend lindert, kontaktieren Sie umgehend Ihren Hausarzt.", "en": "If the pain is no longer sufficiently relieved by the tablets, contact your family doctor immediately.", "ur": "Agar goliyan dard ko kaafi kam na karein to foran family doctor se rabta karein." },
+        { "s": "B", "de": "Verstanden. Was ist mit der Wunde? Darf ich sie berühren?", "en": "Understood. What about the wound? May I touch it?", "ur": "Samajh gayi. Zakhm ka kya? Kya usay chhoo sakti hoon?" },
+        { "s": "A", "de": "Vermeiden Sie unnötiges Berühren, halten Sie die Stelle sauber und trocken.", "en": "Avoid unnecessary touching, keep the area clean and dry.", "ur": "Bila zaroorat na chhuyein, jagah saaf aur sookhi rakhein." },
+        { "s": "B", "de": "Wann darf ich wieder duschen?", "en": "When may I shower again?", "ur": "Main dobara shower kab le sakti hoon?" },
+        { "s": "A", "de": "Ab morgen, aber duschen Sie kurz und decken Sie die Wunde vorher mit einem wasserdichten Pflaster ab.", "en": "From tomorrow, but shower briefly and cover the wound with a waterproof plaster beforehand.", "ur": "Kal se, lekin thora shower lein aur pehle zakhm par waterproof plaster lagayein." },
+        { "s": "B", "de": "Wird zu Hause eine Physiotherapie nötig sein?", "en": "Will physiotherapy be necessary at home?", "ur": "Kya ghar par physiotherapy ki zaroorat hogi?" },
+        { "s": "A", "de": "Bei diesem Eingriff normalerweise nicht, leichte Bewegung reicht völlig aus.", "en": "For this procedure normally not, light movement is completely sufficient.", "ur": "Is operation ke liye aksar nahi, halki movement kaafi hai." },
+        { "s": "B", "de": "Gut zu wissen. Was steht alles im Entlassungsbrief?", "en": "Good to know. What all is in the discharge letter?", "ur": "Yeh jaan kar acha laga. Discharge letter mein kya kya hai?" },
+        { "s": "A", "de": "Die Diagnose, der Operationsverlauf, Ihre Medikamente und der Termin zur Nachkontrolle.", "en": "The diagnosis, the course of the operation, your medications, and the follow-up appointment.", "ur": "Diagnosis, operation ka tafseel, dawaen, aur follow-up appointment." },
+        { "s": "B", "de": "Perfekt. Vielen Dank für die klare Erklärung, Schwester Bauer.", "en": "Perfect. Thank you very much for the clear explanation, Nurse Bauer.", "ur": "Bohat acha. Wazeh wazahat ka bohat shukriya, Schwester Bauer." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Schwester Bauer (Pflegekraft)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Bevor wir zur Entlassung kommen, möchte ich sichergehen, dass wirklich alle Ihre Fragen geklärt sind.", "en": "Good morning, Mrs Yilmaz. Before we get to the discharge, I want to make sure all your questions are really answered.", "ur": "Subh bakhair, Frau Yilmaz. Discharge se pehle yaqeeni banana chahti hoon ke aap ke sab sawal hal ho gaye hain." },
+        { "s": "B", "de": "Das schätze ich sehr. Ich habe tatsächlich noch eine wichtige Frage zur Wiedereingliederung in den Alltag.", "en": "I really appreciate that. I actually still have an important question about easing back into daily life.", "ur": "Yeh bohat achi baat hai. Mujhe roz marra ki zindagi mein wapas aane ke baare mein aik zaroori sawal hai." },
+        { "s": "A", "de": "Sehr gerne, das ist ein wichtiger Punkt, den viele Patienten unterschätzen.", "en": "Very glad to help, that's an important point that many patients underestimate.", "ur": "Bohat khushi se, yeh aik zaroori baat hai jise aksar patients kam sahi maante hain." },
+        { "s": "B", "de": "Wie plane ich den Übergang am besten, besonders in der ersten Woche zu Hause?", "en": "How do I best plan the transition, especially in the first week at home?", "ur": "Pehle hafte, khaas kar ghar par, is tabdeeli ki behtareen planning kaise karoon?" },
+        { "s": "A", "de": "Planen Sie für die erste Woche möglichst wenig, lassen Sie sich bei Einkäufen und Hausarbeit helfen.", "en": "Plan as little as possible for the first week, get help with shopping and housework.", "ur": "Pehle hafte kam se kam planning karein, khareedari aur ghar ke kaam mein madad lein." },
+        { "s": "B", "de": "Und danach? Wie steigere ich meine Aktivität sinnvoll?", "en": "And afterward? How do I sensibly increase my activity?", "ur": "Uske baad? Apni activity ko munasib tareeqe se kaise barhaon?" },
+        { "s": "A", "de": "Steigern Sie schrittweise, orientieren Sie sich an Ihrem Schmerzniveau, nicht am Kalender.", "en": "Increase step by step, orient yourself to your pain level, not the calendar.", "ur": "Aahista aahista barhayein, calendar ki jagah apne dard ke level ko dekhein." },
+        { "s": "B", "de": "Das ist ein guter Rat. Wie erkenne ich, ob ich zu früh zu viel mache?", "en": "That's good advice. How do I recognize if I'm doing too much too early?", "ur": "Yeh acha mashwara hai. Kaise pata chale ke jald zyada kaam kar rahi hoon?" },
+        { "s": "A", "de": "Wenn der Schmerz nach einer Aktivität deutlich zunimmt oder anhält, war es zu viel, dann eine Pause einlegen.", "en": "If the pain increases significantly or persists after an activity, it was too much, then take a break.", "ur": "Agar kisi activity ke baad dard kaafi barh jaye ya rahe, to zyada tha, phir waqfa lein." },
+        { "s": "B", "de": "Verstanden. Eine letzte Frage: Sollte ich mich für psychologische Unterstützung nach so einem Krankenhausaufenthalt interessieren?", "en": "Understood. One last question: should I consider psychological support after a hospital stay like this?", "ur": "Samajh gayi. Aakhri sawal: kya aise hospital ke qeyam ke baad psychological support ke baare mein sochna chahiye?" },
+        { "s": "A", "de": "Das ist eine sehr durchdachte Frage. Manche Patienten fühlen sich nach einer Notoperation überfordert, das ist völlig normal.", "en": "That's a very thoughtful question. Some patients feel overwhelmed after an emergency operation, that's completely normal.", "ur": "Yeh bohat soch samajh kar poocha gaya sawal hai. Kuch patients emergency operation ke baad bojh mehsoos karte hain, yeh bilkul normal hai." },
+        { "s": "B", "de": "An wen kann ich mich wenden, falls ich das brauche?", "en": "Who can I turn to if I need that?", "ur": "Agar zaroorat pare to kis se rabta karoon?" },
+        { "s": "A", "de": "Sprechen Sie einfach Ihren Hausarzt darauf an, er kann Sie bei Bedarf weiterverweisen.", "en": "Just mention it to your family doctor, he can refer you further if needed.", "ur": "Sirf family doctor ko batayein, zaroorat par woh aage refer kar dega." },
+        { "s": "B", "de": "Danke, das ist eine große Erleichterung zu wissen.", "en": "Thanks, that's a great relief to know.", "ur": "Shukriya, yeh jaan kar bohat sukoon mila." },
+        { "s": "A", "de": "Gerne. Sie haben das alles wirklich gut gemeistert, Frau Yilmaz.", "en": "You're welcome. You've really handled all of this well, Mrs Yilmaz.", "ur": "Khushi se. Aap ne yeh sab bohat achi tarah sambhala hai, Frau Yilmaz." },
+        { "s": "B", "de": "Vielen Dank für Ihre Fürsorge während des gesamten Aufenthalts.", "en": "Thank you very much for your care during the entire stay.", "ur": "Poore qeyam mein aap ki dekhbhaal ka bohat shukriya." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Schwester Bauer, Pflegekraft",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Die Krankenschwester bereitet Ihre Entlassung aus dem Krankenhaus vor.",
+        "en": "The nurse prepares your discharge from the hospital.",
+        "ur": "Nurse aap ko hospital se discharge karne ki taiyari kar rahi hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz. Heute dürfen Sie nach Hause.",
+          "goal": { "en": "Say that's good news.", "ur": "Kahein yeh achi khabar hai." },
+          "options": ["Das ist eine gute Nachricht!", "Das freut mich sehr!"],
+          "fallback": "Freuen Sie sich?",
+          "accept": [{ "kw": ["nachricht"], "next": "n2" }, { "kw": ["freut"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Hier ist Ihr Entlassungsbrief.",
+          "goal": { "en": "Thank her.", "ur": "Shukriya kahein." },
+          "options": ["Danke schön.", "Vielen Dank."],
+          "fallback": "Haben Sie das?",
+          "accept": [{ "kw": ["danke"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Und hier sind Ihre Tabletten für zu Hause.",
+          "goal": { "en": "Thank her very much.", "ur": "Bohat shukriya kahein." },
+          "options": ["Vielen Dank.", "Danke sehr."],
+          "fallback": "Passt das?",
+          "accept": [{ "kw": ["danke"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ruhen Sie sich zu Hause noch etwas aus.",
+          "goal": { "en": "Say you will.", "ur": "Kahein zaroor karengi." },
+          "options": ["Mache ich.", "Das mache ich."],
+          "fallback": "Werden Sie das tun?",
+          "accept": [{ "kw": ["mache"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Holt Sie jemand ab?",
+          "goal": { "en": "Say yes, your husband.", "ur": "Kahein haan, shohar." },
+          "options": ["Ja, mein Mann.", "Ja, mein Mann holt mich ab."],
+          "fallback": "Kommt jemand?",
+          "accept": [{ "kw": ["mann"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Sehr gut. Gute Besserung weiterhin!",
+          "goal": { "en": "Thank her for everything.", "ur": "Sab kuch ke liye shukriya kahein." },
+          "options": ["Vielen Dank für alles.", "Danke für alles."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Auf Wiedersehen, gute Heimfahrt!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Schwester Bauer, Pflegekraft",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Vor der Entlassung möchten Sie genau wissen, wie Sie die Rückkehr in den Alltag am besten planen.",
+        "en": "Before discharge you want to know exactly how to best plan your return to daily life.",
+        "ur": "Discharge se pehle aap jaanna chahte hain roz marra ki zindagi mein wapas kaise jayein."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Bevor wir zur Entlassung kommen, möchte ich sichergehen, dass alle Fragen geklärt sind.",
+          "goal": { "en": "Say you have an important question about easing back into daily life.", "ur": "Kahein roz marra zindagi mein wapas jane ke baare mein sawal hai." },
+          "options": ["Ich habe noch eine wichtige Frage zur Wiedereingliederung in den Alltag.", "Ich habe eine Frage zur Rückkehr in den Alltag."],
+          "fallback": "Haben Sie eine Frage?",
+          "accept": [{ "kw": ["alltag"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das ist ein wichtiger Punkt, den viele Patienten unterschätzen.",
+          "goal": { "en": "Ask how to best plan the transition in the first week at home.", "ur": "Poochein pehle hafte ki behtareen planning kaise karein." },
+          "options": ["Wie plane ich den Übergang am besten in der ersten Woche?", "Wie soll ich die erste Woche zu Hause planen?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["woche"], "next": "n3" }, { "kw": ["planen"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Planen Sie für die erste Woche möglichst wenig, lassen Sie sich helfen.",
+          "goal": { "en": "Ask how to sensibly increase your activity afterward.", "ur": "Poochein uske baad activity kaise barhayein." },
+          "options": ["Wie steigere ich meine Aktivität sinnvoll?", "Wie soll ich meine Aktivität danach steigern?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["aktivität"], "next": "n4" }, { "kw": ["steigere"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Steigern Sie schrittweise, orientieren Sie sich an Ihrem Schmerzniveau.",
+          "goal": { "en": "Ask how to recognize if you're doing too much too early.", "ur": "Poochein kaise pata chale zyada kaam kar rahi hain." },
+          "options": ["Wie erkenne ich, ob ich zu früh zu viel mache?", "Woran merke ich, dass ich zu viel mache?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["zu viel"], "next": "n5" }, { "kw": ["merke"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Wenn der Schmerz nach einer Aktivität zunimmt oder anhält, war es zu viel.",
+          "goal": { "en": "Ask whether you should consider psychological support after the hospital stay.", "ur": "Poochein psychological support ke baare mein sochna chahiye kya." },
+          "options": ["Sollte ich mich für psychologische Unterstützung interessieren?", "Wäre psychologische Unterstützung sinnvoll für mich?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["psychologische"], "next": "n6" }, { "kw": ["unterstützung"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Manche Patienten fühlen sich nach einer Notoperation überfordert, das ist völlig normal.",
+          "goal": { "en": "Thank her, that's a great relief to know.", "ur": "Shukriya kahein, yeh jaan kar sukoon mila." },
+          "options": ["Danke, das ist eine große Erleichterung zu wissen.", "Danke, das beruhigt mich sehr."],
+          "fallback": "Ist das hilfreich?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne. Sie haben das alles wirklich gut gemeistert.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

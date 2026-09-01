@@ -1,0 +1,217 @@
+{
+  "id": "visite",
+  "order": 3,
+  "icon": "🩺",
+  "title": { "de": "Die Visite", "en": "The ward round", "ur": "Doctor ka round" },
+  "angle": "The daily doctor's round on the ward · Station par doctor ka roz ka chakkar",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["visite", "station", "wunde", "heilen", "infusion", "mobilisieren", "befund", "schmerzskala", "verband wechseln", "entzündung"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Doktor Fischer (Stationsarzt)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Wie geht es Ihnen heute?", "en": "Good morning, Mrs Yilmaz. How are you today?", "ur": "Subh bakhair, Frau Yilmaz. Aaj kaisi hain?" },
+        { "s": "B", "de": "Etwas besser, danke.", "en": "A bit better, thanks.", "ur": "Thora behtar, shukriya." },
+        { "s": "A", "de": "Haben Sie noch Schmerzen?", "en": "Do you still have pain?", "ur": "Kya abhi bhi dard hai?" },
+        { "s": "B", "de": "Nur leicht, an der Wunde.", "en": "Only mild, at the wound.", "ur": "Sirf halka sa, zakhm par." },
+        { "s": "A", "de": "Zeigen Sie mir bitte den Bauch.", "en": "Please show me your stomach.", "ur": "Meherbani kar ke pait dikhayein." },
+        { "s": "B", "de": "Hier bitte.", "en": "Here you go.", "ur": "Yeh lein." },
+        { "s": "A", "de": "Das sieht gut aus. Die Wunde heilt gut.", "en": "That looks good. The wound is healing well.", "ur": "Yeh acha lag raha hai. Zakhm theek se theek ho raha hai." },
+        { "s": "B", "de": "Wann darf ich aufstehen?", "en": "When may I get up?", "ur": "Main kab uth sakti hoon?" },
+        { "s": "A", "de": "Heute schon, aber langsam.", "en": "Already today, but slowly.", "ur": "Aaj hi, lekin aahista aahista." },
+        { "s": "B", "de": "Gut, das mache ich.", "en": "Good, I'll do that.", "ur": "Acha, aisa hi karti hoon." },
+        { "s": "A", "de": "Isst und trinkt es sich gut?", "en": "Are eating and drinking going well?", "ur": "Khana peena theek chal raha hai?" },
+        { "s": "B", "de": "Ja, ganz normal.", "en": "Yes, quite normal.", "ur": "Ji haan, bilkul normal." },
+        { "s": "A", "de": "Sehr gut. Bis morgen dann.", "en": "Very good. See you tomorrow then.", "ur": "Bohat acha. To kal milte hain." },
+        { "s": "B", "de": "Danke, bis morgen.", "en": "Thanks, see you tomorrow.", "ur": "Shukriya, kal milte hain." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Doktor Fischer (Stationsarzt)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Das ist jetzt der zweite Tag nach der Operation. Wie fühlen Sie sich?", "en": "Good morning, Mrs Yilmaz. This is now the second day after the operation. How are you feeling?", "ur": "Subh bakhair, Frau Yilmaz. Yeh operation ke baad ka doosra din hai. Kaisa mehsoos kar rahi hain?" },
+        { "s": "B", "de": "Insgesamt gut, aber die Wunde tut noch weh, wenn ich mich bewege.", "en": "Overall good, but the wound still hurts when I move.", "ur": "Majmui tor par acha, lekin hilne par zakhm mein abhi bhi dard hota hai." },
+        { "s": "A", "de": "Wie stark ist der Schmerz auf einer Skala von eins bis zehn?", "en": "How strong is the pain on a scale of one to ten?", "ur": "Aik se das ke scale par dard kitna hai?" },
+        { "s": "B", "de": "Etwa drei, wenn ich still liege, aber fünf beim Aufstehen.", "en": "About three when I lie still, but five when getting up.", "ur": "Leta hoon to taqreeban teen, uthne par paanch." },
+        { "s": "A", "de": "Das ist völlig normal. Nehmen Sie die Schmerztabletten regelmäßig?", "en": "That's completely normal. Are you taking the pain tablets regularly?", "ur": "Yeh bilkul normal hai. Kya dard ki goliyan regularly le rahi hain?" },
+        { "s": "B", "de": "Ja, dreimal am Tag wie verordnet.", "en": "Yes, three times a day as prescribed.", "ur": "Ji haan, din mein teen baar jaise likha gaya hai." },
+        { "s": "A", "de": "Gut. Ich schaue mir jetzt kurz die Wunde an.", "en": "Good. I'll now briefly take a look at the wound.", "ur": "Acha. Ab main zakhm dekh leta hoon." },
+        { "s": "B", "de": "In Ordnung, bitte.", "en": "All right, go ahead.", "ur": "Theek hai, dekh lein." },
+        { "s": "A", "de": "Keine Rötung, kein Ausfluss, das sieht sehr gut aus.", "en": "No redness, no discharge, this looks very good.", "ur": "Koi surkhi nahi, koi rasaav nahi, yeh bohat acha lag raha hai." },
+        { "s": "B", "de": "Wann bekomme ich die Infusion nicht mehr?", "en": "When will I no longer get the IV drip?", "ur": "Infusion kab tak lagegi?" },
+        { "s": "A", "de": "Wenn Sie heute genug trinken, entfernen wir sie heute Abend.", "en": "If you drink enough today, we'll remove it this evening.", "ur": "Agar aaj kaafi pani piyein to sham tak nikaal denge." },
+        { "s": "B", "de": "Das wäre schön. Kann ich schon normal essen?", "en": "That would be nice. Can I already eat normally?", "ur": "Yeh acha hoga. Kya main normal khana kha sakti hoon?" },
+        { "s": "A", "de": "Fangen Sie langsam an, mit leichter Kost.", "en": "Start slowly, with light food.", "ur": "Aahista shuru karein, halke khane se." },
+        { "s": "B", "de": "Wie oft mobilisieren mich die Pfleger?", "en": "How often do the nurses help me mobilize?", "ur": "Nurses kitni baar mujhe chalane mein madad karte hain?" },
+        { "s": "A", "de": "Zweimal täglich, das hilft der Heilung sehr.", "en": "Twice daily, that helps healing a lot.", "ur": "Din mein do baar, isse theek hone mein bohat madad milti hai." },
+        { "s": "B", "de": "Alles klar. Vielen Dank, Doktor Fischer.", "en": "All right. Thank you very much, Doctor Fischer.", "ur": "Theek hai. Bohat shukriya, Doktor Fischer." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Doktor Fischer (Stationsarzt)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Ich habe hier Ihre Blutwerte von heute Morgen.", "en": "Good morning, Mrs Yilmaz. I have your blood values from this morning here.", "ur": "Subh bakhair, Frau Yilmaz. Mere paas aaj subh ki blood report hai." },
+        { "s": "B", "de": "Und? Sieht das gut aus?", "en": "And? Does it look good?", "ur": "Aur? Acha lag raha hai?" },
+        { "s": "A", "de": "Ihre Entzündungswerte sind deutlich gesunken, das ist ein sehr gutes Zeichen.", "en": "Your inflammation markers have dropped significantly, that's a very good sign.", "ur": "Aap ki soojan ki values kaafi kam ho gayi hain, yeh bohat acha sign hai." },
+        { "s": "B", "de": "Das freut mich zu hören. Wie sieht es mit der Wunde aus?", "en": "I'm glad to hear that. How does the wound look?", "ur": "Yeh sun kar khushi hui. Zakhm kaisa hai?" },
+        { "s": "A", "de": "Lassen Sie mich kurz schauen. Die Wundränder sind sauber verheilt, kein Verdacht auf eine Infektion.", "en": "Let me take a quick look. The wound edges have healed cleanly, no suspicion of infection.", "ur": "Zara dekhne dein. Zakhm ke kinare saaf theek ho gaye hain, infection ka koi shak nahi." },
+        { "s": "B", "de": "Muss der Verband noch gewechselt werden?", "en": "Does the bandage still need to be changed?", "ur": "Kya bandage abhi bhi badalni hai?" },
+        { "s": "A", "de": "Ja, die Schwester wechselt ihn nachher noch einmal, dann können Sie duschen.", "en": "Yes, the nurse will change it once more afterward, then you can shower.", "ur": "Ji haan, nurse baad mein aik baar aur badlegi, phir aap shower le sakti hain." },
+        { "s": "B", "de": "Das wäre wirklich schön. Wann kann ich mit einer Entlassung rechnen?", "en": "That would be really nice. When can I expect to be discharged?", "ur": "Yeh sach mein acha hoga. Discharge kab tak ho sakta hai?" },
+        { "s": "A", "de": "Wenn alles so weitergeht, könnten Sie übermorgen entlassen werden.", "en": "If everything continues like this, you could be discharged the day after tomorrow.", "ur": "Agar sab kuch aise hi chala to parson discharge ho sakti hain." },
+        { "s": "B", "de": "Worauf achten Sie noch, bevor Sie mich entlassen?", "en": "What else do you check before you discharge me?", "ur": "Discharge se pehle aur kya dekhte hain?" },
+        { "s": "A", "de": "Dass Sie schmerzfrei laufen können, normal essen und keine Fiebersymptome haben.", "en": "That you can walk pain-free, eat normally, and have no fever symptoms.", "ur": "Ke aap bina dard chal sakein, normal kha sakein, aur bukhar ki koi alamaat na ho." },
+        { "s": "B", "de": "Alles klingt machbar. Bekomme ich noch Schmerzmittel für zu Hause?", "en": "It all sounds doable. Will I get painkillers for home?", "ur": "Sab kuch mumkin lagta hai. Ghar ke liye dard ki dawa milegi?" },
+        { "s": "A", "de": "Ja, wir stellen Ihnen ein Rezept für einige Tage aus.", "en": "Yes, we'll write you a prescription for a few days.", "ur": "Ji haan, hum kuch dinon ke liye nuskha likh denge." },
+        { "s": "B", "de": "Sehr gut. Sonst noch etwas, das ich wissen sollte?", "en": "Very good. Anything else I should know?", "ur": "Bohat acha. Aur kuch jaanna zaroori hai?" },
+        { "s": "A", "de": "Keine schweren Sachen heben für zwei Wochen, sonst geht es Ihnen gut.", "en": "No lifting heavy things for two weeks, otherwise you're doing well.", "ur": "Do hafte tak bhaari cheezein na uthayein, warna aap theek hain." },
+        { "s": "B", "de": "Verstanden. Vielen Dank für die gute Betreuung.", "en": "Understood. Thank you very much for the good care.", "ur": "Samajh gayi. Achi dekhbhaal ka bohat shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Doktor Fischer (Stationsarzt)", "B": "Frau Yilmaz (Patientin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Ich möchte heute ausführlicher mit Ihnen über den weiteren Verlauf sprechen.", "en": "Good morning, Mrs Yilmaz. Today I'd like to talk with you in more detail about the further course.", "ur": "Subh bakhair, Frau Yilmaz. Aaj main aap se aage ke rukh ke baare mein tafseel se baat karna chahta hoon." },
+        { "s": "B", "de": "Gerne, ich habe tatsächlich noch ein paar Fragen.", "en": "Sure, I actually still have a few questions.", "ur": "Zaroor, mere paas waqai kuch sawal hain." },
+        { "s": "A", "de": "Bitte, fragen Sie ruhig.", "en": "Please, go ahead and ask.", "ur": "Meherbani, be-jhijhak poochein." },
+        { "s": "B", "de": "Ich habe gestern Abend etwas mehr Schmerzen gehabt als sonst. Ist das noch normal?", "en": "I had a bit more pain than usual yesterday evening. Is that still normal?", "ur": "Kal sham mujhe mamool se thora zyada dard hua. Kya yeh abhi bhi normal hai?" },
+        { "s": "A", "de": "Kurzfristig schwankende Schmerzen in der ersten Woche sind normal, solange kein Fieber oder starke Rötung dazukommt.", "en": "Short-term fluctuating pain in the first week is normal, as long as no fever or strong redness comes along with it.", "ur": "Pehle hafte mein thora upar neechay dard normal hai, jab tak bukhar ya tez surkhi na ho." },
+        { "s": "B", "de": "Das beruhigt mich. Wie sieht der Heilungsprozess bei minimalinvasiven Operationen typischerweise aus?", "en": "That reassures me. What does the healing process typically look like with minimally invasive operations?", "ur": "Yeh sun kar itminaan hua. Minimally invasive operation ke baad theek hone ka amal aksar kaisa hota hai?" },
+        { "s": "A", "de": "Die inneren Strukturen brauchen etwa vier bis sechs Wochen, die Haut heilt meist schon nach ein bis zwei Wochen sichtbar.", "en": "The internal structures need about four to six weeks, the skin usually heals visibly after just one to two weeks.", "ur": "Andar ke hisse chaar se chhe hafte lete hain, jild aksar aik do hafte mein hi theek dikhne lagti hai." },
+        { "s": "B", "de": "Wann kann ich wieder normal arbeiten? Ich habe einen Bürojob.", "en": "When can I work normally again? I have an office job.", "ur": "Main normal kaam kab shuru kar sakti hoon? Mera office ka kaam hai." },
+        { "s": "A", "de": "Bei einem Bürojob rechnen wir meist mit einer bis zwei Wochen Krankschreibung.", "en": "For an office job we usually count on one to two weeks of sick leave.", "ur": "Office kaam ke liye aksar aik do hafte ki medical chhutti hoti hai." },
+        { "s": "B", "de": "Und Sport? Ich gehe normalerweise dreimal die Woche joggen.", "en": "And sports? I normally go jogging three times a week.", "ur": "Aur sport? Main aksar hafte mein teen baar jogging karti hoon." },
+        { "s": "A", "de": "Mit leichtem Joggen können Sie nach etwa vier Wochen wieder beginnen, davor lieber nur spazieren gehen.", "en": "You can start light jogging again after about four weeks, before that just go for walks.", "ur": "Halki jogging chaar hafte baad shuru kar sakti hain, us se pehle sirf sair karein." },
+        { "s": "B", "de": "Verstanden. Gibt es Warnzeichen, bei denen ich nach der Entlassung sofort zurückkommen sollte?", "en": "Understood. Are there warning signs where I should come back immediately after discharge?", "ur": "Samajh gayi. Discharge ke baad kaunsi alamaat par foran wapas aana chahiye?" },
+        { "s": "A", "de": "Hohes Fieber, zunehmende Rötung oder Ausfluss aus der Wunde, oder plötzlich sehr starke Schmerzen.", "en": "High fever, increasing redness or discharge from the wound, or suddenly very severe pain.", "ur": "Tez bukhar, badhti surkhi ya zakhm se rasaav, ya achanak bohat tez dard." },
+        { "s": "B", "de": "Notiere ich mir. Bekomme ich einen Termin zur Nachkontrolle?", "en": "I'll note that down. Will I get an appointment for a follow-up check?", "ur": "Likh leti hoon. Follow-up appointment milega?" },
+        { "s": "A", "de": "Ja, bei Ihrem Hausarzt in etwa zehn Tagen, um die Wunde final zu kontrollieren.", "en": "Yes, with your family doctor in about ten days, to do a final check of the wound.", "ur": "Ji haan, taqreeban das din baad family doctor ke paas, zakhm ka aakhri check ke liye." },
+        { "s": "B", "de": "Sehr gut. Vielen Dank für die ausführliche Erklärung, Doktor Fischer.", "en": "Very good. Thank you very much for the detailed explanation, Doctor Fischer.", "ur": "Bohat acha. Tafseeli wazahat ka bohat shukriya, Doktor Fischer." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Doktor Fischer, Stationsarzt",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Der Arzt kommt zur täglichen Visite an Ihr Bett.",
+        "en": "The doctor comes to your bed for the daily ward round.",
+        "ur": "Doctor roz ke round par aap ke bister par aata hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz. Wie geht es Ihnen heute?",
+          "goal": { "en": "Say a bit better, thanks.", "ur": "Kahein thora behtar, shukriya." },
+          "options": ["Etwas besser, danke.", "Es geht mir besser, danke."],
+          "fallback": "Wie fühlen Sie sich?",
+          "accept": [{ "kw": ["besser"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Haben Sie noch Schmerzen?",
+          "goal": { "en": "Say only mild, at the wound.", "ur": "Kahein sirf halka, zakhm par." },
+          "options": ["Nur leicht, an der Wunde.", "Nur ein bisschen, an der Wunde."],
+          "fallback": "Tut es noch weh?",
+          "accept": [{ "kw": ["wunde"], "next": "n3" }, { "kw": ["leicht"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Zeigen Sie mir bitte den Bauch.",
+          "goal": { "en": "Show him.", "ur": "Dikhayein." },
+          "options": ["Hier bitte.", "Hier, bitte schön."],
+          "fallback": "Kann ich schauen?",
+          "accept": [{ "kw": ["hier"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das sieht gut aus. Die Wunde heilt gut.",
+          "goal": { "en": "Ask when you may get up.", "ur": "Poochein kab uth sakti hain." },
+          "options": ["Wann darf ich aufstehen?", "Kann ich schon aufstehen?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["aufstehen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Heute schon, aber langsam.",
+          "goal": { "en": "Say good, you'll do that.", "ur": "Kahein acha, aisa hi karengi." },
+          "options": ["Gut, das mache ich.", "In Ordnung, das mache ich."],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["mache"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Isst und trinkt es sich gut?",
+          "goal": { "en": "Say yes, quite normal.", "ur": "Kahein haan, bilkul normal." },
+          "options": ["Ja, ganz normal.", "Ja, es geht gut."],
+          "fallback": "Klappt das?",
+          "accept": [
+            { "kw": ["ja"], "reply": "Sehr gut. Bis morgen dann.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Doktor Fischer, Stationsarzt",
+      "you": "Patient / Patientin",
+      "scene": {
+        "de": "Der Arzt bespricht mit Ihnen den weiteren Verlauf und wann Sie wieder arbeiten und Sport machen können.",
+        "en": "The doctor discusses with you the further course and when you can work and exercise again.",
+        "ur": "Doctor aap se aage ke rukh, kaam, aur sport dobara shuru karne ke baare mein baat karta hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ich möchte heute ausführlicher mit Ihnen über den weiteren Verlauf sprechen.",
+          "goal": { "en": "Say sure, you have a few questions.", "ur": "Kahein zaroor, kuch sawal hain." },
+          "options": ["Gerne, ich habe noch ein paar Fragen.", "Gerne, ich habe einige Fragen."],
+          "fallback": "Haben Sie Fragen?",
+          "accept": [{ "kw": ["fragen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Bitte, fragen Sie ruhig.",
+          "goal": { "en": "Ask if it's normal that you had a bit more pain yesterday evening.", "ur": "Poochein kal zyada dard normal hai kya." },
+          "options": ["Ich hatte gestern Abend etwas mehr Schmerzen. Ist das noch normal?", "Gestern Abend war der Schmerz stärker. Ist das normal?"],
+          "fallback": "Was möchten Sie wissen?",
+          "accept": [{ "kw": ["schmerzen", "normal"], "next": "n3" }, { "kw": ["normal"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Kurzfristig schwankende Schmerzen in der ersten Woche sind normal.",
+          "goal": { "en": "Ask when you can work normally again.", "ur": "Poochein normal kaam kab shuru kar sakti hain." },
+          "options": ["Wann kann ich wieder normal arbeiten?", "Ab wann darf ich wieder arbeiten?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["arbeiten"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Bei einem Bürojob rechnen wir meist mit einer bis zwei Wochen Krankschreibung.",
+          "goal": { "en": "Ask about sports, since you jog three times a week.", "ur": "Sport ke baare mein poochein, hafte mein teen baar jogging karti hain." },
+          "options": ["Und Sport? Ich gehe normalerweise dreimal die Woche joggen.", "Wie ist es mit Sport? Ich jogge normalerweise dreimal die Woche."],
+          "fallback": "Machen Sie Sport?",
+          "accept": [{ "kw": ["sport"], "next": "n5" }, { "kw": ["joggen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Mit leichtem Joggen können Sie nach etwa vier Wochen wieder beginnen.",
+          "goal": { "en": "Ask about warning signs to watch for after discharge.", "ur": "Discharge ke baad kaunsi alamaat par dhyan dein poochein." },
+          "options": ["Gibt es Warnzeichen, bei denen ich sofort zurückkommen sollte?", "Worauf sollte ich nach der Entlassung achten?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["warnzeichen"], "next": "n6" }, { "kw": ["achten"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Hohes Fieber, zunehmende Rötung oder Ausfluss, oder plötzlich sehr starke Schmerzen.",
+          "goal": { "en": "Thank him for the detailed explanation.", "ur": "Tafseeli wazahat ka shukriya kahein." },
+          "options": ["Vielen Dank für die ausführliche Erklärung.", "Danke für die ausführliche Erklärung."],
+          "fallback": "Ist das verständlich?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne, gute Besserung weiterhin.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}
