@@ -1,0 +1,37 @@
+{
+  "id": "apotheke",
+  "order": 3,
+  "icon": "💊",
+  "title": {
+    "de": "In der Apotheke",
+    "en": "At the pharmacy",
+    "ur": "Apotheke mein"
+  },
+  "intro": "Von der Erkältungsberatung bis zur Grippeimpfung — alles, was man in der deutschen Apotheke sagen und verstehen muss.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "die Erkältung", "opts": ["cold (illness)", "fever", "allergy", "headache"], "a": 0, "ur": "zukaam", "word": "erkältung" },
+      { "type": "mc", "q": "das Rezept", "opts": ["prescription", "receipt", "recipe", "referral"], "a": 0, "ur": "nuskha", "word": "rezept" },
+      { "type": "mc", "q": "die Nebenwirkung", "opts": ["side effect", "main effect", "dosage", "allergy"], "a": 0, "ur": "side effect", "word": "nebenwirkung" },
+      { "type": "mc", "q": "die Zuzahlung", "opts": ["co-payment", "full refund", "discount", "insurance card"], "a": 0, "ur": "co-payment", "word": "zuzahlung" },
+      { "type": "mc", "q": "rezeptfrei", "opts": ["available without a prescription", "very expensive", "out of stock", "prescription-only"], "a": 0, "ur": "bina nuskha ke", "word": "rezeptfrei" },
+      { "type": "mc", "q": "der Notdienst", "opts": ["emergency/after-hours service", "regular opening hours", "home delivery", "pharmacy chain"], "a": 0, "ur": "emergency service", "word": "notdienst" },
+      { "type": "mc", "q": "die Grippeimpfung", "opts": ["flu vaccination", "blood test", "allergy test", "cold medicine"], "a": 0, "ur": "flu ka teeka", "word": "grippeimpfung" },
+      { "type": "mc", "q": "die Dosierung", "opts": ["dosage", "packaging", "expiry date", "prescription"], "a": 0, "ur": "khurak", "word": "dosierung" },
+      { "type": "gap", "de": "Ich habe Husten und ___.", "a": "Schnupfen", "hint": "runny nose · naak bahna", "en": "I have a cough and a runny nose.", "word": "schnupfen" },
+      { "type": "gap", "de": "Ist dieses Medikament ___?", "a": "rezeptfrei", "hint": "available without a prescription", "en": "Is this medicine available without a prescription?", "word": "rezeptfrei" },
+      { "type": "gap", "de": "Ich bin ___ gegen Penicillin.", "a": "allergisch", "hint": "allergic · allergy", "en": "I am allergic to penicillin.", "word": "allergisch" },
+      { "type": "gap", "de": "Bringen Sie bitte Ihren ___ mit.", "a": "Impfausweis", "hint": "vaccination record", "en": "Please bring your vaccination record.", "word": "impfausweis" },
+      { "type": "order", "a": "Ich habe eine Erkältung mit Husten", "en": "I have a cold with a cough." },
+      { "type": "order", "a": "Wie oft soll ich die Tabletten nehmen", "en": "How often should I take the tablets?" },
+      { "type": "order", "a": "Gibt es Nebenwirkungen bei diesem Medikament", "en": "Are there side effects with this medicine?" },
+      { "type": "listen", "a": "Ich empfehle diesen Hustensaft.", "en": "I recommend this cough syrup." },
+      { "type": "listen", "a": "Haben Sie ein Rezept vom Hausarzt?", "en": "Do you have a prescription from the family doctor?" },
+      { "type": "listen", "a": "Bringen Sie bitte Ihren Impfausweis mit.", "en": "Please bring your vaccination record." },
+      { "type": "prod", "en": "I have a cough and a sore throat.", "ur": "Mujhe khansi aur gale mein dard hai.", "a": "Ich habe Husten und Halsschmerzen." },
+      { "type": "prod", "en": "How often should I take this medicine?", "ur": "Mujhe yeh dawa kitni baar leni hai?", "a": "Wie oft soll ich dieses Medikament nehmen?" },
+      { "type": "prod", "en": "I am allergic to penicillin.", "ur": "Mujhe penicillin se allergy hai.", "a": "Ich bin allergisch gegen Penicillin." },
+      { "type": "prod", "en": "I would like to book a flu vaccination.", "ur": "Mujhe flu ka teeka lagwane ke liye appointment chahiye.", "a": "Ich möchte einen Termin für die Grippeimpfung." }
+    ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "id": "erkaeltung",
+  "order": 1,
+  "icon": "🤧",
+  "title": { "de": "Beratung bei Erkältung", "en": "Advice for a cold", "ur": "Zukaam ke liye mashwara" },
+  "angle": "Asking the pharmacist for advice, no prescription needed · Bina nuskha, apotheker se mashwara",
+  "voices": { "A": "Aoede", "B": "Puck" },
+  "words": ["apotheke", "erkältung", "husten", "schnupfen", "halsschmerzen", "hustensaft", "rezeptfrei", "nasenspray", "wechselwirkung", "blutdruck"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Wie kann ich Ihnen helfen?", "en": "Hello! How can I help you?", "ur": "Salam! Main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich habe eine Erkältung.", "en": "Hello. I have a cold.", "ur": "Salam. Mujhe zukaam hai." },
+        { "s": "A", "de": "Was haben Sie für Beschwerden?", "en": "What symptoms do you have?", "ur": "Aap ko kya takleef hai?" },
+        { "s": "B", "de": "Ich habe Husten und Schnupfen.", "en": "I have a cough and a runny nose.", "ur": "Mujhe khansi aur naak bahna hai." },
+        { "s": "A", "de": "Haben Sie auch Halsschmerzen?", "en": "Do you also have a sore throat?", "ur": "Kya gale mein bhi dard hai?" },
+        { "s": "B", "de": "Ja, ein bisschen.", "en": "Yes, a little.", "ur": "Ji haan, thora sa." },
+        { "s": "A", "de": "Ich empfehle diesen Hustensaft.", "en": "I recommend this cough syrup.", "ur": "Main yeh khansi ka syrup tajweez karti hoon." },
+        { "s": "B", "de": "Ist er rezeptfrei?", "en": "Is it available without a prescription?", "ur": "Kya yeh bina nuskha milta hai?" },
+        { "s": "A", "de": "Ja, rezeptfrei.", "en": "Yes, without a prescription.", "ur": "Ji haan, bina nuskha." },
+        { "s": "B", "de": "Wie oft soll ich ihn nehmen?", "en": "How often should I take it?", "ur": "Mujhe yeh kitni baar lena hai?" },
+        { "s": "A", "de": "Dreimal am Tag, nach dem Essen.", "en": "Three times a day, after eating.", "ur": "Din mein teen baar, khane ke baad." },
+        { "s": "B", "de": "Was kostet der Hustensaft?", "en": "How much does the cough syrup cost?", "ur": "Khansi ka syrup kitne ka hai?" },
+        { "s": "A", "de": "Acht Euro fünfzig.", "en": "Eight euros fifty.", "ur": "Aath euro pachaas cent." },
+        { "s": "B", "de": "Danke schön. Auf Wiedersehen.", "en": "Thank you very much. Goodbye.", "ur": "Bohat shukriya. Khuda hafiz." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was fehlt Ihnen denn?", "en": "Hello, what's wrong?", "ur": "Salam, kya masla hai?" },
+        { "s": "B", "de": "Ich bin seit zwei Tagen erkältet und habe starken Husten.", "en": "I've had a cold for two days and a bad cough.", "ur": "Do din se mujhe zukaam hai aur tez khansi hai." },
+        { "s": "A", "de": "Ist der Husten trocken, oder haben Sie Schleim?", "en": "Is the cough dry, or do you have phlegm?", "ur": "Khansi sookhi hai ya balgham bhi hai?" },
+        { "s": "B", "de": "Eher trocken, besonders nachts.", "en": "More dry, especially at night.", "ur": "Zyada tar sookhi, khaas kar raat ko." },
+        { "s": "A", "de": "Dann nehme ich diesen Hustenstiller hier.", "en": "Then I'll take this cough suppressant here.", "ur": "To main yeh khansi rokne wali dawa deti hoon." },
+        { "s": "B", "de": "Macht das Mittel müde? Ich muss noch Auto fahren.", "en": "Does this medicine make you sleepy? I still have to drive.", "ur": "Kya is se neend aati hai? Mujhe abhi gaari chalani hai." },
+        { "s": "A", "de": "Dieses hier macht nicht müde, es ist für tagsüber.", "en": "This one doesn't cause drowsiness, it's for daytime.", "ur": "Yeh wali neend nahi laati, yeh din ke liye hai." },
+        { "s": "B", "de": "Gut, das nehme ich dann.", "en": "Good, I'll take that then.", "ur": "Acha, to main yehi le loonga." },
+        { "s": "A", "de": "Für die Nacht gebe ich Ihnen noch einen Sirup, der müde macht.", "en": "For the night I'll also give you a syrup that makes you sleepy.", "ur": "Raat ke liye main aik syrup bhi deti hoon jis se neend aati hai." },
+        { "s": "B", "de": "Wie viele Tage soll ich das Mittel nehmen?", "en": "How many days should I take the medicine?", "ur": "Yeh dawa kitne din leni hai?" },
+        { "s": "A", "de": "Höchstens fünf Tage am Stück.", "en": "At most five days in a row.", "ur": "Zyada se zyada paanch din lagatar." },
+        { "s": "B", "de": "Und wenn der Husten dann nicht besser wird?", "en": "And if the cough doesn't get better by then?", "ur": "Aur agar khansi tab tak theek na ho?" },
+        { "s": "A", "de": "Dann gehen Sie bitte zu Ihrem Hausarzt.", "en": "Then please go to your family doctor.", "ur": "To meherbani kar ke apne family doctor ke paas jayein." },
+        { "s": "B", "de": "In Ordnung, das mache ich.", "en": "All right, I'll do that.", "ur": "Theek hai, aisa hi karoonga." },
+        { "s": "A", "de": "Trinken Sie außerdem viel Wasser und ruhen Sie sich aus.", "en": "Also drink lots of water and get some rest.", "ur": "Aur bohat sara pani piyein aur aaram karein." },
+        { "s": "B", "de": "Danke für den Rat. Auf Wiedersehen.", "en": "Thanks for the advice. Goodbye.", "ur": "Mashware ka shukriya. Khuda hafiz." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, wie kann ich helfen?", "en": "Hello, how can I help?", "ur": "Salam, kya madad kar sakti hoon?" },
+        { "s": "B", "de": "Ich habe eine ziemlich starke Erkältung mit verstopfter Nase.", "en": "I have quite a bad cold with a blocked nose.", "ur": "Mujhe kaafi tez zukaam hai aur naak band hai." },
+        { "s": "A", "de": "Ein Nasenspray würde da schnell helfen.", "en": "A nasal spray would help quickly with that.", "ur": "Naak ka spray isme jaldi madad karega." },
+        { "s": "B", "de": "Ich nehme aber regelmäßig Blutdrucktabletten. Geht das trotzdem?", "en": "But I regularly take blood pressure tablets. Is that still okay?", "ur": "Lekin main regularly blood pressure ki goliyan leta hoon. Kya phir bhi theek hai?" },
+        { "s": "A", "de": "Manche abschwellenden Mittel können den Blutdruck erhöhen. Ich gebe Ihnen lieber ein mildes Präparat.", "en": "Some decongestants can raise blood pressure. I'd rather give you a mild preparation.", "ur": "Kuch naak kholne wali dawaen blood pressure barha sakti hain. Main aap ko halki dawa deti hoon." },
+        { "s": "B", "de": "Das beruhigt mich. Gibt es noch etwas gegen den Husten?", "en": "That reassures me. Is there also something for the cough?", "ur": "Yeh sun kar itminaan hua. Khansi ke liye bhi kuch hai?" },
+        { "s": "A", "de": "Ja, dieser Sirup ist auch für Menschen mit Bluthochdruck geeignet.", "en": "Yes, this syrup is also suitable for people with high blood pressure.", "ur": "Ji haan, yeh syrup high blood pressure walon ke liye bhi theek hai." },
+        { "s": "B", "de": "Gibt es Wechselwirkungen mit meinen anderen Tabletten?", "en": "Are there interactions with my other tablets?", "ur": "Kya meri doosri goliyon ke saath koi wechselwirkung hai?" },
+        { "s": "A", "de": "Nennen Sie mir bitte alle Medikamente, die Sie nehmen.", "en": "Please tell me all the medications you're taking.", "ur": "Meherbani kar ke saari dawaen batayein jo aap le rahe hain." },
+        { "s": "B", "de": "Ramipril und ein Cholesterinsenker.", "en": "Ramipril and a cholesterol-lowering drug.", "ur": "Ramipril aur cholesterol kam karne wali dawa." },
+        { "s": "A", "de": "Mit diesen beiden gibt es keine bekannte Wechselwirkung.", "en": "With these two there's no known interaction.", "ur": "In dono ke saath koi maloom wechselwirkung nahi hai." },
+        { "s": "B", "de": "Das ist gut zu hören. Wie lange darf ich das Nasenspray benutzen?", "en": "That's good to hear. How long may I use the nasal spray?", "ur": "Yeh sun kar acha laga. Naak ka spray kitne din use kar sakta hoon?" },
+        { "s": "A", "de": "Nicht länger als eine Woche, sonst gewöhnt sich die Nase daran.", "en": "Not longer than a week, otherwise the nose gets used to it.", "ur": "Aik hafte se zyada nahi, warna naak isi ki aadi ho jati hai." },
+        { "s": "B", "de": "Verstanden. Sonst noch etwas, das ich beachten sollte?", "en": "Understood. Anything else I should pay attention to?", "ur": "Samajh gaya. Aur kuch dhyan rakhne wali baat?" },
+        { "s": "A", "de": "Wenn Fieber über achtunddreißig fünf dazukommt, gehen Sie zum Arzt.", "en": "If a fever above thirty-eight point five comes on top, go to the doctor.", "ur": "Agar bukhar athtees point paanch se zyada ho jaye to doctor ke paas jayein." },
+        { "s": "B", "de": "Mache ich. Vielen Dank für die ausführliche Beratung.", "en": "I'll do that. Thank you very much for the detailed advice.", "ur": "Zaroor. Tafseeli mashware ka bohat shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, aap ke liye kya kar sakti hoon?" },
+        { "s": "B", "de": "Ich kämpfe seit fast einer Woche mit einer hartnäckigen Erkältung.", "en": "I've been struggling with a stubborn cold for almost a week.", "ur": "Taqreeban aik hafte se mujhe zid-di zukaam hai." },
+        { "s": "A", "de": "Was genau macht Ihnen am meisten zu schaffen?", "en": "What exactly is bothering you the most?", "ur": "Sab se zyada kya pareshan kar raha hai?" },
+        { "s": "B", "de": "Ein Druckgefühl über der Stirn und den Wangen, vor allem wenn ich mich bücke.", "en": "A feeling of pressure over the forehead and cheeks, especially when I bend down.", "ur": "Peshani aur gaalon par dabao mehsoos hota hai, khaas kar jab jhukta hoon." },
+        { "s": "A", "de": "Das klingt nach einer beginnenden Nasennebenhöhlenentzündung. Haben Sie auch Fieber?", "en": "That sounds like the start of a sinus infection. Do you also have a fever?", "ur": "Yeh sinus ki infection shuru hone jaisa lagta hai. Kya bukhar bhi hai?" },
+        { "s": "B", "de": "Gestern Abend hatte ich siebenunddreißig acht.", "en": "Last night I had thirty-seven point eight.", "ur": "Kal raat mujhe saintees point aath tha." },
+        { "s": "A", "de": "Das ist noch kein hohes Fieber. Ich kann Ihnen etwas gegen den Druck und die verstopfte Nase geben.", "en": "That's not a high fever yet. I can give you something for the pressure and blocked nose.", "ur": "Yeh abhi tez bukhar nahi. Main dabao aur band naak ke liye kuch de sakti hoon." },
+        { "s": "B", "de": "Reicht das, oder sollte ich lieber zum Hausarzt gehen?", "en": "Is that enough, or should I rather go to my family doctor?", "ur": "Kya yeh kaafi hai ya mujhe family doctor ke paas jana chahiye?" },
+        { "s": "A", "de": "Wenn es nach drei weiteren Tagen nicht besser wird oder das Fieber steigt, würde ich zum Arzt gehen.", "en": "If it doesn't improve after three more days or the fever rises, I'd go to the doctor.", "ur": "Agar teen din mein behtar na ho ya bukhar barh jaye to doctor ke paas jayein." },
+        { "s": "B", "de": "Könnte es sich schon um eine bakterielle Infektion handeln?", "en": "Could it already be a bacterial infection?", "ur": "Kya yeh pehle hi bacterial infection ho sakti hai?" },
+        { "s": "A", "de": "Das lässt sich hier nicht sicher sagen, dafür müsste der Arzt in die Nase schauen.", "en": "That can't be said for certain here; the doctor would need to look into the nose for that.", "ur": "Yahan yaqeen se nahi kaha ja sakta, uske liye doctor ko naak dekhni hogi." },
+        { "s": "B", "de": "Verstehe. Was genau empfehlen Sie mir jetzt?", "en": "I understand. What exactly do you recommend for me now?", "ur": "Samajh gaya. Ab aap kya tajweez karti hain?" },
+        { "s": "A", "de": "Ein abschwellendes Nasenspray, ein Schmerzmittel gegen den Druck und viel Dampfinhalation.", "en": "A decongestant nasal spray, a painkiller for the pressure, and lots of steam inhalation.", "ur": "Naak kholne wala spray, dabao ke liye dard ki dawa, aur bhaap lena." },
+        { "s": "B", "de": "Wie oft soll ich inhalieren?", "en": "How often should I inhale?", "ur": "Bhaap kitni baar loon?" },
+        { "s": "A", "de": "Zwei- bis dreimal täglich, jeweils zehn Minuten.", "en": "Two to three times daily, ten minutes each time.", "ur": "Din mein do se teen baar, har baar das minute." },
+        { "s": "B", "de": "Gibt es Warnzeichen, auf die ich besonders achten sollte?", "en": "Are there warning signs I should pay special attention to?", "ur": "Kya koi khaas alamaat hain jin par dhyan doon?" },
+        { "s": "A", "de": "Starke Kopfschmerzen auf einer Seite, Schwellung um das Auge oder sehr hohes Fieber sind Alarmzeichen.", "en": "Severe headache on one side, swelling around the eye, or very high fever are warning signs.", "ur": "Aik taraf tez sar dard, aankh ke ird gird soojan, ya bohat tez bukhar khatarnaak alamaat hain." },
+        { "s": "B", "de": "Danke, darauf werde ich achten. Auf Wiedersehen.", "en": "Thank you, I'll watch for that. Goodbye.", "ur": "Shukriya, main is par dhyan doonga. Khuda hafiz." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie gehen in die Apotheke. Sie haben Husten und Halsschmerzen und möchten sich beraten lassen.",
+        "en": "You go to the pharmacy. You have a cough and a sore throat and want advice.",
+        "ur": "Aap apotheke jate hain. Aap ko khansi aur gale mein dard hai aur mashwara chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Wie kann ich Ihnen helfen?",
+          "goal": { "en": "Greet and say you have a cold.", "ur": "Salam karein aur kahein ke zukaam hai." },
+          "options": ["Guten Tag. Ich habe eine Erkältung.", "Guten Tag, ich bin erkältet."],
+          "fallback": "Was kann ich für Sie tun?",
+          "accept": [{ "kw": ["guten", "erkältung"], "next": "n2" }, { "kw": ["erkältet"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Was haben Sie für Beschwerden?",
+          "goal": { "en": "Say you have a cough and a sore throat.", "ur": "Kahein ke khansi aur gale mein dard hai." },
+          "options": ["Ich habe Husten und Halsschmerzen.", "Ich habe Husten und ein bisschen Halsschmerzen."],
+          "fallback": "Was tut Ihnen weh?",
+          "accept": [{ "kw": ["husten", "halsschmerzen"], "next": "n3" }, { "kw": ["husten"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ich empfehle diesen Hustensaft. Ist das in Ordnung?",
+          "goal": { "en": "Say yes and ask if it's available without a prescription.", "ur": "Kahein haan aur poochein kya bina nuskha milta hai." },
+          "options": ["Ja. Ist er rezeptfrei?", "Ja, gerne. Ist das rezeptfrei?"],
+          "fallback": "Passt Ihnen das?",
+          "accept": [{ "kw": ["ja", "rezeptfrei"], "next": "n4" }, { "kw": ["rezeptfrei"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, rezeptfrei.",
+          "goal": { "en": "Ask how often to take it.", "ur": "Poochein kitni baar lena hai." },
+          "options": ["Wie oft soll ich ihn nehmen?", "Wie oft muss ich ihn nehmen?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["wie", "oft"], "next": "n5" }, { "kw": ["oft"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dreimal am Tag, nach dem Essen.",
+          "goal": { "en": "Ask the price.", "ur": "Qeemat poochein." },
+          "options": ["Was kostet der Hustensaft?", "Wie viel kostet das?"],
+          "fallback": "Möchten Sie sonst noch etwas?",
+          "accept": [{ "kw": ["kostet"], "next": "n6" }, { "kw": ["kosten"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Acht Euro fünfzig.",
+          "goal": { "en": "Thank her and say goodbye.", "ur": "Shukriya kahein aur khuda hafiz." },
+          "options": ["Danke schön. Auf Wiedersehen.", "Vielen Dank. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen und gute Besserung.", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen und gute Besserung.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie haben eine starke Erkältung mit verstopfter Nase und nehmen regelmäßig Blutdrucktabletten.",
+        "en": "You have a bad cold with a blocked nose and regularly take blood pressure tablets.",
+        "ur": "Aap ko tez zukaam hai aur naak band hai, aur aap regularly blood pressure ki goliyan lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, wie kann ich helfen?",
+          "goal": { "en": "Say you have a bad cold with a blocked nose.", "ur": "Kahein ke tez zukaam hai aur naak band hai." },
+          "options": ["Ich habe eine starke Erkältung mit verstopfter Nase.", "Ich bin stark erkältet und meine Nase ist verstopft."],
+          "fallback": "Was fehlt Ihnen?",
+          "accept": [{ "kw": ["erkältung", "verstopfter"], "next": "n2" }, { "kw": ["verstopfte"], "next": "n2" }, { "kw": ["nase"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ein Nasenspray würde da schnell helfen.",
+          "goal": { "en": "Say you take blood pressure tablets regularly and ask if that's okay.", "ur": "Kahein ke regularly blood pressure ki goliyan lete hain aur poochein theek hai ya nahi." },
+          "options": ["Ich nehme aber regelmäßig Blutdrucktabletten. Geht das?", "Ich nehme regelmäßig Tabletten gegen Bluthochdruck. Ist das ein Problem?"],
+          "fallback": "Nehmen Sie sonst Medikamente?",
+          "accept": [{ "kw": ["blutdruck"], "next": "n3" }, { "kw": ["bluthochdruck"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Manche abschwellenden Mittel können den Blutdruck erhöhen. Ich gebe Ihnen ein mildes Präparat.",
+          "goal": { "en": "Ask if there's also something for the cough.", "ur": "Poochein khansi ke liye bhi kuch hai." },
+          "options": ["Gibt es auch etwas gegen den Husten?", "Haben Sie auch etwas für den Husten?"],
+          "fallback": "Brauchen Sie sonst noch etwas?",
+          "accept": [{ "kw": ["husten"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, dieser Sirup ist auch für Menschen mit Bluthochdruck geeignet.",
+          "goal": { "en": "Ask whether there are interactions with your other tablets.", "ur": "Poochein ke doosri goliyon ke saath wechselwirkung to nahi." },
+          "options": ["Gibt es Wechselwirkungen mit meinen anderen Tabletten?", "Gibt es Wechselwirkungen mit meinen Tabletten?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["wechselwirkungen"], "next": "n5" }, { "kw": ["wechselwirkung"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nennen Sie mir bitte alle Medikamente, die Sie nehmen.",
+          "goal": { "en": "Name Ramipril and a cholesterol-lowering drug.", "ur": "Ramipril aur cholesterol ki dawa ka naam batayein." },
+          "options": ["Ramipril und ein Cholesterinsenker.", "Ich nehme Ramipril und einen Cholesterinsenker."],
+          "fallback": "Welche Medikamente nehmen Sie?",
+          "accept": [{ "kw": ["ramipril"], "next": "n6" }, { "kw": ["cholesterinsenker"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Mit diesen beiden gibt es keine bekannte Wechselwirkung.",
+          "goal": { "en": "Thank her for the detailed advice and say goodbye.", "ur": "Tafseeli mashware ka shukriya aur khuda hafiz." },
+          "options": ["Vielen Dank für die ausführliche Beratung. Auf Wiedersehen.", "Danke für die Beratung. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen und gute Besserung.", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "id": "impfung",
+  "order": 5,
+  "icon": "💉",
+  "title": { "de": "Grippeimpfung in der Apotheke", "en": "Flu vaccination at the pharmacy", "ur": "Apotheke mein flu ka teeka" },
+  "angle": "Booking and getting a flu shot directly at the pharmacy · Apotheke mein hi flu ka teeka lagwana",
+  "voices": { "A": "Aoede", "B": "Puck" },
+  "words": ["grippeimpfung", "impfen", "impftermin", "risikogruppe", "impfstoff", "impfausweis", "auffrischung", "immunsystem", "verträglichkeit", "einverständniserklärung"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag. Machen Sie hier Grippeimpfungen?", "en": "Hello. Do you do flu vaccinations here?", "ur": "Salam. Kya yahan flu ka teeka lagta hai?" },
+        { "s": "A", "de": "Ja, das machen wir.", "en": "Yes, we do.", "ur": "Ji haan, hum karte hain." },
+        { "s": "B", "de": "Ich möchte gern einen Termin.", "en": "I would like an appointment.", "ur": "Mujhe appointment chahiye." },
+        { "s": "A", "de": "Haben Sie am Freitag um zehn Uhr Zeit?", "en": "Do you have time on Friday at ten o'clock?", "ur": "Kya jumma ko das baje waqt hai?" },
+        { "s": "B", "de": "Ja, das passt gut.", "en": "Yes, that works well.", "ur": "Ji haan, theek hai." },
+        { "s": "A", "de": "Bringen Sie bitte Ihren Impfausweis mit.", "en": "Please bring your vaccination record.", "ur": "Meherbani kar ke apna impfausweis lein." },
+        { "s": "B", "de": "Mache ich. Was kostet die Impfung?", "en": "I will. How much does the vaccination cost?", "ur": "Zaroor. Teeka kitne ka hai?" },
+        { "s": "A", "de": "Für Sie ist es kostenlos, Ihre Krankenkasse übernimmt das.", "en": "It's free for you, your health insurance covers it.", "ur": "Aap ke liye free hai, health insurance dena karti hai." },
+        { "s": "B", "de": "Das ist gut zu wissen. Danke.", "en": "That's good to know. Thanks.", "ur": "Yeh sun kar acha laga. Shukriya." },
+        { "s": "A", "de": "Bis Freitag dann.", "en": "See you Friday then.", "ur": "To jumma ko milte hain." },
+        { "s": "B", "de": "Bis Freitag. Auf Wiedersehen.", "en": "See you Friday. Goodbye.", "ur": "Jumma ko milte hain. Khuda hafiz." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag, ich bin für meinen Impftermin um zehn Uhr hier.", "en": "Hello, I'm here for my vaccination appointment at ten o'clock.", "ur": "Salam, main das baje ke teeke ke appointment ke liye aaya hoon." },
+        { "s": "A", "de": "Sehr gut, Herr Malik. Haben Sie den Impfausweis dabei?", "en": "Very good, Mr Malik. Do you have your vaccination record with you?", "ur": "Bohat acha, Herr Malik. Kya impfausweis saath hai?" },
+        { "s": "B", "de": "Ja, hier bitte.", "en": "Yes, here you go.", "ur": "Ji haan, yeh lein." },
+        { "s": "A", "de": "Bevor wir anfangen, ein paar kurze Fragen. Sind Sie zurzeit erkältet oder haben Fieber?", "en": "Before we start, a few quick questions. Are you currently having a cold or fever?", "ur": "Shuru karne se pehle chand sawal. Kya abhi zukaam ya bukhar hai?" },
+        { "s": "B", "de": "Nein, mir geht es gut.", "en": "No, I'm feeling fine.", "ur": "Nahi, main theek hoon." },
+        { "s": "A", "de": "Haben Sie schon einmal allergisch auf eine Impfung reagiert?", "en": "Have you ever reacted allergically to a vaccination before?", "ur": "Kya kabhi kisi teeke par allergy hui hai?" },
+        { "s": "B", "de": "Nein, noch nie.", "en": "No, never.", "ur": "Nahi, kabhi nahi." },
+        { "s": "A", "de": "Gut. Der Impfstoff wird in den Oberarm gespritzt, das geht schnell.", "en": "Good. The vaccine is injected into the upper arm, it's quick.", "ur": "Acha. Teeka baazu ke upar mein lagta hai, jaldi ho jata hai." },
+        { "s": "B", "de": "Tut das weh?", "en": "Does it hurt?", "ur": "Kya isse dard hota hai?" },
+        { "s": "A", "de": "Nur ein kurzer Piks, danach vielleicht ein leichtes Ziehen im Arm.", "en": "Just a short prick, afterwards maybe a slight ache in the arm.", "ur": "Sirf aik lamha ki chubhan, baad mein baazu mein halka dard ho sakta hai." },
+        { "s": "B", "de": "Und wie lange bleibt die Wirkung erhalten?", "en": "And how long does the effect last?", "ur": "Aur asar kitne arse tak rehta hai?" },
+        { "s": "A", "de": "Der Schutz hält etwa ein Jahr, deshalb impfen wir jeden Herbst neu.", "en": "The protection lasts about a year, that's why we vaccinate again every autumn.", "ur": "Hifazat taqreeban aik saal rehti hai, is liye har khizan mein dobara teeka dete hain." },
+        { "s": "B", "de": "Verstanden. Dann können wir anfangen.", "en": "Understood. Then we can start.", "ur": "Samajh gaya. To shuru kar sakte hain." },
+        { "s": "A", "de": "So, fertig. Bitte drücken Sie kurz mit dem Wattebausch auf die Stelle.", "en": "There, done. Please press the cotton ball on the spot briefly.", "ur": "Ho gaya. Meherbani kar ke rooi ko us jagah thora dabayein." },
+        { "s": "B", "de": "Das ging wirklich schnell. Vielen Dank.", "en": "That really went fast. Thank you very much.", "ur": "Yeh waqai jaldi ho gaya. Bohat shukriya." },
+        { "s": "A", "de": "Gerne. Ich trage die Impfung noch in Ihren Impfausweis ein.", "en": "You're welcome. I'll also note the vaccination in your record.", "ur": "Khushi se. Main teeka aap ke impfausweis mein bhi likh deti hoon." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag. Ich bin nicht sicher, ob ich zur Risikogruppe für die Grippeimpfung gehöre.", "en": "Hello. I'm not sure whether I belong to the risk group for the flu vaccination.", "ur": "Salam. Yaqeen nahi ke main flu teeke ki risikogruppe mein aata hoon ya nahi." },
+        { "s": "A", "de": "Wie alt sind Sie, und haben Sie chronische Erkrankungen?", "en": "How old are you, and do you have any chronic conditions?", "ur": "Aap ki umar kya hai, aur koi mustaqil bimari hai?" },
+        { "s": "B", "de": "Ich bin fünfundfünfzig und habe leichtes Asthma.", "en": "I am fifty-five and have mild asthma.", "ur": "Main pachpan saal ka hoon aur mujhe halka asthma hai." },
+        { "s": "A", "de": "Mit Asthma gehören Sie zur Risikogruppe, die Krankenkasse übernimmt die Impfung also vollständig.", "en": "With asthma you belong to the risk group, so the health insurance covers the vaccination fully.", "ur": "Asthma ki wajah se aap risikogruppe mein hain, is liye health insurance pura kharcha uthati hai." },
+        { "s": "B", "de": "Das wusste ich nicht. Ist der Impfstoff dieses Jahr besonders auf die aktuellen Virusstämme abgestimmt?", "en": "I didn't know that. Is this year's vaccine specifically matched to the current virus strains?", "ur": "Mujhe yeh nahi pata tha. Kya is saal ka teeka is saal ke virus ke mutabiq hai?" },
+        { "s": "A", "de": "Ja, die Weltgesundheitsorganisation legt jedes Jahr die passende Zusammensetzung fest.", "en": "Yes, the World Health Organization determines the appropriate composition every year.", "ur": "Ji haan, World Health Organization har saal munasib tarkeeb tay karti hai." },
+        { "s": "B", "de": "Gibt es bei meinem Asthma etwas, das ich vor der Impfung beachten sollte?", "en": "Is there anything I should pay attention to before the vaccination because of my asthma?", "ur": "Kya asthma ki wajah se teeke se pehle kuch dhyan rakhna hai?" },
+        { "s": "A", "de": "Solange Ihr Asthma aktuell gut eingestellt ist, spricht nichts gegen die Impfung.", "en": "As long as your asthma is currently well controlled, nothing speaks against the vaccination.", "ur": "Agar asthma abhi theek control mein hai to teeka lagwane mein koi masla nahi." },
+        { "s": "B", "de": "Wie steht es mit Nebenwirkungen bei Menschen mit Asthma?", "en": "What about side effects for people with asthma?", "ur": "Asthma walon ke liye side effects kaise hain?" },
+        { "s": "A", "de": "Die häufigsten sind eine gerötete Einstichstelle und leichte Müdigkeit, nichts Asthmaspezifisches.", "en": "The most common are a reddened injection site and mild tiredness, nothing asthma-specific.", "ur": "Sab se aam surkhi aur halki thakan hai, asthma se khaas koi masla nahi." },
+        { "s": "B", "de": "Das beruhigt mich. Kann ich den Termin für nächste Woche buchen?", "en": "That reassures me. Can I book the appointment for next week?", "ur": "Yeh sun kar itminaan hua. Kya agle hafte ka appointment le sakta hoon?" },
+        { "s": "A", "de": "Ja, wie wäre Mittwoch um halb zwölf?", "en": "Yes, how about Wednesday at half past eleven?", "ur": "Ji haan, Budh ko saarhe gyarah baje kaisa rahega?" },
+        { "s": "B", "de": "Das passt sehr gut, danke.", "en": "That fits very well, thanks.", "ur": "Yeh bohat theek hai, shukriya." },
+        { "s": "A", "de": "Bringen Sie bitte auch eine Liste Ihrer aktuellen Asthma-Medikamente mit.", "en": "Please also bring a list of your current asthma medications.", "ur": "Meherbani kar ke asthma ki dawaon ki list bhi lein." },
+        { "s": "B", "de": "Mache ich. Vielen Dank für die ausführliche Beratung.", "en": "I will. Thank you very much for the thorough advice.", "ur": "Zaroor. Tafseeli mashware ka bohat shukriya." },
+        { "s": "A", "de": "Gerne, bis Mittwoch dann.", "en": "You're welcome, see you Wednesday then.", "ur": "Khushi se, to Budh ko milte hain." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Tag, Frau Klein. Ich überlege, ob sich die Grippeimpfung für mich dieses Jahr überhaupt lohnt.", "en": "Hello, Mrs Klein. I'm considering whether the flu vaccination is even worth it for me this year.", "ur": "Salam, Frau Klein. Soch raha hoon ke is saal flu ka teeka mere liye faida mand hai bhi ya nahi." },
+        { "s": "A", "de": "Was macht Sie denn unsicher?", "en": "What's making you unsure?", "ur": "Kya cheez aap ko yaqeen se roke hui hai?" },
+        { "s": "B", "de": "Ich habe gelesen, dass die Wirksamkeit von Saison zu Saison stark schwankt.", "en": "I've read that the effectiveness varies a lot from season to season.", "ur": "Maine parha ke asar season ke hisaab se kaafi badalta hai." },
+        { "s": "A", "de": "Das stimmt, die Wirksamkeit liegt meist zwischen vierzig und sechzig Prozent, je nachdem, wie gut die Stämme getroffen wurden.", "en": "That's true, the effectiveness is usually between forty and sixty percent, depending on how well the strains were matched.", "ur": "Yeh sach hai, asar aksar chalees se saath faisad ke darmiyan hota hai, is par depend karta hai ke strains kitne sahi matched hain." },
+        { "s": "B", "de": "Auch wenn sie nicht perfekt schützt, mildert sie den Verlauf, wenn ich mich trotzdem anstecke?", "en": "Even if it doesn't protect perfectly, does it ease the course if I catch it anyway?", "ur": "Agar poora nahi bhi bachati to kya bimari ka asar kam kar deti hai agar phir bhi ho jaye?" },
+        { "s": "A", "de": "Genau, Studien zeigen deutlich mildere Verläufe und weniger Krankenhausaufenthalte bei geimpften Personen.", "en": "Exactly, studies clearly show milder courses and fewer hospitalizations among vaccinated people.", "ur": "Bilkul, studies dikhati hain ke teeke wale logon mein bimari halki hoti hai aur hospital jane ki zaroorat kam hoti hai." },
+        { "s": "B", "de": "Ich habe außerdem eine milde Autoimmunerkrankung. Beeinflusst das mein Immunsystem und die Impfreaktion?", "en": "I also have a mild autoimmune condition. Does that affect my immune system and the vaccine response?", "ur": "Mujhe halki autoimmune bimari bhi hai. Kya yeh immune system aur teeke ke asar par farq dalti hai?" },
+        { "s": "A", "de": "Das kann die Immunantwort etwas abschwächen, aber ein Totimpfstoff wie dieser ist trotzdem sicher für Sie.", "en": "That can weaken the immune response somewhat, but an inactivated vaccine like this one is still safe for you.", "ur": "Yeh immune reaction thora kam kar sakti hai, lekin yeh dead teeka phir bhi aap ke liye mehfooz hai." },
+        { "s": "B", "de": "Sollte ich das trotzdem vorher mit meinem Facharzt besprechen?", "en": "Should I discuss that with my specialist beforehand anyway?", "ur": "Kya phir bhi mujhe apne specialist se pehle baat karni chahiye?" },
+        { "s": "A", "de": "Bei einer bestehenden Autoimmunerkrankung ist das eine gute Idee, besonders wenn Sie Immunsuppressiva nehmen.", "en": "With an existing autoimmune condition that's a good idea, especially if you're taking immunosuppressants.", "ur": "Autoimmune bimari ki wajah se yeh acha khayal hai, khaas kar agar immunosuppressants le rahe hain." },
+        { "s": "B", "de": "Ich nehme aktuell keine, nur gelegentlich ein entzündungshemmendes Mittel.", "en": "I'm currently not taking any, just occasionally an anti-inflammatory drug.", "ur": "Abhi koi nahi le raha, sirf kabhi kabhi soojan kam karne wali dawa." },
+        { "s": "A", "de": "Dann spricht aus meiner Sicht nichts dagegen, aber eine kurze Rücksprache schadet nicht.", "en": "Then from my point of view nothing speaks against it, but a brief consultation won't hurt.", "ur": "Phir mere khayal mein koi masla nahi, lekin thori si baat kar lena bura nahi." },
+        { "s": "B", "de": "Gut, ich rufe morgen bei meinem Facharzt an und melde mich dann bei Ihnen.", "en": "Good, I'll call my specialist tomorrow and get back to you then.", "ur": "Acha, kal apne specialist ko phone karunga aur phir aap ko bataunga." },
+        { "s": "A", "de": "Sehr gut. Falls er zustimmt, können wir die Impfung noch diese Woche machen.", "en": "Very good. If he agrees, we can do the vaccination still this week.", "ur": "Bohat acha. Agar woh razi ho jaye to hum isi hafte teeka laga sakte hain." },
+        { "s": "B", "de": "Perfekt, vielen Dank für die ausführliche und ehrliche Einschätzung.", "en": "Perfect, thank you very much for the thorough and honest assessment.", "ur": "Bohat acha, tafseeli aur imandaar raye ka bohat shukriya." },
+        { "s": "A", "de": "Gerne, melden Sie sich einfach, sobald Sie Bescheid wissen.", "en": "You're welcome, just let me know as soon as you know.", "ur": "Khushi se, pata chalte hi bata dein." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie möchten sich in der Apotheke gegen Grippe impfen lassen und vereinbaren einen Termin.",
+        "en": "You'd like to get a flu vaccination at the pharmacy and arrange an appointment.",
+        "ur": "Aap apotheke mein flu ka teeka lagwana chahte hain aur appointment lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, wie kann ich helfen?",
+          "goal": { "en": "Ask if they do flu vaccinations here.", "ur": "Poochein kya yahan flu ka teeka lagta hai." },
+          "options": ["Machen Sie hier Grippeimpfungen?", "Machen Sie hier eine Grippeimpfung?"],
+          "fallback": "Was möchten Sie wissen?",
+          "accept": [{ "kw": ["grippeimpfungen"], "next": "n2" }, { "kw": ["grippeimpfung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ja, das machen wir.",
+          "goal": { "en": "Say you'd like an appointment.", "ur": "Kahein appointment chahiye." },
+          "options": ["Ich möchte gern einen Termin.", "Ich hätte gern einen Termin."],
+          "fallback": "Möchten Sie einen Termin?",
+          "accept": [{ "kw": ["termin"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Haben Sie am Freitag um zehn Uhr Zeit?",
+          "goal": { "en": "Say yes, that works well.", "ur": "Kahein haan, theek hai." },
+          "options": ["Ja, das passt gut.", "Ja, das passt mir gut."],
+          "fallback": "Passt Ihnen das?",
+          "accept": [{ "kw": ["ja", "passt"], "next": "n4" }, { "kw": ["ja"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Bringen Sie bitte Ihren Impfausweis mit.",
+          "goal": { "en": "Say you will, and ask what the vaccination costs.", "ur": "Kahein zaroor, aur poochein qeemat kya hai." },
+          "options": ["Mache ich. Was kostet die Impfung?", "Mache ich. Was kostet das?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["kostet"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Für Sie ist es kostenlos, Ihre Krankenkasse übernimmt das.",
+          "goal": { "en": "Say that's good to know and thank her.", "ur": "Kahein yeh sun kar acha laga aur shukriya." },
+          "options": ["Das ist gut zu wissen. Danke.", "Gut zu wissen, danke schön."],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Bis Freitag dann.",
+          "goal": { "en": "Say see you Friday and goodbye.", "ur": "Kahein jumma ko milte hain aur khuda hafiz." },
+          "options": ["Bis Freitag. Auf Wiedersehen.", "Bis Freitag, auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["freitag", "wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie sind unsicher, ob sich die Grippeimpfung dieses Jahr für Sie lohnt, und Sie haben eine milde Autoimmunerkrankung.",
+        "en": "You're unsure whether the flu vaccination is worth it for you this year, and you have a mild autoimmune condition.",
+        "ur": "Aap yaqeen se nahi keh sakte ke is saal flu ka teeka faidamand hai, aur aap ko halki autoimmune bimari hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was führt Sie zu mir?",
+          "goal": { "en": "Say you're considering whether the flu vaccine is worth it this year.", "ur": "Kahein soch rahe hain teeka faidamand hai ya nahi." },
+          "options": ["Ich überlege, ob sich die Grippeimpfung für mich lohnt.", "Ich bin unsicher, ob ich mich impfen lassen soll."],
+          "fallback": "Was beschäftigt Sie?",
+          "accept": [{ "kw": ["grippeimpfung"], "next": "n2" }, { "kw": ["impfen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Was macht Sie denn unsicher?",
+          "goal": { "en": "Say you've read the effectiveness varies a lot each season.", "ur": "Kahein parha hai asar season ke hisaab se badalta hai." },
+          "options": ["Ich habe gelesen, dass die Wirksamkeit stark schwankt.", "Die Wirksamkeit soll sich von Saison zu Saison stark ändern."],
+          "fallback": "Erzählen Sie mir mehr.",
+          "accept": [{ "kw": ["wirksamkeit"], "next": "n3" }, { "kw": ["schwankt"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das stimmt, aber sie mildert meist den Verlauf, auch wenn man sich ansteckt.",
+          "goal": { "en": "Say you also have a mild autoimmune condition and ask if that matters.", "ur": "Kahein autoimmune bimari hai aur poochein farq parta hai." },
+          "options": ["Ich habe außerdem eine milde Autoimmunerkrankung. Beeinflusst das mein Immunsystem?", "Ich habe eine leichte Autoimmunerkrankung. Macht das einen Unterschied?"],
+          "fallback": "Haben Sie sonst Erkrankungen?",
+          "accept": [{ "kw": ["autoimmunerkrankung"], "next": "n4" }, { "kw": ["immunsystem"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das kann die Immunantwort etwas abschwächen, aber der Totimpfstoff ist trotzdem sicher für Sie.",
+          "goal": { "en": "Ask if you should discuss it with your specialist beforehand.", "ur": "Poochein kya specialist se pehle baat karni chahiye." },
+          "options": ["Sollte ich das vorher mit meinem Facharzt besprechen?", "Sollte ich das mit meinem Facharzt abklären?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["facharzt"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das ist eine gute Idee, besonders wenn Sie Immunsuppressiva nehmen.",
+          "goal": { "en": "Say you'll call your specialist tomorrow and get back to her.", "ur": "Kahein kal specialist ko phone karenge aur phir batayenge." },
+          "options": ["Gut, ich rufe morgen meinen Facharzt an und melde mich dann.", "In Ordnung, ich frage morgen meinen Facharzt und sage Ihnen Bescheid."],
+          "fallback": "Was ist Ihr Plan?",
+          "accept": [{ "kw": ["facharzt"], "next": "n6" }, { "kw": ["morgen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Sehr gut. Falls er zustimmt, können wir die Impfung noch diese Woche machen.",
+          "goal": { "en": "Thank her for the thorough and honest assessment.", "ur": "Tafseeli aur imandaar raye ka shukriya kahein." },
+          "options": ["Vielen Dank für die ausführliche und ehrliche Einschätzung.", "Danke für die ehrliche Einschätzung."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne, melden Sie sich, sobald Sie Bescheid wissen.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

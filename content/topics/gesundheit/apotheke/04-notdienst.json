@@ -1,0 +1,208 @@
+{
+  "id": "notdienst",
+  "order": 4,
+  "icon": "🌙",
+  "title": { "de": "Apotheken-Notdienst in der Nacht", "en": "Emergency pharmacy at night", "ur": "Raat ka apotheke notdienst" },
+  "angle": "Getting urgent medicine outside opening hours · Band ke waqt fauri dawa lena",
+  "voices": { "A": "Charon", "B": "Puck" },
+  "words": ["notdienst", "notdienstgebühr", "nachtschalter", "dringend", "fieberzäpfchen", "auffüllen", "geöffnet", "geschlossen", "notaufnahme", "klingeln"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Berger (Notdienst-Apotheker)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Abend. Haben Sie geöffnet?", "en": "Good evening. Are you open?", "ur": "Shab bakhair. Kya khula hai?" },
+        { "s": "A", "de": "Ja, wir haben Notdienst. Was brauchen Sie?", "en": "Yes, we have emergency service. What do you need?", "ur": "Ji haan, notdienst hai. Aap ko kya chahiye?" },
+        { "s": "B", "de": "Mein Sohn hat hohes Fieber.", "en": "My son has a high fever.", "ur": "Mere bete ko tez bukhar hai." },
+        { "s": "A", "de": "Wie alt ist Ihr Sohn?", "en": "How old is your son?", "ur": "Aap ke bete ki umar kya hai?" },
+        { "s": "B", "de": "Zwei Jahre alt.", "en": "Two years old.", "ur": "Do saal ka hai." },
+        { "s": "A", "de": "Ich gebe Ihnen Fieberzäpfchen für Kinder.", "en": "I'll give you fever suppositories for children.", "ur": "Main aap ko bachon ke fieberzäpfchen deti hoon." },
+        { "s": "B", "de": "Danke. Was kostet das?", "en": "Thanks. How much does that cost?", "ur": "Shukriya. Kitne ke hain?" },
+        { "s": "A", "de": "Sechs Euro, plus zwei Euro Notdienstgebühr.", "en": "Six euros, plus two euros emergency fee.", "ur": "Chhe euro, aur do euro notdienstgebühr." },
+        { "s": "B", "de": "Kein Problem, hier bitte.", "en": "No problem, here you go.", "ur": "Koi baat nahi, yeh lein." },
+        { "s": "A", "de": "Danke schön. Gute Besserung für Ihren Sohn.", "en": "Thank you. Get well soon for your son.", "ur": "Shukriya. Aap ke bete ke liye jald sehatyabi." },
+        { "s": "B", "de": "Vielen Dank. Auf Wiedersehen.", "en": "Thank you very much. Goodbye.", "ur": "Bohat shukriya. Khuda hafiz." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Berger (Notdienst-Apotheker)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Abend. Ich habe im Internet gesehen, dass Sie heute Notdienst haben.", "en": "Good evening. I saw on the internet that you have emergency service today.", "ur": "Shab bakhair. Internet par dekha aap ka aaj notdienst hai." },
+        { "s": "A", "de": "Das stimmt. Bitte klingeln Sie am Nachtschalter, dort helfe ich Ihnen.", "en": "That's right. Please ring the night hatch, I'll help you there.", "ur": "Bilkul theek. Meherbani kar ke nachtschalter par bell bajayein, wahan madad karta hoon." },
+        { "s": "B", "de": "Alles klar, ich habe geklingelt. Meine Tochter hat starke Ohrenschmerzen.", "en": "All right, I've rung. My daughter has a bad earache.", "ur": "Theek hai, ghanti baja di. Meri beti ke kaan mein tez dard hai." },
+        { "s": "A", "de": "Seit wann hat sie die Schmerzen?", "en": "Since when has she had the pain?", "ur": "Yeh dard kab se hai?" },
+        { "s": "B", "de": "Seit heute Nachmittag, und sie kann kaum schlafen.", "en": "Since this afternoon, and she can hardly sleep.", "ur": "Aaj dopahar se, aur woh mushkil se so pa rahi hai." },
+        { "s": "A", "de": "Hat sie auch Fieber?", "en": "Does she also have a fever?", "ur": "Kya bukhar bhi hai?" },
+        { "s": "B", "de": "Ein bisschen, achtunddreißig zwei.", "en": "A little, thirty-eight point two.", "ur": "Thora sa, athtees point do." },
+        { "s": "A", "de": "Ich gebe Ihnen schmerzlindernde Ohrentropfen und ein Fiebermittel.", "en": "I'll give you pain-relieving ear drops and a fever remedy.", "ur": "Main dard kam karne wale ear drops aur bukhar ki dawa deti hoon." },
+        { "s": "B", "de": "Reicht das für heute Nacht, oder sollten wir zum Arzt?", "en": "Is that enough for tonight, or should we go to the doctor?", "ur": "Kya raat ke liye kaafi hai ya doctor ke paas jayein?" },
+        { "s": "A", "de": "Wenn es sich morgen nicht bessert, gehen Sie bitte zum Kinderarzt.", "en": "If it doesn't improve by tomorrow, please go to the pediatrician.", "ur": "Agar kal tak behtar na ho to bachon ke doctor ke paas jayein." },
+        { "s": "B", "de": "In Ordnung. Was kostet das insgesamt?", "en": "All right. How much does that cost in total?", "ur": "Theek hai. Total kitne ka hai?" },
+        { "s": "A", "de": "Vierzehn Euro, inklusive der Notdienstgebühr.", "en": "Fourteen euros, including the emergency fee.", "ur": "Chaudah euro, notdienstgebühr samet." },
+        { "s": "B", "de": "Hier bitte. Vielen Dank für Ihre Hilfe.", "en": "Here you go. Thank you very much for your help.", "ur": "Yeh lein. Aap ki madad ka bohat shukriya." },
+        { "s": "A", "de": "Gerne. Ich hoffe, es geht Ihrer Tochter bald besser.", "en": "You're welcome. I hope your daughter feels better soon.", "ur": "Khushi se. Umeed hai aap ki beti jald behtar ho jayegi." },
+        { "s": "B", "de": "Danke. Auf Wiedersehen.", "en": "Thanks. Goodbye.", "ur": "Shukriya. Khuda hafiz." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Berger (Notdienst-Apotheker)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Abend. Entschuldigung, dass ich so spät noch komme.", "en": "Good evening. Sorry for coming so late.", "ur": "Shab bakhair. Maazrat itni dair se aaya hoon." },
+        { "s": "A", "de": "Kein Problem, dafür ist der Notdienst da. Was fehlt Ihnen?", "en": "No problem, that's what the emergency service is for. What's wrong?", "ur": "Koi baat nahi, isi liye notdienst hai. Kya masla hai?" },
+        { "s": "B", "de": "Ich habe mir beim Kochen die Hand verbrannt, es tut ziemlich weh.", "en": "I burned my hand while cooking, it hurts quite a lot.", "ur": "Khana pakate waqt haath jal gaya, kaafi dard ho raha hai." },
+        { "s": "A", "de": "Zeigen Sie mir das bitte. Wie groß ist die Fläche?", "en": "Please show me. How large is the area?", "ur": "Meherbani kar ke dikhayein. Jali hui jagah kitni bari hai?" },
+        { "s": "B", "de": "Nicht sehr groß, ungefähr so groß wie eine Münze, aber es hat schon eine Blase gebildet.", "en": "Not very large, about the size of a coin, but it's already formed a blister.", "ur": "Zyada bari nahi, taqreeban sikke jitni, lekin blister ban chuka hai." },
+        { "s": "A", "de": "Das ist eine Verbrennung zweiten Grades. Ich gebe Ihnen eine Brandsalbe und einen sterilen Verband.", "en": "That's a second-degree burn. I'll give you a burn ointment and a sterile bandage.", "ur": "Yeh doosri darja ki jalan hai. Main brandsalbe aur sterile verband deti hoon." },
+        { "s": "B", "de": "Soll ich die Blase selbst öffnen?", "en": "Should I open the blister myself?", "ur": "Kya main khud blister kholoon?" },
+        { "s": "A", "de": "Nein, auf keinen Fall, das erhöht das Infektionsrisiko stark.", "en": "No, absolutely not, that greatly increases the risk of infection.", "ur": "Nahi, bilkul nahi, isse infection ka khatra bohat barh jata hai." },
+        { "s": "B", "de": "Verstanden. Brauche ich auch etwas gegen die Schmerzen?", "en": "Understood. Do I also need something for the pain?", "ur": "Samajh gaya. Kya dard ke liye bhi kuch chahiye?" },
+        { "s": "A", "de": "Nehmen Sie ein leichtes Schmerzmittel, das reicht meistens für so eine kleine Fläche.", "en": "Take a mild painkiller, that's usually enough for such a small area.", "ur": "Halki dard ki dawa lein, itni chhoti jagah ke liye aksar kaafi hoti hai." },
+        { "s": "B", "de": "Wie oft soll ich den Verband wechseln?", "en": "How often should I change the bandage?", "ur": "Bandage kitni baar badalni hai?" },
+        { "s": "A", "de": "Einmal täglich, oder öfter, wenn er nass wird.", "en": "Once daily, or more often if it gets wet.", "ur": "Din mein aik baar, ya zyada agar geela ho jaye." },
+        { "s": "B", "de": "Wann sollte ich zum Arzt gehen, falls es sich verschlechtert?", "en": "When should I see a doctor if it gets worse?", "ur": "Agar halat kharab ho to kab doctor ke paas jaoon?" },
+        { "s": "A", "de": "Wenn die Blase größer wird, sich Eiter bildet oder Sie Fieber bekommen, gehen Sie sofort zum Arzt.", "en": "If the blister grows, pus forms, or you get a fever, see a doctor immediately.", "ur": "Agar blister bara ho jaye, pip banay, ya bukhar aaye to foran doctor ke paas jayein." },
+        { "s": "B", "de": "Alles klar, danke für die gründliche Beratung.", "en": "All right, thanks for the thorough advice.", "ur": "Theek hai, tafseeli mashware ka shukriya." },
+        { "s": "A", "de": "Gerne, und gute Besserung.", "en": "You're welcome, and get well soon.", "ur": "Khushi se, aur jald sehatyabi." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Berger (Notdienst-Apotheker)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Guten Abend. Ich bin unsicher, ob ich hier richtig bin, oder ob ich in die Notaufnahme sollte.", "en": "Good evening. I'm unsure whether I'm in the right place here, or whether I should go to the emergency room.", "ur": "Shab bakhair. Yaqeen nahi ke yahan sahi jagah hoon ya emergency room jana chahiye." },
+        { "s": "A", "de": "Erzählen Sie mir, was los ist, dann können wir das gemeinsam einschätzen.", "en": "Tell me what's going on, then we can assess it together.", "ur": "Batayein masla kya hai, phir hum milkar andaza laga sakte hain." },
+        { "s": "B", "de": "Meine Frau hat seit einigen Stunden zunehmende Schmerzen im Unterbauch, rechts.", "en": "My wife has had increasing pain in her lower right abdomen for several hours.", "ur": "Meri biwi ko kai ghanton se pait ke neechay, dayen taraf, badhta hua dard hai." },
+        { "s": "A", "de": "Hat sie auch Fieber, Übelkeit oder Erbrechen?", "en": "Does she also have a fever, nausea, or vomiting?", "ur": "Kya bukhar, matli, ya ulti bhi hai?" },
+        { "s": "B", "de": "Leichtes Fieber und ihr ist übel, erbrochen hat sie noch nicht.", "en": "A mild fever and she feels nauseous, she hasn't vomited yet.", "ur": "Halka bukhar aur matli hai, abhi tak ulti nahi hui." },
+        { "s": "A", "de": "Das klingt möglicherweise nach einer Blinddarmentzündung. Das kann ich hier nicht sicher beurteilen.", "en": "That could possibly sound like appendicitis. I can't assess that with certainty here.", "ur": "Yeh appendix ki infection lag sakti hai. Main yahan yaqeen se nahi keh sakti." },
+        { "s": "B", "de": "Sollen wir also direkt in die Notaufnahme fahren?", "en": "So should we go straight to the emergency room?", "ur": "To kya hum seedha emergency room jayein?" },
+        { "s": "A", "de": "Ja, bei Verdacht auf Blinddarmentzündung würde ich nicht bis morgen warten.", "en": "Yes, with a suspicion of appendicitis I wouldn't wait until tomorrow.", "ur": "Ji haan, appendix ka shak ho to kal tak intezaar nahi karna chahiye." },
+        { "s": "B", "de": "Können Sie ihr trotzdem etwas gegen die Schmerzen geben, bis wir dort sind?", "en": "Can you still give her something for the pain until we get there?", "ur": "Kya waha pahunchne tak dard ke liye kuch de sakti hain?" },
+        { "s": "A", "de": "Das rate ich Ihnen ausdrücklich ab, Schmerzmittel können die Diagnose im Krankenhaus erschweren.", "en": "I strongly advise against that, painkillers can make the diagnosis harder in the hospital.", "ur": "Main is se mana karti hoon, dard ki dawa hospital mein diagnosis mushkil bana sakti hai." },
+        { "s": "B", "de": "Das wusste ich nicht, gut, dass Sie mich darauf hinweisen.", "en": "I didn't know that, good that you point that out to me.", "ur": "Mujhe yeh nahi pata tha, acha hua aap ne bataya." },
+        { "s": "A", "de": "Fahren Sie am besten jetzt gleich los, ich rufe schon mal in der Notaufnahme an und kündige Sie an.", "en": "It's best to leave right away, I'll call the emergency room now and let them know you're coming.", "ur": "Behtar hai abhi nikal jayein, main emergency room ko phone kar ke bata deti hoon aap aa rahe hain." },
+        { "s": "B", "de": "Das ist sehr freundlich, vielen Dank.", "en": "That's very kind, thank you very much.", "ur": "Yeh bohat meherbani hai, bohat shukriya." },
+        { "s": "A", "de": "Keine Ursache. Passen Sie unterwegs gut auf Ihre Frau auf.", "en": "No worries. Take good care of your wife on the way.", "ur": "Koi baat nahi. Raste mein apni biwi ka khayal rakhein." },
+        { "s": "B", "de": "Das werde ich. Vielen Dank für Ihre schnelle Hilfe.", "en": "I will. Thank you very much for your quick help.", "ur": "Zaroor. Aap ki fori madad ka bohat shukriya." },
+        { "s": "A", "de": "Gute Besserung für Ihre Frau, und alles Gute.", "en": "Get well soon to your wife, and all the best.", "ur": "Aap ki biwi ke liye jald sehatyabi, aur Allah hafiz." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Berger, Notdienst-Apotheker",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Es ist spät abends. Ihr kleiner Sohn hat hohes Fieber, und Sie gehen zur Notdienst-Apotheke.",
+        "en": "It's late evening. Your little son has a high fever, and you go to the emergency pharmacy.",
+        "ur": "Raat ka waqt hai. Aap ke chhote bete ko tez bukhar hai aur aap notdienst apotheke jate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Abend, was brauchen Sie?",
+          "goal": { "en": "Say your son has a high fever.", "ur": "Kahein bete ko tez bukhar hai." },
+          "options": ["Mein Sohn hat hohes Fieber.", "Mein Sohn hat sehr hohes Fieber."],
+          "fallback": "Was fehlt Ihrem Sohn?",
+          "accept": [{ "kw": ["sohn", "fieber"], "next": "n2" }, { "kw": ["fieber"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie alt ist Ihr Sohn?",
+          "goal": { "en": "Say he's two years old.", "ur": "Kahein do saal ka hai." },
+          "options": ["Zwei Jahre alt.", "Er ist zwei Jahre alt."],
+          "fallback": "Können Sie mir das Alter sagen?",
+          "accept": [{ "kw": ["zwei", "jahre"], "next": "n3" }, { "kw": ["jahre"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ich gebe Ihnen Fieberzäpfchen für Kinder.",
+          "goal": { "en": "Thank him and ask the price.", "ur": "Shukriya kahein aur qeemat poochein." },
+          "options": ["Danke. Was kostet das?", "Danke schön. Wie viel kostet das?"],
+          "fallback": "Möchten Sie sonst noch etwas wissen?",
+          "accept": [{ "kw": ["kostet"], "next": "n4" }, { "kw": ["kosten"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Sechs Euro, plus zwei Euro Notdienstgebühr.",
+          "goal": { "en": "Say no problem and hand over the money.", "ur": "Kahein koi baat nahi aur paise dein." },
+          "options": ["Kein Problem, hier bitte.", "Kein Problem, hier ist das Geld."],
+          "fallback": "Ist das in Ordnung?",
+          "accept": [{ "kw": ["problem"], "next": "n5" }, { "kw": ["hier"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Danke schön. Gute Besserung für Ihren Sohn.",
+          "goal": { "en": "Thank him very much and say goodbye.", "ur": "Bohat shukriya kahein aur khuda hafiz." },
+          "options": ["Vielen Dank. Auf Wiedersehen.", "Danke schön. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen, gute Nacht.", "next": "END" },
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen, gute Nacht.", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Berger, Notdienst-Apotheker",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Ihre Frau hat starke, zunehmende Bauchschmerzen unten rechts, leichtes Fieber und Übelkeit. Sie gehen spätabends zum Notdienst.",
+        "en": "Your wife has strong, increasing pain in the lower right abdomen, a mild fever, and nausea. You go to the emergency pharmacy late at night.",
+        "ur": "Aap ki biwi ko pait ke neechay dayen taraf tez, badhta hua dard hai, halka bukhar aur matli hai. Aap raat ko notdienst jate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Abend, was führt Sie zu mir?",
+          "goal": { "en": "Say your wife has increasing pain in the lower right abdomen.", "ur": "Kahein biwi ko pait ke neechay dayen taraf badhta dard hai." },
+          "options": ["Meine Frau hat zunehmende Schmerzen im Unterbauch, rechts.", "Meine Frau hat starke Schmerzen im rechten Unterbauch."],
+          "fallback": "Was ist das Problem?",
+          "accept": [{ "kw": ["unterbauch"], "next": "n2" }, { "kw": ["schmerzen", "rechts"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Hat sie auch Fieber, Übelkeit oder Erbrechen?",
+          "goal": { "en": "Say mild fever and nausea, no vomiting yet.", "ur": "Kahein halka bukhar aur matli hai, ulti nahi hui." },
+          "options": ["Leichtes Fieber und ihr ist übel, erbrochen hat sie noch nicht.", "Leichtes Fieber und Übelkeit, aber keine Erbrechen."],
+          "fallback": "Können Sie die Symptome beschreiben?",
+          "accept": [{ "kw": ["fieber", "übel"], "next": "n3" }, { "kw": ["übelkeit"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das klingt möglicherweise nach einer Blinddarmentzündung. Das kann ich hier nicht sicher beurteilen.",
+          "goal": { "en": "Ask whether you should go straight to the emergency room.", "ur": "Poochein kya seedha emergency room jayein." },
+          "options": ["Sollen wir also direkt in die Notaufnahme fahren?", "Müssen wir sofort in die Notaufnahme?"],
+          "fallback": "Was raten Sie mir?",
+          "accept": [{ "kw": ["notaufnahme"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, bei Verdacht auf Blinddarmentzündung würde ich nicht bis morgen warten.",
+          "goal": { "en": "Ask if he can give her something for the pain until you get there.", "ur": "Poochein kya waha pahunchne tak dard ki dawa mil sakti hai." },
+          "options": ["Können Sie ihr etwas gegen die Schmerzen geben?", "Können Sie ihr trotzdem ein Schmerzmittel geben?"],
+          "fallback": "Was können Sie jetzt für uns tun?",
+          "accept": [{ "kw": ["schmerzen"], "next": "n5" }, { "kw": ["schmerzmittel"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das rate ich Ihnen ausdrücklich ab, das kann die Diagnose im Krankenhaus erschweren.",
+          "goal": { "en": "Say you understand and thank him.", "ur": "Kahein samajh gaye aur shukriya adaa karein." },
+          "options": ["Das wusste ich nicht, danke für den Hinweis.", "Verstanden, danke, dass Sie mich darauf hinweisen."],
+          "fallback": "Ist das klar?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Fahren Sie jetzt gleich los, ich rufe in der Notaufnahme an.",
+          "goal": { "en": "Thank him very much for his quick help and say goodbye.", "ur": "Fori madad ka bohat shukriya kahein aur khuda hafiz." },
+          "options": ["Vielen Dank für Ihre schnelle Hilfe. Auf Wiedersehen.", "Danke für Ihre schnelle Hilfe. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Gute Besserung für Ihre Frau, und alles Gute.", "next": "END" },
+            { "kw": ["danke"], "reply": "Gute Besserung für Ihre Frau.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

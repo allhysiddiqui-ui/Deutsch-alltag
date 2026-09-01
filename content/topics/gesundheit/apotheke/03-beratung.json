@@ -1,0 +1,216 @@
+{
+  "id": "beratung",
+  "order": 3,
+  "icon": "⚠️",
+  "title": { "de": "Dosierung und Nebenwirkungen", "en": "Dosage and side effects", "ur": "Khurak aur side effects" },
+  "angle": "Asking about how to take a medicine safely · Dawa surakhshit tareeqe se lene ke baare mein poochna",
+  "voices": { "A": "Aoede", "B": "Puck" },
+  "words": ["dosierung", "nebenwirkung", "nüchtern", "mahlzeit", "tropfen", "beipackzettel", "schwindel", "allergisch", "wechselwirkung", "blutverdünner"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Wie kann ich helfen?", "en": "Hello. How can I help?", "ur": "Salam. Main kya madad karoon?" },
+        { "s": "B", "de": "Ich habe eine Frage zu diesen Tabletten.", "en": "I have a question about these tablets.", "ur": "Mujhe in goliyon ke baare mein sawal hai." },
+        { "s": "A", "de": "Gerne, was möchten Sie wissen?", "en": "Sure, what would you like to know?", "ur": "Zaroor, kya jaanna chahte hain?" },
+        { "s": "B", "de": "Wann soll ich sie nehmen?", "en": "When should I take them?", "ur": "Yeh kab leni hain?" },
+        { "s": "A", "de": "Zweimal am Tag, morgens und abends.", "en": "Twice a day, morning and evening.", "ur": "Din mein do baar, subh aur sham." },
+        { "s": "B", "de": "Vor oder nach dem Essen?", "en": "Before or after eating?", "ur": "Khane se pehle ya baad mein?" },
+        { "s": "A", "de": "Nach dem Essen, mit viel Wasser.", "en": "After eating, with plenty of water.", "ur": "Khane ke baad, bohat sara pani ke saath." },
+        { "s": "B", "de": "Gibt es Nebenwirkungen?", "en": "Are there side effects?", "ur": "Kya side effects hain?" },
+        { "s": "A", "de": "Manchmal leichte Übelkeit.", "en": "Sometimes mild nausea.", "ur": "Kabhi kabhi halki matli." },
+        { "s": "B", "de": "Danke für die Erklärung.", "en": "Thanks for the explanation.", "ur": "Wazahat ka shukriya." },
+        { "s": "A", "de": "Gern geschehen. Gute Besserung.", "en": "You're welcome. Get well soon.", "ur": "Khushi se. Jald sehatyabi." },
+        { "s": "B", "de": "Auf Wiedersehen.", "en": "Goodbye.", "ur": "Khuda hafiz." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, aap ke liye kya kar sakti hoon?" },
+        { "s": "B", "de": "Ich habe eine Frage zur Dosierung dieser Tropfen.", "en": "I have a question about the dosage of these drops.", "ur": "In tropfen ki khurak ke baare mein sawal hai." },
+        { "s": "A", "de": "Kein Problem. Wie viele Tropfen nehmen Sie zurzeit?", "en": "No problem. How many drops are you currently taking?", "ur": "Koi baat nahi. Abhi kitne tropfen le rahe hain?" },
+        { "s": "B", "de": "Zehn Tropfen, dreimal täglich.", "en": "Ten drops, three times daily.", "ur": "Das tropfen, din mein teen baar." },
+        { "s": "A", "de": "Das ist genau richtig laut Rezept.", "en": "That's exactly right according to the prescription.", "ur": "Nuskhe ke mutabiq yeh bilkul theek hai." },
+        { "s": "B", "de": "Muss ich die Tropfen nüchtern nehmen?", "en": "Do I have to take the drops on an empty stomach?", "ur": "Kya yeh khali pait leni hain?" },
+        { "s": "A", "de": "Nein, Sie können sie zu einer Mahlzeit nehmen, das ist milder für den Magen.", "en": "No, you can take them with a meal, that's milder on the stomach.", "ur": "Nahi, khane ke saath le sakte hain, pait ke liye halki hoti hai." },
+        { "s": "B", "de": "Und wie lange muss ich sie insgesamt nehmen?", "en": "And how long do I have to take them in total?", "ur": "Aur yeh kitne din leni hain?" },
+        { "s": "A", "de": "Zwei Wochen, auch wenn Sie sich schon früher besser fühlen.", "en": "Two weeks, even if you feel better earlier.", "ur": "Do hafte, chahe pehle hi behtar mehsoos ho." },
+        { "s": "B", "de": "Warum ist das wichtig?", "en": "Why is that important?", "ur": "Yeh kyun zaroori hai?" },
+        { "s": "A", "de": "Sonst kommt die Beschwerde oft zurück oder wird schlimmer.", "en": "Otherwise the problem often comes back or gets worse.", "ur": "Warna takleef aksar wapas aati hai ya barh jati hai." },
+        { "s": "B", "de": "Verstehe. Was mache ich, wenn ich eine Einnahme vergesse?", "en": "I understand. What do I do if I forget a dose?", "ur": "Samajh gaya. Agar aik dose bhool jaoon to kya karoon?" },
+        { "s": "A", "de": "Nachholen, sobald Sie es merken, aber nicht die doppelte Menge nehmen.", "en": "Make it up as soon as you notice, but don't take a double amount.", "ur": "Yaad aate hi le lein, lekin double khurak na lein." },
+        { "s": "B", "de": "Gut zu wissen. Vielen Dank.", "en": "Good to know. Thank you very much.", "ur": "Yeh jaan kar acha laga. Bohat shukriya." },
+        { "s": "A", "de": "Gerne. Falls Fragen auftauchen, rufen Sie einfach an.", "en": "You're welcome. If questions come up, just call.", "ur": "Khushi se. Agar sawal ho to phone kar dein." },
+        { "s": "B", "de": "Mache ich. Auf Wiedersehen.", "en": "I will. Goodbye.", "ur": "Zaroor. Khuda hafiz." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Sie wollten noch etwas fragen?", "en": "Hello, you wanted to ask something else?", "ur": "Salam, aap kuch poochna chahte the?" },
+        { "s": "B", "de": "Ja, der Arzt hat mir ein neues Antibiotikum verschrieben, und ich bin allergisch gegen Penicillin.", "en": "Yes, the doctor prescribed me a new antibiotic, and I'm allergic to penicillin.", "ur": "Ji haan, doctor ne nayi antibiotic likhi hai, aur mujhe penicillin se allergy hai." },
+        { "s": "A", "de": "Das ist wichtig zu wissen. Zeigen Sie mir bitte das Rezept.", "en": "That's important to know. Please show me the prescription.", "ur": "Yeh jaanna zaroori hai. Meherbani kar ke nuskha dikhayein." },
+        { "s": "B", "de": "Hier bitte. Steht darauf, ob es Penicillin enthält?", "en": "Here you go. Does it say whether it contains penicillin?", "ur": "Yeh lein. Kya isme likha hai ke penicillin hai ya nahi?" },
+        { "s": "A", "de": "Nein, keine Sorge, dieses Medikament gehört zu einer anderen Gruppe.", "en": "No, don't worry, this medicine belongs to a different group.", "ur": "Nahi, fikar na karein, yeh dawa doosre group ki hai." },
+        { "s": "B", "de": "Trotzdem bin ich vorsichtig, ich hatte früher einen starken Hautausschlag.", "en": "Still I'm cautious, I once had a bad skin rash.", "ur": "Phir bhi ehtiyaat kar raha hoon, pehle mujhe tez skin rash hua tha." },
+        { "s": "A", "de": "Das verstehe ich gut. Falls Sie einen Ausschlag, Schwindel oder Atemnot bemerken, setzen Sie es sofort ab.", "en": "I understand that well. If you notice a rash, dizziness, or shortness of breath, stop it immediately.", "ur": "Main samajh sakti hoon. Agar rash, chakkar, ya saans ki tangi ho to foran band kar dein." },
+        { "s": "B", "de": "Und was mache ich dann?", "en": "And what do I do then?", "ur": "Aur phir kya karoon?" },
+        { "s": "A", "de": "Rufen Sie sofort Ihren Arzt an oder gehen Sie in die Notaufnahme.", "en": "Call your doctor immediately or go to the emergency room.", "ur": "Foran apne doctor ko phone karein ya emergency chale jayein." },
+        { "s": "B", "de": "Verstanden. Gibt es sonst noch Wechselwirkungen, auf die ich achten soll?", "en": "Understood. Are there other interactions I should watch for?", "ur": "Samajh gaya. Aur koi wechselwirkung jis par dhyan doon?" },
+        { "s": "B", "de": "Ich nehme auch täglich einen Blutverdünner.", "en": "I also take a blood thinner daily.", "ur": "Main roz blood thinner bhi leta hoon." },
+        { "s": "A", "de": "Gut, dass Sie das sagen. Dieses Antibiotikum kann die Wirkung des Blutverdünners verstärken.", "en": "Good that you mention that. This antibiotic can increase the effect of the blood thinner.", "ur": "Acha hua aap ne bataya. Yeh antibiotic blood thinner ka asar barha sakti hai." },
+        { "s": "B", "de": "Ist das gefährlich?", "en": "Is that dangerous?", "ur": "Kya yeh khatarnaak hai?" },
+        { "s": "A", "de": "Es erhöht das Blutungsrisiko leicht. Lassen Sie Ihre Gerinnungswerte während der Einnahme kontrollieren.", "en": "It slightly increases the risk of bleeding. Have your clotting levels checked during the treatment.", "ur": "Khoon behne ka khatra thora barh jata hai. Dawa ke doran gerinnungswerte check karwate rahein." },
+        { "s": "B", "de": "Mache ich. Danke für den wichtigen Hinweis.", "en": "I will. Thanks for the important note.", "ur": "Zaroor. Is zaroori baat ka shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Herr Malik. Wie kann ich Ihnen heute helfen?", "en": "Hello, Mr Malik. How can I help you today?", "ur": "Salam, Herr Malik. Aaj kya madad karoon?" },
+        { "s": "B", "de": "Mein Hausarzt hat mir ein neues Medikament gegen erhöhte Blutfette verschrieben.", "en": "My family doctor prescribed me a new medication for elevated blood lipids.", "ur": "Mere family doctor ne blood mein barhe hue fats ke liye nayi dawa likhi hai." },
+        { "s": "A", "de": "In Ordnung. Nehmen Sie derzeit noch andere Medikamente regelmäßig ein?", "en": "All right. Are you currently taking any other medications regularly?", "ur": "Theek hai. Kya abhi koi aur dawa regularly le rahe hain?" },
+        { "s": "B", "de": "Ja, einen Blutverdünner wegen einer Herzrhythmusstörung.", "en": "Yes, a blood thinner because of a heart rhythm disorder.", "ur": "Ji haan, dil ki dharkan ki gharbar ki wajah se blood thinner." },
+        { "s": "A", "de": "Das muss ich unbedingt prüfen. Manche Cholesterinsenker verstärken die Wirkung von Blutverdünnern erheblich.", "en": "I definitely need to check that. Some cholesterol-lowering drugs significantly increase the effect of blood thinners.", "ur": "Yeh zaroor check karna hoga. Kuch cholesterol ki dawaen blood thinner ka asar kaafi barha deti hain." },
+        { "s": "B", "de": "Das wusste ich nicht. Ist das eine der bekannten Wechselwirkungen bei diesem Präparat?", "en": "I didn't know that. Is that one of the known interactions with this preparation?", "ur": "Mujhe yeh nahi pata tha. Kya yeh is dawa ki maloom wechselwirkung mein se hai?" },
+        { "s": "A", "de": "Genau. Ich sehe hier in der Datenbank eine Warnung für genau diese Kombination.", "en": "Exactly. I see a warning here in the database for precisely this combination.", "ur": "Bilkul. Database mein isi combination ke liye warning nazar aa rahi hai." },
+        { "s": "B", "de": "Was schlagen Sie vor? Soll ich zum Arzt zurückgehen?", "en": "What do you suggest? Should I go back to the doctor?", "ur": "Aap kya tajweez karti hain? Kya mujhe doctor ke paas wapas jana chahiye?" },
+        { "s": "A", "de": "Ich rufe mit Ihrem Einverständnis kurz die Praxis an und frage, ob eine Alternative infrage kommt.", "en": "With your permission I'll briefly call the practice and ask whether an alternative is possible.", "ur": "Aap ki ijazat se main clinic ko phone kar ke poochti hoon ke koi doosri dawa mil sakti hai." },
+        { "s": "B", "de": "Ja, bitte, das wäre mir sehr lieb.", "en": "Yes, please, I'd really appreciate that.", "ur": "Ji haan, meherbani, yeh bohat acha hoga." },
+        { "s": "A", "de": "Gut, ich melde mich in ein paar Minuten wieder bei Ihnen.", "en": "Good, I'll get back to you in a few minutes.", "ur": "Theek hai, chand minuton mein aap se dobara baat karti hoon." },
+        { "s": "B", "de": "Falls es keine Alternative gibt, was würden Sie dann empfehlen?", "en": "If there's no alternative, what would you recommend then?", "ur": "Agar koi doosri dawa na mile to aap kya mashwara dengi?" },
+        { "s": "A", "de": "Dann müsste man engmaschig die Gerinnungswerte kontrollieren und mit einer niedrigeren Dosis beginnen.", "en": "Then one would need to closely monitor the clotting values and start with a lower dose.", "ur": "Phir gerinnungswerte ko baar baar check karna hoga aur kam khurak se shuru karna hoga." },
+        { "s": "B", "de": "Das klingt nach einem sinnvollen Vorgehen. Ich vertraue Ihrer Einschätzung.", "en": "That sounds like a sensible approach. I trust your judgment.", "ur": "Yeh theek tareeqa lagta hai. Mujhe aap ki raye par bharosa hai." },
+        { "s": "A", "de": "Vielen Dank für Ihr Vertrauen. Ich rufe jetzt gleich in der Praxis an.", "en": "Thank you very much for your trust. I'll call the practice right now.", "ur": "Bharose ka shukriya. Main abhi clinic ko phone karti hoon." },
+        { "s": "B", "de": "Gut, ich warte hier auf Sie.", "en": "Good, I'll wait here for you.", "ur": "Theek hai, main yahan intezaar karta hoon." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie haben Fragen zur Dosierung Ihrer neuen Tabletten.",
+        "en": "You have questions about the dosage of your new tablets.",
+        "ur": "Aap ko nayi goliyon ki khurak ke baare mein sawal hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Wie kann ich helfen?",
+          "goal": { "en": "Say you have a question about these tablets.", "ur": "Kahein in goliyon ke baare mein sawal hai." },
+          "options": ["Ich habe eine Frage zu diesen Tabletten.", "Ich habe eine Frage zu den Tabletten."],
+          "fallback": "Was möchten Sie fragen?",
+          "accept": [{ "kw": ["frage", "tabletten"], "next": "n2" }, { "kw": ["frage"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gerne, was möchten Sie wissen?",
+          "goal": { "en": "Ask when you should take them.", "ur": "Poochein kab leni hain." },
+          "options": ["Wann soll ich sie nehmen?", "Wann muss ich die Tabletten nehmen?"],
+          "fallback": "Fragen Sie ruhig.",
+          "accept": [{ "kw": ["wann"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Zweimal am Tag, morgens und abends.",
+          "goal": { "en": "Ask before or after eating.", "ur": "Poochein khane se pehle ya baad." },
+          "options": ["Vor oder nach dem Essen?", "Vor dem Essen oder danach?"],
+          "fallback": "Möchten Sie sonst noch etwas wissen?",
+          "accept": [{ "kw": ["essen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Nach dem Essen, mit viel Wasser.",
+          "goal": { "en": "Ask whether there are side effects.", "ur": "Poochein side effects hain." },
+          "options": ["Gibt es Nebenwirkungen?", "Hat das Nebenwirkungen?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["nebenwirkungen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Manchmal leichte Übelkeit.",
+          "goal": { "en": "Thank her for the explanation.", "ur": "Wazahat ka shukriya kahein." },
+          "options": ["Danke für die Erklärung.", "Vielen Dank für die Erklärung."],
+          "fallback": "Ist das verständlich?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gern geschehen. Gute Besserung.",
+          "goal": { "en": "Say goodbye.", "ur": "Khuda hafiz kahein." },
+          "options": ["Auf Wiedersehen.", "Auf Wiedersehen, danke."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie haben ein neues Antibiotikum bekommen, sind aber allergisch gegen Penicillin und nehmen auch einen Blutverdünner.",
+        "en": "You've been given a new antibiotic, but you're allergic to penicillin and also take a blood thinner.",
+        "ur": "Aap ko nayi antibiotic mili hai, lekin aap ko penicillin se allergy hai aur blood thinner bhi lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Sie wollten noch etwas fragen?",
+          "goal": { "en": "Say the doctor prescribed a new antibiotic and you're allergic to penicillin.", "ur": "Kahein doctor ne nayi antibiotic di hai aur penicillin se allergy hai." },
+          "options": ["Ja, ich habe ein neues Antibiotikum bekommen, und ich bin allergisch gegen Penicillin.", "Der Arzt hat mir ein Antibiotikum verschrieben, aber ich bin allergisch gegen Penicillin."],
+          "fallback": "Was möchten Sie fragen?",
+          "accept": [{ "kw": ["allergisch", "penicillin"], "next": "n2" }, { "kw": ["penicillin"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das ist wichtig zu wissen. Zeigen Sie mir bitte das Rezept.",
+          "goal": { "en": "Hand over the prescription.", "ur": "Nuskha dein." },
+          "options": ["Hier bitte.", "Hier ist das Rezept."],
+          "fallback": "Haben Sie das Rezept dabei?",
+          "accept": [{ "kw": ["hier"], "next": "n3" }, { "kw": ["rezept"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Keine Sorge, dieses Medikament gehört zu einer anderen Gruppe als Penicillin.",
+          "goal": { "en": "Say you also take a blood thinner daily.", "ur": "Kahein aap roz blood thinner bhi lete hain." },
+          "options": ["Ich nehme auch täglich einen Blutverdünner.", "Außerdem nehme ich jeden Tag einen Blutverdünner."],
+          "fallback": "Nehmen Sie sonst Medikamente?",
+          "accept": [{ "kw": ["blutverdünner"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Gut, dass Sie das sagen. Dieses Antibiotikum kann die Wirkung des Blutverdünners verstärken.",
+          "goal": { "en": "Ask if that's dangerous.", "ur": "Poochein kya yeh khatarnaak hai." },
+          "options": ["Ist das gefährlich?", "Ist das ein Problem?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["gefährlich"], "next": "n5" }, { "kw": ["problem"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Es erhöht das Blutungsrisiko leicht. Lassen Sie Ihre Gerinnungswerte kontrollieren.",
+          "goal": { "en": "Say you understand and ask what to do if you notice a rash.", "ur": "Kahein samajh gaye aur poochein rash ho to kya karein." },
+          "options": ["Verstanden. Was mache ich, wenn ich einen Ausschlag bemerke?", "In Ordnung. Was soll ich bei einem Ausschlag tun?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["ausschlag"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Setzen Sie es sofort ab und rufen Sie Ihren Arzt an.",
+          "goal": { "en": "Thank her for the important information and say goodbye.", "ur": "Zaroori maloomat ka shukriya kahein aur khuda hafiz." },
+          "options": ["Danke für den wichtigen Hinweis. Auf Wiedersehen.", "Vielen Dank, das ist wichtig zu wissen. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen und gute Besserung.", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

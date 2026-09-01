@@ -1,0 +1,218 @@
+{
+  "id": "rezept",
+  "order": 2,
+  "icon": "💊",
+  "title": { "de": "Ein Rezept einlösen", "en": "Redeeming a prescription", "ur": "Nuskha jama karana" },
+  "angle": "Handing in a doctor's prescription at the pharmacy · Doctor ka nuskha apotheke mein dena",
+  "voices": { "A": "Aoede", "B": "Puck" },
+  "words": ["rezept", "kassenrezept", "zuzahlung", "generikum", "verschreibungspflichtig", "packungsbeilage", "krankenkasse", "vorrätig", "wirkstoff", "dauerrezept"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Haben Sie ein Rezept?", "en": "Hello. Do you have a prescription?", "ur": "Salam. Kya aap ke paas nuskha hai?" },
+        { "s": "B", "de": "Ja, hier bitte.", "en": "Yes, here you go.", "ur": "Ji haan, yeh lein." },
+        { "s": "A", "de": "Danke. Einen Moment, ich hole das Medikament.", "en": "Thank you. One moment, I'll get the medicine.", "ur": "Shukriya. Aik minute, main dawa laati hoon." },
+        { "s": "B", "de": "Kein Problem.", "en": "No problem.", "ur": "Koi baat nahi." },
+        { "s": "A", "de": "Hier ist Ihr Medikament.", "en": "Here is your medicine.", "ur": "Yeh lein aap ki dawa." },
+        { "s": "B", "de": "Vielen Dank. Was muss ich bezahlen?", "en": "Thank you very much. What do I have to pay?", "ur": "Bohat shukriya. Mujhe kitna dena hai?" },
+        { "s": "A", "de": "Fünf Euro Zuzahlung, bitte.", "en": "Five euros co-payment, please.", "ur": "Paanch euro zuzahlung, meherbani." },
+        { "s": "B", "de": "Hier bitte, fünf Euro.", "en": "Here you go, five euros.", "ur": "Yeh lein, paanch euro." },
+        { "s": "A", "de": "Danke schön.", "en": "Thank you.", "ur": "Shukriya." },
+        { "s": "B", "de": "Wie oft soll ich die Tabletten nehmen?", "en": "How often should I take the tablets?", "ur": "Goliyan kitni baar leni hain?" },
+        { "s": "A", "de": "Einmal am Tag, morgens.", "en": "Once a day, in the morning.", "ur": "Din mein aik baar, subh." },
+        { "s": "B", "de": "Alles klar. Auf Wiedersehen.", "en": "All right. Goodbye.", "ur": "Theek hai. Khuda hafiz." },
+        { "s": "A", "de": "Auf Wiedersehen, gute Besserung!", "en": "Goodbye, get well soon!", "ur": "Khuda hafiz, jald sehatyabi!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, aap ke liye kya kar sakti hoon?" },
+        { "s": "B", "de": "Ich habe hier ein Rezept vom Hausarzt.", "en": "I have a prescription from the family doctor here.", "ur": "Mere paas family doctor ka nuskha hai." },
+        { "s": "A", "de": "Danke. Das ist ein Kassenrezept, sehe ich.", "en": "Thank you. I see this is a statutory-insurance prescription.", "ur": "Shukriya. Yeh sarkari insurance ka nuskha hai, maloom ho raha hai." },
+        { "s": "B", "de": "Ja, ich bin gesetzlich versichert.", "en": "Yes, I have statutory insurance.", "ur": "Ji haan, mera sarkari insurance hai." },
+        { "s": "A", "de": "Ich habe hier das Originalpräparat, aber auch ein günstigeres Generikum mit demselben Wirkstoff.", "en": "I have the original brand here, but also a cheaper generic with the same active ingredient.", "ur": "Mere paas asli brand hai, lekin usi wirkstoff wala sasta generikum bhi hai." },
+        { "s": "B", "de": "Wirkt das Generikum genauso gut?", "en": "Does the generic work just as well?", "ur": "Kya generikum utna hi acha kaam karta hai?" },
+        { "s": "A", "de": "Ja, es hat denselben Wirkstoff, nur einen anderen Namen und eine andere Verpackung.", "en": "Yes, it has the same active ingredient, just a different name and packaging.", "ur": "Ji haan, isi wirkstoff hai, sirf naam aur packing farq hai." },
+        { "s": "B", "de": "Gut, dann nehme ich das Generikum.", "en": "Good, then I'll take the generic.", "ur": "Acha, to main generikum le loonga." },
+        { "s": "A", "de": "Ihre Krankenkasse übernimmt die Kosten fast komplett.", "en": "Your health insurance covers almost all of the cost.", "ur": "Aap ki health insurance taqreeban poora kharcha uthati hai." },
+        { "s": "B", "de": "Was muss ich denn noch selbst bezahlen?", "en": "So what do I still have to pay myself?", "ur": "To mujhe khud kitna dena hai?" },
+        { "s": "A", "de": "Nur die gesetzliche Zuzahlung von fünf Euro.", "en": "Only the statutory co-payment of five euros.", "ur": "Sirf sarkari zuzahlung, paanch euro." },
+        { "s": "B", "de": "In Ordnung, hier bitte.", "en": "All right, here you go.", "ur": "Theek hai, yeh lein." },
+        { "s": "A", "de": "Lesen Sie bitte die Packungsbeilage vor der Einnahme.", "en": "Please read the package insert before taking it.", "ur": "Meherbani kar ke lene se pehle packungsbeilage parh lein." },
+        { "s": "B", "de": "Mache ich. Vielen Dank für die Erklärung.", "en": "I will. Thank you very much for the explanation.", "ur": "Zaroor. Wazahat ka bohat shukriya." },
+        { "s": "A", "de": "Gerne. Gute Besserung!", "en": "You're welcome. Get well soon!", "ur": "Khushi se. Jald sehatyabi!" },
+        { "s": "B", "de": "Danke, auf Wiedersehen.", "en": "Thanks, goodbye.", "ur": "Shukriya, khuda hafiz." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was bringen Sie mir denn?", "en": "Hello, what have you brought me?", "ur": "Salam, aap kya laaye hain?" },
+        { "s": "B", "de": "Ein Rezept für ein verschreibungspflichtiges Antibiotikum.", "en": "A prescription for a prescription-only antibiotic.", "ur": "Aik antibiotic ka nuskha jo bina doctor ke nahi milti." },
+        { "s": "A", "de": "Moment, ich schaue nach. Es tut mir leid, das haben wir gerade nicht vorrätig.", "en": "One moment, I'll check. I'm sorry, we don't have that in stock right now.", "ur": "Aik minute, dekhti hoon. Maazrat, yeh abhi stock mein nahi hai." },
+        { "s": "B", "de": "Oh nein. Wie lange würde es dauern, bis es da ist?", "en": "Oh no. How long would it take to arrive?", "ur": "Oh nahi. Aane mein kitna waqt lagega?" },
+        { "s": "A", "de": "Wenn ich es jetzt bestelle, ist es morgen Nachmittag da.", "en": "If I order it now, it will be here tomorrow afternoon.", "ur": "Agar main abhi order karoon to kal dopahar tak aa jayegi." },
+        { "s": "B", "de": "Das ist etwas spät, ich soll heute noch damit anfangen.", "en": "That's a bit late, I'm supposed to start it today.", "ur": "Yeh thora dair hai, mujhe aaj hi shuru karni hai." },
+        { "s": "A", "de": "Dann rufe ich in unserer Filiale am Marktplatz an. Vielleicht haben die es vorrätig.", "en": "Then I'll call our branch at the market square. Maybe they have it in stock.", "ur": "To main hamari market square wali branch ko phone karti hoon. Shayad wahan stock mein ho." },
+        { "s": "B", "de": "Das wäre super, danke.", "en": "That would be great, thanks.", "ur": "Yeh to bohat acha hoga, shukriya." },
+        { "s": "A", "de": "Ja, die Filiale hat noch drei Packungen. Ich lasse es herbringen.", "en": "Yes, the branch still has three packs. I'll have it brought here.", "ur": "Ji haan, branch mein teen packet hain. Main mangwa leti hoon." },
+        { "s": "B", "de": "Wie lange dauert das?", "en": "How long will that take?", "ur": "Isme kitna waqt lagega?" },
+        { "s": "A", "de": "Etwa eine halbe Stunde. Möchten Sie warten oder später wiederkommen?", "en": "About half an hour. Would you like to wait or come back later?", "ur": "Taqreeban aadha ghanta. Aap intezaar karenge ya baad mein aayenge?" },
+        { "s": "B", "de": "Ich warte lieber, dann habe ich es gleich.", "en": "I'd rather wait, then I'll have it right away.", "ur": "Main intezaar kar leta hoon, to abhi mil jayegi." },
+        { "s": "A", "de": "In Ordnung. Nehmen Sie gerne im Wartebereich Platz.", "en": "All right. Please have a seat in the waiting area.", "ur": "Theek hai. Waiting area mein baith jayein." },
+        { "s": "B", "de": "Danke. Muss ich beim Bezahlen auch die Zuzahlung leisten?", "en": "Thanks. Do I also have to pay the co-payment when paying?", "ur": "Shukriya. Kya paise dete waqt zuzahlung bhi deni hogi?" },
+        { "s": "A", "de": "Ja, für verschreibungspflichtige Medikamente immer zehn Prozent, mindestens fünf Euro.", "en": "Yes, for prescription medicines it's always ten percent, at least five euros.", "ur": "Ji haan, doctor wali dawaon par hamesha das faisad, kam se kam paanch euro." },
+        { "s": "B", "de": "Verstanden. Ich warte dann hier.", "en": "Understood. I'll wait here then.", "ur": "Samajh gaya. To main yahan intezaar karta hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Klein (Apothekerin)", "B": "Herr Malik (Kunde)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Herr Malik. Wieder das übliche Dauerrezept?", "en": "Hello, Mr Malik. The usual repeat prescription again?", "ur": "Salam, Herr Malik. Wohi hamesha wala dauerrezept?" },
+        { "s": "B", "de": "Genau, aber diesmal habe ich eine Bitte. Ich fliege nächste Woche für sechs Wochen ins Ausland.", "en": "Exactly, but this time I have a request. I'm flying abroad for six weeks next week.", "ur": "Bilkul, lekin is baar aik guzarish hai. Agle hafte main chhe hafton ke liye bahar ja raha hoon." },
+        { "s": "A", "de": "Verstehe. Sie brauchen also eine größere Menge auf einmal.", "en": "I see. So you need a larger quantity all at once.", "ur": "Samajh gayi. To aap ko aik saath zyada quantity chahiye." },
+        { "s": "B", "de": "Genau. Reicht mein aktuelles Rezept dafür, oder brauche ich ein neues?", "en": "Exactly. Is my current prescription enough for that, or do I need a new one?", "ur": "Bilkul. Kya mera abhi wala nuskha kaafi hai ya naya chahiye?" },
+        { "s": "A", "de": "Das aktuelle Rezept deckt nur die normale Monatsmenge. Für sechs Wochen bräuchten Sie eine Ausnahmegenehmigung.", "en": "The current prescription only covers the normal monthly amount. For six weeks you'd need a special exception.", "ur": "Abhi wala nuskha sirf normal mahine ki quantity ke liye hai. Chhe hafton ke liye khaas ijazat chahiye hogi." },
+        { "s": "B", "de": "Wie bekomme ich diese Genehmigung?", "en": "How do I get this authorisation?", "ur": "Yeh ijazat kaise milegi?" },
+        { "s": "A", "de": "Ihr Hausarzt kann auf dem Rezept vermerken, dass es sich um einen längeren Auslandsaufenthalt handelt.", "en": "Your family doctor can note on the prescription that it's for an extended stay abroad.", "ur": "Aap ka family doctor nuskhe par likh sakta hai ke yeh lambi bahar ki safar ke liye hai." },
+        { "s": "B", "de": "Und übernimmt die Krankenkasse dann trotzdem die Kosten?", "en": "And will the health insurance still cover the costs then?", "ur": "Aur kya health insurance phir bhi kharcha uthati hai?" },
+        { "s": "A", "de": "In der Regel ja, solange der Arzt die Reise medizinisch begründet.", "en": "As a rule yes, as long as the doctor gives a medical justification for the trip.", "ur": "Aam tor par haan, jab tak doctor safar ki medical wajah likh de." },
+        { "s": "B", "de": "Gut. Wenn er das ändert, kann ich dann direkt hier alles auf einmal abholen?", "en": "Good. If he changes that, can I then pick everything up here at once?", "ur": "Acha. Agar woh badal de to kya main sab kuch aik saath yahan se le sakta hoon?" },
+        { "s": "A", "de": "Ja, bringen Sie mir das geänderte Rezept, dann bestelle ich die zusätzliche Menge vor.", "en": "Yes, bring me the amended prescription, then I'll pre-order the extra quantity.", "ur": "Ji haan, tabdeel shuda nuskha le aayein, phir main extra quantity pehle se order kar loongi." },
+        { "s": "B", "de": "Wie viel Zeit sollte ich vor der Abreise einplanen?", "en": "How much time should I allow before departure?", "ur": "Rawangi se pehle kitna waqt rakhna chahiye?" },
+        { "s": "A", "de": "Am besten mindestens eine Woche, falls das Präparat nachbestellt werden muss.", "en": "Best at least a week, in case the preparation needs to be reordered.", "ur": "Behtar hai kam se kam aik hafta, agar dawa dobara order karni pare." },
+        { "s": "B", "de": "Verstanden, ich kümmere mich gleich morgen um den Termin beim Hausarzt.", "en": "Understood, I'll take care of the appointment with the family doctor tomorrow.", "ur": "Samajh gaya, kal hi family doctor ka appointment le loonga." },
+        { "s": "A", "de": "Sehr gut. Melden Sie sich einfach, sobald Sie das neue Rezept haben.", "en": "Very good. Just let me know as soon as you have the new prescription.", "ur": "Bohat acha. Naya nuskha milte hi bata dein." },
+        { "s": "B", "de": "Mache ich. Vielen Dank für Ihre Hilfe, Frau Klein.", "en": "I will. Thank you very much for your help, Mrs Klein.", "ur": "Zaroor. Aap ki madad ka bohat shukriya, Frau Klein." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie bringen ein Rezept vom Hausarzt in die Apotheke und holen das Medikament ab.",
+        "en": "You bring a prescription from the family doctor to the pharmacy and pick up the medicine.",
+        "ur": "Aap family doctor ka nuskha apotheke lekar jate hain aur dawa lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Haben Sie ein Rezept?",
+          "goal": { "en": "Say yes and hand it over.", "ur": "Kahein haan aur nuskha dein." },
+          "options": ["Ja, hier bitte.", "Ja, hier ist es."],
+          "fallback": "Bringen Sie ein Rezept mit?",
+          "accept": [{ "kw": ["ja"], "next": "n2" }, { "kw": ["hier"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Danke. Einen Moment, ich hole das Medikament.",
+          "goal": { "en": "Say no problem.", "ur": "Kahein koi baat nahi." },
+          "options": ["Kein Problem.", "Kein Problem, ich warte."],
+          "fallback": "Ist das in Ordnung?",
+          "accept": [{ "kw": ["problem"], "next": "n3" }, { "kw": ["warte"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Hier ist Ihr Medikament.",
+          "goal": { "en": "Thank her and ask what you have to pay.", "ur": "Shukriya kahein aur poochein kitna dena hai." },
+          "options": ["Vielen Dank. Was muss ich bezahlen?", "Danke. Was kostet das?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["was", "bezahlen"], "next": "n4" }, { "kw": ["kostet"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Fünf Euro Zuzahlung, bitte.",
+          "goal": { "en": "Hand over five euros.", "ur": "Paanch euro dein." },
+          "options": ["Hier bitte, fünf Euro.", "Bitte schön, fünf Euro."],
+          "fallback": "Fünf Euro, bitte.",
+          "accept": [{ "kw": ["fünf", "euro"], "next": "n5" }, { "kw": ["euro"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Danke schön.",
+          "goal": { "en": "Ask how often to take the tablets.", "ur": "Poochein goliyan kitni baar leni hain." },
+          "options": ["Wie oft soll ich die Tabletten nehmen?", "Wie oft muss ich sie nehmen?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["wie", "oft"], "next": "n6" }, { "kw": ["oft"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Einmal am Tag, morgens.",
+          "goal": { "en": "Say all right and goodbye.", "ur": "Theek hai kahein aur khuda hafiz." },
+          "options": ["Alles klar. Auf Wiedersehen.", "In Ordnung. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["klar", "wiedersehen"], "reply": "Auf Wiedersehen, gute Besserung!", "next": "END" },
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen, gute Besserung!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Klein, Apotheke",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie sind Ihr übliches Dauermedikament gewohnt, aber Sie fliegen bald für sechs Wochen ins Ausland und brauchen mehr davon.",
+        "en": "You're used to your usual long-term medication, but you're flying abroad for six weeks soon and need more of it.",
+        "ur": "Aap apni hamesha wali dawa lete hain, lekin jald hi chhe hafton ke liye bahar ja rahe hain aur zyada dawa chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Herr Malik. Wieder das übliche Dauerrezept?",
+          "goal": { "en": "Say yes, but you're flying abroad for six weeks next week.", "ur": "Kahein haan, lekin agle hafte chhe hafton ke liye bahar ja rahe hain." },
+          "options": ["Genau, aber ich fliege nächste Woche für sechs Wochen ins Ausland.", "Ja, aber ich fliege bald für sechs Wochen ins Ausland."],
+          "fallback": "Brauchen Sie das Übliche?",
+          "accept": [{ "kw": ["sechs", "wochen"], "next": "n2" }, { "kw": ["ausland"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Verstehe. Sie brauchen also eine größere Menge auf einmal.",
+          "goal": { "en": "Ask whether your current prescription is enough for that.", "ur": "Poochein kya abhi wala nuskha kaafi hai." },
+          "options": ["Reicht mein aktuelles Rezept dafür?", "Reicht das aktuelle Rezept dafür aus?"],
+          "fallback": "Haben Sie schon genug Rezepte dafür?",
+          "accept": [{ "kw": ["reicht"], "next": "n3" }, { "kw": ["rezept"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das aktuelle Rezept deckt nur die normale Monatsmenge. Sie brauchen eine Ausnahmegenehmigung.",
+          "goal": { "en": "Ask how to get this authorisation.", "ur": "Poochein yeh ijazat kaise milegi." },
+          "options": ["Wie bekomme ich diese Genehmigung?", "Wie kann ich das genehmigen lassen?"],
+          "fallback": "Wissen Sie, wie das geht?",
+          "accept": [{ "kw": ["genehmigung"], "next": "n4" }, { "kw": ["genehmigen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ihr Hausarzt kann auf dem Rezept vermerken, dass es ein längerer Auslandsaufenthalt ist.",
+          "goal": { "en": "Ask whether the health insurance will still cover the costs.", "ur": "Poochein kya health insurance phir bhi kharcha uthaegi." },
+          "options": ["Übernimmt die Krankenkasse dann trotzdem die Kosten?", "Zahlt die Krankenkasse das dann noch?"],
+          "fallback": "Haben Sie noch eine Frage dazu?",
+          "accept": [{ "kw": ["krankenkasse"], "next": "n5" }, { "kw": ["kosten"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "In der Regel ja, solange der Arzt die Reise medizinisch begründet.",
+          "goal": { "en": "Ask how much time to allow before departure.", "ur": "Poochein rawangi se pehle kitna waqt rakhein." },
+          "options": ["Wie viel Zeit sollte ich vor der Abreise einplanen?", "Wie viel Zeit brauche ich vorher?"],
+          "fallback": "Planen Sie das rechtzeitig?",
+          "accept": [{ "kw": ["zeit"], "next": "n6" }, { "kw": ["abreise"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Am besten mindestens eine Woche vorher.",
+          "goal": { "en": "Thank her for the help and say goodbye.", "ur": "Madad ka shukriya kahein aur khuda hafiz." },
+          "options": ["Vielen Dank für Ihre Hilfe. Auf Wiedersehen.", "Danke für die Hilfe. Auf Wiedersehen."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen und gute Reise!", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}
