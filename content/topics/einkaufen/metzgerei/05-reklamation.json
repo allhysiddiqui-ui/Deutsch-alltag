@@ -1,0 +1,219 @@
+{
+  "id": "reklamation",
+  "order": 5,
+  "icon": "🧾",
+  "title": { "de": "Eine Reklamation klären", "en": "Sorting out a complaint", "ur": "Shikayat ka hal nikalna" },
+  "angle": "Politely raising an issue with a previous order and getting it corrected · Pichle order ke masle ko izzat se uthana",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["reklamation", "quittung", "umtauschen", "erstatten", "verwechslung", "fehler", "beschweren", "wiedergutmachung"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was kann ich für Sie tun?", "en": "Hello! What can I do for you?", "ur": "Salam! Main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag. Ich habe leider ein Problem mit meiner letzten Bestellung.", "en": "Hello. Unfortunately I have a problem with my last order.", "ur": "Salam. Mujhe apni pichli order mein masla hai." },
+        { "s": "A", "de": "Oh, das tut mir leid. Was ist denn passiert?", "en": "Oh, I'm sorry. What happened then?", "ur": "Oh, mujhe afsos hai. Kya hua?" },
+        { "s": "B", "de": "Ich wollte Rinderhack, aber zu Hause war es Hähnchenhack.", "en": "I wanted minced beef, but at home it was minced chicken.", "ur": "Mujhe rinderhack chahiye tha, lekin ghar par woh hähnchenhack tha." },
+        { "s": "A", "de": "Das tut mir wirklich leid, das war ein Fehler von uns.", "en": "I'm really sorry, that was a mistake on our part.", "ur": "Mujhe waqai afsos hai, yeh hamari ghalti thi." },
+        { "s": "B", "de": "Kein Problem, so etwas passiert.", "en": "No problem, that happens.", "ur": "Koi masla nahi, aisa ho jata hai." },
+        { "s": "A", "de": "Haben Sie noch die Quittung dabei?", "en": "Do you still have the receipt with you?", "ur": "Kya quittung aap ke paas hai?" },
+        { "s": "B", "de": "Ja, hier bitte.", "en": "Yes, here you go.", "ur": "Ji haan, yeh lijiye." },
+        { "s": "A", "de": "Danke. Ich tausche es sofort gegen Rinderhack um.", "en": "Thanks. I'll exchange it for minced beef right away.", "ur": "Shukriya. Main isay abhi rinderhack se badal deta hoon." },
+        { "s": "B", "de": "Das ist sehr freundlich, danke schön.", "en": "That's very kind, thank you.", "ur": "Yeh bohat meherbani hai, shukriya." },
+        { "s": "A", "de": "Bitte entschuldigen Sie den Fehler.", "en": "Please excuse the mistake.", "ur": "Ghalti ki maazrat qabool karein." },
+        { "s": "B", "de": "Kein Problem, so etwas kann passieren.", "en": "No problem, that can happen.", "ur": "Koi masla nahi, aisa ho sakta hai." },
+        { "s": "A", "de": "Hier, das frische Rinderhack. Nochmals Entschuldigung.", "en": "Here, the fresh minced beef. Sorry again.", "ur": "Yeh lijiye, taaza rinderhack. Dobara maazrat." },
+        { "s": "B", "de": "Vielen Dank, auf Wiedersehen!", "en": "Thank you very much, goodbye!", "ur": "Bohat shukriya, khuda hafiz!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Was kann ich für Sie tun?", "en": "Hello, Mrs Yilmaz. What can I do for you?", "ur": "Salam, Frau Yilmaz. Main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Ich muss mich leider über meine letzte Bestellung beschweren.", "en": "Hello, Mr Krause. Unfortunately I have to complain about my last order.", "ur": "Salam, Herr Krause. Mujhe apni pichli order ke baare mein shikayat karni hai." },
+        { "s": "A", "de": "Das tut mir leid zu hören. Was genau war das Problem?", "en": "I'm sorry to hear that. What exactly was the problem?", "ur": "Yeh sun kar afsos hua. Theek theek masla kya tha?" },
+        { "s": "B", "de": "Ich hatte Hähnchenbrust bestellt, aber bekommen habe ich Hähnchenschenkel.", "en": "I had ordered chicken breast, but I received chicken legs.", "ur": "Maine hähnchenbrust order kiya tha, lekin mujhe hähnchenschenkel mila." },
+        { "s": "A", "de": "Oh nein, das ist wirklich ärgerlich. Das war eindeutig eine Verwechslung.", "en": "Oh no, that's really annoying. That was clearly a mix-up.", "ur": "Oh nahi, yeh waqai pareshaan kun hai. Yeh saaf tor par ek verwechslung thi." },
+        { "s": "B", "de": "Außerdem war das Fleisch leider nicht mehr ganz frisch.", "en": "Also, unfortunately the meat wasn't quite fresh anymore.", "ur": "Is ke ilawa, gosht bhi bilkul taaza nahi tha." },
+        { "s": "A", "de": "Das darf natürlich nicht passieren, das tut mir aufrichtig leid.", "en": "That must not happen, of course, I'm truly sorry.", "ur": "Yeh zaroor nahi hona chahiye, mujhe sacchay dil se afsos hai." },
+        { "s": "B", "de": "Kein Problem, Fehler passieren, ich wollte es nur ansprechen.", "en": "No problem, mistakes happen, I just wanted to mention it.", "ur": "Koi masla nahi, ghaltiyaan hoti hain, main bas isay bataana chahti thi." },
+        { "s": "A", "de": "Das ist völlig richtig so. Haben Sie die Quittung noch zufällig dabei?", "en": "That's completely right. Do you happen to still have the receipt with you?", "ur": "Yeh bilkul theek hai. Kya itifaqan quittung aap ke paas hai?" },
+        { "s": "B", "de": "Ja, hier, bitte.", "en": "Yes, here you go.", "ur": "Ji haan, yeh lijiye." },
+        { "s": "A", "de": "Vielen Dank. Ich gebe Ihnen sofort frische Hähnchenbrust und erstatte Ihnen den Preis.", "en": "Thank you very much. I'll give you fresh chicken breast right away and refund the price.", "ur": "Bohat shukriya. Main aap ko abhi taaza hähnchenbrust deta hoon aur qeemat wapas karta hoon." },
+        { "s": "B", "de": "Das ist wirklich sehr kulant, danke.", "en": "That's really very generous, thanks.", "ur": "Yeh waqai bohat fraakh dili hai, shukriya." },
+        { "s": "A", "de": "Beim nächsten Einkauf gebe ich Ihnen außerdem einen kleinen Rabatt als Entschuldigung.", "en": "On your next shop I'll also give you a small discount as an apology.", "ur": "Agli khareedari par main ek chhota rabatt bhi maazrat ke tor par doonga." },
+        { "s": "B", "de": "Das ist nicht nötig, aber vielen Dank für Ihr Verständnis.", "en": "That's not necessary, but thank you very much for your understanding.", "ur": "Yeh zaroori nahi, lekin aap ki samajhdari ka bohat shukriya." },
+        { "s": "A", "de": "Gern. Nochmals Entschuldigung für die Unannehmlichkeiten.", "en": "You're welcome. Sorry again for the inconvenience.", "ur": "Khushi hui. Takleef ke liye dobara maazrat." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Sie schauen heute etwas unzufrieden aus.", "en": "Hello, Mrs Yilmaz. You look a bit unhappy today.", "ur": "Salam, Frau Yilmaz. Aap aaj thori naraz lag rahi hain." },
+        { "s": "B", "de": "Das stimmt leider. Bei meiner letzten Bestellung ist etwas schiefgelaufen und das wollte ich ansprechen.", "en": "That's unfortunately true. Something went wrong with my last order and I wanted to mention it.", "ur": "Bad qismati se yeh sahi hai. Pichli order mein kuch ghalat ho gaya tha aur main isay bataana chahti thi." },
+        { "s": "A", "de": "Das tut mir leid zu hören. Erzählen Sie mir bitte genau, was passiert ist.", "en": "I'm sorry to hear that. Please tell me exactly what happened.", "ur": "Yeh sun kar afsos hua. Please mujhe tafseel se batayein kya hua." },
+        { "s": "B", "de": "Ich hatte zwei Kilo Rinderhack für Köfte bestellt, bekommen habe ich aber nur ein Kilo Hähnchenhack.", "en": "I had ordered two kilos of minced beef for kofta, but I only received one kilo of minced chicken.", "ur": "Maine köfte ke liye do kilo rinderhack order kiya tha, lekin mujhe sirf ek kilo hähnchenhack mila." },
+        { "s": "A", "de": "Das ist eindeutig ein Fehler bei der Zusammenstellung gewesen. Das darf so nicht passieren.", "en": "That was clearly a mistake in putting the order together. That must not happen.", "ur": "Yeh saaf tor par order banane mein ghalti thi. Aisa nahi hona chahiye." },
+        { "s": "B", "de": "Ich verstehe, dass Fehler vorkommen, aber ich musste am Ende improvisieren.", "en": "I understand that mistakes happen, but in the end I had to improvise.", "ur": "Main samajhti hoon ke ghaltiyaan hoti hain, lekin aakhir mein mujhe intezaam badalna para." },
+        { "s": "A", "de": "Das verstehe ich völlig und möchte das wiedergutmachen. Haben Sie die Quittung zufällig noch?", "en": "I completely understand that and want to make it up to you. Do you happen to still have the receipt?", "ur": "Main yeh bilkul samajhta hoon aur is ki tilafi karna chahta hoon. Kya quittung ab bhi aap ke paas hai?" },
+        { "s": "B", "de": "Ja, sie ist hier in meiner Tasche.", "en": "Yes, it's here in my bag.", "ur": "Ji haan, yeh meri bag mein hai." },
+        { "s": "A", "de": "Danke. Ich gebe Ihnen sofort die vollen zwei Kilo Rinderhack, ganz frisch gemahlen.", "en": "Thanks. I'll give you the full two kilos of minced beef right away, freshly ground.", "ur": "Shukriya. Main aap ko abhi puray do kilo rinderhack deta hoon, bilkul taaza peesa hua." },
+        { "s": "B", "de": "Das ist sehr großzügig, aber das eine Kilo, das ich schon hatte, muss ich ja nicht zurückgeben.", "en": "That's very generous, but the one kilo I already had, I don't need to give back, do I.", "ur": "Yeh bohat khuli dili hai, lekin jo ek kilo mere paas pehle se hai, woh to wapas nahi karna paray ga." },
+        { "s": "A", "de": "Natürlich nicht, das behalten Sie einfach als kleine Wiedergutmachung.", "en": "Of course not, just keep that as a small compensation.", "ur": "Bilkul nahi, aap woh chhoti si tilafi ke tor par rakh lein." },
+        { "s": "B", "de": "Das ist wirklich freundlich von Ihnen, vielen Dank.", "en": "That's really kind of you, thank you very much.", "ur": "Yeh waqai aap ki meherbani hai, bohat shukriya." },
+        { "s": "A", "de": "Ich werde außerdem intern klären, wie es zu der Verwechslung kommen konnte.", "en": "I'll also clarify internally how the mix-up could have happened.", "ur": "Main andaruni tor par yeh bhi maloom karoonga ke verwechslung kaise hui." },
+        { "s": "B", "de": "Das beruhigt mich, ich komme schließlich gern regelmäßig zu Ihnen.", "en": "That reassures me, after all I like coming to you regularly.", "ur": "Isse itminan mila, aakhir main khushi se aap ke paas baaqaidgi se aati hoon." },
+        { "s": "A", "de": "Das schätze ich sehr. Nochmals mein aufrichtiges Bedauern für die Unannehmlichkeiten.", "en": "I really appreciate that. Again, my sincere apologies for the inconvenience.", "ur": "Is ki main bohat qadar karta hoon. Takleef ke liye dobara meri dili maazrat." },
+        { "s": "B", "de": "Kein Problem mehr, danke für die schnelle Lösung.", "en": "No problem anymore, thanks for the quick solution.", "ur": "Ab koi masla nahi, jaldi hal ka shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich wollte ohnehin bei Ihnen melden wegen der letzten Bestellung.", "en": "Hello, Mrs Yilmaz. I actually wanted to get in touch with you anyway about the last order.", "ur": "Salam, Frau Yilmaz. Main waise bhi pichli order ke baare mein aap se rabta karna chahta tha." },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Das trifft sich gut, denn genau deswegen wollte ich auch vorbeikommen.", "en": "Hello, Mr Krause. That's convenient, because that's exactly why I wanted to come by too.", "ur": "Salam, Herr Krause. Yeh acha hua, kyunke isi wajah se main bhi aana chahti thi." },
+        { "s": "A", "de": "Ich habe die Sache intern besprochen und herausgefunden, wie es zu der Verwechslung kam.", "en": "I discussed the matter internally and found out how the mix-up happened.", "ur": "Maine yeh maamla andar hi andar discuss kiya aur maloom kiya ke verwechslung kaise hui." },
+        { "s": "B", "de": "Das würde mich wirklich interessieren, denn ich mache mir schon Gedanken, ob so etwas öfter passiert.", "en": "That would really interest me, because I've been wondering whether this happens often.", "ur": "Yeh jan kar mujhe waqai dilchaspi hogi, kyunke main soch rahi thi ke kya aisa aksar hota hai." },
+        { "s": "A", "de": "Ein neuer Mitarbeiter hat die Etiketten vertauscht, weil die Kühlvitrine an dem Tag umgeräumt war.", "en": "A new employee swapped the labels, because the display case had been rearranged that day.", "ur": "Ek naye mulazim ne labels badal diye, kyunke us din display case ko rearrange kiya gaya tha." },
+        { "s": "B", "de": "Ah, das erklärt einiges. Trotzdem war es für mich im Nachhinein etwas verunsichernd.", "en": "Ah, that explains a few things. Still, in hindsight it was somewhat unsettling for me.", "ur": "Achha, is se kaafi kuch samajh aata hai. Phir bhi, baad mein soch kar mujhe thora pareshaan kun laga." },
+        { "s": "A", "de": "Das verstehe ich vollkommen, und dafür möchte ich mich aufrichtig entschuldigen.", "en": "I understand that completely, and I want to sincerely apologise for that.", "ur": "Main yeh bilkul samajhta hoon, aur is ke liye dili maazrat karna chahta hoon." },
+        { "s": "B", "de": "Das nehme ich gerne an, zumal Sie das Problem sofort gelöst hatten.", "en": "I gladly accept that, especially since you solved the problem right away.", "ur": "Main yeh khushi se qabool karti hoon, khaas kar jab aap ne masla foran hal kar diya tha." },
+        { "s": "A", "de": "Um so etwas künftig zu vermeiden, beschriften wir jetzt jede Kühlbox zusätzlich mit einem Etikett und einem Foto.", "en": "To avoid this in future, we now additionally label every cool box with a tag and a photo.", "ur": "Aainda aisa na ho isliye ab hum har cool box par ek label aur photo bhi laga rahe hain." },
+        { "s": "B", "de": "Das klingt nach einer sinnvollen Lösung, das gibt mir wieder mehr Sicherheit.", "en": "That sounds like a sensible solution, that gives me more confidence again.", "ur": "Yeh ek acha hal lagta hai, isse mujhe dobara zyada itminan hota hai." },
+        { "s": "A", "de": "Genau das war mein Ziel. Ihr Vertrauen ist mir wichtiger als ein einzelner Fehler.", "en": "That was exactly my goal. Your trust matters more to me than a single mistake.", "ur": "Yehi mera maqsad tha. Aap ka bharosa mere liye ek akeli ghalti se zyada aham hai." },
+        { "s": "B", "de": "Das weiß ich zu schätzen, sonst würde ich ja auch nicht seit Jahren zu Ihnen kommen.", "en": "I appreciate that, otherwise I wouldn't have been coming to you for years, after all.", "ur": "Main is ki qadar karti hoon, warna main saalon se aap ke paas na aati." },
+        { "s": "A", "de": "Das bedeutet mir sehr viel, ehrlich gesagt. Darf ich Ihnen als Geste etwas Aufschnitt dazugeben?", "en": "That means a lot to me, honestly. May I add some cold cuts as a gesture?", "ur": "Yeh sach mein mere liye bohat maayne rakhta hai. Kya main tohfe ke tor par thora aufschnitt de doon?" },
+        { "s": "B", "de": "Das ist wirklich nicht nötig, aber wenn Sie darauf bestehen, nehme ich es gern an.", "en": "That's really not necessary, but if you insist, I'll gladly accept it.", "ur": "Yeh waqai zaroori nahi, lekin agar aap israar karein to main khushi se qabool karti hoon." },
+        { "s": "A", "de": "Ich bestehe darauf. Betrachten Sie es als kleines Dankeschön für Ihre Geduld.", "en": "I insist. Consider it a small thank-you for your patience.", "ur": "Main israar karta hoon. Isay apni sabar ke liye ek chhota shukriya samajhein." },
+        { "s": "B", "de": "Vielen Dank, Herr Krause. Ich fühle mich jetzt wieder rundum wohl hier einzukaufen.", "en": "Thank you very much, Mr Krause. I feel completely comfortable shopping here again now.", "ur": "Bohat shukriya, Herr Krause. Ab mujhe yahan khareedari karna dobara bilkul acha lag raha hai." },
+        { "s": "A", "de": "Das freut mich außerordentlich. Auf viele weitere gute Jahre miteinander!", "en": "That makes me extraordinarily happy. Here's to many more good years together!", "ur": "Yeh sun kar mujhe bohat khushi hui. Hamare saath ke aur bohat achay saalon ke liye!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Bei Ihrer letzten Bestellung war ein Fehler: Statt Rinderhack war es Hähnchenhack. Sie sprechen den Metzger höflich darauf an.",
+        "en": "There was a mistake with your last order: instead of minced beef it was minced chicken. You politely raise it with the butcher.",
+        "ur": "Aap ki pichli order mein ghalti thi: rinderhack ke bajaye hähnchenhack tha. Aap izzat se metzger ko batate hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was kann ich für Sie tun?",
+          "goal": { "en": "Say you have a problem with your last order.", "ur": "Kahein ke pichli order mein masla hai." },
+          "options": ["Guten Tag. Ich habe leider ein Problem mit meiner letzten Bestellung.", "Guten Tag, ich habe ein Problem mit meiner letzten Bestellung."],
+          "fallback": "Was kann ich für Sie tun?",
+          "accept": [{ "kw": ["problem"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Oh, das tut mir leid. Was ist denn passiert?",
+          "goal": { "en": "Explain: you wanted minced beef, but got minced chicken.", "ur": "Batayein: rinderhack chahiye tha, lekin hähnchenhack mila." },
+          "options": ["Ich wollte Rinderhack, aber zu Hause war es Hähnchenhack.", "Ich hatte Rinderhack bestellt, bekommen habe ich Hähnchenhack."],
+          "fallback": "Was war das Problem genau?",
+          "accept": [{ "kw": ["rinderhack"], "next": "n3" }, { "kw": ["hähnchenhack"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das tut mir wirklich leid, das war ein Fehler von uns.",
+          "goal": { "en": "Say no problem, that happens.", "ur": "Kahein koi masla nahi, aisa hota hai." },
+          "options": ["Kein Problem, so etwas passiert.", "Das ist in Ordnung, so etwas kann passieren."],
+          "fallback": "Ist das für Sie in Ordnung?",
+          "accept": [{ "kw": ["problem"], "next": "n4" }, { "kw": ["ordnung"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Haben Sie noch die Quittung dabei?",
+          "goal": { "en": "Say yes, here it is.", "ur": "Kahein haan, yeh lijiye." },
+          "options": ["Ja, hier bitte.", "Ja, hier ist sie."],
+          "fallback": "Haben Sie die Quittung?",
+          "accept": [{ "kw": ["ja"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Danke. Ich tausche es sofort gegen Rinderhack um.",
+          "goal": { "en": "Thank him for being so kind.", "ur": "Meherbani ka shukriya adaa karein." },
+          "options": ["Das ist sehr freundlich, danke schön.", "Vielen Dank, das ist sehr nett."],
+          "fallback": "Ist das in Ordnung für Sie?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }, { "kw": ["freundlich"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Hier, das frische Rinderhack. Nochmals Entschuldigung.",
+          "goal": { "en": "Thank him and say goodbye.", "ur": "Shukriya kahein aur khuda hafiz." },
+          "options": ["Vielen Dank, auf Wiedersehen!", "Danke schön, auf Wiedersehen!"],
+          "fallback": "Alles gut?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen, und nochmals Entschuldigung!", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Bei Ihrer letzten Bestellung wurden zwei Sorten Fleisch vertauscht und die Ware war nicht mehr ganz frisch. Sie sprechen das Problem genau an und lassen es sich erklären.",
+        "en": "Two kinds of meat got mixed up in your last order and the goods weren't quite fresh anymore. You raise the problem in detail and have it explained.",
+        "ur": "Pichli order mein do qisam ke gosht ghalti se badal gaye thay aur maal bhi taaza nahi tha. Aap masla tafseel se batate hain aur wazahat sunte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was kann ich für Sie tun?",
+          "goal": { "en": "Say you have to complain about your last order.", "ur": "Kahein ke pichli order ke baare mein shikayat karni hai." },
+          "options": ["Ich muss mich leider über meine letzte Bestellung beschweren.", "Ich habe leider eine Beschwerde zu meiner letzten Bestellung."],
+          "fallback": "Was ist Ihr Anliegen?",
+          "accept": [{ "kw": ["beschweren"], "next": "n2" }, { "kw": ["beschwerde"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das tut mir leid zu hören. Was genau war das Problem?",
+          "goal": { "en": "Say you ordered chicken breast but received chicken legs.", "ur": "Batayein: hähnchenbrust order kiya tha, hähnchenschenkel mila." },
+          "options": ["Ich hatte Hähnchenbrust bestellt, aber bekommen habe ich Hähnchenschenkel.", "Ich wollte Hähnchenbrust, bekommen habe ich Hähnchenschenkel."],
+          "fallback": "Was war denn falsch?",
+          "accept": [{ "kw": ["hähnchenbrust"], "next": "n3" }, { "kw": ["hähnchenschenkel"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Oh nein, das ist wirklich ärgerlich. Das war eindeutig eine Verwechslung.",
+          "goal": { "en": "Add that the meat also wasn't fresh anymore.", "ur": "Batayein ke gosht bhi taaza nahi tha." },
+          "options": ["Außerdem war das Fleisch leider nicht mehr ganz frisch.", "Das Fleisch war auch nicht mehr frisch."],
+          "fallback": "War sonst noch etwas nicht in Ordnung?",
+          "accept": [{ "kw": ["frisch"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das darf natürlich nicht passieren, das tut mir aufrichtig leid. Haben Sie die Quittung zufällig dabei?",
+          "goal": { "en": "Say yes, here it is.", "ur": "Kahein haan, yeh lijiye." },
+          "options": ["Ja, hier, bitte.", "Ja, hier ist sie."],
+          "fallback": "Haben Sie die Quittung?",
+          "accept": [{ "kw": ["ja"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Vielen Dank. Ich gebe Ihnen sofort frische Hähnchenbrust und erstatte Ihnen den Preis.",
+          "goal": { "en": "Say that's very generous, thank you.", "ur": "Kahein yeh bohat khuli dili hai, shukriya." },
+          "options": ["Das ist wirklich sehr kulant, danke.", "Das ist sehr großzügig, vielen Dank."],
+          "fallback": "Ist das für Sie in Ordnung?",
+          "accept": [{ "kw": ["kulant"], "next": "n6" }, { "kw": ["großzügig"], "next": "n6" }, { "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Beim nächsten Einkauf gebe ich Ihnen außerdem einen kleinen Rabatt als Entschuldigung.",
+          "goal": { "en": "Say that's not necessary but thank him for his understanding.", "ur": "Kahein zaroori nahi lekin samajhdari ka shukriya." },
+          "options": ["Das ist nicht nötig, aber vielen Dank für Ihr Verständnis.", "Das ist nicht nötig, aber danke für Ihr Verständnis."],
+          "fallback": "Passt Ihnen das?",
+          "accept": [
+            { "kw": ["verständnis"], "reply": "Gern. Nochmals Entschuldigung für die Unannehmlichkeiten.", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen, und nochmals Entschuldigung!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

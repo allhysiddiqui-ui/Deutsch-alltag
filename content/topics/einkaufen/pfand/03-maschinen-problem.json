@@ -1,0 +1,212 @@
+{
+  "id": "maschinen-problem",
+  "order": 3,
+  "icon": "🛠️",
+  "title": { "de": "Der Automat klemmt", "en": "The machine is jammed", "ur": "Machine atak gayi" },
+  "angle": "Asking staff for help when the machine rejects or jams a bottle · Jab machine bottle mana ya jam kare to staff se madad maangna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["kaputt", "defekt", "verbeult", "mitarbeiter", "stau", "etikett", "ablehnen", "funktionieren", "hilfe"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, haben Sie ein Problem?", "en": "Hello, do you have a problem?", "ur": "Salam, kya koi masla hai?" },
+        { "s": "B", "de": "Ja, der Automat nimmt meine Flasche nicht.", "en": "Yes, the machine won't take my bottle.", "ur": "Ji, machine meri bottle nahi le rahi." },
+        { "s": "A", "de": "Zeigen Sie mir bitte die Flasche.", "en": "Please show me the bottle.", "ur": "Please mujhe bottle dikhayein." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here, please.", "ur": "Yeh lein, please." },
+        { "s": "A", "de": "Ah, das Etikett ist kaputt.", "en": "Ah, the label is broken.", "ur": "Acha, label kharab hai." },
+        { "s": "B", "de": "Oh nein, was kann ich tun?", "en": "Oh no, what can I do?", "ur": "Oh nahi, main kya karoon?" },
+        { "s": "A", "de": "Kein Problem, ich helfe Ihnen.", "en": "No problem, I'll help you.", "ur": "Koi baat nahi, main aap ki madad karta hoon." },
+        { "s": "B", "de": "Der Automat ist auch sehr laut. Ist das normal?", "en": "The machine is also very loud. Is that normal?", "ur": "Machine bhi bohat awaz kar rahi hai. Kya yeh normal hai?" },
+        { "s": "A", "de": "Ja, das ist normal. Kein Problem.", "en": "Yes, that's normal. No problem.", "ur": "Ji, yeh normal hai. Koi baat nahi." },
+        { "s": "B", "de": "Und jetzt? Nimmt er die Flasche?", "en": "And now? Does it take the bottle?", "ur": "Aur ab? Kya woh bottle le rahi hai?" },
+        { "s": "A", "de": "Ja, jetzt funktioniert es.", "en": "Yes, now it works.", "ur": "Ji, ab kaam kar raha hai." },
+        { "s": "B", "de": "Super, vielen Dank für Ihre Hilfe!", "en": "Great, thank you for your help!", "ur": "Behtareen, aap ki madad ka shukriya!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Entschuldigung, brauchen Sie Hilfe? Der Automat blinkt rot.", "en": "Excuse me, do you need help? The machine is flashing red.", "ur": "Maazrat, kya aap ko madad chahiye? Machine surkh chamak rahi hai." },
+        { "s": "B", "de": "Ja, bitte. Eine Flasche steckt fest im Automaten.", "en": "Yes, please. A bottle is stuck in the machine.", "ur": "Ji please. Ek bottle machine mein phans gayi hai." },
+        { "s": "A", "de": "Das passiert manchmal, wenn zwei Flaschen gleichzeitig hineinrutschen.", "en": "That happens sometimes when two bottles slide in at the same time.", "ur": "Yeh kabhi kabhi hota hai jab do bottles ek saath andar chali jayein." },
+        { "s": "B", "de": "Was mache ich jetzt? Der ganze Automat ist blockiert.", "en": "What do I do now? The whole machine is blocked.", "ur": "Ab main kya karoon? Poori machine block ho gayi hai." },
+        { "s": "A", "de": "Bleiben Sie ruhig, ich habe einen Schlüssel für die Klappe.", "en": "Stay calm, I have a key for the flap.", "ur": "Fikar na karein, mere paas flap ki chaabi hai." },
+        { "s": "B", "de": "Wow, das sieht kompliziert aus. Muss man dafür geschult sein?", "en": "Wow, that looks complicated. Do you need to be trained for that?", "ur": "Wah, yeh mushkil lag raha hai. Kya iske liye training chahiye hoti hai?" },
+        { "s": "A", "de": "Nicht wirklich, es gibt nur einen Stau im Band. Ich ziehe die Flasche einfach heraus.", "en": "Not really, there's just a jam in the belt. I'll just pull the bottle out.", "ur": "Zyada nahi, bas band mein rukawat hai. Main bottle bas bahar khainch leta hoon." },
+        { "s": "B", "de": "Ist die Flasche danach noch zu gebrauchen?", "en": "Is the bottle still usable afterwards?", "ur": "Kya bottle iske baad bhi istemal ho sakti hai?" },
+        { "s": "A", "de": "Ja, sie war nur ein bisschen verbeult, das stört den Automaten manchmal.", "en": "Yes, it was just a little dented, that sometimes bothers the machine.", "ur": "Ji, woh bas thori verbeult thi, isse machine ko kabhi kabhi mushkil hoti hai." },
+        { "s": "B", "de": "Kann ich sie jetzt noch einmal einwerfen?", "en": "Can I put it in again now?", "ur": "Kya main abhi dobara daal sakti hoon?" },
+        { "s": "A", "de": "Klar, probieren Sie es einfach nochmal.", "en": "Sure, just try it again.", "ur": "Zaroor, bas dobara koshish karein." },
+        { "s": "B", "de": "Diesmal geht es. Vielen Dank, dass Sie so schnell da waren.", "en": "This time it works. Thank you for being there so quickly.", "ur": "Is baar ho gaya. Itni jaldi aane ka shukriya." },
+        { "s": "A", "de": "Kein Problem, ich stehe meistens hier in der Nähe.", "en": "No problem, I'm usually here nearby.", "ur": "Koi baat nahi, main aksar yahan qareeb hi hota hoon." },
+        { "s": "B", "de": "Gut zu wissen. Nochmals vielen Dank!", "en": "Good to know. Thanks again!", "ur": "Acha maloom hua. Ek baar phir shukriya!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich habe gesehen, dass am Automaten eine Fehlermeldung leuchtet. Kommen Sie damit nicht weiter?", "en": "I saw that an error message is lit up on the machine. Are you stuck?", "ur": "Maine dekha machine par error message chamak raha hai. Kya aap aage nahi barh pa rahin?" },
+        { "s": "B", "de": "Genau, seit ein paar Minuten lehnt er jede Flasche ab, egal wie ich sie einlege.", "en": "Exactly, for a few minutes it has been rejecting every bottle, no matter how I insert it.", "ur": "Bilkul, kuch minute se yeh har bottle mana kar raha hai, chahe main kaise bhi rakhoon." },
+        { "s": "A", "de": "Das klingt danach, als wäre der Scanner verschmutzt oder das Band verstopft.", "en": "That sounds like the scanner is dirty or the belt is blocked.", "ur": "Aisa lagta hai scanner ganda hai ya band mein rukawat hai." },
+        { "s": "B", "de": "Ich habe auch bemerkt, dass eine Flasche vorhin quer im Einschub hängen geblieben ist.", "en": "I also noticed that a bottle earlier got stuck sideways in the slot.", "ur": "Maine yeh bhi dekha ke ek bottle pehle terhi ho kar slot mein phans gayi thi." },
+        { "s": "A", "de": "Dann ist genau das wahrscheinlich das Problem. Ich mache den Automaten kurz auf und schaue nach.", "en": "Then that's probably exactly the problem. I'll open the machine briefly and take a look.", "ur": "To yehi shayad masla hai. Main machine thori der ke liye khol kar dekh leta hoon." },
+        { "s": "B", "de": "Dauert das lange? Ich muss in einer halben Stunde meine Kinder abholen.", "en": "Does that take long? I have to pick up my children in half an hour.", "ur": "Kya isme der lagegi? Mujhe aadhe ghante mein bachon ko lena hai." },
+        { "s": "A", "de": "Keine Sorge, in der Regel dauert das nur wenige Minuten, wenn es sich um einen einfachen Stau handelt.", "en": "Don't worry, usually it only takes a few minutes if it's a simple jam.", "ur": "Fikar na karein, aksar sirf chand minute lagte hain agar sirf choti si rukawat ho." },
+        { "s": "B", "de": "Und wenn es kein einfacher Stau ist, sondern etwas Ernsteres?", "en": "And if it's not a simple jam, but something more serious?", "ur": "Aur agar yeh choti rukawat na ho, kuch zyada sangeen ho?" },
+        { "s": "A", "de": "Dann melde ich den Automaten als defekt und Sie können Ihr restliches Leergut an der Kasse abgeben.", "en": "Then I'll report the machine as defective and you can hand in your remaining empties at the checkout.", "ur": "To main machine ko defekt report kar doonga aur aap baqi khaali bottles kaunter par de sakti hain." },
+        { "s": "B", "de": "Das wäre auch in Ordnung, Hauptsache ich verliere nicht zu viel Zeit.", "en": "That would also be fine, the main thing is I don't lose too much time.", "ur": "Yeh bhi theek hai, bas zyada waqt zaya na ho." },
+        { "s": "A", "de": "Verstanden. So, ich sehe schon, die verklemmte Flasche liegt quer im Band, ich hole sie kurz heraus.", "en": "Understood. So, I already see, the jammed bottle is lying sideways in the belt, I'll pull it out briefly.", "ur": "Samajh gaya. Dekhein, phansi hui bottle terhi band mein pari hai, main abhi nikaal leta hoon." },
+        { "s": "B", "de": "Perfekt, das ging ja wirklich schnell.", "en": "Perfect, that really was quick.", "ur": "Behtareen, yeh waqai bohat jaldi ho gaya." },
+        { "s": "A", "de": "Probieren Sie es jetzt bitte nochmal, der Stau sollte behoben sein.", "en": "Please try it again now, the jam should be resolved.", "ur": "Please ab dobara koshish karein, rukawat theek ho gayi hogi." },
+        { "s": "B", "de": "Es funktioniert wieder einwandfrei. Vielen Dank für die schnelle Hilfe, Herr Winter.", "en": "It's working flawlessly again. Thank you very much for the quick help, Mr Winter.", "ur": "Ab bilkul theek chal raha hai. Jaldi madad ka bohat shukriya, Herr Winter." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Frau Yilmaz, ich bemerke von Weitem, dass Sie an unserem Automaten offenbar auf ein technisches Problem gestoßen sind.", "en": "Mrs Yilmaz, I notice from a distance that you've apparently run into a technical problem at our machine.", "ur": "Frau Yilmaz, mujhe door se lag raha hai aap ko hamari machine mein koi technical masla aa gaya hai." },
+        { "s": "B", "de": "Ja, leider. Der Automat lehnt seit geraumer Zeit sämtliche Flaschen kategorisch ab, obwohl sie augenscheinlich intakt sind.", "en": "Yes, unfortunately. The machine has for quite a while been categorically rejecting all bottles, even though they're apparently intact.", "ur": "Ji, mutaassif. Machine kaafi der se sab bottles bilkul mana kar rahi hai, halan ke woh theek nazar aati hain." },
+        { "s": "A", "de": "Das deutet meist darauf hin, dass entweder der Sensor verschmutzt ist oder sich irgendwo im Innern ein Fremdkörper verklemmt hat.", "en": "That usually indicates either that the sensor is dirty or that a foreign object has jammed somewhere inside.", "ur": "Yeh aksar iska ishara hota hai ke ya to sensor ganda hai ya andar kahin koi cheez phans gayi hai." },
+        { "s": "B", "de": "Ich hatte den Eindruck, dass es kurz vor der Störung ein ungewöhnliches Klappern gab, fast so, als wäre etwas verrutscht.", "en": "I had the impression that shortly before the malfunction there was an unusual rattling, almost as if something had shifted.", "ur": "Mujhe mehsoos hua kharabi se thori pehle ajeeb khadkhadahat hui, jaise kuch apni jagah se hat gaya ho." },
+        { "s": "A", "de": "Das bestätigt meine Vermutung. Ich öffne die Wartungsklappe und überprüfe, ob sich das Förderband verkeilt hat.", "en": "That confirms my suspicion. I'll open the maintenance flap and check whether the conveyor belt has become jammed.", "ur": "Yeh meri soch ki tasdeeq karta hai. Main maintenance flap kholta hoon aur dekhta hoon ke conveyor belt phans gaya hai ya nahi." },
+        { "s": "B", "de": "Wie häufig kommt so etwas eigentlich vor? Ich frage mich, ob das an mangelnder Wartung liegt.", "en": "How often does something like this actually happen? I wonder if it's due to lack of maintenance.", "ur": "Aisa aksar kitni martaba hota hai? Main soch rahi hoon kya yeh maintenance ki kami se hai." },
+        { "s": "A", "de": "Wir warten die Geräte regelmäßig, allerdings summieren sich über den Tag Hunderte Flaschen, sodass gelegentlich Verunreinigungen entstehen.", "en": "We service the machines regularly, but hundreds of bottles add up over the day, so occasional contamination occurs.", "ur": "Hum machines ko baqaida service karte hain, lekin din bhar mein saikron bottles jama hoti hain, is liye kabhi kabhi ganda pan ho jata hai." },
+        { "s": "B", "de": "Das leuchtet mir ein. Gibt es eine Möglichkeit, wie ich als Kundin solche Störungen künftig vermeiden kann?", "en": "That makes sense to me. Is there a way I as a customer can avoid such malfunctions in the future?", "ur": "Yeh samajh aa gaya. Kya koi tareeqa hai jis se main customer hone ke naate aisi kharabi aainda rok sakoon?" },
+        { "s": "A", "de": "Am besten spülen Sie stark verschmutzte Flaschen kurz aus, bevor Sie sie mitbringen, das reduziert die Belastung des Sensors erheblich.", "en": "It's best to briefly rinse out heavily soiled bottles before you bring them, that considerably reduces the strain on the sensor.", "ur": "Behtareen yeh hai ke bohat gandi bottles lane se pehle unhein thora dho lein, isse sensor par bohat kam bojh parta hai." },
+        { "s": "B", "de": "Das werde ich künftig beherzigen. Wie sieht es jetzt mit der aktuell verklemmten Flasche aus?", "en": "I'll take that to heart in future. How does it look now with the currently jammed bottle?", "ur": "Main aainda yeh yaad rakhoongi. Abhi jo bottle phansi hui hai us ka kya hoga?" },
+        { "s": "A", "de": "Ich habe sie soeben entfernt, sie war nur leicht verkantet und blockierte dadurch den restlichen Mechanismus.", "en": "I've just removed it, it was only slightly tilted and thereby blocked the rest of the mechanism.", "ur": "Maine woh abhi nikaal di, woh sirf thori terhi thi aur isi wajah se baqi mechanism block ho gaya tha." },
+        { "s": "B", "de": "Ausgezeichnet. Sollte ich den Vorgang jetzt komplett neu starten oder einfach fortfahren?", "en": "Excellent. Should I now restart the process completely or just continue?", "ur": "Behtareen. Kya mujhe pura amal dobara shuru karna chahiye ya bas jaari rakhoon?" },
+        { "s": "A", "de": "Fahren Sie ruhig fort, der Automat hat sich alle bisherigen Flaschen bereits gemerkt und rechnet sie mit ab.", "en": "Feel free to continue, the machine has already remembered all the previous bottles and includes them in the total.", "ur": "Bas jaari rakhein, machine ne pehle wali sab bottles yaad rakhi hain aur unhein bhi hisaab mein le rahi hai." },
+        { "s": "B", "de": "Wunderbar. Ich schätze Ihre fachkundige und geduldige Unterstützung sehr, Herr Winter.", "en": "Wonderful. I greatly appreciate your expert and patient support, Mr Winter.", "ur": "Bohat acha. Main aap ki mahir aur sabar wali madad ki bohat qadar karti hoon, Herr Winter." },
+        { "s": "A", "de": "Es ist mir stets ein Vergnügen, Frau Yilmaz. Melden Sie sich jederzeit, falls erneut etwas hakt.", "en": "It's always a pleasure, Mrs Yilmaz. Get in touch any time if something gets stuck again.", "ur": "Yeh hamesha meri khushi hai, Frau Yilmaz. Agar dobara kuch atke to kabhi bhi bata dein." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Der Pfandautomat nimmt Ihre Flasche nicht an. Sie brauchen Hilfe.",
+        "en": "The deposit machine won't accept your bottle. You need help.",
+        "ur": "Pfandautomat aap ki bottle nahi le raha. Aap ko madad chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, haben Sie ein Problem?",
+          "goal": { "en": "Say yes, the machine won't take your bottle.", "ur": "Kahein ke ji, machine bottle nahi le rahi." },
+          "options": ["Ja, der Automat nimmt meine Flasche nicht.", "Ja, die Flasche geht nicht hinein."],
+          "fallback": "Was ist das Problem?",
+          "accept": [{ "kw": ["automat", "nimmt"], "next": "n2" }, { "kw": ["flasche", "nicht"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Zeigen Sie mir bitte die Flasche.",
+          "goal": { "en": "Say here, please, and hand it over.", "ur": "Kahein yeh lein, please." },
+          "options": ["Hier, bitte.", "Bitte schön, hier ist sie."],
+          "fallback": "Kann ich die Flasche sehen?",
+          "accept": [{ "kw": ["hier", "bitte"], "next": "n3" }, { "kw": ["bitte"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ah, das Etikett ist kaputt.",
+          "goal": { "en": "Ask what you can do.", "ur": "Poochein ke aap kya karein." },
+          "options": ["Oh nein, was kann ich tun?", "Was soll ich jetzt machen?"],
+          "fallback": "Möchten Sie wissen, was zu tun ist?",
+          "accept": [{ "kw": ["was", "tun"], "next": "n4" }, { "kw": ["machen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Kein Problem, ich helfe Ihnen.",
+          "goal": { "en": "Ask if the loud noise is normal.", "ur": "Poochein ke kya awaz normal hai." },
+          "options": ["Der Automat ist sehr laut. Ist das normal?", "Ist das laute Geräusch normal?"],
+          "fallback": "Ist Ihnen etwas aufgefallen?",
+          "accept": [{ "kw": ["laut", "normal"], "next": "n5" }, { "kw": ["normal"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Ja, das ist normal. Kein Problem.",
+          "goal": { "en": "Ask if it takes the bottle now.", "ur": "Poochein ke ab bottle le rahi hai." },
+          "options": ["Und jetzt? Nimmt er die Flasche?", "Funktioniert es jetzt?"],
+          "fallback": "Möchten Sie es nochmal versuchen?",
+          "accept": [{ "kw": ["jetzt", "flasche"], "next": "n6" }, { "kw": ["funktioniert"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, jetzt funktioniert es.",
+          "goal": { "en": "Thank him for the help.", "ur": "Madad ka shukriya karein." },
+          "options": ["Super, vielen Dank für Ihre Hilfe!", "Danke schön für die Hilfe!"],
+          "fallback": "Ist alles gut jetzt?",
+          "accept": [
+            { "kw": ["danke", "hilfe"], "reply": "Gern geschehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Eine Flasche ist im Automaten stecken geblieben und alles ist blockiert.",
+        "en": "A bottle has gotten stuck in the machine and everything is blocked.",
+        "ur": "Ek bottle machine mein phans gayi hai aur sab kuch block ho gaya hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Entschuldigung, brauchen Sie Hilfe? Der Automat blinkt rot.",
+          "goal": { "en": "Say yes, a bottle is stuck in the machine.", "ur": "Kahein ek bottle machine mein phans gayi hai." },
+          "options": ["Ja, bitte. Eine Flasche steckt fest im Automaten.", "Ja, eine Flasche ist stecken geblieben."],
+          "fallback": "Was ist passiert?",
+          "accept": [{ "kw": ["steckt", "fest"], "next": "n2" }, { "kw": ["stecken", "geblieben"], "next": "n2" }, { "kw": ["fest"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das passiert manchmal, wenn zwei Flaschen gleichzeitig hineinrutschen.",
+          "goal": { "en": "Ask what to do now, the whole machine is blocked.", "ur": "Poochein ab kya karein, poori machine block hai." },
+          "options": ["Was mache ich jetzt? Der ganze Automat ist blockiert.", "Was soll ich jetzt tun? Alles ist blockiert."],
+          "fallback": "Ist die Lage ernst?",
+          "accept": [{ "kw": ["blockiert"], "next": "n3" }, { "kw": ["was", "jetzt"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Bleiben Sie ruhig, ich habe einen Schlüssel für die Klappe.",
+          "goal": { "en": "Ask if the bottle is still usable afterwards.", "ur": "Poochein kya bottle baad mein istemal ho sakti hai." },
+          "options": ["Ist die Flasche danach noch zu gebrauchen?", "Kann ich die Flasche später noch benutzen?"],
+          "fallback": "Was interessiert Sie an der Flasche?",
+          "accept": [{ "kw": ["gebrauchen"], "next": "n4" }, { "kw": ["danach", "flasche"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, sie war nur ein bisschen verbeult, das stört den Automaten manchmal.",
+          "goal": { "en": "Ask if you can put it in again now.", "ur": "Poochein kya ab dobara daal sakti hain." },
+          "options": ["Kann ich sie jetzt noch einmal einwerfen?", "Darf ich sie noch einmal versuchen einzuwerfen?"],
+          "fallback": "Möchten Sie es nochmal probieren?",
+          "accept": [{ "kw": ["einwerfen"], "next": "n5" }, { "kw": ["nochmal"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Klar, probieren Sie es einfach nochmal.",
+          "goal": { "en": "Say this time it works and thank him for coming so quickly.", "ur": "Kahein is baar ho gaya, jaldi aane ka shukriya." },
+          "options": ["Diesmal geht es. Vielen Dank, dass Sie so schnell da waren.", "Es klappt jetzt. Danke, dass Sie so schnell kamen."],
+          "fallback": "Hat es diesmal funktioniert?",
+          "accept": [{ "kw": ["diesmal", "danke"], "next": "n6" }, { "kw": ["schnell", "danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Kein Problem, ich stehe meistens hier in der Nähe.",
+          "goal": { "en": "Say good to know and thank him again.", "ur": "Kahein acha maloom hua, dobara shukriya." },
+          "options": ["Gut zu wissen. Nochmals vielen Dank!", "Gut zu wissen, danke nochmal!"],
+          "fallback": "Brauchen Sie noch etwas?",
+          "accept": [
+            { "kw": ["gut", "wissen"], "reply": "Immer wieder gerne!", "next": "END" },
+            { "kw": ["danke"], "reply": "Immer wieder gerne!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

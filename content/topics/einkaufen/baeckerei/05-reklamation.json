@@ -1,0 +1,221 @@
+{
+  "id": "reklamation",
+  "order": 5,
+  "icon": "🍞",
+  "title": { "de": "Eine Reklamation machen", "en": "Making a complaint", "ur": "Reklamation karna" },
+  "angle": "Politely reporting stale bread and getting an exchange or refund · Bassi bread ki shikayat aur umtausch lena",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["reklamation", "altbacken", "umtausch", "erstattung", "gutschein", "quittung", "hart", "trocken", "zufrieden", "ungewöhnlich"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was kann ich für Sie tun?", "en": "Hello! What can I do for you?", "ur": "Salam! Main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Das Brot von gestern war leider ganz hart.", "en": "Hello. The bread from yesterday was unfortunately completely hard.", "ur": "Salam. Kal ki bread bad-qismati se bilkul sakht thi." },
+        { "s": "A", "de": "Oh, das tut mir leid. Haben Sie die Quittung noch?", "en": "Oh, I'm sorry. Do you still have the receipt?", "ur": "Oh, mujhe afsos hai. Kya aap ke paas quittung abhi bhi hai?" },
+        { "s": "B", "de": "Ja, hier ist sie.", "en": "Yes, here it is.", "ur": "Ji haan, yeh lijiye." },
+        { "s": "A", "de": "Vielen Dank. Möchten Sie ein neues Brot oder Ihr Geld zurück?", "en": "Thank you. Would you like a new loaf or your money back?", "ur": "Bohat shukriya. Kya aap nayi bread chahti hain ya paise wapas?" },
+        { "s": "B", "de": "Ein neues Brot, bitte.", "en": "A new loaf, please.", "ur": "Nayi bread, please." },
+        { "s": "A", "de": "Kein Problem, hier ist ein frisches Mehrkornbrot.", "en": "No problem, here is a fresh multigrain loaf.", "ur": "Koi masla nahi, yeh lijiye fresh mehrkorn bread." },
+        { "s": "B", "de": "Vielen Dank, das ist sehr nett von Ihnen.", "en": "Thank you very much, that's very kind of you.", "ur": "Bohat shukriya, yeh aap ki bohat meherbani hai." },
+        { "s": "A", "de": "Gern. Es tut mir leid, das war ein Fehler.", "en": "You're welcome. I'm sorry, that was a mistake.", "ur": "Koi baat nahi. Mujhe afsos hai, yeh ghalti thi." },
+        { "s": "B", "de": "Kein Problem, so etwas passiert.", "en": "No problem, these things happen.", "ur": "Koi masla nahi, aisa ho jata hai." },
+        { "s": "A", "de": "Nächstes Mal bekommen Sie sofort ein frisches.", "en": "Next time you'll get a fresh one right away.", "ur": "Agli baar aap ko foran fresh milegi." },
+        { "s": "B", "de": "Das ist gut zu wissen. Vielen Dank!", "en": "That's good to know. Thank you very much!", "ur": "Yeh jaan kar acha laga. Bohat shukriya!" },
+        { "s": "A", "de": "Einen schönen Tag noch!", "en": "Have a nice day!", "ur": "Acha din guzray!" },
+        { "s": "B", "de": "Ihnen auch, auf Wiedersehen!", "en": "You too, goodbye!", "ur": "Aap ko bhi, khuda hafiz!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte das Brot reklamieren, das ich gestern gekauft habe.", "en": "Hello. I'd like to make a complaint about the bread I bought yesterday.", "ur": "Salam. Main kal khareedi hui bread ki shikayat karna chahti hoon." },
+        { "s": "A", "de": "Das tut mir leid zu hören. Was war denn das Problem?", "en": "I'm sorry to hear that. What was the problem?", "ur": "Yeh sun kar afsos hua. Masla kya tha?" },
+        { "s": "B", "de": "Das Brot war schon am Abend ganz trocken und hart, obwohl es frisch aussah.", "en": "The bread was already completely dry and hard by the evening, even though it looked fresh.", "ur": "Bread shaam tak hi bilkul sookhi aur sakht ho gayi thi, jabke woh fresh nazar aa rahi thi." },
+        { "s": "A", "de": "Das sollte nicht passieren. Haben Sie zufällig die Quittung dabei?", "en": "That shouldn't happen. Do you happen to have the receipt with you?", "ur": "Aisa nahi hona chahiye. Kya ittefaqan aap ke paas quittung hai?" },
+        { "s": "B", "de": "Ja, hier, ich habe sie extra mitgebracht.", "en": "Yes, here, I brought it along specially.", "ur": "Ji haan, yeh lijiye, main khaas tor par saath lai hoon." },
+        { "s": "A", "de": "Danke schön. Möchten Sie lieber ein neues Brot oder eine Erstattung?", "en": "Thank you. Would you rather have a new loaf or a refund?", "ur": "Shukriya. Kya aap nayi bread chahti hain ya paise wapas?" },
+        { "s": "B", "de": "Ich hätte gern ein neues Weißbrot, wenn das geht.", "en": "I'd like a new white loaf, if that's possible.", "ur": "Mujhe nayi white bread chahiye, agar mumkin ho." },
+        { "s": "A", "de": "Natürlich, das mache ich sofort für Sie fertig.", "en": "Of course, I'll get that ready for you right away.", "ur": "Zaroor, main abhi aap ke liye tayyar kar deti hoon." },
+        { "s": "B", "de": "Vielen Dank. Passiert das öfter, dass das Brot so schnell hart wird?", "en": "Thank you very much. Does it happen often that the bread gets hard so quickly?", "ur": "Bohat shukriya. Kya aksar aisa hota hai ke bread itni jaldi sakht ho jaye?" },
+        { "s": "A", "de": "Nein, das ist wirklich ungewöhnlich, normalerweise bleibt es zwei Tage frisch.", "en": "No, that's really unusual, normally it stays fresh for two days.", "ur": "Nahi, yeh waqai ghair mamooli hai, aam tor par yeh do din fresh rehti hai." },
+        { "s": "B", "de": "Gut zu wissen, dann war es wohl ein einzelner Fehler.", "en": "Good to know, then it was probably just a one-off mistake.", "ur": "Jaan kar acha laga, to shayad yeh sirf ek dafa ki ghalti thi." },
+        { "s": "A", "de": "Genau, und ich entschuldige mich dafür.", "en": "Exactly, and I apologize for that.", "ur": "Bilkul, aur is ke liye main maazrat karti hoon." },
+        { "s": "B", "de": "Kein Problem, so etwas kann passieren.", "en": "No problem, that can happen.", "ur": "Koi masla nahi, aisa ho sakta hai." },
+        { "s": "A", "de": "Hier ist Ihr neues Brot, und noch einmal Entschuldigung.", "en": "Here is your new loaf, and once again, sorry.", "ur": "Yeh lijiye aap ki nayi bread, aur ek baar phir maazrat." },
+        { "s": "B", "de": "Vielen Dank, jetzt bin ich wieder zufrieden.", "en": "Thank you very much, now I'm satisfied again.", "ur": "Bohat shukriya, ab main dobara khush hoon." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Sie schauen heute nicht so zufrieden aus.", "en": "Good morning, Mrs Yilmaz. You don't look so happy today.", "ur": "Subh bakhair, Frau Yilmaz. Aap aaj itni khush nazar nahi aa rahi hain." },
+        { "s": "B", "de": "Guten Morgen, Frau Ostermann. Leider muss ich mich beschweren, das Brötchen von gestern war völlig altbacken.", "en": "Good morning, Mrs Ostermann. Unfortunately I have to complain, the roll from yesterday was completely stale.", "ur": "Subh bakhair, Frau Ostermann. Afsos, mujhe shikayat karni hai, kal ka Brötchen bilkul bassi tha." },
+        { "s": "A", "de": "Das überrascht mich, das sollte eigentlich nicht vorkommen. Erzählen Sie mir mehr.", "en": "That surprises me, that shouldn't actually happen. Tell me more.", "ur": "Yeh mujhe hairaan kar raha hai, aisa hona nahi chahiye tha. Aur batayein." },
+        { "s": "B", "de": "Es war schon am Nachmittag hart wie ein Stein, dabei hatte ich es erst morgens gekauft.", "en": "It was already hard as a stone by the afternoon, even though I had only bought it in the morning.", "ur": "Yeh dopahar tak hi pathar ki tarah sakht ho gaya tha, jabke maine subh hi khareeda tha." },
+        { "s": "A", "de": "Das tut mir wirklich leid, das ist definitiv nicht unser Standard.", "en": "I'm really sorry, that's definitely not our standard.", "ur": "Mujhe waqai afsos hai, yeh hamara standard bilkul nahi hai." },
+        { "s": "B", "de": "Es ist übrigens schon das zweite Mal in diesem Monat, dass mir das passiert.", "en": "By the way, this is already the second time this month that this has happened to me.", "ur": "Waise yeh isi mahine mein dusri baar hai ke mere saath aisa hua hai." },
+        { "s": "A", "de": "Das ist mir wichtig zu hören, ich werde das mit meinem Team besprechen.", "en": "That's important for me to hear, I'll discuss that with my team.", "ur": "Yeh sunna mere liye zaroori hai, main apni team se is baare mein baat karoongi." },
+        { "s": "B", "de": "Das würde ich sehr begrüßen, ich möchte weiterhin gern hier einkaufen.", "en": "I would really welcome that, I'd still like to shop here.", "ur": "Mujhe yeh bohat acha lagega, main aage bhi yahan se khareedari karna chahti hoon." },
+        { "s": "A", "de": "Das freut mich zu hören. Was kann ich jetzt für Sie tun, ein Umtausch oder eine Erstattung?", "en": "I'm glad to hear that. What can I do for you now, an exchange or a refund?", "ur": "Yeh sun kar khushi hui. Ab main aap ke liye kya karoon, umtausch ya erstattung?" },
+        { "s": "B", "de": "Ein Umtausch wäre mir am liebsten, gegen ein frisches Mehrkornbrot.", "en": "I would prefer an exchange, for a fresh multigrain loaf.", "ur": "Mujhe umtausch zyada pasand hai, fresh mehrkorn bread ke liye." },
+        { "s": "A", "de": "Selbstverständlich, das bekommen Sie sofort, und ich gebe Ihnen noch einen Gutschein dazu.", "en": "Of course, you'll get that right away, and I'll also give you a voucher.", "ur": "Zaroor, aap ko abhi mil jayegi, aur main aap ko ek gutschein bhi doongi." },
+        { "s": "B", "de": "Das ist wirklich großzügig, das war gar nicht nötig.", "en": "That's really generous, that wasn't necessary at all.", "ur": "Yeh waqai baray dil ki baat hai, is ki zaroorat nahi thi." },
+        { "s": "A", "de": "Doch, das ist mir wichtig, zufriedene Kunden sind mir sehr wichtig.", "en": "No, it is, that matters to me, satisfied customers are very important to me.", "ur": "Nahi, yeh mere liye zaroori hai, khush kunden mere liye bohat ahem hain." },
+        { "s": "B", "de": "Vielen Dank für Ihr Verständnis und Ihre schnelle Reaktion.", "en": "Thank you very much for your understanding and your quick response.", "ur": "Aap ki samajh aur foran reaction ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Ich achte in Zukunft noch genauer auf die Qualität.", "en": "You're welcome. I'll pay even closer attention to the quality in the future.", "ur": "Koi baat nahi. Main aainda quality par aur ghaur karoongi." },
+        { "s": "B", "de": "Das beruhigt mich, bis nächste Woche dann.", "en": "That reassures me, see you next week then.", "ur": "Isse mujhe sukoon milta hai, to phir agle hafte milte hain." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Was kann ich heute für Sie tun?", "en": "Hello, Mrs Yilmaz. What can I do for you today?", "ur": "Salam, Frau Yilmaz. Aaj main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag, Frau Ostermann. Ich fürchte, ich muss mich leider erneut beschweren.", "en": "Hello, Mrs Ostermann. I'm afraid I unfortunately have to complain again.", "ur": "Salam, Frau Ostermann. Mujhe darr hai ke mujhe dobara shikayat karni parhegi." },
+        { "s": "A", "de": "Das tut mir leid zu hören, bitte erzählen Sie mir, was passiert ist.", "en": "I'm sorry to hear that, please tell me what happened.", "ur": "Yeh sun kar afsos hua, meherbani kar ke batayein kya hua." },
+        { "s": "B", "de": "Das Mehrkornbrot, das ich gestern gekauft habe, war innerhalb weniger Stunden komplett trocken und ungenießbar.", "en": "The multigrain loaf I bought yesterday was completely dry and inedible within a few hours.", "ur": "Mehrkorn bread jo maine kal khareedi thi, chand ghanton mein bilkul sookhi aur na-khane ke qabil ho gayi." },
+        { "s": "A", "de": "Das ist wirklich ärgerlich, und es tut mir aufrichtig leid, dass Ihnen das schon wieder passiert ist.", "en": "That's really annoying, and I'm sincerely sorry that this happened to you again.", "ur": "Yeh waqai pareshan kun hai, aur mujhe waqai afsos hai ke aap ke saath dobara aisa hua." },
+        { "s": "B", "de": "Ich verstehe, dass so etwas gelegentlich vorkommen kann, aber es beunruhigt mich, dass es innerhalb kurzer Zeit zweimal passiert ist.", "en": "I understand that something like this can happen occasionally, but it worries me that it happened twice within a short time.", "ur": "Main samajhti hoon ke aisa kabhi kabhi ho sakta hai, lekin mujhe fikar hai ke thore waqt mein do baar hua." },
+        { "s": "A", "de": "Ihre Sorge ist berechtigt, ich werde die Sache genauer untersuchen und mit meinem Team sprechen.", "en": "Your concern is justified, I'll investigate the matter more closely and talk to my team.", "ur": "Aap ki fikar bajaa hai, main is maamle ko ghaur se dekhoongi aur team se baat karoongi." },
+        { "s": "B", "de": "Das freut mich zu hören, denn ich schätze Ihre Bäckerei sehr und möchte weiterhin gern herkommen.", "en": "I'm glad to hear that, because I appreciate your bakery a lot and would like to keep coming here.", "ur": "Yeh sun kar khushi hui, kyunke mujhe aap ki bakery bohat pasand hai aur main aage bhi aana chahti hoon." },
+        { "s": "A", "de": "Das bedeutet mir viel. Um mich zu entschuldigen, biete ich Ihnen einen vollständigen Umtausch sowie einen Gutschein über zehn Euro an.", "en": "That means a lot to me. To apologize, I'm offering you a full exchange as well as a ten-euro voucher.", "ur": "Yeh mere liye bohat maani rakhta hai. Maazrat ke tor par main aap ko poora umtausch aur das euro ka gutschein pesh karti hoon." },
+        { "s": "B", "de": "Das ist sehr großzügig, aber eigentlich brauche ich nur ein frisches Brot als Ersatz.", "en": "That's very generous, but actually I just need a fresh loaf as a replacement.", "ur": "Yeh bohat baray dil ki baat hai, lekin mujhe sirf fresh bread ka replacement chahiye." },
+        { "s": "A", "de": "Bestehen Sie bitte trotzdem auf dem Gutschein, das ist mir wichtig.", "en": "Please insist on the voucher anyway, that matters to me.", "ur": "Meherbani kar ke phir bhi gutschein le lein, yeh mere liye zaroori hai." },
+        { "s": "B", "de": "Das ist wirklich freundlich von Ihnen, vielen Dank.", "en": "That's really kind of you, thank you very much.", "ur": "Yeh aap ki waqai meherbani hai, bohat shukriya." },
+        { "s": "A", "de": "Ich werde außerdem dafür sorgen, dass wir genauer kontrollieren, wie lange die Brote im Regal stehen.", "en": "I'll also make sure that we check more closely how long the loaves stand on the shelf.", "ur": "Main yeh bhi yaqeeni banaoongi ke hum dekhein bread regal par kitni der rehti hai." },
+        { "s": "B", "de": "Das klingt vernünftig. Was war denn der Grund, dass das Brot so schnell trocken wurde?", "en": "That sounds sensible. So what was the reason the bread went dry so quickly?", "ur": "Yeh theek lagta hai. Bread itni jaldi sookhi hone ki wajah kya thi?" },
+        { "s": "A", "de": "Vermutlich wurde es nicht richtig eingepackt, bevor es ins Regal kam, das prüfe ich noch heute.", "en": "It was probably not properly packed before it went on the shelf, I'll check that today.", "ur": "Shayad regal mein rakhne se pehle sahi tarah pack nahi hui thi, main yeh aaj hi check karoongi." },
+        { "s": "B", "de": "Gut, dann hoffe ich, dass es beim nächsten Mal besser klappt.", "en": "Good, then I hope it goes better next time.", "ur": "Acha, to mujhe umeed hai ke agli baar behtar hoga." },
+        { "s": "A", "de": "Das verspreche ich Ihnen. Hier ist Ihr frisches Brot und der Gutschein.", "en": "I promise you that. Here is your fresh bread and the voucher.", "ur": "Main yeh wada karti hoon. Yeh lijiye aap ki fresh bread aur gutschein." },
+        { "s": "B", "de": "Vielen Dank, dass Sie so ehrlich mit mir sind, bis bald, Frau Ostermann.", "en": "Thank you for being so honest with me, see you soon, Mrs Ostermann.", "ur": "Itni imandari ka shukriya, jald milte hain, Frau Ostermann." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Das Brot von gestern war hart. Sie zeigen die Quittung und bekommen ein neues Brot.",
+        "en": "Yesterday's bread was hard. You show the receipt and get a new loaf.",
+        "ur": "Kal ki bread sakht thi. Aap quittung dikhate hain aur nayi bread lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was kann ich für Sie tun?",
+          "goal": { "en": "Say the bread from yesterday was hard.", "ur": "Kahein: kal ki bread sakht thi." },
+          "options": ["Guten Tag. Das Brot von gestern war leider ganz hart.", "Guten Tag, das Brot von gestern war hart."],
+          "fallback": "Was ist das Problem?",
+          "accept": [{ "kw": ["brot", "hart"], "next": "n2" }, { "kw": ["hart"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Oh, das tut mir leid. Haben Sie die Quittung noch?",
+          "goal": { "en": "Say yes, here it is.", "ur": "Kahein: haan, yeh lijiye." },
+          "options": ["Ja, hier ist sie.", "Ja, hier, bitte."],
+          "fallback": "Haben Sie sie dabei?",
+          "accept": [{ "kw": ["ja"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Vielen Dank. Möchten Sie ein neues Brot oder Ihr Geld zurück?",
+          "goal": { "en": "Say a new loaf, please.", "ur": "Kahein: nayi bread, please." },
+          "options": ["Ein neues Brot, bitte.", "Lieber ein neues Brot, bitte."],
+          "fallback": "Was möchten Sie lieber?",
+          "accept": [{ "kw": ["brot"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Kein Problem, hier ist ein frisches Mehrkornbrot.",
+          "goal": { "en": "Thank her, that's very kind.", "ur": "Kahein: shukriya, yeh meherbani hai." },
+          "options": ["Vielen Dank, das ist sehr nett von Ihnen.", "Danke schön, das ist sehr freundlich."],
+          "fallback": "Passt das so?",
+          "accept": [{ "kw": ["danke"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gern. Es tut mir leid, das war ein Fehler.",
+          "goal": { "en": "Say no problem, these things happen.", "ur": "Kahein: koi masla nahi, aisa hota hai." },
+          "options": ["Kein Problem, so etwas passiert.", "Kein Problem, das kann passieren."],
+          "fallback": "Ist das in Ordnung für Sie?",
+          "accept": [{ "kw": ["problem"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Nächstes Mal bekommen Sie sofort ein frisches. Einen schönen Tag noch!",
+          "goal": { "en": "Say you too, goodbye.", "ur": "Kahein: aap ko bhi, khuda hafiz." },
+          "options": ["Ihnen auch, auf Wiedersehen!", "Danke, Ihnen auch!"],
+          "fallback": "Passt Ihnen das?",
+          "accept": [
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Ihnen auch, bis bald!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Das Brötchen von gestern war schon zum zweiten Mal in diesem Monat altbacken. Sie beschweren sich und bekommen einen Umtausch sowie einen Gutschein.",
+        "en": "Yesterday's roll was stale, already the second time this month. You complain and get an exchange plus a voucher.",
+        "ur": "Kal ka Brötchen bassi tha, aur is mahine mein doosri baar. Aap shikayat karte hain aur umtausch aur gutschein lete hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz. Sie schauen heute nicht so zufrieden aus.",
+          "goal": { "en": "Say you have to complain, the roll was completely stale.", "ur": "Kahein: shikayat karni hai, Brötchen bilkul bassi tha." },
+          "options": ["Leider muss ich mich beschweren, das Brötchen von gestern war völlig altbacken.", "Ich muss mich leider beschweren, das Brötchen war altbacken."],
+          "fallback": "Ist etwas passiert?",
+          "accept": [{ "kw": ["altbacken"], "next": "n2" }, { "kw": ["beschweren"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das überrascht mich, das sollte eigentlich nicht vorkommen. Erzählen Sie mir mehr.",
+          "goal": { "en": "Say it was hard as a stone even though bought in the morning.", "ur": "Kahein: pathar jitna sakht tha, jabke subh khareeda tha." },
+          "options": ["Es war schon am Nachmittag hart wie ein Stein, dabei hatte ich es erst morgens gekauft.", "Es war hart wie ein Stein, dabei war es doch frisch gekauft."],
+          "fallback": "Was genau war das Problem?",
+          "accept": [{ "kw": ["hart", "stein"], "next": "n3" }, { "kw": ["stein"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das tut mir wirklich leid, das ist definitiv nicht unser Standard.",
+          "goal": { "en": "Mention it's the second time this month.", "ur": "Kahein: isi mahine doosri baar hua hai." },
+          "options": ["Es ist übrigens schon das zweite Mal in diesem Monat, dass mir das passiert.", "Das ist schon das zweite Mal in diesem Monat."],
+          "fallback": "Ist Ihnen das öfter passiert?",
+          "accept": [{ "kw": ["zweite", "monat"], "next": "n4" }, { "kw": ["monat"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das ist mir wichtig zu hören, ich werde das mit meinem Team besprechen. Was kann ich jetzt für Sie tun?",
+          "goal": { "en": "Say you'd prefer an exchange for a fresh multigrain loaf.", "ur": "Kahein: fresh mehrkorn bread ke liye umtausch chahiye." },
+          "options": ["Ein Umtausch wäre mir am liebsten, gegen ein frisches Mehrkornbrot.", "Am liebsten einen Umtausch gegen ein frisches Mehrkornbrot."],
+          "fallback": "Umtausch oder Erstattung?",
+          "accept": [{ "kw": ["umtausch"], "next": "n5" }, { "kw": ["mehrkornbrot"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Selbstverständlich, und ich gebe Ihnen noch einen Gutschein dazu.",
+          "goal": { "en": "Say that's very generous, that wasn't necessary.", "ur": "Kahein: yeh baray dil ki baat hai, zaroorat nahi thi." },
+          "options": ["Das ist wirklich großzügig, das war gar nicht nötig.", "Das ist sehr großzügig von Ihnen."],
+          "fallback": "Passt Ihnen das?",
+          "accept": [{ "kw": ["großzügig"], "next": "n6" }, { "kw": ["gutschein"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Doch, das ist mir wichtig, zufriedene Kunden sind mir sehr wichtig.",
+          "goal": { "en": "Thank her for her understanding and quick response.", "ur": "Samajh aur foran reaction ka shukriya kahein." },
+          "options": ["Vielen Dank für Ihr Verständnis und Ihre schnelle Reaktion.", "Danke für Ihr Verständnis und die schnelle Reaktion."],
+          "fallback": "Sind Sie jetzt zufrieden?",
+          "accept": [
+            { "kw": ["verständnis"], "reply": "Gern geschehen, bis nächste Woche!", "next": "END" },
+            { "kw": ["danke"], "reply": "Immer gern, bis bald!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

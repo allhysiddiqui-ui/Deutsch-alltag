@@ -1,0 +1,215 @@
+{
+  "id": "kasten-ruecknahme",
+  "order": 5,
+  "icon": "📦",
+  "title": { "de": "Einen Kasten zurückgeben", "en": "Returning a crate", "ur": "Kasten wapis karna" },
+  "angle": "Returning a full crate of bottles and asking about crate deposit rules · Bottles se bhara kasten wapis karna aur uske Pfand qawaid poochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["kasten", "kastenpfand", "zurückgeben", "sperrig", "transportieren", "anzahl", "zählen", "regal", "leergut"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, brauchen Sie Hilfe mit dem Kasten?", "en": "Hello, do you need help with the crate?", "ur": "Salam, kya kasten ke saath madad chahiye?" },
+        { "s": "B", "de": "Ja, bitte. Er ist sehr schwer.", "en": "Yes, please. It's very heavy.", "ur": "Ji please. Yeh bohat bhaari hai." },
+        { "s": "A", "de": "Kein Problem, ich helfe Ihnen tragen.", "en": "No problem, I'll help you carry it.", "ur": "Koi baat nahi, main uthane mein madad karta hoon." },
+        { "s": "B", "de": "Danke. Wohin stelle ich den Kasten?", "en": "Thanks. Where do I put the crate?", "ur": "Shukriya. Kasten kahan rakhoon?" },
+        { "s": "A", "de": "Dort unten in den Kastenschacht.", "en": "There down into the crate slot.", "ur": "Wahan neeche crate wale slot mein." },
+        { "s": "B", "de": "So, ist das richtig?", "en": "Like this, is that right?", "ur": "Aise, kya yeh sahi hai?" },
+        { "s": "A", "de": "Ja, genau richtig.", "en": "Yes, exactly right.", "ur": "Ji, bilkul sahi." },
+        { "s": "B", "de": "Zählt der Automat alle Flaschen?", "en": "Does the machine count all the bottles?", "ur": "Kya machine sab bottles gin leti hai?" },
+        { "s": "A", "de": "Ja, automatisch.", "en": "Yes, automatically.", "ur": "Ji, khud hi." },
+        { "s": "B", "de": "Wie viel Pfand bekomme ich für den Kasten?", "en": "How much deposit do I get for the crate?", "ur": "Kasten ke liye kitna Pfand milega?" },
+        { "s": "A", "de": "Das sehen Sie auf dem Bon.", "en": "You'll see that on the receipt.", "ur": "Yeh aap ko bon par nazar aayega." },
+        { "s": "B", "de": "Alles klar, vielen Dank für die Hilfe!", "en": "All right, thanks for the help!", "ur": "Theek hai, madad ka shukriya!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, das sieht nach einem vollen Kasten aus. Soll ich Ihnen helfen?", "en": "Hello, that looks like a full crate. Should I help you?", "ur": "Salam, yeh bhara hua kasten lag raha hai. Kya madad karoon?" },
+        { "s": "B", "de": "Ja, sehr gerne. Er ist ziemlich sperrig für mich allein.", "en": "Yes, gladly. It's quite bulky for me alone.", "ur": "Ji zaroor. Akele ke liye yeh kaafi sperrig hai." },
+        { "s": "A", "de": "Verstehe ich gut, Kästen mit zwanzig Flaschen sind wirklich nicht leicht.", "en": "I understand well, crates with twenty bottles really aren't light.", "ur": "Main samajhta hoon, bees bottles wale kasten waqai halke nahi hote." },
+        { "s": "B", "de": "Genau, ich habe ihn vom Auto bis hierher getragen. Wohin stelle ich ihn jetzt?", "en": "Exactly, I carried it from the car to here. Where do I put it now?", "ur": "Bilkul, main isay gaari se yahan tak utha kar layi. Ab kahan rakhoon?" },
+        { "s": "A", "de": "Direkt unten in den Kastenschacht, dort erkennt der Automat den Kasten automatisch.", "en": "Directly down into the crate slot, there the machine recognises the crate automatically.", "ur": "Seedha neeche kasten slot mein, wahan machine kasten khud hi pehchan leti hai." },
+        { "s": "B", "de": "Muss ich die Flaschen einzeln herausnehmen oder bleibt alles zusammen im Kasten?", "en": "Do I need to take the bottles out individually or does everything stay together in the crate?", "ur": "Kya mujhe bottles alag alag nikaalni hain ya sab kasten mein hi rehta hai?" },
+        { "s": "A", "de": "Alles bleibt im Kasten, der Scanner zählt die Anzahl der Flaschen von außen.", "en": "Everything stays in the crate, the scanner counts the number of bottles from the outside.", "ur": "Sab kasten mein hi rehta hai, scanner bahar se bottles ki tadaad gin leta hai." },
+        { "s": "B", "de": "Das ist praktisch. Bekomme ich für den Kasten selbst auch extra Pfand?", "en": "That's practical. Do I also get extra deposit for the crate itself?", "ur": "Yeh kaafi asaan hai. Kya kasten par bhi extra Pfand milta hai?" },
+        { "s": "A", "de": "Ja, für den Kasten gibt es zusätzlich anderthalb Euro, das nennt man Kastenpfand.", "en": "Yes, for the crate there's an extra one euro fifty, that's called crate deposit.", "ur": "Ji, kasten par extra dedh euro milta hai, isay Kastenpfand kehte hain." },
+        { "s": "B", "de": "Interessant, das wusste ich noch gar nicht. Kann ich auch nur den Kasten zurückgeben, ohne Flaschen darin?", "en": "Interesting, I didn't even know that yet. Can I also return just the crate, without bottles in it?", "ur": "Dilchasp, mujhe yeh maloom hi nahi tha. Kya main sirf khaali kasten bhi wapis kar sakti hoon, bina bottles ke?" },
+        { "s": "A", "de": "Ja, das geht ebenfalls, dann bekommen Sie nur das Kastenpfand zurück.", "en": "Yes, that also works, then you just get the crate deposit back.", "ur": "Ji, yeh bhi ho sakta hai, phir sirf Kastenpfand wapis milega." },
+        { "s": "B", "de": "Gut zu wissen für nächstes Mal. Jetzt sind alle Flaschen gezählt, oder?", "en": "Good to know for next time. Now all the bottles are counted, right?", "ur": "Agli baar ke liye acha maloom hua. Ab sab bottles gin li gayi hain, hai na?" },
+        { "s": "A", "de": "Ja, drücken Sie einfach die grüne Taste, dann kommt Ihr Bon.", "en": "Yes, just press the green button, then your receipt comes out.", "ur": "Ji, bas sabz button dabayein, phir aap ka bon aa jayega." },
+        { "s": "B", "de": "Super, vielen Dank für die Erklärung und die Hilfe beim Tragen.", "en": "Great, thank you for the explanation and the help carrying it.", "ur": "Behtareen, wazahat aur uthane mein madad ka shukriya." },
+        { "s": "A", "de": "Sehr gerne, kommen Sie ruhig immer mit dem Kasten zu mir.", "en": "You're welcome, feel free to always come to me with the crate.", "ur": "Bohat khushi se, kasten ke saath hamesha mere paas aa jaayein." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Frau Yilmaz, das ist ja eine ordentliche Ladung heute. Zwei volle Kästen auf einmal?", "en": "Mrs Yilmaz, that's quite a load today. Two full crates at once?", "ur": "Frau Yilmaz, aaj to kaafi bhaari saaman hai. Do bhare kasten ek saath?" },
+        { "s": "B", "de": "Ja, wir hatten letzte Woche eine Familienfeier, deshalb hat sich einiges an Leergut angesammelt.", "en": "Yes, we had a family celebration last week, so quite a lot of empties have piled up.", "ur": "Ji, pichle hafte hamari family function thi, is liye kaafi khaali bottles jama ho gayin." },
+        { "s": "A", "de": "Verständlich. Wissen Sie schon, wie man mehrere Kästen nacheinander zurückgibt, oder soll ich es kurz zeigen?", "en": "Understandable. Do you already know how to return several crates one after another, or should I show you briefly?", "ur": "Samajh sakta hoon. Kya aap ko pata hai kai kasten ek ke baad ek kaise wapis karte hain, ya main dikha doon?" },
+        { "s": "B", "de": "Zeigen Sie es mir bitte, ich habe das noch nie mit mehreren Kästen gemacht.", "en": "Please show me, I've never done this with several crates before.", "ur": "Please dikha dein, maine kai kasten ke saath yeh kabhi nahi kiya." },
+        { "s": "A", "de": "Sie stellen den ersten Kasten komplett in den Schacht, warten, bis der Automat fertig gezählt hat, und stellen dann den nächsten hinein.", "en": "You place the first crate completely into the slot, wait until the machine has finished counting, and then place the next one in.", "ur": "Pehla kasten pura slot mein rakhein, machine ke ginne ka intezaar karein, phir agla rakh dein." },
+        { "s": "B", "de": "Muss ich zwischen den Kästen etwas Bestimmtes drücken, oder läuft das automatisch weiter?", "en": "Do I have to press something specific between the crates, or does it continue automatically?", "ur": "Kya mujhe kasten ke darmiyan kuch dabana hoga, ya yeh khud chalta rehta hai?" },
+        { "s": "A", "de": "Das läuft automatisch weiter, solange Sie nicht die grüne Taste drücken, sammelt der Automat alles auf einem Bon.", "en": "It continues automatically, as long as you don't press the green button, the machine collects everything on one receipt.", "ur": "Yeh khud chalta rehta hai, jab tak aap sabz button na dabayein, machine sab kuch ek hi bon par jama karti hai." },
+        { "s": "B", "de": "Das ist praktisch, dann muss ich nicht für jeden Kasten einzeln bezahlen lassen.", "en": "That's practical, then I don't have to have each crate settled separately.", "ur": "Yeh kaafi asaan hai, phir har kasten alag se hisaab nahi karwana parega." },
+        { "s": "A", "de": "Genau. Übrigens, falls ein Kasten leicht beschädigt ist, nimmt der Automat ihn trotzdem an, solange er stabil genug ist.", "en": "Exactly. By the way, if a crate is slightly damaged, the machine still accepts it, as long as it's stable enough.", "ur": "Bilkul. Waise, agar kasten thora kharab ho, machine phir bhi le leti hai, jab tak woh kaafi mazboot ho." },
+        { "s": "B", "de": "Gut zu wissen, einer meiner Kästen hat tatsächlich einen kleinen Sprung im Plastik.", "en": "Good to know, one of my crates actually has a small crack in the plastic.", "ur": "Acha maloom hua, mere ek kasten mein plastic mein choti si dararh hai." },
+        { "s": "A", "de": "Das sollte kein Problem sein. Sollte er doch abgelehnt werden, geben Sie ihn einfach direkt bei mir an der Kasse ab.", "en": "That shouldn't be a problem. If it should get rejected after all, just hand it in directly to me at the checkout.", "ur": "Yeh masla nahi hona chahiye. Agar phir bhi mana ho to seedha mere paas kaunter par de dein." },
+        { "s": "B", "de": "Perfekt. Und bekomme ich für die leeren Kästen selbst auch etwas zurück, unabhängig von den Flaschen?", "en": "Perfect. And do I get something back for the empty crates themselves, independent of the bottles?", "ur": "Behtareen. Aur kya khaali kasten par bhi kuch wapis milta hai, bottles se alag?" },
+        { "s": "A", "de": "Ja, das Kastenpfand von anderthalb Euro pro Kasten wird automatisch mitgerechnet.", "en": "Yes, the crate deposit of one euro fifty per crate is automatically included.", "ur": "Ji, har kasten ka dedh euro Kastenpfand khud hi shamil ho jata hai." },
+        { "s": "B", "de": "Wunderbar, dann bin ich bereit. Ich fange mit dem ersten Kasten an.", "en": "Wonderful, then I'm ready. I'll start with the first crate.", "ur": "Bohat acha, ab main taiyaar hoon. Pehle kasten se shuru karti hoon." },
+        { "s": "A", "de": "Machen Sie das. Ich bleibe in der Nähe, falls etwas nicht funktioniert.", "en": "Go ahead. I'll stay nearby in case something doesn't work.", "ur": "Zaroor karein. Main qareeb hi rahoonga agar kuch kaam na kare." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Frau Yilmaz, ich sehe, Sie haben heute gleich drei Getränkekästen mitgebracht. Das ist eine ordentliche Menge auf einmal.", "en": "Mrs Yilmaz, I see you've brought three whole beverage crates today. That's quite a quantity all at once.", "ur": "Frau Yilmaz, mujhe dikh raha hai aaj aap teen sarey drinks ke kasten laayi hain. Yeh ek waqt mein kaafi zyada hai." },
+        { "s": "B", "de": "Ja, ich wollte das eigentlich schon länger erledigen, aber der Transport allein hat mich immer abgeschreckt.", "en": "Yes, I actually wanted to take care of this for a while, but the transport alone always put me off.", "ur": "Ji, main yeh kaafi arse se karna chahti thi, lekin akele transport mujhe hamesha rok deta tha." },
+        { "s": "A", "de": "Das verstehe ich gut, gerade volle Kästen sind unhandlich und ziemlich sperrig für eine Person.", "en": "I understand that well, full crates especially are unwieldy and quite bulky for one person.", "ur": "Main yeh samajhta hoon, khaas kar bharay kasten akele ke liye mushkil aur sperrig hote hain." },
+        { "s": "B", "de": "Genau deshalb wollte ich mich bei Ihnen erkundigen, ob es eine Möglichkeit gibt, mehrere Kästen gleichzeitig effizienter abzugeben.", "en": "That's exactly why I wanted to ask you whether there's a way to hand in several crates simultaneously more efficiently.", "ur": "Isi liye main aap se poochna chahti thi ke kya kai kasten ek saath zyada moassar tareeqe se dene ka koi tareeqa hai." },
+        { "s": "A", "de": "Der Automat verarbeitet die Kästen ohnehin nacheinander, aber wir haben hinten einen Wagen, mit dem Sie alle Kästen auf einmal heranfahren können.", "en": "The machine processes the crates one after another anyway, but we have a cart in the back with which you can bring all the crates up at once.", "ur": "Machine kasten waise bhi ek ek karke process karti hai, lekin peeche hamare paas ek trolley hai jis se aap sab kasten ek saath laa sakti hain." },
+        { "s": "B", "de": "Das wäre eine große Erleichterung. Gibt es eigentlich eine Obergrenze, wie viele Kästen der Automat pro Vorgang akzeptiert?", "en": "That would be a great relief. Is there actually an upper limit to how many crates the machine accepts per process?", "ur": "Yeh kaafi asaani hogi. Kya koi had hai ke machine ek dafa mein kitne kasten qabool karti hai?" },
+        { "s": "A", "de": "Offiziell nicht, allerdings würde ich Ihnen bei sehr großen Mengen empfehlen, das vorher kurz mit der Marktleitung abzusprechen.", "en": "Officially not, though for very large quantities I'd recommend briefly clearing that with store management beforehand.", "ur": "Sarkari taur par nahi, lekin bohat zyada tadaad ke liye main mashwara doonga ke pehle market management se baat kar lein." },
+        { "s": "B", "de": "Bei drei Kästen sollte das vermutlich noch unproblematisch sein, oder?", "en": "With three crates that should probably still be unproblematic, right?", "ur": "Teen kasten ke saath yeh shayad koi masla nahi hoga, hai na?" },
+        { "s": "A", "de": "Absolut, drei Kästen sind völlig im normalen Rahmen und stellen keinerlei Herausforderung dar.", "en": "Absolutely, three crates are entirely within the normal range and pose no challenge whatsoever.", "ur": "Bilkul, teen kasten ekdum normal hain aur inme koi masla nahi." },
+        { "s": "B", "de": "Beruhigend zu hören. Wie genau wird eigentlich die Anzahl der Flaschen innerhalb eines Kastens erfasst?", "en": "Reassuring to hear. How exactly is the number of bottles within a crate actually recorded?", "ur": "Sun kar itminan hua. Ek kasten ke andar bottles ki tadaad theek se kaise gini jati hai?" },
+        { "s": "A", "de": "Ein optischer Sensor erkennt das Muster der Flaschenhälse von oben und gleicht es mit der bekannten Kastengröße ab.", "en": "An optical sensor recognises the pattern of the bottle necks from above and compares it with the known crate size.", "ur": "Ek optical sensor upar se bottle ki gardanon ka pattern pehchan leta hai aur usay maloom kasten size se milata hai." },
+        { "s": "B", "de": "Faszinierend, davon hätte ich nicht gedacht, dass das so präzise funktioniert.", "en": "Fascinating, I wouldn't have thought that this works so precisely.", "ur": "Kaafi dilchasp, mujhe laga hi nahi tha yeh itni sahi tarah kaam karta hai." },
+        { "s": "A", "de": "Die Technik hat sich in den letzten Jahren stark weiterentwickelt. Fehler kommen inzwischen nur noch sehr selten vor.", "en": "The technology has developed a lot in recent years. Errors now only occur very rarely.", "ur": "Pichle chand saalon mein technology bohat aage barh gayi hai. Ab ghaltiyan bohat kam hoti hain." },
+        { "s": "B", "de": "Sehr beeindruckend. Dann fange ich jetzt mit dem ersten Kasten an und vertraue auf die Technik.", "en": "Very impressive. Then I'll now start with the first crate and trust the technology.", "ur": "Kaafi mutassir karne wali baat hai. Ab main pehle kasten se shuru karti hoon aur technology par bharosa karti hoon." },
+        { "s": "A", "de": "Sehr gute Entscheidung. Ich helfe Ihnen gerne, den Wagen anschließend wieder zurückzubringen.", "en": "Very good decision. I'm happy to help you bring the cart back again afterwards.", "ur": "Bohat acha faisla. Baad mein trolley wapis le jane mein khushi se madad karoonga." },
+        { "s": "B", "de": "Das ist sehr freundlich von Ihnen, vielen Dank für Ihre umfassende Unterstützung, Herr Winter.", "en": "That's very kind of you, thank you very much for your comprehensive support, Mr Winter.", "ur": "Yeh aap ki bohat meharbani hai, aap ki mukammal madad ka bohat shukriya, Herr Winter." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie bringen einen schweren, vollen Kasten Flaschen zum Automaten.",
+        "en": "You bring a heavy, full crate of bottles to the machine.",
+        "ur": "Aap ek bhari, bhara hua kasten bottles machine tak laati hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, brauchen Sie Hilfe mit dem Kasten?",
+          "goal": { "en": "Say yes please, it's very heavy.", "ur": "Kahein ji please, yeh bohat bhaari hai." },
+          "options": ["Ja, bitte. Er ist sehr schwer.", "Ja, gerne, er ist ziemlich schwer."],
+          "fallback": "Ist der Kasten schwer für Sie?",
+          "accept": [{ "kw": ["ja", "schwer"], "next": "n2" }, { "kw": ["schwer"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Problem, ich helfe Ihnen tragen.",
+          "goal": { "en": "Thank him and ask where to put the crate.", "ur": "Shukriya karein aur poochein kasten kahan rakhein." },
+          "options": ["Danke. Wohin stelle ich den Kasten?", "Danke schön. Wo stelle ich ihn hin?"],
+          "fallback": "Wissen Sie, wohin der Kasten kommt?",
+          "accept": [{ "kw": ["wohin", "kasten"], "next": "n3" }, { "kw": ["stelle"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Dort unten in den Kastenschacht.",
+          "goal": { "en": "Say like this, and ask if that's right.", "ur": "Kahein aise, kya sahi hai." },
+          "options": ["So, ist das richtig?", "Ist das so richtig?"],
+          "fallback": "Machen Sie das so?",
+          "accept": [{ "kw": ["richtig"], "next": "n4" }, { "kw": ["so"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, genau richtig.",
+          "goal": { "en": "Ask if the machine counts all the bottles.", "ur": "Poochein kya machine sab bottles gin leti hai." },
+          "options": ["Zählt der Automat alle Flaschen?", "Zählt er alle Flaschen automatisch?"],
+          "fallback": "Möchten Sie wissen, wie gezählt wird?",
+          "accept": [{ "kw": ["zählt"], "next": "n5" }, { "kw": ["flaschen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Ja, automatisch.",
+          "goal": { "en": "Ask how much deposit you get for the crate.", "ur": "Poochein kasten ke liye kitna Pfand milega." },
+          "options": ["Wie viel Pfand bekomme ich für den Kasten?", "Wie viel Pfand gibt es für den Kasten?"],
+          "fallback": "Möchten Sie den Pfandbetrag wissen?",
+          "accept": [{ "kw": ["pfand", "kasten"], "next": "n6" }, { "kw": ["pfand"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Das sehen Sie auf dem Bon.",
+          "goal": { "en": "Say all right, thanks for the help.", "ur": "Kahein theek hai, madad ka shukriya." },
+          "options": ["Alles klar, vielen Dank für die Hilfe!", "Gut, danke für die Hilfe!"],
+          "fallback": "Ist alles klar?",
+          "accept": [
+            { "kw": ["danke", "hilfe"], "reply": "Gern geschehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie bringen zwei volle Kästen nach einer Familienfeier zurück und kennen den Ablauf mit mehreren Kästen noch nicht.",
+        "en": "You bring back two full crates after a family celebration and don't yet know the process with several crates.",
+        "ur": "Aap family function ke baad do bhare kasten wapis laa rahi hain aur kai kasten ka tareeqa nahi jaanti."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Das ist ja eine ordentliche Ladung heute. Zwei volle Kästen auf einmal?",
+          "goal": { "en": "Say yes, you had a family celebration and empties piled up.", "ur": "Kahein ji, family function thi is liye khaali bottles jama ho gayin." },
+          "options": ["Ja, wir hatten eine Familienfeier, deshalb hat sich Leergut angesammelt.", "Ja, nach unserer Familienfeier ist viel Leergut zusammengekommen."],
+          "fallback": "Was ist der Anlass für so viel Leergut?",
+          "accept": [{ "kw": ["familienfeier"], "next": "n2" }, { "kw": ["leergut", "angesammelt"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wissen Sie schon, wie man mehrere Kästen nacheinander zurückgibt?",
+          "goal": { "en": "Say please show you, you've never done it with several crates.", "ur": "Kahein please dikha dein, kai kasten ke saath kabhi nahi kiya." },
+          "options": ["Zeigen Sie es mir bitte, das habe ich noch nie mit mehreren Kästen gemacht.", "Bitte zeigen Sie mir das, ich kenne es nicht mit mehreren Kästen."],
+          "fallback": "Soll ich es Ihnen zeigen?",
+          "accept": [{ "kw": ["zeigen"], "next": "n3" }, { "kw": ["nie", "gemacht"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Sie stellen den ersten Kasten in den Schacht und warten, bis er fertig gezählt ist.",
+          "goal": { "en": "Ask if you need to press something specific between the crates.", "ur": "Poochein kya kasten ke darmiyan kuch dabana hai." },
+          "options": ["Muss ich zwischen den Kästen etwas Bestimmtes drücken?", "Muss ich zwischen den Kästen etwas drücken?"],
+          "fallback": "Möchten Sie wissen, wie es zwischen den Kästen weitergeht?",
+          "accept": [{ "kw": ["zwischen", "drücken"], "next": "n4" }, { "kw": ["drücken"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das läuft automatisch weiter, der Automat sammelt alles auf einem Bon.",
+          "goal": { "en": "Ask if a slightly damaged crate is still accepted.", "ur": "Poochein kya thora kharab kasten phir bhi accept hota hai." },
+          "options": ["Was ist, wenn ein Kasten leicht beschädigt ist, wird er trotzdem angenommen?", "Nimmt der Automat einen beschädigten Kasten auch an?"],
+          "fallback": "Machen Sie sich Sorgen um einen der Kästen?",
+          "accept": [{ "kw": ["beschädigt"], "next": "n5" }, { "kw": ["angenommen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das sollte kein Problem sein, solange er stabil genug ist.",
+          "goal": { "en": "Ask if you also get something back for the empty crates themselves, independent of the bottles.", "ur": "Poochein kya khaali kasten par bhi kuch alag se milta hai." },
+          "options": ["Bekomme ich für die Kästen selbst auch etwas zurück, unabhängig von den Flaschen?", "Gibt es auch Pfand für die Kästen selbst?"],
+          "fallback": "Interessiert Sie das Kastenpfand?",
+          "accept": [{ "kw": ["kästen", "zurück"], "next": "n6" }, { "kw": ["kastenpfand"], "next": "n6" }, { "kw": ["pfand", "kästen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, das Kastenpfand von anderthalb Euro pro Kasten wird automatisch mitgerechnet.",
+          "goal": { "en": "Say wonderful, then you're ready, and thank him.", "ur": "Kahein bohat acha, ab taiyaar hain, shukriya karein." },
+          "options": ["Wunderbar, dann bin ich bereit. Vielen Dank für die Erklärung.", "Perfekt, dann fange ich an. Danke für die Erklärung."],
+          "fallback": "Sind Sie jetzt bereit anzufangen?",
+          "accept": [
+            { "kw": ["danke", "erklärung"], "reply": "Gern geschehen, viel Erfolg!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen, viel Erfolg!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

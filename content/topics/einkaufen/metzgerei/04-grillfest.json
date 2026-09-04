@@ -1,0 +1,219 @@
+{
+  "id": "grillfest",
+  "order": 4,
+  "icon": "🔥",
+  "title": { "de": "Einkauf fürs Grillfest", "en": "Shopping for a barbecue party", "ur": "Grillfest ke liye khareedari" },
+  "angle": "Ordering a larger quantity for a party, with a bulk discount · Party ke liye zyada miqdar order karna, bulk discount ke saath",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["grillfest", "bratwurst", "grillfleisch", "grillspieße", "gäste", "rabatt", "bestellung", "abholen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was darf es sein?", "en": "Hello! What can I get you?", "ur": "Salam! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag. Wir machen ein Grillfest und brauchen viel Fleisch.", "en": "Hello. We're having a barbecue party and need a lot of meat.", "ur": "Salam. Hum grillfest kar rahe hain aur bohat gosht chahiye." },
+        { "s": "A", "de": "Toll! Was möchten Sie denn genau?", "en": "Wonderful! What exactly would you like?", "ur": "Zabardast! Aap ko theek theek kya chahiye?" },
+        { "s": "B", "de": "Bratwurst und Grillfleisch, bitte.", "en": "Bratwurst and grill meat, please.", "ur": "Bratwurst aur grillfleisch, please." },
+        { "s": "A", "de": "Wie viel Bratwurst möchten Sie?", "en": "How much bratwurst would you like?", "ur": "Kitni bratwurst chahiye?" },
+        { "s": "B", "de": "Zwei Kilo, bitte.", "en": "Two kilos, please.", "ur": "Do kilo, please." },
+        { "s": "A", "de": "Und wie viel Grillfleisch?", "en": "And how much grill meat?", "ur": "Aur kitna grillfleisch?" },
+        { "s": "B", "de": "Auch zwei Kilo, bitte.", "en": "Also two kilos, please.", "ur": "Woh bhi do kilo, please." },
+        { "s": "A", "de": "Kommt sofort. Wie viele Gäste kommen denn?", "en": "Coming right up. How many guests are coming then?", "ur": "Abhi lo. Kitne mehmaan aa rahe hain?" },
+        { "s": "B", "de": "Ungefähr fünfzehn Personen.", "en": "About fifteen people.", "ur": "Taqreeban pandrah log." },
+        { "s": "A", "de": "Dann reicht das gut. Das macht zusammen zweiunddreißig Euro.", "en": "Then that's plenty. That comes to thirty-two euros altogether.", "ur": "To yeh kaafi hai. Yeh sab mila kar battees euro hua." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Danke schön. Viel Spaß beim Grillen!", "en": "Thank you. Have fun grilling!", "ur": "Shukriya. Grilling mein maza karein!" },
+        { "s": "B", "de": "Danke, auf Wiedersehen!", "en": "Thanks, goodbye!", "ur": "Shukriya, khuda hafiz!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Wir feiern am Samstag ein großes Grillfest und brauchen einiges an Fleisch.", "en": "Hello, Mr Krause. We're celebrating a big barbecue party on Saturday and need quite a lot of meat.", "ur": "Salam, Herr Krause. Hum Hafte ko bara grillfest kar rahe hain aur kaafi gosht chahiye." },
+        { "s": "A", "de": "Wie schön! Wie viele Gäste erwarten Sie denn?", "en": "How nice! How many guests are you expecting then?", "ur": "Kitna acha! Kitne mehmano ki tawaqqo hai?" },
+        { "s": "B", "de": "Etwa zwanzig Personen, also brauchen wir eine ordentliche Menge.", "en": "About twenty people, so we need a decent amount.", "ur": "Taqreeban bees log, to hamein achi khaasi miqdar chahiye." },
+        { "s": "A", "de": "Verstehe. Was schwebt Ihnen vor, außer Bratwurst?", "en": "I see. What do you have in mind, besides bratwurst?", "ur": "Samajh gayi. Bratwurst ke ilawa aap kya sochti hain?" },
+        { "s": "B", "de": "Auch Grillspieße und etwas Hähnchen wären schön.", "en": "Some grill skewers and some chicken would be nice too.", "ur": "Grillspieße aur thora murghi bhi acha rahega." },
+        { "s": "A", "de": "Gute Wahl. Ich würde drei Kilo Bratwurst und zwei Kilo Grillspieße vorschlagen.", "en": "Good choice. I would suggest three kilos of bratwurst and two kilos of skewers.", "ur": "Acha intekhab. Main teen kilo bratwurst aur do kilo grillspieße tajweez karta hoon." },
+        { "s": "B", "de": "Das klingt passend. Und vielleicht noch ein Kilo Hähnchenschenkel dazu.", "en": "That sounds fitting. And maybe another kilo of chicken legs too.", "ur": "Yeh theek lagta hai. Aur shayad ek kilo hähnchenschenkel bhi." },
+        { "s": "A", "de": "Kein Problem. Bei so einer großen Bestellung gebe ich Ihnen gern einen kleinen Rabatt.", "en": "No problem. For such a big order I'll gladly give you a small discount.", "ur": "Koi masla nahi. Itni bari order par main khushi se thora rabatt de deta hoon." },
+        { "s": "B", "de": "Das ist sehr freundlich, vielen Dank!", "en": "That's very kind, thank you very much!", "ur": "Yeh bohat meherbani hai, bohat shukriya!" },
+        { "s": "A", "de": "Kommt sofort, das dauert nur ein paar Minuten.", "en": "Coming right up, that'll only take a few minutes.", "ur": "Abhi lo, is mein sirf chand minute lagenge." },
+        { "s": "B", "de": "Kein Problem, ich warte gern.", "en": "No problem, I'll gladly wait.", "ur": "Koi masla nahi, main khushi se intezaar karti hoon." },
+        { "s": "A", "de": "So, alles fertig. Mit Rabatt macht das zusammen achtundvierzig Euro.", "en": "There, all done. With the discount that comes to forty-eight euros altogether.", "ur": "Lijiye, sab tayyar hai. Rabatt ke saath yeh sab mila kar athtalees euro hua." },
+        { "s": "B", "de": "Hier, bitte. Vielen Dank für den fairen Preis.", "en": "Here you go. Thank you very much for the fair price.", "ur": "Yeh lijiye. Munsifana qeemat ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Viel Spaß beim Grillfest!", "en": "You're welcome. Have fun at the barbecue party!", "ur": "Khushi hui. Grillfest mubarak ho!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich habe gehört, bei Ihnen steht ein großes Fest an.", "en": "Hello, Mrs Yilmaz. I heard you've got a big celebration coming up.", "ur": "Salam, Frau Yilmaz. Sunaa hai aap ke haan bara jashn hone wala hai." },
+        { "s": "B", "de": "Stimmt, wir feiern übernächstes Wochenende einen runden Geburtstag mit vielen Gästen.", "en": "That's right, we're celebrating a milestone birthday with many guests the weekend after next.", "ur": "Sahi hai, agle se agle hafte ke aakhir mein hum ek khaas birthday bohat mehmano ke saath mana rahe hain." },
+        { "s": "A", "de": "Herzlichen Glückwunsch im Voraus! Wie viele Personen werden es ungefähr sein?", "en": "Congratulations in advance! About how many people will there be?", "ur": "Pehle se mubarakbaad! Taqreeban kitne log honge?" },
+        { "s": "B", "de": "Etwa fünfundzwanzig, vielleicht kommen noch ein paar Nachbarn dazu.", "en": "About twenty-five, maybe a few neighbours will join too.", "ur": "Taqreeban pachees, shayad kuch padosi bhi shaamil ho jayein." },
+        { "s": "A", "de": "Dann sollten wir großzügig planen. Ich würde vier Kilo Bratwurst und drei Kilo Grillspieße vorschlagen.", "en": "Then we should plan generously. I would suggest four kilos of bratwurst and three kilos of skewers.", "ur": "To hamein khuli dili se mansooba banana chahiye. Main chaar kilo bratwurst aur teen kilo grillspieße tajweez karta hoon." },
+        { "s": "B", "de": "Das hört sich vernünftig an. Können wir bei einer so großen Bestellung einen Mengenrabatt bekommen?", "en": "That sounds reasonable. Can we get a bulk discount for such a big order?", "ur": "Yeh munaasib lagta hai. Kya itni bari order par mengenrabatt mil sakta hai?" },
+        { "s": "A", "de": "Klar, ab fünfzehn Kilo gebe ich Ihnen zehn Prozent auf die gesamte Bestellung.", "en": "Sure, from fifteen kilos I'll give you ten percent off the whole order.", "ur": "Zaroor, pandrah kilo se zyada par main puri order par das percent de deta hoon." },
+        { "s": "B", "de": "Das ist wirklich großzügig, vielen Dank. Können wir alles am Freitagnachmittag abholen?", "en": "That's really generous, thank you very much. Can we pick everything up on Friday afternoon?", "ur": "Yeh waqai khuli dili hai, bohat shukriya. Kya hum sab kuch Jumme ki dopahar le sakte hain?" },
+        { "s": "A", "de": "Selbstverständlich, ich lege alles für Sie zur Seite und kühle es gut.", "en": "Of course, I'll set everything aside for you and keep it well chilled.", "ur": "Zaroor, main sab kuch aap ke liye rakh doonga aur theek se thanda rakhoonga." },
+        { "s": "B", "de": "Perfekt. Und ist bei dieser Bestellung natürlich auch alles wie gewohnt halal?", "en": "Perfect. And with this order is everything halal as usual, of course?", "ur": "Behtareen. Aur is order mein bhi hamesha ki tarah sab halal hai na?" },
+        { "s": "A", "de": "Selbstverständlich, wie immer bei uns. Da können Sie sich völlig sicher sein.", "en": "Of course, as always with us. You can be completely sure of that.", "ur": "Zaroor, hamesha ki tarah. Aap bilkul mutmaeen ho sakti hain." },
+        { "s": "B", "de": "Wunderbar, das beruhigt mich. Dann bestellen wir hiermit verbindlich.", "en": "Wonderful, that reassures me. Then we'll place this order firmly.", "ur": "Behtareen, isse itminan mila. To hum yeh order pakki tor par de dete hain." },
+        { "s": "A", "de": "Ich notiere mir alles genau. Möchten Sie eine schriftliche Bestätigung?", "en": "I'll note everything down exactly. Would you like a written confirmation?", "ur": "Main sab kuch achi tarah likh leta hoon. Kya aap ko tehreeri tasdeeq chahiye?" },
+        { "s": "B", "de": "Ja, gern, für meine Unterlagen.", "en": "Yes, gladly, for my records.", "ur": "Ji haan, zaroor, apne records ke liye." },
+        { "s": "A", "de": "Kein Problem, ich schreibe sie Ihnen gleich auf.", "en": "No problem, I'll write it down for you right away.", "ur": "Koi masla nahi, main abhi likh deta hoon." },
+        { "s": "B", "de": "Vielen Dank für Ihre Mühe, Herr Krause. Bis Freitag!", "en": "Thank you very much for your trouble, Mr Krause. See you Friday!", "ur": "Aap ki mehnat ka bohat shukriya, Herr Krause. Jumme ko milte hain!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Sie sind heute in bester Feierlaune, wie ich sehe.", "en": "Hello, Mrs Yilmaz. You're in a great festive mood today, I see.", "ur": "Salam, Frau Yilmaz. Aaj aap bohat jashn wale mood mein lag rahi hain." },
+        { "s": "B", "de": "Das stimmt, in zwei Wochen ist unser großes Grillfest, und ich möchte diesmal alles rechtzeitig organisieren.", "en": "That's right, our big barbecue party is in two weeks, and this time I want to organise everything on time.", "ur": "Sahi hai, do hafton mein hamara bara grillfest hai, aur is baar main sab kuch waqt par mansooba banana chahti hoon." },
+        { "s": "A", "de": "Sehr vernünftig. Sollen wir die Bestellung von letztem Jahr als Grundlage nehmen und leicht anpassen?", "en": "Very sensible. Shall we use last year's order as a basis and adjust it slightly?", "ur": "Bohat munaasib. Kya hum pichle saal ki order ko buniyaad bana kar thora tabdeel karein?" },
+        { "s": "B", "de": "Gute Idee. Diesmal kommen allerdings ein paar Gäste mehr, also würde ich gern etwas aufstocken.", "en": "Good idea. This time however a few more guests are coming, so I'd like to increase it a bit.", "ur": "Achi baat hai. Is baar lekin kuch aur mehmaan aa rahe hain, to main thora barhana chahoongi." },
+        { "s": "A", "de": "Kein Problem. Wenn wir bei der Menge bleiben, die wir letztes Mal besprochen haben, plus zwanzig Prozent, sollte es reichen.", "en": "No problem. If we stick to the amount we discussed last time, plus twenty percent, it should be enough.", "ur": "Koi masla nahi. Agar hum pichli baar wali miqdar rakhein, aur bees percent barha dein, to kaafi hoga." },
+        { "s": "B", "de": "Das klingt vernünftig. Könnten Sie mir eine ungefähre Summe nennen, damit ich das einplanen kann?", "en": "That sounds reasonable. Could you give me a rough amount so I can budget for it?", "ur": "Yeh munaasib lagta hai. Kya aap mujhe taqreeban raqam bata sakte hain taake main mansooba bana sakoon?" },
+        { "s": "A", "de": "Bei der erweiterten Menge würde ich mit etwa sechzig Euro rechnen, inklusive Mengenrabatt.", "en": "With the expanded amount I'd reckon on about sixty euros, including the bulk discount.", "ur": "Barhi hui miqdar par main taqreeban saath euro ka hisaab lagaoonga, mengenrabatt ke saath." },
+        { "s": "B", "de": "Das liegt gut in meinem Budget. Können wir außerdem eine Anzahlung vereinbaren, falls ich kurzfristig etwas ändere?", "en": "That fits well within my budget. Can we also agree on a deposit, in case I change something at short notice?", "ur": "Yeh mere budget mein theek baithta hai. Kya hum ek advance bhi tay kar sakte hain, agar main achanak kuch badloon?" },
+        { "s": "A", "de": "Das ist üblich bei so großen Bestellungen. Zwanzig Euro Anzahlung würden mir reichen.", "en": "That's usual for such big orders. Twenty euros deposit would be enough for me.", "ur": "Itni bari order par yeh aam baat hai. Bees euro advance kaafi hoga." },
+        { "s": "B", "de": "In Ordnung, die bringe ich Ihnen morgen vorbei. Eine letzte Frage: Halten Sie auch einige Kühltaschen bereit?", "en": "All right, I'll bring that by tomorrow. One last question: Do you also have some cool bags ready?", "ur": "Theek hai, kal woh de aaoongi. Ek aakhri sawal: kya kuch cool bags bhi taiyaar hain?" },
+        { "s": "A", "de": "Selbstverständlich, die lege ich Ihnen kostenlos dazu, damit alles bis nach Hause frisch bleibt.", "en": "Of course, I'll add those for free so everything stays fresh until you get home.", "ur": "Zaroor, main woh muft de doonga taake ghar tak sab taaza rahe." },
+        { "s": "B", "de": "Das ist wirklich aufmerksam von Ihnen. Sie denken wirklich an alles.", "en": "That's really thoughtful of you. You really think of everything.", "ur": "Yeh waqai aap ka khayal rakhna hai. Aap sach mein har cheez ka khayal rakhte hain." },
+        { "s": "A", "de": "Das gehört einfach dazu, besonders bei so treuen Kunden wie Ihnen.", "en": "That's simply part of it, especially for such loyal customers as you.", "ur": "Yeh to bas iska hissa hai, khaas kar aap jaise wafadar customers ke liye." },
+        { "s": "B", "de": "Das freut mich sehr zu hören. Wir kommen ja auch schon seit Jahren nur zu Ihnen.", "en": "That's very nice to hear. We've been coming only to you for years, after all.", "ur": "Yeh sun kar bohat khushi hui. Hum bhi to kai saalon se sirf aap ke paas aate hain." },
+        { "s": "A", "de": "Und das schätze ich sehr. Also, ich notiere die erweiterte Bestellung und melde mich, falls etwas unklar ist.", "en": "And I appreciate that a lot. So, I'll note the expanded order and get in touch if anything is unclear.", "ur": "Aur is ki main bohat qadar karta hoon. To, main barhi hui order likh leta hoon aur agar kuch unclear ho to rabta karoonga." },
+        { "s": "B", "de": "Perfekt, vielen Dank für Ihre Sorgfalt. Bis zur Abholung dann!", "en": "Perfect, thank you very much for your care. See you at pickup then!", "ur": "Behtareen, aap ki mehnat ka bohat shukriya. To collection par milte hain!" },
+        { "s": "A", "de": "Bis dahin, Frau Yilmaz, und schon jetzt ein gelungenes Fest!", "en": "Until then, Mrs Yilmaz, and a wonderful party in advance!", "ur": "Tab tak, Frau Yilmaz, aur abhi se jashn mubarak ho!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie planen ein Grillfest mit fünfzehn Gästen und kaufen Fleisch dafür ein.",
+        "en": "You're planning a barbecue party with fifteen guests and buying meat for it.",
+        "ur": "Aap pandrah mehmano ke saath grillfest ka mansooba bana rahe hain aur is ke liye gosht khareed rahe hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was darf es sein?",
+          "goal": { "en": "Say you're having a barbecue party and need a lot of meat.", "ur": "Kahein ke grillfest hai aur bohat gosht chahiye." },
+          "options": ["Guten Tag. Wir machen ein Grillfest und brauchen viel Fleisch.", "Guten Tag, wir feiern ein Grillfest und brauchen Fleisch."],
+          "fallback": "Was brauchen Sie?",
+          "accept": [{ "kw": ["grillfest"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Toll! Was möchten Sie denn genau?",
+          "goal": { "en": "Say bratwurst and grill meat.", "ur": "Kahein bratwurst aur grillfleisch." },
+          "options": ["Bratwurst und Grillfleisch, bitte.", "Wir hätten gern Bratwurst und Grillfleisch."],
+          "fallback": "Was genau möchten Sie?",
+          "accept": [{ "kw": ["bratwurst"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Wie viel Bratwurst möchten Sie?",
+          "goal": { "en": "Say two kilos.", "ur": "Kahein do kilo." },
+          "options": ["Zwei Kilo, bitte.", "Zwei Kilo Bratwurst, bitte."],
+          "fallback": "Wie viel Kilo?",
+          "accept": [{ "kw": ["kilo"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Und wie viel Grillfleisch?",
+          "goal": { "en": "Say also two kilos.", "ur": "Kahein woh bhi do kilo." },
+          "options": ["Auch zwei Kilo, bitte.", "Auch zwei Kilo Grillfleisch."],
+          "fallback": "Wie viel möchten Sie?",
+          "accept": [{ "kw": ["kilo"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Kommt sofort. Wie viele Gäste kommen denn?",
+          "goal": { "en": "Say about fifteen.", "ur": "Kahein taqreeban pandrah." },
+          "options": ["Ungefähr fünfzehn Personen.", "Etwa fünfzehn Gäste."],
+          "fallback": "Wie viele werden es?",
+          "accept": [{ "kw": ["fünfzehn"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Dann reicht das gut. Das macht zusammen zweiunddreißig Euro.",
+          "goal": { "en": "Pay, thank him, and say goodbye.", "ur": "Paise dein, shukriya kahein, khuda hafiz kahein." },
+          "options": ["Hier, bitte. Danke schön.", "Bitte schön, vielen Dank."],
+          "fallback": "Möchten Sie bezahlen?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Viel Spaß beim Grillen!", "next": "END" },
+            { "kw": ["bitte"], "reply": "Viel Spaß beim Grillfest!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie bestellen eine große Menge Fleisch für ein Fest mit fünfundzwanzig Gästen und möchten einen Mengenrabatt und einen Abholtermin vereinbaren.",
+        "en": "You're ordering a large amount of meat for a party with twenty-five guests and want to arrange a bulk discount and a pickup time.",
+        "ur": "Aap pachees mehmano ke fest ke liye bara order de rahe hain aur mengenrabatt aur pickup ka waqt tay karna chahte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was kann ich für Sie tun?",
+          "goal": { "en": "Say you're celebrating a big party with many guests.", "ur": "Kahein ke bohat mehmano ke saath bara fest hai." },
+          "options": ["Wir feiern ein großes Fest mit vielen Gästen.", "Wir haben ein großes Grillfest mit fünfundzwanzig Gästen."],
+          "fallback": "Was planen Sie?",
+          "accept": [{ "kw": ["fest"], "next": "n2" }, { "kw": ["gästen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie schön! Wie viele Personen werden es genau?",
+          "goal": { "en": "Say about twenty-five.", "ur": "Kahein taqreeban pachees." },
+          "options": ["Etwa fünfundzwanzig Personen.", "Ungefähr fünfundzwanzig Gäste."],
+          "fallback": "Wie viele kommen?",
+          "accept": [{ "kw": ["fünfundzwanzig"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Dann sollten wir großzügig planen. Ich schlage vier Kilo Bratwurst und drei Kilo Grillspieße vor.",
+          "goal": { "en": "Ask if there's a discount for such a big order.", "ur": "Poochein ke itni bari order par rabatt milta hai." },
+          "options": ["Bekommen wir bei so einer Bestellung einen Rabatt?", "Gibt es einen Mengenrabatt für so eine Bestellung?"],
+          "fallback": "Passt Ihnen das?",
+          "accept": [{ "kw": ["rabatt"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Klar, ab fünfzehn Kilo gebe ich Ihnen zehn Prozent.",
+          "goal": { "en": "Say that's generous, ask about pickup on Friday afternoon.", "ur": "Kahein yeh acha hai, Jumme ki dopahar pickup ke baare mein poochein." },
+          "options": ["Das ist großzügig. Können wir es Freitagnachmittag abholen?", "Vielen Dank. Ist eine Abholung am Freitagnachmittag möglich?"],
+          "fallback": "Wann möchten Sie es abholen?",
+          "accept": [{ "kw": ["freitag"], "next": "n5" }, { "kw": ["abholen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Selbstverständlich, ich lege alles zur Seite und kühle es gut.",
+          "goal": { "en": "Ask for a written confirmation.", "ur": "Tehreeri tasdeeq maangein." },
+          "options": ["Könnte ich eine schriftliche Bestätigung bekommen?", "Geben Sie mir bitte eine schriftliche Bestätigung?"],
+          "fallback": "Möchten Sie noch etwas?",
+          "accept": [{ "kw": ["bestätigung"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Kein Problem, ich schreibe sie Ihnen gleich auf.",
+          "goal": { "en": "Thank him and say see you Friday.", "ur": "Shukriya kahein aur Jumme ko milne ki baat karein." },
+          "options": ["Vielen Dank für Ihre Mühe. Bis Freitag!", "Danke schön, bis Freitag!"],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["freitag"], "reply": "Bis Freitag, Frau Yilmaz!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen, bis Freitag!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

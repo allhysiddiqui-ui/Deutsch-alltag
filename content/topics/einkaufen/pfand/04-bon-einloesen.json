@@ -1,0 +1,213 @@
+{
+  "id": "bon-einloesen",
+  "order": 4,
+  "icon": "🧾",
+  "title": { "de": "Den Pfandbon einlösen", "en": "Redeeming the deposit receipt", "ur": "Pfandbon bhunana" },
+  "angle": "Redeeming a deposit receipt at the checkout with a grocery purchase · Kaunter par Pfandbon ko khareedari ke saath bhunana",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["einlösen", "supermarktkasse", "kassenbon", "kassiererin", "abziehen", "gesamtbetrag", "einkaufswagen", "summe", "bar"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, haben Sie alles gefunden?", "en": "Hello, did you find everything?", "ur": "Salam, kya sab kuch mil gaya?" },
+        { "s": "B", "de": "Ja, danke. Ich habe auch einen Pfandbon.", "en": "Yes, thanks. I also have a deposit receipt.", "ur": "Ji, shukriya. Mere paas ek Pfandbon bhi hai." },
+        { "s": "A", "de": "Gut, geben Sie ihn mir bitte.", "en": "Good, please give it to me.", "ur": "Acha, please mujhe de dein." },
+        { "s": "B", "de": "Hier, bitte schön.", "en": "Here you go.", "ur": "Yeh lein, please." },
+        { "s": "A", "de": "Der Bon ist über zwei Euro zwanzig.", "en": "The receipt is worth two euros twenty.", "ur": "Bon do euro bees cent ka hai." },
+        { "s": "B", "de": "Können Sie das vom Einkauf abziehen?", "en": "Can you deduct that from the purchase?", "ur": "Kya aap khareedari mein se yeh minus kar sakti hain?" },
+        { "s": "A", "de": "Natürlich, das mache ich sofort.", "en": "Of course, I'll do that right away.", "ur": "Zaroor, main abhi karti hoon." },
+        { "s": "B", "de": "Wie viel muss ich dann bezahlen?", "en": "How much do I have to pay then?", "ur": "To phir mujhe kitna dena hoga?" },
+        { "s": "A", "de": "Der neue Gesamtbetrag ist zwölf Euro.", "en": "The new total is twelve euros.", "ur": "Naya total baarah euro hai." },
+        { "s": "B", "de": "Gut, ich zahle bar.", "en": "Good, I'll pay cash.", "ur": "Acha, main cash de deti hoon." },
+        { "s": "A", "de": "Vielen Dank, hier ist Ihr Wechselgeld.", "en": "Thank you very much, here's your change.", "ur": "Bohat shukriya, yeh lein aap ka baaqi paisa." },
+        { "s": "B", "de": "Danke, einen schönen Tag noch!", "en": "Thanks, have a nice day!", "ur": "Shukriya, acha din guzre!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, legen Sie Ihre Sachen ruhig aufs Band.", "en": "Hello, feel free to put your things on the belt.", "ur": "Salam, apna saaman aram se band par rakh dein." },
+        { "s": "B", "de": "Guten Tag. Ich habe auch noch einen Pfandbon vom Automaten dabei.", "en": "Hello. I also have a deposit receipt from the machine.", "ur": "Salam. Mere paas machine ka Pfandbon bhi hai." },
+        { "s": "A", "de": "Gerne, den scanne ich am Ende zusammen mit Ihrem Einkauf.", "en": "Gladly, I'll scan that at the end together with your purchase.", "ur": "Zaroor, main woh aakhir mein aap ki khareedari ke saath scan kar doongi." },
+        { "s": "B", "de": "Perfekt. Wie funktioniert das genau, wird das automatisch abgezogen?", "en": "Perfect. How exactly does that work, is it automatically deducted?", "ur": "Behtareen. Yeh theek se kaise chalta hai, kya khud minus ho jata hai?" },
+        { "s": "A", "de": "Ja, ich scanne den Strichcode auf dem Bon, dann zieht die Kasse den Betrag direkt von Ihrer Summe ab.", "en": "Yes, I scan the barcode on the receipt, then the register deducts the amount directly from your total.", "ur": "Ji, main bon ka barcode scan karti hoon, phir kaunter khud raqam total se nikaal deta hai." },
+        { "s": "B", "de": "Wie viel war der Bon überhaupt wert?", "en": "How much was the receipt worth anyway?", "ur": "Bon ki qeemat kitni thi?" },
+        { "s": "A", "de": "Drei Euro fünfzig, das reduziert Ihren Einkauf ordentlich.", "en": "Three euros fifty, that reduces your purchase quite a bit.", "ur": "Teen euro pachaas cent, isse aap ki khareedari kaafi kam ho jayegi." },
+        { "s": "B", "de": "Super. Ich habe auch meinen Einkaufswagen ganz voll gepackt heute.", "en": "Great. I've also packed my shopping cart quite full today.", "ur": "Behtareen. Aaj maine apni trolley bhi khoob bhar li." },
+        { "s": "A", "de": "Das sehe ich. Insgesamt macht das dann fünfundzwanzig Euro achtzig ohne den Bon.", "en": "I see that. In total that then comes to twenty-five euros eighty without the receipt.", "ur": "Yeh mujhe dikh raha hai. Bon ke baghair total pachees euro assi cent bantay hain." },
+        { "s": "B", "de": "Und mit dem Pfandbon abgezogen?", "en": "And with the deposit receipt deducted?", "ur": "Aur Pfandbon minus karne ke baad?" },
+        { "s": "A", "de": "Dann sind es genau zweiundzwanzig Euro dreißig.", "en": "Then it's exactly twenty-two euros thirty.", "ur": "Phir bais euro tees cent bantay hain." },
+        { "s": "B", "de": "Perfekt, das bezahle ich mit Karte.", "en": "Perfect, I'll pay that with card.", "ur": "Behtareen, main yeh card se dungi." },
+        { "s": "A", "de": "Kein Problem, halten Sie die Karte einfach an das Lesegerät.", "en": "No problem, just hold the card against the reader.", "ur": "Koi baat nahi, bas card ko reader ke qareeb rakhein." },
+        { "s": "B", "de": "Erledigt. Vielen Dank für die schnelle Abwicklung.", "en": "Done. Thank you for the quick handling.", "ur": "Ho gaya. Jaldi kaam nimta ne ka shukriya." },
+        { "s": "A", "de": "Sehr gerne, einen schönen Tag noch, Frau Yilmaz!", "en": "You're welcome, have a nice day, Mrs Yilmaz!", "ur": "Bohat khushi se, acha din guzre, Frau Yilmaz!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, ich sehe, Sie haben neben Ihrem Einkauf auch einen Pfandbon dabei. Möchten Sie den gleich verrechnen lassen?", "en": "Hello, I see you have a deposit receipt in addition to your shopping. Would you like to have it offset right away?", "ur": "Salam, mujhe dikh raha hai aap ke paas khareedari ke saath Pfandbon bhi hai. Kya isay abhi hisaab mein le loon?" },
+        { "s": "B", "de": "Ja, bitte, wenn das möglich ist. Ich hätte sonst gerne den Restbetrag ausgezahlt.", "en": "Yes, please, if that's possible. Otherwise I'd like the remaining amount paid out.", "ur": "Ji please, agar ho sake to. Warna mujhe baqi raqam cash mein chahiye hogi." },
+        { "s": "A", "de": "Beides ist möglich. Verrechnen ist meistens praktischer, weil es direkt Ihre Summe verringert.", "en": "Both are possible. Offsetting is usually more practical because it directly reduces your total.", "ur": "Dono mumkin hain. Hisaab mein lena aksar zyada asaan hota hai kyun ke yeh foran aap ki total kam kar deta hai." },
+        { "s": "B", "de": "Dann verrechnen wir es. Wie viel beträgt der Bon eigentlich?", "en": "Then let's offset it. How much is the receipt actually worth?", "ur": "To hisaab mein le lein. Bon asal mein kitne ka hai?" },
+        { "s": "A", "de": "Ich scanne ihn kurz ein. Vier Euro fünfundsechzig, das ist ein ordentlicher Betrag.", "en": "I'll scan it in briefly. Four euros sixty-five, that's a decent amount.", "ur": "Main abhi scan karti hoon. Chaar euro pisttalis cent, yeh kaafi acchi raqam hai." },
+        { "s": "B", "de": "Wunderbar, das kommt gerade recht, denn mein Einkauf ist diese Woche etwas teurer ausgefallen als sonst.", "en": "Wonderful, that comes just in time, because my shopping turned out a bit more expensive this week than usual.", "ur": "Bohat acha, yeh theek waqt par aaya, kyun ke is hafte meri khareedari maamool se thori mehngi rahi." },
+        { "s": "A", "de": "Ich habe alles gescannt, der Gesamtbetrag ohne Bon liegt bei einunddreißig Euro zwanzig.", "en": "I've scanned everything, the total without the receipt is thirty-one euros twenty.", "ur": "Maine sab scan kar diya, bon ke baghair total ikattees euro bees cent hai." },
+        { "s": "B", "de": "Und mit dem abgezogenen Pfandbetrag?", "en": "And with the deposit amount deducted?", "ur": "Aur Pfand raqam minus karne ke baad?" },
+        { "s": "A", "de": "Dann zahlen Sie noch sechsundzwanzig Euro fünfundfünfzig.", "en": "Then you still pay twenty-six euros fifty-five.", "ur": "Phir aap ko chhabees euro pachpan cent dene hain." },
+        { "s": "B", "de": "Das ist deutlich weniger. Zahle ich am besten in bar oder mit Karte?", "en": "That's noticeably less. Is it best if I pay in cash or with card?", "ur": "Yeh kaafi kam hai. Behtar hoga cash se ya card se dein?" },
+        { "s": "A", "de": "Beides ist möglich, ganz wie Sie möchten. Für kleinere Beträge nehmen viele Leute Karte, wegen der Bequemlichkeit.", "en": "Both are possible, whatever you prefer. For smaller amounts many people use card, because of the convenience.", "ur": "Dono mumkin hain, jaise aap ki marzi. Choti raqam ke liye bohat log card istemal karte hain, asaani ki wajah se." },
+        { "s": "B", "de": "Dann nehme ich diesmal Karte. Können Sie mir noch einen extra Kassenbon ausdrucken?", "en": "Then I'll take card this time. Can you print me an extra receipt as well?", "ur": "To is baar main card se deti hoon. Kya aap mujhe ek extra kassenbon bhi de sakti hain?" },
+        { "s": "A", "de": "Selbstverständlich, ich drucke Ihnen zwei Exemplare, eines für die Buchhaltung.", "en": "Of course, I'll print you two copies, one for the accounting.", "ur": "Zaroor, main aap ko do copies deti hoon, ek accounting ke liye." },
+        { "s": "B", "de": "Sehr aufmerksam, vielen Dank für Ihre Hilfe und einen schönen Tag noch.", "en": "Very thoughtful, thank you for your help and have a nice day.", "ur": "Bohat khayaal rakhne wali baat hai, madad ka shukriya aur acha din guzre." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Neben Ihrem üblichen Wocheneinkauf sehe ich, dass Sie auch einen recht umfangreichen Pfandbon dabeihaben.", "en": "Hello, Mrs Yilmaz. Besides your usual weekly shopping, I see you also have a fairly substantial deposit receipt with you.", "ur": "Salam, Frau Yilmaz. Aap ki hafta-waar khareedari ke ilawa mujhe dikh raha hai aap ke paas ek kaafi bara Pfandbon bhi hai." },
+        { "s": "B", "de": "Ja, ich habe die letzten zwei Wochen kaum Zeit gefunden, das Leergut wegzubringen, deshalb hat sich einiges angesammelt.", "en": "Yes, I've hardly found time the last two weeks to take the empties away, so quite a bit has piled up.", "ur": "Ji, pichle do hafton se mujhe khaali bottles le jane ka waqt hi nahi mila, is liye kaafi jama ho gaya." },
+        { "s": "A", "de": "Das kommt bei uns häufig vor. Soll ich den Betrag komplett mit Ihrem heutigen Einkauf verrechnen, oder bevorzugen Sie eine Barauszahlung?", "en": "That happens often with us. Should I offset the amount completely against your shopping today, or do you prefer a cash payout?", "ur": "Yeh humare yahan aksar hota hai. Kya main puri raqam aaj ki khareedari se hisaab mein le loon, ya aap cash chahti hain?" },
+        { "s": "B", "de": "Verrechnen Sie es bitte, das ist mir am liebsten, dann muss ich weniger überweisen und habe alles auf einem Beleg.", "en": "Please offset it, that's what I prefer, then I have to transfer less and have everything on one receipt.", "ur": "Please hisaab mein le lein, mujhe yeh sab se acha lagta hai, phir mujhe kam paisay dene honge aur sab ek hi receipt par hoga." },
+        { "s": "A", "de": "Einen Moment, ich scanne den Bon ein. Der Betrag summiert sich auf beachtliche neun Euro fünfundzwanzig.", "en": "One moment, I'll scan the receipt in. The amount adds up to a considerable nine euros twenty-five.", "ur": "Ek minute, main bon scan karti hoon. Raqam kaafi zyada nau euro pachees cent bantay hain." },
+        { "s": "B", "de": "Das ist tatsächlich mehr, als ich erwartet hatte. Kann das mit dem Gesamteinkauf verrechnet werden, auch wenn er kleiner ausfällt?", "en": "That's actually more than I expected. Can that be offset against the total purchase, even if it's smaller?", "ur": "Yeh waqai mere andaze se zyada hai. Kya isay total khareedari se hisaab mein le sakti hain, chahe woh kam hi ho?" },
+        { "s": "A", "de": "Selbstverständlich, sollte der Pfandbetrag den Einkaufswert übersteigen, würde der Rest ohnehin bar ausgezahlt.", "en": "Of course, if the deposit amount should exceed the purchase value, the rest would be paid out in cash anyway.", "ur": "Zaroor, agar Pfand ki raqam khareedari ki qeemat se zyada ho, to baqi raqam waise bhi cash mein mil jayegi." },
+        { "s": "B", "de": "Das ist gut zu wissen, allerdings dürfte mein Einkauf diesmal ausreichend hoch sein.", "en": "That's good to know, though this time my purchase should be sufficiently high.", "ur": "Yeh jaanna acha laga, lekin is baar meri khareedari kaafi zyada honi chahiye." },
+        { "s": "A", "de": "Ich habe alle Artikel erfasst, der Gesamtbetrag beläuft sich auf achtundvierzig Euro zehn vor Abzug des Pfands.", "en": "I've recorded all the items, the total comes to forty-eight euros ten before deducting the deposit.", "ur": "Maine sab items dekh liye hain, Pfand minus hone se pehle total araghan euro das cent bantay hain." },
+        { "s": "B", "de": "Und nach Abzug des Pfandbons?", "en": "And after deducting the deposit receipt?", "ur": "Aur Pfandbon minus hone ke baad?" },
+        { "s": "A", "de": "Dann bleiben genau achtunddreißig Euro fünfundachtzig übrig, die Sie noch begleichen müssten.", "en": "Then exactly thirty-eight euros eighty-five remain, which you'd still need to settle.", "ur": "Phir bilkul aatthtees euro pichaasi cent bachtay hain jo aap ko dene honge." },
+        { "s": "B", "de": "Eine deutliche Ersparnis, das freut mich. Ich bezahle den Restbetrag am liebsten kontaktlos mit meiner Karte.", "en": "A significant saving, that pleases me. I'd prefer to pay the remaining amount contactlessly with my card.", "ur": "Kaafi bachat hui, mujhe khushi hui. Baqi raqam main tarjeehan card se kontaktlos dena chahoongi." },
+        { "s": "A", "de": "Kein Problem, halten Sie die Karte einfach kurz an das Terminal, dann bestätigt es automatisch die Zahlung.", "en": "No problem, just hold the card briefly against the terminal, then it confirms the payment automatically.", "ur": "Koi baat nahi, bas card ko terminal ke qareeb thori der rakhein, phir yeh khud hi payment tasdeeq kar dega." },
+        { "s": "B", "de": "Erledigt, es hat funktioniert. Vielen Dank für die sorgfältige Abrechnung, Herr Winter.", "en": "Done, it worked. Thank you very much for the careful accounting, Mr Winter.", "ur": "Ho gaya, kaam ho gaya. Ghaur se hisaab karne ka bohat shukriya, Herr Winter." },
+        { "s": "A", "de": "Sehr gerne geschehen, Frau Yilmaz. Ich wünsche Ihnen noch einen angenehmen restlichen Tag.", "en": "You're very welcome, Mrs Yilmaz. I wish you a pleasant rest of the day.", "ur": "Bohat khushi se, Frau Yilmaz. Aap ka baaqi din khushgawar guzre." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Winter, Kassierer",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie bezahlen Ihren Einkauf und möchten den Pfandbon mit einlösen.",
+        "en": "You are paying for your shopping and want to redeem the deposit receipt too.",
+        "ur": "Aap apni khareedari ka bill de rahi hain aur Pfandbon bhi bhunana chahti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, haben Sie alles gefunden?",
+          "goal": { "en": "Say yes and mention you also have a deposit receipt.", "ur": "Kahein ji, aur bata dein aap ke paas Pfandbon bhi hai." },
+          "options": ["Ja, danke. Ich habe auch einen Pfandbon.", "Ja. Ich habe noch einen Pfandbon dabei."],
+          "fallback": "Haben Sie noch etwas dabei?",
+          "accept": [{ "kw": ["pfandbon"], "next": "n2" }, { "kw": ["bon"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gut, geben Sie ihn mir bitte.",
+          "goal": { "en": "Say here you go.", "ur": "Kahein yeh lein." },
+          "options": ["Hier, bitte schön.", "Hier ist er, bitte."],
+          "fallback": "Kann ich den Bon haben?",
+          "accept": [{ "kw": ["hier", "bitte"], "next": "n3" }, { "kw": ["bitte"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Der Bon ist über zwei Euro zwanzig.",
+          "goal": { "en": "Ask if they can deduct it from the purchase.", "ur": "Poochein kya khareedari mein se minus kar sakti hain." },
+          "options": ["Können Sie das vom Einkauf abziehen?", "Können Sie es abziehen?"],
+          "fallback": "Möchten Sie es verrechnen?",
+          "accept": [{ "kw": ["abziehen"], "next": "n4" }, { "kw": ["einkauf"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Natürlich, das mache ich sofort.",
+          "goal": { "en": "Ask how much you have to pay then.", "ur": "Poochein phir kitna dena hoga." },
+          "options": ["Wie viel muss ich dann bezahlen?", "Was macht das dann zusammen?"],
+          "fallback": "Möchten Sie den neuen Betrag wissen?",
+          "accept": [{ "kw": ["wie", "bezahlen"], "next": "n5" }, { "kw": ["viel"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Der neue Gesamtbetrag ist zwölf Euro.",
+          "goal": { "en": "Say good, you'll pay cash.", "ur": "Kahein acha, cash de degi." },
+          "options": ["Gut, ich zahle bar.", "In Ordnung, ich zahle bar."],
+          "fallback": "Wie möchten Sie zahlen?",
+          "accept": [{ "kw": ["bar"], "next": "n6" }, { "kw": ["zahle"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Vielen Dank, hier ist Ihr Wechselgeld.",
+          "goal": { "en": "Thank her and say have a nice day.", "ur": "Shukriya karein aur acha din kahein." },
+          "options": ["Danke, einen schönen Tag noch!", "Danke schön, Ihnen auch einen schönen Tag!"],
+          "fallback": "Wünschen Sie noch einen schönen Tag?",
+          "accept": [
+            { "kw": ["danke", "schönen"], "reply": "Ihnen auch, auf Wiedersehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Ihnen auch, auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Winter, Kassierer",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie haben einen größeren Pfandbon und einen vollen Einkaufswagen und möchten alles gemeinsam abrechnen.",
+        "en": "You have a larger deposit receipt and a full shopping cart and want to settle everything together.",
+        "ur": "Aap ke paas bara Pfandbon aur bhari hui trolley hai aur sab ek saath bhugtaan karna chahti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, ich sehe, Sie haben einen Pfandbon dabei. Möchten Sie den gleich verrechnen lassen?",
+          "goal": { "en": "Say yes please, if possible.", "ur": "Kahein ji please, agar mumkin ho." },
+          "options": ["Ja, bitte, wenn das möglich ist.", "Ja, gerne, wenn es geht."],
+          "fallback": "Ist das in Ordnung für Sie?",
+          "accept": [{ "kw": ["ja", "möglich"], "next": "n2" }, { "kw": ["ja"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Beides ist möglich. Verrechnen ist meistens praktischer.",
+          "goal": { "en": "Say let's offset it, and ask how much the receipt is worth.", "ur": "Kahein hisaab mein le lein, aur poochein bon kitne ka hai." },
+          "options": ["Dann verrechnen wir es. Wie viel beträgt der Bon?", "Gut, verrechnen wir es. Was ist der Bon wert?"],
+          "fallback": "Möchten Sie wissen, wie viel der Bon wert ist?",
+          "accept": [{ "kw": ["verrechnen"], "next": "n3" }, { "kw": ["wie", "viel", "bon"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Vier Euro fünfundsechzig, das ist ein ordentlicher Betrag.",
+          "goal": { "en": "Say wonderful, that comes just in time since your shopping was more expensive this week.", "ur": "Kahein bohat acha, is hafte khareedari mehngi thi." },
+          "options": ["Wunderbar, das kommt gerade recht, mein Einkauf war diese Woche teurer.", "Toll, das passt gut, denn ich habe diese Woche mehr eingekauft."],
+          "fallback": "Freut Sie das?",
+          "accept": [{ "kw": ["wunderbar"], "next": "n4" }, { "kw": ["teurer"], "next": "n4" }, { "kw": ["toll"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Der Gesamtbetrag ohne Bon liegt bei einunddreißig Euro zwanzig.",
+          "goal": { "en": "Ask what it is with the deposit amount deducted.", "ur": "Poochein Pfand minus karne ke baad kitna hai." },
+          "options": ["Und mit dem abgezogenen Pfandbetrag?", "Was ist es mit dem Pfand abgezogen?"],
+          "fallback": "Möchten Sie den reduzierten Betrag wissen?",
+          "accept": [{ "kw": ["abgezogenen"], "next": "n5" }, { "kw": ["pfandbetrag"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dann zahlen Sie noch sechsundzwanzig Euro fünfundfünfzig.",
+          "goal": { "en": "Ask if it's better to pay cash or card.", "ur": "Poochein cash behtar hai ya card." },
+          "options": ["Zahle ich am besten in bar oder mit Karte?", "Soll ich bar oder mit Karte zahlen?"],
+          "fallback": "Wie möchten Sie zahlen?",
+          "accept": [{ "kw": ["bar", "karte"], "next": "n6" }, { "kw": ["karte"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Beides ist möglich, ganz wie Sie möchten.",
+          "goal": { "en": "Say you'll take card this time and thank him.", "ur": "Kahein is baar card se dein gi, shukriya karein." },
+          "options": ["Dann nehme ich diesmal Karte. Vielen Dank für Ihre Hilfe.", "Ich zahle mit Karte. Danke für Ihre Hilfe."],
+          "fallback": "Sind Sie bereit zu zahlen?",
+          "accept": [
+            { "kw": ["karte", "danke"], "reply": "Sehr gerne, einen schönen Tag noch!", "next": "END" },
+            { "kw": ["danke"], "reply": "Sehr gerne, einen schönen Tag noch!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

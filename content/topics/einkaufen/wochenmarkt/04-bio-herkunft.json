@@ -1,0 +1,218 @@
+{
+  "id": "bio-herkunft",
+  "order": 4,
+  "icon": "🌱",
+  "title": { "de": "Bio und Herkunft erfragen", "en": "Asking about organic and origin", "ur": "Bio aur asal jagah ke baare mein poochna" },
+  "angle": "Asking about organic certification and where the produce comes from · Bio certificate aur maal kahan se aata hai poochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["bio", "herkunft", "regional", "bauernhof", "siegel", "anbauen", "zertifiziert", "umgebung", "spritzmittel"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Die Tomaten heute sind aus der Region.", "en": "Hello! Today's tomatoes are from the region.", "ur": "Salam! Aaj ke tamatar isi ilaqe ke hain." },
+        { "s": "B", "de": "Guten Tag. Sind sie auch Bio?", "en": "Hello. Are they also organic?", "ur": "Salam. Kya yeh bio bhi hain?" },
+        { "s": "A", "de": "Ja, alle unsere Tomaten sind Bio.", "en": "Yes, all our tomatoes are organic.", "ur": "Ji haan, hamare sab tamatar bio hain." },
+        { "s": "B", "de": "Woher genau kommen sie?", "en": "Where exactly do they come from?", "ur": "Yeh bilkul kahan se aate hain?" },
+        { "s": "A", "de": "Von einem Bauernhof ganz in der Nähe.", "en": "From a farm very nearby.", "ur": "Bilkul qareeb ke ek farm se." },
+        { "s": "B", "de": "Das ist gut zu wissen.", "en": "That's good to know.", "ur": "Yeh jaan kar acha laga." },
+        { "s": "A", "de": "Wir haben auch ein Bio-Siegel am Stand.", "en": "We also have an organic seal at the stand.", "ur": "Hamare stall par bio ki mohar bhi hai." },
+        { "s": "B", "de": "Ich sehe es. Sind die Kartoffeln auch regional?", "en": "I see it. Are the potatoes also regional?", "ur": "Mujhe nazar aa raha hai. Kya aloo bhi isi ilaqe ke hain?" },
+        { "s": "A", "de": "Ja, die kommen auch aus der Umgebung.", "en": "Yes, they also come from the surrounding area.", "ur": "Ji haan, woh bhi aas paas se aate hain." },
+        { "s": "B", "de": "Perfekt, dann nehme ich beides.", "en": "Perfect, then I'll take both.", "ur": "Bilkul theek, to main dono lay leti hoon." },
+        { "s": "A", "de": "Ein Kilo Tomaten und zwei Kilo Kartoffeln?", "en": "One kilo of tomatoes and two kilos of potatoes?", "ur": "Ek kilo tamatar aur do kilo aloo?" },
+        { "s": "B", "de": "Genau, das passt gut.", "en": "Exactly, that works well.", "ur": "Bilkul theek, yeh acha rahega." },
+        { "s": "A", "de": "Kommt sofort. Vielen Dank!", "en": "Coming right up. Thank you!", "ur": "Abhi laata hoon. Shukriya!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen! Haben Sie eine Frage zu unserem Gemüse?", "en": "Good morning! Do you have a question about our vegetables?", "ur": "Subh bakhair! Kya hamari sabzi ke baare mein koi sawal hai?" },
+        { "s": "B", "de": "Guten Morgen. Ja, ist das Gemüse hier alles Bio-zertifiziert?", "en": "Good morning. Yes, is all the vegetables here organically certified?", "ur": "Subh bakhair. Ji haan, kya yahan ki sab sabzi bio certified hai?" },
+        { "s": "A", "de": "Fast alles, nur die Zwiebeln sind noch konventionell.", "en": "Almost everything, only the onions are still conventional.", "ur": "Taqreeban sab kuch, sirf pyaz abhi bhi conventional hain." },
+        { "s": "B", "de": "Woran erkenne ich, was Bio ist?", "en": "How do I recognise what's organic?", "ur": "Mujhe kaise pata chalega ke kya bio hai?" },
+        { "s": "A", "de": "An dem kleinen Bio-Siegel dort.", "en": "By the small organic seal there.", "ur": "Wahan chhoti si bio mohar se." },
+        { "s": "B", "de": "Ah, jetzt sehe ich es. Und woher kommt das Gemüse genau?", "en": "Ah, now I see it. And where does the vegetable come from exactly?", "ur": "Ah, ab mujhe nazar aaya. Aur sabzi bilkul kahan se aati hai?" },
+        { "s": "A", "de": "Meistens von zwei Höfen aus der Umgebung, manchmal auch von weiter weg.", "en": "Mostly from two farms in the surrounding area, sometimes also from further away.", "ur": "Aksar aas paas ke do farms se, kabhi kabhi door se bhi." },
+        { "s": "B", "de": "Ist das mit dem Bio-Siegel auch ohne Spritzmittel angebaut?", "en": "Is what has the organic seal also grown without pesticides?", "ur": "Kya jis par bio mohar hai woh bina spray ke ugaya jata hai?" },
+        { "s": "A", "de": "Ja, genau, das gehört zum Bio-Siegel dazu.", "en": "Yes, exactly, that's part of the organic seal.", "ur": "Ji, bilkul, yeh bio mohar ka hissa hai." },
+        { "s": "B", "de": "Gut zu wissen. Dann nehme ich lieber das Bio-Gemüse.", "en": "Good to know. Then I'd rather take the organic vegetables.", "ur": "Yeh jaan kar acha laga. To phir main bio sabzi lay leti hoon." },
+        { "s": "A", "de": "Gute Wahl, es schmeckt oft auch intensiver.", "en": "Good choice, it often tastes more intense too.", "ur": "Acha intekhaab, iska zaiqa bhi aksar tez hota hai." },
+        { "s": "B", "de": "Ist das Bio-Gemüse denn teurer als das normale?", "en": "Is the organic vegetable more expensive than the normal one, then?", "ur": "To kya bio sabzi aam sabzi se mehngi hai?" },
+        { "s": "A", "de": "Etwas teurer, aber dafür auch besser in der Qualität.", "en": "A bit more expensive, but better in quality in return.", "ur": "Thori mehngi, lekin quality mein bhi behtar hai." },
+        { "s": "B", "de": "Das verstehe ich. Dann nehme ich ein Kilo Tomaten und zwei Kilo Kartoffeln.", "en": "I understand that. Then I'll take a kilo of tomatoes and two kilos of potatoes.", "ur": "Yeh samajh aata hai. To main ek kilo tamatar aur do kilo aloo lay leti hoon." },
+        { "s": "A", "de": "Kommt sofort, alles aus der Region und ohne Spritzmittel.", "en": "Coming right up, all from the region and without pesticides.", "ur": "Abhi laata hoon, sab isi ilaqe ka hai aur bina spray ke." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, kann ich Ihnen mit dem Gemüse helfen?", "en": "Hello, can I help you with the vegetables?", "ur": "Salam, kya main sabzi mein aap ki madad kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte gern wissen, woher genau Ihr Gemüse kommt.", "en": "Hello. I'd like to know exactly where your vegetables come from.", "ur": "Salam. Main jan-na chahti hoon ke aap ki sabzi bilkul kahan se aati hai." },
+        { "s": "A", "de": "Das meiste stammt von einem Bauernhof etwa zwanzig Kilometer von hier.", "en": "Most of it comes from a farm about twenty kilometres from here.", "ur": "Zyada tar ek farm se aata hai jo yahan se taqreeban bees kilometer door hai." },
+        { "s": "B", "de": "Wird dort auch ohne Spritzmittel angebaut?", "en": "Is it grown there without pesticides too?", "ur": "Kya wahan bina spray ke ugaya jata hai?" },
+        { "s": "A", "de": "Ja, der Hof ist seit Jahren zertifiziert und arbeitet komplett ohne Chemie.", "en": "Yes, the farm has been certified for years and works completely without chemicals.", "ur": "Ji haan, farm kai saalon se certified hai aur bilkul kisi chemical ke bagair kaam karta hai." },
+        { "s": "B", "de": "Woran erkenne ich das als Kundin?", "en": "How do I recognise that as a customer?", "ur": "Mujhe kaise pata chalega, ek customer ke tor par?" },
+        { "s": "A", "de": "An dem Bio-Siegel, das Sie an jedem Stand finden, wo Bio verkauft wird.", "en": "By the organic seal you'll find at every stall where organic is sold.", "ur": "Bio mohar se, jo aap har us stall par paati hain jahan bio bikta hai." },
+        { "s": "B", "de": "Und was ist der Unterschied zwischen Bio und regional?", "en": "And what's the difference between organic and regional?", "ur": "Aur bio aur regional mein kya farq hai?" },
+        { "s": "A", "de": "Regional bedeutet nur, dass es aus der Umgebung kommt, nicht automatisch ohne Spritzmittel.", "en": "Regional only means that it comes from the surrounding area, not automatically without pesticides.", "ur": "Regional ka matlab sirf itna hai ke woh aas paas se aata hai, khud ba khud bina spray ke nahi." },
+        { "s": "B", "de": "Das wusste ich nicht. Ist Bio dann auch immer regional?", "en": "I didn't know that. Is organic then always regional too?", "ur": "Yeh mujhe pata nahi tha. To kya bio hamesha regional bhi hota hai?" },
+        { "s": "A", "de": "Nicht unbedingt, manches Bio-Gemüse kommt auch von weiter weg.", "en": "Not necessarily, some organic vegetables also come from further away.", "ur": "Zaroori nahi, kuch bio sabzi door se bhi aati hai." },
+        { "s": "B", "de": "Verstehe. Was würden Sie mir persönlich empfehlen?", "en": "I see. What would you personally recommend to me?", "ur": "Samajh gayi. Aap zaati tor par kya tajweez karenge?" },
+        { "s": "A", "de": "Am besten beides zusammen, Bio und aus der Region, wie unsere Tomaten heute.", "en": "Best is both together, organic and from the region, like our tomatoes today.", "ur": "Sab se acha dono, bio aur isi ilaqe ka, jaisay aaj ke hamare tamatar." },
+        { "s": "B", "de": "Gut, dann nehme ich die Tomaten und auch die Kartoffeln vom selben Hof.", "en": "Good, then I'll take the tomatoes and also the potatoes from the same farm.", "ur": "Theek hai, to main tamatar aur usi farm ke aloo bhi lay leti hoon." },
+        { "s": "A", "de": "Eine gute Entscheidung, so unterstützen Sie auch die kleinen Höfe direkt.", "en": "A good decision, that way you also support the small farms directly.", "ur": "Achi tajweez, is tarah aap chhote farms ki seedha madad bhi karti hain." },
+        { "s": "B", "de": "Genau das möchte ich. Vielen Dank für die Erklärung.", "en": "That's exactly what I want. Thank you for the explanation.", "ur": "Yehi to main chahti hoon. Wazahat ka shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz! Sie interessieren sich ja schon länger für unser Bio-Gemüse.", "en": "Hello, Mrs Yilmaz! You've been interested in our organic vegetables for a while now.", "ur": "Salam, Frau Yilmaz! Aap kaafi arse se hamari bio sabzi mein dilchaspi rakhti hain." },
+        { "s": "B", "de": "Guten Tag, Herr Brandt! Genau, ich wollte heute mehr über die Herkunft und das Bio-Siegel erfahren.", "en": "Hello, Mr Brandt! Exactly, I wanted to find out more about the origin and the organic seal today.", "ur": "Salam, Herr Brandt! Bilkul, main aaj asal jagah aur bio mohar ke baare mein aur jan-na chahti thi." },
+        { "s": "A", "de": "Gerne. Unser Hof wird jedes Jahr von einer unabhängigen Stelle kontrolliert.", "en": "Gladly. Our farm is inspected every year by an independent body.", "ur": "Zaroor. Hamare farm ka har saal ek azaad idara muaina karta hai." },
+        { "s": "B", "de": "Ist das nicht aufwendig für einen kleinen Hof?", "en": "Isn't that a lot of effort for a small farm?", "ur": "Kya yeh ek chhote farm ke liye bohat mehnat wala kaam nahi hai?" },
+        { "s": "A", "de": "Schon, aber ohne das Siegel dürften wir unser Gemüse nicht als Bio verkaufen.", "en": "It is, but without the seal we wouldn't be allowed to sell our vegetables as organic.", "ur": "Hai to sahi, lekin mohar ke bagair hum apni sabzi bio ke tor par bech nahi sakte." },
+        { "s": "B", "de": "Das verstehe ich. Lohnt sich das trotzdem für Sie?", "en": "I understand that. Does it pay off for you anyway?", "ur": "Yeh samajh aata hai. Kya phir bhi aap ke liye faida mand hai?" },
+        { "s": "A", "de": "Ja, weil viele Kunden wie Sie bewusst regionale und zertifizierte Ware suchen.", "en": "Yes, because many customers like you deliberately look for regional and certified goods.", "ur": "Ji, kyunke aap jaise kai customers jaan boojh kar regional aur certified maal dhoondte hain." },
+        { "s": "B", "de": "Genau das ist mir wichtig, besonders seit ich weiß, wie weit manches Gemüse sonst reist.", "en": "That's exactly what matters to me, especially since I know how far some vegetables otherwise travel.", "ur": "Yehi baat mere liye ahem hai, khaas kar jab se pata chala ke warna sabzi kitni door se safar karti hai." },
+        { "s": "A", "de": "Das verstehe ich gut. Deshalb arbeiten wir auch nur mit Höfen aus der näheren Umgebung zusammen.", "en": "I understand that well. That's why we also only work with farms from the closer surrounding area.", "ur": "Main yeh achi tarah samajhta hoon. Isi liye hum sirf aas paas ke farms ke saath kaam karte hain." },
+        { "s": "B", "de": "Wie stellen Sie sicher, dass wirklich niemand heimlich Spritzmittel verwendet?", "en": "How do you make sure that really nobody secretly uses pesticides?", "ur": "Aap kaise yaqeeni banate hain ke koi chupke se spray istemal na kare?" },
+        { "s": "A", "de": "Die Kontrolle kommt ohne Ankündigung und nimmt Proben direkt vom Feld.", "en": "The inspection comes without announcement and takes samples directly from the field.", "ur": "Muaina bina bataye hota hai aur seedha khet se namoone liye jate hain." },
+        { "s": "B", "de": "Das gibt mir wirklich Vertrauen in Ihr Gemüse.", "en": "That really gives me trust in your vegetables.", "ur": "Isse mujhe aap ki sabzi par waqai bharosa hota hai." },
+        { "s": "A", "de": "Das freut mich zu hören. Möchten Sie diese Woche wieder Ihren üblichen Korb zusammenstellen?", "en": "I'm glad to hear that. Would you like to put together your usual basket again this week?", "ur": "Yeh sun kar khushi hui. Kya is hafte bhi apna arsi tokra tayyar karengi?" },
+        { "s": "B", "de": "Ja, gerne, mit Tomaten, Kartoffeln und etwas von dem Gemüse, das gerade Saison hat.", "en": "Yes, gladly, with tomatoes, potatoes and some of the vegetables that are in season right now.", "ur": "Ji, zaroor, tamatar, aloo aur us sabzi ke saath jiska abhi mausam hai." },
+        { "s": "A", "de": "Dann packe ich Ihnen alles zusammen, komplett aus der Region und zertifiziert.", "en": "Then I'll pack everything together for you, completely from the region and certified.", "ur": "To main sab kuch mila kar rakh deta hoon, poora isi ilaqe ka aur certified." },
+        { "s": "B", "de": "Wunderbar, genau deshalb komme ich jede Woche zu Ihnen.", "en": "Wonderful, that's exactly why I come to you every week.", "ur": "Bohat khoob, isi wajah se main har hafte aap ke paas aati hoon." },
+        { "s": "A", "de": "Das freut mich sehr, bis nächste Woche, Frau Yilmaz!", "en": "That makes me very happy, until next week, Mrs Yilmaz!", "ur": "Mujhe bohat khushi hui, agle hafte tak, Frau Yilmaz!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie fragen, ob die Tomaten Bio sind, woher sie kommen, und ob die Kartoffeln auch regional sind.",
+        "en": "You ask whether the tomatoes are organic, where they come from, and whether the potatoes are regional too.",
+        "ur": "Aap poochte hain ke kya tamatar bio hain, kahan se aate hain, aur kya aloo bhi regional hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Die Tomaten heute sind aus der Region.",
+          "goal": { "en": "Greet and ask if they're also organic.", "ur": "Salam karein aur poochein ke kya yeh bio bhi hain." },
+          "options": ["Guten Tag. Sind sie auch Bio?", "Guten Tag, sind die Tomaten auch Bio?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["bio"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ja, alle unsere Tomaten sind Bio.",
+          "goal": { "en": "Ask exactly where they come from.", "ur": "Poochein ke yeh bilkul kahan se aate hain." },
+          "options": ["Woher genau kommen sie?", "Woher kommen die Tomaten genau?"],
+          "fallback": "Möchten Sie wissen, woher sie sind?",
+          "accept": [{ "kw": ["woher"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Von einem Bauernhof ganz in der Nähe.",
+          "goal": { "en": "Say that's good to know.", "ur": "Kahein: yeh jaan kar acha laga." },
+          "options": ["Das ist gut zu wissen.", "Gut zu wissen, danke."],
+          "fallback": "Ist das interessant für Sie?",
+          "accept": [{ "kw": ["wissen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Wir haben auch ein Bio-Siegel am Stand.",
+          "goal": { "en": "Say you see it, and ask if the potatoes are also regional.", "ur": "Kahein: nazar aa raha hai, aur poochein aloo bhi regional hain?" },
+          "options": ["Ich sehe es. Sind die Kartoffeln auch regional?", "Ah, ich sehe es. Sind die Kartoffeln regional?"],
+          "fallback": "Sehen Sie das Siegel?",
+          "accept": [{ "kw": ["regional"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Ja, die kommen auch aus der Umgebung.",
+          "goal": { "en": "Say perfect, you'll take both.", "ur": "Kahein: bilkul theek, dono le loongi." },
+          "options": ["Perfekt, dann nehme ich beides.", "Super, ich nehme beides."],
+          "fallback": "Möchten Sie beides nehmen?",
+          "accept": [{ "kw": ["beides"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ein Kilo Tomaten und zwei Kilo Kartoffeln?",
+          "goal": { "en": "Confirm and thank him.", "ur": "Tasdeeq karein aur shukriya kahein." },
+          "options": ["Genau, das passt gut. Danke.", "Ja genau, vielen Dank."],
+          "fallback": "Passt das so?",
+          "accept": [
+            { "kw": ["genau"], "reply": "Kommt sofort. Vielen Dank!", "next": "END" },
+            { "kw": ["danke"], "reply": "Kommt sofort. Vielen Dank!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie fragen nach der Herkunft des Gemüses, ob es ohne Spritzmittel angebaut wird, und was der Unterschied zwischen Bio und regional ist.",
+        "en": "You ask about the origin of the vegetables, whether they're grown without pesticides, and what the difference is between organic and regional.",
+        "ur": "Aap sabzi ki asal jagah, bina spray ke ugane, aur bio aur regional ke farq ke baare mein poochte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, kann ich Ihnen mit dem Gemüse helfen?",
+          "goal": { "en": "Say you'd like to know exactly where his vegetables come from.", "ur": "Kahein: main jan-na chahti hoon ke sabzi bilkul kahan se aati hai." },
+          "options": ["Ich möchte gern wissen, woher genau Ihr Gemüse kommt.", "Ich wollte fragen, woher Ihr Gemüse genau kommt."],
+          "fallback": "Wie kann ich Ihnen helfen?",
+          "accept": [{ "kw": ["woher"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das meiste stammt von einem Bauernhof etwa zwanzig Kilometer von hier.",
+          "goal": { "en": "Ask if it's grown there without pesticides.", "ur": "Poochein ke wahan bina spray ke ugaya jata hai." },
+          "options": ["Wird dort auch ohne Spritzmittel angebaut?", "Wird das dort ohne Spritzmittel angebaut?"],
+          "fallback": "Möchten Sie mehr über den Hof wissen?",
+          "accept": [{ "kw": ["spritzmittel"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, der Hof ist seit Jahren zertifiziert und arbeitet komplett ohne Chemie.",
+          "goal": { "en": "Ask how you recognise that as a customer.", "ur": "Poochein ke customer hote hue aap ko kaise pata chalega." },
+          "options": ["Woran erkenne ich das als Kundin?", "Wie erkenne ich das als Kundin?"],
+          "fallback": "Haben Sie dazu eine Frage?",
+          "accept": [{ "kw": ["erkenne"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "An dem Bio-Siegel, das Sie an jedem Stand finden, wo Bio verkauft wird.",
+          "goal": { "en": "Ask what the difference between organic and regional is.", "ur": "Poochein ke bio aur regional mein kya farq hai." },
+          "options": ["Und was ist der Unterschied zwischen Bio und regional?", "Was ist eigentlich der Unterschied zwischen Bio und regional?"],
+          "fallback": "Kennen Sie den Unterschied?",
+          "accept": [{ "kw": ["unterschied"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Regional bedeutet nur, dass es aus der Umgebung kommt, nicht automatisch ohne Spritzmittel.",
+          "goal": { "en": "Say you understand, and ask what he'd personally recommend.", "ur": "Kahein: samajh gayi, aur poochein aap zaati tor par kya tajweez karenge." },
+          "options": ["Verstehe. Was würden Sie mir persönlich empfehlen?", "Ich verstehe. Was empfehlen Sie mir persönlich?"],
+          "fallback": "Ist das jetzt klar?",
+          "accept": [{ "kw": ["persönlich"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Am besten beides zusammen, Bio und aus der Region, wie unsere Tomaten heute.",
+          "goal": { "en": "Say good, you'll take those, and thank him.", "ur": "Kahein: theek hai, yeh le loongi, shukriya kahein." },
+          "options": ["Gut, dann nehme ich die. Vielen Dank für die Erklärung.", "Gut, die nehme ich. Danke für die Erklärung."],
+          "fallback": "Möchten Sie diese nehmen?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne, das freut mich!", "next": "END" },
+            { "kw": ["gut"], "reply": "Gerne, das freut mich!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

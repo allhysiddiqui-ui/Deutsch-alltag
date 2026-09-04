@@ -1,0 +1,1840 @@
+{
+  "petersen": {
+    "lemma": "Petersen",
+    "pos": "Familienname",
+    "en": "Petersen — the supermarket staff member/cashier in these conversations",
+    "ur": "Petersen — in guftagu mein supermarket ka staff/cashier",
+    "ex": {
+      "de": "Herr Petersen, kann ich Ihnen helfen?",
+      "en": "Mr Petersen, can I help you?",
+      "ur": "Herr Petersen, kya main aap ki madad karoon?"
+    }
+  },
+  "supermarkt": {
+    "lemma": "Supermarkt",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Supermärkte",
+    "en": "supermarket",
+    "ur": "supermarket",
+    "ex": {
+      "de": "Der Supermarkt ist bis zwanzig Uhr geöffnet.",
+      "en": "The supermarket is open until eight p.m.",
+      "ur": "Supermarket raat aath baje tak khula hai."
+    }
+  },
+  "regal": {
+    "lemma": "Regal",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Regale",
+    "en": "shelf",
+    "ur": "shelf / taaq",
+    "ex": {
+      "de": "Der Kaffee steht im Regal neben dem Tee.",
+      "en": "The coffee is on the shelf next to the tea.",
+      "ur": "Coffee tea ke bagal wale shelf par hai."
+    }
+  },
+  "abteilung": {
+    "lemma": "Abteilung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Abteilungen",
+    "en": "department / section (of a store)",
+    "ur": "section / hissa (store ka)",
+    "ex": {
+      "de": "Das Brot ist vorne, Abteilung eins.",
+      "en": "The bread is at the front, section one.",
+      "ur": "Roti aagay hai, section ek."
+    }
+  },
+  "mitarbeiter": {
+    "lemma": "Mitarbeiter",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Mitarbeiter",
+    "forms": [
+      "mitarbeiterin",
+      "mitarbeiterinnen"
+    ],
+    "en": "staff member / employee (Mitarbeiterin = female)",
+    "ur": "staff member / mulazim (Mitarbeiterin = aurat)",
+    "ex": {
+      "de": "In der Fleischabteilung steht immer ein Mitarbeiter bereit.",
+      "en": "In the meat department there's always a staff member ready to help.",
+      "ur": "Meat section mein hamesha ek staff member maujood hota hai."
+    }
+  },
+  "vorne": {
+    "lemma": "vorne",
+    "pos": "Adverb",
+    "en": "at the front",
+    "ur": "aagay",
+    "ex": {
+      "de": "Das Brot ist vorne, Abteilung eins.",
+      "en": "The bread is at the front, section one.",
+      "ur": "Roti aagay hai, section ek."
+    }
+  },
+  "pfand": {
+    "lemma": "Pfand",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "deposit (e.g. for a cart or bottle)",
+    "ur": "deposit (trolley ya bottle ke liye)",
+    "ex": {
+      "de": "Für den Einkaufswagen braucht man eine Münze als Pfand.",
+      "en": "You need a coin as a deposit for the shopping cart.",
+      "ur": "Trolley ke liye deposit ke tor par sikka chahiye."
+    }
+  },
+  "einkaufskorb": {
+    "lemma": "Einkaufskorb",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einkaufskörbe",
+    "en": "shopping basket",
+    "ur": "shopping basket",
+    "ex": {
+      "de": "Die Einkaufskörbe sind direkt hier links.",
+      "en": "The shopping baskets are right here on the left.",
+      "ur": "Baskets yahin bayen taraf hain."
+    }
+  },
+  "obst": {
+    "lemma": "Obst",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "fruit",
+    "ur": "phal",
+    "ex": {
+      "de": "Das Obst liegt direkt vorne, neben dem Gemüse.",
+      "en": "The fruit is right at the front, next to the vegetables.",
+      "ur": "Phal bilkul aagay, sabziyon ke bagal mein hai."
+    }
+  },
+  "kühlregal": {
+    "lemma": "Kühlregal",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Kühlregale",
+    "en": "refrigerated shelf / chiller section",
+    "ur": "cold shelf (fridge wala hissa)",
+    "ex": {
+      "de": "Die Milch ist im Kühlregal, Gang drei.",
+      "en": "The milk is in the chiller section, aisle three.",
+      "ur": "Milk cold shelf mein hai, gang teen."
+    }
+  },
+  "tiefkühltruhe": {
+    "lemma": "Tiefkühltruhe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tiefkühltruhen",
+    "en": "freezer chest / frozen food section",
+    "ur": "freezer (frozen khane ka hissa)",
+    "ex": {
+      "de": "Die Tiefkühltruhe ist hinten in Gang sechs.",
+      "en": "The freezer section is at the back in aisle six.",
+      "ur": "Freezer peeche gang chhe mein hai."
+    }
+  },
+  "eingang": {
+    "lemma": "Eingang",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Eingänge",
+    "forms": [
+      "eingängen"
+    ],
+    "en": "entrance",
+    "ur": "entrance / darwaza",
+    "ex": {
+      "de": "Die Einkaufswagen stehen draußen am Eingang.",
+      "en": "The shopping carts are outside at the entrance.",
+      "ur": "Trolleys bahar entrance par hain."
+    }
+  },
+  "ausgang": {
+    "lemma": "Ausgang",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Ausgänge",
+    "en": "exit",
+    "ur": "exit / bahar jane ka raasta",
+    "ex": {
+      "de": "Der Ausgang ist neben der Kasse, ganz vorne.",
+      "en": "The exit is next to the checkout, right at the front.",
+      "ur": "Exit checkout ke bagal mein, bilkul aagay hai."
+    }
+  },
+  "draußen": {
+    "lemma": "draußen",
+    "pos": "Adverb",
+    "en": "outside",
+    "ur": "bahar",
+    "ex": {
+      "de": "Die Einkaufswagen stehen draußen.",
+      "en": "The shopping carts are outside.",
+      "ur": "Trolleys bahar hain."
+    }
+  },
+  "einkauf": {
+    "lemma": "Einkauf",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einkäufe",
+    "en": "shopping / purchase",
+    "ur": "khareedari",
+    "ex": {
+      "de": "Noch einen schönen Einkauf!",
+      "en": "Enjoy the rest of your shopping!",
+      "ur": "Acha shopping karein!"
+    }
+  },
+  "tüte": {
+    "lemma": "Tüte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tüten",
+    "en": "bag",
+    "ur": "thaili / bag",
+    "ex": {
+      "de": "Brauchen Sie eine Tüte?",
+      "en": "Do you need a bag?",
+      "ur": "Kya aap ko thaili chahiye?"
+    }
+  },
+  "bargeld": {
+    "lemma": "Bargeld",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "cash",
+    "ur": "nagad paise",
+    "ex": {
+      "de": "Zahlen Sie mit Karte oder Bargeld?",
+      "en": "Are you paying by card or cash?",
+      "ur": "Aap card se ada karengi ya nagad?"
+    }
+  },
+  "kartenzahlung": {
+    "lemma": "Kartenzahlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kartenzahlungen",
+    "en": "card payment",
+    "ur": "card se payment",
+    "ex": {
+      "de": "Kartenzahlung ist ab fünf Euro möglich.",
+      "en": "Card payment is possible from five euros.",
+      "ur": "Card se payment paanch euro se mumkin hai."
+    }
+  },
+  "kundenkarte": {
+    "lemma": "Kundenkarte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kundenkarten",
+    "en": "loyalty / customer card",
+    "ur": "loyalty card / customer card",
+    "ex": {
+      "de": "Haben Sie unsere Kundenkarte?",
+      "en": "Do you have our loyalty card?",
+      "ur": "Kya aap ke paas hamara loyalty card hai?"
+    }
+  },
+  "pin": {
+    "lemma": "PIN",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "PIN code (die PIN or der PIN, both used)",
+    "ur": "PIN code",
+    "ex": {
+      "de": "Können Sie bitte Ihre PIN eingeben?",
+      "en": "Could you please enter your PIN?",
+      "ur": "Meherbani kar ke apna PIN daalein?"
+    }
+  },
+  "eingeben": {
+    "lemma": "eingeben",
+    "pos": "Verb",
+    "aux": "gibt ein / hat eingegeben",
+    "forms": [
+      "eingegeben"
+    ],
+    "en": "to enter / type in",
+    "ur": "daalna / type karna",
+    "ex": {
+      "de": "Können Sie bitte Ihre PIN eingeben?",
+      "en": "Could you please enter your PIN?",
+      "ur": "Meherbani kar ke apna PIN daalein?"
+    }
+  },
+  "kassenzettel": {
+    "lemma": "Kassenzettel",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kassenzettel",
+    "en": "receipt",
+    "ur": "receipt",
+    "ex": {
+      "de": "Möchten Sie den Kassenzettel mitnehmen?",
+      "en": "Would you like to take the receipt?",
+      "ur": "Kya aap receipt saath le jayengi?"
+    }
+  },
+  "sammeln": {
+    "lemma": "sammeln",
+    "pos": "Verb",
+    "aux": "sammelt / hat gesammelt",
+    "forms": [
+      "sammelt",
+      "gesammelt"
+    ],
+    "en": "to collect",
+    "ur": "jama karna",
+    "ex": {
+      "de": "Mit der Kundenkarte sammeln Sie Punkte.",
+      "en": "With the loyalty card you collect points.",
+      "ur": "Loyalty card se aap points jama karti hain."
+    }
+  },
+  "sonderangebot": {
+    "lemma": "Sonderangebot",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Sonderangebote",
+    "en": "special offer",
+    "ur": "khaas pesh kash / special offer",
+    "ex": {
+      "de": "Die Nudeln sind gerade im Sonderangebot.",
+      "en": "The pasta is currently on special offer.",
+      "ur": "Nudeln abhi special offer par hain."
+    }
+  },
+  "mindesthaltbarkeitsdatum": {
+    "lemma": "Mindesthaltbarkeitsdatum",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Mindesthaltbarkeitsdaten",
+    "forms": [
+      "mhd"
+    ],
+    "en": "best-before date (often abbreviated MHD)",
+    "ur": "best-before date (aksar MHD likha hota hai)",
+    "ex": {
+      "de": "Schauen Sie immer auf das Mindesthaltbarkeitsdatum.",
+      "en": "Always check the best-before date.",
+      "ur": "Hamesha best-before date dekhein."
+    }
+  },
+  "abgelaufen": {
+    "lemma": "abgelaufen",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "abgelaufene",
+      "abgelaufenes"
+    ],
+    "en": "expired (from ablaufen, to expire)",
+    "ur": "expire ho chuka",
+    "ex": {
+      "de": "Der Joghurt ist leider schon abgelaufen.",
+      "en": "The yoghurt has unfortunately already expired.",
+      "ur": "Yoghurt afsos ke saath expire ho chuka hai."
+    }
+  },
+  "gültig": {
+    "lemma": "gültig",
+    "pos": "Adjektiv",
+    "forms": [
+      "gültige",
+      "gültiges"
+    ],
+    "en": "valid",
+    "ur": "jaiz / valid",
+    "ex": {
+      "de": "Ist der Rabatt heute noch gültig?",
+      "en": "Is the discount still valid today?",
+      "ur": "Kya chhoot aaj bhi valid hai?"
+    }
+  },
+  "preis": {
+    "lemma": "Preis",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Preise",
+    "en": "price",
+    "ur": "qeemat",
+    "ex": {
+      "de": "Der Preis an der Kasse stimmt nicht.",
+      "en": "The price at the checkout is not correct.",
+      "ur": "Checkout par qeemat sahi nahi hai."
+    }
+  },
+  "ersatz": {
+    "lemma": "Ersatz",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "substitute / replacement",
+    "ur": "badal / replacement",
+    "ex": {
+      "de": "Haben Sie einen Ersatz für die Butter?",
+      "en": "Do you have a substitute for the butter?",
+      "ur": "Kya aap ke paas makhan ka badal hai?"
+    }
+  },
+  "vegetarisch": {
+    "lemma": "vegetarisch",
+    "pos": "Adjektiv",
+    "forms": [
+      "vegetarische",
+      "vegetarisches"
+    ],
+    "en": "vegetarian",
+    "ur": "vegetarian",
+    "ex": {
+      "de": "Ist diese Wurst vegetarisch?",
+      "en": "Is this sausage vegetarian?",
+      "ur": "Kya yeh sausage vegetarian hai?"
+    }
+  },
+  "glutenfrei": {
+    "lemma": "glutenfrei",
+    "pos": "Adjektiv",
+    "forms": [
+      "glutenfreie",
+      "glutenfreies"
+    ],
+    "en": "gluten-free",
+    "ur": "gluten-free",
+    "ex": {
+      "de": "Haben Sie auch glutenfreie Nudeln?",
+      "en": "Do you also have gluten-free pasta?",
+      "ur": "Kya aap ke paas gluten-free nudeln bhi hain?"
+    }
+  },
+  "zutaten": {
+    "lemma": "Zutat",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Zutaten",
+    "en": "ingredients",
+    "ur": "ajza / ingredients",
+    "ex": {
+      "de": "Welche Zutaten sind in der Soße?",
+      "en": "Which ingredients are in the sauce?",
+      "ur": "Sauce mein kaunse ajza hain?"
+    }
+  },
+  "ausverkauft": {
+    "lemma": "ausverkauft",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "ausverkaufte"
+    ],
+    "en": "sold out",
+    "ur": "bik chuka / khatam ho chuka",
+    "ex": {
+      "de": "Die glutenfreien Nudeln sind leider ausverkauft.",
+      "en": "The gluten-free pasta is unfortunately sold out.",
+      "ur": "Gluten-free nudeln afsos bik chuki hain."
+    }
+  },
+  "kollege": {
+    "lemma": "Kollege",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kollegen",
+    "forms": [
+      "kollegin",
+      "kolleginnen"
+    ],
+    "en": "colleague (Kollegin = female)",
+    "ur": "colleague (Kollegin = aurat)",
+    "ex": {
+      "de": "Ich frage kurz meinen Kollegen.",
+      "en": "I'll quickly ask my colleague.",
+      "ur": "Main foran apne colleague se poochta hoon."
+    }
+  },
+  "sb-kasse": {
+    "lemma": "SB-Kasse",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "SB-Kassen",
+    "forms": [
+      "sb-kassen"
+    ],
+    "en": "self-checkout (SB = Selbstbedienung, self-service)",
+    "ur": "self-checkout (khud scan karne wali kasse)",
+    "ex": {
+      "de": "Die SB-Kasse dort vorne ist gerade frei.",
+      "en": "The self-checkout over there is free right now.",
+      "ur": "Woh aagay wali self-checkout abhi khali hai."
+    }
+  },
+  "barcode": {
+    "lemma": "Barcode",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Barcodes",
+    "en": "barcode",
+    "ur": "barcode",
+    "ex": {
+      "de": "Der Barcode ist leider beschädigt.",
+      "en": "The barcode is unfortunately damaged.",
+      "ur": "Barcode afsos kharab hai."
+    }
+  },
+  "alkohol": {
+    "lemma": "Alkohol",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "alcohol",
+    "ur": "sharab / alcohol",
+    "ex": {
+      "de": "Für Alkohol brauchen wir eine Altersprüfung.",
+      "en": "For alcohol we need an age check.",
+      "ur": "Alcohol ke liye umar ki jaanch chahiye."
+    }
+  },
+  "freigabe": {
+    "lemma": "Freigabe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Freigaben",
+    "en": "authorisation / release (approval by staff)",
+    "ur": "ijazat / authorization (staff ki taraf se)",
+    "ex": {
+      "de": "Bitte warten Sie auf die Freigabe.",
+      "en": "Please wait for the authorisation.",
+      "ur": "Meherbani kar ke ijazat ka intezaar karein."
+    }
+  },
+  "volljährig": {
+    "lemma": "volljährig",
+    "pos": "Adjektiv",
+    "en": "of legal age / 18 or older",
+    "ur": "balig / 18 saal ya us se zyada",
+    "ex": {
+      "de": "Sind Sie volljährig?",
+      "en": "Are you of legal age?",
+      "ur": "Kya aap balig hain?"
+    }
+  },
+  "verpackungsbereich": {
+    "lemma": "Verpackungsbereich",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Verpackungsbereiche",
+    "en": "bagging area (at a self-checkout)",
+    "ur": "bagging area (self-checkout ki)",
+    "ex": {
+      "de": "Unerwarteter Artikel im Verpackungsbereich.",
+      "en": "Unexpected item in the bagging area.",
+      "ur": "Bagging area mein na-mutawaqqa cheez."
+    }
+  },
+  "unerwartet": {
+    "lemma": "unerwartet",
+    "pos": "Adjektiv",
+    "forms": [
+      "unerwarteter",
+      "unerwartete"
+    ],
+    "en": "unexpected",
+    "ur": "na-mutawaqqa / achanak wala",
+    "ex": {
+      "de": "Unerwarteter Artikel im Verpackungsbereich.",
+      "en": "Unexpected item in the bagging area.",
+      "ur": "Bagging area mein na-mutawaqqa cheez."
+    }
+  },
+  "artikel": {
+    "lemma": "Artikel",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Artikel",
+    "en": "item / article",
+    "ur": "cheez / item",
+    "ex": {
+      "de": "Dieser Artikel wurde schon gescannt.",
+      "en": "This item has already been scanned.",
+      "ur": "Yeh item pehle hi scan ho chuka hai."
+    }
+  },
+  "bar": {
+    "lemma": "bar",
+    "pos": "Adjektiv / Adverb",
+    "en": "in cash (bar bezahlen = to pay in cash)",
+    "ur": "nagad mein (bar bezahlen = nagad ada karna)",
+    "ex": {
+      "de": "Ich zahle lieber bar.",
+      "en": "I prefer to pay in cash.",
+      "ur": "Main nagad ada karna behtar samajhti hoon."
+    }
+  },
+  "betrag": {
+    "lemma": "Betrag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Beträge",
+    "en": "amount (of money)",
+    "ur": "raqam",
+    "ex": {
+      "de": "Bei diesem Betrag reicht es ohne PIN.",
+      "en": "For this amount it's fine without a PIN.",
+      "ur": "Is raqam ke liye PIN ke baghair bhi chal jata hai."
+    }
+  },
+  "zahlung": {
+    "lemma": "Zahlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Zahlungen",
+    "en": "payment",
+    "ur": "payment / ada'igi",
+    "ex": {
+      "de": "Die Zahlung läuft noch.",
+      "en": "The payment is still processing.",
+      "ur": "Payment abhi ho rahi hai."
+    }
+  },
+  "einkaufen": {
+    "lemma": "einkaufen",
+    "pos": "Verb",
+    "aux": "kauft ein / hat eingekauft",
+    "forms": [
+      "eingekauft",
+      "kauft"
+    ],
+    "en": "to go shopping / to buy groceries",
+    "ur": "khareedari karna",
+    "ex": {
+      "de": "Ich wollte für das ganze Wochenende einkaufen.",
+      "en": "I wanted to shop for the whole weekend.",
+      "ur": "Main poore weekend ke liye khareedari karna chahti thi."
+    }
+  },
+  "sonntag": {
+    "lemma": "Sonntag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Sonntage",
+    "en": "Sunday",
+    "ur": "Itwar",
+    "ex": {
+      "de": "Das Angebot ist noch bis Sonntag gültig.",
+      "en": "The offer is valid until Sunday.",
+      "ur": "Offer Itwar tak valid hai."
+    }
+  },
+  "schade": {
+    "lemma": "schade",
+    "pos": "Interjektion",
+    "en": "a pity / too bad",
+    "ur": "afsos ki baat",
+    "ex": {
+      "de": "Schade, aber danke für die Auskunft.",
+      "en": "Too bad, but thanks for the information.",
+      "ur": "Afsos, lekin maloomat ka shukriya."
+    }
+  },
+  "joghurt": {
+    "lemma": "Joghurt",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Joghurts",
+    "en": "yoghurt",
+    "ur": "yoghurt",
+    "ex": {
+      "de": "Ist der Joghurt im Angebot?",
+      "en": "Is the yoghurt on offer?",
+      "ur": "Kya yoghurt offer par hai?"
+    }
+  },
+  "haltbar": {
+    "lemma": "haltbar",
+    "pos": "Adjektiv",
+    "forms": [
+      "haltbare"
+    ],
+    "en": "keeps well / has a shelf life (from halten, to keep)",
+    "ur": "jo kharab nahi hota / shelf life wala",
+    "ex": {
+      "de": "Wie lange ist die Milch noch haltbar?",
+      "en": "How much longer does the milk keep?",
+      "ur": "Milk aur kitni der tak theek rahega?"
+    }
+  },
+  "butter": {
+    "lemma": "Butter",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "butter",
+    "ur": "makhan",
+    "ex": {
+      "de": "Haben Sie einen Ersatz für die Butter?",
+      "en": "Do you have a substitute for the butter?",
+      "ur": "Kya aap ke paas makhan ka badal hai?"
+    }
+  },
+  "tomaten": {
+    "lemma": "Tomate",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tomaten",
+    "en": "tomatoes",
+    "ur": "tamatar",
+    "ex": {
+      "de": "Die Tomaten sind heute im Angebot.",
+      "en": "The tomatoes are on offer today.",
+      "ur": "Aaj tamatar offer par hain."
+    }
+  },
+  "nudeln": {
+    "lemma": "Nudel",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Nudeln",
+    "en": "pasta / noodles",
+    "ur": "pasta / noodles",
+    "ex": {
+      "de": "Haben Sie auch glutenfreie Nudeln?",
+      "en": "Do you also have gluten-free pasta?",
+      "ur": "Kya aap ke paas gluten-free nudeln bhi hain?"
+    }
+  },
+  "wurst": {
+    "lemma": "Wurst",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Würste",
+    "en": "sausage",
+    "ur": "sausage",
+    "ex": {
+      "de": "Ist diese Wurst vegetarisch?",
+      "en": "Is this sausage vegetarian?",
+      "ur": "Kya yeh sausage vegetarian hai?"
+    }
+  },
+  "wein": {
+    "lemma": "Wein",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Weine",
+    "en": "wine",
+    "ur": "wine / sharab",
+    "ex": {
+      "de": "Für den Wein brauche ich Ihren Ausweis.",
+      "en": "For the wine I need your ID.",
+      "ur": "Wine ke liye mujhe aap ka ID chahiye."
+    }
+  },
+  "weiterhelfen": {
+    "lemma": "weiterhelfen",
+    "pos": "Verb",
+    "aux": "hilft weiter / hat weitergeholfen",
+    "forms": [
+      "weitergeholfen"
+    ],
+    "en": "to help further / to help someone along",
+    "ur": "aur madad karna",
+    "ex": {
+      "de": "Kann ich Ihnen weiterhelfen?",
+      "en": "Can I help you further?",
+      "ur": "Kya main aap ki aur madad karoon?"
+    }
+  },
+  "fleischabteilung": {
+    "lemma": "Fleischabteilung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Fleischabteilungen",
+    "en": "meat department",
+    "ur": "meat section",
+    "ex": {
+      "de": "In der Fleischabteilung steht immer ein Mitarbeiter bereit.",
+      "en": "In the meat department there's always a staff member ready to help.",
+      "ur": "Meat section mein hamesha ek staff member maujood hota hai."
+    }
+  },
+  "umgebaut": {
+    "lemma": "umgebaut",
+    "pos": "Adjektiv / Partizip",
+    "en": "renovated / rearranged (from umbauen, to rebuild)",
+    "ur": "tabdeel / dobara banaya gaya",
+    "ex": {
+      "de": "Der Supermarkt wurde umgebaut.",
+      "en": "The supermarket has been renovated.",
+      "ur": "Supermarket ki tarteeb badal gayi hai."
+    }
+  },
+  "laden": {
+    "lemma": "Laden",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Läden",
+    "forms": [
+      "läden",
+      "ladens"
+    ],
+    "en": "shop / store",
+    "ur": "dukaan",
+    "ex": {
+      "de": "Erklären Sie mir, wie der Laden aufgebaut ist.",
+      "en": "Explain to me how the store is laid out.",
+      "ur": "Mujhe batayein dukaan kis tarah ki hai."
+    }
+  },
+  "aufgebaut": {
+    "lemma": "aufgebaut",
+    "pos": "Adjektiv / Partizip",
+    "en": "laid out / organised (from aufbauen, to set up)",
+    "ur": "tarteeb diya gaya / banaya gaya",
+    "ex": {
+      "de": "Wie ist der Laden jetzt aufgebaut?",
+      "en": "How is the store laid out now?",
+      "ur": "Ab dukaan kis tarah ki hai?"
+    }
+  },
+  "befinden": {
+    "lemma": "befinden",
+    "pos": "Verb",
+    "forms": [
+      "befindet",
+      "befinden sich",
+      "befindet sich"
+    ],
+    "en": "sich befinden = to be located",
+    "ur": "waqe hona / hona",
+    "ex": {
+      "de": "Wo befinden sich die Kühlregale?",
+      "en": "Where are the chiller shelves located?",
+      "ur": "Cold shelves kahan hain?"
+    }
+  },
+  "mitte": {
+    "lemma": "Mitte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "middle",
+    "ur": "darmiyan / beech",
+    "ex": {
+      "de": "Die Tiefkühltruhen stehen in der Mitte.",
+      "en": "The freezer sections are in the middle.",
+      "ur": "Freezer sections beech mein hain."
+    }
+  },
+  "gängen": {
+    "lemma": "Gang",
+    "pos": "Form von Gang",
+    "en": "aisles (dative plural of Gang)",
+    "ur": "gangs (Gang ki dative plural form)",
+    "ex": {
+      "de": "Die Tiefkühltruhen stehen zwischen den anderen Gängen.",
+      "en": "The freezer sections are between the other aisles.",
+      "ur": "Freezer sections doosre gangs ke darmiyan hain."
+    }
+  },
+  "produkt": {
+    "lemma": "Produkt",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Produkte",
+    "en": "product",
+    "ur": "product / cheez",
+    "ex": {
+      "de": "Gibt es für solche Produkte einen Rabatt?",
+      "en": "Is there a discount for such products?",
+      "ur": "Kya aisi cheezon par chhoot hoti hai?"
+    }
+  },
+  "ware": {
+    "lemma": "Ware",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Waren",
+    "en": "goods / merchandise",
+    "ur": "saman / maal",
+    "ex": {
+      "de": "Wir entfernen abgelaufene Ware sofort.",
+      "en": "We remove expired goods immediately.",
+      "ur": "Hum expire ho chuka maal foran hata dete hain."
+    }
+  },
+  "übrigens": {
+    "lemma": "übrigens",
+    "pos": "Adverb",
+    "en": "by the way",
+    "ur": "waise / by the way",
+    "ex": {
+      "de": "Übrigens, wie lange gilt das Angebot noch?",
+      "en": "By the way, how much longer is the offer valid?",
+      "ur": "Waise, offer aur kitni der tak hai?"
+    }
+  },
+  "zurecht": {
+    "lemma": "zurecht",
+    "pos": "Adverb",
+    "en": "(sich zurechtfinden = to find one's way around)",
+    "ur": "(sich zurechtfinden = raasta samajhna)",
+    "ex": {
+      "de": "Ich finde mich hier nicht zurecht.",
+      "en": "I can't find my way around here.",
+      "ur": "Mujhe yahan raasta nahi mil raha."
+    }
+  },
+  "zurechtfinden": {
+    "lemma": "zurechtfinden",
+    "pos": "Verb",
+    "aux": "findet sich zurecht / hat sich zurechtgefunden",
+    "forms": [
+      "zurechtgefunden",
+      "zurechtfindet"
+    ],
+    "en": "sich zurechtfinden = to find one's way around",
+    "ur": "raasta samajh jana",
+    "ex": {
+      "de": "Ich finde mich hier nicht mehr zurecht.",
+      "en": "I can't find my way around here anymore.",
+      "ur": "Mujhe ab yahan raasta nahi mil raha."
+    }
+  },
+  "kleineren": {
+    "lemma": "klein",
+    "pos": "Form von klein",
+    "en": "smaller (dative/plural form)",
+    "ur": "chhota (form)",
+    "ex": {
+      "de": "Die kleineren Körbe sind hier.",
+      "en": "The smaller baskets are here.",
+      "ur": "Chhoti baskets yahan hain."
+    }
+  },
+  "bestimmt": {
+    "lemma": "bestimmt",
+    "pos": "Adjektiv",
+    "forms": [
+      "bestimmte",
+      "bestimmtes",
+      "bestimmten"
+    ],
+    "en": "certain / specific",
+    "ur": "khaas / mutayyin",
+    "ex": {
+      "de": "Suchen Sie etwas Bestimmtes?",
+      "en": "Are you looking for something specific?",
+      "ur": "Kya aap kuch khaas dhoondh rahi hain?"
+    }
+  },
+  "einkaufszettel": {
+    "lemma": "Einkaufszettel",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einkaufszettel",
+    "en": "shopping list",
+    "ur": "shopping list",
+    "ex": {
+      "de": "Was steht auf Ihrem Einkaufszettel?",
+      "en": "What's on your shopping list?",
+      "ur": "Aap ki shopping list mein kya hai?"
+    }
+  },
+  "hauptgang": {
+    "lemma": "Hauptgang",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Hauptgänge",
+    "en": "main aisle",
+    "ur": "main gang / raasta",
+    "ex": {
+      "de": "Gehen Sie den Hauptgang entlang.",
+      "en": "Walk along the main aisle.",
+      "ur": "Main gang ke saath jayein."
+    }
+  },
+  "unserem": {
+    "lemma": "unser",
+    "pos": "Form von unser",
+    "en": "our (dative form)",
+    "ur": "hamara (form)",
+    "ex": {
+      "de": "Jemand von unserem Team hilft Ihnen.",
+      "en": "Someone from our team will help you.",
+      "ur": "Hamari team ka koi madad karega."
+    }
+  },
+  "korb": {
+    "lemma": "Korb",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Körbe",
+    "en": "basket",
+    "ur": "basket / tokri",
+    "ex": {
+      "de": "Die kleineren Körbe finden Sie hier drinnen.",
+      "en": "You'll find the smaller baskets here inside.",
+      "ur": "Choti baskets aap ko yahan andar milengi."
+    }
+  },
+  "drinnen": {
+    "lemma": "drinnen",
+    "pos": "Adverb",
+    "en": "inside",
+    "ur": "andar",
+    "ex": {
+      "de": "Die Körbe finden Sie hier drinnen.",
+      "en": "You'll find the baskets here inside.",
+      "ur": "Baskets aap ko yahan andar milengi."
+    }
+  },
+  "tiefkühlpizza": {
+    "lemma": "Tiefkühlpizza",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tiefkühlpizzen",
+    "en": "frozen pizza",
+    "ur": "frozen pizza",
+    "ex": {
+      "de": "Wo finde ich Tiefkühlpizza?",
+      "en": "Where do I find frozen pizza?",
+      "ur": "Frozen pizza kahan milegi?"
+    }
+  },
+  "hinten": {
+    "lemma": "hinten",
+    "pos": "Adverb",
+    "en": "at the back",
+    "ur": "peeche",
+    "ex": {
+      "de": "Die Tiefkühltruhe ist hinten in Gang sechs.",
+      "en": "The freezer section is at the back in aisle six.",
+      "ur": "Freezer peeche gang chhe mein hai."
+    }
+  },
+  "welchem": {
+    "lemma": "welche",
+    "pos": "Form von welche",
+    "en": "which (dative form)",
+    "ur": "kaunsa (form)",
+    "ex": {
+      "de": "In welchem Regal steht der Kaffee?",
+      "en": "On which shelf is the coffee?",
+      "ur": "Coffee kaunse shelf par hai?"
+    }
+  },
+  "abendessen": {
+    "lemma": "Abendessen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "dinner / evening meal",
+    "ur": "raat ka khana",
+    "ex": {
+      "de": "Ich brauche Zutaten für ein Abendessen.",
+      "en": "I need ingredients for a dinner.",
+      "ur": "Mujhe dinner ke liye ajza chahiye."
+    }
+  },
+  "größeren": {
+    "lemma": "groß",
+    "pos": "Form von groß",
+    "en": "bigger (dative/accusative form)",
+    "ur": "bara (form)",
+    "ex": {
+      "de": "Ich brauche einen größeren Einkaufswagen.",
+      "en": "I need a bigger shopping cart.",
+      "ur": "Mujhe bari trolley chahiye."
+    }
+  },
+  "offenbar": {
+    "lemma": "offenbar",
+    "pos": "Adverb",
+    "en": "apparently",
+    "ur": "zahir hai",
+    "ex": {
+      "de": "Der Supermarkt wurde offenbar umgebaut.",
+      "en": "The supermarket has apparently been rearranged.",
+      "ur": "Supermarket zahir hai badal gaya hai."
+    }
+  },
+  "beginnt": {
+    "lemma": "beginnen",
+    "pos": "Form von beginnen",
+    "en": "begins (3rd person of beginnen)",
+    "ur": "shuru hota hai (form)",
+    "ex": {
+      "de": "Rechts vom Eingang beginnt die Obstabteilung.",
+      "en": "To the right of the entrance the fruit section begins.",
+      "ur": "Entrance ke dayen taraf phal ka section shuru hota hai."
+    }
+  },
+  "gemüseabteilung": {
+    "lemma": "Gemüseabteilung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Gemüseabteilungen",
+    "en": "vegetable department",
+    "ur": "sabziyon ka section",
+    "ex": {
+      "de": "Rechts vom Eingang beginnt die Gemüseabteilung.",
+      "en": "To the right of the entrance the vegetable department begins.",
+      "ur": "Entrance ke dayen taraf sabziyon ka section shuru hota hai."
+    }
+  },
+  "bäckerei": {
+    "lemma": "Bäckerei",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Bäckereien",
+    "en": "bakery",
+    "ur": "bakery",
+    "ex": {
+      "de": "Danach folgt die Bäckerei.",
+      "en": "Then the bakery follows.",
+      "ur": "Phir bakery aati hai."
+    }
+  },
+  "vergleich": {
+    "lemma": "Vergleich",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Vergleiche",
+    "en": "comparison",
+    "ur": "muqabla",
+    "ex": {
+      "de": "Im Vergleich dazu ist das günstiger.",
+      "en": "In comparison to that, this is cheaper.",
+      "ur": "Is ke muqable mein yeh sasta hai."
+    }
+  },
+  "gesamt": {
+    "lemma": "gesamt",
+    "pos": "Adjektiv",
+    "forms": [
+      "gesamte",
+      "gesamten"
+    ],
+    "en": "entire / whole",
+    "ur": "poora",
+    "ex": {
+      "de": "Die Kühlregale ziehen sich durch die gesamte hintere Wand.",
+      "en": "The chiller shelves run along the entire back wall.",
+      "ur": "Cold shelves poori peechhli deewar ke saath phaile hue hain."
+    }
+  },
+  "hinter": {
+    "lemma": "hinter",
+    "pos": "Präposition / Adjektiv",
+    "forms": [
+      "hintere",
+      "hinteren"
+    ],
+    "en": "behind / back",
+    "ur": "peechay wala",
+    "ex": {
+      "de": "Das ist die hintere Wand des Ladens.",
+      "en": "That is the back wall of the store.",
+      "ur": "Yeh dukaan ki peechay wali deewar hai."
+    }
+  },
+  "wand": {
+    "lemma": "Wand",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Wände",
+    "en": "wall",
+    "ur": "deewar",
+    "ex": {
+      "de": "Die Kühlregale ziehen sich durch die gesamte hintere Wand.",
+      "en": "The chiller shelves run along the entire back wall.",
+      "ur": "Cold shelves poori peechhli deewar ke saath phaile hue hain."
+    }
+  },
+  "käseabteilung": {
+    "lemma": "Käseabteilung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Käseabteilungen",
+    "en": "cheese department",
+    "ur": "cheese section",
+    "ex": {
+      "de": "Besonders in der Fleisch- und Käseabteilung.",
+      "en": "Especially in the meat and cheese department.",
+      "ur": "Khaas kar meat aur cheese section mein."
+    }
+  },
+  "hoffentlich": {
+    "lemma": "hoffentlich",
+    "pos": "Adverb",
+    "en": "hopefully",
+    "ur": "umeed hai",
+    "ex": {
+      "de": "Dann finde ich mich hoffentlich besser zurecht.",
+      "en": "Then hopefully I'll find my way around better.",
+      "ur": "Phir umeed hai mujhe raasta behtar samajh aayega."
+    }
+  },
+  "herzlich": {
+    "lemma": "herzlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "herzlichen",
+      "herzliche"
+    ],
+    "en": "warm / heartfelt",
+    "ur": "dil se",
+    "ex": {
+      "de": "Vielen herzlichen Dank für Ihre Geduld.",
+      "en": "Thank you very much indeed for your patience.",
+      "ur": "Aap ke sabar ka dil se shukriya."
+    }
+  },
+  "zahle": {
+    "lemma": "zahlen",
+    "pos": "Form von zahlen",
+    "en": "I pay (1st person of zahlen)",
+    "ur": "main ada karta hoon (form)",
+    "ex": {
+      "de": "Ich zahle mit Bargeld.",
+      "en": "I'll pay in cash.",
+      "ur": "Main nagad ada karti hoon."
+    }
+  },
+  "verzichten": {
+    "lemma": "verzichten",
+    "pos": "Verb",
+    "aux": "verzichtet / hat verzichtet",
+    "forms": [
+      "verzichte",
+      "verzichtet"
+    ],
+    "en": "to do without / to skip",
+    "ur": "chhorna / iste'mal na karna",
+    "ex": {
+      "de": "Normalerweise verzichte ich auf den Kassenzettel.",
+      "en": "Normally I skip the receipt.",
+      "ur": "Aam tor par main receipt nahi leti."
+    }
+  },
+  "monate": {
+    "lemma": "Monat",
+    "pos": "Form von Monat",
+    "en": "months (plural of Monat)",
+    "ur": "mahine (Monat ki plural)",
+    "ex": {
+      "de": "Das ist noch mehrere Monate haltbar.",
+      "en": "That still keeps for several months.",
+      "ur": "Yeh abhi kai mahine tak theek rahega."
+    }
+  },
+  "her": {
+    "lemma": "her",
+    "pos": "Adverb",
+    "en": "here / this way (zeigen Sie mal her = show me)",
+    "ur": "idhar (zeigen Sie mal her = mujhe dikhayein)",
+    "ex": {
+      "de": "Zeigen Sie mal her.",
+      "en": "Let me see that.",
+      "ur": "Zara mujhe dikhayein."
+    }
+  },
+  "mal": {
+    "lemma": "mal",
+    "pos": "Partikel",
+    "en": "modal particle (softens a request); also short for 'einmal'",
+    "ur": "guftagu ko naram karne wala lafz",
+    "ex": {
+      "de": "Zeigen Sie mal her.",
+      "en": "Let me see that.",
+      "ur": "Zara mujhe dikhayein."
+    }
+  },
+  "zum": {
+    "lemma": "zum",
+    "pos": "Kontraktion",
+    "en": "contraction of zu + dem (to the)",
+    "ur": "zu + dem ka mukhtasar",
+    "ex": {
+      "de": "Ich nehme ihn zum reduzierten Preis.",
+      "en": "I'll take it at the reduced price.",
+      "ur": "Main isay kam qeemat par le loongi."
+    }
+  },
+  "zeigte": {
+    "lemma": "zeigen",
+    "pos": "Form von zeigen",
+    "en": "showed (past tense of zeigen)",
+    "ur": "dikhaya (form)",
+    "ex": {
+      "de": "Die Kasse zeigte den vollen Preis.",
+      "en": "The checkout showed the full price.",
+      "ur": "Checkout ne poori qeemat dikhai."
+    }
+  },
+  "fällen": {
+    "lemma": "Fall",
+    "pos": "Form von Fall",
+    "en": "cases (dative plural of Fall)",
+    "ur": "surtein (Fall ki dative plural)",
+    "ex": {
+      "de": "In solchen Fällen passen wir den Preis an.",
+      "en": "In such cases we adjust the price.",
+      "ur": "Aisi surton mein hum qeemat theek kar dete hain."
+    }
+  },
+  "letzte": {
+    "lemma": "letzte",
+    "pos": "Form von letzt-",
+    "en": "last (declined form)",
+    "ur": "aakhri (form)",
+    "ex": {
+      "de": "Eine letzte Frage.",
+      "en": "One last question.",
+      "ur": "Ek aakhri sawal."
+    }
+  },
+  "nächsten": {
+    "lemma": "nächste",
+    "pos": "Form von nächste",
+    "en": "next (declined form)",
+    "ur": "agla (form)",
+    "ex": {
+      "de": "Bis zum nächsten Einkauf!",
+      "en": "Until the next shopping trip!",
+      "ur": "Agli khareedari tak!"
+    }
+  },
+  "produkten": {
+    "lemma": "Produkt",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Produkte",
+    "en": "products (dative plural)",
+    "ur": "products",
+    "ex": {
+      "de": "Gibt es bei diesen Produkten einen Rabatt?",
+      "en": "Is there a discount on these products?",
+      "ur": "Kya in products par chhoot hai?"
+    }
+  },
+  "zusätzlichen": {
+    "lemma": "zusätzlich",
+    "pos": "Adjektiv",
+    "en": "additional (inflected)",
+    "ur": "aur / additional",
+    "ex": {
+      "de": "Ich brauche keine zusätzlichen Tüten.",
+      "en": "I don't need any additional bags.",
+      "ur": "Mujhe koi additional thailay nahi chahiye."
+    }
+  },
+  "preisen": {
+    "lemma": "Preis",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Preise",
+    "en": "prices (dative plural)",
+    "ur": "qeematon",
+    "ex": {
+      "de": "Bei den Preisen kenne ich mich gut aus.",
+      "en": "I know my way around the prices well.",
+      "ur": "Mujhe qeematon ka acha ilm hai."
+    }
+  },
+  "sojamilch": {
+    "lemma": "Sojamilch",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "soy milk",
+    "ur": "soy milk",
+    "ex": {
+      "de": "Sojamilch ist noch vorrätig.",
+      "en": "Soy milk is still in stock.",
+      "ur": "Soy milk abhi bhi available hai."
+    }
+  },
+  "haferdrink": {
+    "lemma": "Haferdrink",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "oat drink",
+    "ur": "oat drink",
+    "ex": {
+      "de": "Der Haferdrink ist bei uns sehr beliebt.",
+      "en": "The oat drink is very popular with us.",
+      "ur": "Humare yahan oat drink bohat mashhoor hai."
+    }
+  },
+  "hafermilch": {
+    "lemma": "Hafermilch",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "oat milk",
+    "ur": "oat milk",
+    "ex": {
+      "de": "Ich finde die Hafermilch nicht.",
+      "en": "I can't find the oat milk.",
+      "ur": "Mujhe oat milk nahi mil rahi."
+    }
+  },
+  "hafersahne": {
+    "lemma": "Hafersahne",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "oat cream",
+    "ur": "oat cream",
+    "ex": {
+      "de": "Es gibt eine Hafersahne von einer anderen Marke.",
+      "en": "There's an oat cream from another brand.",
+      "ur": "Doosri brand ki oat cream hai."
+    }
+  },
+  "waage": {
+    "lemma": "Waage",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Waagen",
+    "en": "scale",
+    "ur": "scale",
+    "ex": {
+      "de": "Die Waage meldet einen Fremdkörper.",
+      "en": "The scale reports a foreign object.",
+      "ur": "Scale foreign object bata raha hai."
+    }
+  },
+  "marke": {
+    "lemma": "Marke",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Marken",
+    "en": "brand",
+    "ur": "brand",
+    "ex": {
+      "de": "Ich kann Ihnen eine andere Marke zeigen.",
+      "en": "I can show you a different brand.",
+      "ur": "Main aap ko doosri brand dikha sakta hoon."
+    }
+  },
+  "lieferprobleme": {
+    "lemma": "Lieferproblem",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Lieferprobleme",
+    "en": "delivery problems",
+    "ur": "delivery ka masla",
+    "ex": {
+      "de": "Wir hatten Lieferprobleme mit diesem Hersteller.",
+      "en": "We had delivery problems with this manufacturer.",
+      "ur": "Humein is company ke saath delivery ka masla hua."
+    }
+  },
+  "geschmacklich": {
+    "lemma": "geschmacklich",
+    "pos": "Adverb",
+    "en": "in terms of taste",
+    "ur": "zaeqe ke lehaz se",
+    "ex": {
+      "de": "Sie ist geschmacklich sehr nah dran.",
+      "en": "It's very close in taste.",
+      "ur": "Yeh zaeqe mein bohat qareeb hai."
+    }
+  },
+  "vielseitig": {
+    "lemma": "vielseitig",
+    "pos": "Adjektiv",
+    "en": "versatile",
+    "ur": "versatile",
+    "ex": {
+      "de": "Sie ist relativ vielseitig.",
+      "en": "It's fairly versatile.",
+      "ur": "Yeh kaafi versatile hai."
+    }
+  },
+  "schäumt": {
+    "lemma": "schäumen",
+    "pos": "Verb",
+    "en": "foams (er/sie-form)",
+    "ur": "foam banata hai",
+    "ex": {
+      "de": "Sie schäumt auch gut auf.",
+      "en": "It also foams up well.",
+      "ur": "Yeh acha foam bhi banti hai."
+    }
+  },
+  "zusagt": {
+    "lemma": "zusagen",
+    "pos": "Verb",
+    "en": "suits / agrees with (er/sie-form)",
+    "ur": "pasand aata hai",
+    "ex": {
+      "de": "Falls es Ihnen nicht zusagt, tauschen Sie es um.",
+      "en": "If it doesn't suit you, exchange it.",
+      "ur": "Agar pasand na aaye to tabdeel kar lein."
+    }
+  },
+  "altersnachweis": {
+    "lemma": "Altersnachweis",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "age verification / proof of age",
+    "ur": "age verification",
+    "ex": {
+      "de": "Das System verlangt einen Altersnachweis.",
+      "en": "The system requires age verification.",
+      "ur": "System age verification maang raha hai."
+    }
+  },
+  "stichprobenartig": {
+    "lemma": "stichprobenartig",
+    "pos": "Adverb",
+    "en": "randomly / by spot-check",
+    "ur": "random tor par",
+    "ex": {
+      "de": "Wir kontrollieren das stichprobenartig.",
+      "en": "We check that randomly.",
+      "ur": "Hum yeh random check karte hain."
+    }
+  },
+  "ähnliches": {
+    "lemma": "ähnlich",
+    "pos": "Adjektiv",
+    "en": "similar (inflected)",
+    "ur": "jaisa",
+    "ex": {
+      "de": "Haben Sie etwas Ähnliches?",
+      "en": "Do you have something similar?",
+      "ur": "Kya aap ke paas kuch aisa hi hai?"
+    }
+  },
+  "ähnlich": {
+    "lemma": "ähnlich",
+    "pos": "Adjektiv",
+    "en": "similar",
+    "ur": "jaisa",
+    "ex": {
+      "de": "Das schmeckt ähnlich gut.",
+      "en": "That tastes similarly good.",
+      "ur": "Yeh utna hi acha lagta hai."
+    }
+  },
+  "dritten": {
+    "lemma": "dritte",
+    "pos": "Adjektiv",
+    "en": "third (inflected)",
+    "ur": "teesra",
+    "ex": {
+      "de": "Das steht im dritten Gang.",
+      "en": "It's in the third aisle.",
+      "ur": "Yeh teesre gang mein hai."
+    }
+  },
+  "momentan": {
+    "lemma": "momentan",
+    "pos": "Adverb",
+    "en": "currently",
+    "ur": "is waqt",
+    "ex": {
+      "de": "Es ist momentan ausverkauft.",
+      "en": "It's currently sold out.",
+      "ur": "Yeh is waqt khatam hai."
+    }
+  },
+  "lieferung": {
+    "lemma": "Lieferung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Lieferungen",
+    "en": "delivery",
+    "ur": "delivery",
+    "ex": {
+      "de": "Wann bekommen Sie neue Lieferung?",
+      "en": "When will you get a new delivery?",
+      "ur": "Nayi delivery kab aayegi?"
+    }
+  },
+  "fleischersatz": {
+    "lemma": "Fleischersatz",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "meat substitute",
+    "ur": "meat substitute",
+    "ex": {
+      "de": "Der Fleischersatz, den ich sonst kaufe, ist nicht da.",
+      "en": "The meat substitute I usually buy isn't there.",
+      "ur": "Jo meat substitute main aam leti hoon woh nahi hai."
+    }
+  },
+  "sojaschnitzel": {
+    "lemma": "Sojaschnitzel",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "soy schnitzel",
+    "ur": "soy schnitzel",
+    "ex": {
+      "de": "Das Sojaschnitzel ist seit gestern ausverkauft.",
+      "en": "The soy schnitzel has been sold out since yesterday.",
+      "ur": "Soy schnitzel kal se khatam hai."
+    }
+  },
+  "vergleichbare": {
+    "lemma": "vergleichbar",
+    "pos": "Adjektiv",
+    "en": "comparable (inflected)",
+    "ur": "mukabla wala",
+    "ex": {
+      "de": "Gibt es eine vergleichbare Alternative?",
+      "en": "Is there a comparable alternative?",
+      "ur": "Kya koi mukabla wala option hai?"
+    }
+  },
+  "tofu-bratlinge": {
+    "lemma": "Tofu-Bratling",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Tofu-Bratlinge",
+    "en": "tofu patties",
+    "ur": "tofu patties",
+    "ex": {
+      "de": "Wir haben Tofu-Bratlinge im Angebot.",
+      "en": "We have tofu patties on offer.",
+      "ur": "Humare paas tofu patties hain."
+    }
+  },
+  "anbraten": {
+    "lemma": "anbraten",
+    "pos": "Verb",
+    "en": "to sear / fry briefly",
+    "ur": "thora bhoonna",
+    "ex": {
+      "de": "Am besten kurz anbraten.",
+      "en": "Best to fry briefly.",
+      "ur": "Behtareen hoga thora bhoonna."
+    }
+  },
+  "servieren": {
+    "lemma": "servieren",
+    "pos": "Verb",
+    "en": "to serve (food)",
+    "ur": "serve karna",
+    "ex": {
+      "de": "Mit Gemüse servieren.",
+      "en": "Serve with vegetables.",
+      "ur": "Sabziyon ke sath serve karein."
+    }
+  },
+  "sowas": {
+    "lemma": "sowas",
+    "pos": "Pronomen",
+    "en": "something like that",
+    "ur": "aisi cheez",
+    "ex": {
+      "de": "Kein Problem, sowas passiert.",
+      "en": "No problem, that happens.",
+      "ur": "Koi baat nahi, aisa hota hai."
+    }
+  },
+  "umso": {
+    "lemma": "umso",
+    "pos": "Adverb",
+    "en": "all the more (umso besser = even better)",
+    "ur": "aur bhi",
+    "ex": {
+      "de": "Umso besser.",
+      "en": "Even better.",
+      "ur": "Aur bhi behtar."
+    }
+  },
+  "kundenfreundlich": {
+    "lemma": "kundenfreundlich",
+    "pos": "Adjektiv",
+    "en": "customer-friendly",
+    "ur": "customer-friendly",
+    "ex": {
+      "de": "Sehr kundenfreundlich.",
+      "en": "Very customer-friendly.",
+      "ur": "Bohat customer-friendly."
+    }
+  },
+  "warenbereich": {
+    "lemma": "Warenbereich",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "bagging area",
+    "ur": "bagging area",
+    "ex": {
+      "de": "Unerwarteter Artikel im Warenbereich.",
+      "en": "Unexpected item in the bagging area.",
+      "ur": "Bagging area mein anjaani cheez."
+    }
+  },
+  "wodurch": {
+    "lemma": "wodurch",
+    "pos": "Adverb",
+    "en": "by what / how",
+    "ur": "kis wajah se",
+    "ex": {
+      "de": "Wodurch kam das zustande?",
+      "en": "How did that happen?",
+      "ur": "Yeh kis tarah hua?"
+    }
+  },
+  "zustande": {
+    "lemma": "zustande",
+    "pos": "Adverb",
+    "en": "about / into being (zustande kommen)",
+    "ur": "wujood mein aana",
+    "ex": {
+      "de": "Wie kam das zustande?",
+      "en": "How did that come about?",
+      "ur": "Yeh kaise hua?"
+    }
+  },
+  "okay": {
+    "lemma": "okay",
+    "pos": "Interjektion",
+    "en": "okay",
+    "ur": "theek hai",
+    "ex": {
+      "de": "Okay, ich versuche es noch einmal.",
+      "en": "Okay, I'll try again.",
+      "ur": "Theek hai, main dobara koshish karti hoon."
+    }
+  },
+  "verlangt": {
+    "lemma": "verlangen",
+    "pos": "Verb",
+    "en": "requires / demands",
+    "ur": "maang raha hai",
+    "ex": {
+      "de": "Das System verlangt einen Altersnachweis.",
+      "en": "The system requires age verification.",
+      "ur": "System age verification maang raha hai."
+    }
+  },
+  "behilflich": {
+    "lemma": "behilflich",
+    "pos": "Adjektiv",
+    "en": "helpful (jemandem behilflich sein)",
+    "ur": "madadgaar",
+    "ex": {
+      "de": "Kann ich behilflich sein?",
+      "en": "Can I be of assistance?",
+      "ur": "Kya main madad kar sakta hoon?"
+    }
+  },
+  "eigenen": {
+    "lemma": "eigen",
+    "pos": "Adjektiv",
+    "en": "own (inflected)",
+    "ur": "apna",
+    "ex": {
+      "de": "Ich benutze nur meine eigenen Taschen.",
+      "en": "I only use my own bags.",
+      "ur": "Main sirf apne thailay istemal karti hoon."
+    }
+  },
+  "zusätzliches": {
+    "lemma": "zusätzlich",
+    "pos": "Adjektiv",
+    "en": "additional (inflected)",
+    "ur": "aur / additional",
+    "ex": {
+      "de": "Die Waage wertet die Tasche als zusätzliches Gewicht.",
+      "en": "The scale registers the bag as extra weight.",
+      "ur": "Scale thailay ko extra wazan samajhta hai."
+    }
+  },
+  "wertet": {
+    "lemma": "werten",
+    "pos": "Verb",
+    "en": "rates / registers as",
+    "ur": "samajhta hai",
+    "ex": {
+      "de": "Sie wertet das als Fehler.",
+      "en": "It registers that as an error.",
+      "ur": "Yeh isay ghalti samajhta hai."
+    }
+  },
+  "autorisiere": {
+    "lemma": "autorisieren",
+    "pos": "Verb",
+    "en": "authorize (ich-form)",
+    "ur": "authorize karta/karti hoon",
+    "ex": {
+      "de": "Ich autorisiere das kurz.",
+      "en": "I'll authorize it briefly.",
+      "ur": "Main isay authorize karta hoon."
+    }
+  },
+  "mitarbeiterkarte": {
+    "lemma": "Mitarbeiterkarte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "staff card",
+    "ur": "staff card",
+    "ex": {
+      "de": "Ich autorisiere das mit meiner Mitarbeiterkarte.",
+      "en": "I'll authorize it with my staff card.",
+      "ur": "Main isay staff card se authorize karta hoon."
+    }
+  },
+  "empfindlicher": {
+    "lemma": "empfindlich",
+    "pos": "Adjektiv",
+    "en": "more sensitive",
+    "ur": "zyada sensitive",
+    "ex": {
+      "de": "Dieses Gerät ist etwas empfindlicher.",
+      "en": "This machine is a bit more sensitive.",
+      "ur": "Yeh machine thori zyada sensitive hai."
+    }
+  },
+  "stoßzeiten": {
+    "lemma": "Stoßzeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Stoßzeiten",
+    "en": "peak times / rush hours",
+    "ur": "rush ka waqt",
+    "ex": {
+      "de": "Besonders zu Stoßzeiten.",
+      "en": "Especially during peak times.",
+      "ur": "Khaas kar rush ke waqt."
+    }
+  },
+  "freigegeben": {
+    "lemma": "freigeben",
+    "pos": "Verb",
+    "en": "released / unlocked (past participle)",
+    "ur": "unlock ho gaya",
+    "ex": {
+      "de": "Alles ist wieder freigegeben.",
+      "en": "Everything is unlocked again.",
+      "ur": "Sab dobara unlock ho gaya."
+    }
+  },
+  "freundliche": {
+    "lemma": "freundlich",
+    "pos": "Adjektiv",
+    "en": "friendly (inflected)",
+    "ur": "khush-mizaaj",
+    "ex": {
+      "de": "Vielen Dank für Ihre freundliche Hilfe.",
+      "en": "Thank you for your friendly help.",
+      "ur": "Aap ki khush-mizaaj madad ka shukriya."
+    }
+  },
+  "nachvollziehbar": {
+    "lemma": "nachvollziehbar",
+    "pos": "Adjektiv",
+    "en": "understandable / comprehensible",
+    "ur": "samajh aane wala",
+    "ex": {
+      "de": "Ist das nachvollziehbar für Sie?",
+      "en": "Is that comprehensible to you?",
+      "ur": "Kya yeh aap ko samajh aata hai?"
+    }
+  }
+}

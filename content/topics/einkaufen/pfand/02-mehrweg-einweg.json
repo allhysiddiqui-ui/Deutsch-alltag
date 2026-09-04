@@ -1,0 +1,214 @@
+{
+  "id": "mehrweg-einweg",
+  "order": 2,
+  "icon": "🔄",
+  "title": { "de": "Mehrweg oder Einweg?", "en": "Reusable or single-use?", "ur": "Mehrweg ya Einweg?" },
+  "angle": "Understanding why deposit amounts differ · Yeh samajhna ke Pfand ki raqam kyun alag hoti hai",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["mehrweg", "einweg", "unterschied", "cent", "kunststoff", "glasflasche", "plastikflasche", "wiederverwenden", "symbol"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Diese Flasche hat acht Cent Pfand, diese hier fünfundzwanzig Cent.", "en": "This bottle has eight cents deposit, this one twenty-five cents.", "ur": "Is bottle par aath cent Pfand hai, is par pachees cent." },
+        { "s": "B", "de": "Warum ist das so unterschiedlich?", "en": "Why is that so different?", "ur": "Yeh itna farq kyun hai?" },
+        { "s": "A", "de": "Diese Flasche ist Mehrweg. Sie wird gereinigt und wiederverwendet.", "en": "This bottle is reusable. It gets cleaned and used again.", "ur": "Yeh bottle Mehrweg hai. Yeh saaf ki jati hai aur dobara istemal hoti hai." },
+        { "s": "B", "de": "Und die andere Flasche?", "en": "And the other bottle?", "ur": "Aur doosri bottle?" },
+        { "s": "A", "de": "Das ist Einweg. Sie wird nur einmal benutzt.", "en": "That's single-use. It's only used once.", "ur": "Yeh Einweg hai. Yeh sirf ek baar istemal hoti hai." },
+        { "s": "B", "de": "Ist Einweg aus Kunststoff?", "en": "Is single-use made of plastic?", "ur": "Kya Einweg plastic ki hoti hai?" },
+        { "s": "A", "de": "Meistens ja, das ist eine Plastikflasche.", "en": "Mostly yes, that's a plastic bottle.", "ur": "Aksar ji haan, yeh plastic ki bottle hai." },
+        { "s": "B", "de": "Und diese Glasflasche hier?", "en": "And this glass bottle here?", "ur": "Aur yeh glass ki bottle?" },
+        { "s": "A", "de": "Die ist auch Mehrweg. Glas hält viele Jahre.", "en": "That's also reusable. Glass lasts many years.", "ur": "Yeh bhi Mehrweg hai. Glass kai saal chalta hai." },
+        { "s": "B", "de": "Woran erkenne ich den Unterschied schnell?", "en": "How do I quickly recognise the difference?", "ur": "Farq jaldi kaise pehchanoon?" },
+        { "s": "A", "de": "Am Symbol auf dem Etikett.", "en": "By the symbol on the label.", "ur": "Label par lage symbol se." },
+        { "s": "B", "de": "Ah, jetzt verstehe ich es besser. Danke schön.", "en": "Ah, now I understand it better. Thank you.", "ur": "Acha, ab behtar samajh aaya. Shukriya." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich sehe, Sie haben heute ganz unterschiedliche Flaschen dabei.", "en": "I see you have quite different bottles with you today.", "ur": "Main dekh raha hoon aaj aap ke paas kaafi mukhtalif bottles hain." },
+        { "s": "B", "de": "Ja, und ich verstehe nicht, warum das Pfand so verschieden ist.", "en": "Yes, and I don't understand why the deposit is so different.", "ur": "Ji, aur mujhe samajh nahi aata Pfand itna mukhtalif kyun hai." },
+        { "s": "A", "de": "Das liegt am Flaschentyp. Diese schwere Glasflasche kostet acht Cent Pfand, weil sie ein Mehrwegsystem hat.", "en": "That's because of the bottle type. This heavy glass bottle costs eight cents deposit because it has a reusable system.", "ur": "Yeh bottle ke type par munhasir hai. Yeh bhaari glass bottle aath cent Pfand rakhti hai kyun ke iska Mehrweg system hai." },
+        { "s": "B", "de": "Was bedeutet Mehrwegsystem genau?", "en": "What does reusable system mean exactly?", "ur": "Mehrweg system ka theek matlab kya hai?" },
+        { "s": "A", "de": "Die Brauerei holt die leeren Flaschen ab, reinigt sie im Werk und füllt sie erneut.", "en": "The brewery collects the empty bottles, cleans them at the plant, and fills them again.", "ur": "Brewery khaali bottles le jati hai, factory mein saaf karti hai aur dobara bharti hai." },
+        { "s": "B", "de": "Interessant. Und diese Plastikflasche hier, warum kostet die fünfundzwanzig Cent?", "en": "Interesting. And this plastic bottle here, why does it cost twenty-five cents?", "ur": "Dilchasp. Aur yeh plastic bottle, yeh pachees cent kyun hai?" },
+        { "s": "A", "de": "Das ist eine Einwegflasche aus Kunststoff. Sie wird nach der Rückgabe zerkleinert und recycelt, aber nicht wieder befüllt.", "en": "That's a single-use bottle made of plastic. After return it gets shredded and recycled, but not refilled.", "ur": "Yeh plastic ki Einweg bottle hai. Wapis milne ke baad yeh chhoti ki jati hai aur recycle hoti hai, lekin dobara nahi bharte." },
+        { "s": "B", "de": "Warum ist das Pfand dann so hoch, wenn sie nicht wiederverwendet wird?", "en": "Why is the deposit then so high, if it isn't reused?", "ur": "To agar dobara istemal nahi hoti to Pfand itna zyada kyun hai?" },
+        { "s": "A", "de": "Damit die Leute sie zurückbringen und nicht einfach wegwerfen. Das hohe Pfand ist ein Anreiz.", "en": "So that people bring it back and don't just throw it away. The high deposit is an incentive.", "ur": "Taake log usay wapis lein aur yun hi na phenk dein. Zyada Pfand ek prerna hai." },
+        { "s": "B", "de": "Verstehe. Und woran erkenne ich beim Einkaufen im Regal den Unterschied?", "en": "I understand. And how do I recognise the difference when shopping at the shelf?", "ur": "Samajh gayi. Aur khareedari karte waqt regal par farq kaise pehchanoon?" },
+        { "s": "A", "de": "Auf dem Etikett steht meistens ein kleines Symbol mit dem Pfandbetrag.", "en": "On the label there is usually a small symbol with the deposit amount.", "ur": "Label par aksar ek chhota symbol hota hai jis par Pfand ki raqam likhi hoti hai." },
+        { "s": "B", "de": "Gut, darauf achte ich jetzt beim nächsten Einkauf.", "en": "Good, I'll pay attention to that on my next shopping trip.", "ur": "Acha, ab agli baar khareedari mein iska khayal rakhoongi." },
+        { "s": "A", "de": "Genau, dann kaufen Sie bewusster und vermeiden unnötigen Plastikmüll.", "en": "Exactly, then you shop more consciously and avoid unnecessary plastic waste.", "ur": "Bilkul, phir aap zyada samajhdari se khareedengi aur fuzool plastic kachra bachengi." },
+        { "s": "B", "de": "Das ist ein guter Grund, ab jetzt mehr auf Mehrweg zu achten. Vielen Dank für die Erklärung.", "en": "That's a good reason to pay more attention to reusable from now on. Thank you for the explanation.", "ur": "Yeh Mehrweg par zyada dhayan dene ki acchi wajah hai. Wazahat ka shukriya." },
+        { "s": "A", "de": "Sehr gerne. Fragen Sie ruhig, wenn Sie sich mal unsicher sind.", "en": "You're very welcome. Feel free to ask if you're ever unsure.", "ur": "Bohat khushi se. Agar kabhi confuse hon to zaroor poochein." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Darf ich fragen, warum Sie die Flaschen so genau sortieren, bevor Sie sie einwerfen?", "en": "May I ask why you're sorting the bottles so carefully before putting them in?", "ur": "Kya main poochoon aap bottles itni ghaur se kyun chhant rahi hain andar daalne se pehle?" },
+        { "s": "B", "de": "Ich versuche herauszufinden, welche Mehrweg und welche Einweg sind, aber es fällt mir schwer.", "en": "I'm trying to figure out which are reusable and which are single-use, but I find it hard.", "ur": "Main pata karne ki koshish kar rahi hoon kaunsi Mehrweg hain aur kaunsi Einweg, lekin mushkil lag raha hai." },
+        { "s": "A", "de": "Das müssen Sie eigentlich gar nicht selbst herausfinden, der Automat erledigt das ohnehin automatisch.", "en": "You actually don't need to figure that out yourself at all, the machine handles that automatically anyway.", "ur": "Aap ko yeh khud pata karne ki zaroorat hi nahi, machine yeh khud hi kar leti hai." },
+        { "s": "B", "de": "Ach so, das wusste ich nicht. Mich interessiert trotzdem, wie sich die beiden Systeme unterscheiden.", "en": "Oh, I didn't know that. I'm still interested in how the two systems differ.", "ur": "Acha, mujhe yeh pata nahi tha. Phir bhi mujhe jaanna hai ke dono systems mein farq kya hai." },
+        { "s": "A", "de": "Beim Mehrwegsystem wird die Flasche im Schnitt bis zu fünfzig Mal wiederbefüllt, bevor sie ausgemustert wird.", "en": "In the reusable system, the bottle is refilled on average up to fifty times before being retired.", "ur": "Mehrweg system mein bottle aoosatan pachaas martaba tak dobara bhari jati hai, phir riyaayer hoti hai." },
+        { "s": "B", "de": "Und die Einwegflasche wird nach einer einzigen Benutzung eingeschmolzen oder geschreddert?", "en": "And the single-use bottle is melted down or shredded after a single use?", "ur": "Aur Einweg bottle ek hi istemal ke baad pighla di jati hai ya kaat di jati hai?" },
+        { "s": "A", "de": "Genau, das Material wird aber weiterverwertet, meistens für neue Verpackungen oder Textilien.", "en": "Exactly, but the material gets recycled, mostly for new packaging or textiles.", "ur": "Bilkul, lekin material dobara istemal hota hai, aksar naye packaging ya kapron ke liye." },
+        { "s": "B", "de": "Warum entscheiden sich Hersteller dann überhaupt für Einweg, wenn Mehrweg umweltfreundlicher ist?", "en": "Why do manufacturers then decide on single-use at all, if reusable is more environmentally friendly?", "ur": "To manufacturer Einweg kyun chunte hain agar Mehrweg zyada maahol dost hai?" },
+        { "s": "A", "de": "Oft wegen der Logistik. Einwegflaschen sind leichter zu transportieren, weil sie weniger wiegen.", "en": "Often because of logistics. Single-use bottles are easier to transport because they weigh less.", "ur": "Aksar logistics ki wajah se. Einweg bottles le jana asaan hota hai kyun ke un ka wazan kam hota hai." },
+        { "s": "B", "de": "Das leuchtet mir ein. Trotzdem versuche ich künftig, bewusst Mehrweg zu kaufen.", "en": "That makes sense to me. Still, I'll try to buy reusable consciously in the future.", "ur": "Yeh samajh aa gaya. Phir bhi main aainda samajhdari se Mehrweg khareedne ki koshish karoongi." },
+        { "s": "A", "de": "Eine gute Entscheidung. Achten Sie beim Kauf einfach auf das kleine Mehrweg-Symbol auf dem Etikett.", "en": "A good decision. Just pay attention to the small reusable symbol on the label when buying.", "ur": "Acha faisla hai. Bas khareedte waqt label par chhote Mehrweg symbol ka khayal rakhein." },
+        { "s": "B", "de": "Und falls ich mal unsicher bin, kann ich dann einfach hier am Automaten nachfragen?", "en": "And if I'm ever unsure, can I just ask here at the machine?", "ur": "Aur agar kabhi confuse hoon to kya yahan machine par pooch sakti hoon?" },
+        { "s": "A", "de": "Selbstverständlich, oder Sie schauen einfach auf die Anzeige, die zeigt Ihnen den genauen Pfandbetrag pro Flasche.", "en": "Of course, or you just look at the display, it shows you the exact deposit amount per bottle.", "ur": "Zaroor, ya bas display dekhein, woh har bottle ka theek Pfand raqam dikhata hai." },
+        { "s": "B", "de": "Das hilft mir sehr weiter. Vielen Dank für die ausführliche Erklärung.", "en": "That helps me a lot. Thank you for the detailed explanation.", "ur": "Yeh mujhe bohat madad deta hai. Tafseeli wazahat ka shukriya." },
+        { "s": "A", "de": "Immer wieder gerne, Frau Yilmaz.", "en": "Always happy to help, Mrs Yilmaz.", "ur": "Hamesha khushi se, Frau Yilmaz." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Sie scheinen sich intensiv mit den unterschiedlichen Pfandbeträgen zu beschäftigen. Kann ich Ihnen etwas dazu erklären?", "en": "You seem to be studying the different deposit amounts intensively. Can I explain something to you about it?", "ur": "Aap Pfand ki alag alag raqam par kaafi ghaur kar rahi hain. Kya main aap ko is baare mein kuch bataoon?" },
+        { "s": "B", "de": "Gerne. Mich verwirrt vor allem, dass manche Plastikflaschen weniger Pfand haben als andere.", "en": "Gladly. What confuses me above all is that some plastic bottles have less deposit than others.", "ur": "Zaroor. Mujhe khaas kar yeh uljhata hai ke kuch plastic bottles par kam Pfand hota hai." },
+        { "s": "A", "de": "Das liegt daran, dass nicht jede Plastikflasche automatisch Einweg ist. Es gibt auch Mehrweg-Plastikflaschen, meist an der stabileren Form erkennbar.", "en": "That's because not every plastic bottle is automatically single-use. There are also reusable plastic bottles, usually recognisable by the sturdier shape.", "ur": "Iski wajah yeh hai ke har plastic bottle khud-b-khud Einweg nahi hoti. Mehrweg plastic bottles bhi hoti hain, aksar mazboot shakal se pehchani jati hain." },
+        { "s": "B", "de": "Das war mir tatsächlich nicht bewusst. Wie unterscheidet sich das Recycling der beiden Materialien konkret?", "en": "I honestly wasn't aware of that. How does the recycling of the two materials specifically differ?", "ur": "Yeh mujhe waqai maloom nahi tha. Dono materials ka recycling asal mein kaise mukhtalif hai?" },
+        { "s": "A", "de": "Glas wird eingeschmolzen und lässt sich nahezu unbegrenzt oft wiederverwerten, ohne an Qualität zu verlieren.", "en": "Glass is melted down and can be recycled almost indefinitely without losing quality.", "ur": "Glass pighlaya jata hai aur taqreeban be-hisab dafa dobara istemal ho sakta hai, quality kharab hue bagair." },
+        { "s": "B", "de": "Und bei Kunststoff funktioniert das nicht so gut?", "en": "And with plastic that doesn't work as well?", "ur": "Aur plastic mein yeh utna acha kaam nahi karta?" },
+        { "s": "A", "de": "Genau, die Kunststofffasern werden bei jedem Recyclingprozess etwas kürzer, sodass die Qualität mit der Zeit abnimmt.", "en": "Exactly, the plastic fibres get somewhat shorter with each recycling process, so the quality decreases over time.", "ur": "Bilkul, plastic ke resey har recycling process mein thore chhote hote jate hain, is liye quality waqt ke saath kam hoti hai." },
+        { "s": "B", "de": "Das erklärt einiges. Gibt es eigentlich politische Bestrebungen, das Verhältnis zugunsten von Mehrweg zu verschieben?", "en": "That explains quite a bit. Are there actually political efforts to shift the balance in favour of reusable?", "ur": "Yeh kaafi kuch samjha deta hai. Kya siyaasi koshishein bhi hain ke tanaasub Mehrweg ki taraf badla jaye?" },
+        { "s": "A", "de": "Ja, es gibt gesetzliche Mehrwegquoten, die Supermärkte einhalten müssen, allerdings werden diese oft nur knapp erreicht.", "en": "Yes, there are statutory reusable quotas that supermarkets have to comply with, although these are often only just barely met.", "ur": "Ji, sarkari Mehrweg quotas hain jo supermarkets ko poore karne hote hain, lekin aksar yeh sirf mushkil se poore hote hain." },
+        { "s": "B", "de": "Interessant, davon hatte ich noch nie gehört. Beeinflusst das denn auch, welche Flaschen hier im Laden angeboten werden?", "en": "Interesting, I'd never heard of that before. Does that also influence which bottles are offered here in the store?", "ur": "Dilchasp, main ne yeh pehle kabhi nahi suna. Kya isse yeh bhi tay hota hai ke store mein kaunsi bottles milengi?" },
+        { "s": "A", "de": "Durchaus, größere Ketten setzen zunehmend auf Mehrwegangebote, unter anderem wegen des Drucks von umweltbewussten Kunden wie Ihnen.", "en": "Definitely, larger chains are increasingly focusing on reusable offerings, partly because of pressure from environmentally conscious customers like you.", "ur": "Zaroor, bari chains zyada tar Mehrweg ki taraf ja rahi hain, kuch had tak aap jaise maahol-shanaas customers ke dabao ki wajah se." },
+        { "s": "B", "de": "Das freut mich zu hören. Ich werde ab jetzt bewusster darauf achten, welche Flaschen ich überhaupt kaufe.", "en": "That's good to hear. I'll pay more conscious attention from now on to which bottles I buy at all.", "ur": "Yeh sun kar khushi hui. Ab main zyada dhyan se dekhungi ke main kaunsi bottles khareed rahi hoon." },
+        { "s": "A", "de": "Eine kleine, aber wirksame Entscheidung. Am besten orientieren Sie sich am Mehrwegsymbol direkt im Regal.", "en": "A small but effective decision. It's best to orient yourself by the reusable symbol right there on the shelf.", "ur": "Ek chhota lekin asardaar faisla. Behtareen tareeqa yeh hai ke aap regal par hi Mehrweg symbol dekhein." },
+        { "s": "B", "de": "Werde ich tun. Vielen Dank für diesen aufschlussreichen Einblick, Herr Winter.", "en": "I will do that. Thank you very much for this enlightening insight, Mr Winter.", "ur": "Zaroor karoongi. Is roshan khayaal maloomat ka bohat shukriya, Herr Winter." },
+        { "s": "A", "de": "Sehr gerne, ich freue mich immer über interessierte Kundinnen wie Sie.", "en": "You're very welcome, I always enjoy customers as interested as you.", "ur": "Bohat khushi se, mujhe hamesha aap jaisi dilchasp customers se khushi hoti hai." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Herr Winter zeigt Ihnen zwei Flaschen mit unterschiedlichem Pfand.",
+        "en": "Mr Winter shows you two bottles with different deposits.",
+        "ur": "Herr Winter aap ko do bottles dikhata hai jin ka Pfand alag hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Diese Flasche hat acht Cent Pfand, diese hier fünfundzwanzig Cent.",
+          "goal": { "en": "Ask why that's so different.", "ur": "Poochein ke yeh itna farq kyun hai." },
+          "options": ["Warum ist das so unterschiedlich?", "Warum ist der Unterschied so groß?"],
+          "fallback": "Interessiert Sie der Unterschied?",
+          "accept": [{ "kw": ["warum", "unterschiedlich"], "next": "n2" }, { "kw": ["unterschied"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Diese Flasche ist Mehrweg. Sie wird gereinigt und wiederverwendet.",
+          "goal": { "en": "Ask about the other bottle.", "ur": "Doosri bottle ke baare mein poochein." },
+          "options": ["Und die andere Flasche?", "Was ist mit der anderen Flasche?"],
+          "fallback": "Möchten Sie mehr über die andere Flasche wissen?",
+          "accept": [{ "kw": ["andere", "flasche"], "next": "n3" }, { "kw": ["andere"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das ist Einweg. Sie wird nur einmal benutzt.",
+          "goal": { "en": "Ask if single-use is made of plastic.", "ur": "Poochein ke kya Einweg plastic ki hoti hai." },
+          "options": ["Ist Einweg aus Kunststoff?", "Ist das eine Plastikflasche?"],
+          "fallback": "Wissen Sie, woraus Einweg besteht?",
+          "accept": [{ "kw": ["kunststoff"], "next": "n4" }, { "kw": ["plastikflasche"], "next": "n4" }, { "kw": ["plastik"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Meistens ja, das ist eine Plastikflasche.",
+          "goal": { "en": "Ask about the glass bottle.", "ur": "Glass bottle ke baare mein poochein." },
+          "options": ["Und diese Glasflasche hier?", "Was ist mit der Glasflasche?"],
+          "fallback": "Kennen Sie die Glasflasche?",
+          "accept": [{ "kw": ["glasflasche"], "next": "n5" }, { "kw": ["glas"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Die ist auch Mehrweg. Glas hält viele Jahre.",
+          "goal": { "en": "Ask how to quickly recognise the difference.", "ur": "Poochein ke farq jaldi kaise pehchanein." },
+          "options": ["Woran erkenne ich den Unterschied schnell?", "Wie erkenne ich das schnell?"],
+          "fallback": "Möchten Sie einen Tipp?",
+          "accept": [{ "kw": ["woran", "unterschied"], "next": "n6" }, { "kw": ["erkenne"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Am Symbol auf dem Etikett.",
+          "goal": { "en": "Say you understand better now and thank him.", "ur": "Kahein ke ab behtar samajh aaya, shukriya." },
+          "options": ["Ah, jetzt verstehe ich es besser. Danke schön.", "Jetzt verstehe ich es. Vielen Dank."],
+          "fallback": "Ist das jetzt klar?",
+          "accept": [
+            { "kw": ["danke", "verstehe"], "reply": "Gern geschehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie möchten genau verstehen, warum Mehrweg und Einweg unterschiedlich hohes Pfand haben.",
+        "en": "You want to understand exactly why reusable and single-use have different deposit amounts.",
+        "ur": "Aap theek se samajhna chahti hain ke Mehrweg aur Einweg ka Pfand kyun alag hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Darf ich fragen, warum Sie die Flaschen so genau sortieren?",
+          "goal": { "en": "Say you're trying to figure out which are reusable and which single-use.", "ur": "Kahein ke aap pata karne ki koshish kar rahi hain kaunsi Mehrweg hain kaunsi Einweg." },
+          "options": ["Ich versuche herauszufinden, welche Mehrweg und welche Einweg sind.", "Ich möchte wissen, welche Flaschen Mehrweg sind und welche Einweg."],
+          "fallback": "Was versuchen Sie herauszufinden?",
+          "accept": [{ "kw": ["mehrweg", "einweg"], "next": "n2" }, { "kw": ["herausfinden"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das müssen Sie nicht selbst herausfinden, der Automat erledigt das automatisch.",
+          "goal": { "en": "Say you're still interested how the two systems differ.", "ur": "Kahein phir bhi jaanna hai dono systems mein farq kya hai." },
+          "options": ["Mich interessiert trotzdem, wie sich die beiden Systeme unterscheiden.", "Ich möchte trotzdem den Unterschied verstehen."],
+          "fallback": "Möchten Sie den Unterschied trotzdem verstehen?",
+          "accept": [{ "kw": ["unterscheiden"], "next": "n3" }, { "kw": ["unterschied", "verstehen"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Beim Mehrwegsystem wird die Flasche im Schnitt bis zu fünfzig Mal wiederbefüllt.",
+          "goal": { "en": "Ask if the single-use bottle is melted down or shredded after one use.", "ur": "Poochein ke kya Einweg bottle pighla ya kaati jati hai." },
+          "options": ["Wird die Einwegflasche nach einer Benutzung eingeschmolzen oder geschreddert?", "Was passiert mit der Einwegflasche nach einer Benutzung?"],
+          "fallback": "Was denken Sie, passiert mit der Einwegflasche?",
+          "accept": [{ "kw": ["eingeschmolzen", "geschreddert"], "next": "n4" }, { "kw": ["einwegflasche"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Genau, das Material wird weiterverwertet, meistens für neue Verpackungen.",
+          "goal": { "en": "Ask why manufacturers choose single-use at all if reusable is more eco-friendly.", "ur": "Poochein ke manufacturer Einweg kyun chunte hain agar Mehrweg zyada maahol dost hai." },
+          "options": ["Warum entscheiden sich Hersteller dann für Einweg, wenn Mehrweg umweltfreundlicher ist?", "Warum gibt es dann überhaupt Einweg?"],
+          "fallback": "Haben Sie eine Vermutung, warum es Einweg gibt?",
+          "accept": [{ "kw": ["hersteller", "einweg"], "next": "n5" }, { "kw": ["umweltfreundlicher"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Oft wegen der Logistik. Einwegflaschen sind leichter zu transportieren.",
+          "goal": { "en": "Say that makes sense and you'll try to buy reusable consciously.", "ur": "Kahein samajh aa gaya, aap Mehrweg khareedne ki koshish karengi." },
+          "options": ["Das leuchtet mir ein. Ich versuche künftig, bewusst Mehrweg zu kaufen.", "Verstehe. Ich kaufe ab jetzt bewusster Mehrweg."],
+          "fallback": "Werden Sie in Zukunft mehr auf Mehrweg achten?",
+          "accept": [{ "kw": ["leuchtet", "mehrweg"], "next": "n6" }, { "kw": ["bewusst", "mehrweg"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Eine gute Entscheidung. Achten Sie einfach auf das Mehrweg-Symbol auf dem Etikett.",
+          "goal": { "en": "Thank him for the detailed explanation.", "ur": "Tafseeli wazahat ka shukriya karein." },
+          "options": ["Das hilft mir sehr weiter. Vielen Dank für die ausführliche Erklärung.", "Vielen Dank für die ausführliche Erklärung."],
+          "fallback": "War die Erklärung hilfreich?",
+          "accept": [
+            { "kw": ["danke", "erklärung"], "reply": "Immer wieder gerne!", "next": "END" },
+            { "kw": ["danke"], "reply": "Immer wieder gerne!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

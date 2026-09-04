@@ -1,0 +1,11 @@
+{
+  "id": "einkaufen",
+  "order": 2,
+  "icon": "🛒",
+  "title": {
+    "de": "Einkaufen",
+    "en": "Shopping",
+    "ur": "Khareedari"
+  },
+  "intro": "Supermarkt, Wochenmarkt, Bäckerei, Metzgerei und Pfandautomat — alles, was man beim täglichen Einkaufen in Deutschland sagen und verstehen muss."
+}

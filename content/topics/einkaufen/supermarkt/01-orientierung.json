@@ -1,0 +1,220 @@
+{
+  "id": "orientierung",
+  "order": 1,
+  "icon": "🧭",
+  "title": { "de": "Wo finde ich das?", "en": "Where do I find that?", "ur": "Yeh kahan milega?" },
+  "angle": "Asking a staff member for directions inside the supermarket · Supermarket mein cheezein dhoondne ke liye staff se poochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["gang", "regal", "abteilung", "einkaufswagen", "einkaufskorb", "kühlregal", "tiefkühltruhe", "mitarbeiter", "eingang", "ausgang"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Kann ich Ihnen helfen?", "en": "Hello! Can I help you?", "ur": "Salam! Kya main aap ki madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich suche die Milch.", "en": "Hello. I'm looking for the milk.", "ur": "Salam. Mujhe milk chahiye." },
+        { "s": "A", "de": "Die Milch ist im Kühlregal, Gang drei.", "en": "The milk is in the chiller section, aisle three.", "ur": "Milk cold shelf mein hai, gang teen." },
+        { "s": "B", "de": "Danke. Und wo ist das Brot?", "en": "Thanks. And where is the bread?", "ur": "Shukriya. Aur roti kahan hai?" },
+        { "s": "A", "de": "Das Brot ist vorne, Abteilung eins.", "en": "The bread is at the front, section one.", "ur": "Roti aagay hai, section ek." },
+        { "s": "B", "de": "Und der Käse?", "en": "And the cheese?", "ur": "Aur cheese?" },
+        { "s": "A", "de": "Der Käse ist auch im Kühlregal.", "en": "The cheese is also in the chiller section.", "ur": "Cheese bhi cold shelf mein hai." },
+        { "s": "B", "de": "Wo finde ich einen Einkaufswagen?", "en": "Where do I find a shopping cart?", "ur": "Trolley kahan milegi?" },
+        { "s": "A", "de": "Die Einkaufswagen stehen draußen am Eingang.", "en": "The shopping carts are outside at the entrance.", "ur": "Trolleys bahar entrance par hain." },
+        { "s": "B", "de": "Und ein Einkaufskorb?", "en": "And a shopping basket?", "ur": "Aur basket?" },
+        { "s": "A", "de": "Die Einkaufskörbe sind direkt hier links.", "en": "The shopping baskets are right here on the left.", "ur": "Baskets yahin bayen taraf hain." },
+        { "s": "B", "de": "Vielen Dank für die Hilfe.", "en": "Thank you very much for the help.", "ur": "Madad ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Noch einen schönen Einkauf!", "en": "You're welcome. Enjoy the rest of your shopping!", "ur": "Koi baat nahi. Acha shopping karein!" },
+        { "s": "B", "de": "Danke, Ihnen auch!", "en": "Thanks, you too!", "ur": "Shukriya, aap ko bhi!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, kann ich Ihnen weiterhelfen?", "en": "Hello, can I help you further?", "ur": "Salam, kya main aap ki aur madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich finde das Obst nicht.", "en": "Hello. I can't find the fruit.", "ur": "Salam. Mujhe phal nahi mil rahe." },
+        { "s": "A", "de": "Das Obst liegt direkt vorne, neben dem Gemüse.", "en": "The fruit is right at the front, next to the vegetables.", "ur": "Phal bilkul aagay, sabziyon ke bagal mein hain." },
+        { "s": "B", "de": "Ah, danke. Und wo finde ich Tiefkühlpizza?", "en": "Ah, thanks. And where do I find frozen pizza?", "ur": "Acha, shukriya. Aur frozen pizza kahan milegi?" },
+        { "s": "A", "de": "Die Tiefkühltruhe ist hinten in Gang sechs.", "en": "The freezer section is at the back in aisle six.", "ur": "Freezer peeche gang chhe mein hai." },
+        { "s": "B", "de": "Vielen Dank. Steht in der Fleischabteilung auch ein Mitarbeiter?", "en": "Thank you. Is there also a staff member at the meat counter?", "ur": "Bohat shukriya. Kya meat section mein bhi koi staff member hota hai?" },
+        { "s": "A", "de": "Ja, in dieser Abteilung steht immer ein Mitarbeiter bereit.", "en": "Yes, in that department there's always a staff member ready to help.", "ur": "Ji haan, us section mein hamesha ek staff member maujood hota hai." },
+        { "s": "B", "de": "Perfekt. Und der Kaffee, in welchem Regal?", "en": "Perfect. And the coffee, on which shelf?", "ur": "Bohat acha. Aur coffee, kaunse shelf par?" },
+        { "s": "A", "de": "Der Kaffee steht im Regal neben dem Tee, Gang vier.", "en": "The coffee is on the shelf next to the tea, aisle four.", "ur": "Coffee tea ke bagal wale shelf par hai, gang chaar." },
+        { "s": "B", "de": "Brauche ich für den Einkaufswagen eine Münze?", "en": "Do I need a coin for the shopping cart?", "ur": "Kya trolley ke liye sikka chahiye?" },
+        { "s": "A", "de": "Ja, eine Münze oder einen Euro als Pfand.", "en": "Yes, a coin or one euro as a deposit.", "ur": "Ji haan, sikka ya ek euro deposit ke tor par." },
+        { "s": "B", "de": "Gut zu wissen. Wo ist der Ausgang?", "en": "Good to know. Where is the exit?", "ur": "Acha maloom hua. Exit kahan hai?" },
+        { "s": "A", "de": "Der Ausgang ist neben der Kasse, ganz vorne.", "en": "The exit is next to the checkout, right at the front.", "ur": "Exit checkout ke bagal mein, bilkul aagay hai." },
+        { "s": "B", "de": "Vielen Dank für die ganze Hilfe.", "en": "Thank you very much for all the help.", "ur": "Puri madad ka bohat shukriya." },
+        { "s": "A", "de": "Sehr gern. Kommen Sie gut durch den Supermarkt!", "en": "You're very welcome. Have a good time in the supermarket!", "ur": "Bohat khushi se. Supermarket mein acha waqt guzaarein!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, suchen Sie etwas Bestimmtes?", "en": "Hello, are you looking for something specific?", "ur": "Salam, kya aap kuch khaas dhoondh rahi hain?" },
+        { "s": "B", "de": "Ja, ich war schon lange nicht mehr hier und finde mich nicht zurecht.", "en": "Yes, I haven't been here in a long time and I can't find my way around.", "ur": "Ji haan, main kaafi arse baad aayi hoon aur raasta nahi mil raha." },
+        { "s": "A", "de": "Kein Problem. Was steht denn auf Ihrem Einkaufszettel?", "en": "No problem. What's on your shopping list?", "ur": "Koi baat nahi. Aap ki shopping list mein kya hai?" },
+        { "s": "B", "de": "Ich brauche vor allem Zutaten für ein Abendessen, unter anderem frisches Gemüse.", "en": "I mainly need ingredients for a dinner, among other things fresh vegetables.", "ur": "Mujhe khaas kar dinner ke liye ajza chahiye, jin mein taaza sabziyan bhi hain." },
+        { "s": "A", "de": "Das frische Gemüse und Obst finden Sie ganz vorne, direkt am Eingang.", "en": "You'll find the fresh vegetables and fruit right at the front, directly at the entrance.", "ur": "Taaza sabziyan aur phal bilkul aagay, entrance ke bilkul saath milengi." },
+        { "s": "B", "de": "Und wenn ich zusätzlich noch etwas aus der Tiefkühltruhe brauche?", "en": "And if I additionally need something from the freezer section?", "ur": "Aur agar mujhe freezer se bhi kuch chahiye ho?" },
+        { "s": "A", "de": "Dann gehen Sie am besten den Hauptgang entlang bis zum letzten Regal.", "en": "Then it's best to walk along the main aisle to the last shelf.", "ur": "To behtar hai main gang ke saath aakhri shelf tak jayein." },
+        { "s": "B", "de": "Gibt es in dieser Abteilung auch einen Mitarbeiter, falls ich Fragen habe?", "en": "Is there also a staff member in this department, in case I have questions?", "ur": "Kya is section mein bhi koi staff member hota hai, agar mujhe sawal ho?" },
+        { "s": "A", "de": "Ja, dort steht meistens jemand von unserem Team bereit.", "en": "Yes, someone from our team is usually there ready to help.", "ur": "Ji haan, wahan aksar hamari team ka koi na koi member maujood hota hai." },
+        { "s": "B", "de": "Sehr gut. Und wo finde ich einen größeren Einkaufswagen für die ganze Familie?", "en": "Very good. And where do I find a bigger shopping cart for the whole family?", "ur": "Bohat acha. Aur poori family ke liye bari trolley kahan milegi?" },
+        { "s": "A", "de": "Die großen Einkaufswagen stehen draußen, die kleineren Körbe finden Sie hier drinnen.", "en": "The big shopping carts are outside, you'll find the smaller baskets here inside.", "ur": "Bari trolleys bahar hain, choti baskets aap ko yahan andar milengi." },
+        { "s": "B", "de": "Perfekt, das hilft mir wirklich weiter.", "en": "Perfect, that really helps me.", "ur": "Bohat behtar, yeh sach mein meri madad karega." },
+        { "s": "A", "de": "Falls Sie sich trotzdem nicht zurechtfinden, sprechen Sie einfach jeden Mitarbeiter an.", "en": "If you still can't find your way, just speak to any staff member.", "ur": "Agar phir bhi raasta na milay to kisi bhi staff member se baat kar lein." },
+        { "s": "B", "de": "Das mache ich. Vielen Dank für die ausführliche Erklärung.", "en": "I'll do that. Thank you for the detailed explanation.", "ur": "Zaroor. Tafseeli wazahat ka shukriya." },
+        { "s": "A", "de": "Gern geschehen. Viel Erfolg beim Einkaufen!", "en": "You're welcome. Good luck with your shopping!", "ur": "Koi baat nahi. Shopping mein kamyabi ho!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Sie sehen etwas ratlos aus. Kann ich Ihnen weiterhelfen?", "en": "Hello, you look a bit lost. Can I help you?", "ur": "Salam, aap thori pareshan lag rahi hain. Kya main madad karoon?" },
+        { "s": "B", "de": "Ehrlich gesagt schon. Der Supermarkt wurde offenbar umgebaut, seit ich das letzte Mal hier war.", "en": "Honestly, yes. The supermarket has apparently been rearranged since I was last here.", "ur": "Sach kahoon to haan. Supermarket jab se main pehle aayi thi, tab se badal gaya lagta hai." },
+        { "s": "A", "de": "Das stimmt, wir haben die Abteilungen im letzten Monat neu geordnet.", "en": "That's right, we reorganised the departments last month.", "ur": "Yeh theek hai, hum ne pichle mahine sections dobara tartib diye hain." },
+        { "s": "B", "de": "Dann erklären Sie mir am besten, wie der Laden jetzt aufgebaut ist.", "en": "Then you'd best explain to me how the store is laid out now.", "ur": "To behtar hai aap mujhe batayein ke ab dukaan kis tarah ki hai." },
+        { "s": "A", "de": "Gerne. Rechts vom Eingang beginnt die Obst- und Gemüseabteilung, danach folgt die Bäckerei.", "en": "Gladly. To the right of the entrance the fruit and vegetable section starts, then the bakery follows.", "ur": "Zaroor. Entrance ke dayen taraf phal aur sabziyon ka section shuru hota hai, phir bakery aati hai." },
+        { "s": "B", "de": "Und wo befinden sich die Kühlregale mit Milch und Käse im Vergleich dazu?", "en": "And where are the chiller shelves with milk and cheese in comparison to that?", "ur": "Aur milk aur cheese wale cold shelves kahan hain us ke muqable mein?" },
+        { "s": "A", "de": "Die Kühlregale ziehen sich durch die gesamte hintere Wand des Ladens.", "en": "The chiller shelves run along the entire back wall of the store.", "ur": "Cold shelves poori peechhli deewar ke saath phaile hue hain." },
+        { "s": "B", "de": "Verstehe. Und die Tiefkühltruhen, sind die getrennt davon?", "en": "I see. And the freezer sections, are they separate from that?", "ur": "Samajh gayi. Aur freezer sections, kya woh us se alag hain?" },
+        { "s": "A", "de": "Genau, die Tiefkühltruhen stehen in der Mitte, zwischen den anderen Gängen.", "en": "Exactly, the freezer sections are in the middle, between the other aisles.", "ur": "Bilkul, freezer sections beech mein, doosre gangs ke darmiyan hain." },
+        { "s": "B", "de": "Gibt es eigentlich in jeder Abteilung einen Mitarbeiter, an den ich mich wenden kann?", "en": "Is there actually a staff member in every department that I can turn to?", "ur": "Kya har section mein koi staff member hota hai jis se main rabta kar sakoon?" },
+        { "s": "A", "de": "In den meisten Abteilungen ja, besonders in der Fleisch- und Käseabteilung.", "en": "In most departments yes, especially in the meat and cheese department.", "ur": "Zyada tar sections mein haan, khaas kar meat aur cheese section mein." },
+        { "s": "B", "de": "Das beruhigt mich. Und wo finde ich einen Einkaufswagen, der nicht so schwer zu schieben ist?", "en": "That reassures me. And where do I find a shopping cart that isn't so hard to push?", "ur": "Isse tasalli hui. Aur woh trolley kahan milegi jo dhakelnay mein aasan ho?" },
+        { "s": "A", "de": "Die kleineren Einkaufswagen stehen extra rechts neben den Eingängen bereit.", "en": "The smaller shopping carts are placed extra to the right next to the entrances.", "ur": "Choti trolleys khaas taur par entrance ke dayen taraf rakhi hoti hain." },
+        { "s": "B", "de": "Wunderbar. Dann finde ich mich jetzt hoffentlich besser zurecht.", "en": "Wonderful. Then hopefully I'll find my way around better now.", "ur": "Bohat khoob. Ab umeed hai mujhe raasta behtar samajh aa jayega." },
+        { "s": "A", "de": "Falls nicht, kommen Sie einfach noch einmal zu mir an die Kasse.", "en": "If not, just come back to me at the checkout again.", "ur": "Agar nahi to seedha checkout par dobara mere paas aa jayein." },
+        { "s": "B", "de": "Das mache ich. Vielen herzlichen Dank für Ihre Geduld.", "en": "I'll do that. Thank you very much indeed for your patience.", "ur": "Zaroor. Aap ke sabar ka dil se shukriya." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Petersen, Supermarkt-Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie sind zum ersten Mal in diesem Supermarkt und suchen Milch und Brot.",
+        "en": "You're in this supermarket for the first time and are looking for milk and bread.",
+        "ur": "Aap pehli baar is supermarket mein hain aur milk aur roti dhoondh rahi hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Kann ich Ihnen helfen?",
+          "goal": { "en": "Greet and say you're looking for the milk.", "ur": "Salam karein aur kahein ke milk dhoondh rahi hain." },
+          "options": ["Guten Tag. Ich suche die Milch.", "Guten Tag, ich suche die Milch, bitte."],
+          "fallback": "Was suchen Sie denn?",
+          "accept": [{ "kw": ["guten", "milch"], "next": "n2" }, { "kw": ["milch"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Die Milch ist im Kühlregal, Gang drei.",
+          "goal": { "en": "Thank her and ask where the bread is.", "ur": "Shukriya adaa karein aur poochein roti kahan hai." },
+          "options": ["Danke. Und wo ist das Brot?", "Danke schön. Wo finde ich das Brot?"],
+          "fallback": "Brauchen Sie noch etwas?",
+          "accept": [{ "kw": ["danke", "brot"], "next": "n3" }, { "kw": ["brot"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das Brot ist vorne, Abteilung eins.",
+          "goal": { "en": "Ask where you find a shopping cart.", "ur": "Poochein trolley kahan milegi." },
+          "options": ["Wo finde ich einen Einkaufswagen?", "Und wo bekomme ich einen Einkaufswagen?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["einkaufswagen"], "next": "n4" }, { "kw": ["wagen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Die Einkaufswagen stehen draußen am Eingang.",
+          "goal": { "en": "Thank him for the help.", "ur": "Madad ke liye shukriya adaa karein." },
+          "options": ["Vielen Dank für die Hilfe.", "Danke schön für die Hilfe."],
+          "fallback": "Ist das so weit klar?",
+          "accept": [{ "kw": ["danke", "hilfe"], "next": "n5" }, { "kw": ["danke"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gern geschehen. Noch einen schönen Einkauf!",
+          "goal": { "en": "Say thanks, you too, and say goodbye.", "ur": "Shukriya, aap ko bhi, aur khuda hafiz kahein." },
+          "options": ["Danke, Ihnen auch! Auf Wiedersehen.", "Danke, ebenfalls! Auf Wiedersehen."],
+          "fallback": "Kann ich noch etwas für Sie tun?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen!", "next": "n6" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "n6" }
+          ]
+        },
+        "n6": {
+          "say": "Auf Wiedersehen!",
+          "goal": { "en": "Say goodbye once more to close the conversation.", "ur": "Ek baar phir khuda hafiz kahein." },
+          "options": ["Auf Wiedersehen!", "Tschüss!"],
+          "fallback": "Bis bald!",
+          "accept": [
+            { "kw": ["wiedersehen"], "reply": "Bis bald!", "next": "END" },
+            { "kw": ["tschüss"], "reply": "Bis bald!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Petersen, Supermarkt-Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Der Supermarkt wurde umgebaut. Sie finden sich nicht mehr zurecht und brauchen Zutaten für ein Abendessen.",
+        "en": "The supermarket has been rearranged. You can't find your way around anymore and need ingredients for a dinner.",
+        "ur": "Supermarket badal gaya hai. Aap ka raasta nahi mil raha aur dinner ke liye ajza chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, suchen Sie etwas Bestimmtes?",
+          "goal": { "en": "Say yes and that you can't find your way around.", "ur": "Kahein haan, aur raasta nahi mil raha." },
+          "options": ["Ja, ich finde mich hier nicht zurecht.", "Ja, ich komme hier nicht mehr zurecht."],
+          "fallback": "Was genau brauchen Sie denn?",
+          "accept": [{ "kw": ["ja", "zurecht"], "next": "n2" }, { "kw": ["zurecht"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Problem. Was steht denn auf Ihrem Einkaufszettel?",
+          "goal": { "en": "Say you need ingredients for a dinner, among other things fresh vegetables.", "ur": "Kahein ke dinner ke liye ajza chahiye, jin mein taaza sabziyan bhi hain." },
+          "options": ["Ich brauche Zutaten für ein Abendessen, unter anderem frisches Gemüse.", "Ich brauche vor allem frisches Gemüse für ein Abendessen."],
+          "fallback": "Haben Sie eine Liste dabei?",
+          "accept": [{ "kw": ["zutaten", "gemüse"], "next": "n3" }, { "kw": ["gemüse"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das frische Gemüse und Obst finden Sie ganz vorne, direkt am Eingang.",
+          "goal": { "en": "Ask what to do if you also need something from the freezer section.", "ur": "Poochein ke agar freezer se bhi kuch chahiye ho to kya karein." },
+          "options": ["Und wenn ich noch etwas aus der Tiefkühltruhe brauche?", "Was, wenn ich zusätzlich etwas aus der Tiefkühltruhe brauche?"],
+          "fallback": "Brauchen Sie noch etwas anderes?",
+          "accept": [{ "kw": ["tiefkühltruhe"], "next": "n4" }, { "kw": ["tiefkühl"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Dann gehen Sie am besten den Hauptgang entlang bis zum letzten Regal.",
+          "goal": { "en": "Ask whether there is also a staff member in that department in case you have questions.", "ur": "Poochein ke us section mein bhi staff member hota hai agar sawal ho." },
+          "options": ["Gibt es dort auch einen Mitarbeiter, falls ich Fragen habe?", "Steht dort auch ein Mitarbeiter für Fragen bereit?"],
+          "fallback": "Kommen Sie damit zurecht?",
+          "accept": [{ "kw": ["mitarbeiter"], "next": "n5" }, { "kw": ["fragen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Ja, dort steht meistens jemand von unserem Team bereit.",
+          "goal": { "en": "Say that's very good and ask where you find a bigger shopping cart for the whole family.", "ur": "Kahein bohat acha aur poochein poori family ke liye bari trolley kahan milegi." },
+          "options": ["Sehr gut. Und wo finde ich einen größeren Einkaufswagen für die ganze Familie?", "Sehr gut. Wo bekomme ich einen größeren Einkaufswagen für die Familie?"],
+          "fallback": "Brauchen Sie sonst noch etwas?",
+          "accept": [{ "kw": ["einkaufswagen", "familie"], "next": "n6" }, { "kw": ["einkaufswagen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Die großen Einkaufswagen stehen draußen, die kleineren Körbe finden Sie hier drinnen.",
+          "goal": { "en": "Say that's perfect and thank him for the detailed explanation.", "ur": "Kahein bohat behtar aur tafseeli wazahat ka shukriya adaa karein." },
+          "options": ["Perfekt, vielen Dank für die ausführliche Erklärung.", "Perfekt, danke für die ausführliche Erklärung."],
+          "fallback": "Ist damit alles klar?",
+          "accept": [
+            { "kw": ["danke", "erklärung"], "reply": "Gern geschehen. Viel Erfolg beim Einkaufen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen. Viel Erfolg beim Einkaufen!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

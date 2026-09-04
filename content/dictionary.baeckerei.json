@@ -1,0 +1,2225 @@
+{
+  "ostermann": {
+    "lemma": "Ostermann",
+    "pos": "Familienname",
+    "en": "Ostermann — the baker in these conversations",
+    "ur": "Ostermann — in guftagu mein bakery wali",
+    "ex": {
+      "de": "Bäckerei Ostermann, guten Tag.",
+      "en": "Ostermann bakery, hello.",
+      "ur": "Bäckerei Ostermann, salam."
+    }
+  },
+  "elif": {
+    "lemma": "Elif",
+    "pos": "Vorname",
+    "en": "Elif — Mrs Yilmaz's daughter in these conversations",
+    "ur": "Elif — Frau Yilmaz ki beti",
+    "ex": {
+      "de": "Die Torte ist für meine Tochter Elif.",
+      "en": "The cake is for my daughter Elif.",
+      "ur": "Torte meri beti Elif ke liye hai."
+    }
+  },
+  "brötchen": {
+    "lemma": "Brötchen",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Brötchen",
+    "en": "bread roll",
+    "ur": "chhota bread roll",
+    "ex": {
+      "de": "Ich möchte sechs Brötchen, bitte.",
+      "en": "I'd like six rolls, please.",
+      "ur": "Mujhe chhe Brötchen chahiye, please."
+    }
+  },
+  "vollkornbrötchen": {
+    "lemma": "Vollkornbrötchen",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Vollkornbrötchen",
+    "en": "wholegrain roll",
+    "ur": "vollkorn (sabut anaaj) roll",
+    "ex": {
+      "de": "Vier Vollkornbrötchen, bitte.",
+      "en": "Four wholegrain rolls, please.",
+      "ur": "Chaar vollkorn Brötchen, please."
+    }
+  },
+  "weißbrötchen": {
+    "lemma": "Weißbrötchen",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Weißbrötchen",
+    "en": "white roll",
+    "ur": "white roll",
+    "ex": {
+      "de": "Zwei Weißbrötchen, bitte.",
+      "en": "Two white rolls, please.",
+      "ur": "Do white Brötchen, please."
+    }
+  },
+  "mehrkornbrötchen": {
+    "lemma": "Mehrkornbrötchen",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Mehrkornbrötchen",
+    "en": "multigrain roll",
+    "ur": "mehrkorn (kai anaaj) roll",
+    "ex": {
+      "de": "Fünf Mehrkornbrötchen, bitte.",
+      "en": "Five multigrain rolls, please.",
+      "ur": "Paanch mehrkorn Brötchen, please."
+    }
+  },
+  "vollkornbrot": {
+    "lemma": "Vollkornbrot",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Vollkornbrote",
+    "en": "wholegrain loaf",
+    "ur": "vollkorn bread",
+    "ex": {
+      "de": "Das Vollkornbrot ist ohne Nüsse.",
+      "en": "The wholegrain loaf is without nuts.",
+      "ur": "Vollkornbrot mein nuss nahi hain."
+    }
+  },
+  "mehrkornbrot": {
+    "lemma": "Mehrkornbrot",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Mehrkornbrote",
+    "en": "multigrain loaf",
+    "ur": "mehrkorn bread",
+    "ex": {
+      "de": "Ich hätte gern ein Mehrkornbrot.",
+      "en": "I'd like a multigrain loaf.",
+      "ur": "Mujhe ek mehrkorn bread chahiye."
+    }
+  },
+  "weißbrot": {
+    "lemma": "Weißbrot",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Weißbrote",
+    "en": "white loaf",
+    "ur": "white bread",
+    "ex": {
+      "de": "Haben Sie ein frisches Weißbrot?",
+      "en": "Do you have a fresh white loaf?",
+      "ur": "Kya aap ke paas fresh white bread hai?"
+    }
+  },
+  "dutzend": {
+    "lemma": "Dutzend",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Dutzende",
+    "en": "dozen",
+    "ur": "darjan (barah)",
+    "ex": {
+      "de": "Wie immer ein Dutzend Brötchen?",
+      "en": "A dozen rolls as usual?",
+      "ur": "Hamesha ki tarah ek dutzend Brötchen?"
+    }
+  },
+  "frisch": {
+    "lemma": "frisch",
+    "pos": "Adjektiv",
+    "forms": [
+      "frische",
+      "frischen",
+      "frisches"
+    ],
+    "en": "fresh",
+    "ur": "taaza / fresh",
+    "ex": {
+      "de": "Ist das Brot frisch?",
+      "en": "Is the bread fresh?",
+      "ur": "Kya yeh bread fresh hai?"
+    }
+  },
+  "knusprig": {
+    "lemma": "knusprig",
+    "pos": "Adjektiv",
+    "forms": [
+      "knusprige",
+      "knusprigen"
+    ],
+    "en": "crispy",
+    "ur": "crispy",
+    "ex": {
+      "de": "Die Brötchen sind noch knusprig.",
+      "en": "The rolls are still crispy.",
+      "ur": "Brötchen abhi bhi crispy hain."
+    }
+  },
+  "ofen": {
+    "lemma": "Ofen",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Öfen",
+    "en": "oven",
+    "ur": "oven / tandoor",
+    "ex": {
+      "de": "Das ist gerade aus dem Ofen gekommen.",
+      "en": "That just came out of the oven.",
+      "ur": "Yeh abhi abhi oven se nikla hai."
+    }
+  },
+  "wunderbar": {
+    "lemma": "wunderbar",
+    "pos": "Adjektiv",
+    "en": "wonderful",
+    "ur": "bohat acha",
+    "ex": {
+      "de": "Wunderbar, vielen Dank.",
+      "en": "Wonderful, thank you very much.",
+      "ur": "Bohat acha, bohat shukriya."
+    }
+  },
+  "mischung": {
+    "lemma": "Mischung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Mischungen",
+    "en": "mix",
+    "ur": "mixture",
+    "ex": {
+      "de": "Ich hätte gern eine andere Mischung.",
+      "en": "I'd like a different mix.",
+      "ur": "Mujhe alag mixture chahiye."
+    }
+  },
+  "rabatt": {
+    "lemma": "Rabatt",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Rabatte",
+    "en": "discount",
+    "ur": "discount",
+    "ex": {
+      "de": "Ab zehn Brötchen gebe ich Rabatt.",
+      "en": "From ten rolls on I give a discount.",
+      "ur": "Das Brötchen se zyada par discount milta hai."
+    }
+  },
+  "schneiden": {
+    "lemma": "schneiden",
+    "pos": "Verb",
+    "aux": "schneidet / schnitt / hat geschnitten",
+    "forms": [
+      "schneidet",
+      "geschnitten"
+    ],
+    "en": "to cut / to slice",
+    "ur": "kaatna",
+    "ex": {
+      "de": "Soll ich das Brot in Scheiben schneiden?",
+      "en": "Shall I slice the bread?",
+      "ur": "Kya main bread kaat doon?"
+    }
+  },
+  "scheibe": {
+    "lemma": "Scheibe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Scheiben",
+    "en": "slice",
+    "ur": "slice / tukra",
+    "ex": {
+      "de": "Soll ich das Brot in Scheiben schneiden?",
+      "en": "Shall I cut the bread into slices?",
+      "ur": "Kya main bread ko slices mein kaat doon?"
+    }
+  },
+  "backen": {
+    "lemma": "backen",
+    "pos": "Verb",
+    "aux": "bäckt / backte / hat gebacken",
+    "forms": [
+      "gebacken",
+      "bäckt"
+    ],
+    "en": "to bake",
+    "ur": "bakena",
+    "ex": {
+      "de": "Die sind alle heute Morgen gebacken.",
+      "en": "They were all baked this morning.",
+      "ur": "Woh sab aaj subh bake hui hain."
+    }
+  },
+  "großartig": {
+    "lemma": "großartig",
+    "pos": "Adjektiv",
+    "en": "great / wonderful",
+    "ur": "bohat acha",
+    "ex": {
+      "de": "Das wäre großartig.",
+      "en": "That would be great.",
+      "ur": "Yeh bohat acha hoga."
+    }
+  },
+  "tipp": {
+    "lemma": "Tipp",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Tipps",
+    "en": "tip / hint",
+    "ur": "tip / mashwara",
+    "ex": {
+      "de": "Vielen Dank für den Tipp.",
+      "en": "Thank you for the tip.",
+      "ur": "Tip ka shukriya."
+    }
+  },
+  "feiern": {
+    "lemma": "feiern",
+    "pos": "Verb",
+    "aux": "feiert / hat gefeiert",
+    "forms": [
+      "feiert",
+      "gefeiert"
+    ],
+    "en": "to celebrate",
+    "ur": "jashn mana-na",
+    "ex": {
+      "de": "Wir feiern heute Abend.",
+      "en": "We're celebrating this evening.",
+      "ur": "Hum aaj shaam jashn mana rahe hain."
+    }
+  },
+  "separat": {
+    "lemma": "separat",
+    "pos": "Adjektiv",
+    "en": "separate",
+    "ur": "alag",
+    "ex": {
+      "de": "Ich packe das Brot separat ein.",
+      "en": "I'll pack the bread separately.",
+      "ur": "Main bread alag pack karti hoon."
+    }
+  },
+  "getrennt": {
+    "lemma": "getrennt",
+    "pos": "Adjektiv / Partizip",
+    "en": "separately / separate",
+    "ur": "alag alag",
+    "ex": {
+      "de": "Getrennt wäre besser.",
+      "en": "Separately would be better.",
+      "ur": "Alag behtar hoga."
+    }
+  },
+  "zerdrücken": {
+    "lemma": "zerdrücken",
+    "pos": "Verb",
+    "aux": "zerdrückt / hat zerdrückt",
+    "forms": [
+      "zerdrückt"
+    ],
+    "en": "to crush",
+    "ur": "kuchalna",
+    "ex": {
+      "de": "Damit die Brötchen nicht zerdrückt werden.",
+      "en": "So the rolls don't get crushed.",
+      "ur": "Taake Brötchen kuchle na jayein."
+    }
+  },
+  "feuchtigkeit": {
+    "lemma": "Feuchtigkeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "moisture",
+    "ur": "namee",
+    "ex": {
+      "de": "Mehrkornbrot speichert mehr Feuchtigkeit.",
+      "en": "Multigrain bread stores more moisture.",
+      "ur": "Mehrkorn bread zyada namee rakhti hai."
+    }
+  },
+  "gelaunt": {
+    "lemma": "gelaunt",
+    "pos": "Adjektiv",
+    "en": "-moods (used in gut gelaunt = in a good mood)",
+    "ur": "mizaaj (gut gelaunt = achay mood mein)",
+    "ex": {
+      "de": "Sie sehen heute gut gelaunt aus.",
+      "en": "You look in a good mood today.",
+      "ur": "Aap aaj achay mood mein lag rahi hain."
+    }
+  },
+  "froh": {
+    "lemma": "froh",
+    "pos": "Adjektiv",
+    "en": "glad",
+    "ur": "khush",
+    "ex": {
+      "de": "Ich bin froh, dass ich früh gekommen bin.",
+      "en": "I'm glad that I came early.",
+      "ur": "Mujhe khushi hai ke main jaldi aa gayi."
+    }
+  },
+  "extra": {
+    "lemma": "extra",
+    "pos": "Adverb",
+    "en": "specially / extra",
+    "ur": "khaas tor par",
+    "ex": {
+      "de": "Viele Kunden fragen extra danach.",
+      "en": "Many customers ask for it specially.",
+      "ur": "Kai kunden khaas tor par is ke liye poochte hain."
+    }
+  },
+  "fragen": {
+    "lemma": "fragen",
+    "pos": "Verb",
+    "aux": "fragt / hat gefragt",
+    "forms": [
+      "fragt",
+      "gefragt"
+    ],
+    "en": "to ask",
+    "ur": "poochna",
+    "ex": {
+      "de": "Fragen Sie gern.",
+      "en": "Feel free to ask.",
+      "ur": "Zaroor poochein."
+    }
+  },
+  "ebenfalls": {
+    "lemma": "ebenfalls",
+    "pos": "Adverb",
+    "en": "likewise / also",
+    "ur": "aap ko bhi / usi tarah",
+    "ex": {
+      "de": "Danke, ebenfalls!",
+      "en": "Thanks, likewise!",
+      "ur": "Shukriya, aap ko bhi!"
+    }
+  },
+  "tschüss": {
+    "lemma": "tschüss",
+    "pos": "Interjektion",
+    "en": "bye",
+    "ur": "khuda hafiz (informal)",
+    "ex": {
+      "de": "Tschüss, bis bald!",
+      "en": "Bye, see you soon!",
+      "ur": "Tschüss, jald milte hain!"
+    }
+  },
+  "halbes": {
+    "lemma": "halbes",
+    "pos": "Form von halb",
+    "en": "half (neuter form: ein halbes Brot)",
+    "ur": "aadha (form: ein halbes Brot)",
+    "ex": {
+      "de": "Ein halbes Brot, bitte.",
+      "en": "A half loaf, please.",
+      "ur": "Aadhi bread, please."
+    }
+  },
+  "kunde": {
+    "lemma": "Kunde",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kunden",
+    "forms": [
+      "kundin",
+      "kundinnen"
+    ],
+    "en": "customer (Kundin = female customer)",
+    "ur": "gahak (Kundin = aurat gahak)",
+    "ex": {
+      "de": "Viele Kunden fragen extra danach.",
+      "en": "Many customers ask for it specially.",
+      "ur": "Kai kunden khaas tor par is ke liye poochte hain."
+    }
+  },
+  "kuchen": {
+    "lemma": "Kuchen",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kuchen",
+    "en": "cake",
+    "ur": "cake",
+    "ex": {
+      "de": "Kuchen mit Nüssen backen wir separat.",
+      "en": "We bake cakes with nuts separately.",
+      "ur": "Nuss wale cake hum alag bakete hain."
+    }
+  },
+  "geburtstagstorte": {
+    "lemma": "Geburtstagstorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Geburtstagstorten",
+    "en": "birthday cake",
+    "ur": "birthday cake",
+    "ex": {
+      "de": "Ich möchte eine Geburtstagstorte bestellen.",
+      "en": "I'd like to order a birthday cake.",
+      "ur": "Mujhe geburtstagstorte order karni hai."
+    }
+  },
+  "torte": {
+    "lemma": "Torte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Torten",
+    "en": "cake (layered / iced)",
+    "ur": "torte (cake)",
+    "ex": {
+      "de": "Für wie viele Personen soll die Torte sein?",
+      "en": "How many people should the cake be for?",
+      "ur": "Kitne logon ke liye torte chahiye?"
+    }
+  },
+  "schokolade": {
+    "lemma": "Schokolade",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "chocolate",
+    "ur": "chocolate",
+    "ex": {
+      "de": "Schokolade, bitte.",
+      "en": "Chocolate, please.",
+      "ur": "Schokolade, please."
+    }
+  },
+  "vanille": {
+    "lemma": "Vanille",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "vanilla",
+    "ur": "vanilla",
+    "ex": {
+      "de": "Wir haben auch Vanille.",
+      "en": "We also have vanilla.",
+      "ur": "Hamare paas vanilla bhi hai."
+    }
+  },
+  "erdbeere": {
+    "lemma": "Erdbeere",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Erdbeeren",
+    "en": "strawberry",
+    "ur": "strawberry",
+    "ex": {
+      "de": "Sie mag Erdbeeren sehr.",
+      "en": "She likes strawberries a lot.",
+      "ur": "Usay strawberry bohat pasand hai."
+    }
+  },
+  "sahne": {
+    "lemma": "Sahne",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "cream",
+    "ur": "cream",
+    "ex": {
+      "de": "Eine Torte mit pflanzlicher Sahne.",
+      "en": "A cake with plant-based cream.",
+      "ur": "Pflanzlicher cream wali torte."
+    }
+  },
+  "kerze": {
+    "lemma": "Kerze",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kerzen",
+    "en": "candle",
+    "ur": "mombatti",
+    "ex": {
+      "de": "Fünf Kerzen, bitte.",
+      "en": "Five candles, please.",
+      "ur": "Paanch mombattiyan, please."
+    }
+  },
+  "marzipan": {
+    "lemma": "Marzipan",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "marzipan",
+    "ur": "marzipan",
+    "ex": {
+      "de": "Blumen aus Marzipan.",
+      "en": "Flowers made of marzipan.",
+      "ur": "Marzipan ke phool."
+    }
+  },
+  "gefüllt": {
+    "lemma": "gefüllt",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "gefüllte",
+      "gefüllten"
+    ],
+    "en": "filled",
+    "ur": "bhara hua",
+    "ex": {
+      "de": "Eine mit Sahne gefüllte Torte.",
+      "en": "A cake filled with cream.",
+      "ur": "Cream se bhari hui torte."
+    }
+  },
+  "abholzeit": {
+    "lemma": "Abholzeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Abholzeiten",
+    "en": "pickup time",
+    "ur": "lene ka waqt",
+    "ex": {
+      "de": "Welche Abholzeit passt Ihnen?",
+      "en": "Which pickup time suits you?",
+      "ur": "Aap ke liye kaun sa pickup ka waqt theek hai?"
+    }
+  },
+  "gast": {
+    "lemma": "Gast",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Gäste",
+    "en": "guest",
+    "ur": "mehmaan",
+    "ex": {
+      "de": "Wir sind ungefähr dreizehn Gäste.",
+      "en": "We're about thirteen guests.",
+      "ur": "Hum taqreeban terah mehmaan hain."
+    }
+  },
+  "mittlere": {
+    "lemma": "mittlere",
+    "pos": "Form von mittel",
+    "en": "medium (inflected form: eine mittlere Größe)",
+    "ur": "medium (form: eine mittlere Größe)",
+    "ex": {
+      "de": "Eine mittlere Torte reicht für zwölf Personen.",
+      "en": "A medium cake is enough for twelve people.",
+      "ur": "Ek medium torte barah logon ke liye kaafi hai."
+    }
+  },
+  "wünschen": {
+    "lemma": "wünschen",
+    "pos": "Verb",
+    "aux": "wünscht / hat gewünscht",
+    "forms": [
+      "wünscht",
+      "gewünscht"
+    ],
+    "en": "to wish for",
+    "ur": "khواahish karna",
+    "ex": {
+      "de": "Was wünscht sich Elif?",
+      "en": "What does Elif wish for?",
+      "ur": "Elif ki kya khواahish hai?"
+    }
+  },
+  "glückwunsch": {
+    "lemma": "Glückwunsch",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Glückwünsche",
+    "en": "congratulations (Herzlichen Glückwunsch = happy birthday)",
+    "ur": "mubarakbaad",
+    "ex": {
+      "de": "Herzlichen Glückwunsch im Voraus!",
+      "en": "Happy birthday in advance!",
+      "ur": "Pehle se hi janamdin mubarak!"
+    }
+  },
+  "voraus": {
+    "lemma": "voraus",
+    "pos": "Adverb",
+    "en": "in advance (im Voraus)",
+    "ur": "pehle se",
+    "ex": {
+      "de": "Herzlichen Glückwunsch im Voraus!",
+      "en": "Happy birthday in advance!",
+      "ur": "Pehle se hi mubarak ho!"
+    }
+  },
+  "süß": {
+    "lemma": "süß",
+    "pos": "Adjektiv",
+    "forms": [
+      "süße",
+      "süßen",
+      "süßer"
+    ],
+    "en": "sweet",
+    "ur": "meetha",
+    "ex": {
+      "de": "Die Torte soll nicht zu süß sein.",
+      "en": "The cake shouldn't be too sweet.",
+      "ur": "Torte zyada meethi nahi honi chahiye."
+    }
+  },
+  "füllung": {
+    "lemma": "Füllung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Füllungen",
+    "en": "filling",
+    "ur": "filling",
+    "ex": {
+      "de": "Weniger Zucker in der Füllung.",
+      "en": "Less sugar in the filling.",
+      "ur": "Filling mein kam cheeni."
+    }
+  },
+  "spätestens": {
+    "lemma": "spätestens",
+    "pos": "Adverb",
+    "en": "at the latest",
+    "ur": "zyada se zyada / akhri waqt",
+    "ex": {
+      "de": "Spätestens um elf Uhr.",
+      "en": "At eleven o'clock at the latest.",
+      "ur": "Zyada se zyada gyarah baje tak."
+    }
+  },
+  "feier": {
+    "lemma": "Feier",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Feiern",
+    "en": "celebration / party",
+    "ur": "jashn / party",
+    "ex": {
+      "de": "Die Feier beginnt um vierzehn Uhr.",
+      "en": "The party starts at two o'clock.",
+      "ur": "Party do baje shuru hoti hai."
+    }
+  },
+  "anzahlung": {
+    "lemma": "Anzahlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Anzahlungen",
+    "en": "deposit",
+    "ur": "advance",
+    "ex": {
+      "de": "Zehn Euro Anzahlung, bitte.",
+      "en": "A ten-euro deposit, please.",
+      "ur": "Das euro advance, please."
+    }
+  },
+  "anzahlen": {
+    "lemma": "anzahlen",
+    "pos": "Verb",
+    "aux": "zahlt an / hat angezahlt",
+    "forms": [
+      "angezahlt",
+      "zahle"
+    ],
+    "en": "to pay a deposit",
+    "ur": "advance dena",
+    "ex": {
+      "de": "Muss ich schon jetzt etwas anzahlen?",
+      "en": "Do I need to pay a deposit already now?",
+      "ur": "Kya mujhe abhi kuch advance dena hoga?"
+    }
+  },
+  "zuckerguss": {
+    "lemma": "Zuckerguss",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "icing",
+    "ur": "icing",
+    "ex": {
+      "de": "Können Sie das mit Zuckerguss draufschreiben?",
+      "en": "Can you write that on with icing?",
+      "ur": "Kya aap icing se yeh likh sakti hain?"
+    }
+  },
+  "besonder": {
+    "lemma": "besonder",
+    "pos": "Adjektiv",
+    "forms": [
+      "besondere",
+      "besonderen",
+      "besonderer"
+    ],
+    "en": "particular / special",
+    "ur": "khaas",
+    "ex": {
+      "de": "Möchten Sie eine besondere Dekoration?",
+      "en": "Would you like a particular decoration?",
+      "ur": "Kya aap khaas decoration chahti hain?"
+    }
+  },
+  "spur": {
+    "lemma": "Spur",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Spuren",
+    "en": "trace",
+    "ur": "asar / nishaan",
+    "ex": {
+      "de": "Ich mache mir Sorgen wegen Spuren von Nüssen.",
+      "en": "I worry about traces of nuts.",
+      "ur": "Mujhe nuss ke asaar ki fikar hoti hai."
+    }
+  },
+  "bereich": {
+    "lemma": "Bereich",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Bereiche",
+    "en": "area",
+    "ur": "hissa / area",
+    "ex": {
+      "de": "Die Brötchen werden in einem anderen Bereich zubereitet.",
+      "en": "The rolls are prepared in a different area.",
+      "ur": "Brötchen alag hisse mein banaye jate hain."
+    }
+  },
+  "backstube": {
+    "lemma": "Backstube",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Backstuben",
+    "en": "bakery workshop",
+    "ur": "bakery ka kaam wala hissa",
+    "ex": {
+      "de": "In einem anderen Bereich der Backstube.",
+      "en": "In a different area of the bakery workshop.",
+      "ur": "Backstube ke alag hisse mein."
+    }
+  },
+  "zubereiten": {
+    "lemma": "zubereiten",
+    "pos": "Verb",
+    "aux": "bereitet zu / hat zubereitet",
+    "forms": [
+      "zubereitet"
+    ],
+    "en": "to prepare",
+    "ur": "tayyar karna",
+    "ex": {
+      "de": "Die Brötchen werden dort zubereitet.",
+      "en": "The rolls are prepared there.",
+      "ur": "Brötchen wahan tayyar hote hain."
+    }
+  },
+  "betreffen": {
+    "lemma": "betreffen",
+    "pos": "Verb",
+    "aux": "betrifft / hat betroffen",
+    "forms": [
+      "betrifft",
+      "betroffen"
+    ],
+    "en": "to concern / to affect",
+    "ur": "taalluq rakhna",
+    "ex": {
+      "de": "Das betrifft uns nicht.",
+      "en": "That doesn't concern us.",
+      "ur": "Is se humein farq nahi parta."
+    }
+  },
+  "pflanzlich": {
+    "lemma": "pflanzlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "pflanzliche",
+      "pflanzlichen",
+      "pflanzlicher"
+    ],
+    "en": "plant-based",
+    "ur": "paudon se bana hua",
+    "ex": {
+      "de": "Eine Torte mit pflanzlicher Sahne.",
+      "en": "A cake with plant-based cream.",
+      "ur": "Pflanzlicher cream wali torte."
+    }
+  },
+  "besorgt": {
+    "lemma": "besorgt",
+    "pos": "Adjektiv",
+    "en": "worried",
+    "ur": "pareshan",
+    "ex": {
+      "de": "Sie wirken heute besorgt.",
+      "en": "You seem worried today.",
+      "ur": "Aap aaj pareshan lag rahi hain."
+    }
+  },
+  "zöliakie": {
+    "lemma": "Zöliakie",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "coeliac disease",
+    "ur": "Zöliakie (gluten se shadeed allergy)",
+    "ex": {
+      "de": "Ein Kind mit Zöliakie.",
+      "en": "A child with coeliac disease.",
+      "ur": "Zöliakie wala bacha."
+    }
+  },
+  "gebäck": {
+    "lemma": "Gebäck",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "baked goods / pastry",
+    "ur": "bakery ki cheezein",
+    "ex": {
+      "de": "Sie brauchen glutenfreies Gebäck.",
+      "en": "You need gluten-free baked goods.",
+      "ur": "Aap ko glutenfrei gebäck chahiye."
+    }
+  },
+  "fachgeschäft": {
+    "lemma": "Fachgeschäft",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Fachgeschäfte",
+    "en": "specialty shop",
+    "ur": "khaas dukaan",
+    "ex": {
+      "de": "Bestellen Sie das bei einem Fachgeschäft.",
+      "en": "Order that from a specialty shop.",
+      "ur": "Yeh kisi khaas dukaan se order karein."
+    }
+  },
+  "problemlos": {
+    "lemma": "problemlos",
+    "pos": "Adjektiv",
+    "en": "without any problem",
+    "ur": "be-masla",
+    "ex": {
+      "de": "Dabei kann ich Ihnen problemlos helfen.",
+      "en": "I can help you with that without any problem.",
+      "ur": "Is mein main be-masla madad kar sakti hoon."
+    }
+  },
+  "erleichtern": {
+    "lemma": "erleichtern",
+    "pos": "Verb",
+    "aux": "erleichtert / hat erleichtert",
+    "forms": [
+      "erleichtert"
+    ],
+    "en": "to relieve / to ease",
+    "ur": "sukoon dena",
+    "ex": {
+      "de": "Das erleichtert mich sehr.",
+      "en": "That relieves me a lot.",
+      "ur": "Isse mujhe bohat sukoon milta hai."
+    }
+  },
+  "sorgfalt": {
+    "lemma": "Sorgfalt",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "care / diligence",
+    "ur": "ehtiyat / dhyan",
+    "ex": {
+      "de": "Vielen Dank für Ihre Sorgfalt.",
+      "en": "Thank you for your care.",
+      "ur": "Aap ki ehtiyat ka shukriya."
+    }
+  },
+  "anfrage": {
+    "lemma": "Anfrage",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Anfragen",
+    "en": "inquiry / request",
+    "ur": "darkhwast / sawal",
+    "ex": {
+      "de": "Solche Anfragen bekomme ich öfter.",
+      "en": "I get such inquiries often.",
+      "ur": "Aisi requests mujhe aksar milti hain."
+    }
+  },
+  "gefühl": {
+    "lemma": "Gefühl",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Gefühle",
+    "en": "feeling",
+    "ur": "ehsaas",
+    "ex": {
+      "de": "Das gibt mir ein gutes Gefühl.",
+      "en": "That gives me a good feeling.",
+      "ur": "Isse mujhe acha ehsaas hota hai."
+    }
+  },
+  "sahnetorte": {
+    "lemma": "Sahnetorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Sahnetorten",
+    "en": "cream cake",
+    "ur": "cream wali torte",
+    "ex": {
+      "de": "Ist die Sahnetorte glutenfrei?",
+      "en": "Is the cream cake gluten-free?",
+      "ur": "Kya Sahnetorte glutenfrei hai?"
+    }
+  },
+  "weizenmehl": {
+    "lemma": "Weizenmehl",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "wheat flour",
+    "ur": "gehun ka atta",
+    "ex": {
+      "de": "Die Sahnetorte hat Weizenmehl.",
+      "en": "The cream cake has wheat flour.",
+      "ur": "Sahnetorte mein weizenmehl hai."
+    }
+  },
+  "einpacken": {
+    "lemma": "einpacken",
+    "pos": "Verb",
+    "aux": "packt ein / hat eingepackt",
+    "forms": [
+      "eingepackt",
+      "packe"
+    ],
+    "en": "to pack up",
+    "ur": "pack karna",
+    "ex": {
+      "de": "Soll ich Ihnen alles einpacken?",
+      "en": "Shall I pack everything for you?",
+      "ur": "Kya main sab pack kar doon?"
+    }
+  },
+  "hierher": {
+    "lemma": "hierher",
+    "pos": "Adverb",
+    "en": "here (to this place)",
+    "ur": "yahan (is jagah)",
+    "ex": {
+      "de": "Wir kommen fast jede Woche hierher.",
+      "en": "We come here almost every week.",
+      "ur": "Hum taqreeban har hafte yahan aate hain."
+    }
+  },
+  "einrichten": {
+    "lemma": "einrichten",
+    "pos": "Verb",
+    "aux": "richtet ein / hat eingerichtet",
+    "forms": [
+      "eingerichtet",
+      "richte"
+    ],
+    "en": "to set up",
+    "ur": "set karna",
+    "ex": {
+      "de": "Ich richte das sofort ein.",
+      "en": "I'll set that up right away.",
+      "ur": "Main abhi set kar deti hoon."
+    }
+  },
+  "urlaub": {
+    "lemma": "Urlaub",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "holiday / vacation",
+    "ur": "chhutti",
+    "ex": {
+      "de": "Was passiert, wenn Sie im Urlaub sind?",
+      "en": "What happens when you're on holiday?",
+      "ur": "Jab aap chhutti par hon to kya hoga?"
+    }
+  },
+  "pausieren": {
+    "lemma": "pausieren",
+    "pos": "Verb",
+    "aux": "pausiert / hat pausiert",
+    "forms": [
+      "pausiert"
+    ],
+    "en": "to pause",
+    "ur": "rok dena",
+    "ex": {
+      "de": "Dann pausiere ich die Bestellung.",
+      "en": "Then I'll pause the order.",
+      "ur": "Phir main order rok doongi."
+    }
+  },
+  "service": {
+    "lemma": "Service",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "service",
+    "ur": "service",
+    "ex": {
+      "de": "Das ist wirklich ein guter Service.",
+      "en": "That's really good service.",
+      "ur": "Yeh waqai acha service hai."
+    }
+  },
+  "bestellung": {
+    "lemma": "Bestellung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Bestellungen",
+    "en": "order",
+    "ur": "order",
+    "ex": {
+      "de": "Ich möchte eine Wochenendbestellung machen.",
+      "en": "I'd like to set up a weekend order.",
+      "ur": "Mujhe weekend order set karna hai."
+    }
+  },
+  "änderung": {
+    "lemma": "Änderung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Änderungen",
+    "en": "change",
+    "ur": "tabdeeli",
+    "ex": {
+      "de": "Ich notiere die Änderung nur für diesen Samstag.",
+      "en": "I'll note the change only for this Saturday.",
+      "ur": "Main sirf isi hafte ke liye tabdeeli likh leti hoon."
+    }
+  },
+  "sowieso": {
+    "lemma": "sowieso",
+    "pos": "Adverb",
+    "en": "anyway / in any case",
+    "ur": "waise bhi",
+    "ex": {
+      "de": "Sie bekommen den Rabatt sowieso.",
+      "en": "You get the discount anyway.",
+      "ur": "Aap ko waise bhi discount milta hai."
+    }
+  },
+  "treu": {
+    "lemma": "treu",
+    "pos": "Adjektiv",
+    "forms": [
+      "treue",
+      "treuen"
+    ],
+    "en": "loyal",
+    "ur": "wafadar",
+    "ex": {
+      "de": "Als treue Kundin bekommen Sie einen Rabatt.",
+      "en": "As a loyal customer you get a discount.",
+      "ur": "Wafadar kundin hone ki wajah se aap ko discount milta hai."
+    }
+  },
+  "erweitern": {
+    "lemma": "erweitern",
+    "pos": "Verb",
+    "aux": "erweitert / hat erweitert",
+    "forms": [
+      "erweitert"
+    ],
+    "en": "to extend / to expand",
+    "ur": "barhana",
+    "ex": {
+      "de": "Ich würde gern die Bestellung erweitern.",
+      "en": "I'd like to extend the order.",
+      "ur": "Main order barhana chahti hoon."
+    }
+  },
+  "sonntags": {
+    "lemma": "sonntags",
+    "pos": "Adverb",
+    "en": "on Sundays",
+    "ur": "itwar ko (hamesha)",
+    "ex": {
+      "de": "Sonntags haben wir kürzer geöffnet.",
+      "en": "On Sundays we're open for less time.",
+      "ur": "Itwar ko hum kam der khule hote hain."
+    }
+  },
+  "monatsende": {
+    "lemma": "Monatsende",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "end of the month",
+    "ur": "mahine ka aakhir",
+    "ex": {
+      "de": "Zum Monatsende zahlen Sie die ganze Summe.",
+      "en": "At the end of the month you pay the whole sum.",
+      "ur": "Mahine ke aakhir mein poori raqam dein."
+    }
+  },
+  "organisieren": {
+    "lemma": "organisieren",
+    "pos": "Verb",
+    "aux": "organisiert / hat organisiert",
+    "forms": [
+      "organisiert"
+    ],
+    "en": "to organize",
+    "ur": "organize karna",
+    "ex": {
+      "de": "Wie würden Sie das organisieren?",
+      "en": "How would you organize that?",
+      "ur": "Aap yeh kaise organize karengi?"
+    }
+  },
+  "bezahlung": {
+    "lemma": "Bezahlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "payment",
+    "ur": "payment",
+    "ex": {
+      "de": "Wie organisieren wir die Bezahlung?",
+      "en": "How do we organize the payment?",
+      "ur": "Payment kaise organize karein?"
+    }
+  },
+  "langjährig": {
+    "lemma": "langjährig",
+    "pos": "Adjektiv",
+    "forms": [
+      "langjährige",
+      "langjährigen"
+    ],
+    "en": "long-standing",
+    "ur": "purana / kai saal ka",
+    "ex": {
+      "de": "Als langjährige Stammkundin bekommen Sie einen Rabatt.",
+      "en": "As a long-standing regular customer you get a discount.",
+      "ur": "Purani stammkundin hone ki wajah se discount milta hai."
+    }
+  },
+  "großzügig": {
+    "lemma": "großzügig",
+    "pos": "Adjektiv",
+    "en": "generous",
+    "ur": "faiyaaz / baray dil wala",
+    "ex": {
+      "de": "Das ist wirklich großzügig.",
+      "en": "That's really generous.",
+      "ur": "Yeh waqai baray dil ki baat hai."
+    }
+  },
+  "wochenendbestellung": {
+    "lemma": "Wochenendbestellung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Wochenendbestellungen",
+    "en": "weekend order",
+    "ur": "weekend order",
+    "ex": {
+      "de": "Ich möchte eine Wochenendbestellung einrichten.",
+      "en": "I'd like to set up a weekend order.",
+      "ur": "Mujhe weekend order set karna hai."
+    }
+  },
+  "stammkunde": {
+    "lemma": "Stammkunde",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Stammkunden",
+    "forms": [
+      "stammkundin",
+      "stammkundinnen"
+    ],
+    "en": "regular customer (Stammkundin = female regular customer)",
+    "ur": "purana gahak (Stammkundin = aurat)",
+    "ex": {
+      "de": "Sie sind schon lange unsere Stammkundin.",
+      "en": "You've been our regular customer for a long time.",
+      "ur": "Aap kaafi arse se hamari stammkundin hain."
+    }
+  },
+  "wöchentlich": {
+    "lemma": "wöchentlich",
+    "pos": "Adjektiv / Adverb",
+    "en": "weekly",
+    "ur": "har hafte",
+    "ex": {
+      "de": "Soll das wöchentlich vorbereitet werden?",
+      "en": "Should that be prepared weekly?",
+      "ur": "Kya yeh har hafte tayyar ho?"
+    }
+  },
+  "samstags": {
+    "lemma": "samstags",
+    "pos": "Adverb",
+    "en": "on Saturdays",
+    "ur": "hafte ko (hamesha)",
+    "ex": {
+      "de": "Ich hole samstags immer Brötchen ab.",
+      "en": "I always pick up rolls on Saturdays.",
+      "ur": "Main hamesha hafte ko Brötchen lene aati hoon."
+    }
+  },
+  "reklamieren": {
+    "lemma": "reklamieren",
+    "pos": "Verb",
+    "aux": "reklamiert / hat reklamiert",
+    "forms": [
+      "reklamiert"
+    ],
+    "en": "to file a complaint about",
+    "ur": "shikayat karna",
+    "ex": {
+      "de": "Ich möchte das Brot reklamieren.",
+      "en": "I'd like to complain about the bread.",
+      "ur": "Main bread ki shikayat karna chahti hoon."
+    }
+  },
+  "aussehen": {
+    "lemma": "aussehen",
+    "pos": "Verb",
+    "aux": "sieht aus / sah aus / hat ausgesehen",
+    "forms": [
+      "aussah",
+      "ausgesehen",
+      "sieht"
+    ],
+    "en": "to look / to appear",
+    "ur": "nazar aana",
+    "ex": {
+      "de": "Es sah frisch aus.",
+      "en": "It looked fresh.",
+      "ur": "Yeh fresh nazar aa rahi thi."
+    }
+  },
+  "zufällig": {
+    "lemma": "zufällig",
+    "pos": "Adjektiv / Adverb",
+    "en": "by chance",
+    "ur": "ittefaqan",
+    "ex": {
+      "de": "Haben Sie zufällig die Quittung dabei?",
+      "en": "Do you happen to have the receipt with you?",
+      "ur": "Kya ittefaqan aap ke paas quittung hai?"
+    }
+  },
+  "erstattung": {
+    "lemma": "Erstattung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Erstattungen",
+    "en": "refund",
+    "ur": "paise wapasi",
+    "ex": {
+      "de": "Möchten Sie ein neues Brot oder eine Erstattung?",
+      "en": "Would you like a new loaf or a refund?",
+      "ur": "Kya aap nayi bread chahti hain ya paise wapas?"
+    }
+  },
+  "ungewöhnlich": {
+    "lemma": "ungewöhnlich",
+    "pos": "Adjektiv",
+    "en": "unusual",
+    "ur": "ghair mamooli",
+    "ex": {
+      "de": "Das ist wirklich ungewöhnlich.",
+      "en": "That's really unusual.",
+      "ur": "Yeh waqai ghair mamooli hai."
+    }
+  },
+  "entschuldigen": {
+    "lemma": "entschuldigen (sich)",
+    "pos": "Verb",
+    "aux": "entschuldigt sich / hat sich entschuldigt",
+    "forms": [
+      "entschuldigt",
+      "entschuldige"
+    ],
+    "en": "to apologize",
+    "ur": "maazrat karna",
+    "ex": {
+      "de": "Ich entschuldige mich dafür.",
+      "en": "I apologize for that.",
+      "ur": "Is ke liye main maazrat karti hoon."
+    }
+  },
+  "zufrieden": {
+    "lemma": "zufrieden",
+    "pos": "Adjektiv",
+    "en": "satisfied",
+    "ur": "khush / mutmaen",
+    "ex": {
+      "de": "Jetzt bin ich wieder zufrieden.",
+      "en": "Now I'm satisfied again.",
+      "ur": "Ab main dobara khush hoon."
+    }
+  },
+  "überraschen": {
+    "lemma": "überraschen",
+    "pos": "Verb",
+    "aux": "überrascht / hat überrascht",
+    "forms": [
+      "überrascht"
+    ],
+    "en": "to surprise",
+    "ur": "hairaan karna",
+    "ex": {
+      "de": "Das überrascht mich.",
+      "en": "That surprises me.",
+      "ur": "Yeh mujhe hairaan karta hai."
+    }
+  },
+  "stein": {
+    "lemma": "Stein",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Steine",
+    "en": "stone",
+    "ur": "pathar",
+    "ex": {
+      "de": "Es war hart wie ein Stein.",
+      "en": "It was hard as a stone.",
+      "ur": "Yeh pathar ki tarah sakht tha."
+    }
+  },
+  "definitiv": {
+    "lemma": "definitiv",
+    "pos": "Adjektiv / Adverb",
+    "en": "definitely",
+    "ur": "yaqeenan",
+    "ex": {
+      "de": "Das ist definitiv nicht unser Standard.",
+      "en": "That's definitely not our standard.",
+      "ur": "Yeh yaqeenan hamara standard nahi hai."
+    }
+  },
+  "begrüßen": {
+    "lemma": "begrüßen",
+    "pos": "Verb",
+    "aux": "begrüßt / hat begrüßt",
+    "forms": [
+      "begrüßt"
+    ],
+    "en": "to welcome / to approve of",
+    "ur": "khush aamdeed kehna / pasand karna",
+    "ex": {
+      "de": "Das würde ich sehr begrüßen.",
+      "en": "I would really welcome that.",
+      "ur": "Mujhe yeh bohat pasand aayega."
+    }
+  },
+  "qualität": {
+    "lemma": "Qualität",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "quality",
+    "ur": "quality",
+    "ex": {
+      "de": "Ich achte genauer auf die Qualität.",
+      "en": "I'll pay closer attention to the quality.",
+      "ur": "Main quality par aur ghaur karoongi."
+    }
+  },
+  "zukunft": {
+    "lemma": "Zukunft",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "future",
+    "ur": "mustaqbil",
+    "ex": {
+      "de": "In Zukunft achte ich genauer darauf.",
+      "en": "In the future I'll pay closer attention to that.",
+      "ur": "Aainda main is par aur dhyan doongi."
+    }
+  },
+  "fürchten": {
+    "lemma": "fürchten",
+    "pos": "Verb",
+    "aux": "fürchtet / hat gefürchtet",
+    "forms": [
+      "fürchtet"
+    ],
+    "en": "to fear",
+    "ur": "darna",
+    "ex": {
+      "de": "Ich fürchte, ich muss mich beschweren.",
+      "en": "I'm afraid I have to complain.",
+      "ur": "Mujhe darr hai ke mujhe shikayat karni parhegi."
+    }
+  },
+  "ungenießbar": {
+    "lemma": "ungenießbar",
+    "pos": "Adjektiv",
+    "en": "inedible",
+    "ur": "khane ke qabil nahi",
+    "ex": {
+      "de": "Es war komplett trocken und ungenießbar.",
+      "en": "It was completely dry and inedible.",
+      "ur": "Yeh bilkul sookhi aur na-khane ke qabil thi."
+    }
+  },
+  "aufrichtig": {
+    "lemma": "aufrichtig",
+    "pos": "Adjektiv",
+    "en": "sincere",
+    "ur": "mukhlisana",
+    "ex": {
+      "de": "Es tut mir aufrichtig leid.",
+      "en": "I'm sincerely sorry.",
+      "ur": "Mujhe waqai afsos hai."
+    }
+  },
+  "beunruhigen": {
+    "lemma": "beunruhigen",
+    "pos": "Verb",
+    "aux": "beunruhigt / hat beunruhigt",
+    "forms": [
+      "beunruhigt"
+    ],
+    "en": "to worry (someone)",
+    "ur": "fikar mand karna",
+    "ex": {
+      "de": "Das beunruhigt mich.",
+      "en": "That worries me.",
+      "ur": "Mujhe is ki fikar hai."
+    }
+  },
+  "vermutlich": {
+    "lemma": "vermutlich",
+    "pos": "Adverb",
+    "en": "probably",
+    "ur": "shayad",
+    "ex": {
+      "de": "Vermutlich wurde es nicht richtig eingepackt.",
+      "en": "It was probably not packed properly.",
+      "ur": "Shayad yeh sahi tarah pack nahi hui thi."
+    }
+  },
+  "gutschein": {
+    "lemma": "Gutschein",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Gutscheine",
+    "en": "voucher",
+    "ur": "gutschein (voucher)",
+    "ex": {
+      "de": "Ich gebe Ihnen noch einen Gutschein dazu.",
+      "en": "I'll also give you a voucher.",
+      "ur": "Main aap ko ek gutschein bhi doongi."
+    }
+  },
+  "umtausch": {
+    "lemma": "Umtausch",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "exchange",
+    "ur": "umtausch (badalna)",
+    "ex": {
+      "de": "Ein Umtausch oder eine Erstattung?",
+      "en": "An exchange or a refund?",
+      "ur": "Umtausch ya erstattung?"
+    }
+  },
+  "altbacken": {
+    "lemma": "altbacken",
+    "pos": "Adjektiv",
+    "en": "stale",
+    "ur": "bassi",
+    "ex": {
+      "de": "Das Brötchen war völlig altbacken.",
+      "en": "The roll was completely stale.",
+      "ur": "Brötchen bilkul bassi tha."
+    }
+  },
+  "reklamation": {
+    "lemma": "Reklamation",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Reklamationen",
+    "en": "complaint",
+    "ur": "shikayat",
+    "ex": {
+      "de": "Ich möchte eine Reklamation machen.",
+      "en": "I'd like to make a complaint.",
+      "ur": "Main shikayat karna chahti hoon."
+    }
+  },
+  "samstag": {
+    "lemma": "Samstag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Samstage",
+    "en": "Saturday",
+    "ur": "Haftay ka din",
+    "ex": {
+      "de": "Jeden Samstag hole ich frische Brötchen.",
+      "en": "Every Saturday I pick up fresh rolls.",
+      "ur": "Har Saturday main taaza Brötchen leti hoon."
+    }
+  },
+  "nüsse": {
+    "lemma": "Nuss",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Nüsse",
+    "en": "nuts",
+    "ur": "meway",
+    "ex": {
+      "de": "Sind Nüsse in der Torte?",
+      "en": "Are there nuts in the cake?",
+      "ur": "Kya torte mein meway hain?"
+    }
+  },
+  "gluten": {
+    "lemma": "Gluten",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "gluten",
+    "ur": "gluten",
+    "ex": {
+      "de": "Ist Gluten in diesem Brot?",
+      "en": "Is there gluten in this bread?",
+      "ur": "Kya is bread mein gluten hai?"
+    }
+  },
+  "gästen": {
+    "lemma": "Gast",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Gäste",
+    "en": "guests (dative plural)",
+    "ur": "mehmanon",
+    "ex": {
+      "de": "Wie viele Gästen kommen zur Feier?",
+      "en": "How many guests are coming to the party?",
+      "ur": "Party mein kitne mehman aa rahe hain?"
+    }
+  },
+  "laktosefrei": {
+    "lemma": "laktosefrei",
+    "pos": "Adjektiv",
+    "en": "lactose-free",
+    "ur": "lactose se azaad",
+    "ex": {
+      "de": "Haben Sie auch laktosefreie Sahne?",
+      "en": "Do you also have lactose-free cream?",
+      "ur": "Kya aap ke paas lactose-free cream bhi hai?"
+    }
+  },
+  "beschweren": {
+    "lemma": "beschweren",
+    "pos": "Verb",
+    "en": "to complain (sich beschweren)",
+    "ur": "shikayat karna",
+    "ex": {
+      "de": "Ich möchte mich über das Brot beschweren.",
+      "en": "I would like to complain about the bread.",
+      "ur": "Main bread ke bare mein shikayat karna chahti hoon."
+    }
+  },
+  "erdbeertorte": {
+    "lemma": "Erdbeertorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Erdbeertorten",
+    "en": "strawberry cake",
+    "ur": "strawberry cake",
+    "ex": {
+      "de": "Die Erdbeertorte sieht wunderschön aus.",
+      "en": "The strawberry cake looks beautiful.",
+      "ur": "Strawberry cake bohat khoobsurat lag rahi hai."
+    }
+  },
+  "erdbeertorten": {
+    "lemma": "Erdbeertorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "strawberry cakes (plural)",
+    "ur": "strawberry cakes",
+    "ex": {
+      "de": "Wir backen zwei Erdbeertorten für die Feier.",
+      "en": "We bake two strawberry cakes for the party.",
+      "ur": "Hum party ke liye do strawberry cakes banate hain."
+    }
+  },
+  "geburtstag": {
+    "lemma": "Geburtstag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Geburtstage",
+    "en": "birthday",
+    "ur": "salgirah",
+    "ex": {
+      "de": "Die Torte ist für den Geburtstag meiner Tochter.",
+      "en": "The cake is for my daughter's birthday.",
+      "ur": "Yeh cake meri beti ki salgirah ke liye hai."
+    }
+  },
+  "kindergeburtstag": {
+    "lemma": "Kindergeburtstag",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "child's birthday party",
+    "ur": "bachay ki salgirah",
+    "ex": {
+      "de": "Wir feiern einen Kindergeburtstag am Samstag.",
+      "en": "We're celebrating a child's birthday on Saturday.",
+      "ur": "Hum Saturday ko bachay ki salgirah mana rahe hain."
+    }
+  },
+  "dekoration": {
+    "lemma": "Dekoration",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "decoration",
+    "ur": "sajawat",
+    "ex": {
+      "de": "Welche Dekoration möchten Sie auf der Torte?",
+      "en": "What decoration would you like on the cake?",
+      "ur": "Aap cake par kya sajawat chahti hain?"
+    }
+  },
+  "abholung": {
+    "lemma": "Abholung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "pickup / collection",
+    "ur": "collection",
+    "ex": {
+      "de": "Die Abholung ist am Freitagnachmittag.",
+      "en": "The pickup is on Friday afternoon.",
+      "ur": "Collection Friday dopahar ko hai."
+    }
+  },
+  "nüssen": {
+    "lemma": "Nuss",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "nuts (dative plural)",
+    "ur": "meway",
+    "ex": {
+      "de": "Die Torte ist frei von Nüssen.",
+      "en": "The cake is free of nuts.",
+      "ur": "Cake meway se azaad hai."
+    }
+  },
+  "vermischt": {
+    "lemma": "vermischen",
+    "pos": "Verb",
+    "en": "mixed / mixed up",
+    "ur": "mila hua",
+    "ex": {
+      "de": "Die Zutaten sind vermischt.",
+      "en": "The ingredients are mixed.",
+      "ur": "Cheezein mili hui hain."
+    }
+  },
+  "verständnis": {
+    "lemma": "Verständnis",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "understanding",
+    "ur": "samajh boojh",
+    "ex": {
+      "de": "Vielen Dank für Ihr Verständnis.",
+      "en": "Thank you very much for your understanding.",
+      "ur": "Aap ki samajh boojh ka shukriya."
+    }
+  },
+  "schnellsten": {
+    "lemma": "schnell",
+    "pos": "Adjektiv",
+    "en": "fastest (superlative, inflected)",
+    "ur": "sab se tez",
+    "ex": {
+      "de": "Das ist der schnellsten Weg zur Bäckerei.",
+      "en": "That is the fastest way to the bakery.",
+      "ur": "Yeh bakery ka sab se tez raasta hai."
+    }
+  },
+  "zucker": {
+    "lemma": "Zucker",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "sugar",
+    "ur": "cheeni",
+    "ex": {
+      "de": "Wie viel Zucker ist in der Torte?",
+      "en": "How much sugar is in the cake?",
+      "ur": "Cake mein kitni cheeni hai?"
+    }
+  },
+  "verwende": {
+    "lemma": "verwenden",
+    "pos": "Verb",
+    "en": "use (ich-form)",
+    "ur": "istemal karta/karti hoon",
+    "ex": {
+      "de": "Ich verwende dafür frische Erdbeeren.",
+      "en": "I use fresh strawberries for that.",
+      "ur": "Main is ke liye taaza strawberries istemal karti hoon."
+    }
+  },
+  "gestalte": {
+    "lemma": "gestalten",
+    "pos": "Verb",
+    "en": "design / arrange (ich-form)",
+    "ur": "design karta/karti hoon",
+    "ex": {
+      "de": "Ich gestalte die Torte nach Ihren Wünschen.",
+      "en": "I design the cake according to your wishes.",
+      "ur": "Main cake aap ki pasand ke mutabiq design karti hoon."
+    }
+  },
+  "zweiundvierzig": {
+    "lemma": "zweiundvierzig",
+    "pos": "Zahl",
+    "en": "forty-two",
+    "ur": "bayaalees",
+    "ex": {
+      "de": "Das macht zweiundvierzig Euro.",
+      "en": "That comes to forty-two euros.",
+      "ur": "Yeh bayaalees euro banta hai."
+    }
+  },
+  "fünfunddreißig": {
+    "lemma": "fünfunddreißig",
+    "pos": "Zahl",
+    "en": "thirty-five",
+    "ur": "paintees",
+    "ex": {
+      "de": "Die Torte kostet fünfunddreißig Euro.",
+      "en": "The cake costs thirty-five euros.",
+      "ur": "Cake paintees euro ka hai."
+    }
+  },
+  "laktose": {
+    "lemma": "Laktose",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "lactose",
+    "ur": "lactose",
+    "ex": {
+      "de": "Meine Tochter verträgt keine Laktose.",
+      "en": "My daughter can't tolerate lactose.",
+      "ur": "Meri beti lactose bardasht nahi kar sakti."
+    }
+  },
+  "weizen": {
+    "lemma": "Weizen",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "wheat",
+    "ur": "gehun",
+    "ex": {
+      "de": "Das Brot besteht aus Weizen.",
+      "en": "The bread is made from wheat.",
+      "ur": "Bread gehun se banti hai."
+    }
+  },
+  "separaten": {
+    "lemma": "separat",
+    "pos": "Adjektiv",
+    "en": "separate (inflected)",
+    "ur": "alag",
+    "ex": {
+      "de": "Wir backen das in einem separaten Ofen.",
+      "en": "We bake that in a separate oven.",
+      "ur": "Hum yeh alag oven mein bakte hain."
+    }
+  },
+  "vollkommen": {
+    "lemma": "vollkommen",
+    "pos": "Adverb",
+    "en": "completely",
+    "ur": "bilkul",
+    "ex": {
+      "de": "Das Brot ist vollkommen frisch.",
+      "en": "The bread is completely fresh.",
+      "ur": "Bread bilkul taaza hai."
+    }
+  },
+  "vanilletorte": {
+    "lemma": "Vanilletorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "vanilla cake",
+    "ur": "vanilla cake",
+    "ex": {
+      "de": "Eine Vanilletorte ist auch möglich.",
+      "en": "A vanilla cake is also possible.",
+      "ur": "Vanilla cake bhi mumkin hai."
+    }
+  },
+  "flexibel": {
+    "lemma": "flexibel",
+    "pos": "Adjektiv",
+    "en": "flexible",
+    "ur": "flexible",
+    "ex": {
+      "de": "Wir sind bei der Abholzeit flexibel.",
+      "en": "We're flexible about the pickup time.",
+      "ur": "Hum collection ke waqt mein flexible hain."
+    }
+  },
+  "zufriedene": {
+    "lemma": "zufrieden",
+    "pos": "Adjektiv",
+    "en": "satisfied (inflected)",
+    "ur": "mutmain",
+    "ex": {
+      "de": "Wir haben viele zufriedene Kunden.",
+      "en": "We have many satisfied customers.",
+      "ur": "Hamare bohat se mutmain customers hain."
+    }
+  },
+  "überlassen": {
+    "lemma": "überlassen",
+    "pos": "Verb",
+    "en": "to leave up to (someone)",
+    "ur": "chhorna",
+    "ex": {
+      "de": "Ich überlasse Ihnen die Farbwahl.",
+      "en": "I leave the choice of colour up to you.",
+      "ur": "Rang ka intekhab main aap par chhorti hoon."
+    }
+  },
+  "blumen": {
+    "lemma": "Blume",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Blumen",
+    "en": "flowers",
+    "ur": "phool",
+    "ex": {
+      "de": "Ich hätte gern Blumen aus Zuckerguss.",
+      "en": "I'd like flowers made of icing.",
+      "ur": "Mujhe icing ke phool chahiye."
+    }
+  },
+  "draufschreiben": {
+    "lemma": "draufschreiben",
+    "pos": "Verb",
+    "en": "to write on (top of something)",
+    "ur": "upar likhna",
+    "ex": {
+      "de": "Können Sie den Namen draufschreiben?",
+      "en": "Can you write the name on it?",
+      "ur": "Kya aap naam upar likh sakte hain?"
+    }
+  },
+  "broten": {
+    "lemma": "Brot",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "breads (dative plural)",
+    "ur": "breads",
+    "ex": {
+      "de": "Bei den Broten haben wir viel Auswahl.",
+      "en": "We have a lot of choice with breads.",
+      "ur": "Breads mein humare paas kaafi options hain."
+    }
+  },
+  "vollkorn": {
+    "lemma": "Vollkorn",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "wholegrain",
+    "ur": "sabut anaaj",
+    "ex": {
+      "de": "Vollkorn ist gesünder.",
+      "en": "Wholegrain is healthier.",
+      "ur": "Sabut anaaj zyada healthy hai."
+    }
+  },
+  "mehrkornprodukte": {
+    "lemma": "Mehrkornprodukt",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Mehrkornprodukte",
+    "en": "multigrain products",
+    "ur": "multigrain products",
+    "ex": {
+      "de": "Wir haben viele Mehrkornprodukte im Angebot.",
+      "en": "We have many multigrain products on offer.",
+      "ur": "Humare paas kaafi multigrain products hain."
+    }
+  },
+  "glutenunverträglichkeit": {
+    "lemma": "Glutenunverträglichkeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "gluten intolerance",
+    "ur": "gluten intolerance",
+    "ex": {
+      "de": "Er hat eine Glutenunverträglichkeit.",
+      "en": "He has a gluten intolerance.",
+      "ur": "Usay gluten intolerance hai."
+    }
+  },
+  "allergenen": {
+    "lemma": "Allergen",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Allergene",
+    "en": "allergens (dative plural)",
+    "ur": "allergens",
+    "ex": {
+      "de": "Bei Allergenen sind wir sehr vorsichtig.",
+      "en": "We're very careful with allergens.",
+      "ur": "Allergens ke maamle mein hum bohat ehtiyat karte hain."
+    }
+  },
+  "jemanden": {
+    "lemma": "jemand",
+    "pos": "Pronomen",
+    "en": "someone (accusative)",
+    "ur": "kisi ko",
+    "ex": {
+      "de": "Fragen Sie jemanden aus dem Team.",
+      "en": "Ask someone from the team.",
+      "ur": "Team mein se kisi se poochein."
+    }
+  },
+  "laktosefreie": {
+    "lemma": "laktosefrei",
+    "pos": "Adjektiv",
+    "en": "lactose-free (inflected)",
+    "ur": "lactose free",
+    "ex": {
+      "de": "Wir haben eine laktosefreie Variante.",
+      "en": "We have a lactose-free variant.",
+      "ur": "Humare paas lactose-free option hai."
+    }
+  },
+  "allergene": {
+    "lemma": "Allergen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "allergens",
+    "ur": "allergens",
+    "ex": {
+      "de": "Alle Allergene stehen auf dem Schild.",
+      "en": "All allergens are listed on the sign.",
+      "ur": "Sab allergens sign par likhe hain."
+    }
+  },
+  "elifs": {
+    "lemma": "Elif",
+    "pos": "Eigenname",
+    "en": "Elif's (name, genitive)",
+    "ur": "Elif ki",
+    "ex": {
+      "de": "Das ist für Elifs Geburtstag.",
+      "en": "That's for Elif's birthday.",
+      "ur": "Yeh Elif ki salgirah ke liye hai."
+    }
+  },
+  "spezielles": {
+    "lemma": "speziell",
+    "pos": "Adjektiv",
+    "en": "special (inflected)",
+    "ur": "khaas",
+    "ex": {
+      "de": "Wir haben ein spezielles Rezept dafür.",
+      "en": "We have a special recipe for that.",
+      "ur": "Iske liye humare paas khaas recipe hai."
+    }
+  },
+  "bedacht": {
+    "lemma": "bedacht",
+    "pos": "Adjektiv",
+    "en": "careful / mindful",
+    "ur": "khayal rakhne wala",
+    "ex": {
+      "de": "Wir sind bei Allergien sehr bedacht.",
+      "en": "We're very careful with allergies.",
+      "ur": "Hum allergies ke maamle mein bohat khayal rakhte hain."
+    }
+  },
+  "nussallergie": {
+    "lemma": "Nussallergie",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "nut allergy",
+    "ur": "nut allergy",
+    "ex": {
+      "de": "Meine Tochter hat eine Nussallergie.",
+      "en": "My daughter has a nut allergy.",
+      "ur": "Meri beti ko nut allergy hai."
+    }
+  },
+  "vollständige": {
+    "lemma": "vollständig",
+    "pos": "Adjektiv",
+    "en": "complete (inflected)",
+    "ur": "mukammal",
+    "ex": {
+      "de": "Hier ist die vollständige Zutatenliste.",
+      "en": "Here is the complete ingredient list.",
+      "ur": "Yeh raha mukammal ingredients ki list."
+    }
+  },
+  "vollständigen": {
+    "lemma": "vollständig",
+    "pos": "Adjektiv",
+    "en": "complete (accusative inflected)",
+    "ur": "mukammal",
+    "ex": {
+      "de": "Ich brauche die vollständigen Angaben.",
+      "en": "I need the complete details.",
+      "ur": "Mujhe mukammal tafseelaat chahiye."
+    }
+  },
+  "zutatenliste": {
+    "lemma": "Zutatenliste",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "ingredient list",
+    "ur": "ingredients ki list",
+    "ex": {
+      "de": "Die Zutatenliste hängt an der Theke.",
+      "en": "The ingredient list is posted at the counter.",
+      "ur": "Ingredients ki list counter par lagi hai."
+    }
+  },
+  "stattdessen": {
+    "lemma": "stattdessen",
+    "pos": "Adverb",
+    "en": "instead",
+    "ur": "iske bajaye",
+    "ex": {
+      "de": "Nehmen Sie stattdessen das glutenfreie Brot.",
+      "en": "Take the gluten-free bread instead.",
+      "ur": "Iske bajaye gluten-free bread le lein."
+    }
+  },
+  "nuss": {
+    "lemma": "Nuss",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Nüsse",
+    "en": "nut",
+    "ur": "mewa",
+    "ex": {
+      "de": "Ist da eine Nuss drin?",
+      "en": "Is there a nut in it?",
+      "ur": "Kya is mein mewa hai?"
+    }
+  },
+  "nussfrei": {
+    "lemma": "nussfrei",
+    "pos": "Adjektiv",
+    "en": "nut-free",
+    "ur": "nut se azaad",
+    "ex": {
+      "de": "Diese Torte ist komplett nussfrei.",
+      "en": "This cake is completely nut-free.",
+      "ur": "Yeh cake bilkul nut-free hai."
+    }
+  },
+  "unverträglich": {
+    "lemma": "unverträglich",
+    "pos": "Adjektiv",
+    "en": "not tolerated / incompatible",
+    "ur": "na muwafiq",
+    "ex": {
+      "de": "Nüsse sind für sie unverträglich.",
+      "en": "Nuts don't agree with her.",
+      "ur": "Meway usay muwafiq nahi."
+    }
+  },
+  "pausiere": {
+    "lemma": "pausieren",
+    "pos": "Verb",
+    "en": "pause (ich-form)",
+    "ur": "rok deta/deti hoon",
+    "ex": {
+      "de": "Ich pausiere die Bestellung für den Urlaub.",
+      "en": "I'll pause the order for the holiday.",
+      "ur": "Main chhutti ke liye order rok deti hoon."
+    }
+  },
+  "dazubestellen": {
+    "lemma": "dazubestellen",
+    "pos": "Verb",
+    "en": "to order in addition",
+    "ur": "sath mein order karna",
+    "ex": {
+      "de": "Möchten Sie noch etwas dazubestellen?",
+      "en": "Would you like to order anything else?",
+      "ur": "Kya aap kuch aur order karna chahti hain?"
+    }
+  },
+  "regelmäßige": {
+    "lemma": "regelmäßig",
+    "pos": "Adjektiv",
+    "en": "regular (inflected)",
+    "ur": "regular",
+    "ex": {
+      "de": "Wir haben eine regelmäßige Bestellung.",
+      "en": "We have a regular order.",
+      "ur": "Hamara regular order hai."
+    }
+  },
+  "einfachsten": {
+    "lemma": "einfach",
+    "pos": "Adjektiv",
+    "en": "simplest (superlative inflected)",
+    "ur": "sab se aasan",
+    "ex": {
+      "de": "Das ist der einfachsten Weg.",
+      "en": "That is the simplest way.",
+      "ur": "Yeh sab se aasan tareeqa hai."
+    }
+  },
+  "fürchte": {
+    "lemma": "fürchten",
+    "pos": "Verb",
+    "en": "fear (ich-form)",
+    "ur": "darta/darti hoon",
+    "ex": {
+      "de": "Ich fürchte, das Brot war nicht mehr frisch.",
+      "en": "I'm afraid the bread wasn't fresh anymore.",
+      "ur": "Mujhe darr hai ke bread taaza nahi thi."
+    }
+  },
+  "herkommen": {
+    "lemma": "herkommen",
+    "pos": "Verb",
+    "en": "to come from / originate",
+    "ur": "yahan se aana",
+    "ex": {
+      "de": "Woher soll das Mehl herkommen?",
+      "en": "Where is the flour supposed to come from?",
+      "ur": "Aata kahan se aana chahiye?"
+    }
+  },
+  "biete": {
+    "lemma": "bieten",
+    "pos": "Verb",
+    "en": "offer (ich-form)",
+    "ur": "pesh karta/karti hoon",
+    "ex": {
+      "de": "Ich biete Ihnen einen Gutschein an.",
+      "en": "I'll offer you a voucher.",
+      "ur": "Main aap ko voucher pesh karti hoon."
+    }
+  },
+  "sowie": {
+    "lemma": "sowie",
+    "pos": "Konjunktion",
+    "en": "as well as",
+    "ur": "saath hi saath",
+    "ex": {
+      "de": "Brötchen sowie ein Brot, bitte.",
+      "en": "Rolls as well as a loaf, please.",
+      "ur": "Brötchen ke saath ek bread bhi, please."
+    }
+  },
+  "prüfe": {
+    "lemma": "prüfen",
+    "pos": "Verb",
+    "en": "check (ich-form)",
+    "ur": "check karta/karti hoon",
+    "ex": {
+      "de": "Ich prüfe die Zutatenliste noch einmal.",
+      "en": "I check the ingredient list once more.",
+      "ur": "Main ingredients ki list dobara check karti hoon."
+    }
+  }
+}

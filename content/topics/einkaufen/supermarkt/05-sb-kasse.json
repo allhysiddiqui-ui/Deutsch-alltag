@@ -1,0 +1,202 @@
+{
+  "id": "sb-kasse",
+  "order": 5,
+  "icon": "🖥️",
+  "title": { "de": "Probleme an der SB-Kasse", "en": "Trouble at the self-checkout", "ur": "Self-checkout mein masla" },
+  "angle": "Using the self-checkout and getting staff help when something goes wrong · Self-checkout istemal karna aur masle par staff se madad lena",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["sb-kasse", "scannen", "ausweis", "altersnachweis", "fremdkörper", "waage", "quittung", "bildschirm", "hilfe"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Entschuldigung, die SB-Kasse funktioniert nicht.", "en": "Excuse me, the self-checkout isn't working.", "ur": "Maazrat, self-checkout kaam nahi kar raha." },
+        { "s": "A", "de": "Was ist denn das Problem?", "en": "What's the problem?", "ur": "Kya masla hai?" },
+        { "s": "B", "de": "Der Scanner erkennt die Milch nicht.", "en": "The scanner doesn't recognize the milk.", "ur": "Scanner doodh ko pehchan nahi raha." },
+        { "s": "A", "de": "Zeigen Sie mir das mal.", "en": "Show me that.", "ur": "Mujhe dikhayein." },
+        { "s": "B", "de": "Hier, ich halte den Code hin.", "en": "Here, I'm holding the code out.", "ur": "Yeh raha, main code dikha rahi hoon." },
+        { "s": "A", "de": "Ah, ich scanne es für Sie.", "en": "Ah, I'll scan it for you.", "ur": "Ah, main aap ke liye scan karta hoon." },
+        { "s": "B", "de": "Danke schön.", "en": "Thank you.", "ur": "Shukriya." },
+        { "s": "A", "de": "Jetzt funktioniert es wieder.", "en": "It's working again now.", "ur": "Ab dobara kaam kar raha hai." },
+        { "s": "B", "de": "Super, vielen Dank für die Hilfe.", "en": "Great, thank you very much for the help.", "ur": "Zabardast, madad ka bohat shukriya." },
+        { "s": "A", "de": "Kein Problem. Einen schönen Tag!", "en": "No problem. Have a nice day!", "ur": "Koi baat nahi. Acha din guzray!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "B", "de": "Entschuldigung, der Bildschirm zeigt eine Fehlermeldung.", "en": "Excuse me, the screen shows an error message.", "ur": "Maazrat, screen par error message hai." },
+        { "s": "A", "de": "Was steht denn da genau?", "en": "What exactly does it say?", "ur": "Kya likha hai?" },
+        { "s": "B", "de": "Da steht 'unerwarteter Artikel im Warenbereich'.", "en": "It says 'unexpected item in the bagging area'.", "ur": "Likha hai 'bagging area mein anjaani cheez'." },
+        { "s": "A", "de": "Ach so, das passiert oft. Ich setze das kurz zurück.", "en": "Ah I see, that happens often. I'll reset it briefly.", "ur": "Acha, aisa aksar hota hai. Main isay reset karta hoon." },
+        { "s": "B", "de": "Wodurch kam das denn zustande?", "en": "How did that happen?", "ur": "Yeh kaise hua?" },
+        { "s": "A", "de": "Vielleicht haben Sie die Tüte zu früh auf die Waage gelegt.", "en": "Maybe you put the bag on the scale too early.", "ur": "Shayad aap ne thaila jaldi scale par rakh diya." },
+        { "s": "B", "de": "Ah, verstehe. Was soll ich jetzt tun?", "en": "Ah, I understand. What should I do now?", "ur": "Ah, samajh gayi. Ab kya karoon?" },
+        { "s": "A", "de": "Scannen Sie einfach weiter, es sollte jetzt gehen.", "en": "Just keep scanning, it should work now.", "ur": "Bas scan karti rahein, ab theek chalega." },
+        { "s": "B", "de": "Okay, ich versuche es noch einmal.", "en": "Okay, I'll try again.", "ur": "Theek hai, main dobara koshish karti hoon." },
+        { "s": "A", "de": "Sehr gut, es klappt jetzt.", "en": "Very good, it's working now.", "ur": "Bohat acha, ab theek chal raha hai." },
+        { "s": "B", "de": "Danke für Ihre Geduld.", "en": "Thanks for your patience.", "ur": "Aap ke sabar ka shukriya." },
+        { "s": "A", "de": "Gerne, falls wieder etwas ist, rufen Sie mich.", "en": "Sure, if there's anything again, call me.", "ur": "Zaroor, dobara kuch ho to mujhe bulayein." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich sehe, an Ihrer Kasse leuchtet ein rotes Licht. Brauchen Sie Hilfe?", "en": "I see a red light at your checkout. Do you need help?", "ur": "Aap ki kasse par laal batti hai. Kya aap ko madad chahiye?" },
+        { "s": "B", "de": "Ja, ich möchte eine Flasche Wein kaufen, aber das System verlangt einen Altersnachweis.", "en": "Yes, I want to buy a bottle of wine, but the system requires age verification.", "ur": "Ji haan, mujhe wine ki bottle leni hai, lekin system age verification maang raha hai." },
+        { "s": "A", "de": "Das ist normal bei Alkohol. Ich muss kurz Ihren Ausweis sehen.", "en": "That's normal with alcohol. I need to see your ID briefly.", "ur": "Yeh alcohol ke sath aam baat hai. Mujhe aap ka ID dekhna hoga." },
+        { "s": "B", "de": "Natürlich, hier ist er.", "en": "Of course, here it is.", "ur": "Zaroor, yeh raha." },
+        { "s": "A", "de": "Danke, ich gebe das im System frei.", "en": "Thanks, I'll clear that in the system.", "ur": "Shukriya, main isay system mein clear karta hoon." },
+        { "s": "B", "de": "Muss das bei jedem Einkauf mit Alkohol passieren?", "en": "Does this have to happen with every purchase involving alcohol?", "ur": "Kya har alcohol wali khareedari mein aisa hoga?" },
+        { "s": "A", "de": "Ja, das ist gesetzlich vorgeschrieben, wir kontrollieren das stichprobenartig.", "en": "Yes, that's legally required, we check it randomly.", "ur": "Ji haan, yeh qanooni tor par zaroori hai, hum random check karte hain." },
+        { "s": "B", "de": "Verstehe, das ist ja auch sinnvoll.", "en": "I understand, that makes sense too.", "ur": "Samajh gayi, yeh theek bhi hai." },
+        { "s": "A", "de": "Genau. So, jetzt können Sie weiter scannen.", "en": "Exactly. So, now you can keep scanning.", "ur": "Bilkul. To ab aap scan karti rahein." },
+        { "s": "B", "de": "Alles klar, vielen Dank für die schnelle Hilfe.", "en": "All right, thank you very much for the quick help.", "ur": "Theek hai, jaldi madad ka bohat shukriya." },
+        { "s": "A", "de": "Gerne geschehen. Kommen Sie gut nach Hause.", "en": "You're welcome. Get home safely.", "ur": "Koi baat nahi. Ghar theek pohanch jayein." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, ich sehe an Ihrer Anzeige eine Fehlermeldung. Kann ich behilflich sein?", "en": "Hello, I see an error message on your display. Can I be of assistance?", "ur": "Salam, aap ki display par error message hai. Kya main madad kar sakta hoon?" },
+        { "s": "B", "de": "Ja, bitte. Die Waage meldet einen Fremdkörper, obwohl ich nur meine eigenen Taschen benutze.", "en": "Yes, please. The scale reports a foreign object, even though I'm only using my own bags.", "ur": "Ji please. Scale foreign object bata raha hai, halan ke main sirf apne thailay istemal kar rahi hoon." },
+        { "s": "A", "de": "Das kommt manchmal vor, wenn die Waage die Tasche als zusätzliches Gewicht wertet.", "en": "That sometimes happens when the scale registers the bag as extra weight.", "ur": "Kabhi kabhi aisa hota hai jab scale thailay ko extra wazan samajhta hai." },
+        { "s": "B", "de": "Ah, das erklärt es. Wie beheben wir das jetzt?", "en": "Ah, that explains it. How do we fix it now?", "ur": "Ah, yeh baat samajh aayi. Ab isay kaise theek karein?" },
+        { "s": "A", "de": "Ich autorisiere das kurz mit meiner Mitarbeiterkarte, dann läuft es normal weiter.", "en": "I'll authorize it briefly with my staff card, then it continues normally.", "ur": "Main apni staff card se isay authorize karta hoon, phir yeh normal chalega." },
+        { "s": "B", "de": "Vielen Dank. Passiert das eigentlich häufig an diesem Gerät?", "en": "Thank you very much. Does this actually happen often on this machine?", "ur": "Bohat shukriya. Kya is machine par yeh aksar hota hai?" },
+        { "s": "A", "de": "Ehrlich gesagt, dieses Gerät hier ist etwas empfindlicher als die anderen.", "en": "Honestly, this particular machine is a bit more sensitive than the others.", "ur": "Sach kahoon to yeh machine doosron se thori zyada sensitive hai." },
+        { "s": "B", "de": "Vielleicht sollte ich beim nächsten Mal ein anderes Gerät nehmen.", "en": "Maybe next time I should use a different machine.", "ur": "Shayad agli baar mujhe koi doosri machine leni chahiye." },
+        { "s": "A", "de": "Das wäre keine schlechte Idee, besonders zu Stoßzeiten.", "en": "That wouldn't be a bad idea, especially during peak times.", "ur": "Yeh bura idea nahi hoga, khaas kar rush ke waqt." },
+        { "s": "B", "de": "Danke für den Hinweis. So, jetzt kann ich wohl fortfahren?", "en": "Thanks for the tip. So, now I can probably continue?", "ur": "Ishare ka shukriya. To ab main aage barh sakti hoon?" },
+        { "s": "A", "de": "Genau, alles ist wieder freigegeben.", "en": "Exactly, everything is unlocked again.", "ur": "Bilkul, sab dobara unlock ho gaya." },
+        { "s": "B", "de": "Perfekt, vielen Dank für Ihre schnelle und freundliche Hilfe.", "en": "Perfect, thank you very much for your quick and friendly help.", "ur": "Zabardast, aap ki jaldi aur khush-mizaaj madad ka bohat shukriya." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "An der SB-Kasse erkennt der Scanner Ihre Milch nicht. Ein Mitarbeiter hilft Ihnen.",
+        "en": "At the self-checkout, the scanner doesn't recognize your milk. A staff member helps you.",
+        "ur": "Self-checkout par scanner aap ki doodh ko pehchan nahi raha. Staff member madad karta hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Was ist denn das Problem?",
+          "goal": { "en": "Say the scanner doesn't recognize the milk.", "ur": "Kahein: scanner doodh ko pehchan nahi raha." },
+          "options": ["Der Scanner erkennt die Milch nicht.", "Die Milch wird nicht gescannt."],
+          "fallback": "Was funktioniert nicht?",
+          "accept": [{ "kw": ["scanner", "milch"], "next": "n2" }, { "kw": ["milch"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Zeigen Sie mir das mal.",
+          "goal": { "en": "Say here, you're holding the code out.", "ur": "Kahein yeh raha, code dikha rahi hoon." },
+          "options": ["Hier, ich halte den Code hin.", "Hier ist der Code."],
+          "fallback": "Wo ist der Code?",
+          "accept": [{ "kw": ["hier", "code"], "next": "n3" }, { "kw": ["code"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ah, ich scanne es für Sie.",
+          "goal": { "en": "Thank him.", "ur": "Shukriya kahein." },
+          "options": ["Danke schön.", "Vielen Dank."],
+          "fallback": "Bitte schön.",
+          "accept": [{ "kw": ["danke"], "next": "n4" }, { "kw": ["dank"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Jetzt funktioniert es wieder.",
+          "goal": { "en": "Say great, thank you for the help.", "ur": "Kahein zabardast, madad ka shukriya." },
+          "options": ["Super, vielen Dank für die Hilfe.", "Toll, danke für die Hilfe."],
+          "fallback": "Klappt es jetzt?",
+          "accept": [{ "kw": ["hilfe"], "next": "n5" }, { "kw": ["danke"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Kein Problem.",
+          "goal": { "en": "Say thanks again.", "ur": "Dobara shukriya kahein." },
+          "options": ["Nochmals danke.", "Danke sehr."],
+          "fallback": "Alles gut?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }, { "kw": ["nochmals"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Einen schönen Tag!",
+          "goal": { "en": "Wish him a nice day too and say goodbye.", "ur": "Aap ko bhi acha din kahein aur khuda hafiz." },
+          "options": ["Ihnen auch, auf Wiedersehen!", "Danke, Ihnen auch!"],
+          "fallback": "Auf Wiedersehen!",
+          "accept": [
+            { "kw": ["ihnen", "auch"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie möchten eine Flasche Wein kaufen, aber die SB-Kasse verlangt einen Altersnachweis. Ein Mitarbeiter muss Ihren Ausweis prüfen.",
+        "en": "You want to buy a bottle of wine, but the self-checkout requires age verification. A staff member needs to check your ID.",
+        "ur": "Aap wine ki bottle lena chahti hain, lekin self-checkout age verification maang raha hai. Staff member ID check karta hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Ich sehe, an Ihrer Kasse leuchtet ein rotes Licht. Brauchen Sie Hilfe?",
+          "goal": { "en": "Say yes, the system requires age verification for the wine.", "ur": "Kahein haan, system wine ke liye age verification maang raha hai." },
+          "options": ["Ja, das System verlangt einen Altersnachweis für den Wein.", "Ja, ich brauche einen Altersnachweis für den Wein."],
+          "fallback": "Was ist das Problem?",
+          "accept": [{ "kw": ["altersnachweis"], "next": "n2" }, { "kw": ["wein"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das ist normal bei Alkohol. Ich muss kurz Ihren Ausweis sehen.",
+          "goal": { "en": "Say of course, here it is.", "ur": "Kahein zaroor, yeh raha." },
+          "options": ["Natürlich, hier ist er.", "Klar, bitte sehr."],
+          "fallback": "Haben Sie einen Ausweis dabei?",
+          "accept": [{ "kw": ["hier"], "next": "n3" }, { "kw": ["natürlich"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Danke, ich gebe das im System frei.",
+          "goal": { "en": "Ask if this has to happen with every alcohol purchase.", "ur": "Poochein kya har alcohol khareedari mein aisa hoga." },
+          "options": ["Muss das bei jedem Einkauf mit Alkohol passieren?", "Passiert das immer beim Alkoholkauf?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["alkohol"], "next": "n4" }, { "kw": ["jedem"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, das ist gesetzlich vorgeschrieben, wir kontrollieren das stichprobenartig.",
+          "goal": { "en": "Say you understand, that makes sense.", "ur": "Kahein samajh gayi, yeh theek bhi hai." },
+          "options": ["Verstehe, das ist ja auch sinnvoll.", "Verstehe, macht Sinn."],
+          "fallback": "Ist das nachvollziehbar für Sie?",
+          "accept": [{ "kw": ["verstehe"], "next": "n5" }, { "kw": ["sinnvoll"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Genau. So, jetzt können Sie weiter scannen.",
+          "goal": { "en": "Say all right, thank you for the quick help.", "ur": "Kahein theek hai, jaldi madad ka shukriya." },
+          "options": ["Alles klar, vielen Dank für die schnelle Hilfe.", "Gut, danke für die schnelle Hilfe."],
+          "fallback": "Ist alles klar?",
+          "accept": [{ "kw": ["schnelle", "hilfe"], "next": "n6" }, { "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gerne geschehen. Kommen Sie gut nach Hause.",
+          "goal": { "en": "Thank him and say goodbye.", "ur": "Shukriya kahein aur khuda hafiz." },
+          "options": ["Danke schön, auf Wiedersehen!", "Vielen Dank, auf Wiedersehen!"],
+          "fallback": "Auf Wiedersehen!",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

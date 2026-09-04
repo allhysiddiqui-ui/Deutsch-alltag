@@ -1,0 +1,37 @@
+{
+  "id": "pfand",
+  "order": 5,
+  "icon": "♻️",
+  "title": {
+    "de": "Pfand & Rückgabe",
+    "en": "Deposit & Returns",
+    "ur": "Pfand aur wapsi"
+  },
+  "intro": "Pfandautomat, Mehrweg, Einweg, Bon und Kasten — alles, was man rund um das deutsche Flaschenpfand sagen und verstehen muss.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "der Pfandautomat", "opts": ["deposit-return machine", "cash register", "vending machine for snacks", "shopping cart"], "a": 0, "ur": "bottle wapis karne wali machine", "word": "pfandautomat" },
+      { "type": "mc", "q": "das Pfand", "opts": ["deposit (refunded on return)", "receipt", "discount", "tax"], "a": 0, "ur": "bottle par diya gaya deposit", "word": "pfand" },
+      { "type": "mc", "q": "Mehrweg", "opts": ["reusable (refillable)", "single-use", "damaged", "expensive"], "a": 0, "ur": "dobara istemal hone wali", "word": "mehrweg" },
+      { "type": "mc", "q": "Einweg", "opts": ["single-use", "reusable", "empty", "heavy"], "a": 0, "ur": "sirf ek baar istemal hone wali", "word": "einweg" },
+      { "type": "mc", "q": "das Leergut", "opts": ["empties (bottles/cans to return)", "full crate", "grocery bag", "cash"], "a": 0, "ur": "khaali bottles jo wapis ki jayein", "word": "leergut" },
+      { "type": "mc", "q": "der Kasten", "opts": ["crate (of bottles)", "receipt", "cashier", "shelf"], "a": 0, "ur": "bottles ka kasten", "word": "kasten" },
+      { "type": "mc", "q": "einlösen", "opts": ["to redeem (a receipt)", "to break", "to throw away", "to carry"], "a": 0, "ur": "bhunana", "word": "einlösen" },
+      { "type": "mc", "q": "verbeult", "opts": ["dented", "clean", "new", "full"], "a": 0, "ur": "toota-mora / dab gaya", "word": "verbeult" },
+      { "type": "gap", "de": "Der ___ nimmt meine Flasche nicht.", "a": "Automat", "hint": "machine", "en": "The machine won't take my bottle.", "word": "automat" },
+      { "type": "gap", "de": "Diese Flasche ist ___, sie wird gereinigt und wiederverwendet.", "a": "Mehrweg", "hint": "reusable", "en": "This bottle is reusable, it gets cleaned and reused.", "word": "mehrweg" },
+      { "type": "gap", "de": "Drücken Sie die grüne ___ für die Quittung.", "a": "Taste", "hint": "button", "en": "Press the green button for the receipt.", "word": "taste" },
+      { "type": "gap", "de": "Ich möchte den ___ zurückgeben.", "a": "Kasten", "hint": "crate", "en": "I'd like to return the crate.", "word": "kasten" },
+      { "type": "order", "a": "Wie viel Pfand bekomme ich zurück", "en": "How much deposit do I get back?" },
+      { "type": "order", "a": "Können Sie das vom Einkauf abziehen", "en": "Can you deduct that from the purchase?" },
+      { "type": "order", "a": "Zählt der Automat alle Flaschen", "en": "Does the machine count all the bottles?" },
+      { "type": "listen", "a": "Ich habe noch drei Flaschen.", "en": "I still have three bottles." },
+      { "type": "listen", "a": "Der Automat hat gerade eine Flasche abgelehnt.", "en": "The machine just rejected a bottle." },
+      { "type": "listen", "a": "Wie viel Pfand bekomme ich für den Kasten?", "en": "How much deposit do I get for the crate?" },
+      { "type": "prod", "en": "Where do I get the receipt?", "ur": "Receipt mujhe kahan milegi?", "a": "Wo bekomme ich den Bon?" },
+      { "type": "prod", "en": "Is single-use made of plastic?", "ur": "Kya Einweg plastic ki hoti hai?", "a": "Ist Einweg aus Kunststoff?" },
+      { "type": "prod", "en": "A bottle is stuck in the machine.", "ur": "Ek bottle machine mein phans gayi hai.", "a": "Eine Flasche steckt fest im Automaten." },
+      { "type": "prod", "en": "Can I also return just the crate?", "ur": "Kya main sirf kasten bhi wapis kar sakti hoon?", "a": "Kann ich auch nur den Kasten zurückgeben?" }
+    ]
+  }
+}

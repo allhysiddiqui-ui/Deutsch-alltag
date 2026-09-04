@@ -1,0 +1,204 @@
+{
+  "id": "ersatz",
+  "order": 4,
+  "icon": "🔄",
+  "title": { "de": "Ein Ersatzprodukt finden", "en": "Finding a substitute product", "ur": "Ersatz product dhoondna" },
+  "angle": "An item is out of stock and staff helps find a substitute, including a dietary question · Item stock mein nahi hai, staff ersatz dhoondne mein madad karta hai",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["ausverkauft", "ersatz", "vegetarisch", "glutenfrei", "haferdrink", "sojamilch", "vorrätig", "geschmack", "empfehlen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Suchen Sie etwas Bestimmtes?", "en": "Hello! Are you looking for something specific?", "ur": "Salam! Kya aap kuch khaas dhoond rahi hain?" },
+        { "s": "B", "de": "Ja, ich finde die Hafermilch nicht.", "en": "Yes, I can't find the oat milk.", "ur": "Ji haan, mujhe oat milk nahi mil rahi." },
+        { "s": "A", "de": "Die ist heute leider ausverkauft.", "en": "That is unfortunately sold out today.", "ur": "Woh aaj afsos ke saath khatam ho gayi hai." },
+        { "s": "B", "de": "Oh, schade. Haben Sie etwas Ähnliches?", "en": "Oh, that's a shame. Do you have something similar?", "ur": "Oh, afsos. Kya aap ke paas kuch aisa hi hai?" },
+        { "s": "A", "de": "Ja, Sojamilch ist noch vorrätig.", "en": "Yes, soy milk is still in stock.", "ur": "Ji haan, soy milk abhi bhi available hai." },
+        { "s": "B", "de": "Gut, das nehme ich als Ersatz.", "en": "Good, I'll take that as a substitute.", "ur": "Acha, main yeh ersatz mein le loongi." },
+        { "s": "A", "de": "Sie steht dort im Regal links.", "en": "It's on the shelf on the left over there.", "ur": "Woh us taraf shelf par bayen haath hai." },
+        { "s": "B", "de": "Danke, ich finde sie schon.", "en": "Thanks, I'll find it.", "ur": "Shukriya, main dhoond loongi." },
+        { "s": "A", "de": "Gern geschehen. Noch etwas?", "en": "You're welcome. Anything else?", "ur": "Koi baat nahi. Aur kuch?" },
+        { "s": "B", "de": "Nein, das ist alles. Danke schön.", "en": "No, that's everything. Thank you.", "ur": "Nahi, bas itna hi. Shukriya." },
+        { "s": "A", "de": "Einen schönen Tag noch!", "en": "Have a nice day!", "ur": "Din acha guzray!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Kann ich Ihnen weiterhelfen?", "en": "Can I help you further?", "ur": "Kya main aap ki aur madad kar sakta hoon?" },
+        { "s": "B", "de": "Ja, ich suche glutenfreies Brot, aber ich finde es nicht.", "en": "Yes, I'm looking for gluten-free bread, but I can't find it.", "ur": "Ji haan, mujhe gluten-free bread chahiye, lekin mil nahi rahi." },
+        { "s": "A", "de": "Das steht normalerweise im dritten Gang, aber es ist momentan ausverkauft.", "en": "It's usually in the third aisle, but it's currently sold out.", "ur": "Woh aam tor par teesre gang mein hoti hai, lekin abhi khatam hai." },
+        { "s": "B", "de": "Wann bekommen Sie neue Lieferung?", "en": "When will you get a new delivery?", "ur": "Nayi delivery kab aayegi?" },
+        { "s": "A", "de": "Morgen früh, aber ich kann Ihnen jetzt eine andere Marke zeigen.", "en": "Tomorrow morning, but I can show you a different brand now.", "ur": "Kal subh, lekin main abhi aap ko doosri brand dikha sakta hoon." },
+        { "s": "B", "de": "Gerne, ist die auch glutenfrei?", "en": "Sure, is that also gluten-free?", "ur": "Zaroor, kya woh bhi gluten-free hai?" },
+        { "s": "A", "de": "Ja, und viele Kunden sagen, der Geschmack ist sehr gut.", "en": "Yes, and many customers say the taste is very good.", "ur": "Ji haan, aur kaafi customers kehte hain zaeqa bohat acha hai." },
+        { "s": "B", "de": "Das klingt gut, ich probiere es.", "en": "That sounds good, I'll try it.", "ur": "Yeh acha lagta hai, main try karti hoon." },
+        { "s": "A", "de": "Es kostet etwas mehr, aber es ist frisch gebacken.", "en": "It costs a bit more, but it's freshly baked.", "ur": "Yeh thora zyada mehnga hai, lekin taaza baked hai." },
+        { "s": "B", "de": "Kein Problem, Qualität ist mir wichtig.", "en": "No problem, quality is important to me.", "ur": "Koi masla nahi, quality meri liye zaroori hai." },
+        { "s": "A", "de": "Sehr gut. Es liegt im Kühlregal ganz vorne.", "en": "Very good. It's in the refrigerated shelf right at the front.", "ur": "Bohat acha. Yeh cooling shelf ke bilkul aage hai." },
+        { "s": "B", "de": "Danke für die Hilfe.", "en": "Thanks for the help.", "ur": "Madad ka shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Sie sehen etwas ratlos aus. Kann ich Ihnen helfen?", "en": "You look a bit puzzled. Can I help you?", "ur": "Aap thori pareshan lag rahi hain. Kya main madad karoon?" },
+        { "s": "B", "de": "Ja, ich koche heute vegetarisch, aber der Fleischersatz, den ich sonst kaufe, ist nicht da.", "en": "Yes, I'm cooking vegetarian today, but the meat substitute I usually buy isn't there.", "ur": "Ji haan, aaj main vegetarian pakaa rahi hoon, lekin jo meat substitute main aam le kar leti hoon woh nahi hai." },
+        { "s": "A", "de": "Ah, das Sojaschnitzel ist tatsächlich seit gestern ausverkauft.", "en": "Ah, the soy schnitzel has actually been sold out since yesterday.", "ur": "Ah, soy schnitzel kal se khatam hai." },
+        { "s": "B", "de": "Verstehe. Gibt es denn eine vergleichbare Alternative im Kühlregal?", "en": "I see. Is there a comparable alternative in the refrigerated shelf?", "ur": "Samajh gayi. Kya cooling shelf mein koi mukabla wala option hai?" },
+        { "s": "A", "de": "Wir haben Tofu-Bratlinge, die schmecken vielen ähnlich gut.", "en": "We have tofu patties, which taste similarly good to many people.", "ur": "Humare paas tofu patties hain, kaafi logon ko yeh bhi utni hi achi lagti hain." },
+        { "s": "B", "de": "Klingt interessant. Sind die auch glutenfrei? Meine Tochter verträgt kein Gluten.", "en": "Sounds interesting. Are they also gluten-free? My daughter can't tolerate gluten.", "ur": "Dilchasp lagta hai. Kya yeh gluten-free bhi hain? Meri beti gluten bardasht nahi karti." },
+        { "s": "A", "de": "Ja, auf der Packung steht deutlich glutenfrei.", "en": "Yes, it clearly says gluten-free on the package.", "ur": "Ji haan, packet par saaf gluten-free likha hai." },
+        { "s": "B", "de": "Perfekt, dann nehme ich zwei Packungen.", "en": "Perfect, then I'll take two packages.", "ur": "Bohat acha, to main do packet loongi." },
+        { "s": "A", "de": "Gerne. Ich kann auch ein Rezept dazu empfehlen, wenn Sie möchten.", "en": "Sure. I can also recommend a recipe for it, if you like.", "ur": "Zaroor. Agar aap chahein to main recipe bhi sujha sakta hoon." },
+        { "s": "B", "de": "Das wäre nett, ich koche das zum ersten Mal.", "en": "That would be nice, I'm cooking this for the first time.", "ur": "Yeh acha hoga, main pehli baar yeh bana rahi hoon." },
+        { "s": "A", "de": "Am besten kurz anbraten und mit Gemüse servieren.", "en": "Best to fry briefly and serve with vegetables.", "ur": "Behtareen hoga thora bhoon kar sabziyon ke sath serve karna." },
+        { "s": "B", "de": "Danke für den Tipp, das versuche ich.", "en": "Thanks for the tip, I'll try that.", "ur": "Tip ka shukriya, main koshish karoongi." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Sie schauen schon eine Weile in dieses Regal. Fehlt etwas?", "en": "Hello, you've been looking in this shelf for a while. Is something missing?", "ur": "Salam, aap kaafi der se is shelf mein dekh rahi hain. Kya kuch missing hai?" },
+        { "s": "B", "de": "Genau, ich suche die laktosefreie Sahne, die ich normalerweise hier kaufe, finde sie aber nicht.", "en": "Exactly, I'm looking for the lactose-free cream I usually buy here, but can't find it.", "ur": "Bilkul, main woh lactose-free cream dhoond rahi hoon jo aam tor par yahan se leti hoon, lekin mil nahi rahi." },
+        { "s": "A", "de": "Wir hatten leider Lieferprobleme mit diesem Hersteller. Es tut mir leid.", "en": "We unfortunately had delivery problems with this manufacturer. I'm sorry.", "ur": "Humein afsos se is company ke sath delivery ka masla hua. Mujhe afsos hai." },
+        { "s": "B", "de": "Kein Problem, sowas passiert. Was würden Sie mir stattdessen empfehlen?", "en": "No problem, that happens. What would you recommend instead?", "ur": "Koi baat nahi, aisa hota hai. Aap iske bajaye kya sujhaenge?" },
+        { "s": "A", "de": "Es gibt eine Hafersahne von einer anderen Marke, die geschmacklich sehr nah dran ist.", "en": "There's an oat cream from another brand that's very close in taste.", "ur": "Ek doosri brand ki oat cream hai jo zaeqe mein bohat qareeb hai." },
+        { "s": "B", "de": "Interessant, ist die auch für Kaffee geeignet oder eher zum Kochen?", "en": "Interesting, is that suitable for coffee too, or more for cooking?", "ur": "Dilchasp, kya woh coffee ke liye bhi theek hai ya sirf pakane ke liye?" },
+        { "s": "A", "de": "Beides, sie ist relativ vielseitig und schäumt auch gut auf.", "en": "Both, it's fairly versatile and also foams up well.", "ur": "Dono, yeh kaafi versatile hai aur acha foam bhi banti hai." },
+        { "s": "B", "de": "Das überzeugt mich. Und der Preis ist ungefähr gleich?", "en": "That convinces me. And the price is about the same?", "ur": "Yeh mujhe qaail karta hai. Aur qeemat taqreeban wohi hai?" },
+        { "s": "A", "de": "Etwas günstiger sogar, sie ist gerade im Angebot.", "en": "Even a bit cheaper actually, it's on offer right now.", "ur": "Bilki thori sasti bhi hai, abhi offer par hai." },
+        { "s": "B", "de": "Umso besser. Ich nehme zwei Packungen davon.", "en": "Even better. I'll take two packages of that.", "ur": "Aur bhi behtar. Main iske do packet loongi." },
+        { "s": "A", "de": "Gerne. Falls es Ihnen nicht zusagt, können Sie sie jederzeit umtauschen.", "en": "Sure. If it doesn't suit you, you can exchange it anytime.", "ur": "Zaroor. Agar pasand na aaye to aap kabhi bhi tabdeel kar sakti hain." },
+        { "s": "B", "de": "Sehr kundenfreundlich, vielen Dank für Ihre Geduld.", "en": "Very customer-friendly, thank you very much for your patience.", "ur": "Bohat customer-friendly, aap ke sabar ka bohat shukriya." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie suchen Hafermilch, aber sie ist ausverkauft. Ein Mitarbeiter hilft Ihnen, einen Ersatz zu finden.",
+        "en": "You're looking for oat milk, but it's sold out. A staff member helps you find a substitute.",
+        "ur": "Aap oat milk dhoond rahi hain, lekin woh khatam hai. Ek staff member ersatz dhoondne mein madad karta hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Suchen Sie etwas Bestimmtes?",
+          "goal": { "en": "Say yes, you can't find the oat milk.", "ur": "Kahein: haan, mujhe oat milk nahi mil rahi." },
+          "options": ["Ja, ich finde die Hafermilch nicht.", "Ja, ich suche Hafermilch."],
+          "fallback": "Was suchen Sie genau?",
+          "accept": [{ "kw": ["hafermilch"], "next": "n2" }, { "kw": ["ja", "finde"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Die ist heute leider ausverkauft.",
+          "goal": { "en": "Ask if they have something similar.", "ur": "Poochein: kya kuch aisa hi hai." },
+          "options": ["Haben Sie etwas Ähnliches?", "Gibt es einen Ersatz?"],
+          "fallback": "Möchten Sie eine Alternative?",
+          "accept": [{ "kw": ["ähnliches"], "next": "n3" }, { "kw": ["ersatz"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, Sojamilch ist noch vorrätig.",
+          "goal": { "en": "Say good, you'll take that as a substitute.", "ur": "Kahein: acha, main yeh ersatz mein le loongi." },
+          "options": ["Gut, das nehme ich als Ersatz.", "Gut, die nehme ich."],
+          "fallback": "Möchten Sie die Sojamilch?",
+          "accept": [{ "kw": ["gut", "nehme"], "next": "n4" }, { "kw": ["nehme"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Sie steht dort im Regal links.",
+          "goal": { "en": "Thank him, say you'll find it.", "ur": "Shukriya kahein, keh dein aap dhoond loongi." },
+          "options": ["Danke, ich finde sie schon.", "Danke, das finde ich."],
+          "fallback": "Finden Sie es?",
+          "accept": [{ "kw": ["danke", "finde"], "next": "n5" }, { "kw": ["danke"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gern geschehen. Noch etwas?",
+          "goal": { "en": "Say no, that's everything, thank you.", "ur": "Kahein: nahi, bas itna hi, shukriya." },
+          "options": ["Nein, das ist alles. Danke schön.", "Nein, danke, das ist alles."],
+          "fallback": "Brauchen Sie noch etwas?",
+          "accept": [{ "kw": ["nein", "alles"], "next": "n6" }, { "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Einen schönen Tag noch!",
+          "goal": { "en": "Wish him a nice day too.", "ur": "Aap bhi acha din kahein." },
+          "options": ["Ihnen auch!", "Danke, Ihnen auch einen schönen Tag!"],
+          "fallback": "Auf Wiedersehen!",
+          "accept": [
+            { "kw": ["ihnen", "auch"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["auch"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Die laktosefreie Sahne, die Sie normalerweise kaufen, ist wegen Lieferproblemen nicht da. Ein Mitarbeiter empfiehlt eine Alternative.",
+        "en": "The lactose-free cream you usually buy isn't there due to delivery problems. A staff member recommends an alternative.",
+        "ur": "Jo lactose-free cream aap aam tor par leti hain woh delivery ke masle ki wajah se nahi hai. Staff member alternative sujhata hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Sie schauen schon eine Weile in dieses Regal. Fehlt etwas?",
+          "goal": { "en": "Say you're looking for the lactose-free cream you usually buy.", "ur": "Kahein aap woh lactose-free cream dhoond rahi hain jo aam tor par leti hain." },
+          "options": ["Ich suche die laktosefreie Sahne, die ich normalerweise kaufe.", "Ich finde die laktosefreie Sahne nicht, die ich sonst kaufe."],
+          "fallback": "Was genau suchen Sie?",
+          "accept": [{ "kw": ["laktosefreie", "sahne"], "next": "n2" }, { "kw": ["sahne"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wir hatten leider Lieferprobleme mit diesem Hersteller.",
+          "goal": { "en": "Say no problem, and ask what he would recommend instead.", "ur": "Kahein koi baat nahi, aur poochein woh kya sujhaenge." },
+          "options": ["Kein Problem. Was würden Sie mir stattdessen empfehlen?", "Kein Problem, haben Sie eine Empfehlung?"],
+          "fallback": "Möchten Sie eine Alternative?",
+          "accept": [{ "kw": ["empfehlen"], "next": "n3" }, { "kw": ["alternative"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Es gibt eine Hafersahne von einer anderen Marke, die geschmacklich sehr nah dran ist.",
+          "goal": { "en": "Ask if it's also suitable for coffee.", "ur": "Poochein kya yeh coffee ke liye bhi theek hai." },
+          "options": ["Ist die auch für Kaffee geeignet?", "Passt die auch zu Kaffee?"],
+          "fallback": "Wofür möchten Sie es verwenden?",
+          "accept": [{ "kw": ["kaffee"], "next": "n4" }, { "kw": ["geeignet"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Beides, sie ist relativ vielseitig und schäumt auch gut auf.",
+          "goal": { "en": "Ask if the price is about the same.", "ur": "Poochein kya qeemat taqreeban wohi hai." },
+          "options": ["Ist der Preis ungefähr gleich?", "Kostet die ungefähr dasselbe?"],
+          "fallback": "Interessiert Sie der Preis?",
+          "accept": [{ "kw": ["preis"], "next": "n5" }, { "kw": ["kostet"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Etwas günstiger sogar, sie ist gerade im Angebot.",
+          "goal": { "en": "Say even better, you'll take two packages.", "ur": "Kahein aur bhi behtar, main do packet loongi." },
+          "options": ["Umso besser. Ich nehme zwei Packungen davon.", "Perfekt, ich nehme zwei Packungen."],
+          "fallback": "Wie viele möchten Sie?",
+          "accept": [{ "kw": ["zwei", "packungen"], "next": "n6" }, { "kw": ["nehme"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gerne. Falls es Ihnen nicht zusagt, können Sie sie jederzeit umtauschen.",
+          "goal": { "en": "Thank him for his patience.", "ur": "Sabar ke liye shukriya kahein." },
+          "options": ["Vielen Dank für Ihre Geduld.", "Danke für Ihre Geduld und Hilfe."],
+          "fallback": "War das alles?",
+          "accept": [
+            { "kw": ["dank", "geduld"], "reply": "Sehr gern, einen schönen Tag noch!", "next": "END" },
+            { "kw": ["danke"], "reply": "Sehr gern, einen schönen Tag noch!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

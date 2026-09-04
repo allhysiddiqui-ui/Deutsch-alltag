@@ -1,0 +1,221 @@
+{
+  "id": "geburtstagstorte",
+  "order": 2,
+  "icon": "🎂",
+  "title": { "de": "Eine Geburtstagstorte bestellen", "en": "Ordering a birthday cake", "ur": "Geburtstagstorte order karna" },
+  "angle": "Choosing flavor, size, decoration and pickup time for a birthday cake · Torte ke liye flavor, size aur waqt tay karna",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["geburtstagstorte", "torte", "schokolade", "vanille", "erdbeere", "sahne", "kerze", "marzipan", "gefüllt", "abholzeit"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was kann ich für Sie tun?", "en": "Hello! What can I do for you?", "ur": "Salam! Main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte eine Geburtstagstorte bestellen.", "en": "Hello. I'd like to order a birthday cake.", "ur": "Salam. Mujhe ek geburtstagstorte order karni hai." },
+        { "s": "A", "de": "Gerne! Für wie viele Personen soll die Torte sein?", "en": "Sure! How many people should the cake be for?", "ur": "Zaroor! Kitne logon ke liye torte chahiye?" },
+        { "s": "B", "de": "Für zehn Personen, bitte.", "en": "For ten people, please.", "ur": "Das logon ke liye, please." },
+        { "s": "A", "de": "Welchen Geschmack möchten Sie? Schokolade, Vanille oder Erdbeere?", "en": "Which flavor would you like? Chocolate, vanilla or strawberry?", "ur": "Aap ko kaun sa flavor chahiye? Schokolade, Vanille ya Erdbeere?" },
+        { "s": "B", "de": "Schokolade, bitte, das mag sie am liebsten.", "en": "Chocolate, please, that's what she likes best.", "ur": "Schokolade, please, usay yeh sab se zyada pasand hai." },
+        { "s": "A", "de": "Gut. Möchten Sie auch Kerzen dazu?", "en": "Good. Would you also like candles with that?", "ur": "Acha. Kya aap ko mombattiyan bhi chahiye?" },
+        { "s": "B", "de": "Ja, fünf Kerzen, bitte.", "en": "Yes, five candles, please.", "ur": "Ji haan, paanch mombattiyan, please." },
+        { "s": "A", "de": "Wann möchten Sie die Torte abholen?", "en": "When would you like to pick up the cake?", "ur": "Aap torte kab lene aayengi?" },
+        { "s": "B", "de": "Am Samstag um zwölf Uhr, bitte.", "en": "On Saturday at twelve o'clock, please.", "ur": "Hafta ko barah baje, please." },
+        { "s": "A", "de": "Wie soll das Kind heißen, das auf der Torte steht?", "en": "What should the name on the cake be?", "ur": "Torte par bache ka kya naam likhein?" },
+        { "s": "B", "de": "Elif, bitte.", "en": "Elif, please.", "ur": "Elif, please." },
+        { "s": "A", "de": "Alles klar, die Torte ist am Samstag fertig.", "en": "All right, the cake will be ready on Saturday.", "ur": "Theek hai, torte hafte ko tayyar hogi." },
+        { "s": "B", "de": "Vielen Dank, Frau Ostermann!", "en": "Thank you very much, Mrs Ostermann!", "ur": "Bohat shukriya, Frau Ostermann!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, wie kann ich Ihnen helfen?", "en": "Hello, how can I help you?", "ur": "Salam, main aap ki kaise madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte eine Geburtstagstorte für meine Tochter bestellen.", "en": "Hello. I'd like to order a birthday cake for my daughter.", "ur": "Salam. Mujhe apni beti ke liye geburtstagstorte order karni hai." },
+        { "s": "A", "de": "Wie schön! Wie alt wird sie denn?", "en": "How lovely! How old is she turning?", "ur": "Kitni acchi baat hai! Woh kitne saal ki ho rahi hai?" },
+        { "s": "B", "de": "Sie wird sechs Jahre alt.", "en": "She's turning six years old.", "ur": "Woh chhe saal ki ho rahi hai." },
+        { "s": "A", "de": "Für wie viele Gäste soll die Torte reichen?", "en": "How many guests should the cake be enough for?", "ur": "Kitne mehmanon ke liye torte kaafi honi chahiye?" },
+        { "s": "B", "de": "Für ungefähr zwölf Personen.", "en": "For about twelve people.", "ur": "Taqreeban barah logon ke liye." },
+        { "s": "A", "de": "Welche Sorte darf es sein? Wir haben Schokolade, Vanille und Erdbeere.", "en": "Which kind would you like? We have chocolate, vanilla and strawberry.", "ur": "Kaun si sorte chahiye? Hamare paas Schokolade, Vanille aur Erdbeere hain." },
+        { "s": "B", "de": "Erdbeere, bitte, das mag sie am liebsten.", "en": "Strawberry, please, that's her favorite.", "ur": "Erdbeere, please, usay yeh sab se pasand hai." },
+        { "s": "A", "de": "Möchten Sie einen Namen oder eine Zahl aus Marzipan auf der Torte?", "en": "Would you like a name or a number made of marzipan on the cake?", "ur": "Kya aap torte par marzipan se naam ya number chahti hain?" },
+        { "s": "B", "de": "Ja, bitte \"Elif\" und die Zahl sechs.", "en": "Yes, please \"Elif\" and the number six.", "ur": "Ji haan, please \"Elif\" aur number chhe." },
+        { "s": "A", "de": "Kein Problem. Und wann brauchen Sie die Torte?", "en": "No problem. And when do you need the cake?", "ur": "Koi masla nahi. Aur aap ko torte kab chahiye?" },
+        { "s": "B", "de": "Am Samstag, am Vormittag, wir feiern am Nachmittag.", "en": "On Saturday, in the morning, we're celebrating in the afternoon.", "ur": "Hafte ko, subh ke waqt, hum dopahar ko jashn manayenge." },
+        { "s": "A", "de": "Gut, dann ist sie am Samstag um zehn Uhr fertig.", "en": "Good, then it will be ready on Saturday at ten o'clock.", "ur": "Acha, to yeh hafte ko das baje tayyar hogi." },
+        { "s": "B", "de": "Perfekt. Muss ich schon jetzt etwas anzahlen?", "en": "Perfect. Do I need to pay a deposit already now?", "ur": "Bohat acha. Kya mujhe abhi kuch advance dena hoga?" },
+        { "s": "A", "de": "Eine kleine Anzahlung wäre schön, zehn Euro reichen.", "en": "A small deposit would be nice, ten euros is enough.", "ur": "Thora sa advance acha hoga, das euro kaafi hain." },
+        { "s": "B", "de": "Kein Problem, hier sind zehn Euro.", "en": "No problem, here are ten euros.", "ur": "Koi masla nahi, yeh lijiye das euro." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Worum geht es diesmal?", "en": "Hello, Mrs Yilmaz. What is it about this time?", "ur": "Salam, Frau Yilmaz. Is baar baat kya hai?" },
+        { "s": "B", "de": "Ich brauche eine Geburtstagstorte für meine Tochter Elif, sie wird sieben.", "en": "I need a birthday cake for my daughter Elif, she's turning seven.", "ur": "Mujhe apni beti Elif ke liye geburtstagstorte chahiye, woh saat saal ki ho rahi hai." },
+        { "s": "A", "de": "Herzlichen Glückwunsch im Voraus! Haben Sie schon eine Vorstellung von der Torte?", "en": "Happy birthday in advance! Do you already have an idea for the cake?", "ur": "Pehle se hi janamdin mubarak! Kya aap ko torte ka koi khayal hai?" },
+        { "s": "B", "de": "Sie mag Erdbeeren sehr, aber die Torte soll nicht zu süß sein.", "en": "She likes strawberries a lot, but the cake shouldn't be too sweet.", "ur": "Usay Erdbeere bohat pasand hai, lekin torte zyada meethi nahi honi chahiye." },
+        { "s": "A", "de": "Dann empfehle ich eine Erdbeertorte mit weniger Zucker in der Füllung.", "en": "Then I recommend a strawberry cake with less sugar in the filling.", "ur": "To main Erdbeertorte tajweez karti hoon jis ki filling mein kam cheeni ho." },
+        { "s": "B", "de": "Das klingt gut. Können Sie außerdem \"Alles Gute, Elif\" auf die Torte schreiben?", "en": "That sounds good. Can you also write \"Best wishes, Elif\" on the cake?", "ur": "Yeh acha lagta hai. Kya aap torte par \"Alles Gute, Elif\" bhi likh sakti hain?" },
+        { "s": "A", "de": "Natürlich, das schreibe ich gern mit Marzipan auf die Torte.", "en": "Of course, I'll gladly write that with marzipan on the cake.", "ur": "Zaroor, main yeh khushi se marzipan se torte par likh doongi." },
+        { "s": "B", "de": "Wunderbar. Für wie viele Personen würden Sie eine mittlere Größe empfehlen?", "en": "Wonderful. How many people would you recommend a medium size for?", "ur": "Bohat acha. Aap kitne logon ke liye medium size tajweez karengi?" },
+        { "s": "A", "de": "Eine mittlere Torte reicht für etwa zwölf bis vierzehn Personen.", "en": "A medium cake is enough for about twelve to fourteen people.", "ur": "Ek medium torte taqreeban barah se chaudah logon ke liye kaafi hai." },
+        { "s": "B", "de": "Das passt gut, wir sind ungefähr dreizehn Gäste.", "en": "That fits well, we're about thirteen guests.", "ur": "Yeh theek rahega, hum taqreeban terah mehmaan hain." },
+        { "s": "A", "de": "Wann soll ich die Torte fertig haben?", "en": "When should I have the cake ready?", "ur": "Torte kab tak tayyar honi chahiye?" },
+        { "s": "B", "de": "Am Samstag, spätestens um elf Uhr, die Feier beginnt um vierzehn Uhr.", "en": "On Saturday, at eleven o'clock at the latest, the party starts at two o'clock.", "ur": "Hafte ko, zyada se zyada gyarah baje tak, party do baje shuru hoti hai." },
+        { "s": "A", "de": "Kein Problem, ich plane das fest ein.", "en": "No problem, I'll schedule that firmly.", "ur": "Koi masla nahi, main yeh pakka rakh loongi." },
+        { "s": "B", "de": "Und was kostet die Torte insgesamt?", "en": "And what does the cake cost in total?", "ur": "Aur torte ki kul qeemat kya hai?" },
+        { "s": "A", "de": "Bei dieser Größe sind das fünfunddreißig Euro.", "en": "At this size, that's thirty-five euros.", "ur": "Is size ke liye yeh paintees euro hain." },
+        { "s": "B", "de": "In Ordnung, ich zahle jetzt schon eine Anzahlung von zehn Euro.", "en": "All right, I'll already pay a deposit of ten euros now.", "ur": "Theek hai, main abhi das euro advance de deti hoon." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz, schön Sie zu sehen. Was führt Sie diesmal zu mir?", "en": "Hello, Mrs Yilmaz, nice to see you. What brings you to me this time?", "ur": "Salam, Frau Yilmaz, aap ko dekh kar khushi hui. Is baar aap kis liye aayi hain?" },
+        { "s": "B", "de": "Ich plane den Geburtstag meiner Tochter Elif und würde gern eine Torte bei Ihnen bestellen.", "en": "I'm planning my daughter Elif's birthday and would like to order a cake from you.", "ur": "Main apni beti Elif ke janamdin ki planning kar rahi hoon aur aap se torte order karna chahti hoon." },
+        { "s": "A", "de": "Sehr gern. Erzählen Sie mir, was Elif sich wünscht.", "en": "Very gladly. Tell me what Elif wishes for.", "ur": "Bohat khushi se. Batayein Elif ki kya khwahish hai." },
+        { "s": "B", "de": "Sie wünscht sich eine Erdbeertorte, aber unter den Gästen ist ein Kind, das keine Nüsse verträgt.", "en": "She wishes for a strawberry cake, but among the guests is a child who can't tolerate nuts.", "ur": "Usay Erdbeertorte chahiye, lekin mehmanon mein ek bacha hai jisay nuts se allergy hai." },
+        { "s": "A", "de": "Das ist gut zu wissen, dann verwende ich für die ganze Torte keine Nüsse, damit sich nichts mischt.", "en": "Good to know, then I won't use any nuts for the whole cake, so nothing gets mixed up.", "ur": "Yeh jaan kar acha laga, to main puri torte mein nuts istemal nahi karoongi, taake kuch mix na ho." },
+        { "s": "B", "de": "Das beruhigt mich sehr, vielen Dank für die Vorsicht.", "en": "That reassures me a lot, thank you very much for the caution.", "ur": "Isse mujhe bohat sukoon mila, ehtiyat ka shukriya." },
+        { "s": "A", "de": "Sehr gern. Möchten Sie eine besondere Dekoration, oder überlassen Sie mir das?", "en": "You're welcome. Would you like a particular decoration, or leave that to me?", "ur": "Khushi se. Kya aap khaas decoration chahti hain, ya mujh par chhor deti hain?" },
+        { "s": "B", "de": "Elif wünscht sich Blumen aus Marzipan, wenn das möglich ist.", "en": "Elif wishes for flowers made of marzipan, if that's possible.", "ur": "Elif ko marzipan ke phool chahiye, agar mumkin ho." },
+        { "s": "A", "de": "Das ist überhaupt kein Problem, das gestalte ich Ihnen gern so.", "en": "That's no problem at all, I'll gladly design it that way for you.", "ur": "Yeh bilkul koi masla nahi, main yeh khushi se aisa bana doongi." },
+        { "s": "B", "de": "Wunderbar. Können Sie außerdem \"Alles Gute, Elif\" mit Zuckerguss draufschreiben?", "en": "Wonderful. Can you also write \"Best wishes, Elif\" on top with icing?", "ur": "Bohat acha. Kya aap Zuckerguss se \"Alles Gute, Elif\" bhi likh sakti hain?" },
+        { "s": "A", "de": "Selbstverständlich, das schreibe ich in einer schönen Farbe.", "en": "Of course, I'll write that in a nice color.", "ur": "Zaroor, main yeh ek achi color mein likh doongi." },
+        { "s": "B", "de": "Perfekt. Für wie viele Personen sollte die Torte reichen, wenn wir fünfzehn Gäste erwarten?", "en": "Perfect. How many people should the cake serve, if we're expecting fifteen guests?", "ur": "Bohat acha. Agar pandrah mehmaan hon to torte kitne logon ke liye kaafi honi chahiye?" },
+        { "s": "A", "de": "Dann empfehle ich die große Größe, die reicht gut für fünfzehn bis achtzehn Personen.", "en": "Then I recommend the large size, which is enough for fifteen to eighteen people.", "ur": "To main bari size tajweez karti hoon, jo pandrah se athara logon ke liye kaafi hai." },
+        { "s": "B", "de": "Gut, dann nehme ich die große Torte. Wann kann ich sie abholen?", "en": "Good, then I'll take the large cake. When can I pick it up?", "ur": "Acha, to main bari torte le loongi. Main yeh kab le sakti hoon?" },
+        { "s": "A", "de": "Am Samstag zwischen zehn und elf Uhr, damit sie noch frisch ist, wenn die Feier beginnt.", "en": "On Saturday between ten and eleven o'clock, so it's still fresh when the party starts.", "ur": "Hafte ko das aur gyarah baje ke darmiyan, taake party shuru hone tak yeh fresh rahe." },
+        { "s": "B", "de": "Das passt perfekt, die Feier startet um vierzehn Uhr.", "en": "That fits perfectly, the party starts at two o'clock.", "ur": "Yeh bilkul theek hai, party do baje shuru hoti hai." },
+        { "s": "A", "de": "Dann sind das insgesamt zweiundvierzig Euro, mit zehn Euro Anzahlung heute.", "en": "Then that's forty-two euros in total, with a ten-euro deposit today.", "ur": "To kul batalees euro bante hain, aaj das euro advance ke saath." },
+        { "s": "B", "de": "Hier sind zehn Euro, den Rest zahle ich bei der Abholung.", "en": "Here are ten euros, I'll pay the rest at pickup.", "ur": "Yeh lijiye das euro, baqi paise main pickup par doongi." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie bestellen eine Geburtstagstorte für ein Kind: Geschmack, Kerzen und Abholzeit.",
+        "en": "You order a birthday cake for a child: flavor, candles and pickup time.",
+        "ur": "Aap bache ke liye geburtstagstorte order karte hain: flavor, mombattiyan aur pickup ka waqt."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was kann ich für Sie tun?",
+          "goal": { "en": "Greet and say you'd like to order a birthday cake.", "ur": "Salam karein aur kahein ke geburtstagstorte order karni hai." },
+          "options": ["Guten Tag. Ich möchte eine Geburtstagstorte bestellen.", "Guten Tag, ich hätte gern eine Geburtstagstorte."],
+          "fallback": "Was möchten Sie bestellen?",
+          "accept": [{ "kw": ["geburtstagstorte"], "next": "n2" }, { "kw": ["torte"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Für wie viele Personen soll die Torte sein?",
+          "goal": { "en": "Say for ten people.", "ur": "Kahein: das logon ke liye." },
+          "options": ["Für zehn Personen, bitte.", "Für zehn Personen."],
+          "fallback": "Wie viele Personen kommen?",
+          "accept": [{ "kw": ["zehn"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Welchen Geschmack möchten Sie? Schokolade, Vanille oder Erdbeere?",
+          "goal": { "en": "Say chocolate, please.", "ur": "Kahein: Schokolade, please." },
+          "options": ["Schokolade, bitte.", "Ich hätte gern Schokolade."],
+          "fallback": "Welchen Geschmack denn?",
+          "accept": [{ "kw": ["schokolade"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Gut. Möchten Sie auch Kerzen dazu?",
+          "goal": { "en": "Say yes, five candles please.", "ur": "Kahein: haan, paanch mombattiyan please." },
+          "options": ["Ja, fünf Kerzen, bitte.", "Ja, bitte fünf Kerzen."],
+          "fallback": "Brauchen Sie Kerzen?",
+          "accept": [{ "kw": ["fünf", "kerzen"], "next": "n5" }, { "kw": ["kerzen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Wann möchten Sie die Torte abholen?",
+          "goal": { "en": "Say Saturday at twelve o'clock.", "ur": "Kahein: Hafte ko barah baje." },
+          "options": ["Am Samstag um zwölf Uhr, bitte.", "Samstag, zwölf Uhr, bitte."],
+          "fallback": "Wann brauchen Sie die Torte?",
+          "accept": [{ "kw": ["samstag"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Alles klar, die Torte ist am Samstag fertig.",
+          "goal": { "en": "Thank her and say goodbye.", "ur": "Shukriya kahein aur khuda hafiz." },
+          "options": ["Vielen Dank, Frau Ostermann! Auf Wiedersehen.", "Danke schön! Bis Samstag."],
+          "fallback": "Passt Ihnen das?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen, bis Samstag!", "next": "END" },
+            { "kw": ["samstag"], "reply": "Bis Samstag!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie bestellen eine Erdbeertorte für Elifs Geburtstag, achten wegen eines Gastes auf Nüsse und wählen eine Dekoration aus Marzipan.",
+        "en": "You order a strawberry cake for Elif's birthday, watch out for nuts because of a guest, and choose a marzipan decoration.",
+        "ur": "Aap Elif ke birthday ke liye Erdbeertorte order karte hain, ek mehmaan ki wajah se nuts ka khayal rakhte hain, aur marzipan decoration chunte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, Frau Yilmaz. Worum geht es diesmal?",
+          "goal": { "en": "Say you need a birthday cake for your daughter Elif, turning seven.", "ur": "Kahein: beti Elif ke liye geburtstagstorte chahiye, woh saat saal ki ho rahi hai." },
+          "options": ["Ich brauche eine Geburtstagstorte für meine Tochter Elif, sie wird sieben.", "Ich möchte eine Geburtstagstorte für Elif, sie wird sieben Jahre alt."],
+          "fallback": "Worum geht es denn?",
+          "accept": [{ "kw": ["geburtstagstorte", "elif"], "next": "n2" }, { "kw": ["sieben"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Herzlichen Glückwunsch im Voraus! Haben Sie schon eine Vorstellung von der Torte?",
+          "goal": { "en": "Say she likes strawberries but the cake shouldn't be too sweet.", "ur": "Kahein: usay Erdbeere pasand hai lekin torte zyada meethi na ho." },
+          "options": ["Sie mag Erdbeeren sehr, aber die Torte soll nicht zu süß sein.", "Erdbeeren, bitte, aber nicht zu süß."],
+          "fallback": "Was für eine Torte möchten Sie?",
+          "accept": [{ "kw": ["erdbeeren", "süß"], "next": "n3" }, { "kw": ["erdbeeren"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Dann empfehle ich eine Erdbeertorte mit weniger Zucker. Sonst noch etwas zu beachten?",
+          "goal": { "en": "Say a guest can't tolerate nuts.", "ur": "Kahein: ek mehmaan ko nuts se allergy hai." },
+          "options": ["Ja, ein Gast kann keine Nüsse essen.", "Unter den Gästen ist ein Kind, das keine Nüsse verträgt."],
+          "fallback": "Gibt es eine Allergie zu beachten?",
+          "accept": [{ "kw": ["nüsse"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Gut zu wissen, dann verwende ich keine Nüsse. Möchten Sie eine besondere Dekoration?",
+          "goal": { "en": "Say you'd like marzipan flowers.", "ur": "Kahein: marzipan ke phool chahiye." },
+          "options": ["Ja, Blumen aus Marzipan, bitte.", "Elif wünscht sich Blumen aus Marzipan."],
+          "fallback": "Was für eine Dekoration möchten Sie?",
+          "accept": [{ "kw": ["marzipan"], "next": "n5" }, { "kw": ["blumen"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das gestalte ich Ihnen gern so. Wann kann ich die Torte fertig haben?",
+          "goal": { "en": "Say Saturday between ten and eleven o'clock.", "ur": "Kahein: Hafte ko das aur gyarah baje ke darmiyan." },
+          "options": ["Am Samstag zwischen zehn und elf Uhr, bitte.", "Samstag, zwischen zehn und elf Uhr."],
+          "fallback": "Wann brauchen Sie die Torte?",
+          "accept": [{ "kw": ["samstag"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gut. Das macht insgesamt zweiundvierzig Euro, mit zehn Euro Anzahlung heute.",
+          "goal": { "en": "Pay the deposit and say you'll pay the rest at pickup.", "ur": "Advance dein aur kahein baqi pickup par denge." },
+          "options": ["Hier sind zehn Euro, den Rest zahle ich bei der Abholung.", "Hier, zehn Euro Anzahlung, den Rest bei der Abholung."],
+          "fallback": "Möchten Sie jetzt anzahlen?",
+          "accept": [
+            { "kw": ["zehn", "rest"], "reply": "Vielen Dank, bis Samstag!", "next": "END" },
+            { "kw": ["rest"], "reply": "In Ordnung, bis Samstag!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

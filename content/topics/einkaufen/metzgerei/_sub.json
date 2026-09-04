@@ -1,0 +1,37 @@
+{
+  "id": "metzgerei",
+  "order": 4,
+  "icon": "🥩",
+  "title": {
+    "de": "Metzgerei",
+    "en": "At the butcher's",
+    "ur": "Gosht wale ke paas"
+  },
+  "intro": "Aufschnitt, Fleischsorten, halal-zertifiziertes Fleisch und Grillfleisch — alles, was man in einer deutschen Metzgerei sagen und verstehen muss.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "der Aufschnitt", "opts": ["cold cuts / deli meat", "steak", "sausage", "bread"], "a": 0, "ur": "cold cuts", "word": "aufschnitt" },
+      { "type": "mc", "q": "die Hähnchenbrust", "opts": ["chicken breast", "beef mince", "turkey ham", "pork chop"], "a": 0, "ur": "chicken breast", "word": "hähnchenbrust" },
+      { "type": "mc", "q": "das Rinderhack", "opts": ["beef mince", "chicken breast", "lamb chop", "salami"], "a": 0, "ur": "beef mince", "word": "rinderhack" },
+      { "type": "mc", "q": "halal", "opts": ["halal-certified", "organic only", "fresh only", "on discount"], "a": 0, "ur": "halal", "word": "halal" },
+      { "type": "mc", "q": "die Herkunft", "opts": ["origin / source", "certificate", "recipe", "discount"], "a": 0, "ur": "asal maqam", "word": "herkunft" },
+      { "type": "mc", "q": "das Grillfest", "opts": ["barbecue party", "birthday party", "market day", "wedding"], "a": 0, "ur": "BBQ party", "word": "grillfest" },
+      { "type": "mc", "q": "die Verwechslung", "opts": ["mix-up", "receipt", "refund", "discount"], "a": 0, "ur": "ghalat fehmi / mix-up", "word": "verwechslung" },
+      { "type": "mc", "q": "mager", "opts": ["lean (low-fat)", "fatty", "fresh", "frozen"], "a": 0, "ur": "kam charbi wala", "word": "mager" },
+      { "type": "gap", "de": "Ich möchte hundert ___ Putenbrust, bitte.", "a": "Gramm", "hint": "grams", "en": "I would like a hundred grams of turkey breast, please.", "word": "gramm" },
+      { "type": "gap", "de": "Ist das Fleisch ___ zertifiziert?", "a": "halal", "hint": "halal-certified", "en": "Is the meat halal-certified?", "word": "halal" },
+      { "type": "gap", "de": "Wir brauchen Fleisch für unser ___ am Samstag.", "a": "Grillfest", "hint": "barbecue party", "en": "We need meat for our barbecue on Saturday.", "word": "grillfest" },
+      { "type": "gap", "de": "Das war leider eine ___, ich hatte etwas anderes bestellt.", "a": "Verwechslung", "hint": "mix-up", "en": "Unfortunately that was a mix-up, I had ordered something else.", "word": "verwechslung" },
+      { "type": "order", "a": "Ich möchte Aufschnitt bitte", "en": "I would like some cold cuts, please." },
+      { "type": "order", "a": "Ist das Fleisch halal zertifiziert", "en": "Is the meat halal-certified?" },
+      { "type": "order", "a": "Können Sie das bitte umtauschen", "en": "Could you please exchange that?" },
+      { "type": "listen", "a": "Gut, ich nehme hundert Gramm, bitte.", "en": "Good, I'll take a hundred grams, please." },
+      { "type": "listen", "a": "Woher kommt das Fleisch genau?", "en": "Where exactly does the meat come from?" },
+      { "type": "listen", "a": "Das war leider eine Verwechslung.", "en": "Unfortunately that was a mix-up." },
+      { "type": "prod", "en": "I would like some cold cuts, please.", "ur": "Mujhe aufschnitt chahiye, please.", "a": "Ich möchte Aufschnitt, bitte." },
+      { "type": "prod", "en": "Is the meat halal-certified?", "ur": "Kya gosht halal zertifiziert hai?", "a": "Ist das Fleisch halal zertifiziert?" },
+      { "type": "prod", "en": "We need meat for our barbecue.", "ur": "Hamein apne BBQ ke liye gosht chahiye.", "a": "Wir brauchen Fleisch für unser Grillfest." },
+      { "type": "prod", "en": "That was a mix-up.", "ur": "Yeh ek mix-up tha.", "a": "Das war eine Verwechslung." }
+    ]
+  }
+}

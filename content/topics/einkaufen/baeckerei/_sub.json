@@ -1,0 +1,37 @@
+{
+  "id": "baeckerei",
+  "order": 3,
+  "icon": "🥐",
+  "title": {
+    "de": "Bäckerei",
+    "en": "At the bakery",
+    "ur": "Bakery mein"
+  },
+  "intro": "Brötchen, Brot, eine Geburtstagstorte und mehr — alles, was man in einer deutschen Bäckerei sagen und verstehen muss.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "das Brötchen", "opts": ["bread roll", "loaf of bread", "cake", "pastry"], "a": 0, "ur": "bread roll", "word": "brötchen" },
+      { "type": "mc", "q": "das Vollkornbrot", "opts": ["wholegrain bread", "white bread", "birthday cake", "cold cuts"], "a": 0, "ur": "sabut anaaj ki bread", "word": "vollkornbrot" },
+      { "type": "mc", "q": "die Geburtstagstorte", "opts": ["birthday cake", "loaf of bread", "sandwich", "receipt"], "a": 0, "ur": "birthday cake", "word": "geburtstagstorte" },
+      { "type": "mc", "q": "glutenfrei", "opts": ["gluten-free", "sugar-free", "fresh", "stale"], "a": 0, "ur": "gluten se azaad", "word": "glutenfrei" },
+      { "type": "mc", "q": "die Unverträglichkeit", "opts": ["intolerance", "allergy test", "recipe", "ingredient"], "a": 0, "ur": "cheezon ka na lagna", "word": "unverträglich" },
+      { "type": "mc", "q": "regelmäßig", "opts": ["regularly", "once", "urgently", "rarely"], "a": 0, "ur": "regular tor par", "word": "regelmäßig" },
+      { "type": "mc", "q": "altbacken", "opts": ["stale", "fresh", "sweet", "warm"], "a": 0, "ur": "baasi", "word": "altbacken" },
+      { "type": "mc", "q": "die Erstattung", "opts": ["refund", "receipt", "discount", "order"], "a": 0, "ur": "wapsi / refund", "word": "erstattung" },
+      { "type": "gap", "de": "Ich möchte sechs ___, bitte.", "a": "Brötchen", "hint": "rolls · bread rolls", "en": "I would like six rolls, please.", "word": "brötchen" },
+      { "type": "gap", "de": "Ist die Torte auch ___?", "a": "glutenfrei", "hint": "gluten-free", "en": "Is the cake also gluten-free?", "word": "glutenfrei" },
+      { "type": "gap", "de": "Das Brot von gestern war leider ganz ___.", "a": "altbacken", "hint": "stale", "en": "Unfortunately yesterday's bread was quite stale.", "word": "altbacken" },
+      { "type": "gap", "de": "Ich hätte gern eine ___ für Samstag bestellt.", "a": "Wochenendbestellung", "hint": "standing weekend order", "en": "I'd like to set up a standing order for Saturday.", "word": "wochenendbestellung" },
+      { "type": "order", "a": "Ich möchte Brötchen bitte", "en": "I would like some rolls, please." },
+      { "type": "order", "a": "Können Sie das bitte umtauschen", "en": "Could you please exchange that?" },
+      { "type": "order", "a": "Haben Sie auch ein Vollkornbrot", "en": "Do you also have wholegrain bread?" },
+      { "type": "listen", "a": "Vier Vollkornbrötchen und zwei Weißbrötchen, bitte.", "en": "Four wholegrain rolls and two white rolls, please." },
+      { "type": "listen", "a": "Ist da vielleicht Nuss drin?", "en": "Might there be nuts in it?" },
+      { "type": "listen", "a": "Das Brot war leider ziemlich hart.", "en": "Unfortunately the bread was quite hard." },
+      { "type": "prod", "en": "I would like six rolls, please.", "ur": "Mujhe chhe Brötchen chahiye, please.", "a": "Ich möchte sechs Brötchen, bitte." },
+      { "type": "prod", "en": "Is there any gluten in it?", "ur": "Kya is mein gluten hai?", "a": "Ist da Gluten drin?" },
+      { "type": "prod", "en": "The bread was stale.", "ur": "Bread baasi thi.", "a": "Das Brot war altbacken." },
+      { "type": "prod", "en": "Could I get a refund, please?", "ur": "Kya mujhe refund mil sakta hai?", "a": "Könnte ich bitte eine Erstattung bekommen?" }
+    ]
+  }
+}

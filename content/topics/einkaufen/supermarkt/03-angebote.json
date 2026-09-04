@@ -1,0 +1,219 @@
+{
+  "id": "angebote",
+  "order": 3,
+  "icon": "🏷️",
+  "title": { "de": "Angebote und Preise", "en": "Offers and prices", "ur": "Offers aur qeematein" },
+  "angle": "Discounts, checking the best-before date, and asking if a sale price is still valid · Discount, expiry date check, aur offer valid hai ya nahi poochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["rabatt", "sonderangebot", "mindesthaltbarkeitsdatum", "abgelaufen", "gültig", "preis", "reduziert", "frisch", "joghurt"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Kann ich Ihnen helfen?", "en": "Hello! Can I help you?", "ur": "Salam! Kya main aap ki madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ist der Joghurt im Angebot?", "en": "Hello. Is the yoghurt on offer?", "ur": "Salam. Kya yoghurt offer par hai?" },
+        { "s": "A", "de": "Ja, der Joghurt hat gerade zwanzig Prozent Rabatt.", "en": "Yes, the yoghurt currently has twenty percent discount.", "ur": "Ji haan, yoghurt par abhi bees percent chhoot hai." },
+        { "s": "B", "de": "Super! Und ist das Sonderangebot noch gültig?", "en": "Great! And is the special offer still valid?", "ur": "Bohat acha! Aur kya special offer abhi bhi valid hai?" },
+        { "s": "A", "de": "Ja, es ist noch bis Sonntag gültig.", "en": "Yes, it's valid until Sunday.", "ur": "Ji haan, yeh Itwar tak valid hai." },
+        { "s": "B", "de": "Gut. Und wie lange ist die Milch noch haltbar?", "en": "Good. And how much longer does the milk keep?", "ur": "Acha. Aur milk aur kitni der tak theek rahega?" },
+        { "s": "A", "de": "Schauen Sie auf das Mindesthaltbarkeitsdatum, es steht auf der Packung.", "en": "Look at the best-before date, it's printed on the pack.", "ur": "Best-before date dekhein, yeh packet par likha hai." },
+        { "s": "B", "de": "Ah, hier steht es. Das ist noch eine Woche gültig.", "en": "Ah, here it is. That's valid for another week.", "ur": "Acha, yeh raha. Yeh aik hafta aur valid hai." },
+        { "s": "A", "de": "Genau, das ist noch frisch.", "en": "Exactly, that's still fresh.", "ur": "Bilkul, yeh abhi bhi taaza hai." },
+        { "s": "B", "de": "Ist der Käse auch reduziert?", "en": "Is the cheese also reduced?", "ur": "Kya cheese bhi kam qeemat par hai?" },
+        { "s": "A", "de": "Nein, der Käse ist nicht reduziert.", "en": "No, the cheese is not reduced.", "ur": "Nahi, cheese kam qeemat par nahi hai." },
+        { "s": "B", "de": "Schade, aber danke für die Auskunft.", "en": "Too bad, but thanks for the information.", "ur": "Afsos, lekin maloomat ka shukriya." },
+        { "s": "A", "de": "Gern geschehen. Viel Erfolg beim Sparen!", "en": "You're welcome. Good luck with the saving!", "ur": "Koi baat nahi. Bachat mein kamyabi ho!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, kann ich Ihnen bei etwas helfen?", "en": "Hello, can I help you with something?", "ur": "Salam, kya main aap ki kisi cheez mein madad karoon?" },
+        { "s": "B", "de": "Ja, bitte. Die Nudeln waren doch im Sonderangebot, oder?", "en": "Yes, please. The pasta was on special offer, wasn't it?", "ur": "Ji haan, please. Nudeln special offer par thi, na?" },
+        { "s": "A", "de": "Richtig, die Nudeln sind diese Woche reduziert.", "en": "Right, the pasta is reduced this week.", "ur": "Bilkul, is hafte nudeln kam qeemat par hain." },
+        { "s": "B", "de": "An der Kasse war aber der Preis noch normal.", "en": "But at the checkout the price was still normal.", "ur": "Lekin checkout par qeemat abhi bhi normal thi." },
+        { "s": "A", "de": "Das tut mir leid, das ist sicher ein Fehler an der Kasse.", "en": "I'm sorry, that's surely a mistake at the checkout.", "ur": "Maazrat, yeh zaroor checkout ki ghalti hai." },
+        { "s": "B", "de": "Können Sie das bitte ändern?", "en": "Could you please change that?", "ur": "Kya aap meherbani kar ke yeh theek kar sakte hain?" },
+        { "s": "A", "de": "Natürlich, ich rufe kurz meinen Kollegen.", "en": "Of course, I'll quickly call my colleague.", "ur": "Zaroor, main foran apne colleague ko bulata hoon." },
+        { "s": "B", "de": "Danke. Und gilt der Rabatt auch für die Tomaten?", "en": "Thanks. And does the discount also apply to the tomatoes?", "ur": "Shukriya. Aur kya chhoot tamatar par bhi hai?" },
+        { "s": "A", "de": "Nein, nur die Nudeln sind reduziert, die Tomaten haben den normalen Preis.", "en": "No, only the pasta is reduced, the tomatoes have the normal price.", "ur": "Nahi, sirf nudeln kam qeemat par hain, tamatar normal qeemat par hain." },
+        { "s": "B", "de": "Verstehe. Ist das Sonderangebot dann bis wann gültig?", "en": "I see. Until when is the special offer valid then?", "ur": "Samajh gayi. To special offer kab tak valid hai?" },
+        { "s": "A", "de": "Bis Sonntag, danach gilt wieder der normale Preis.", "en": "Until Sunday, after that the normal price applies again.", "ur": "Itwar tak, us ke baad phir normal qeemat lagu hogi." },
+        { "s": "B", "de": "Alles klar. Und ist das Mindesthaltbarkeitsdatum der Nudeln noch weit weg?", "en": "All right. And is the best-before date of the pasta still far away?", "ur": "Theek hai. Aur nudeln ki best-before date abhi door hai?" },
+        { "s": "A", "de": "Ja, das ist noch mehrere Monate haltbar.", "en": "Yes, that keeps for several more months.", "ur": "Ji haan, yeh abhi kai mahine tak theek rahega." },
+        { "s": "B", "de": "Gut zu wissen. Vielen Dank für die Hilfe!", "en": "Good to know. Thank you very much for the help!", "ur": "Acha maloom hua. Madad ka bohat shukriya!" },
+        { "s": "A", "de": "Gern geschehen, einen schönen Tag noch!", "en": "You're welcome, have a nice day!", "ur": "Koi baat nahi, acha din guzray!" },
+        { "s": "B", "de": "Danke, Ihnen auch!", "en": "Thanks, you too!", "ur": "Shukriya, aap ko bhi!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, kann ich Ihnen weiterhelfen?", "en": "Hello, can I help you further?", "ur": "Salam, kya main aap ki aur madad karoon?" },
+        { "s": "B", "de": "Ja, gerne. Ich habe hier Joghurt gefunden, der schon fast abgelaufen ist.", "en": "Yes, please. I found some yoghurt here that's almost expired.", "ur": "Ji haan. Mujhe yahan yoghurt mila hai jo taqreeban expire hone wala hai." },
+        { "s": "A", "de": "Zeigen Sie mal her. Stimmt, das Mindesthaltbarkeitsdatum ist übermorgen.", "en": "Let me see that. That's right, the best-before date is the day after tomorrow.", "ur": "Zara dikhayein. Sach hai, best-before date parson hai." },
+        { "s": "B", "de": "Gibt es für solche Produkte manchmal einen zusätzlichen Rabatt?", "en": "Is there sometimes an additional discount for such products?", "ur": "Kya aisi cheezon par kabhi additional chhoot hoti hai?" },
+        { "s": "A", "de": "Ja, solche Produkte bekommen oft einen zusätzlichen Rabatt.", "en": "Yes, such products often get an additional discount.", "ur": "Ji haan, aisi cheezon par aksar additional chhoot milti hai." },
+        { "s": "B", "de": "Das ist gut zu wissen. Ist dieser Joghurt schon reduziert?", "en": "That's good to know. Is this yoghurt already reduced?", "ur": "Yeh acha maloom hua. Kya yeh yoghurt pehle se kam qeemat par hai?" },
+        { "s": "A", "de": "Noch nicht, aber ich kann das für Sie prüfen.", "en": "Not yet, but I can check that for you.", "ur": "Abhi nahi, lekin main aap ke liye check kar sakta hoon." },
+        { "s": "B", "de": "Das wäre nett, danke.", "en": "That would be kind, thanks.", "ur": "Yeh acha rahega, shukriya." },
+        { "s": "A", "de": "Ich habe geschaut, er bekommt ab morgen zehn Prozent Rabatt.", "en": "I've checked, it gets ten percent discount from tomorrow.", "ur": "Maine dekh liya, kal se is par das percent chhoot hai." },
+        { "s": "B", "de": "Kann ich ihn heute schon zum reduzierten Preis kaufen?", "en": "Can I buy it at the reduced price already today?", "ur": "Kya main aaj hi isay kam qeemat par khareed sakti hoon?" },
+        { "s": "A", "de": "Das ist leider noch nicht möglich, erst ab morgen.", "en": "That's unfortunately not possible yet, only from tomorrow.", "ur": "Yeh abhi mumkin nahi, sirf kal se." },
+        { "s": "B", "de": "Verstehe. Dann nehme ich ihn heute noch zum normalen Preis.", "en": "I see. Then I'll take it today at the normal price.", "ur": "Samajh gayi. To main isay aaj normal qeemat par le loongi." },
+        { "s": "A", "de": "Gute Entscheidung, er ist ja noch ein paar Tage haltbar.", "en": "Good decision, it still keeps for a few more days.", "ur": "Acha faisla, yeh abhi kuch din aur theek rahega." },
+        { "s": "B", "de": "Genau. Gibt es sonst noch aktuelle Sonderangebote?", "en": "Exactly. Are there any other current special offers?", "ur": "Bilkul. Aur koi current special offer hai?" },
+        { "s": "A", "de": "Ja, diese Woche sind Tomaten und Nudeln im Angebot.", "en": "Yes, this week tomatoes and pasta are on offer.", "ur": "Ji haan, is hafte tamatar aur nudeln offer par hain." },
+        { "s": "B", "de": "Perfekt, die nehme ich auch gleich mit. Vielen Dank!", "en": "Perfect, I'll take those too right away. Thank you very much!", "ur": "Bohat acha, main woh bhi abhi le loongi. Bohat shukriya!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Petersen (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Ich habe eine Frage zu den Preisen. Am Regal stand ein reduzierter Preis, aber an der Kasse zeigte das Gerät den vollen Preis.", "en": "I have a question about the prices. On the shelf there was a reduced price, but at the checkout the device showed the full price.", "ur": "Mujhe qeematon ke baare mein sawal hai. Shelf par kam qeemat likhi thi, lekin checkout par device ne poori qeemat dikhai." },
+        { "s": "A", "de": "Das kommt leider manchmal vor, wenn die Kasse noch nicht richtig eingestellt ist.", "en": "That unfortunately happens sometimes when the checkout hasn't been set up correctly yet.", "ur": "Yeh afsos kabhi kabhi hota hai jab checkout sahi tarah set nahi hui hoti." },
+        { "s": "B", "de": "Das verstehe ich, aber ich möchte trotzdem gern den reduzierten Preis bezahlen, wenn das möglich ist.", "en": "I understand that, but I'd still like to pay the reduced price, if that's possible.", "ur": "Yeh mujhe samajh aata hai, lekin main phir bhi kam qeemat ada karna chahti hoon, agar mumkin ho." },
+        { "s": "A", "de": "Selbstverständlich, in solchen Fällen passen wir den Preis natürlich sofort an.", "en": "Of course, in such cases we naturally adjust the price right away.", "ur": "Bilkul, aisi surton mein hum qeemat foran theek kar dete hain." },
+        { "s": "B", "de": "Das beruhigt mich. Übrigens, wie lange gilt dieses Sonderangebot noch genau?", "en": "That reassures me. By the way, how much longer is this special offer valid exactly?", "ur": "Isse tasalli hui. Waise, yeh special offer bilkul kab tak valid hai?" },
+        { "s": "A", "de": "Es gilt noch bis Sonntag, danach gilt wieder der normale Preis.", "en": "It's valid until Sunday, after that the normal price applies again.", "ur": "Yeh Itwar tak valid hai, us ke baad phir normal qeemat lagu hogi." },
+        { "s": "B", "de": "Verstanden. Eine letzte Frage: Bei Produkten, die schon abgelaufen sind, entfernen Sie die sofort aus dem Regal?", "en": "Understood. One last question: for products that are already expired, do you remove them from the shelf immediately?", "ur": "Samajh gayi. Aakhri sawal: jo cheezein expire ho chuki hain, kya aap unhein foran shelf se hata dete hain?" },
+        { "s": "A", "de": "Ja, wir kontrollieren die Regale jeden Tag und entfernen abgelaufene Ware sofort.", "en": "Yes, we check the shelves every day and remove expired goods immediately.", "ur": "Ji haan, hum har roz shelves check karte hain aur expire ho chuka maal foran hata dete hain." },
+        { "s": "B", "de": "Das beruhigt mich sehr, gerade bei Milch und Käse ist das wichtig.", "en": "That reassures me a lot, that's especially important with milk and cheese.", "ur": "Isse mujhe bohat tasalli hui, khaas kar milk aur cheese mein yeh zaroori hai." },
+        { "s": "A", "de": "Genau, bei frischen Produkten schauen wir sogar jeden Morgen und jeden Abend nach.", "en": "Exactly, with fresh products we even check every morning and every evening.", "ur": "Bilkul, taaza cheezon par hum har subah aur har sham bhi dekhte hain." },
+        { "s": "B", "de": "Das ist wirklich gut zu wissen für mein Einkaufen hier.", "en": "That's really good to know for my shopping here.", "ur": "Yeh mere yahan shopping karne ke liye sach mein acha maloom hua." },
+        { "s": "A", "de": "Das höre ich gern. Gibt es sonst noch etwas, bei dem ich helfen kann?", "en": "I'm glad to hear that. Is there anything else I can help with?", "ur": "Yeh sun kar khushi hui. Aur kisi cheez mein madad chahiye?" },
+        { "s": "B", "de": "Nein, das ist erst einmal alles. Vielen Dank für Ihre Geduld und die Erklärung.", "en": "No, that's all for now. Thank you very much for your patience and the explanation.", "ur": "Nahi, filhaal bas itna hi hai. Aap ke sabar aur wazahat ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen, Frau Yilmaz. Bis zum nächsten Einkauf!", "en": "You're welcome, Mrs Yilmaz. Until the next shopping trip!", "ur": "Koi baat nahi, Frau Yilmaz. Agli khareedari tak!" },
+        { "s": "B", "de": "Bis dann, auf Wiedersehen!", "en": "See you then, goodbye!", "ur": "Tab tak, khuda hafiz!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie fragen, ob der Joghurt im Angebot ist, und prüfen das Mindesthaltbarkeitsdatum der Milch.",
+        "en": "You ask whether the yoghurt is on offer and check the best-before date of the milk.",
+        "ur": "Aap poochti hain ke kya yoghurt offer par hai aur milk ki best-before date check karti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Kann ich Ihnen helfen?",
+          "goal": { "en": "Greet and ask whether the yoghurt is on offer.", "ur": "Salam karein aur poochein kya yoghurt offer par hai." },
+          "options": ["Guten Tag. Ist der Joghurt im Angebot?", "Guten Tag, ist der Joghurt gerade im Angebot?"],
+          "fallback": "Suchen Sie etwas Bestimmtes?",
+          "accept": [{ "kw": ["joghurt", "angebot"], "next": "n2" }, { "kw": ["joghurt"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ja, der Joghurt hat gerade zwanzig Prozent Rabatt.",
+          "goal": { "en": "Ask whether the special offer is still valid.", "ur": "Poochein kya special offer abhi bhi valid hai." },
+          "options": ["Ist das Sonderangebot noch gültig?", "Und ist der Rabatt noch gültig?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["gültig"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, es ist noch bis Sonntag gültig.",
+          "goal": { "en": "Ask how much longer the milk keeps.", "ur": "Poochein milk aur kitni der theek rahega." },
+          "options": ["Wie lange ist die Milch noch haltbar?", "Und wie lange ist die Milch noch gut?"],
+          "fallback": "Brauchen Sie sonst noch etwas?",
+          "accept": [{ "kw": ["haltbar"], "next": "n4" }, { "kw": ["milch"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Schauen Sie auf das Mindesthaltbarkeitsdatum, es steht auf der Packung.",
+          "goal": { "en": "Thank him and ask whether the cheese is also reduced.", "ur": "Shukriya adaa karein aur poochein kya cheese bhi kam qeemat par hai." },
+          "options": ["Danke. Ist der Käse auch reduziert?", "Danke schön. Ist der Käse auch im Angebot?"],
+          "fallback": "Haben Sie es gefunden?",
+          "accept": [{ "kw": ["käse"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nein, der Käse ist nicht reduziert.",
+          "goal": { "en": "Say that's too bad and thank him for the information.", "ur": "Kahein afsos aur maloomat ka shukriya adaa karein." },
+          "options": ["Schade, aber danke für die Auskunft.", "Schade, trotzdem vielen Dank."],
+          "fallback": "Brauchen Sie sonst noch Hilfe?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern geschehen. Viel Erfolg beim Sparen!", "next": "n6" }
+          ]
+        },
+        "n6": {
+          "say": "Gern geschehen. Viel Erfolg beim Sparen!",
+          "goal": { "en": "Thank him again and say goodbye.", "ur": "Dobara shukriya adaa karein aur khuda hafiz kahein." },
+          "options": ["Danke, auf Wiedersehen!", "Vielen Dank, auf Wiedersehen!"],
+          "fallback": "Kann ich noch etwas für Sie tun?",
+          "accept": [
+            { "kw": ["wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Petersen, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Am Regal stand ein reduzierter Preis, aber an der Kasse hat es den vollen Preis gezeigt. Sie sprechen Herrn Petersen darauf an.",
+        "en": "On the shelf there was a reduced price, but the checkout showed the full price. You speak to Mr Petersen about it.",
+        "ur": "Shelf par kam qeemat likhi thi, lekin checkout par poori qeemat aayi. Aap Herr Petersen se is baare mein baat karti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was kann ich für Sie tun?",
+          "goal": { "en": "Say you have a question about the prices.", "ur": "Kahein aap ko qeematon ke baare mein sawal hai." },
+          "options": ["Ich habe eine Frage zu den Preisen.", "Ich hätte eine Frage zu den Preisen."],
+          "fallback": "Was ist denn das Problem?",
+          "accept": [{ "kw": ["frage", "preisen"], "next": "n2" }, { "kw": ["preisen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Was ist denn das Problem?",
+          "goal": { "en": "Explain that the shelf showed a reduced price, but the checkout showed the full price.", "ur": "Batayein shelf par kam qeemat thi lekin checkout par poori qeemat aayi." },
+          "options": ["Am Regal stand ein reduzierter Preis, aber die Kasse zeigt den vollen Preis.", "Am Regal war ein reduzierter Preis, an der Kasse aber der volle Preis."],
+          "fallback": "Können Sie das genauer erklären?",
+          "accept": [{ "kw": ["regal", "kasse"], "next": "n3" }, { "kw": ["regal"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das kommt leider manchmal vor, wenn die Kasse noch nicht richtig eingestellt ist.",
+          "goal": { "en": "Say you'd still like to pay the reduced price.", "ur": "Kahein aap phir bhi kam qeemat ada karna chahti hain." },
+          "options": ["Ich möchte trotzdem gern den reduzierten Preis bezahlen.", "Trotzdem möchte ich den reduzierten Preis bezahlen."],
+          "fallback": "Was möchten Sie tun?",
+          "accept": [{ "kw": ["reduzierten", "preis"], "next": "n4" }, { "kw": ["reduzierten"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Selbstverständlich, wir passen den Preis natürlich sofort an.",
+          "goal": { "en": "Thank him and ask how much longer the special offer is valid.", "ur": "Shukriya adaa karein aur poochein offer kab tak valid hai." },
+          "options": ["Danke. Wie lange gilt das Sonderangebot noch?", "Danke schön. Wie lange ist das Angebot noch gültig?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["gültig"], "next": "n5" }, { "kw": ["sonderangebot"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Es gilt noch bis Sonntag, danach gilt wieder der normale Preis.",
+          "goal": { "en": "Ask whether they remove expired products from the shelf immediately.", "ur": "Poochein kya expire ho chuki cheezein foran shelf se hata dete hain." },
+          "options": ["Entfernen Sie abgelaufene Produkte sofort aus dem Regal?", "Nehmen Sie abgelaufene Ware sofort aus dem Regal?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["abgelaufen"], "next": "n6" }, { "kw": ["abgelaufene"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, wir kontrollieren die Regale jeden Tag.",
+          "goal": { "en": "Say that's reassuring and thank him for the help.", "ur": "Kahein isse tasalli hui aur madad ka shukriya adaa karein." },
+          "options": ["Das beruhigt mich. Vielen Dank für die Hilfe.", "Das ist gut zu wissen. Vielen Dank."],
+          "fallback": "Ist das so weit klar?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern geschehen, einen schönen Tag noch!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

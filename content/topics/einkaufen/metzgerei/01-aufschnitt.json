@@ -1,0 +1,218 @@
+{
+  "id": "aufschnitt",
+  "order": 1,
+  "icon": "🥪",
+  "title": { "de": "Aufschnitt bestellen", "en": "Ordering cold cuts", "ur": "Aufschnitt order karna" },
+  "angle": "Buying sliced deli meat by weight at the counter · Theke par wazan ke hisaab se aufschnitt khareedna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["aufschnitt", "theke", "gramm", "putenbrust", "hähnchenschinken", "geflügelsalami", "mager", "frisch", "sorte", "getrennt"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was darf es sein?", "en": "Hello! What can I get you?", "ur": "Salam! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte Aufschnitt, bitte.", "en": "Hello. I would like some cold cuts, please.", "ur": "Salam. Mujhe aufschnitt chahiye, please." },
+        { "s": "A", "de": "Gern. Welche Sorte möchten Sie?", "en": "Sure. Which kind would you like?", "ur": "Zaroor. Aap ko kaunsi sorte chahiye?" },
+        { "s": "B", "de": "Haben Sie Putenbrust?", "en": "Do you have turkey breast?", "ur": "Kya aap ke paas putenbrust hai?" },
+        { "s": "A", "de": "Ja, die ist heute frisch.", "en": "Yes, it's fresh today.", "ur": "Ji haan, yeh aaj taaza hai." },
+        { "s": "B", "de": "Gut. Ich nehme hundert Gramm, bitte.", "en": "Good. I'll take a hundred grams, please.", "ur": "Acha. Main sau gram loongi, please." },
+        { "s": "A", "de": "Dünn geschnitten oder dick?", "en": "Sliced thin or thick?", "ur": "Patla kaata hua ya mota?" },
+        { "s": "B", "de": "Dünn, bitte.", "en": "Thin, please.", "ur": "Patla, please." },
+        { "s": "A", "de": "Sonst noch etwas?", "en": "Anything else?", "ur": "Aur kuch chahiye?" },
+        { "s": "B", "de": "Ja, auch hundert Gramm Hähnchenschinken.", "en": "Yes, also a hundred grams of chicken ham.", "ur": "Ji haan, sau gram hähnchenschinken bhi." },
+        { "s": "A", "de": "Kommt sofort. Das sind zusammen fünf Euro.", "en": "Coming right up. That's five euros altogether.", "ur": "Abhi lo. Yeh sab mila kar paanch euro hai." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Danke schön. Einen schönen Tag noch!", "en": "Thank you. Have a nice day!", "ur": "Shukriya. Din acha guzre!" },
+        { "s": "B", "de": "Ihnen auch, auf Wiedersehen!", "en": "You too, goodbye!", "ur": "Aap ka bhi, khuda hafiz!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Ich brauche etwas Aufschnitt für die Woche.", "en": "Hello, Mr Krause. I need some cold cuts for the week.", "ur": "Salam, Herr Krause. Mujhe hafte ke liye kuch aufschnitt chahiye." },
+        { "s": "A", "de": "Kein Problem. Was möchten Sie denn gern?", "en": "No problem. What would you like?", "ur": "Koi masla nahi. Aap ko kya chahiye?" },
+        { "s": "B", "de": "Etwas Leichtes für die Brote der Kinder. Was empfehlen Sie?", "en": "Something light for the kids' sandwiches. What do you recommend?", "ur": "Bachon ke sandwich ke liye kuch halka. Aap kya tajweez karte hain?" },
+        { "s": "A", "de": "Die Putenbrust ist mild und mager. Die mögen Kinder oft gern.", "en": "The turkey breast is mild and lean. Kids often like it.", "ur": "Putenbrust halki aur kam charbi wali hai. Bachay isay pasand karte hain." },
+        { "s": "B", "de": "Klingt gut. Geben Sie mir zweihundert Gramm davon.", "en": "Sounds good. Give me two hundred grams of that.", "ur": "Acha lagta hai. Mujhe us mein se do sau gram dein." },
+        { "s": "A", "de": "Gern. Möchten Sie es dünn oder etwas dicker geschnitten?", "en": "Sure. Would you like it sliced thin or a bit thicker?", "ur": "Zaroor. Patla chahiye ya thora mota kaata hua?" },
+        { "s": "B", "de": "Dünn, bitte. Das lässt sich besser aufs Brot legen.", "en": "Thin, please. That's easier to put on bread.", "ur": "Patla, please. Yeh bread par lagana asaan hota hai." },
+        { "s": "A", "de": "Sonst noch etwas aus der Theke?", "en": "Anything else from the counter?", "ur": "Theke se aur kuch chahiye?" },
+        { "s": "B", "de": "Ja, ich hätte gern noch eine Sorte Geflügelwurst.", "en": "Yes, I'd also like a kind of poultry sausage.", "ur": "Ji haan, mujhe murghi ki sausage bhi chahiye." },
+        { "s": "A", "de": "Die Geflügelsalami ist heute im Angebot. Darf es die sein?", "en": "The poultry salami is on offer today. Would that be okay?", "ur": "Aaj murghi wali salami offer par hai. Yeh chalegi?" },
+        { "s": "B", "de": "Gerne, davon bitte auch hundert Gramm.", "en": "Sure, a hundred grams of that too, please.", "ur": "Zaroor, us mein se bhi sau gram please." },
+        { "s": "A", "de": "Alles zusammen macht das sechs Euro fünfzig.", "en": "Altogether that comes to six euros fifty.", "ur": "Sab mila kar chhe euro pachas cent hai." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Vielen Dank. Bis zum nächsten Mal!", "en": "Thank you very much. See you next time!", "ur": "Bohat shukriya. Agli baar milte hain!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Was darf es heute sein?", "en": "Hello, Mrs Yilmaz. What can I get you today?", "ur": "Salam, Frau Yilmaz. Aaj aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Ich brauche wieder Aufschnitt für die ganze Woche.", "en": "Hello, Mr Krause. I need cold cuts for the whole week again.", "ur": "Salam, Herr Krause. Mujhe phir se poore hafte ke liye aufschnitt chahiye." },
+        { "s": "A", "de": "Wie immer die Putenbrust, oder möchten Sie diesmal etwas anderes probieren?", "en": "The turkey breast as always, or would you like to try something different this time?", "ur": "Hamesha ki tarah putenbrust, ya is baar kuch aur try karna chahengi?" },
+        { "s": "B", "de": "Eigentlich schon. Ist die Geflügelsalami stark gewürzt? Meine Kinder mögen es mild.", "en": "Actually yes. Is the poultry salami strongly spiced? My children like it mild.", "ur": "Asal mein haan. Kya murghi wali salami tez masaledar hai? Mere bachay mild pasand karte hain." },
+        { "s": "A", "de": "Nein, die ist ganz mild gewürzt, die eignet sich gut für Kinder.", "en": "No, it's quite mildly spiced, it's well suited for children.", "ur": "Nahi, yeh kaafi mild hai, bachon ke liye theek rahegi." },
+        { "s": "B", "de": "Das klingt gut. Dann nehme ich dreihundert Gramm davon.", "en": "That sounds good. Then I'll take three hundred grams of that.", "ur": "Acha lagta hai. To main us mein se teen sau gram loongi." },
+        { "s": "A", "de": "Und von der Putenbrust, wie viel?", "en": "And how much of the turkey breast?", "ur": "Aur putenbrust kitni?" },
+        { "s": "B", "de": "Zweihundert Gramm, dünn geschnitten wie immer, bitte.", "en": "Two hundred grams, sliced thin as always, please.", "ur": "Do sau gram, hamesha ki tarah patla kata hua, please." },
+        { "s": "A", "de": "Alles klar. Möchten Sie es zusammen oder getrennt verpackt?", "en": "All right. Would you like it packed together or separately?", "ur": "Theek hai. Sab saath rakhoon ya alag alag?" },
+        { "s": "B", "de": "Getrennt, bitte, dann bleibt es länger frisch.", "en": "Separately, please, then it stays fresh longer.", "ur": "Alag alag, please, phir zyada dair taaza rehta hai." },
+        { "s": "A", "de": "Gute Idee. Ich lege noch etwas Eis dazu für den Heimweg.", "en": "Good idea. I'll add some ice for the way home.", "ur": "Achi baat hai. Main ghar tak ke liye kuch barf bhi rakh deta hoon." },
+        { "s": "B", "de": "Das ist sehr aufmerksam, danke. Was macht das zusammen?", "en": "That's very thoughtful, thank you. What does that come to altogether?", "ur": "Yeh bohat khayal rakhna hai, shukriya. Sab mila kar kitna hua?" },
+        { "s": "A", "de": "Das macht neun Euro zwanzig.", "en": "That comes to nine euros twenty.", "ur": "Yeh nau euro bees cent hua." },
+        { "s": "B", "de": "Hier, bitte. Vielen Dank für Ihre Empfehlung.", "en": "Here you go. Thank you very much for your recommendation.", "ur": "Yeh lijiye. Aap ki tajweez ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Schönen Tag noch und bis bald!", "en": "You're welcome. Have a nice day and see you soon!", "ur": "Khushi hui. Din acha guzre aur jald milte hain!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Sie sehen aus, als hätten Sie eine lange Einkaufsliste heute.", "en": "Hello, Mrs Yilmaz. You look like you have a long shopping list today.", "ur": "Salam, Frau Yilmaz. Aap aisi lag rahi hain jaise aaj lambi shopping list ho." },
+        { "s": "B", "de": "Stimmt genau. Wir bekommen übers Wochenende Besuch, deshalb brauche ich reichlich Aufschnitt.", "en": "Exactly right. We're having visitors over the weekend, so I need plenty of cold cuts.", "ur": "Bilkul sahi. Hafte ke aakhir mein hamare paas mehmaan aa rahe hain, is liye mujhe kaafi aufschnitt chahiye." },
+        { "s": "A", "de": "Dann würde ich Ihnen eine Platte mit verschiedenen Sorten zusammenstellen. Was schwebt Ihnen vor?", "en": "Then I'd put together a platter with different varieties for you. What do you have in mind?", "ur": "To main aap ke liye mukhtalif sorton ki platter banata hoon. Aap kya sochti hain?" },
+        { "s": "B", "de": "Etwas Abwechslung wäre schön, aber bitte nur Geflügel- und Rinderprodukte, kein Schweinefleisch.", "en": "Some variety would be nice, but please only poultry and beef products, no pork.", "ur": "Thora tanawwa acha hoga, lekin sirf murghi aur gaay ke products, koi sooar ka gosht nahi." },
+        { "s": "A", "de": "Selbstverständlich, das habe ich ohnehin im Kopf. Ich nehme Putenbrust, Hähnchenschinken und eine Rindersalami.", "en": "Of course, I already had that in mind anyway. I'll take turkey breast, chicken ham and a beef salami.", "ur": "Zaroor, mujhe yeh pehle se yaad tha. Main putenbrust, hähnchenschinken aur ek rindersalami lein ga." },
+        { "s": "B", "de": "Perfekt. Wie viel würden Sie für sechs Personen empfehlen?", "en": "Perfect. How much would you recommend for six people?", "ur": "Behtareen. Chhe logon ke liye aap kitni miqdar tajweez karenge?" },
+        { "s": "A", "de": "Rechnen Sie ungefähr fünfzig Gramm pro Person, also insgesamt etwa dreihundert Gramm von jeder Sorte.", "en": "Reckon on about fifty grams per person, so roughly three hundred grams of each variety in total.", "ur": "Tqreeban har shakhs ke liye pachas gram hisaab karein, to har sorte se maqooli teen sau gram." },
+        { "s": "B", "de": "Das übersteigt etwas mein Budget. Könnten Sie es bei zweihundert Gramm pro Sorte belassen?", "en": "That's a bit over my budget. Could you keep it at two hundred grams per variety?", "ur": "Yeh mera budget thora barha deta hai. Kya aap har sorte ko do sau gram par rakh sakte hain?" },
+        { "s": "A", "de": "Kein Problem, das reicht für einen Snack völlig aus. Soll ich es dekorativ auf einer Platte anrichten?", "en": "No problem, that's completely enough for a snack. Should I arrange it decoratively on a platter?", "ur": "Koi masla nahi, yeh snack ke liye kaafi hai. Kya main isay platter par sajaa doon?" },
+        { "s": "B", "de": "Das wäre wunderbar, dann muss ich zu Hause nichts mehr vorbereiten.", "en": "That would be wonderful, then I won't have to prepare anything else at home.", "ur": "Yeh bohat acha hoga, phir mujhe ghar par kuch aur tayyar nahi karna paray ga." },
+        { "s": "A", "de": "Gern. Möchten Sie auch etwas Senf oder eingelegte Gurken dazu?", "en": "Sure. Would you also like some mustard or pickled gherkins to go with it?", "ur": "Zaroor. Kya aap ke saath sarson ya achaari kheeray bhi chahiye?" },
+        { "s": "B", "de": "Nein danke, das habe ich bereits zu Hause.", "en": "No thanks, I already have that at home.", "ur": "Nahi shukriya, woh mere paas ghar mein hai." },
+        { "s": "A", "de": "Gut, dann stelle ich Ihnen die Platte fertig. Das dauert etwa zehn Minuten.", "en": "Good, then I'll get the platter ready for you. That will take about ten minutes.", "ur": "Theek hai, to main platter tayyar karta hoon. Is mein taqreeban das minute lagenge." },
+        { "s": "B", "de": "Kein Problem, ich hole in der Zwischenzeit noch etwas Brot von nebenan.", "en": "No problem, I'll get some bread from next door in the meantime.", "ur": "Koi masla nahi, is doran main paas se thora bread le aati hoon." },
+        { "s": "A", "de": "Gute Idee. Das macht dann zusammen dreizehn Euro fünfzig.", "en": "Good idea. That comes to thirteen euros fifty altogether.", "ur": "Achi baat hai. Yeh sab mila kar terah euro pachas cent hua." },
+        { "s": "B", "de": "Hier, bitte. Ich bin gespannt, wie die Platte ankommt.", "en": "Here you go. I'm curious how the platter will go down.", "ur": "Yeh lijiye. Mujhe intezaar hai ke platter kaisi lagti hai." },
+        { "s": "A", "de": "Bestimmt sehr gut. Viel Spaß mit Ihrem Besuch und bis bald!", "en": "Surely very well. Have fun with your visitors and see you soon!", "ur": "Yaqeenan bohat achi. Mehmano ke saath maza karein aur jald milte hain!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie sind in der Metzgerei und möchten Aufschnitt für die Woche kaufen.",
+        "en": "You are in the butcher shop and want to buy cold cuts for the week.",
+        "ur": "Aap metzgerei mein hain aur hafte ke liye aufschnitt khareedna chahte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was darf es sein?",
+          "goal": { "en": "Greet and say you'd like some cold cuts.", "ur": "Salam karein aur kahein ke aufschnitt chahiye." },
+          "options": ["Guten Tag. Ich möchte Aufschnitt, bitte.", "Guten Tag, ich hätte gern etwas Aufschnitt."],
+          "fallback": "Entschuldigung, was möchten Sie?",
+          "accept": [{ "kw": ["aufschnitt"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gern. Welche Sorte möchten Sie?",
+          "goal": { "en": "Ask if they have turkey breast.", "ur": "Poochein ke kya putenbrust hai." },
+          "options": ["Haben Sie Putenbrust?", "Ich hätte gern Putenbrust."],
+          "fallback": "Welche Sorte darf es sein?",
+          "accept": [{ "kw": ["putenbrust"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, die ist heute frisch. Wie viel darf es sein?",
+          "goal": { "en": "Say a hundred grams.", "ur": "Kahein sau gram." },
+          "options": ["Hundert Gramm, bitte.", "Ich nehme hundert Gramm."],
+          "fallback": "Wie viel Gramm möchten Sie?",
+          "accept": [{ "kw": ["hundert", "gramm"], "next": "n4" }, { "kw": ["gramm"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Dünn geschnitten oder dick?",
+          "goal": { "en": "Say thin.", "ur": "Kahein patla." },
+          "options": ["Dünn, bitte.", "Dünn geschnitten, bitte."],
+          "fallback": "Dünn oder dick?",
+          "accept": [{ "kw": ["dünn"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Sonst noch etwas?",
+          "goal": { "en": "Say yes, also a hundred grams of chicken ham.", "ur": "Kahein haan, sau gram hähnchenschinken bhi." },
+          "options": ["Ja, auch hundert Gramm Hähnchenschinken.", "Ja, noch hundert Gramm Hähnchenschinken bitte."],
+          "fallback": "Möchten Sie noch etwas?",
+          "accept": [{ "kw": ["hähnchenschinken"], "next": "n6" }, { "kw": ["ja"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Kommt sofort. Das macht zusammen fünf Euro.",
+          "goal": { "en": "Pay and say thank you, goodbye.", "ur": "Paise dein aur shukriya, khuda hafiz kahein." },
+          "options": ["Hier, bitte. Danke, auf Wiedersehen.", "Bitte schön. Vielen Dank, auf Wiedersehen."],
+          "fallback": "Möchten Sie bezahlen?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Danke schön. Einen schönen Tag noch!", "next": "END" },
+            { "kw": ["danke"], "reply": "Danke schön. Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie kaufen Aufschnitt für Besuch am Wochenende und möchten mehrere Sorten in bestimmten Mengen, getrennt verpackt.",
+        "en": "You're buying cold cuts for weekend visitors and want several varieties in specific amounts, packed separately.",
+        "ur": "Aap hafte ke aakhir mehmano ke liye aufschnitt khareed rahe hain aur mukhtalif sorten muqarrara miqdar mein, alag alag pack karwana chahte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was darf es heute sein?",
+          "goal": { "en": "Say you need several kinds of cold cuts for visitors.", "ur": "Kahein ke mehmano ke liye kai sorte aufschnitt chahiye." },
+          "options": ["Guten Tag. Ich brauche mehrere Sorten Aufschnitt für Besuch.", "Guten Tag, ich hätte gern verschiedene Sorten Aufschnitt für Besuch."],
+          "fallback": "Was genau möchten Sie?",
+          "accept": [{ "kw": ["sorten", "aufschnitt"], "next": "n2" }, { "kw": ["besuch"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gern. Ich empfehle Putenbrust, Hähnchenschinken und Geflügelsalami. Ist die Salami stark gewürzt für Sie in Ordnung?",
+          "goal": { "en": "Ask whether the salami is mildly spiced.", "ur": "Poochein ke salami mild hai ya nahi." },
+          "options": ["Ist die Geflügelsalami stark gewürzt?", "Ist die Salami mild oder stark gewürzt?"],
+          "fallback": "Passt das für Sie?",
+          "accept": [{ "kw": ["gewürzt"], "next": "n3" }, { "kw": ["mild"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Die ist mild gewürzt, das passt gut für Kinder.",
+          "goal": { "en": "Ask for two hundred grams of each variety.", "ur": "Har sorte se do sau gram maangein." },
+          "options": ["Gut, dann bitte zweihundert Gramm von jeder Sorte.", "Dann nehme ich zweihundert Gramm von jeder Sorte."],
+          "fallback": "Wie viel möchten Sie von jeder Sorte?",
+          "accept": [{ "kw": ["zweihundert", "gramm"], "next": "n4" }, { "kw": ["gramm"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Kommt sofort. Möchten Sie es zusammen oder getrennt verpackt?",
+          "goal": { "en": "Say separately.", "ur": "Kahein alag alag." },
+          "options": ["Getrennt, bitte.", "Bitte getrennt verpacken."],
+          "fallback": "Zusammen oder getrennt?",
+          "accept": [{ "kw": ["getrennt"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Alles klar. Das macht zusammen dreizehn Euro fünfzig.",
+          "goal": { "en": "Ask if you can pay by card.", "ur": "Poochein ke card se ada kar sakte hain." },
+          "options": ["Kann ich mit Karte zahlen?", "Ist Kartenzahlung möglich?"],
+          "fallback": "Möchten Sie bar oder mit Karte zahlen?",
+          "accept": [{ "kw": ["karte"], "next": "n6" }, { "kw": ["zahlen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Natürlich, das ist kein Problem.",
+          "goal": { "en": "Thank the butcher and say goodbye.", "ur": "Shukriya adaa karein aur khuda hafiz kahein." },
+          "options": ["Danke schön, auf Wiedersehen.", "Vielen Dank, bis bald."],
+          "fallback": "Sonst noch etwas?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Danke Ihnen, bis bald!", "next": "END" },
+            { "kw": ["bald"], "reply": "Bis bald, schönen Tag noch!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

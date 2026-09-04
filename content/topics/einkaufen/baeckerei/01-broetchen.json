@@ -1,0 +1,219 @@
+{
+  "id": "broetchen",
+  "order": 1,
+  "icon": "🥖",
+  "title": { "de": "Brötchen und Brot kaufen", "en": "Buying rolls and bread", "ur": "Brötchen aur bread khareedna" },
+  "angle": "Ordering rolls and a loaf at the bakery counter · Bakery counter par order dena",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["brötchen", "vollkornbrötchen", "weißbrötchen", "mehrkornbrötchen", "vollkornbrot", "mehrkornbrot", "weißbrot", "dutzend", "frisch", "knusprig"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen! Was darf es sein?", "en": "Good morning! What can I get you?", "ur": "Subh bakhair! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Morgen. Ich möchte Brötchen, bitte.", "en": "Good morning. I'd like some rolls, please.", "ur": "Subh bakhair. Mujhe Brötchen chahiye, please." },
+        { "s": "A", "de": "Wie viele Brötchen möchten Sie?", "en": "How many rolls would you like?", "ur": "Aap ko kitne Brötchen chahiye?" },
+        { "s": "B", "de": "Sechs Brötchen, bitte.", "en": "Six rolls, please.", "ur": "Chhe Brötchen, please." },
+        { "s": "A", "de": "Vollkornbrötchen oder Weißbrötchen?", "en": "Wholegrain rolls or white rolls?", "ur": "Vollkorn Brötchen ya white Brötchen?" },
+        { "s": "B", "de": "Vier Vollkornbrötchen und zwei Weißbrötchen, bitte.", "en": "Four wholegrain rolls and two white rolls, please.", "ur": "Chaar vollkorn aur do white Brötchen, please." },
+        { "s": "A", "de": "Gerne. Möchten Sie auch ein Brot?", "en": "Sure. Would you also like a loaf of bread?", "ur": "Zaroor. Kya aap ko bread bhi chahiye?" },
+        { "s": "B", "de": "Ja, ein Mehrkornbrot, bitte.", "en": "Yes, a multigrain loaf, please.", "ur": "Ji haan, ek mehrkorn bread, please." },
+        { "s": "A", "de": "Ein ganzes Brot oder ein halbes?", "en": "A whole loaf or a half?", "ur": "Poori bread ya aadhi?" },
+        { "s": "B", "de": "Ein halbes Brot, bitte.", "en": "A half loaf, please.", "ur": "Aadhi bread, please." },
+        { "s": "A", "de": "Das macht sechs Euro fünfzig.", "en": "That comes to six euros fifty.", "ur": "Yeh chhe euro pachaas cent bante hain." },
+        { "s": "B", "de": "Hier, bitte. Vielen Dank.", "en": "Here you are. Thank you very much.", "ur": "Yeh lijiye. Bohat shukriya." },
+        { "s": "A", "de": "Ich danke Ihnen. Einen schönen Tag noch!", "en": "Thank you. Have a nice day!", "ur": "Shukriya. Acha din guzray!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, was kann ich für Sie tun?", "en": "Good morning, what can I do for you?", "ur": "Subh bakhair, main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Morgen. Ich hätte gern zehn Brötchen für die Familie.", "en": "Good morning. I'd like ten rolls for the family.", "ur": "Subh bakhair. Mujhe family ke liye das Brötchen chahiye." },
+        { "s": "A", "de": "Zehn Stück, sehr gerne. Welche Sorte möchten Sie?", "en": "Ten pieces, sure. Which kind would you like?", "ur": "Das piece, zaroor. Aap ko kaun si sorte chahiye?" },
+        { "s": "B", "de": "Was für Sorten haben Sie denn heute?", "en": "What kinds do you have today?", "ur": "Aaj aap ke paas kaun si sorten hain?" },
+        { "s": "A", "de": "Wir haben Weißbrötchen, Vollkornbrötchen und Mehrkornbrötchen.", "en": "We have white rolls, wholegrain rolls and multigrain rolls.", "ur": "Hamare paas white, vollkorn aur mehrkorn Brötchen hain." },
+        { "s": "B", "de": "Dann nehme ich fünf Vollkornbrötchen und fünf Mehrkornbrötchen.", "en": "Then I'll take five wholegrain and five multigrain rolls.", "ur": "To phir main paanch vollkorn aur paanch mehrkorn Brötchen loongi." },
+        { "s": "A", "de": "Gut. Und möchten Sie auch ein Brot mitnehmen?", "en": "Good. And would you like to take a loaf of bread too?", "ur": "Acha. Aur kya aap bread bhi lena chahengi?" },
+        { "s": "B", "de": "Ja, haben Sie ein frisches Weißbrot?", "en": "Yes, do you have a fresh white loaf?", "ur": "Ji haan, kya aap ke paas fresh white bread hai?" },
+        { "s": "A", "de": "Ja, das ist gerade aus dem Ofen gekommen.", "en": "Yes, it just came out of the oven.", "ur": "Ji haan, yeh abhi abhi oven se nikli hai." },
+        { "s": "B", "de": "Perfekt, das nehme ich. Ein ganzes Brot, bitte.", "en": "Perfect, I'll take that. A whole loaf, please.", "ur": "Bohat acha, main yeh loongi. Poori bread, please." },
+        { "s": "A", "de": "Sonst noch etwas?", "en": "Anything else?", "ur": "Aur kuch chahiye?" },
+        { "s": "B", "de": "Nein, das ist alles. Was macht das zusammen?", "en": "No, that's everything. How much does that come to?", "ur": "Nahi, bas itna hi. Kul kitna hua?" },
+        { "s": "A", "de": "Das macht neun Euro zwanzig.", "en": "That comes to nine euros twenty.", "ur": "Yeh nau euro bees cent bante hain." },
+        { "s": "B", "de": "Hier, bitte. Ich habe es passend.", "en": "Here you are. I have the exact amount.", "ur": "Yeh lijiye. Mere paas poore paise hain." },
+        { "s": "A", "de": "Wunderbar, vielen Dank. Schönen Tag noch!", "en": "Wonderful, thank you very much. Have a nice day!", "ur": "Bohat acha, bohat shukriya. Acha din guzray!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz! Wie immer ein Dutzend Brötchen?", "en": "Good morning, Mrs Yilmaz! A dozen rolls as usual?", "ur": "Subh bakhair, Frau Yilmaz! Hamesha ki tarah ek dutzend Brötchen?" },
+        { "s": "B", "de": "Guten Morgen, Frau Ostermann. Genau, aber diesmal hätte ich gern eine andere Mischung.", "en": "Good morning, Mrs Ostermann. Exactly, but this time I'd like a different mix.", "ur": "Subh bakhair, Frau Ostermann. Bilkul, lekin is baar mujhe alag mixture chahiye." },
+        { "s": "A", "de": "Kein Problem. Was möchten Sie denn diesmal?", "en": "No problem. What would you like this time?", "ur": "Koi masla nahi. Is baar aap ko kya chahiye?" },
+        { "s": "B", "de": "Acht Vollkornbrötchen und vier Mehrkornbrötchen, wenn die frisch sind.", "en": "Eight wholegrain rolls and four multigrain rolls, if they're fresh.", "ur": "Aath vollkorn aur chaar mehrkorn Brötchen, agar woh fresh hain." },
+        { "s": "A", "de": "Die sind alle heute Morgen gebacken, ganz frisch und noch knusprig.", "en": "They were all baked this morning, completely fresh and still crispy.", "ur": "Woh sab aaj subh bake hui hain, bilkul fresh aur abhi bhi crispy." },
+        { "s": "B", "de": "Perfekt, dann nehme ich die. Und ich brauche noch ein Weißbrot.", "en": "Perfect, then I'll take those. And I also need a white loaf.", "ur": "Bohat acha, to main yeh loongi. Aur mujhe ek white bread bhi chahiye." },
+        { "s": "A", "de": "Ein ganzes oder reicht ein halbes? Weißbrot wird bei Ihnen ja schnell trocken.", "en": "A whole one or is a half enough? White bread goes dry quickly at your place, doesn't it?", "ur": "Poori ya aadhi kaafi hai? Aap ke ghar white bread jaldi sookh jati hai na?" },
+        { "s": "B", "de": "Ein ganzes, bitte, wir sind diese Woche mehr Personen zu Hause.", "en": "A whole one, please, we have more people at home this week.", "ur": "Poori, please, is hafte hamare ghar mein zyada log hain." },
+        { "s": "A", "de": "Verstehe. Soll ich Ihnen das Brot gleich in Scheiben schneiden?", "en": "I see. Shall I slice the bread for you right away?", "ur": "Samajh gayi. Kya main bread abhi kaat doon?" },
+        { "s": "B", "de": "Ja, das wäre großartig, dann spare ich mir die Arbeit zu Hause.", "en": "Yes, that would be great, then I save myself the work at home.", "ur": "Ji haan, yeh bohat acha hoga, phir ghar par kaam bach jayega." },
+        { "s": "A", "de": "Mache ich gerne. Bekommen Sie eigentlich schon einen Rabatt für das Dutzend?", "en": "I'll gladly do that. Do you actually already get a discount for the dozen?", "ur": "Zaroor kar deti hoon. Kya aap ko dutzend par pehle se discount milta hai?" },
+        { "s": "B", "de": "Nein, bisher nicht, aber das würde ich gern wissen.", "en": "No, not so far, but I'd like to know that.", "ur": "Nahi, ab tak nahi, lekin main jan-na chahoongi." },
+        { "s": "A", "de": "Ab zehn Brötchen gebe ich Ihnen fünf Prozent Rabatt.", "en": "From ten rolls onward I give you five percent discount.", "ur": "Das Brötchen se zyada par main paanch percent discount deti hoon." },
+        { "s": "B", "de": "Das wusste ich gar nicht, vielen Dank für den Tipp.", "en": "I didn't know that at all, thank you for the tip.", "ur": "Mujhe yeh bilkul pata nahi tha, tip ka shukriya." },
+        { "s": "A", "de": "Dann macht das heute insgesamt elf Euro vierzig.", "en": "Then that comes to a total of eleven euros forty today.", "ur": "To phir aaj kul gyarah euro chalees cent bante hain." },
+        { "s": "B", "de": "Hier, bitte. Bis nächste Woche, Frau Ostermann!", "en": "Here you are. See you next week, Mrs Ostermann!", "ur": "Yeh lijiye. Agle hafte milte hain, Frau Ostermann!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Sie sehen heute besonders gut gelaunt aus.", "en": "Good morning, Mrs Yilmaz. You look especially cheerful today.", "ur": "Subh bakhair, Frau Yilmaz. Aap aaj khaas tor par khush lag rahi hain." },
+        { "s": "B", "de": "Guten Morgen, Frau Ostermann! Wir feiern heute Abend, deshalb brauche ich etwas mehr als sonst.", "en": "Good morning, Mrs Ostermann! We're celebrating this evening, so I need a bit more than usual.", "ur": "Subh bakhair, Frau Ostermann! Hum aaj shaam jashn mana rahe hain, isi liye mujhe hamesha se zyada chahiye." },
+        { "s": "A", "de": "Das klingt schön. Was darf es denn sein?", "en": "That sounds nice. So what can I get you?", "ur": "Yeh acha lagta hai. To kya doon?" },
+        { "s": "B", "de": "Ich hätte gern fünfzehn Brötchen, am liebsten eine Mischung aus allem, was Sie da haben.", "en": "I'd like fifteen rolls, ideally a mix of everything you have there.", "ur": "Mujhe pandrah Brötchen chahiye, tarjeehan har uss cheez ka mixture jo aap ke paas hai." },
+        { "s": "A", "de": "Dann nehme ich fünf Weißbrötchen, fünf Vollkornbrötchen und fünf Mehrkornbrötchen, wenn Ihnen das passt.", "en": "Then I'll put together five white rolls, five wholegrain rolls and five multigrain rolls, if that suits you.", "ur": "To main paanch white, paanch vollkorn aur paanch mehrkorn Brötchen deti hoon, agar theek lage." },
+        { "s": "B", "de": "Das passt sehr gut. Sind die Vollkornbrötchen die, die morgens am schnellsten weg sind?", "en": "That suits very well. Are the wholegrain rolls the ones that sell out fastest in the mornings?", "ur": "Bilkul theek hai. Kya vollkorn Brötchen wahi hain jo subh sab se jaldi khatam ho jate hain?" },
+        { "s": "A", "de": "Genau die, viele Kunden fragen extra danach, weil sie besonders knusprig werden.", "en": "Exactly those, many customers ask for them specially because they turn out especially crispy.", "ur": "Bilkul wahi, kai kunden khaas tor par unhi ke liye poochte hain kyunke woh bohat crispy hote hain." },
+        { "s": "B", "de": "Dann bin ich froh, dass ich früh genug gekommen bin.", "en": "Then I'm glad that I came early enough.", "ur": "To mujhe khushi hai ke main waqt par aa gayi." },
+        { "s": "A", "de": "Möchten Sie außerdem ein Brot, das sich auch am nächsten Tag noch gut hält?", "en": "Would you also like a bread that keeps well even the next day?", "ur": "Kya aap ko aisi bread bhi chahiye jo agle din tak achi rahe?" },
+        { "s": "B", "de": "Ja, gern, was würden Sie mir da empfehlen?", "en": "Yes, gladly, what would you recommend to me there?", "ur": "Ji haan, zaroor, aap kya tajweez karengi?" },
+        { "s": "A", "de": "Ein Mehrkornbrot bleibt länger frisch, weil es mehr Feuchtigkeit speichert als Weißbrot.", "en": "A multigrain loaf stays fresh longer because it stores more moisture than white bread.", "ur": "Mehrkorn bread zyada dair fresh rehti hai kyunke yeh white bread se zyada namee rakhti hai." },
+        { "s": "B", "de": "Das überzeugt mich, dann nehme ich ein ganzes Mehrkornbrot dazu.", "en": "That convinces me, then I'll take a whole multigrain loaf as well.", "ur": "Yeh baat mujhe qail kar deti hai, to main poori mehrkorn bread bhi le loongi." },
+        { "s": "A", "de": "Soll ich Ihnen alles zusammen in eine große Tüte packen, oder lieber getrennt?", "en": "Shall I pack everything together in one big bag, or separately instead?", "ur": "Kya main sab kuch ek badi tüte mein daal doon, ya alag alag behtar hai?" },
+        { "s": "B", "de": "Getrennt wäre besser, damit die Brötchen nicht zerdrückt werden.", "en": "Separately would be better, so the rolls don't get crushed.", "ur": "Alag behtar hoga, taake Brötchen kuchle na jayein." },
+        { "s": "A", "de": "Kein Problem, ich packe das Brot separat ein.", "en": "No problem, I'll pack the bread separately.", "ur": "Koi masla nahi, main bread alag pack kar deti hoon." },
+        { "s": "B", "de": "Was macht das dann insgesamt?", "en": "So what does that come to in total then?", "ur": "To phir kul kitna hua?" },
+        { "s": "A", "de": "Mit dem Rabatt für zehn Brötchen macht das heute vierzehn Euro achtzig.", "en": "With the discount for ten rolls, that comes to fourteen euros eighty today.", "ur": "Das Brötchen ke discount ke saath aaj chaudah euro assi cent bante hain." },
+        { "s": "B", "de": "Hier, bitte. Vielen Dank und bis zum nächsten Mal!", "en": "Here you are. Thank you very much and see you next time!", "ur": "Yeh lijiye. Bohat shukriya aur agli baar milte hain!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie kaufen sechs Brötchen und ein halbes Brot in der Bäckerei.",
+        "en": "You buy six rolls and a half loaf of bread at the bakery.",
+        "ur": "Aap bakery se chhe Brötchen aur aadhi bread khareedte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen! Was darf es sein?",
+          "goal": { "en": "Greet and say you'd like rolls.", "ur": "Salam karein aur kahein ke Brötchen chahiye." },
+          "options": ["Guten Morgen. Ich möchte Brötchen, bitte.", "Guten Tag, ich hätte gern Brötchen."],
+          "fallback": "Was möchten Sie denn?",
+          "accept": [{ "kw": ["guten", "brötchen"], "next": "n2" }, { "kw": ["brötchen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie viele Brötchen möchten Sie?",
+          "goal": { "en": "Say six rolls, please.", "ur": "Kahein: chhe Brötchen, please." },
+          "options": ["Sechs Brötchen, bitte.", "Ich hätte gern sechs Brötchen."],
+          "fallback": "Wie viele denn genau?",
+          "accept": [{ "kw": ["sechs"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Vollkornbrötchen oder Weißbrötchen?",
+          "goal": { "en": "Say four wholegrain and two white rolls.", "ur": "Kahein: chaar vollkorn aur do white." },
+          "options": ["Vier Vollkornbrötchen und zwei Weißbrötchen.", "Vier Vollkorn und zwei Weiß, bitte."],
+          "fallback": "Welche Sorte möchten Sie?",
+          "accept": [{ "kw": ["vollkorn", "weiß"], "next": "n4" }, { "kw": ["vollkornbrötchen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Gerne. Möchten Sie auch ein Brot?",
+          "goal": { "en": "Say yes, a half loaf please.", "ur": "Kahein: haan, aadhi bread please." },
+          "options": ["Ja, ein halbes Brot, bitte.", "Ja, ein halbes Weißbrot, bitte."],
+          "fallback": "Brauchen Sie auch ein Brot?",
+          "accept": [{ "kw": ["halbes", "brot"], "next": "n5" }, { "kw": ["halbes"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das macht sechs Euro fünfzig.",
+          "goal": { "en": "Say here you are, thank you.", "ur": "Kahein: yeh lijiye, shukriya." },
+          "options": ["Hier, bitte. Vielen Dank.", "Bitte sehr. Danke schön."],
+          "fallback": "Möchten Sie zahlen?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }, { "kw": ["bitte"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ich danke Ihnen. Einen schönen Tag noch!",
+          "goal": { "en": "Say thanks, you too, and say goodbye.", "ur": "Kahein: shukriya, aap ko bhi, aur khuda hafiz." },
+          "options": ["Danke, ebenfalls! Auf Wiedersehen.", "Vielen Dank, Ihnen auch! Tschüss."],
+          "fallback": "Haben Sie noch einen Wunsch?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Auf Wiedersehen!", "next": "END" },
+            { "kw": ["tschüss"], "reply": "Tschüss, bis bald!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie sind Stammkundin und möchten diesmal eine andere Mischung Brötchen sowie ein geschnittenes Weißbrot.",
+        "en": "You are a regular customer and this time want a different mix of rolls as well as a sliced white loaf.",
+        "ur": "Aap stammkundin hain aur is baar Brötchen ka alag mixture aur kati hui white bread chahti hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz! Wie immer ein Dutzend Brötchen?",
+          "goal": { "en": "Say yes, but you'd like a different mix this time.", "ur": "Kahein: haan, lekin is baar alag mixture chahiye." },
+          "options": ["Genau, aber diesmal hätte ich gern eine andere Mischung.", "Ja, aber diesmal eine andere Mischung, bitte."],
+          "fallback": "Wie immer, oder anders?",
+          "accept": [{ "kw": ["diesmal", "mischung"], "next": "n2" }, { "kw": ["mischung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Problem. Was möchten Sie denn diesmal?",
+          "goal": { "en": "Say eight wholegrain and four multigrain rolls, if fresh.", "ur": "Kahein: aath vollkorn aur chaar mehrkorn, agar fresh hain." },
+          "options": ["Acht Vollkornbrötchen und vier Mehrkornbrötchen, wenn die frisch sind.", "Acht Vollkorn und vier Mehrkorn, bitte, wenn sie frisch sind."],
+          "fallback": "Welche Mischung möchten Sie?",
+          "accept": [{ "kw": ["acht", "vier"], "next": "n3" }, { "kw": ["vollkornbrötchen"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Die sind alle heute Morgen gebacken, ganz frisch und noch knusprig.",
+          "goal": { "en": "Say perfect, you'll take those, and ask for a white loaf too.", "ur": "Kahein: perfect, yeh le loongi, aur white bread bhi chahiye." },
+          "options": ["Perfekt, dann nehme ich die. Und ich brauche noch ein Weißbrot.", "Super, die nehme ich. Und ein Weißbrot brauche ich auch."],
+          "fallback": "Passt Ihnen das?",
+          "accept": [{ "kw": ["perfekt", "weißbrot"], "next": "n4" }, { "kw": ["weißbrot"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ein ganzes oder reicht ein halbes?",
+          "goal": { "en": "Say a whole one, please, because more people are at home this week.", "ur": "Kahein: poori please, is hafte ghar mein zyada log hain." },
+          "options": ["Ein ganzes, bitte, wir sind diese Woche mehr Personen zu Hause.", "Ein ganzes, bitte, wir haben diese Woche mehr Gäste."],
+          "fallback": "Wie viel brauchen Sie?",
+          "accept": [{ "kw": ["ganzes"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Soll ich Ihnen das Brot gleich in Scheiben schneiden?",
+          "goal": { "en": "Say yes, that would be great.", "ur": "Kahein: haan, yeh bohat acha hoga." },
+          "options": ["Ja, das wäre großartig, dann spare ich mir die Arbeit zu Hause.", "Ja, gerne, das wäre großartig."],
+          "fallback": "Soll ich es schneiden?",
+          "accept": [{ "kw": ["ja", "großartig"], "next": "n6" }, { "kw": ["ja"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Dann macht das heute insgesamt elf Euro vierzig.",
+          "goal": { "en": "Pay, thank her and say see you next week.", "ur": "Paise dein, shukriya kahein aur agle hafte milte hain kahein." },
+          "options": ["Hier, bitte. Bis nächste Woche, Frau Ostermann!", "Hier, bitte. Vielen Dank, bis nächste Woche!"],
+          "fallback": "Möchten Sie in bar zahlen?",
+          "accept": [
+            { "kw": ["danke", "woche"], "reply": "Bis nächste Woche, Frau Yilmaz!", "next": "END" },
+            { "kw": ["woche"], "reply": "Bis nächste Woche!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

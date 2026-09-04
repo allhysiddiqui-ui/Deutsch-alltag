@@ -1,0 +1,33 @@
+{
+  "id": "supermarkt",
+  "order": 1,
+  "icon": "🛍️",
+  "title": { "de": "Im Supermarkt", "en": "At the supermarket", "ur": "Supermarket mein" },
+  "intro": "Orientierung, Kasse, Angebote, Ersatzprodukte und die SB-Kasse — die wichtigsten Gespräche für den täglichen Einkauf im Supermarkt.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "das Regal", "opts": ["shelf", "aisle", "entrance", "receipt"], "a": 0, "ur": "shelf / taaq", "word": "regal" },
+      { "type": "mc", "q": "der Einkaufswagen", "opts": ["shopping cart", "shopping basket", "checkout", "shelf"], "a": 0, "ur": "shopping cart", "word": "einkaufswagen" },
+      { "type": "mc", "q": "das Wechselgeld", "opts": ["change (money)", "receipt", "discount", "card payment"], "a": 0, "ur": "baaki paisay", "word": "wechselgeld" },
+      { "type": "mc", "q": "der Rabatt", "opts": ["discount", "receipt", "price", "product"], "a": 0, "ur": "chhoot", "word": "rabatt" },
+      { "type": "mc", "q": "das Mindesthaltbarkeitsdatum", "opts": ["best-before date", "purchase date", "manufacture date", "sale date"], "a": 0, "ur": "expiry date", "word": "mindesthaltbarkeitsdatum" },
+      { "type": "mc", "q": "ausverkauft", "opts": ["sold out", "on offer", "fresh", "expired"], "a": 0, "ur": "khatam / sold out", "word": "ausverkauft" },
+      { "type": "mc", "q": "glutenfrei", "opts": ["gluten-free", "sugar-free", "fresh", "reduced"], "a": 0, "ur": "gluten se azaad", "word": "glutenfrei" },
+      { "type": "mc", "q": "der Altersnachweis", "opts": ["age verification / proof of age", "receipt", "ID card", "loyalty card"], "a": 0, "ur": "age verification", "word": "altersnachweis" },
+      { "type": "gap", "de": "Entschuldigung, wo finde ich das ___?", "a": "Regal", "hint": "shelf", "en": "Excuse me, where do I find the shelf?", "word": "regal" },
+      { "type": "gap", "de": "Zahlen Sie bar oder mit ___?", "a": "Karte", "hint": "card", "en": "Are you paying cash or by card?", "word": "karte" },
+      { "type": "gap", "de": "Die Hafermilch ist leider ___.", "a": "ausverkauft", "hint": "sold out", "en": "The oat milk is unfortunately sold out.", "word": "ausverkauft" },
+      { "type": "gap", "de": "Entschuldigung, die SB-Kasse ___ nicht.", "a": "funktioniert", "hint": "works / functions", "en": "Excuse me, the self-checkout isn't working.", "word": "funktioniert" },
+      { "type": "order", "a": "Wo finde ich die Milch", "en": "Where do I find the milk?" },
+      { "type": "order", "a": "Ich zahle mit Karte", "en": "I'll pay by card." },
+      { "type": "order", "a": "Haben Sie etwas Ähnliches", "en": "Do you have something similar?" },
+      { "type": "listen", "a": "Der Gang mit den Milchprodukten ist ganz hinten.", "en": "The aisle with the dairy products is right at the back." },
+      { "type": "listen", "a": "Möchten Sie eine Tüte dazu?", "en": "Would you like a bag with that?" },
+      { "type": "listen", "a": "Der Scanner erkennt die Milch nicht.", "en": "The scanner doesn't recognize the milk." },
+      { "type": "prod", "en": "Excuse me, where is the checkout?", "ur": "Maazrat, kasse kahan hai?", "a": "Entschuldigung, wo ist die Kasse?" },
+      { "type": "prod", "en": "I'll pay by card, please.", "ur": "Main card se pay karoongi, please.", "a": "Ich zahle mit Karte, bitte." },
+      { "type": "prod", "en": "Do you have something similar?", "ur": "Kya aap ke paas kuch aisa hi hai?", "a": "Haben Sie etwas Ähnliches?" },
+      { "type": "prod", "en": "Can I help you?", "ur": "Kya main aap ki madad karoon?", "a": "Kann ich Ihnen helfen?" }
+    ]
+  }
+}

@@ -1,0 +1,1804 @@
+{
+  "kartoffel": {
+    "lemma": "Kartoffel",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kartoffeln",
+    "en": "potato",
+    "ur": "aloo",
+    "ex": {
+      "de": "Ich hätte gern zwei Kilo Kartoffeln.",
+      "en": "I'd like two kilos of potatoes.",
+      "ur": "Mujhe do kilo aloo chahiye."
+    }
+  },
+  "apfel": {
+    "lemma": "Apfel",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Äpfel",
+    "en": "apple",
+    "ur": "seb",
+    "ex": {
+      "de": "Haben Sie auch Äpfel?",
+      "en": "Do you also have apples?",
+      "ur": "Kya aap ke paas seb bhi hain?"
+    }
+  },
+  "tomate": {
+    "lemma": "Tomate",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tomaten",
+    "en": "tomato",
+    "ur": "tamatar",
+    "ex": {
+      "de": "Ich möchte ein Kilo Tomaten.",
+      "en": "I would like a kilo of tomatoes.",
+      "ur": "Mujhe ek kilo tamatar chahiye."
+    }
+  },
+  "gurke": {
+    "lemma": "Gurke",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Gurken",
+    "en": "cucumber",
+    "ur": "kheera",
+    "ex": {
+      "de": "Sind die Gurken frisch?",
+      "en": "Are the cucumbers fresh?",
+      "ur": "Kya kheere taaza hain?"
+    }
+  },
+  "zwiebel": {
+    "lemma": "Zwiebel",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Zwiebeln",
+    "en": "onion",
+    "ur": "pyaz",
+    "ex": {
+      "de": "Kartoffeln und Zwiebeln passen gut zusammen.",
+      "en": "Potatoes and onions go well together.",
+      "ur": "Aloo aur pyaz achi tarah milte hain."
+    }
+  },
+  "handvoll": {
+    "lemma": "Handvoll",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "a handful",
+    "ur": "ek mutthi",
+    "ex": {
+      "de": "Eine Handvoll Tomaten, bitte.",
+      "en": "A handful of tomatoes, please.",
+      "ur": "Ek mutthi tamatar, please."
+    }
+  },
+  "kirsche": {
+    "lemma": "Kirsche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kirschen",
+    "en": "cherry",
+    "ur": "cherry",
+    "ex": {
+      "de": "Kirschen sind auch gerade sehr süß.",
+      "en": "Cherries are also very sweet right now.",
+      "ur": "Cherry bhi abhi bohat meethi hain."
+    }
+  },
+  "aprikose": {
+    "lemma": "Aprikose",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Aprikosen",
+    "en": "apricot",
+    "ur": "khubani",
+    "ex": {
+      "de": "Die ersten Aprikosen sind jetzt besonders lecker.",
+      "en": "The first apricots are especially delicious right now.",
+      "ur": "Pehli khubaniyan is waqt khaas tor par lazeez hain."
+    }
+  },
+  "pfirsich": {
+    "lemma": "Pfirsich",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Pfirsiche",
+    "en": "peach",
+    "ur": "aarhoo",
+    "ex": {
+      "de": "Sind die Pfirsiche reif?",
+      "en": "Are the peaches ripe?",
+      "ur": "Kya aarhoo pakke hain?"
+    }
+  },
+  "feld": {
+    "lemma": "Feld",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Felder",
+    "en": "field",
+    "ur": "khet",
+    "ex": {
+      "de": "Die kamen heute früh vom Feld.",
+      "en": "They came from the field early this morning.",
+      "ur": "Yeh aaj subh khet se aayi hain."
+    }
+  },
+  "schale": {
+    "lemma": "Schale",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Schalen",
+    "en": "bowl / punnet; also: peel, skin (of fruit or vegetable)",
+    "ur": "pyala / daba; ya: chilka",
+    "ex": {
+      "de": "Ich nehme eine Schale davon.",
+      "en": "I'll take a punnet of that.",
+      "ur": "Main uska ek daba lay leti hoon."
+    }
+  },
+  "sorte": {
+    "lemma": "Sorte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Sorten",
+    "en": "variety / kind",
+    "ur": "qisam",
+    "ex": {
+      "de": "Diese Sorte hier würde ich nehmen.",
+      "en": "I would take this variety here.",
+      "ur": "Main yeh qisam loonga."
+    }
+  },
+  "region": {
+    "lemma": "Region",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Regionen",
+    "en": "region",
+    "ur": "ilaqa",
+    "ex": {
+      "de": "Die Tomaten heute sind aus der Region.",
+      "en": "Today's tomatoes are from the region.",
+      "ur": "Aaj ke tamatar isi ilaqe ke hain."
+    }
+  },
+  "umgebung": {
+    "lemma": "Umgebung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Umgebungen",
+    "en": "surrounding area",
+    "ur": "aas paas ka ilaqa",
+    "ex": {
+      "de": "Die kommen auch aus der Umgebung.",
+      "en": "They also come from the surrounding area.",
+      "ur": "Woh bhi aas paas se aate hain."
+    }
+  },
+  "hof": {
+    "lemma": "Hof",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Höfe",
+    "forms": [
+      "höfen"
+    ],
+    "en": "farm / farmyard",
+    "ur": "farm / khet ka ghar",
+    "ex": {
+      "de": "Von einem Bauernhof ganz in der Nähe.",
+      "en": "From a farm very nearby.",
+      "ur": "Bilkul qareeb ke ek farm se."
+    }
+  },
+  "bauernhof": {
+    "lemma": "Bauernhof",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Bauernhöfe",
+    "en": "farm",
+    "ur": "farm",
+    "ex": {
+      "de": "Der stammt von einem kleinen Bauernhof.",
+      "en": "It comes from a small farm.",
+      "ur": "Yeh ek chhote farm se aata hai."
+    }
+  },
+  "siegel": {
+    "lemma": "Siegel",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Siegel",
+    "en": "seal / certification mark",
+    "ur": "mohar / certificate ka nishaan",
+    "ex": {
+      "de": "Wir haben auch ein Bio-Siegel am Stand.",
+      "en": "We also have an organic seal at the stand.",
+      "ur": "Hamare stall par bio ki mohar bhi hai."
+    }
+  },
+  "spritzmittel": {
+    "lemma": "Spritzmittel",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Spritzmittel",
+    "en": "pesticide / spray",
+    "ur": "keeda maar spray",
+    "ex": {
+      "de": "Wird dort auch ohne Spritzmittel angebaut?",
+      "en": "Is it grown there without pesticides too?",
+      "ur": "Kya wahan bina spray ke ugaya jata hai?"
+    }
+  },
+  "restposten": {
+    "lemma": "Restposten",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Restposten",
+    "en": "leftover stock / remaining items",
+    "ur": "bacha hua maal",
+    "ex": {
+      "de": "Ich habe noch Restposten.",
+      "en": "I still have some leftovers.",
+      "ur": "Mere paas kuch bacha hua maal hai."
+    }
+  },
+  "feierabend": {
+    "lemma": "Feierabend",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "end of the working day / closing time",
+    "ur": "kaam ya bazar bandh hone ka waqt",
+    "ex": {
+      "de": "Es ist bald Feierabend.",
+      "en": "It's almost closing time.",
+      "ur": "Bandh hone ka waqt hai."
+    }
+  },
+  "oliven": {
+    "lemma": "Olive",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Oliven",
+    "en": "olive",
+    "ur": "zaitoon",
+    "ex": {
+      "de": "Möchten Sie auch Oliven probieren?",
+      "en": "Would you also like to try olives?",
+      "ur": "Kya zaitoon bhi chakhna chahengi?"
+    }
+  },
+  "schafskäse": {
+    "lemma": "Schafskäse",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "sheep's cheese",
+    "ur": "bhed ka cheese",
+    "ex": {
+      "de": "Wir haben Schafskäse und Ziegenkäse.",
+      "en": "We have sheep's cheese and goat's cheese.",
+      "ur": "Hamare paas bhed aur bakri ka cheese hai."
+    }
+  },
+  "ziegenkäse": {
+    "lemma": "Ziegenkäse",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "goat's cheese",
+    "ur": "bakri ka cheese",
+    "ex": {
+      "de": "Der Ziegenkäse ist etwas würziger.",
+      "en": "The goat's cheese is a bit spicier.",
+      "ur": "Bakri ka cheese thora tez zaiqe wala hai."
+    }
+  },
+  "öl": {
+    "lemma": "Öl",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Öle",
+    "en": "oil",
+    "ur": "tel",
+    "ex": {
+      "de": "Ja, in Öl mit Kräutern.",
+      "en": "Yes, in oil with herbs.",
+      "ur": "Ji, tel aur jari-booti ke saath."
+    }
+  },
+  "kräuter": {
+    "lemma": "Kraut",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Kräuter",
+    "forms": [
+      "kräutern"
+    ],
+    "en": "herbs",
+    "ur": "jari-booti",
+    "ex": {
+      "de": "Ja, in Öl mit frischen Kräutern.",
+      "en": "Yes, in oil with fresh herbs.",
+      "ur": "Ji, tel aur taaza jari-booti ke saath."
+    }
+  },
+  "salat": {
+    "lemma": "Salat",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Salate",
+    "en": "salad / lettuce",
+    "ur": "salad",
+    "ex": {
+      "de": "Ich suche gute Tomaten für einen Salat.",
+      "en": "I'm looking for good tomatoes for a salad.",
+      "ur": "Mujhe salad ke liye achay tamatar chahiye."
+    }
+  },
+  "suppe": {
+    "lemma": "Suppe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Suppen",
+    "en": "soup",
+    "ur": "soup",
+    "ex": {
+      "de": "Möchten Sie auch etwas Gemüse für eine Suppe?",
+      "en": "Would you also like some vegetables for a soup?",
+      "ur": "Kya soup ke liye kuch sabzi bhi chahiye?"
+    }
+  },
+  "beilage": {
+    "lemma": "Beilage",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Beilagen",
+    "en": "side dish",
+    "ur": "side dish",
+    "ex": {
+      "de": "Reicht ein Kilo für zehn Personen als Beilage?",
+      "en": "Is a kilo enough for ten people as a side dish?",
+      "ur": "Kya das logon ke liye side dish mein ek kilo kaafi hai?"
+    }
+  },
+  "hälfte": {
+    "lemma": "Hälfte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Hälften",
+    "en": "half",
+    "ur": "aadha",
+    "ex": {
+      "de": "Die Hälfte gleich, die andere Hälfte später.",
+      "en": "Half right away, the other half later.",
+      "ur": "Aadha abhi, baaqi aadha baad mein."
+    }
+  },
+  "geld": {
+    "lemma": "Geld",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "money",
+    "ur": "paisa",
+    "ex": {
+      "de": "So spare ich heute viel Geld.",
+      "en": "That way I save a lot of money today.",
+      "ur": "Is tarah aaj bohat paise bachte hain."
+    }
+  },
+  "schein": {
+    "lemma": "Schein",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Scheine",
+    "en": "banknote",
+    "ur": "note (currency)",
+    "ex": {
+      "de": "Ich habe nur einen großen Schein.",
+      "en": "I only have a large banknote.",
+      "ur": "Mere paas sirf bara note hai."
+    }
+  },
+  "gäste": {
+    "lemma": "Gast",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Gäste",
+    "en": "guest",
+    "ur": "mehmaan",
+    "ex": {
+      "de": "Wir haben am Wochenende Gäste.",
+      "en": "We have guests this weekend.",
+      "ur": "Weekend par hamare paas mehmaan hain."
+    }
+  },
+  "wunsch": {
+    "lemma": "Wunsch",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Wünsche",
+    "en": "wish / request",
+    "ur": "khwahish",
+    "ex": {
+      "de": "Sonst noch ein Wunsch?",
+      "en": "Anything else you'd like?",
+      "ur": "Aur koi khwahish?"
+    }
+  },
+  "jahreszeit": {
+    "lemma": "Jahreszeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Jahreszeiten",
+    "en": "season / time of year",
+    "ur": "mausam (saal ka)",
+    "ex": {
+      "de": "Was empfehlen Sie mir für diese Jahreszeit?",
+      "en": "What do you recommend for this time of year?",
+      "ur": "Is mausam ke liye kya tajweez karenge?"
+    }
+  },
+  "keller": {
+    "lemma": "Keller",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Keller",
+    "en": "cellar",
+    "ur": "tehkhana",
+    "ex": {
+      "de": "Er reift in einem kühlen Keller.",
+      "en": "It matures in a cool cellar.",
+      "ur": "Yeh thandi tehkhane mein pakta hai."
+    }
+  },
+  "knoblauch": {
+    "lemma": "Knoblauch",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "garlic",
+    "ur": "lehsan",
+    "ex": {
+      "de": "Mit Öl, Kräutern und ein wenig Knoblauch.",
+      "en": "With oil, herbs and a little garlic.",
+      "ur": "Tel, jari-booti aur thori si lehsan ke saath."
+    }
+  },
+  "paket": {
+    "lemma": "Paket",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Pakete",
+    "en": "package / parcel",
+    "ur": "paket",
+    "ex": {
+      "de": "Ich packe Ihnen ein kleines Paket zusammen.",
+      "en": "I'll pack a little parcel together for you.",
+      "ur": "Main aap ko chota paket bana deta hoon."
+    }
+  },
+  "büfett": {
+    "lemma": "Büfett",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Büfetts",
+    "en": "buffet",
+    "ur": "buffet",
+    "ex": {
+      "de": "Ich richte heute Abend ein kleines Büfett aus.",
+      "en": "I'm putting together a small buffet this evening.",
+      "ur": "Main aaj raat chota sa buffet laga rahi hoon."
+    }
+  },
+  "kilometer": {
+    "lemma": "Kilometer",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kilometer",
+    "en": "kilometre",
+    "ur": "kilometer",
+    "ex": {
+      "de": "Etwa zwanzig Kilometer von hier.",
+      "en": "About twenty kilometres from here.",
+      "ur": "Yahan se taqreeban bees kilometer door."
+    }
+  },
+  "chemie": {
+    "lemma": "Chemie",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "chemicals / chemistry",
+    "ur": "chemical / kimiya",
+    "ex": {
+      "de": "Der Hof arbeitet komplett ohne Chemie.",
+      "en": "The farm works completely without chemicals.",
+      "ur": "Farm bilkul kisi chemical ke bagair kaam karta hai."
+    }
+  },
+  "herkunft": {
+    "lemma": "Herkunft",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Herkünfte",
+    "en": "origin",
+    "ur": "asal jagah",
+    "ex": {
+      "de": "Ich wollte mehr über die Herkunft erfahren.",
+      "en": "I wanted to find out more about the origin.",
+      "ur": "Main asal jagah ke baare mein aur jan-na chahti thi."
+    }
+  },
+  "kunden": {
+    "lemma": "Kunde",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kunden",
+    "en": "customer",
+    "ur": "customer",
+    "ex": {
+      "de": "Viele Kunden suchen bewusst regionale Ware.",
+      "en": "Many customers deliberately look for regional goods.",
+      "ur": "Kai customers jaan boojh kar regional maal dhoondte hain."
+    }
+  },
+  "kundin": {
+    "lemma": "Kundin",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kundinnen",
+    "en": "female customer",
+    "ur": "customer (aurat)",
+    "ex": {
+      "de": "Woran erkenne ich das als Kundin?",
+      "en": "How do I recognise that as a customer?",
+      "ur": "Customer hote hue mujhe kaise pata chalega?"
+    }
+  },
+  "ankündigung": {
+    "lemma": "Ankündigung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Ankündigungen",
+    "en": "announcement / notice",
+    "ur": "ittila",
+    "ex": {
+      "de": "Die Kontrolle kommt ohne Ankündigung.",
+      "en": "The inspection comes without announcement.",
+      "ur": "Muaina bina bataye hota hai."
+    }
+  },
+  "proben": {
+    "lemma": "Probe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Proben",
+    "en": "sample",
+    "ur": "namoona",
+    "ex": {
+      "de": "Sie nehmen Proben direkt vom Feld.",
+      "en": "They take samples directly from the field.",
+      "ur": "Woh seedha khet se namoone lete hain."
+    }
+  },
+  "wetter": {
+    "lemma": "Wetter",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "weather",
+    "ur": "mausam",
+    "ex": {
+      "de": "Das Wetter war heute schlechter.",
+      "en": "The weather was worse today.",
+      "ur": "Aaj mausam kharab tha."
+    }
+  },
+  "müll": {
+    "lemma": "Müll",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "trash / rubbish",
+    "ur": "kooda",
+    "ex": {
+      "de": "So landet wenigstens nichts im Müll.",
+      "en": "This way at least nothing ends up in the trash.",
+      "ur": "Is tarah kam az kam kuch kooray mein nahi jayega."
+    }
+  },
+  "süden": {
+    "lemma": "Süden",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "the south",
+    "ur": "junoob",
+    "ex": {
+      "de": "Die kommen aus dem Süden.",
+      "en": "They come from the south.",
+      "ur": "Yeh junoob se aate hain."
+    }
+  },
+  "sommer": {
+    "lemma": "Sommer",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Sommer",
+    "en": "summer",
+    "ur": "garmi ka mausam",
+    "ex": {
+      "de": "Der Sommer war trockener.",
+      "en": "The summer was drier.",
+      "ur": "Garmi khushk thi."
+    }
+  },
+  "früchte": {
+    "lemma": "Frucht",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Früchte",
+    "en": "fruit",
+    "ur": "phal",
+    "ex": {
+      "de": "Die Früchte sind insgesamt süßer als sonst.",
+      "en": "The fruit is overall sweeter than usual.",
+      "ur": "Phal majmoo'i tor par ziyada meethay hain."
+    }
+  },
+  "kostprobe": {
+    "lemma": "Kostprobe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kostproben",
+    "en": "sample to taste",
+    "ur": "chakhne ka namoona",
+    "ex": {
+      "de": "Darf ich Ihnen eine Kostprobe anbieten?",
+      "en": "May I offer you a sample?",
+      "ur": "Kya main aap ko chakhne ke liye kuch de sakta hoon?"
+    }
+  },
+  "markt": {
+    "lemma": "Markt",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Märkte",
+    "en": "market",
+    "ur": "bazar",
+    "ex": {
+      "de": "Einen schönen Tag auf dem Markt!",
+      "en": "Have a nice day at the market!",
+      "ur": "Market mein acha din guzare!"
+    }
+  },
+  "freunde": {
+    "lemma": "Freund",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Freunde",
+    "en": "friend",
+    "ur": "dost",
+    "ex": {
+      "de": "Ich richte ein kleines Büfett für Freunde aus.",
+      "en": "I'm putting together a small buffet for friends.",
+      "ur": "Main doston ke liye chota buffet laga rahi hoon."
+    }
+  },
+  "gegenteil": {
+    "lemma": "Gegenteil",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Gegenteile",
+    "en": "opposite; im Gegenteil = on the contrary",
+    "ur": "ulta; im Gegenteil = balke ulta",
+    "ex": {
+      "de": "Das stört mich nicht, im Gegenteil.",
+      "en": "That doesn't bother me, on the contrary.",
+      "ur": "Yeh mujhe pareshan nahi karta, ulta."
+    }
+  },
+  "ausschau": {
+    "lemma": "Ausschau",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "lookout; Ausschau halten = to be on the lookout for",
+    "ur": "talaash; Ausschau halten = dhoondna",
+    "ex": {
+      "de": "Wonach halten Sie heute Ausschau?",
+      "en": "What are you on the lookout for today?",
+      "ur": "Aaj aap kya dhoondh rahi hain?"
+    }
+  },
+  "brandt": {
+    "lemma": "Brandt",
+    "pos": "Familienname",
+    "en": "Brandt — the market-stall vendor in these conversations",
+    "ur": "Brandt — in guftagu mein stall wala",
+    "ex": {
+      "de": "Guten Tag, Herr Brandt!",
+      "en": "Hello, Mr Brandt!",
+      "ur": "Salam, Herr Brandt!"
+    }
+  },
+  "bio": {
+    "lemma": "Bio",
+    "pos": "Adjektiv",
+    "en": "organic (indeclinable, also used as a prefix: Bio-Siegel, Bio-Gemüse)",
+    "ur": "organic / bio",
+    "ex": {
+      "de": "Sind sie auch Bio?",
+      "en": "Are they also organic?",
+      "ur": "Kya yeh bio bhi hain?"
+    }
+  },
+  "reif": {
+    "lemma": "reif",
+    "pos": "Adjektiv",
+    "forms": [
+      "reifen",
+      "reifer",
+      "reifes",
+      "reife",
+      "reiferen"
+    ],
+    "en": "ripe",
+    "ur": "pakka hua",
+    "ex": {
+      "de": "Ja, die sind schön reif und süß.",
+      "en": "Yes, they are nicely ripe and sweet.",
+      "ur": "Ji haan, yeh acche pakke aur meethay hain."
+    }
+  },
+  "würzig": {
+    "lemma": "würzig",
+    "pos": "Adjektiv",
+    "forms": [
+      "würziger",
+      "würzigem"
+    ],
+    "en": "spicy / savoury",
+    "ur": "tez zaiqa",
+    "ex": {
+      "de": "Der Ziegenkäse ist etwas würziger.",
+      "en": "The goat's cheese is a bit spicier.",
+      "ur": "Bakri ka cheese thora tez zaiqe wala hai."
+    }
+  },
+  "eingelegt": {
+    "lemma": "eingelegt",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "eingelegten"
+    ],
+    "en": "marinated / pickled",
+    "ur": "masaledaar",
+    "ex": {
+      "de": "Sind die Oliven eingelegt?",
+      "en": "Are the olives marinated?",
+      "ur": "Kya zaitoon masaledaar hain?"
+    }
+  },
+  "regional": {
+    "lemma": "regional",
+    "pos": "Adjektiv",
+    "forms": [
+      "regionale"
+    ],
+    "en": "regional / local",
+    "ur": "isi ilaqe ka",
+    "ex": {
+      "de": "Sind die Kartoffeln auch regional?",
+      "en": "Are the potatoes also regional?",
+      "ur": "Kya aloo bhi isi ilaqe ke hain?"
+    }
+  },
+  "zertifiziert": {
+    "lemma": "zertifiziert",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "zertifizierte"
+    ],
+    "en": "certified",
+    "ur": "certified",
+    "ur_note": "",
+    "ex": {
+      "de": "Der Hof ist seit Jahren zertifiziert.",
+      "en": "The farm has been certified for years.",
+      "ur": "Farm kai saalon se certified hai."
+    }
+  },
+  "spontan": {
+    "lemma": "spontan",
+    "pos": "Adjektiv",
+    "forms": [
+      "spontanen"
+    ],
+    "en": "spontaneous / on a whim",
+    "ur": "achanak / foran",
+    "ex": {
+      "de": "Ich nehme die Kiste spontan mit.",
+      "en": "I'll take the box on a whim.",
+      "ur": "Main foran peti le leti hoon."
+    }
+  },
+  "gemischt": {
+    "lemma": "gemischt",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "gemischte",
+      "gemischtem"
+    ],
+    "en": "mixed",
+    "ur": "mila jula",
+    "ex": {
+      "de": "Hier ist alles gemischt drin.",
+      "en": "It's all mixed together in here.",
+      "ur": "Is mein sab kuch mila hua hai."
+    }
+  },
+  "intensiv": {
+    "lemma": "intensiv",
+    "pos": "Adjektiv",
+    "forms": [
+      "intensiver"
+    ],
+    "en": "intense",
+    "ur": "tez",
+    "ex": {
+      "de": "Deshalb schmecken sie so intensiv.",
+      "en": "That's why they taste so intense.",
+      "ur": "Isi liye zaiqa itna tez hai."
+    }
+  },
+  "lecker": {
+    "lemma": "lecker",
+    "pos": "Adjektiv",
+    "en": "delicious / tasty",
+    "ur": "lazeez",
+    "ex": {
+      "de": "Wirklich lecker.",
+      "en": "Really delicious.",
+      "ur": "Waqai lazeez."
+    }
+  },
+  "aromatisch": {
+    "lemma": "aromatisch",
+    "pos": "Adjektiv",
+    "en": "aromatic / full of flavour",
+    "ur": "khushbudaar",
+    "ex": {
+      "de": "Sie schmecken sehr aromatisch.",
+      "en": "They taste very aromatic.",
+      "ur": "In ka zaiqa bohat khushbudaar hai."
+    }
+  },
+  "saftig": {
+    "lemma": "saftig",
+    "pos": "Adjektiv",
+    "en": "juicy",
+    "ur": "ras bhara",
+    "ex": {
+      "de": "Der ist wirklich süß und saftig.",
+      "en": "That's really sweet and juicy.",
+      "ur": "Yeh waqai meetha aur ras bhara hai."
+    }
+  },
+  "beliebt": {
+    "lemma": "beliebt",
+    "pos": "Adjektiv / Partizip",
+    "en": "popular",
+    "ur": "pasandeeda",
+    "ex": {
+      "de": "Der ist bei uns sehr beliebt.",
+      "en": "It's very popular with us.",
+      "ur": "Yeh hamare paas bohat pasandeeda hai."
+    }
+  },
+  "cremig": {
+    "lemma": "cremig",
+    "pos": "Adjektiv",
+    "en": "creamy",
+    "ur": "malaidaar",
+    "ex": {
+      "de": "Er ist mild und cremig.",
+      "en": "It's mild and creamy.",
+      "ur": "Yeh halka aur malaidaar hai."
+    }
+  },
+  "konventionell": {
+    "lemma": "konventionell",
+    "pos": "Adjektiv",
+    "en": "conventional (not organic)",
+    "ur": "conventional (bio nahi)",
+    "ex": {
+      "de": "Nur die Zwiebeln sind noch konventionell.",
+      "en": "Only the onions are still conventional.",
+      "ur": "Sirf pyaz abhi bhi conventional hain."
+    }
+  },
+  "finanziell": {
+    "lemma": "finanziell",
+    "pos": "Adjektiv",
+    "en": "financial / financially",
+    "ur": "maali tor par",
+    "ex": {
+      "de": "Auch wenn es finanziell nicht viel bringt.",
+      "en": "Even if it doesn't bring in much financially.",
+      "ur": "Chahe maali tor par zyada faida na ho."
+    }
+  },
+  "hervorragend": {
+    "lemma": "hervorragend",
+    "pos": "Adjektiv",
+    "en": "excellent / outstanding",
+    "ur": "behtareen",
+    "ex": {
+      "de": "Das passt bestimmt hervorragend zum Käse.",
+      "en": "That surely goes excellently with the cheese.",
+      "ur": "Yeh zaroor cheese ke saath khoob lagega."
+    }
+  },
+  "kühl": {
+    "lemma": "kühl",
+    "pos": "Adjektiv",
+    "forms": [
+      "kühlen"
+    ],
+    "en": "cool",
+    "ur": "thandi",
+    "ex": {
+      "de": "Kühl und dunkel, dann halten sie länger.",
+      "en": "Cool and dark, then they last longer.",
+      "ur": "Thandi aur andheri jagah, phir zyada der tak theek rahengi."
+    }
+  },
+  "dunkel": {
+    "lemma": "dunkel",
+    "pos": "Adjektiv",
+    "en": "dark",
+    "ur": "andheri",
+    "ex": {
+      "de": "Kühl und dunkel lagern.",
+      "en": "Store cool and dark.",
+      "ur": "Thandi aur andheri jagah rakhein."
+    }
+  },
+  "toll": {
+    "lemma": "toll",
+    "pos": "Adjektiv",
+    "en": "great / cool (informal)",
+    "ur": "zabardast",
+    "ex": {
+      "de": "Toll, was hat gerade sonst noch Saison?",
+      "en": "Great, what else is in season right now?",
+      "ur": "Zabardast, aur kya mausam mein hai?"
+    }
+  },
+  "frischen": {
+    "lemma": "frisch",
+    "pos": "Form von frisch",
+    "en": "fresh (inflected form, e.g. mit frischen Kräutern)",
+    "ur": "taaza (form)",
+    "ex": {
+      "de": "Mit Öl und frischen Kräutern.",
+      "en": "With oil and fresh herbs.",
+      "ur": "Tel aur taaza jari-booti ke saath."
+    }
+  },
+  "dünnen": {
+    "lemma": "dünn",
+    "pos": "Form von dünn",
+    "en": "thin (inflected form, e.g. die mit der dünnen Schale)",
+    "ur": "patla (form)",
+    "ex": {
+      "de": "Die mit der dünnen Schale?",
+      "en": "The ones with the thin skin?",
+      "ur": "Jin ka chilka patla hai?"
+    }
+  },
+  "kräftiger": {
+    "lemma": "kräftig",
+    "pos": "Adjektiv",
+    "forms": [
+      "kräftigen"
+    ],
+    "en": "strong / robust (in taste)",
+    "ur": "tez / mazboot",
+    "ex": {
+      "de": "Sie schmeckt kräftiger als die kleineren.",
+      "en": "It tastes stronger than the smaller ones.",
+      "ur": "Iska zaiqa chhoton se zyada tez hai."
+    }
+  },
+  "milderen": {
+    "lemma": "mild",
+    "pos": "Form von mild",
+    "en": "milder (inflected form)",
+    "ur": "halka (form)",
+    "ex": {
+      "de": "Ich würde etwas milderen Schafskäse dazunehmen.",
+      "en": "I would also add some milder sheep's cheese.",
+      "ur": "Main thora halka bhed wala cheese bhi le loonga."
+    }
+  },
+  "mildem": {
+    "lemma": "mild",
+    "pos": "Form von mild",
+    "en": "mild (inflected form, dative)",
+    "ur": "halka (form)",
+    "ex": {
+      "de": "Eine Mischung aus mildem und würzigem Käse.",
+      "en": "A mix of mild and spicy cheese.",
+      "ur": "Halke aur tez cheese ka mix."
+    }
+  },
+  "besonderes": {
+    "lemma": "besonders",
+    "pos": "Form von besonders",
+    "forms": [
+      "besonderen"
+    ],
+    "en": "something special (etwas Besonderes)",
+    "ur": "kuch khaas cheez",
+    "ex": {
+      "de": "Am liebsten etwas Besonderes.",
+      "en": "I'd prefer something special.",
+      "ur": "Sab se zyada kuch khaas cheez."
+    }
+  },
+  "normale": {
+    "lemma": "normal",
+    "pos": "Form von normal",
+    "en": "normal (inflected form)",
+    "ur": "aam (form)",
+    "ex": {
+      "de": "Ist das Bio-Gemüse teurer als das normale?",
+      "en": "Is the organic vegetable more expensive than the normal one?",
+      "ur": "Kya bio sabzi aam sabzi se mehngi hai?"
+    }
+  },
+  "einfaches": {
+    "lemma": "einfach",
+    "pos": "Form von einfach",
+    "en": "simple (inflected form)",
+    "ur": "sada (form)",
+    "ex": {
+      "de": "Am besten ein einfaches Brot.",
+      "en": "Best is a simple bread.",
+      "ur": "Sab se acha sada bread hai."
+    }
+  },
+  "härteren": {
+    "lemma": "hart",
+    "pos": "Form von hart",
+    "forms": [
+      "härtere"
+    ],
+    "en": "harder (comparative, inflected)",
+    "ur": "sakht (comparative)",
+    "ex": {
+      "de": "Für später die etwas härteren.",
+      "en": "For later the slightly harder ones.",
+      "ur": "Baad ke liye thore sakht wale."
+    }
+  },
+  "nützlichen": {
+    "lemma": "nützlich",
+    "pos": "Form von nützlich",
+    "en": "useful (inflected form)",
+    "ur": "kaam ka (form)",
+    "ex": {
+      "de": "Vielen Dank für den nützlichen Tipp.",
+      "en": "Thank you very much for the useful tip.",
+      "ur": "Is kaam ke mashware ka bohat shukriya."
+    }
+  },
+  "frühere": {
+    "lemma": "früh",
+    "pos": "Form von früh",
+    "en": "earlier (inflected, e.g. eine frühere Saison)",
+    "ur": "pehle wala (form)",
+    "ex": {
+      "de": "Wir haben dieses Jahr eine frühere Saison.",
+      "en": "We have an earlier season this year.",
+      "ur": "Is saal humara mausam pehle shuru hua."
+    }
+  },
+  "trockener": {
+    "lemma": "trocken",
+    "pos": "Form von trocken",
+    "en": "drier (comparative)",
+    "ur": "khushk (comparative)",
+    "ex": {
+      "de": "Der Sommer war trockener.",
+      "en": "The summer was drier.",
+      "ur": "Garmi khushk thi."
+    }
+  },
+  "üblichen": {
+    "lemma": "üblich",
+    "pos": "Form von üblich",
+    "en": "usual (inflected form)",
+    "ur": "aam / arsi (form)",
+    "ex": {
+      "de": "Möchten Sie Ihren üblichen Korb zusammenstellen?",
+      "en": "Would you like to put together your usual basket?",
+      "ur": "Kya apna arsi tokra tayyar karengi?"
+    }
+  },
+  "unabhängigen": {
+    "lemma": "unabhängig",
+    "pos": "Form von unabhängig",
+    "en": "independent (inflected form)",
+    "ur": "azaad (form)",
+    "ex": {
+      "de": "Von einer unabhängigen Stelle kontrolliert.",
+      "en": "Inspected by an independent body.",
+      "ur": "Ek azaad idara muaina karta hai."
+    }
+  },
+  "näheren": {
+    "lemma": "nah",
+    "pos": "Form von nah",
+    "en": "closer / nearer (inflected form)",
+    "ur": "qareeb (form)",
+    "ex": {
+      "de": "Höfe aus der näheren Umgebung.",
+      "en": "Farms from the closer surrounding area.",
+      "ur": "Aas paas ke farms."
+    }
+  },
+  "teurer": {
+    "lemma": "teuer",
+    "pos": "Form von teuer",
+    "en": "more expensive (comparative)",
+    "ur": "zyada mehnga (comparative)",
+    "ex": {
+      "de": "Etwas teurer, aber besser in der Qualität.",
+      "en": "A bit more expensive, but better in quality.",
+      "ur": "Thori mehngi, lekin quality mein behtar."
+    }
+  },
+  "fairer": {
+    "lemma": "fair",
+    "pos": "Form von fair",
+    "en": "fairer / fair (inflected form)",
+    "ur": "munasib (form)",
+    "ex": {
+      "de": "Das ist wirklich ein fairer Preis.",
+      "en": "That's really a fair price.",
+      "ur": "Yeh waqai munasib qeemat hai."
+    }
+  },
+  "seinen": {
+    "lemma": "sein",
+    "pos": "Possessiv (Form)",
+    "en": "his / its (inflected possessive)",
+    "ur": "uska (form)",
+    "ex": {
+      "de": "Dadurch bekommt er seinen kräftigen Geschmack.",
+      "en": "That gives it its strong flavour.",
+      "ur": "Isi se iska tez zaiqa aata hai."
+    }
+  },
+  "desto": {
+    "lemma": "desto",
+    "pos": "Partikel",
+    "en": "je ... desto = the ... the (comparative construction)",
+    "ur": "jitna ... utna",
+    "ex": {
+      "de": "Je frischer sie sind, desto süßer schmecken sie.",
+      "en": "The fresher they are, the sweeter they taste.",
+      "ur": "Jitni taaza hongi, utni hi meethi lagengi."
+    }
+  },
+  "womit": {
+    "lemma": "womit",
+    "pos": "Fragewort",
+    "en": "with what",
+    "ur": "kis cheez se",
+    "ex": {
+      "de": "Womit kann ich Ihnen helfen?",
+      "en": "What can I help you with?",
+      "ur": "Main aap ki kya madad karoon?"
+    }
+  },
+  "wohl": {
+    "lemma": "wohl",
+    "pos": "Partikel",
+    "en": "probably / I suppose (modal particle)",
+    "ur": "shayad",
+    "ex": {
+      "de": "Sie kaufen heute wohl etwas mehr als sonst?",
+      "en": "Are you buying a bit more than usual today?",
+      "ur": "Aaj shayad aap arsen se zyada khareed rahi hain?"
+    }
+  },
+  "drin": {
+    "lemma": "drin",
+    "pos": "Adverb",
+    "en": "in it / inside (colloquial for darin)",
+    "ur": "iske andar (bol chaal)",
+    "ex": {
+      "de": "Was ist denn alles drin?",
+      "en": "What's all in it, then?",
+      "ur": "Isme kya kya hai?"
+    }
+  },
+  "wenigstens": {
+    "lemma": "wenigstens",
+    "pos": "Adverb",
+    "en": "at least",
+    "ur": "kam az kam",
+    "ex": {
+      "de": "So landet wenigstens nichts im Müll.",
+      "en": "This way at least nothing ends up in the trash.",
+      "ur": "Is tarah kam az kam kuch kooray mein nahi jayega."
+    }
+  },
+  "zugleich": {
+    "lemma": "zugleich",
+    "pos": "Adverb",
+    "en": "at the same time",
+    "ur": "dono saath saath",
+    "ex": {
+      "de": "Er ist frisch und würzig zugleich.",
+      "en": "It's fresh and spicy at the same time.",
+      "ur": "Yeh taaza aur tez dono hai."
+    }
+  },
+  "heimlich": {
+    "lemma": "heimlich",
+    "pos": "Adjektiv / Adverb",
+    "en": "secretly",
+    "ur": "chupke se",
+    "ex": {
+      "de": "Dass wirklich niemand heimlich Spritzmittel verwendet.",
+      "en": "That really nobody secretly uses pesticides.",
+      "ur": "Koi chupke se spray istemal na kare."
+    }
+  },
+  "manches": {
+    "lemma": "manch",
+    "pos": "Pronomen",
+    "forms": [
+      "manches"
+    ],
+    "en": "some / many a",
+    "ur": "kuch",
+    "ex": {
+      "de": "Manches Bio-Gemüse kommt von weiter weg.",
+      "en": "Some organic vegetables come from further away.",
+      "ur": "Kuch bio sabzi door se bhi aati hai."
+    }
+  },
+  "meiste": {
+    "lemma": "meiste",
+    "pos": "Adjektiv / Pronomen",
+    "en": "most",
+    "ur": "zyada tar",
+    "ex": {
+      "de": "Das meiste stammt von einem Bauernhof.",
+      "en": "Most of it comes from a farm.",
+      "ur": "Zyada tar ek farm se aata hai."
+    }
+  },
+  "mmh": {
+    "lemma": "mmh",
+    "pos": "Interjektion",
+    "en": "mmh (sound of enjoying food)",
+    "ur": "mmh (khane ka maza lete waqt awaaz)",
+    "ex": {
+      "de": "Mmh, der ist mild und lecker.",
+      "en": "Mmh, that's mild and delicious.",
+      "ur": "Mmh, yeh halka aur lazeez hai."
+    }
+  },
+  "schmecken": {
+    "lemma": "schmecken",
+    "pos": "Verb",
+    "aux": "schmeckt / hat geschmeckt",
+    "forms": [
+      "schmeckt"
+    ],
+    "en": "to taste",
+    "ur": "zaiqa hona",
+    "ex": {
+      "de": "Der schmeckt wirklich gut.",
+      "en": "That tastes really good.",
+      "ur": "Iska zaiqa waqai acha hai."
+    }
+  },
+  "duften": {
+    "lemma": "duften",
+    "pos": "Verb",
+    "aux": "duftet / hat geduftet",
+    "forms": [
+      "duftet"
+    ],
+    "en": "to smell nice / have a scent",
+    "ur": "khushbu dena",
+    "ex": {
+      "de": "Sie duften stark.",
+      "en": "They have a strong scent.",
+      "ur": "Inki khushbu tez hai."
+    }
+  },
+  "riechen": {
+    "lemma": "riechen",
+    "pos": "Verb",
+    "aux": "riecht / hat gerochen",
+    "forms": [
+      "riecht"
+    ],
+    "en": "to smell",
+    "ur": "soonghna",
+    "ex": {
+      "de": "Riechen Sie mal.",
+      "en": "Smell them.",
+      "ur": "Songhein zara."
+    }
+  },
+  "ernten": {
+    "lemma": "ernten",
+    "pos": "Verb",
+    "aux": "erntet / hat geerntet",
+    "forms": [
+      "geerntet"
+    ],
+    "en": "to harvest / pick",
+    "ur": "torna / katai karna",
+    "ex": {
+      "de": "Wann wurden die Erdbeeren geerntet?",
+      "en": "When were the strawberries picked?",
+      "ur": "Strawberry kab tori gayi thi?"
+    }
+  },
+  "anbauen": {
+    "lemma": "anbauen",
+    "pos": "Verb",
+    "aux": "baut an / hat angebaut",
+    "forms": [
+      "angebaut"
+    ],
+    "en": "to grow / cultivate",
+    "ur": "ugana",
+    "ex": {
+      "de": "Wird das ohne Spritzmittel angebaut?",
+      "en": "Is that grown without pesticides?",
+      "ur": "Kya yeh bina spray ke ugaya jata hai?"
+    }
+  },
+  "verschenken": {
+    "lemma": "verschenken",
+    "pos": "Verb",
+    "aux": "verschenkt / hat verschenkt",
+    "forms": [
+      "verschenke"
+    ],
+    "en": "to give away for free",
+    "ur": "muft dena",
+    "ex": {
+      "de": "Ich verschenke auch ein paar Zwiebeln.",
+      "en": "I'm also giving away a few onions.",
+      "ur": "Kuch pyaz bhi muft de raha hoon."
+    }
+  },
+  "stammen": {
+    "lemma": "stammen",
+    "pos": "Verb",
+    "aux": "stammt / hat gestammt",
+    "forms": [
+      "stammt"
+    ],
+    "en": "to come from / originate",
+    "ur": "se aana / taaluq rakhna",
+    "ex": {
+      "de": "Der stammt von einem kleinen Hof.",
+      "en": "It comes from a small farm.",
+      "ur": "Yeh ek chhote farm se aata hai."
+    }
+  },
+  "erkenne": {
+    "lemma": "erkennen",
+    "pos": "Form von erkennen",
+    "en": "I recognise (first-person form)",
+    "ur": "pehchanta/pehchanti hoon",
+    "ex": {
+      "de": "Woran erkenne ich, dass er reif ist?",
+      "en": "How do I recognise that it's ripe?",
+      "ur": "Mujhe kaise pata chalega ke yeh pakka hai?"
+    }
+  },
+  "nachgeben": {
+    "lemma": "nachgeben",
+    "pos": "Verb",
+    "aux": "gibt nach / hat nachgegeben",
+    "en": "to give / yield (when pressed)",
+    "ur": "dab jana",
+    "ex": {
+      "de": "Er sollte leicht nachgeben, wenn man ihn drückt.",
+      "en": "It should give slightly when you press it.",
+      "ur": "Jab dabayein to thora dab jana chahiye."
+    }
+  },
+  "dazugeben": {
+    "lemma": "dazugeben",
+    "pos": "Verb",
+    "aux": "gibt dazu / hat dazugegeben",
+    "en": "to add / throw in extra",
+    "ur": "saath mein de dena",
+    "ex": {
+      "de": "Soll ich Ihnen noch ein paar Kräuter dazugeben?",
+      "en": "Shall I add a few herbs for you?",
+      "ur": "Kya kuch jari-booti bhi saath de doon?"
+    }
+  },
+  "dazunehmen": {
+    "lemma": "dazunehmen",
+    "pos": "Verb",
+    "aux": "nimmt dazu / hat dazugenommen",
+    "en": "to add / take in addition",
+    "ur": "saath mein le lena",
+    "ex": {
+      "de": "Ich würde etwas milderen Schafskäse dazunehmen.",
+      "en": "I would also add some milder sheep's cheese.",
+      "ur": "Main thora halka bhed wala cheese bhi le loonga."
+    }
+  },
+  "landen": {
+    "lemma": "landen",
+    "pos": "Verb",
+    "aux": "landet / ist gelandet",
+    "forms": [
+      "landet"
+    ],
+    "en": "to end up / land",
+    "ur": "pohanchna / jana",
+    "ex": {
+      "de": "So landet wenigstens nichts im Müll.",
+      "en": "This way at least nothing ends up in the trash.",
+      "ur": "Is tarah kam az kam kuch kooray mein nahi jayega."
+    }
+  },
+  "verschwenden": {
+    "lemma": "verschwenden",
+    "pos": "Verb",
+    "aux": "verschwendet / hat verschwendet",
+    "forms": [
+      "verschwendet"
+    ],
+    "en": "to waste",
+    "ur": "zaya karna",
+    "ex": {
+      "de": "Ich mag es nicht, wenn Lebensmittel verschwendet werden.",
+      "en": "I don't like it when food is wasted.",
+      "ur": "Mujhe pasand nahi jab khane ki cheezein zaya hoti hain."
+    }
+  },
+  "unterstützen": {
+    "lemma": "unterstützen",
+    "pos": "Verb",
+    "aux": "unterstützt / hat unterstützt",
+    "en": "to support",
+    "ur": "madad karna",
+    "ex": {
+      "de": "So unterstützen Sie auch die kleinen Höfe.",
+      "en": "That way you also support the small farms.",
+      "ur": "Is tarah aap chhote farms ki bhi madad karti hain."
+    }
+  },
+  "erfahren": {
+    "lemma": "erfahren",
+    "pos": "Verb",
+    "aux": "erfährt / hat erfahren",
+    "en": "to find out / learn about",
+    "ur": "jan-na / pata karna",
+    "ex": {
+      "de": "Ich wollte mehr über das Siegel erfahren.",
+      "en": "I wanted to find out more about the seal.",
+      "ur": "Main mohar ke baare mein aur jan-na chahti thi."
+    }
+  },
+  "verwenden": {
+    "lemma": "verwenden",
+    "pos": "Verb",
+    "aux": "verwendet / hat verwendet",
+    "forms": [
+      "verwendet"
+    ],
+    "en": "to use",
+    "ur": "istemal karna",
+    "ex": {
+      "de": "Dass wirklich niemand heimlich Spritzmittel verwendet.",
+      "en": "That really nobody secretly uses pesticides.",
+      "ur": "Koi chupke se spray istemal na kare."
+    }
+  },
+  "reisen": {
+    "lemma": "reisen",
+    "pos": "Verb",
+    "aux": "reist / ist gereist",
+    "forms": [
+      "reist"
+    ],
+    "en": "to travel",
+    "ur": "safar karna",
+    "ex": {
+      "de": "Wie weit manches Gemüse sonst reist.",
+      "en": "How far some vegetables otherwise travel.",
+      "ur": "Warna sabzi kitni door se safar karti hai."
+    }
+  },
+  "retten": {
+    "lemma": "retten",
+    "pos": "Verb",
+    "aux": "rettet / hat gerettet",
+    "en": "to save / rescue",
+    "ur": "bachana",
+    "ex": {
+      "de": "Besonders wenn es hilft, Lebensmittel zu retten.",
+      "en": "Especially when it helps save food.",
+      "ur": "Khaas kar jab yeh khana bachane mein madad kare."
+    }
+  },
+  "vorbeischauen": {
+    "lemma": "vorbeischauen",
+    "pos": "Verb",
+    "aux": "schaut vorbei / hat vorbeigeschaut",
+    "en": "to stop by / drop in",
+    "ur": "chakkar lagana",
+    "ex": {
+      "de": "Sie schauen regelmäßig am Ende des Tages vorbei.",
+      "en": "You regularly stop by at the end of the day.",
+      "ur": "Aap baqaidgi se din ke aakhir mein aati hain."
+    }
+  },
+  "zusammenstellen": {
+    "lemma": "zusammenstellen",
+    "pos": "Verb",
+    "aux": "stellt zusammen / hat zusammengestellt",
+    "en": "to put together / assemble",
+    "ur": "tayyar karna",
+    "ex": {
+      "de": "Möchten Sie Ihren üblichen Korb zusammenstellen?",
+      "en": "Would you like to put together your usual basket?",
+      "ur": "Kya apna arsi tokra tayyar karengi?"
+    }
+  },
+  "schälen": {
+    "lemma": "schälen",
+    "pos": "Verb",
+    "aux": "schält / hat geschält",
+    "en": "to peel",
+    "ur": "chhilna",
+    "ex": {
+      "de": "Die lassen sich schnell schälen.",
+      "en": "Those peel quickly.",
+      "ur": "Yeh jaldi chhilte hain."
+    }
+  },
+  "empfohlen": {
+    "lemma": "empfehlen",
+    "pos": "Form von empfehlen",
+    "en": "recommended (past participle)",
+    "ur": "tajweez kiya hua",
+    "ex": {
+      "de": "Die Kartoffeln, die Sie mir empfohlen haben.",
+      "en": "The potatoes you recommended to me.",
+      "ur": "Aloo jo aap ne tajweez kiye thay."
+    }
+  },
+  "herstellen": {
+    "lemma": "herstellen",
+    "pos": "Verb",
+    "aux": "stellt her / hat hergestellt",
+    "forms": [
+      "hergestellt"
+    ],
+    "en": "to make / produce",
+    "ur": "banana",
+    "ex": {
+      "de": "Wie wird der Ziegenkäse hergestellt?",
+      "en": "How is the goat's cheese made?",
+      "ur": "Bakri ka cheese kaise banaya jata hai?"
+    }
+  },
+  "reift": {
+    "lemma": "reifen",
+    "pos": "Form von reifen",
+    "en": "ripens / matures (verb, third person)",
+    "ur": "pakta hai",
+    "ex": {
+      "de": "Er reift mehrere Wochen im Keller.",
+      "en": "It matures for several weeks in the cellar.",
+      "ur": "Yeh kai hafte tehkhane mein pakta hai."
+    }
+  },
+  "lagern": {
+    "lemma": "lagern",
+    "pos": "Verb",
+    "aux": "lagert / hat gelagert",
+    "forms": [
+      "lagere"
+    ],
+    "en": "to store",
+    "ur": "rakhna / store karna",
+    "ex": {
+      "de": "Wie lagere ich sie am besten?",
+      "en": "How do I best store them?",
+      "ur": "Main unhein behtareen tareeqe se kaise rakhoon?"
+    }
+  },
+  "mische": {
+    "lemma": "mischen",
+    "pos": "Form von mischen",
+    "en": "I mix (first-person form)",
+    "ur": "milata/milati hoon",
+    "ex": {
+      "de": "Dann mische ich Ihnen reife und härtere Früchte.",
+      "en": "Then I'll mix you ripe and harder fruit.",
+      "ur": "To phir main aap ko pakke aur sakht phal mila deta hoon."
+    }
+  },
+  "spare": {
+    "lemma": "sparen",
+    "pos": "Form von sparen",
+    "en": "I save (first-person form)",
+    "ur": "bachata/bachati hoon",
+    "ex": {
+      "de": "So spare ich heute viel Geld.",
+      "en": "That way I save a lot of money today.",
+      "ur": "Is tarah aaj bohat paise bachte hain."
+    }
+  },
+  "kamen": {
+    "lemma": "kommen",
+    "pos": "Form von kommen",
+    "en": "came (plural past tense)",
+    "ur": "aaye (jama, guzashta)",
+    "ex": {
+      "de": "Die kamen heute früh vom Feld.",
+      "en": "They came from the field early this morning.",
+      "ur": "Yeh aaj subh khet se aayi hain."
+    }
+  },
+  "dürften": {
+    "lemma": "dürfen",
+    "pos": "Form von dürfen",
+    "en": "might / would be allowed to (subjunctive plural)",
+    "ur": "shayad ijazat ho (form)",
+    "ex": {
+      "de": "In etwa einer Woche dürften sie perfekt sein.",
+      "en": "In about a week they should be perfect.",
+      "ur": "Taqreeban ek hafte mein yeh bilkul theek ho jayenge."
+    }
+  },
+  "dürfte": {
+    "lemma": "dürfen",
+    "pos": "Form von dürfen",
+    "en": "might / would be allowed to (subjunctive singular)",
+    "ur": "shayad ijazat ho (form)",
+    "ex": {
+      "de": "Dürfte ich Ihnen heute etwas mehr abnehmen?",
+      "en": "Might I take a bit more off your hands today?",
+      "ur": "Kya main aaj thora zyada le loon?"
+    }
+  },
+  "wünsche": {
+    "lemma": "wünschen",
+    "pos": "Form von wünschen",
+    "en": "I wish (first-person form)",
+    "ur": "khwahish karta/karti hoon",
+    "ex": {
+      "de": "Dann wünsche ich Ihnen einen schönen Tag.",
+      "en": "Then I wish you a nice day.",
+      "ur": "To phir acha din guzare, meri dua hai."
+    }
+  },
+  "gefällt": {
+    "lemma": "gefallen",
+    "pos": "Verb (Form)",
+    "en": "pleases / is liked (mir gefällt = I like)",
+    "ur": "pasand aana",
+    "ex": {
+      "de": "Der gefällt mir sogar noch besser.",
+      "en": "I even like that one better.",
+      "ur": "Yeh mujhe aur bhi zyada pasand hai."
+    }
+  },
+  "richte": {
+    "lemma": "ausrichten",
+    "pos": "Form von ausrichten",
+    "en": "I put together / organise (first-person form, ich richte ... aus)",
+    "ur": "intezaam karta/karti hoon",
+    "ex": {
+      "de": "Ich richte heute Abend ein kleines Büfett aus.",
+      "en": "I'm putting together a small buffet this evening.",
+      "ur": "Main aaj raat chota buffet laga rahi hoon."
+    }
+  },
+  "elf": {
+    "lemma": "elf",
+    "pos": "Zahl",
+    "en": "eleven",
+    "ur": "gyarah",
+    "ex": {
+      "de": "Das macht elf Euro fünfzig.",
+      "en": "That comes to eleven euros fifty.",
+      "ur": "Yeh gyarah euro pachaas cent bante hain."
+    }
+  },
+  "gramm": {
+    "lemma": "Gramm",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "gram(s)",
+    "ur": "gram",
+    "ex": {
+      "de": "Ich nehme fünfhundert Gramm Kirschen.",
+      "en": "I'll take five hundred grams of cherries.",
+      "ur": "Main paanch sau gram cherries loongi."
+    }
+  },
+  "unsere": {
+    "lemma": "unser",
+    "pos": "Possessivpronomen",
+    "forms": [
+      "unseren",
+      "unserem",
+      "unseres"
+    ],
+    "en": "our",
+    "ur": "hamara/hamari",
+    "ex": {
+      "de": "Das ist unsere Lieblingssorte.",
+      "en": "That is our favourite kind.",
+      "ur": "Yeh hamari pasandeeda qisam hai."
+    }
+  },
+  "unseren": {
+    "lemma": "unser",
+    "pos": "Possessivpronomen",
+    "en": "our (accusative/dative)",
+    "ur": "hamara/hamari",
+    "ex": {
+      "de": "Wir holen unseren Käse hier.",
+      "en": "We get our cheese here.",
+      "ur": "Hum apna cheese yahan se lete hain."
+    }
+  },
+  "frischer": {
+    "lemma": "frisch",
+    "pos": "Adjektiv",
+    "en": "fresher / fresh (inflected)",
+    "ur": "zyada taaza",
+    "ex": {
+      "de": "Dieses Gemüse ist frischer als das andere.",
+      "en": "This vegetable is fresher than the other one.",
+      "ur": "Yeh sabzi doosri se zyada taaza hai."
+    }
+  },
+  "süßes": {
+    "lemma": "süß",
+    "pos": "Adjektiv",
+    "en": "sweet (inflected)",
+    "ur": "meetha",
+    "ex": {
+      "de": "Ich suche etwas Süßes für die Kinder.",
+      "en": "I'm looking for something sweet for the kids.",
+      "ur": "Mujhe bachon ke liye kuch meetha chahiye."
+    }
+  },
+  "aufwendig": {
+    "lemma": "aufwendig",
+    "pos": "Adjektiv",
+    "en": "elaborate / effortful",
+    "ur": "mehnat talab",
+    "ex": {
+      "de": "Der Anbau von Bio-Gemüse ist aufwendiger.",
+      "en": "Growing organic vegetables is more elaborate.",
+      "ur": "Organic sabziyan ugana zyada mehnat talab hai."
+    }
+  }
+}

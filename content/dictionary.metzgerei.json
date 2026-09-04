@@ -1,0 +1,2274 @@
+{
+  "rinderhack": {
+    "lemma": "Rinderhack",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "beef mince",
+    "ur": "beef mince",
+    "ex": {
+      "de": "Ich hätte gern fünfhundert Gramm Rinderhack.",
+      "en": "I would like five hundred grams of beef mince.",
+      "ur": "Mujhe paanch sau gram beef mince chahiye."
+    }
+  },
+  "halal": {
+    "lemma": "halal",
+    "pos": "Adjektiv",
+    "en": "halal",
+    "ur": "halal",
+    "ex": {
+      "de": "Ist das Fleisch halal zertifiziert?",
+      "en": "Is the meat halal-certified?",
+      "ur": "Kya gosht halal zertifiziert hai?"
+    }
+  },
+  "krause": {
+    "lemma": "Krause",
+    "pos": "Eigenname",
+    "en": "Krause (the butcher's surname)",
+    "ur": "Krause — qassab ka naam",
+    "ex": {
+      "de": "Metzgerei Krause, guten Tag.",
+      "en": "Krause's butcher shop, hello.",
+      "ur": "Krause ki dukan, salam."
+    }
+  },
+  "hähnchenbrust": {
+    "lemma": "Hähnchenbrust",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Hähnchenbrüste",
+    "en": "chicken breast",
+    "ur": "chicken breast",
+    "ex": {
+      "de": "Ich brauche zwei Hähnchenbrust für heute Abend.",
+      "en": "I need two chicken breasts for tonight.",
+      "ur": "Mujhe aaj raat ke liye do chicken breast chahiye."
+    }
+  },
+  "bratwurst": {
+    "lemma": "Bratwurst",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Bratwürste",
+    "en": "grilling sausage",
+    "ur": "bratwurst / sausage",
+    "ex": {
+      "de": "Wie viele Bratwürste brauchen wir fürs Grillfest?",
+      "en": "How many sausages do we need for the barbecue?",
+      "ur": "BBQ ke liye humein kitni sausages chahiye?"
+    }
+  },
+  "putenbrust": {
+    "lemma": "Putenbrust",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "turkey breast",
+    "ur": "turkey breast",
+    "ex": {
+      "de": "Haben Sie Putenbrust im Angebot?",
+      "en": "Do you have turkey breast on offer?",
+      "ur": "Kya aap ke paas turkey breast hai?"
+    }
+  },
+  "aufschnitt": {
+    "lemma": "Aufschnitt",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "cold cuts / deli meat",
+    "ur": "cold cuts",
+    "ex": {
+      "de": "Ich möchte Aufschnitt, bitte.",
+      "en": "I would like some cold cuts, please.",
+      "ur": "Mujhe aufschnitt chahiye, please."
+    }
+  },
+  "dick": {
+    "lemma": "dick",
+    "pos": "Adjektiv",
+    "en": "thick",
+    "ur": "mota",
+    "ex": {
+      "de": "Dünn geschnitten oder dick?",
+      "en": "Sliced thin or thick?",
+      "ur": "Patla kaata hua ya mota?"
+    }
+  },
+  "dicker": {
+    "lemma": "dick",
+    "pos": "Adjektiv",
+    "en": "thicker",
+    "ur": "zyada mota",
+    "ex": {
+      "de": "Schneiden Sie es bitte etwas dicker.",
+      "en": "Please cut it a bit thicker.",
+      "ur": "Please isay thora mota kaat dein."
+    }
+  },
+  "grillfest": {
+    "lemma": "Grillfest",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "barbecue party",
+    "ur": "BBQ party",
+    "ex": {
+      "de": "Wir brauchen Fleisch für unser Grillfest.",
+      "en": "We need meat for our barbecue.",
+      "ur": "Hamein apne BBQ ke liye gosht chahiye."
+    }
+  },
+  "spaß": {
+    "lemma": "Spaß",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "fun",
+    "ur": "maza",
+    "ex": {
+      "de": "Viel Spaß beim Grillfest!",
+      "en": "Have fun at the barbecue!",
+      "ur": "BBQ mein khoob maza karein!"
+    }
+  },
+  "gericht": {
+    "lemma": "Gericht",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Gerichte",
+    "en": "dish (food)",
+    "ur": "khana / dish",
+    "ex": {
+      "de": "Für welches Gericht brauchen Sie das Fleisch?",
+      "en": "What dish do you need the meat for?",
+      "ur": "Yeh gosht kis dish ke liye chahiye?"
+    }
+  },
+  "köfte": {
+    "lemma": "Köfte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "köfte (spiced meatballs)",
+    "ur": "köfte",
+    "ex": {
+      "de": "Ich mache heute Köfte.",
+      "en": "I'm making köfte today.",
+      "ur": "Aaj main köfte bana rahi hoon."
+    }
+  },
+  "zertifikat": {
+    "lemma": "Zertifikat",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Zertifikate",
+    "en": "certificate",
+    "ur": "certificate",
+    "ex": {
+      "de": "Haben Sie ein Zertifikat dafür?",
+      "en": "Do you have a certificate for that?",
+      "ur": "Kya iska koi certificate hai?"
+    }
+  },
+  "grillspieße": {
+    "lemma": "Grillspieß",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Grillspieße",
+    "en": "grill skewers",
+    "ur": "BBQ skewers",
+    "ex": {
+      "de": "Ich nehme auch ein paar Grillspieße.",
+      "en": "I'll also take a few skewers.",
+      "ur": "Main kuch skewers bhi loongi."
+    }
+  },
+  "verwechslung": {
+    "lemma": "Verwechslung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "mix-up",
+    "ur": "ghalat fehmi / mix-up",
+    "ex": {
+      "de": "Das war leider eine Verwechslung.",
+      "en": "Unfortunately that was a mix-up.",
+      "ur": "Yeh ek mix-up tha."
+    }
+  },
+  "hähnchenschinken": {
+    "lemma": "Hähnchenschinken",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "chicken ham",
+    "ur": "chicken ham",
+    "ex": {
+      "de": "Auch hundert Gramm Hähnchenschinken, bitte.",
+      "en": "Also a hundred grams of chicken ham, please.",
+      "ur": "Sau gram chicken ham bhi, please."
+    }
+  },
+  "mager": {
+    "lemma": "mager",
+    "pos": "Adjektiv",
+    "en": "lean (low-fat)",
+    "ur": "kam charbi wala",
+    "ex": {
+      "de": "Ich hätte gern etwas Mageres.",
+      "en": "I would like something lean.",
+      "ur": "Mujhe kam charbi wala chahiye."
+    }
+  },
+  "geflügelsalami": {
+    "lemma": "Geflügelsalami",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "poultry salami",
+    "ur": "poultry salami",
+    "ex": {
+      "de": "Die Geflügelsalami ist besonders mild.",
+      "en": "The poultry salami is especially mild.",
+      "ur": "Poultry salami khaas kar mild hai."
+    }
+  },
+  "gewürzt": {
+    "lemma": "würzen",
+    "pos": "Verb",
+    "en": "seasoned / spiced",
+    "ur": "masaledar",
+    "ex": {
+      "de": "Das ist leicht gewürzt.",
+      "en": "That is lightly seasoned.",
+      "ur": "Yeh halka masaledar hai."
+    }
+  },
+  "platte": {
+    "lemma": "Platte",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Platten",
+    "en": "platter",
+    "ur": "platter",
+    "ex": {
+      "de": "Wir machen eine Platte für die Gäste.",
+      "en": "We make a platter for the guests.",
+      "ur": "Hum mehmanon ke liye platter banate hain."
+    }
+  },
+  "hähnchenschenkel": {
+    "lemma": "Hähnchenschenkel",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "chicken thigh/leg",
+    "ur": "chicken thigh",
+    "ex": {
+      "de": "Sind die Hähnchenschenkel auch halal?",
+      "en": "Are the chicken thighs also halal?",
+      "ur": "Kya chicken thigh bhi halal hai?"
+    }
+  },
+  "hähnchen": {
+    "lemma": "Hähnchen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "chicken",
+    "ur": "chicken",
+    "ex": {
+      "de": "Wir kaufen ein ganzes Hähnchen.",
+      "en": "We buy a whole chicken.",
+      "ur": "Hum pura chicken khareedte hain."
+    }
+  },
+  "grillfleisch": {
+    "lemma": "Grillfleisch",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "meat for grilling",
+    "ur": "BBQ ka gosht",
+    "ex": {
+      "de": "Wir brauchen Grillfleisch für zehn Personen.",
+      "en": "We need grilling meat for ten people.",
+      "ur": "Humein das logon ke liye BBQ ka gosht chahiye."
+    }
+  },
+  "zweihundert": {
+    "lemma": "zweihundert",
+    "pos": "Zahl",
+    "en": "two hundred",
+    "ur": "do sau",
+    "ex": {
+      "de": "Ich nehme zweihundert Gramm.",
+      "en": "I'll take two hundred grams.",
+      "ur": "Main do sau gram loongi."
+    }
+  },
+  "dreihundert": {
+    "lemma": "dreihundert",
+    "pos": "Zahl",
+    "en": "three hundred",
+    "ur": "teen sau",
+    "ex": {
+      "de": "Geben Sie mir dreihundert Gramm, bitte.",
+      "en": "Give me three hundred grams, please.",
+      "ur": "Mujhe teen sau gram dein, please."
+    }
+  },
+  "vierhundert": {
+    "lemma": "vierhundert",
+    "pos": "Zahl",
+    "en": "four hundred",
+    "ur": "chaar sau",
+    "ex": {
+      "de": "Wir brauchen vierhundert Gramm Hack.",
+      "en": "We need four hundred grams of mince.",
+      "ur": "Humein chaar sau gram mince chahiye."
+    }
+  },
+  "fünfhundert": {
+    "lemma": "fünfhundert",
+    "pos": "Zahl",
+    "en": "five hundred",
+    "ur": "paanch sau",
+    "ex": {
+      "de": "Fünfhundert Gramm Rinderhack, bitte.",
+      "en": "Five hundred grams of beef mince, please.",
+      "ur": "Paanch sau gram beef mince, please."
+    }
+  },
+  "siebenhundert": {
+    "lemma": "siebenhundert",
+    "pos": "Zahl",
+    "en": "seven hundred",
+    "ur": "saat sau",
+    "ex": {
+      "de": "Für die Feier brauchen wir siebenhundert Gramm.",
+      "en": "For the party we need seven hundred grams.",
+      "ur": "Party ke liye humein saat sau gram chahiye."
+    }
+  },
+  "einundzwanzig": {
+    "lemma": "einundzwanzig",
+    "pos": "Zahl",
+    "en": "twenty-one",
+    "ur": "ikkees",
+    "ex": {
+      "de": "Das macht einundzwanzig Euro.",
+      "en": "That comes to twenty-one euros.",
+      "ur": "Yeh ikkees euro banta hai."
+    }
+  },
+  "zweiunddreißig": {
+    "lemma": "zweiunddreißig",
+    "pos": "Zahl",
+    "en": "thirty-two",
+    "ur": "battees",
+    "ex": {
+      "de": "Zusammen sind es zweiunddreißig Euro.",
+      "en": "Altogether that is thirty-two euros.",
+      "ur": "Sab mila kar battees euro hai."
+    }
+  },
+  "neunundzwanzig": {
+    "lemma": "neunundzwanzig",
+    "pos": "Zahl",
+    "en": "twenty-nine",
+    "ur": "unattees",
+    "ex": {
+      "de": "Das kostet neunundzwanzig Euro.",
+      "en": "That costs twenty-nine euros.",
+      "ur": "Iski qeemat unattees euro hai."
+    }
+  },
+  "eignet": {
+    "lemma": "eignen",
+    "pos": "Verb",
+    "en": "is suited (sich eignen)",
+    "ur": "muzoon hai",
+    "ex": {
+      "de": "Das Fleisch eignet sich gut für Curry.",
+      "en": "The meat is well suited for curry.",
+      "ur": "Yeh gosht curry ke liye acha rehta hai."
+    }
+  },
+  "schweinefleisch": {
+    "lemma": "Schweinefleisch",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "pork",
+    "ur": "pork",
+    "ex": {
+      "de": "Wir führen kein Schweinefleisch.",
+      "en": "We don't carry pork.",
+      "ur": "Hum pork nahi rakhte."
+    }
+  },
+  "budget": {
+    "lemma": "Budget",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "budget",
+    "ur": "budget",
+    "ex": {
+      "de": "Ich habe ein festes Budget.",
+      "en": "I have a fixed budget.",
+      "ur": "Mera ek muqarrara budget hai."
+    }
+  },
+  "curry": {
+    "lemma": "Curry",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "curry",
+    "ur": "curry",
+    "ex": {
+      "de": "Das Fleisch ist für ein Curry.",
+      "en": "The meat is for a curry.",
+      "ur": "Yeh gosht curry ke liye hai."
+    }
+  },
+  "fein": {
+    "lemma": "fein",
+    "pos": "Adjektiv",
+    "en": "fine / finely",
+    "ur": "baareek",
+    "ex": {
+      "de": "Mahlen Sie es bitte fein.",
+      "en": "Please grind it finely.",
+      "ur": "Please isay baareek pees dein."
+    }
+  },
+  "gemahlen": {
+    "lemma": "mahlen",
+    "pos": "Verb",
+    "en": "ground (past participle)",
+    "ur": "pisa hua",
+    "ex": {
+      "de": "Ist das Fleisch schon gemahlen?",
+      "en": "Is the meat already ground?",
+      "ur": "Kya gosht pehle se pisa hua hai?"
+    }
+  },
+  "gemahlenes": {
+    "lemma": "mahlen",
+    "pos": "Verb",
+    "en": "ground (inflected)",
+    "ur": "pisa hua",
+    "ex": {
+      "de": "Ich hätte gern frisch gemahlenes Rindfleisch.",
+      "en": "I would like freshly ground beef.",
+      "ur": "Mujhe taaza pisa hua beef chahiye."
+    }
+  },
+  "mahlen": {
+    "lemma": "mahlen",
+    "pos": "Verb",
+    "en": "to grind",
+    "ur": "peesna",
+    "ex": {
+      "de": "Können Sie das für mich mahlen?",
+      "en": "Can you grind that for me?",
+      "ur": "Kya aap yeh mere liye pees sakte hain?"
+    }
+  },
+  "mahle": {
+    "lemma": "mahlen",
+    "pos": "Verb",
+    "en": "grind (ich-form)",
+    "ur": "peesta/peesti hoon",
+    "ex": {
+      "de": "Ich mahle es gerade frisch für Sie.",
+      "en": "I'm grinding it fresh for you right now.",
+      "ur": "Main abhi aap ke liye taaza pees rahi hoon."
+    }
+  },
+  "grob": {
+    "lemma": "grob",
+    "pos": "Adjektiv",
+    "en": "coarse",
+    "ur": "mota / khurdura",
+    "ex": {
+      "de": "Für Köfte mahle ich es etwas grob.",
+      "en": "For köfte I grind it a bit coarse.",
+      "ur": "Köfte ke liye main isay thora mota peesti hoon."
+    }
+  },
+  "lieferanten": {
+    "lemma": "Lieferant",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Lieferanten",
+    "en": "suppliers",
+    "ur": "suppliers",
+    "ex": {
+      "de": "Wir arbeiten mit mehreren Lieferanten zusammen.",
+      "en": "We work with several suppliers.",
+      "ur": "Hum kai suppliers ke saath kaam karte hain."
+    }
+  },
+  "lieferant": {
+    "lemma": "Lieferant",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Lieferanten",
+    "en": "supplier",
+    "ur": "supplier",
+    "ex": {
+      "de": "Unser Lieferant ist halal-zertifiziert.",
+      "en": "Our supplier is halal-certified.",
+      "ur": "Hamara supplier halal-certified hai."
+    }
+  },
+  "lieferpapiere": {
+    "lemma": "Lieferpapiere",
+    "pos": "Nomen",
+    "en": "delivery papers",
+    "ur": "delivery documents",
+    "ex": {
+      "de": "Ich kann Ihnen die Lieferpapiere zeigen.",
+      "en": "I can show you the delivery papers.",
+      "ur": "Main aap ko delivery documents dikha sakta hoon."
+    }
+  },
+  "großes": {
+    "lemma": "groß",
+    "pos": "Adjektiv",
+    "en": "big (inflected)",
+    "ur": "bara",
+    "ex": {
+      "de": "Das ist ein großes Stück Fleisch.",
+      "en": "That is a big piece of meat.",
+      "ur": "Yeh gosht ka bara tukra hai."
+    }
+  },
+  "größeres": {
+    "lemma": "groß",
+    "pos": "Adjektiv",
+    "en": "bigger (inflected)",
+    "ur": "zyada bara",
+    "ex": {
+      "de": "Ich brauche ein größeres Stück.",
+      "en": "I need a bigger piece.",
+      "ur": "Mujhe zyada bara tukra chahiye."
+    }
+  },
+  "eindeutig": {
+    "lemma": "eindeutig",
+    "pos": "Adjektiv",
+    "en": "clear / unambiguous",
+    "ur": "saaf saaf",
+    "ex": {
+      "de": "Das war eindeutig ein Fehler von uns.",
+      "en": "That was clearly a mistake on our part.",
+      "ur": "Yeh saaf tor par hamari ghalti thi."
+    }
+  },
+  "unannehmlichkeiten": {
+    "lemma": "Unannehmlichkeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Unannehmlichkeiten",
+    "en": "inconveniences",
+    "ur": "takleef / inconvenience",
+    "ex": {
+      "de": "Entschuldigung für die Unannehmlichkeiten.",
+      "en": "Sorry for the inconvenience.",
+      "ur": "Inconvenience ke liye maazrat."
+    }
+  },
+  "theke": {
+    "lemma": "Theke",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Theken",
+    "en": "counter",
+    "ur": "counter",
+    "ex": {
+      "de": "Bitte kommen Sie an die Theke.",
+      "en": "Please come to the counter.",
+      "ur": "Please counter par aayein."
+    }
+  },
+  "kühltheke": {
+    "lemma": "Kühltheke",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "refrigerated counter",
+    "ur": "refrigerated counter",
+    "ex": {
+      "de": "Das Fleisch liegt in der Kühltheke.",
+      "en": "The meat is in the refrigerated counter.",
+      "ur": "Gosht refrigerated counter mein hai."
+    }
+  },
+  "kühlvitrine": {
+    "lemma": "Kühlvitrine",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "refrigerated display case",
+    "ur": "refrigerated display",
+    "ex": {
+      "de": "Schauen Sie in die Kühlvitrine.",
+      "en": "Look in the refrigerated display case.",
+      "ur": "Refrigerated display mein dekhein."
+    }
+  },
+  "kühle": {
+    "lemma": "kühl",
+    "pos": "Adjektiv",
+    "en": "cool (inflected)",
+    "ur": "thanda",
+    "ex": {
+      "de": "Bewahren Sie es an einem kühlen Ort auf.",
+      "en": "Keep it in a cool place.",
+      "ur": "Isay thandi jagah par rakhein."
+    }
+  },
+  "kühlbox": {
+    "lemma": "Kühlbox",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "cool box",
+    "ur": "cool box",
+    "ex": {
+      "de": "Ich habe eine Kühlbox im Auto.",
+      "en": "I have a cool box in the car.",
+      "ur": "Meri gaari mein cool box hai."
+    }
+  },
+  "kühltaschen": {
+    "lemma": "Kühltasche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kühltaschen",
+    "en": "cool bags",
+    "ur": "cool bags",
+    "ex": {
+      "de": "Bringen Sie Kühltaschen mit?",
+      "en": "Are you bringing cool bags?",
+      "ur": "Kya aap cool bags le kar aa rahi hain?"
+    }
+  },
+  "verpackt": {
+    "lemma": "verpacken",
+    "pos": "Verb",
+    "en": "packed (past participle)",
+    "ur": "pack kiya hua",
+    "ex": {
+      "de": "Das Fleisch ist gut verpackt.",
+      "en": "The meat is well packed.",
+      "ur": "Gosht acha pack kiya hua hai."
+    }
+  },
+  "abgepackte": {
+    "lemma": "abpacken",
+    "pos": "Verb",
+    "en": "pre-packed (inflected)",
+    "ur": "pehle se pack kiya hua",
+    "ex": {
+      "de": "Wir haben auch abgepackte Ware.",
+      "en": "We also have pre-packed goods.",
+      "ur": "Humare paas pehle se packed saman bhi hai."
+    }
+  },
+  "schwebt": {
+    "lemma": "schweben",
+    "pos": "Verb",
+    "en": "hovers / is uncertain (idiom: mir schwebt vor)",
+    "ur": "zehen mein hai",
+    "ex": {
+      "de": "Mir schwebt etwas Bestimmtes vor.",
+      "en": "I have something specific in mind.",
+      "ur": "Mere zehen mein kuch khaas hai."
+    }
+  },
+  "geflügel": {
+    "lemma": "Geflügel",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "poultry",
+    "ur": "poultry",
+    "ex": {
+      "de": "Wir haben auch Geflügel im Angebot.",
+      "en": "We also have poultry on offer.",
+      "ur": "Humare paas poultry bhi hai."
+    }
+  },
+  "geflügelwurst": {
+    "lemma": "Geflügelwurst",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "poultry sausage",
+    "ur": "poultry sausage",
+    "ex": {
+      "de": "Die Geflügelwurst ist auch halal.",
+      "en": "The poultry sausage is also halal.",
+      "ur": "Poultry sausage bhi halal hai."
+    }
+  },
+  "knochen": {
+    "lemma": "Knochen",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Knochen",
+    "en": "bone",
+    "ur": "haddi",
+    "ex": {
+      "de": "Möchten Sie es mit oder ohne Knochen?",
+      "en": "Would you like it with or without bone?",
+      "ur": "Aap haddi ke sath chahiye ya bina?"
+    }
+  },
+  "fettig": {
+    "lemma": "fettig",
+    "pos": "Adjektiv",
+    "en": "fatty / greasy",
+    "ur": "charbi wala",
+    "ex": {
+      "de": "Das ist mir zu fettig.",
+      "en": "That's too fatty for me.",
+      "ur": "Yeh mere liye zyada charbi wala hai."
+    }
+  },
+  "familienessen": {
+    "lemma": "Familienessen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "family meal",
+    "ur": "family khana",
+    "ex": {
+      "de": "Das ist für ein großes Familienessen.",
+      "en": "That is for a big family meal.",
+      "ur": "Yeh bare family khane ke liye hai."
+    }
+  },
+  "hack": {
+    "lemma": "Hack",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "mince (short for Hackfleisch)",
+    "ur": "qeema",
+    "ex": {
+      "de": "Ich brauche Hack für Köfte.",
+      "en": "I need mince for köfte.",
+      "ur": "Mujhe köfte ke liye qeema chahiye."
+    }
+  },
+  "hähnchenhack": {
+    "lemma": "Hähnchenhack",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "chicken mince",
+    "ur": "chicken qeema",
+    "ex": {
+      "de": "Haben Sie auch Hähnchenhack?",
+      "en": "Do you also have chicken mince?",
+      "ur": "Kya aap ke paas chicken qeema bhi hai?"
+    }
+  },
+  "mühe": {
+    "lemma": "Mühe",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "effort / trouble",
+    "ur": "mehnat",
+    "ex": {
+      "de": "Das macht keine Mühe.",
+      "en": "That's no trouble.",
+      "ur": "Isme koi mehnat nahi."
+    }
+  },
+  "rinderhüfte": {
+    "lemma": "Rinderhüfte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "beef rump",
+    "ur": "beef rump",
+    "ex": {
+      "de": "Die Rinderhüfte ist besonders zart.",
+      "en": "The beef rump is especially tender.",
+      "ur": "Beef rump khaas kar naram hai."
+    }
+  },
+  "hüfte": {
+    "lemma": "Hüfte",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "rump / hip",
+    "ur": "rump",
+    "ex": {
+      "de": "Die Hüfte eignet sich gut zum Braten.",
+      "en": "The rump is well suited for frying.",
+      "ur": "Rump frying ke liye acha hai."
+    }
+  },
+  "zart": {
+    "lemma": "zart",
+    "pos": "Adjektiv",
+    "en": "tender",
+    "ur": "naram",
+    "ex": {
+      "de": "Dieses Stück ist besonders zart.",
+      "en": "This piece is especially tender.",
+      "ur": "Yeh tukra khaas kar naram hai."
+    }
+  },
+  "einfacher": {
+    "lemma": "einfach",
+    "pos": "Adjektiv",
+    "en": "simpler / easier",
+    "ur": "zyada aasan",
+    "ex": {
+      "de": "Das ist einfacher zuzubereiten.",
+      "en": "That is easier to prepare.",
+      "ur": "Yeh banana zyada aasan hai."
+    }
+  },
+  "gelungenes": {
+    "lemma": "gelungen",
+    "pos": "Adjektiv",
+    "en": "successful (inflected)",
+    "ur": "kaamyab",
+    "ex": {
+      "de": "Das war ein gelungenes Grillfest.",
+      "en": "That was a successful barbecue.",
+      "ur": "Yeh kaamyab BBQ tha."
+    }
+  },
+  "auswahl": {
+    "lemma": "Auswahl",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "selection / choice",
+    "ur": "intekhab",
+    "ex": {
+      "de": "Wir haben eine große Auswahl.",
+      "en": "We have a large selection.",
+      "ur": "Humare paas bara intekhab hai."
+    }
+  },
+  "offiziellen": {
+    "lemma": "offiziell",
+    "pos": "Adjektiv",
+    "en": "official (inflected)",
+    "ur": "sarkari",
+    "ex": {
+      "de": "Wir haben ein offiziellen Zertifikat.",
+      "en": "We have an official certificate.",
+      "ur": "Humare paas sarkari certificate hai."
+    }
+  },
+  "sortiment": {
+    "lemma": "Sortiment",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "range / assortment",
+    "ur": "range",
+    "ex": {
+      "de": "Unser Sortiment ist komplett halal.",
+      "en": "Our range is completely halal.",
+      "ur": "Hamari poori range halal hai."
+    }
+  },
+  "gekennzeichnet": {
+    "lemma": "kennzeichnen",
+    "pos": "Verb",
+    "en": "labelled / marked",
+    "ur": "nishan zada",
+    "ex": {
+      "de": "Halal-Fleisch ist gekennzeichnet.",
+      "en": "Halal meat is labelled.",
+      "ur": "Halal gosht nishan zada hota hai."
+    }
+  },
+  "zertifizierten": {
+    "lemma": "zertifiziert",
+    "pos": "Adjektiv",
+    "en": "certified (inflected)",
+    "ur": "certified",
+    "ex": {
+      "de": "Wir arbeiten nur mit zertifizierten Betrieben.",
+      "en": "We only work with certified operations.",
+      "ur": "Hum sirf certified businesses ke saath kaam karte hain."
+    }
+  },
+  "islamischen": {
+    "lemma": "islamisch",
+    "pos": "Adjektiv",
+    "en": "Islamic (inflected)",
+    "ur": "islami",
+    "ex": {
+      "de": "Es folgt den islamischen Richtlinien.",
+      "en": "It follows Islamic guidelines.",
+      "ur": "Yeh islami usoolon ki pairwi karta hai."
+    }
+  },
+  "richtlinien": {
+    "lemma": "Richtlinie",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Richtlinien",
+    "en": "guidelines",
+    "ur": "usool / guidelines",
+    "ex": {
+      "de": "Wir folgen strengen Richtlinien.",
+      "en": "We follow strict guidelines.",
+      "ur": "Hum saqt usoolon ki pairwi karte hain."
+    }
+  },
+  "schlachtet": {
+    "lemma": "schlachten",
+    "pos": "Verb",
+    "en": "slaughters",
+    "ur": "zibah karta hai",
+    "ex": {
+      "de": "Der Bauernhof schlachtet nach islamischem Ritus.",
+      "en": "The farm slaughters according to Islamic rite.",
+      "ur": "Farm islami tareeqe se zibah karta hai."
+    }
+  },
+  "geschlachtet": {
+    "lemma": "schlachten",
+    "pos": "Verb",
+    "en": "slaughtered (past participle)",
+    "ur": "zibah kiya gaya",
+    "ex": {
+      "de": "Es wird traditionell geschlachtet.",
+      "en": "It is slaughtered traditionally.",
+      "ur": "Yeh roayti tareeqe se zibah hota hai."
+    }
+  },
+  "betrieb": {
+    "lemma": "Betrieb",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Betriebe",
+    "en": "business / operation",
+    "ur": "business",
+    "ex": {
+      "de": "Der Betrieb wird regelmäßig geprüft.",
+      "en": "The operation is checked regularly.",
+      "ur": "Business ka regular check hota hai."
+    }
+  },
+  "unabhängiger": {
+    "lemma": "unabhängig",
+    "pos": "Adjektiv",
+    "en": "independent (inflected)",
+    "ur": "azaad",
+    "ex": {
+      "de": "Ein unabhängiger Prüfer besucht uns.",
+      "en": "An independent inspector visits us.",
+      "ur": "Ek azaad inspector humein visit karta hai."
+    }
+  },
+  "prüfer": {
+    "lemma": "Prüfer",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "inspector",
+    "ur": "inspector",
+    "ex": {
+      "de": "Der Prüfer kommt unangekündigt.",
+      "en": "The inspector comes unannounced.",
+      "ur": "Inspector bina bataye aata hai."
+    }
+  },
+  "besucht": {
+    "lemma": "besuchen",
+    "pos": "Verb",
+    "en": "visits",
+    "ur": "visit karta hai",
+    "ex": {
+      "de": "Er besucht uns einmal im Monat.",
+      "en": "He visits us once a month.",
+      "ur": "Woh mahine mein ek baar visit karta hai."
+    }
+  },
+  "unangekündigt": {
+    "lemma": "unangekündigt",
+    "pos": "Adjektiv",
+    "en": "unannounced",
+    "ur": "bina batae",
+    "ex": {
+      "de": "Die Kontrolle ist immer unangekündigt.",
+      "en": "The inspection is always unannounced.",
+      "ur": "Check hamesha bina bataye hota hai."
+    }
+  },
+  "einsehen": {
+    "lemma": "einsehen",
+    "pos": "Verb",
+    "en": "to view / inspect (documents)",
+    "ur": "dekhna",
+    "ex": {
+      "de": "Sie können die Lieferpapiere einsehen.",
+      "en": "You can view the delivery papers.",
+      "ur": "Aap delivery papers dekh sakte hain."
+    }
+  },
+  "anerkannten": {
+    "lemma": "anerkannt",
+    "pos": "Adjektiv",
+    "en": "recognized (inflected)",
+    "ur": "tasleem shuda",
+    "ex": {
+      "de": "Das Zertifikat kommt von einem anerkannten Institut.",
+      "en": "The certificate comes from a recognized institute.",
+      "ur": "Certificate ek tasleem shuda institute se hai."
+    }
+  },
+  "institut": {
+    "lemma": "Institut",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Institute",
+    "en": "institute",
+    "ur": "institute",
+    "ex": {
+      "de": "Das Institut prüft jedes Jahr.",
+      "en": "The institute checks every year.",
+      "ur": "Institute har saal check karta hai."
+    }
+  },
+  "vertrauenswürdig": {
+    "lemma": "vertrauenswürdig",
+    "pos": "Adjektiv",
+    "en": "trustworthy",
+    "ur": "qabil-e-aitmaad",
+    "ex": {
+      "de": "Unser Lieferant ist sehr vertrauenswürdig.",
+      "en": "Our supplier is very trustworthy.",
+      "ur": "Hamara supplier bohat qabil-e-aitmaad hai."
+    }
+  },
+  "charge": {
+    "lemma": "Charge",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Chargen",
+    "en": "batch",
+    "ur": "batch",
+    "ex": {
+      "de": "Jede Charge wird kontrolliert.",
+      "en": "Every batch is checked.",
+      "ur": "Har batch check hoti hai."
+    }
+  },
+  "metzgerei": {
+    "lemma": "Metzgerei",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Metzgereien",
+    "en": "butcher's shop",
+    "ur": "gosht ki dukan",
+    "ex": {
+      "de": "Willkommen in unserer Metzgerei.",
+      "en": "Welcome to our butcher shop.",
+      "ur": "Hamari dukan mein khush aamdeed."
+    }
+  },
+  "metzger": {
+    "lemma": "Metzger",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Metzger",
+    "en": "butcher",
+    "ur": "qassab",
+    "ex": {
+      "de": "Unser Metzger arbeitet seit zwanzig Jahren hier.",
+      "en": "Our butcher has worked here for twenty years.",
+      "ur": "Hamara qassab yahan bees saal se kaam kar raha hai."
+    }
+  },
+  "getrennte": {
+    "lemma": "getrennt",
+    "pos": "Adjektiv",
+    "en": "separate (inflected)",
+    "ur": "alag",
+    "ex": {
+      "de": "Wir haben getrennte Messer für halal Fleisch.",
+      "en": "We have separate knives for halal meat.",
+      "ur": "Halal gosht ke liye humare alag chaqoo hain."
+    }
+  },
+  "messer": {
+    "lemma": "Messer",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Messer",
+    "en": "knife",
+    "ur": "chaqoo",
+    "ex": {
+      "de": "Wir benutzen eigene Messer dafür.",
+      "en": "We use our own knives for that.",
+      "ur": "Iske liye hum apne chaqoo istemal karte hain."
+    }
+  },
+  "bretter": {
+    "lemma": "Brett",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Bretter",
+    "en": "cutting boards",
+    "ur": "cutting boards",
+    "ex": {
+      "de": "Auch die Bretter sind getrennt.",
+      "en": "The cutting boards are also separate.",
+      "ur": "Cutting boards bhi alag hain."
+    }
+  },
+  "eigene": {
+    "lemma": "eigen",
+    "pos": "Adjektiv",
+    "en": "own (inflected)",
+    "ur": "apna",
+    "ex": {
+      "de": "Wir haben unsere eigene Regel dafür.",
+      "en": "We have our own rule for that.",
+      "ur": "Iske liye hamara apna usool hai."
+    }
+  },
+  "offenheit": {
+    "lemma": "Offenheit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "openness",
+    "ur": "khulapan",
+    "ex": {
+      "de": "Ich schätze Ihre Offenheit.",
+      "en": "I appreciate your openness.",
+      "ur": "Main aap ki khule pan ki qadar karti hoon."
+    }
+  },
+  "nachdenklich": {
+    "lemma": "nachdenklich",
+    "pos": "Adjektiv",
+    "en": "thoughtful / pensive",
+    "ur": "sochne wala",
+    "ex": {
+      "de": "Das macht mich nachdenklich.",
+      "en": "That makes me thoughtful.",
+      "ur": "Yeh mujhe sochne par majboor karta hai."
+    }
+  },
+  "fleisches": {
+    "lemma": "Fleisch",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "meat (genitive)",
+    "ur": "gosht ka",
+    "ex": {
+      "de": "Die Herkunft des Fleisches ist wichtig.",
+      "en": "The origin of the meat is important.",
+      "ur": "Gosht ka asal maqam zaroori hai."
+    }
+  },
+  "klebt": {
+    "lemma": "kleben",
+    "pos": "Verb",
+    "en": "sticks / is stuck on",
+    "ur": "chipka hua hai",
+    "ex": {
+      "de": "Das Etikett klebt auf jeder Packung.",
+      "en": "The label is stuck on every package.",
+      "ur": "Label har packet par chipka hai."
+    }
+  },
+  "eineinhalb": {
+    "lemma": "eineinhalb",
+    "pos": "Zahl",
+    "en": "one and a half",
+    "ur": "derh",
+    "ex": {
+      "de": "Ich nehme eineinhalb Kilo.",
+      "en": "I'll take one and a half kilos.",
+      "ur": "Main derh kilo loongi."
+    }
+  },
+  "stattliche": {
+    "lemma": "stattlich",
+    "pos": "Adjektiv",
+    "en": "substantial (inflected)",
+    "ur": "khaasa bara",
+    "ex": {
+      "de": "Das ist eine stattliche Menge.",
+      "en": "That is a substantial amount.",
+      "ur": "Yeh khaasi miqdar hai."
+    }
+  },
+  "erwidere": {
+    "lemma": "erwidern",
+    "pos": "Verb",
+    "en": "reply / respond (ich-form)",
+    "ur": "jawab deta/deti hoon",
+    "ex": {
+      "de": "Ich erwidere freundlich.",
+      "en": "I reply politely.",
+      "ur": "Main narmi se jawab deti hoon."
+    }
+  },
+  "übernächstes": {
+    "lemma": "übernächst",
+    "pos": "Adjektiv",
+    "en": "the one after next (inflected)",
+    "ur": "aglay se agla",
+    "ex": {
+      "de": "Übernächstes Wochenende passt mir gut.",
+      "en": "The weekend after next suits me well.",
+      "ur": "Aglay se agla weekend mujhe theek rehta hai."
+    }
+  },
+  "runden": {
+    "lemma": "runden",
+    "pos": "Verb",
+    "en": "to round (a number)",
+    "ur": "round karna",
+    "ex": {
+      "de": "Ich runde das auf zehn Euro.",
+      "en": "I'll round that to ten euros.",
+      "ur": "Main isay das euro tak round karti hoon."
+    }
+  },
+  "nachbarn": {
+    "lemma": "Nachbar",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Nachbarn",
+    "en": "neighbors",
+    "ur": "padosi",
+    "ex": {
+      "de": "Wir bestellen zusammen mit den Nachbarn.",
+      "en": "We order together with the neighbors.",
+      "ur": "Hum padosiyon ke sath order karte hain."
+    }
+  },
+  "freitagnachmittag": {
+    "lemma": "Freitagnachmittag",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "Friday afternoon",
+    "ur": "Friday dopahar",
+    "ex": {
+      "de": "Wir treffen uns am Freitagnachmittag.",
+      "en": "We meet on Friday afternoon.",
+      "ur": "Hum Friday dopahar milte hain."
+    }
+  },
+  "hiermit": {
+    "lemma": "hiermit",
+    "pos": "Adverb",
+    "en": "hereby / with this",
+    "ur": "is ke sath",
+    "ex": {
+      "de": "Ich bestätige hiermit die Bestellung.",
+      "en": "I hereby confirm the order.",
+      "ur": "Main is se order confirm karti hoon."
+    }
+  },
+  "verbindlich": {
+    "lemma": "verbindlich",
+    "pos": "Adjektiv",
+    "en": "binding",
+    "ur": "pakka / binding",
+    "ex": {
+      "de": "Ist die Bestellung schon verbindlich?",
+      "en": "Is the order already binding?",
+      "ur": "Kya order pehle se pakka hai?"
+    }
+  },
+  "schriftliche": {
+    "lemma": "schriftlich",
+    "pos": "Adjektiv",
+    "en": "written (inflected)",
+    "ur": "tehreeri",
+    "ex": {
+      "de": "Ich hätte gern eine schriftliche Bestätigung.",
+      "en": "I would like a written confirmation.",
+      "ur": "Mujhe tehreeri confirmation chahiye."
+    }
+  },
+  "bestätigung": {
+    "lemma": "Bestätigung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "confirmation",
+    "ur": "confirmation",
+    "ex": {
+      "de": "Ich sende Ihnen eine Bestätigung.",
+      "en": "I'll send you a confirmation.",
+      "ur": "Main aap ko confirmation bhejti hoon."
+    }
+  },
+  "feierlaune": {
+    "lemma": "Feierlaune",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "party mood",
+    "ur": "jashn ka mood",
+    "ex": {
+      "de": "Alle sind schon in Feierlaune.",
+      "en": "Everyone is already in a party mood.",
+      "ur": "Sab pehle se jashn ke mood mein hain."
+    }
+  },
+  "letztem": {
+    "lemma": "letzt",
+    "pos": "Adjektiv",
+    "en": "last (dative inflected)",
+    "ur": "pichla",
+    "ex": {
+      "de": "Wie bei letztem Mal, bitte.",
+      "en": "Like last time, please.",
+      "ur": "Pichli baar ki tarah, please."
+    }
+  },
+  "anpassen": {
+    "lemma": "anpassen",
+    "pos": "Verb",
+    "en": "to adjust",
+    "ur": "adjust karna",
+    "ex": {
+      "de": "Können wir die Menge anpassen?",
+      "en": "Can we adjust the quantity?",
+      "ur": "Kya hum quantity adjust kar sakte hain?"
+    }
+  },
+  "ändere": {
+    "lemma": "ändern",
+    "pos": "Verb",
+    "en": "change (ich-form)",
+    "ur": "badalta/badalti hoon",
+    "ex": {
+      "de": "Ich ändere die Bestellung noch etwas.",
+      "en": "I'll change the order a bit.",
+      "ur": "Main order thora badalti hoon."
+    }
+  },
+  "aufstocken": {
+    "lemma": "aufstocken",
+    "pos": "Verb",
+    "en": "to increase / top up",
+    "ur": "barhana",
+    "ex": {
+      "de": "Sollen wir die Menge aufstocken?",
+      "en": "Should we increase the quantity?",
+      "ur": "Kya hum quantity barhayein?"
+    }
+  },
+  "ungefähre": {
+    "lemma": "ungefähr",
+    "pos": "Adjektiv",
+    "en": "approximate (inflected)",
+    "ur": "taqreeban",
+    "ex": {
+      "de": "Geben Sie mir eine ungefähre Zahl.",
+      "en": "Give me an approximate number.",
+      "ur": "Mujhe taqreeban number batayein."
+    }
+  },
+  "erweiterten": {
+    "lemma": "erweitert",
+    "pos": "Adjektiv",
+    "en": "expanded (inflected)",
+    "ur": "barha hua",
+    "ex": {
+      "de": "Wir haben ein erweiterten Sortiment.",
+      "en": "We have an expanded range.",
+      "ur": "Humare paas barhi hui range hai."
+    }
+  },
+  "erweiterte": {
+    "lemma": "erweitert",
+    "pos": "Adjektiv",
+    "en": "expanded",
+    "ur": "barha hua",
+    "ex": {
+      "de": "Das ist die erweiterte Bestellung.",
+      "en": "That is the expanded order.",
+      "ur": "Yeh barha hua order hai."
+    }
+  },
+  "kulant": {
+    "lemma": "kulant",
+    "pos": "Adjektiv",
+    "en": "accommodating / generous (in dealing with complaints)",
+    "ur": "nirm dil",
+    "ex": {
+      "de": "Der Metzger war sehr kulant.",
+      "en": "The butcher was very accommodating.",
+      "ur": "Qassab bohat nirm dil tha."
+    }
+  },
+  "unzufrieden": {
+    "lemma": "unzufrieden",
+    "pos": "Adjektiv",
+    "en": "dissatisfied",
+    "ur": "na khush",
+    "ex": {
+      "de": "Ich war mit der Lieferung unzufrieden.",
+      "en": "I was dissatisfied with the delivery.",
+      "ur": "Main delivery se na khush thi."
+    }
+  },
+  "schiefgelaufen": {
+    "lemma": "schiefgehen",
+    "pos": "Verb",
+    "en": "gone wrong (past participle)",
+    "ur": "ghalat ho gaya",
+    "ex": {
+      "de": "Etwas ist schiefgelaufen.",
+      "en": "Something went wrong.",
+      "ur": "Kuch ghalat ho gaya."
+    }
+  },
+  "zusammenstellung": {
+    "lemma": "Zusammenstellung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "assortment / compilation",
+    "ur": "majmua",
+    "ex": {
+      "de": "Die Zusammenstellung war falsch.",
+      "en": "The assortment was wrong.",
+      "ur": "Majmua ghalat tha."
+    }
+  },
+  "improvisieren": {
+    "lemma": "improvisieren",
+    "pos": "Verb",
+    "en": "to improvise",
+    "ur": "improvise karna",
+    "ex": {
+      "de": "Wir müssen kurz improvisieren.",
+      "en": "We have to improvise briefly.",
+      "ur": "Humein thora improvise karna hoga."
+    }
+  },
+  "wiedergutmachen": {
+    "lemma": "wiedergutmachen",
+    "pos": "Verb",
+    "en": "to make up for / make good",
+    "ur": "tarafi karna",
+    "ex": {
+      "de": "Wie können wir das wiedergutmachen?",
+      "en": "How can we make up for that?",
+      "ur": "Hum iski tarafi kaise kar sakte hain?"
+    }
+  },
+  "wiedergutmachung": {
+    "lemma": "Wiedergutmachung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "making amends / compensation",
+    "ur": "tarafi",
+    "ex": {
+      "de": "Als Wiedergutmachung bekommen Sie einen Rabatt.",
+      "en": "As compensation you get a discount.",
+      "ur": "Tarafi ke tor par aap ko discount milega."
+    }
+  },
+  "schließlich": {
+    "lemma": "schließlich",
+    "pos": "Adverb",
+    "en": "after all / finally",
+    "ur": "aakhir kaar",
+    "ex": {
+      "de": "Sie sind schließlich Stammkundin.",
+      "en": "After all, you are a regular customer.",
+      "ur": "Aap aakhir kaar regular customer hain."
+    }
+  },
+  "aufrichtiges": {
+    "lemma": "aufrichtig",
+    "pos": "Adjektiv",
+    "en": "sincere (inflected)",
+    "ur": "mukhlis",
+    "ex": {
+      "de": "Ich möchte mein aufrichtiges Bedauern ausdrücken.",
+      "en": "I want to express my sincere regret.",
+      "ur": "Main apna mukhlis afsos zahir karna chahta hoon."
+    }
+  },
+  "bedauern": {
+    "lemma": "Bedauern",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "regret",
+    "ur": "afsos",
+    "ex": {
+      "de": "Wir bedauern den Fehler sehr.",
+      "en": "We regret the mistake very much.",
+      "ur": "Humein is ghalti par bohat afsos hai."
+    }
+  },
+  "vertauscht": {
+    "lemma": "vertauschen",
+    "pos": "Verb",
+    "en": "mixed up / swapped",
+    "ur": "badla gaya",
+    "ex": {
+      "de": "Die Bestellungen wurden vertauscht.",
+      "en": "The orders were mixed up.",
+      "ur": "Orders badal gaye thay."
+    }
+  },
+  "umgeräumt": {
+    "lemma": "umräumen",
+    "pos": "Verb",
+    "en": "rearranged (past participle)",
+    "ur": "tarteeb badli gayi",
+    "ex": {
+      "de": "Die Kühltheke wurde umgeräumt.",
+      "en": "The refrigerated counter was rearranged.",
+      "ur": "Refrigerated counter ki tarteeb badal di gayi."
+    }
+  },
+  "nachhinein": {
+    "lemma": "nachhinein",
+    "pos": "Adverb",
+    "en": "in hindsight (im Nachhinein)",
+    "ur": "baad mein sochte huay",
+    "ex": {
+      "de": "Im Nachhinein war das ein Fehler.",
+      "en": "In hindsight, that was a mistake.",
+      "ur": "Baad mein sochte huay yeh ghalti thi."
+    }
+  },
+  "verunsichernd": {
+    "lemma": "verunsichernd",
+    "pos": "Adjektiv",
+    "en": "unsettling",
+    "ur": "pareshan kun",
+    "ex": {
+      "de": "Das war schon etwas verunsichernd.",
+      "en": "That was quite unsettling.",
+      "ur": "Yeh thora pareshan kun tha."
+    }
+  },
+  "zumal": {
+    "lemma": "zumal",
+    "pos": "Konjunktion",
+    "en": "especially since",
+    "ur": "khaas kar jab",
+    "ex": {
+      "de": "Zumal ich extra dafür gefahren bin.",
+      "en": "Especially since I drove specially for it.",
+      "ur": "Khaas kar jab main iske liye khaas gayi thi."
+    }
+  },
+  "beschriften": {
+    "lemma": "beschriften",
+    "pos": "Verb",
+    "en": "to label",
+    "ur": "label lagana",
+    "ex": {
+      "de": "Wir werden alles besser beschriften.",
+      "en": "We'll label everything better.",
+      "ur": "Hum sab kuch behtar label karenge."
+    }
+  },
+  "foto": {
+    "lemma": "Foto",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Fotos",
+    "en": "photo",
+    "ur": "photo",
+    "ex": {
+      "de": "Ich habe ein Foto vom Etikett gemacht.",
+      "en": "I took a photo of the label.",
+      "ur": "Main ne label ki photo li."
+    }
+  },
+  "sicherheit": {
+    "lemma": "Sicherheit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "certainty / safety",
+    "ur": "yaqeen",
+    "ex": {
+      "de": "Zur Sicherheit frage ich noch einmal nach.",
+      "en": "To be sure I'll ask once more.",
+      "ur": "Yaqeen ke liye main dobara poochti hoon."
+    }
+  },
+  "ziel": {
+    "lemma": "Ziel",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Ziele",
+    "en": "goal",
+    "ur": "maqsad",
+    "ex": {
+      "de": "Unser Ziel ist ein zufriedener Kunde.",
+      "en": "Our goal is a satisfied customer.",
+      "ur": "Hamara maqsad mutmain customer hai."
+    }
+  },
+  "geste": {
+    "lemma": "Geste",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Gesten",
+    "en": "gesture",
+    "ur": "ishara / gesture",
+    "ex": {
+      "de": "Das ist eine nette Geste.",
+      "en": "That is a nice gesture.",
+      "ur": "Yeh acha gesture hai."
+    }
+  },
+  "bestehe": {
+    "lemma": "bestehen",
+    "pos": "Verb",
+    "en": "insist (ich-form, bestehen auf)",
+    "ur": "israr karta/karti hoon",
+    "ex": {
+      "de": "Ich bestehe nicht darauf.",
+      "en": "I don't insist on it.",
+      "ur": "Main is par israr nahi karti."
+    }
+  },
+  "betrachten": {
+    "lemma": "betrachten",
+    "pos": "Verb",
+    "en": "to regard / consider",
+    "ur": "samajhna",
+    "ex": {
+      "de": "Ich betrachte den Fall als erledigt.",
+      "en": "I consider the matter settled.",
+      "ur": "Main is maamle ko hal shuda samajhti hoon."
+    }
+  },
+  "dankeschön": {
+    "lemma": "Dankeschön",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "thank-you (noun)",
+    "ur": "shukriya",
+    "ex": {
+      "de": "Nehmen Sie das als kleines Dankeschön.",
+      "en": "Take this as a small thank-you.",
+      "ur": "Isay chhota sa shukriya samajh kar le lein."
+    }
+  },
+  "rundum": {
+    "lemma": "rundum",
+    "pos": "Adverb",
+    "en": "all around / completely",
+    "ur": "har taraf se",
+    "ex": {
+      "de": "Ich bin rundum zufrieden.",
+      "en": "I'm completely satisfied.",
+      "ur": "Main har tarah se mutmain hoon."
+    }
+  },
+  "einzukaufen": {
+    "lemma": "einkaufen",
+    "pos": "Verb",
+    "en": "to shop (zu-infinitive)",
+    "ur": "khareedari karna",
+    "ex": {
+      "de": "Es macht Spaß, hier einzukaufen.",
+      "en": "It's fun to shop here.",
+      "ur": "Yahan khareedari karna maza deta hai."
+    }
+  },
+  "einkaufe": {
+    "lemma": "einkaufen",
+    "pos": "Verb",
+    "en": "shop (ich-form)",
+    "ur": "khareedari karta/karti hoon",
+    "ex": {
+      "de": "Ich kaufe gern hier ein.",
+      "en": "I like shopping here.",
+      "ur": "Main yahan khareedari karna pasand karti hoon."
+    }
+  },
+  "einkaufsliste": {
+    "lemma": "Einkaufsliste",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "shopping list",
+    "ur": "khareedari ki list",
+    "ex": {
+      "de": "Es steht alles auf meiner Einkaufsliste.",
+      "en": "Everything is on my shopping list.",
+      "ur": "Sab kuch meri list mein hai."
+    }
+  },
+  "außerordentlich": {
+    "lemma": "außerordentlich",
+    "pos": "Adverb",
+    "en": "extraordinarily",
+    "ur": "ghair maamuli tor par",
+    "ex": {
+      "de": "Das Fleisch war außerordentlich gut.",
+      "en": "The meat was extraordinarily good.",
+      "ur": "Gosht ghair maamuli tor par acha tha."
+    }
+  },
+  "miteinander": {
+    "lemma": "miteinander",
+    "pos": "Adverb",
+    "en": "with each other",
+    "ur": "ek doosre ke sath",
+    "ex": {
+      "de": "Wir sprechen offen miteinander.",
+      "en": "We talk openly with each other.",
+      "ur": "Hum ek doosre se khul kar baat karte hain."
+    }
+  },
+  "anliegen": {
+    "lemma": "Anliegen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "concern / matter",
+    "ur": "maamla",
+    "ex": {
+      "de": "Was ist Ihr Anliegen?",
+      "en": "What is your concern?",
+      "ur": "Aap ka maamla kya hai?"
+    }
+  },
+  "ansprechen": {
+    "lemma": "ansprechen",
+    "pos": "Verb",
+    "en": "to bring up / address",
+    "ur": "zikr karna",
+    "ex": {
+      "de": "Ich möchte etwas ansprechen.",
+      "en": "I would like to bring something up.",
+      "ur": "Main kuch zikr karna chahti hoon."
+    }
+  },
+  "erstatte": {
+    "lemma": "erstatten",
+    "pos": "Verb",
+    "en": "refund (ich-form)",
+    "ur": "wapis karta/karti hoon",
+    "ex": {
+      "de": "Ich erstatte Ihnen den vollen Preis.",
+      "en": "I'll refund you the full price.",
+      "ur": "Main aap ko poori qeemat wapis karti hoon."
+    }
+  },
+  "erstatten": {
+    "lemma": "erstatten",
+    "pos": "Verb",
+    "en": "to refund",
+    "ur": "wapis karna",
+    "ex": {
+      "de": "Wir können den Betrag erstatten.",
+      "en": "We can refund the amount.",
+      "ur": "Hum raqam wapis kar sakte hain."
+    }
+  },
+  "umtauschen": {
+    "lemma": "umtauschen",
+    "pos": "Verb",
+    "en": "to exchange",
+    "ur": "tabdeel karna",
+    "ex": {
+      "de": "Können Sie das bitte umtauschen?",
+      "en": "Could you please exchange that?",
+      "ur": "Kya aap yeh tabdeel kar sakte hain?"
+    }
+  },
+  "intern": {
+    "lemma": "intern",
+    "pos": "Adjektiv",
+    "en": "internal",
+    "ur": "internal",
+    "ex": {
+      "de": "Das klären wir intern.",
+      "en": "We'll clarify that internally.",
+      "ur": "Hum yeh internal tor par hal karenge."
+    }
+  },
+  "lösung": {
+    "lemma": "Lösung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Lösungen",
+    "en": "solution",
+    "ur": "hal",
+    "ex": {
+      "de": "Wir finden bestimmt eine Lösung.",
+      "en": "We'll definitely find a solution.",
+      "ur": "Hum zaroor koi hal dhoondh lenge."
+    }
+  },
+  "eis": {
+    "lemma": "Eis",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "ice",
+    "ur": "baraf",
+    "ex": {
+      "de": "Wir legen es auf Eis.",
+      "en": "We put it on ice.",
+      "ur": "Hum isay baraf par rakhte hain."
+    }
+  },
+  "heimweg": {
+    "lemma": "Heimweg",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "way home",
+    "ur": "ghar ka raasta",
+    "ex": {
+      "de": "Auf dem Heimweg bleibt es kühl.",
+      "en": "It stays cool on the way home.",
+      "ur": "Ghar ke raste mein yeh thanda rehta hai."
+    }
+  },
+  "empfehlung": {
+    "lemma": "Empfehlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Empfehlungen",
+    "en": "recommendation",
+    "ur": "sifarish",
+    "ex": {
+      "de": "Haben Sie eine Empfehlung für mich?",
+      "en": "Do you have a recommendation for me?",
+      "ur": "Kya aap ke paas meri liye koi sifarish hai?"
+    }
+  },
+  "übers": {
+    "lemma": "über",
+    "pos": "Präposition",
+    "en": "over the (contraction of über das)",
+    "ur": "ke oopar / bare mein",
+    "ex": {
+      "de": "Wir sprechen übers Wochenende.",
+      "en": "We talk about the weekend.",
+      "ur": "Hum weekend ke bare mein baat karte hain."
+    }
+  },
+  "reichlich": {
+    "lemma": "reichlich",
+    "pos": "Adjektiv",
+    "en": "plenty / ample",
+    "ur": "kaafi zyada",
+    "ex": {
+      "de": "Wir haben reichlich Auswahl.",
+      "en": "We have plenty of choice.",
+      "ur": "Humare paas kaafi zyada intekhab hai."
+    }
+  },
+  "verschiedenen": {
+    "lemma": "verschieden",
+    "pos": "Adjektiv",
+    "en": "different / various (inflected)",
+    "ur": "mukhtalif",
+    "ex": {
+      "de": "Wir bieten Fleisch aus verschiedenen Teilen an.",
+      "en": "We offer meat from various cuts.",
+      "ur": "Hum mukhtalif hisson ka gosht pesh karte hain."
+    }
+  },
+  "abwechslung": {
+    "lemma": "Abwechslung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "variety",
+    "ur": "tabdeeli",
+    "ex": {
+      "de": "Etwas Abwechslung wäre schön.",
+      "en": "A bit of variety would be nice.",
+      "ur": "Thori tabdeeli acha rahega."
+    }
+  },
+  "rinderprodukte": {
+    "lemma": "Rinderprodukt",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Rinderprodukte",
+    "en": "beef products",
+    "ur": "beef products",
+    "ex": {
+      "de": "Wir haben viele Rinderprodukte.",
+      "en": "We have many beef products.",
+      "ur": "Humare paas kaafi beef products hain."
+    }
+  },
+  "kopf": {
+    "lemma": "Kopf",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Köpfe",
+    "en": "head (idiom: im Kopf haben)",
+    "ur": "zehen",
+    "ex": {
+      "de": "Ich habe schon etwas im Kopf.",
+      "en": "I already have something in mind.",
+      "ur": "Mere zehen mein pehle se kuch hai."
+    }
+  },
+  "rindersalami": {
+    "lemma": "Rindersalami",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "beef salami",
+    "ur": "beef salami",
+    "ex": {
+      "de": "Die Rindersalami ist sehr beliebt.",
+      "en": "The beef salami is very popular.",
+      "ur": "Beef salami bohat mashhoor hai."
+    }
+  },
+  "belassen": {
+    "lemma": "belassen",
+    "pos": "Verb",
+    "en": "to leave (as is)",
+    "ur": "jaisa hai waisa chhorna",
+    "ex": {
+      "de": "Wir belassen es dabei.",
+      "en": "We'll leave it at that.",
+      "ur": "Hum isay yun hi chhor dete hain."
+    }
+  },
+  "snack": {
+    "lemma": "Snack",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Snacks",
+    "en": "snack",
+    "ur": "snack",
+    "ex": {
+      "de": "Das ist ein guter Snack für unterwegs.",
+      "en": "That is a good snack for on the go.",
+      "ur": "Yeh raste ke liye acha snack hai."
+    }
+  },
+  "dekorativ": {
+    "lemma": "dekorativ",
+    "pos": "Adjektiv",
+    "en": "decorative",
+    "ur": "sajawat wala",
+    "ex": {
+      "de": "Wir ordnen es dekorativ auf der Platte an.",
+      "en": "We arrange it decoratively on the platter.",
+      "ur": "Hum isay platter par sajawat se rakhte hain."
+    }
+  },
+  "anrichten": {
+    "lemma": "anrichten",
+    "pos": "Verb",
+    "en": "to arrange / plate up",
+    "ur": "sajana",
+    "ex": {
+      "de": "Ich richte die Platte schön an.",
+      "en": "I arrange the platter nicely.",
+      "ur": "Main platter ko khoobsurati se sajati hoon."
+    }
+  },
+  "senf": {
+    "lemma": "Senf",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "mustard",
+    "ur": "sarson / mustard",
+    "ex": {
+      "de": "Möchten Sie auch Senf dazu?",
+      "en": "Would you like mustard with it too?",
+      "ur": "Kya aap sath mein mustard bhi chahti hain?"
+    }
+  },
+  "eingelegte": {
+    "lemma": "eingelegt",
+    "pos": "Adjektiv",
+    "en": "pickled (inflected)",
+    "ur": "achar wala",
+    "ex": {
+      "de": "Dazu passen eingelegte Gurken.",
+      "en": "Pickled cucumbers go well with that.",
+      "ur": "Iske sath achar wale kheere acha rehte hain."
+    }
+  },
+  "zwischenzeit": {
+    "lemma": "Zwischenzeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "meantime",
+    "ur": "is doran",
+    "ex": {
+      "de": "In der Zwischenzeit bereite ich alles vor.",
+      "en": "In the meantime I prepare everything.",
+      "ur": "Is doran main sab kuch tayyar karti hoon."
+    }
+  },
+  "nebenan": {
+    "lemma": "nebenan",
+    "pos": "Adverb",
+    "en": "next door",
+    "ur": "pados mein",
+    "ex": {
+      "de": "Der Bäcker nebenan backt frisches Brot.",
+      "en": "The baker next door bakes fresh bread.",
+      "ur": "Pados wala baker taaza bread bakta hai."
+    }
+  },
+  "salami": {
+    "lemma": "Salami",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Salamis",
+    "en": "salami",
+    "ur": "salami",
+    "ex": {
+      "de": "Ich nehme auch etwas Salami.",
+      "en": "I'll also take some salami.",
+      "ur": "Main kuch salami bhi loongi."
+    }
+  },
+  "koche": {
+    "lemma": "kochen",
+    "pos": "Verb",
+    "en": "cook (ich-form)",
+    "ur": "pakata/pakati hoon",
+    "ex": {
+      "de": "Ich koche heute ein Curry.",
+      "en": "I'm cooking a curry today.",
+      "ur": "Aaj main curry pakati hoon."
+    }
+  },
+  "denke": {
+    "lemma": "denken",
+    "pos": "Verb",
+    "en": "think (ich-form)",
+    "ur": "sochta/sochti hoon",
+    "ex": {
+      "de": "Ich denke, das reicht.",
+      "en": "I think that is enough.",
+      "ur": "Mera khayal hai yeh kaafi hai."
+    }
+  },
+  "scharfes": {
+    "lemma": "scharf",
+    "pos": "Adjektiv",
+    "en": "spicy (inflected)",
+    "ur": "teekha",
+    "ex": {
+      "de": "Ich möchte etwas Scharfes machen.",
+      "en": "I want to make something spicy.",
+      "ur": "Main kuch teekha banana chahti hoon."
+    }
+  },
+  "speiseplan": {
+    "lemma": "Speiseplan",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "meal plan",
+    "ur": "khane ka plan",
+    "ex": {
+      "de": "Curry steht auf dem Speiseplan.",
+      "en": "Curry is on the meal plan.",
+      "ur": "Curry khane ke plan mein hai."
+    }
+  },
+  "teuerstes": {
+    "lemma": "teuer",
+    "pos": "Adjektiv",
+    "en": "most expensive (superlative inflected)",
+    "ur": "sab se mehnga",
+    "ex": {
+      "de": "Das ist unser teuerstes Stück.",
+      "en": "That is our most expensive cut.",
+      "ur": "Yeh hamara sab se mehnga tukra hai."
+    }
+  },
+  "preiswerter": {
+    "lemma": "preiswert",
+    "pos": "Adjektiv",
+    "en": "more affordable",
+    "ur": "zyada sasta",
+    "ex": {
+      "de": "Das andere Stück ist preiswerter.",
+      "en": "The other cut is more affordable.",
+      "ur": "Doosra tukra zyada sasta hai."
+    }
+  },
+  "günstiger": {
+    "lemma": "günstig",
+    "pos": "Adjektiv",
+    "en": "cheaper",
+    "ur": "sasta",
+    "ex": {
+      "de": "Diese Sorte ist etwas günstiger.",
+      "en": "This type is a bit cheaper.",
+      "ur": "Yeh qisam thori sasti hai."
+    }
+  },
+  "vorschläge": {
+    "lemma": "Vorschlag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Vorschläge",
+    "en": "suggestions",
+    "ur": "tajaweez",
+    "ex": {
+      "de": "Haben Sie noch Vorschläge?",
+      "en": "Do you have any more suggestions?",
+      "ur": "Kya aap ke paas aur tajaweez hain?"
+    }
+  },
+  "ausgezeichnete": {
+    "lemma": "ausgezeichnet",
+    "pos": "Adjektiv",
+    "en": "excellent (inflected)",
+    "ur": "behtareen",
+    "ex": {
+      "de": "Das ist eine ausgezeichnete Wahl.",
+      "en": "That is an excellent choice.",
+      "ur": "Yeh behtareen intekhab hai."
+    }
+  },
+  "vielversprechend": {
+    "lemma": "vielversprechend",
+    "pos": "Adjektiv",
+    "en": "promising",
+    "ur": "ummeed afza",
+    "ex": {
+      "de": "Das klingt vielversprechend.",
+      "en": "That sounds promising.",
+      "ur": "Yeh ummeed afza lagta hai."
+    }
+  },
+  "kurzbraten": {
+    "lemma": "kurzbraten",
+    "pos": "Verb",
+    "en": "to pan-fry quickly",
+    "ur": "jaldi bhoonna",
+    "ex": {
+      "de": "Man kann das gut kurzbraten.",
+      "en": "You can pan-fry that nicely.",
+      "ur": "Isay acha kurzbraten kiya ja sakta hai."
+    }
+  },
+  "pfanne": {
+    "lemma": "Pfanne",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Pfannen",
+    "en": "pan",
+    "ur": "pan",
+    "ex": {
+      "de": "Das brät man in der Pfanne.",
+      "en": "You fry that in the pan.",
+      "ur": "Yeh pan mein bhoona jata hai."
+    }
+  },
+  "brät": {
+    "lemma": "braten",
+    "pos": "Verb",
+    "en": "fries / roasts (er/sie-form)",
+    "ur": "bhoonta hai",
+    "ex": {
+      "de": "Man brät es kurz und heiß.",
+      "en": "You fry it briefly and hot.",
+      "ur": "Isay jaldi aur tez aanch par bhoona jata hai."
+    }
+  },
+  "beziehen": {
+    "lemma": "beziehen",
+    "pos": "Verb",
+    "en": "to source (from)",
+    "ur": "hasil karna",
+    "ex": {
+      "de": "Wir beziehen unser Fleisch regional.",
+      "en": "We source our meat regionally.",
+      "ur": "Hum apna gosht region se hasil karte hain."
+    }
+  },
+  "übrigen": {
+    "lemma": "übrig",
+    "pos": "Adjektiv",
+    "en": "remaining (im Übrigen = by the way)",
+    "ur": "baqi",
+    "ex": {
+      "de": "Im Übrigen ist alles halal.",
+      "en": "By the way, everything is halal.",
+      "ur": "Waise sab kuch halal hai."
+    }
+  },
+  "geliefert": {
+    "lemma": "liefern",
+    "pos": "Verb",
+    "en": "delivered (past participle)",
+    "ur": "delivery hui",
+    "ex": {
+      "de": "Das Fleisch wird zweimal pro Woche geliefert.",
+      "en": "The meat is delivered twice a week.",
+      "ur": "Gosht hafte mein do baar deliver hota hai."
+    }
+  },
+  "grillen": {
+    "lemma": "grillen",
+    "pos": "Verb",
+    "en": "to grill / barbecue",
+    "ur": "BBQ karna",
+    "ex": {
+      "de": "Wir grillen dieses Wochenende.",
+      "en": "We are grilling this weekend.",
+      "ur": "Hum is weekend BBQ kar rahe hain."
+    }
+  },
+  "mengenrabatt": {
+    "lemma": "Mengenrabatt",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "bulk discount",
+    "ur": "bulk discount",
+    "ex": {
+      "de": "Ab fünf Kilo gibt es einen Mengenrabatt.",
+      "en": "From five kilos there is a bulk discount.",
+      "ur": "Paanch kilo se bulk discount milta hai."
+    }
+  },
+  "tausche": {
+    "lemma": "tauschen",
+    "pos": "Verb",
+    "en": "exchange (ich-form)",
+    "ur": "tabdeel karta/karti hoon",
+    "ex": {
+      "de": "Ich tausche es gern gegen ein frisches Stück.",
+      "en": "I'll gladly exchange it for a fresh piece.",
+      "ur": "Main isay khushi se taaza tukre se tabdeel karti hoon."
+    }
+  },
+  "bestellt": {
+    "lemma": "bestellen",
+    "pos": "Verb",
+    "en": "ordered (past participle)",
+    "ur": "order kiya",
+    "ex": {
+      "de": "Ich hatte etwas anderes bestellt.",
+      "en": "I had ordered something different.",
+      "ur": "Main ne kuch aur order kiya tha."
+    }
+  },
+  "rinderfilet": {
+    "lemma": "Rinderfilet",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "beef fillet",
+    "ur": "beef fillet",
+    "ex": {
+      "de": "Das Rinderfilet ist heute im Angebot.",
+      "en": "The beef fillet is on offer today.",
+      "ur": "Aaj beef fillet offer par hai."
+    }
+  },
+  "filet": {
+    "lemma": "Filet",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Filets",
+    "en": "fillet",
+    "ur": "fillet",
+    "ex": {
+      "de": "Ein Filet ist immer zart.",
+      "en": "A fillet is always tender.",
+      "ur": "Fillet hamesha naram hota hai."
+    }
+  }
+}

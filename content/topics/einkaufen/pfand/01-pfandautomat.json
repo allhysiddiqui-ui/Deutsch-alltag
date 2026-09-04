@@ -1,0 +1,219 @@
+{
+  "id": "pfandautomat",
+  "order": 1,
+  "icon": "🍾",
+  "title": { "de": "Am Pfandautomaten", "en": "At the deposit machine", "ur": "Pfandautomat par" },
+  "angle": "Using the bottle-return machine for the first time · Pehli baar bottle wapis karne wali machine istemal karna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["pfandautomat", "pfand", "flasche", "bon", "einwerfen", "taste", "scannen", "quittung", "leergut"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Brauchen Sie Hilfe am Pfandautomaten?", "en": "Hello! Do you need help at the deposit machine?", "ur": "Salam! Kya aap ko Pfandautomat par madad chahiye?" },
+        { "s": "B", "de": "Guten Tag. Ja, bitte. Wie funktioniert das?", "en": "Hello. Yes, please. How does this work?", "ur": "Salam. Ji haan, please. Yeh kaise kaam karta hai?" },
+        { "s": "A", "de": "Sie stellen die Flasche hier in die Öffnung.", "en": "You put the bottle here into the opening.", "ur": "Aap bottle yahan is khuli jagah mein rakhein." },
+        { "s": "B", "de": "So, mit dem Etikett nach vorne?", "en": "Like this, with the label facing forward?", "ur": "Aise, label aage ki taraf?" },
+        { "s": "A", "de": "Genau richtig.", "en": "Exactly right.", "ur": "Bilkul sahi." },
+        { "s": "B", "de": "Der Automat macht ein Geräusch. Ist das gut?", "en": "The machine is making a noise. Is that good?", "ur": "Machine se awaz aa rahi hai. Kya yeh acha hai?" },
+        { "s": "A", "de": "Ja, das ist richtig. Jetzt die nächste Flasche.", "en": "Yes, that's correct. Now the next bottle.", "ur": "Ji haan, yeh theek hai. Ab agli bottle." },
+        { "s": "B", "de": "Ich habe noch drei Flaschen.", "en": "I still have three bottles.", "ur": "Mere paas abhi teen bottles hain." },
+        { "s": "A", "de": "Werfen Sie sie einfach einzeln ein.", "en": "Just put them in one at a time.", "ur": "Bas unhein ek ek kar ke andar daalein." },
+        { "s": "B", "de": "Wie viel Pfand bekomme ich zurück?", "en": "How much deposit do I get back?", "ur": "Mujhe kitna Pfand wapis milega?" },
+        { "s": "A", "de": "Das steht am Ende auf dem Bon.", "en": "That's shown at the end on the receipt.", "ur": "Yeh aakhir mein receipt par likha hoga." },
+        { "s": "B", "de": "Und wo bekomme ich den Bon?", "en": "And where do I get the receipt?", "ur": "Aur receipt mujhe kahan milegi?" },
+        { "s": "A", "de": "Drücken Sie die grüne Taste für die Quittung.", "en": "Press the green button for the receipt.", "ur": "Receipt ke liye sabz button dabayein." },
+        { "s": "B", "de": "Super, vielen Dank für die Hilfe!", "en": "Great, thank you very much for the help!", "ur": "Behtareen, madad ka bohat shukriya!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Sie sehen etwas ratlos aus. Kann ich Ihnen helfen?", "en": "Hello. You look a bit lost. Can I help you?", "ur": "Salam. Aap thori pareshan lag rahi hain. Kya main madad karoon?" },
+        { "s": "B", "de": "Ja, gerne. Ich war noch nie an so einem Pfandautomaten.", "en": "Yes, gladly. I've never been at a deposit machine like this before.", "ur": "Ji zaroor. Main kabhi aisi Pfandautomat par nahi aayi." },
+        { "s": "A", "de": "Kein Problem, das erkläre ich Ihnen gerne. Haben Sie Leergut dabei?", "en": "No problem, I'll gladly explain it to you. Do you have empties with you?", "ur": "Koi baat nahi, main aap ko bata deta hoon. Kya aap ke paas khaali bottles hain?" },
+        { "s": "B", "de": "Ja, hier in der Tüte sind fünf Flaschen und eine Kiste.", "en": "Yes, here in the bag are five bottles and one crate.", "ur": "Ji, is thaile mein paanch bottles aur ek crate hai." },
+        { "s": "A", "de": "Gut, die Kiste stellen wir gleich unten in den Schacht. Fangen wir mit den Flaschen an.", "en": "Good, we'll put the crate down into the slot in a moment. Let's start with the bottles.", "ur": "Acha, crate hum abhi neeche waale slot mein rakhte hain. Pehle bottles se shuru karte hain." },
+        { "s": "B", "de": "Halte ich die Flasche einfach mit dem Boden nach unten?", "en": "Do I just hold the bottle with the bottom facing down?", "ur": "Kya main bottle ka neechla hissa neeche ki taraf rakhoon?" },
+        { "s": "A", "de": "Genau, dann schieben Sie sie langsam in die Öffnung.", "en": "Exactly, then push it slowly into the opening.", "ur": "Bilkul, phir usay aahista se khuli jagah mein daal dein." },
+        { "s": "B", "de": "Das Band bewegt sich und zieht die Flasche hinein.", "en": "The belt is moving and pulling the bottle in.", "ur": "Band chal raha hai aur bottle ko andar khainch raha hai." },
+        { "s": "A", "de": "Richtig, der Automat erkennt den Strichcode und zeigt Ihnen den Pfandwert an.", "en": "Right, the machine recognises the barcode and shows you the deposit value.", "ur": "Sahi, machine barcode pehchan leti hai aur aap ko Pfand ki qeemat dikhati hai." },
+        { "s": "B", "de": "Ich sehe fünfzehn Cent auf dem Bildschirm. Ist das für jede Flasche gleich?", "en": "I see fifteen cents on the screen. Is that the same for every bottle?", "ur": "Screen par pandrah cent nazar aa rahe hain. Kya har bottle ka yeh hi hai?" },
+        { "s": "A", "de": "Nein, das hängt von der Flasche ab. Dazu erkläre ich Ihnen später mehr.", "en": "No, that depends on the bottle. I'll explain more about that later.", "ur": "Nahi, yeh bottle par munhasir hai. Is baare mein baad mein zyada bataoonga." },
+        { "s": "B", "de": "Alles klar. Und die Kiste, wie funktioniert die?", "en": "All right. And the crate, how does that work?", "ur": "Theek hai. Aur crate, woh kaise chalti hai?" },
+        { "s": "A", "de": "Die stellen Sie einfach komplett in den Kastenschacht, der Automat zählt die Flaschen automatisch.", "en": "You just place it completely into the crate slot, the machine counts the bottles automatically.", "ur": "Usay pura Kastenschacht mein rakh dein, machine khud hi bottles gin leti hai." },
+        { "s": "B", "de": "Wow, das geht schnell. Muss ich jetzt noch etwas drücken?", "en": "Wow, that's quick. Do I need to press anything now?", "ur": "Wah, yeh jaldi ho gaya. Kya ab mujhe kuch dabana hai?" },
+        { "s": "A", "de": "Ja, am Ende drücken Sie die grüne Taste, dann druckt der Automat den Bon aus.", "en": "Yes, at the end you press the green button, then the machine prints out the receipt.", "ur": "Ji, aakhir mein sabz button dabayein, phir machine receipt print kar degi." },
+        { "s": "B", "de": "Perfekt, vielen Dank für die geduldige Erklärung.", "en": "Perfect, thank you for the patient explanation.", "ur": "Behtareen, sabar se samjhane ka shukriya." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Entschuldigung, kann ich Ihnen weiterhelfen? Sie stehen schon eine Weile vor dem Automaten.", "en": "Excuse me, can I help you further? You've been standing in front of the machine for a while.", "ur": "Maazrat, kya main aap ki madad karoon? Aap kaafi der se is machine ke saamne khari hain." },
+        { "s": "B", "de": "Ja, ehrlich gesagt bin ich unsicher, in welcher Reihenfolge ich vorgehen soll.", "en": "Yes, honestly I'm unsure in what order I should proceed.", "ur": "Ji, sach kahoon to mujhe pata nahi ke kis tarteeb se karoon." },
+        { "s": "A", "de": "Kein Grund zur Sorge, das verwirrt viele am Anfang. Legen Sie ruhig eine Flasche nach der anderen hinein.", "en": "No need to worry, that confuses many people at the beginning. Just put one bottle in after another.", "ur": "Fikar ki koi baat nahi, shuru mein bohat logon ko uljhan hoti hai. Aram se ek ke baad ek bottle daaltay jayein." },
+        { "s": "B", "de": "Der Automat hat gerade eine Flasche abgelehnt. Was habe ich falsch gemacht?", "en": "The machine just rejected a bottle. What did I do wrong?", "ur": "Machine ne abhi ek bottle mana kar di. Maine kya ghalat kiya?" },
+        { "s": "A", "de": "Wahrscheinlich nichts. Manchmal erkennt der Sensor das Etikett nicht sofort, wenn es leicht beschädigt ist.", "en": "Probably nothing. Sometimes the sensor doesn't recognise the label immediately if it's slightly damaged.", "ur": "Shayad kuch nahi. Kabhi kabhi sensor label ko foran nahi pehchanta agar woh thora kharab ho." },
+        { "s": "B", "de": "Ah, verstehe. Soll ich es einfach noch einmal versuchen?", "en": "Ah, I see. Should I just try again?", "ur": "Acha, samajh gayi. Kya main dobara koshish karoon?" },
+        { "s": "A", "de": "Ja, drehen Sie die Flasche ein bisschen und schieben Sie sie erneut hinein.", "en": "Yes, turn the bottle a bit and push it in again.", "ur": "Ji, bottle ko thora ghumayein aur dobara andar daalein." },
+        { "s": "B", "de": "Diesmal hat es geklappt. Übrigens, ich habe auch Einweg- und Mehrwegflaschen gemischt, macht das etwas aus?", "en": "This time it worked. By the way, I also mixed single-use and reusable bottles, does that matter?", "ur": "Is baar ho gaya. Waise, maine Einweg aur Mehrweg dono bottles mila di, kya isse farq parta hai?" },
+        { "s": "A", "de": "Überhaupt nicht, der Automat erkennt den Typ selbstständig anhand des Strichcodes.", "en": "Not at all, the machine recognises the type automatically based on the barcode.", "ur": "Bilkul nahi, machine barcode se khud hi type pehchan leti hai." },
+        { "s": "B", "de": "Gut zu wissen. Wie lange dauert es normalerweise, bis der ganze Vorgang abgeschlossen ist?", "en": "Good to know. How long does it usually take until the whole process is completed?", "ur": "Acha maloom hua. Yeh pura amal khatam hone mein aksar kitna waqt lagta hai?" },
+        { "s": "A", "de": "Bei zehn Flaschen dauert es meistens nur ein paar Minuten. Sie können jederzeit abbrechen, wenn Sie fertig sind.", "en": "With ten bottles it usually only takes a few minutes. You can stop at any time when you're finished.", "ur": "Das bottles ke liye aksar sirf chand minute lagte hain. Aap jab chaahen ruk kar khatam kar sakti hain." },
+        { "s": "B", "de": "Und dann drücke ich einfach die grüne Taste für den Bon?", "en": "And then I just press the green button for the receipt?", "ur": "Aur phir main sabz button dabaoon receipt ke liye?" },
+        { "s": "A", "de": "Genau, und den Bon lösen Sie anschließend an der Kasse ein, entweder bar oder gegen Ihren Einkauf.", "en": "Exactly, and you then redeem the receipt at the checkout, either for cash or against your purchase.", "ur": "Bilkul, aur phir receipt ko kaunter par bhuna sakti hain, ya to cash ke liye ya apni khareedari ke liye." },
+        { "s": "B", "de": "Alles klar, das macht Sinn. Vielen Dank, Sie haben mir sehr geholfen.", "en": "All right, that makes sense. Thank you very much, you've helped me a lot.", "ur": "Theek hai, samajh aa gaya. Bohat shukriya, aap ne meri bohat madad ki." },
+        { "s": "A", "de": "Gern geschehen. Kommen Sie beim nächsten Mal einfach direkt zu mir, falls etwas unklar ist.", "en": "You're welcome. Just come straight to me next time if anything is unclear.", "ur": "Khushi hui. Agli baar agar kuch samajh na aaye to seedha mere paas aa jayein." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Winter (Mitarbeiter)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Ich sehe, Sie haben eine ganze Ladung Leergut dabei. Ist das Ihr erster Besuch am Automaten hier bei uns?", "en": "I see you've brought a whole load of empties. Is this your first visit to the machine here with us?", "ur": "Main dekh raha hoon aap ke paas khaali bottles ka pura dher hai. Kya yeh hamare yahan machine par aap ka pehla dora hai?" },
+        { "s": "B", "de": "Ja, tatsächlich. Bisher habe ich mein Leergut immer zu Hause gesammelt, ohne es einzulösen.", "en": "Yes, actually. So far I've always just collected my empties at home without redeeming them.", "ur": "Ji, waqai. Ab tak main apni khaali bottles ghar par jama karti thi, unhein bhunaye baghair." },
+        { "s": "A", "de": "Das kenne ich von vielen Kunden. Der Vorgang ist zum Glück recht selbsterklärend, sobald man den Dreh raus hat.", "en": "I know that from many customers. The process is fortunately quite self-explanatory once you get the hang of it.", "ur": "Yeh baat main bohat customers se sunta hoon. Amal khushqismati se khud-wazeh hai jab tarika samajh aa jaye." },
+        { "s": "B", "de": "Was mich am meisten verwirrt, ist der Unterschied zwischen den einzelnen Flaschentypen und ihrem jeweiligen Pfandwert.", "en": "What confuses me most is the difference between the individual bottle types and their respective deposit values.", "ur": "Jo cheez mujhe sab se zyada uljhati hai woh bottle ke alag alag types aur un ki alag Pfand qeemat hai." },
+        { "s": "A", "de": "Das erkläre ich Ihnen kurz: Der Automat liest den Strichcode aus und ordnet die Flasche automatisch der richtigen Pfandklasse zu.", "en": "I'll explain that briefly: the machine reads the barcode and automatically assigns the bottle to the correct deposit category.", "ur": "Main mukhtasar bata deta hoon: machine barcode parhti hai aur bottle ko khud hi sahi Pfand class mein daal deti hai." },
+        { "s": "B", "de": "Heißt das, ich muss mich vorher gar nicht darum kümmern, ob es sich um Mehrweg oder Einweg handelt?", "en": "Does that mean I don't need to worry beforehand at all about whether it's reusable or single-use?", "ur": "Iska matlab hai mujhe pehle se yeh sochne ki zaroorat nahi ke Mehrweg hai ya Einweg?" },
+        { "s": "A", "de": "Genau, allerdings sollten Sie darauf achten, dass die Flasche nicht zu stark verbeult oder verschmutzt ist, sonst wird sie eventuell abgelehnt.", "en": "Exactly, though you should make sure the bottle isn't too dented or dirty, otherwise it may be rejected.", "ur": "Bilkul, lekin dhayan rakhein ke bottle zyada verbeult ya gandi na ho, warna machine mana kar sakti hai." },
+        { "s": "B", "de": "Zwei meiner Flaschen sind ziemlich zerdrückt, weil sie lange im Auto lagen. Soll ich es trotzdem versuchen?", "en": "Two of my bottles are quite crushed because they lay in the car for a long time. Should I try anyway?", "ur": "Meri do bottles kaafi dabi hui hain kyun ke woh gaari mein kaafi der padi rahin. Kya phir bhi koshish karoon?" },
+        { "s": "A", "de": "Versuchen Sie es ruhig. Falls der Automat sie ablehnt, bringen Sie sie einfach zu mir an die Kasse, dann rechne ich sie manuell ab.", "en": "Feel free to try. If the machine rejects them, just bring them to me at the checkout and I'll settle them manually.", "ur": "Zaroor koshish karein. Agar machine mana kare to unhein kaunter par mere paas le aayein, main khud hisaab kar doonga." },
+        { "s": "B", "de": "Das beruhigt mich sehr. Wie lässt sich der ausgegebene Bon am schnellsten weiterverwenden?", "en": "That reassures me a lot. What's the quickest way to make use of the issued receipt afterwards?", "ur": "Isse mujhe kaafi itminan mila. Nikli hui receipt ko sab se jaldi kaise istemal karoon?" },
+        { "s": "A", "de": "Sie scannen ihn ganz einfach an der Kasse, dann wird der Betrag automatisch von Ihrer Einkaufssumme abgezogen.", "en": "You simply scan it at the checkout, then the amount is automatically deducted from your total purchase.", "ur": "Aap usay bas kaunter par scan karayein, phir raqam khud hi aap ki total khareedari se minus ho jayegi." },
+        { "s": "B", "de": "Und falls ich heute gar nichts einkaufen möchte, kann ich mir das Pfand trotzdem bar auszahlen lassen?", "en": "And if I don't want to buy anything at all today, can I still have the deposit paid out to me in cash?", "ur": "Aur agar aaj main kuch bhi na khareedun to kya mujhe Pfand phir bhi cash mein mil sakta hai?" },
+        { "s": "A", "de": "Selbstverständlich, das entscheiden ausschließlich Sie. An der Kasse sagen Sie einfach, dass Sie den Betrag bar möchten.", "en": "Of course, that's entirely up to you. At the checkout you just say that you'd like the amount in cash.", "ur": "Bilkul, yeh sirf aap hi tay karti hain. Kaunter par bas bata dein ke aap ko raqam cash mein chahiye." },
+        { "s": "B", "de": "Wunderbar, damit sind alle meine Fragen geklärt. Ich beginne jetzt einfach mit der ersten Flasche.", "en": "Wonderful, that clears up all my questions. I'll just start with the first bottle now.", "ur": "Bohat acha, ab meray sab sawal khatam ho gaye. Main ab pehli bottle se shuru karti hoon." },
+        { "s": "A", "de": "Nur zu, und falls doch noch etwas hakt, winken Sie mir einfach kurz zu.", "en": "Go right ahead, and if anything still gets stuck, just wave me over briefly.", "ur": "Zaroor shuru karein, aur agar phir bhi kahin atkay to bas mujhe ishara kar dein." },
+        { "s": "B", "de": "Mache ich. Vielen herzlichen Dank für Ihre ausführliche Erklärung, Herr Winter.", "en": "I will. Thank you very much for your thorough explanation, Mr Winter.", "ur": "Zaroor. Aap ki tafseeli wazahat ka bohat shukriya, Herr Winter." },
+        { "s": "A", "de": "Sehr gerne geschehen, Frau Yilmaz. Viel Erfolg beim Einlösen!", "en": "You're very welcome, Mrs Yilmaz. Good luck with the redeeming!", "ur": "Khushi se, Frau Yilmaz. Bhunaane mein kamyabi!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie stehen zum ersten Mal am Pfandautomaten und brauchen Hilfe.",
+        "en": "You are at the deposit machine for the first time and need help.",
+        "ur": "Aap pehli baar Pfandautomat par hain aur madad chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Brauchen Sie Hilfe am Pfandautomaten?",
+          "goal": { "en": "Greet and say yes please.", "ur": "Salam karein aur kahein ji please." },
+          "options": ["Guten Tag. Ja, bitte.", "Guten Tag, ja, gerne."],
+          "fallback": "Kann ich Ihnen helfen?",
+          "accept": [{ "kw": ["guten", "ja"], "next": "n2" }, { "kw": ["ja"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Sie stellen die Flasche hier in die Öffnung.",
+          "goal": { "en": "Ask if the label should face forward.", "ur": "Poochein ke kya label aage ki taraf hona chahiye." },
+          "options": ["Mit dem Etikett nach vorne?", "So, mit dem Etikett nach vorne?"],
+          "fallback": "Verstehen Sie, wie es geht?",
+          "accept": [{ "kw": ["etikett", "vorne"], "next": "n3" }, { "kw": ["vorne"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Genau richtig. Jetzt die nächste Flasche.",
+          "goal": { "en": "Say you still have three bottles.", "ur": "Kahein ke aap ke paas abhi teen bottles hain." },
+          "options": ["Ich habe noch drei Flaschen.", "Ich habe noch drei."],
+          "fallback": "Haben Sie noch mehr Flaschen?",
+          "accept": [{ "kw": ["drei", "flaschen"], "next": "n4" }, { "kw": ["drei"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Werfen Sie sie einfach einzeln ein.",
+          "goal": { "en": "Ask how much deposit you get back.", "ur": "Poochein ke kitna Pfand wapis milega." },
+          "options": ["Wie viel Pfand bekomme ich zurück?", "Wie viel Pfand bekomme ich?"],
+          "fallback": "Möchten Sie wissen, wie viel Pfand es ist?",
+          "accept": [{ "kw": ["pfand", "zurück"], "next": "n5" }, { "kw": ["pfand"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Das steht am Ende auf dem Bon.",
+          "goal": { "en": "Ask where you get the receipt.", "ur": "Poochein ke receipt kahan milegi." },
+          "options": ["Und wo bekomme ich den Bon?", "Wo bekomme ich den Bon?"],
+          "fallback": "Möchten Sie einen Bon?",
+          "accept": [{ "kw": ["wo", "bon"], "next": "n6" }, { "kw": ["bon"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Drücken Sie die grüne Taste für die Quittung.",
+          "goal": { "en": "Thank him for the help.", "ur": "Madad ka shukriya adaa karein." },
+          "options": ["Super, vielen Dank für die Hilfe!", "Danke schön für die Hilfe!"],
+          "fallback": "Ist noch etwas unklar?",
+          "accept": [
+            { "kw": ["danke", "hilfe"], "reply": "Gern geschehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Winter, Mitarbeiter",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie haben eine größere Menge Leergut dabei und der Automat hat gerade eine Flasche abgelehnt.",
+        "en": "You have a larger amount of empties with you and the machine has just rejected a bottle.",
+        "ur": "Aap ke paas kaafi khaali bottles hain aur machine ne abhi ek bottle mana kar di."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Entschuldigung, kann ich Ihnen weiterhelfen? Sie stehen schon eine Weile hier.",
+          "goal": { "en": "Say yes, you're unsure about the order of steps.", "ur": "Kahein: ji, aap ko tarteeb ka pata nahi." },
+          "options": ["Ja, ich bin unsicher, in welcher Reihenfolge ich vorgehen soll.", "Ja, ich weiß nicht genau, wie ich anfangen soll."],
+          "fallback": "Was ist das Problem?",
+          "accept": [{ "kw": ["unsicher", "reihenfolge"], "next": "n2" }, { "kw": ["weiß", "nicht"], "next": "n2" }, { "kw": ["reihenfolge"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Grund zur Sorge. Legen Sie eine Flasche nach der anderen hinein.",
+          "goal": { "en": "Say the machine just rejected a bottle.", "ur": "Kahein ke machine ne abhi ek bottle mana kar di." },
+          "options": ["Der Automat hat gerade eine Flasche abgelehnt.", "Eine Flasche wurde gerade abgelehnt."],
+          "fallback": "Gibt es ein Problem mit einer Flasche?",
+          "accept": [{ "kw": ["abgelehnt"], "next": "n3" }, { "kw": ["flasche", "abgelehnt"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Manchmal erkennt der Sensor das Etikett nicht, wenn es beschädigt ist.",
+          "goal": { "en": "Ask if you should just try again.", "ur": "Poochein ke kya dobara koshish karein." },
+          "options": ["Soll ich es einfach noch einmal versuchen?", "Soll ich es nochmal probieren?"],
+          "fallback": "Möchten Sie es erneut versuchen?",
+          "accept": [{ "kw": ["nochmal", "versuchen"], "next": "n4" }, { "kw": ["versuchen"], "next": "n4" }, { "kw": ["probieren"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, drehen Sie die Flasche ein bisschen und schieben Sie sie erneut hinein.",
+          "goal": { "en": "Say it worked this time, and ask if mixing Einweg and Mehrweg matters.", "ur": "Kahein is baar ho gaya, aur poochein ke Einweg Mehrweg milane se farq parta hai." },
+          "options": ["Diesmal hat es geklappt. Macht es etwas aus, wenn ich Einweg und Mehrweg mische?", "Es hat geklappt. Ist es ein Problem, Einweg und Mehrweg zu mischen?"],
+          "fallback": "Hat es diesmal funktioniert?",
+          "accept": [{ "kw": ["geklappt", "mische"], "next": "n5" }, { "kw": ["einweg", "mehrweg"], "next": "n5" }, { "kw": ["geklappt"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Überhaupt nicht, der Automat erkennt den Typ selbstständig.",
+          "goal": { "en": "Ask how long the whole process usually takes.", "ur": "Poochein ke pura amal aksar kitna waqt leta hai." },
+          "options": ["Wie lange dauert der ganze Vorgang normalerweise?", "Wie lange dauert das insgesamt?"],
+          "fallback": "Möchten Sie wissen, wie lange es dauert?",
+          "accept": [{ "kw": ["wie", "lange", "dauert"], "next": "n6" }, { "kw": ["dauert"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Bei zehn Flaschen dauert es meistens nur ein paar Minuten. Danach lösen Sie den Bon an der Kasse ein.",
+          "goal": { "en": "Thank him for his help and say goodbye.", "ur": "Madad ka shukriya karein aur khuda hafiz." },
+          "options": ["Vielen Dank, Sie haben mir sehr geholfen.", "Danke schön, das hat sehr geholfen."],
+          "fallback": "Ist alles klar jetzt?",
+          "accept": [
+            { "kw": ["danke", "geholfen"], "reply": "Gern geschehen, viel Erfolg!", "next": "END" },
+            { "kw": ["danke"], "reply": "Gern geschehen, viel Erfolg!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

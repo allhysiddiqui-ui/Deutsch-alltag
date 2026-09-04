@@ -1,0 +1,220 @@
+{
+  "id": "obst-gemuese",
+  "order": 1,
+  "icon": "🍅",
+  "title": { "de": "Obst und Gemüse kaufen", "en": "Buying fruit and vegetables", "ur": "Phal aur sabziyan khareedna" },
+  "angle": "At Herr Brandt's fruit and vegetable stand · Herr Brandt ke phal sabzi stall par",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["kilo", "handvoll", "stück", "tomate", "apfel", "kartoffel", "gurke", "tüte", "wiegen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was darf es sein?", "en": "Hello! What would you like?", "ur": "Salam! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte ein Kilo Tomaten.", "en": "Hello. I would like a kilo of tomatoes.", "ur": "Salam. Mujhe ek kilo tamatar chahiye." },
+        { "s": "A", "de": "Gerne, kommt sofort.", "en": "Sure, coming right up.", "ur": "Zaroor, abhi deta hoon." },
+        { "s": "B", "de": "Haben Sie auch Äpfel?", "en": "Do you also have apples?", "ur": "Kya aap ke paas seb bhi hain?" },
+        { "s": "A", "de": "Ja, wie viele möchten Sie?", "en": "Yes, how many would you like?", "ur": "Ji haan, aap kitne chahte hain?" },
+        { "s": "B", "de": "Fünf Stück, bitte.", "en": "Five pieces, please.", "ur": "Paanch daane, please." },
+        { "s": "A", "de": "Und sonst noch etwas?", "en": "And anything else?", "ur": "Aur kuch aur?" },
+        { "s": "B", "de": "Zwei Kartoffeln und eine Gurke, bitte.", "en": "Two potatoes and one cucumber, please.", "ur": "Do aloo aur ek kheera, please." },
+        { "s": "A", "de": "Kommt alles in die Tüte.", "en": "It all goes in the bag.", "ur": "Sab bag mein daal deta hoon." },
+        { "s": "B", "de": "Wie viel kostet das zusammen?", "en": "How much does that cost altogether?", "ur": "Yeh sab milaakar kitne ka hai?" },
+        { "s": "A", "de": "Das macht neun Euro.", "en": "That comes to nine euros.", "ur": "Yeh nau euro ka bana." },
+        { "s": "B", "de": "Bitte schön, und vielen Dank.", "en": "Here you go, and thank you.", "ur": "Yeh lijiye, aur bohat shukriya." },
+        { "s": "A", "de": "Ich danke Ihnen. Schönen Tag noch!", "en": "Thank you. Have a nice day!", "ur": "Shukriya. Acha din guzare!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen! Womit kann ich Ihnen helfen?", "en": "Good morning! What can I help you with?", "ur": "Subh bakhair! Main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Morgen. Ich hätte gern Tomaten, aber nicht zu viele.", "en": "Good morning. I'd like some tomatoes, but not too many.", "ur": "Subh bakhair. Mujhe tamatar chahiye, lekin zyada nahi." },
+        { "s": "A", "de": "Wie wäre es mit einer Handvoll? Das reicht meistens für zwei Tage.", "en": "How about a handful? That's usually enough for two days.", "ur": "Ek mutthi kaisi rahegi? Aksar do din ke liye kaafi hoti hai." },
+        { "s": "B", "de": "Gut, eine Handvoll Tomaten, bitte.", "en": "Good, a handful of tomatoes, please.", "ur": "Theek hai, ek mutthi tamatar, please." },
+        { "s": "A", "de": "Sonst noch etwas für Sie?", "en": "Anything else for you?", "ur": "Aap ke liye aur kuch?" },
+        { "s": "B", "de": "Ja, was kosten die Kartoffeln pro Kilo?", "en": "Yes, how much are the potatoes per kilo?", "ur": "Ji haan, aloo fi kilo kitne ke hain?" },
+        { "s": "A", "de": "Zwei Euro fünfzig das Kilo.", "en": "Two euros fifty per kilo.", "ur": "Do euro pachaas cent fi kilo." },
+        { "s": "B", "de": "Dann nehme ich drei Kilo Kartoffeln.", "en": "Then I'll take three kilos of potatoes.", "ur": "To phir main teen kilo aloo lay leti hoon." },
+        { "s": "A", "de": "Kein Problem. Das wird gleich gewogen.", "en": "No problem. That'll be weighed right away.", "ur": "Koi masla nahi. Abhi wazan kar deta hoon." },
+        { "s": "B", "de": "Danke. Haben Sie auch frische Gurken?", "en": "Thanks. Do you also have fresh cucumbers?", "ur": "Shukriya. Kya aap ke paas taaza kheere bhi hain?" },
+        { "s": "A", "de": "Ja, die Gurken sind heute ganz frisch.", "en": "Yes, the cucumbers are very fresh today.", "ur": "Ji haan, aaj kheere bilkul taaza hain." },
+        { "s": "B", "de": "Dann nehme ich zwei Stück, bitte.", "en": "Then I'll take two pieces, please.", "ur": "To phir do daane lay leti hoon, please." },
+        { "s": "A", "de": "Alles zusammen macht das elf Euro fünfzig.", "en": "Altogether that comes to eleven euros fifty.", "ur": "Sab milaakar gyarah euro pachaas cent bante hain." },
+        { "s": "B", "de": "Hier, bitte. Passt es so?", "en": "Here you go. Does that work out?", "ur": "Yeh lijiye. Theek hai kya?" },
+        { "s": "A", "de": "Ja, das passt genau. Vielen Dank und bis bald!", "en": "Yes, that's exact. Thank you and see you soon!", "ur": "Ji, bilkul theek hai. Shukriya, jald milte hain!" },
+        { "s": "B", "de": "Bis bald, auf Wiedersehen!", "en": "See you soon, goodbye!", "ur": "Jald milte hain, khuda hafiz!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich Ihnen anbieten?", "en": "Hello, what can I offer you?", "ur": "Salam, main aap ko kya pesh karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich suche gute Tomaten für einen Salat heute Abend.", "en": "Hello. I'm looking for good tomatoes for a salad tonight.", "ur": "Salam. Mujhe aaj raat ke salad ke liye achay tamatar chahiye." },
+        { "s": "A", "de": "Diese hier sind besonders gut, sie schmecken sehr aromatisch.", "en": "These here are especially good, they taste very aromatic.", "ur": "Yeh wale khaas tor par achay hain, in ka zaiqa bohat khushbudaar hai." },
+        { "s": "B", "de": "Die sind wirklich schön. Wie viel würden Sie für einen Salat empfehlen?", "en": "Those are really nice. How much would you recommend for a salad?", "ur": "Yeh waqai achay hain. Salad ke liye kitna tajweez karenge?" },
+        { "s": "A", "de": "Für vier Personen reicht ungefähr ein Kilo.", "en": "For four people about one kilo is enough.", "ur": "Chaar logon ke liye taqreeban ek kilo kaafi hai." },
+        { "s": "B", "de": "Gut, dann nehme ich ein Kilo davon.", "en": "Good, then I'll take a kilo of that.", "ur": "Theek hai, to main us ka ek kilo lay leti hoon." },
+        { "s": "A", "de": "Möchten Sie auch etwas Gemüse für eine Suppe dazu?", "en": "Would you also like some vegetables for a soup as well?", "ur": "Kya aap ko soup ke liye kuch sabzi bhi chahiye?" },
+        { "s": "B", "de": "Ja, gerne. Was würden Sie empfehlen?", "en": "Yes, gladly. What would you recommend?", "ur": "Ji, zaroor. Aap kya tajweez karenge?" },
+        { "s": "A", "de": "Kartoffeln und Zwiebeln passen gut zusammen für eine Suppe.", "en": "Potatoes and onions go well together for a soup.", "ur": "Aloo aur pyaz soup ke liye achi tarah milte hain." },
+        { "s": "B", "de": "In Ordnung, geben Sie mir bitte zwei Kilo Kartoffeln und eine Zwiebel.", "en": "All right, please give me two kilos of potatoes and one onion.", "ur": "Theek hai, mujhe do kilo aloo aur ek pyaz dedein." },
+        { "s": "A", "de": "Die Zwiebel verschenke ich Ihnen dazu, ohne Aufpreis.", "en": "I'll give you the onion for free, no extra charge.", "ur": "Pyaz main aap ko muft de deta hoon, koi extra paisa nahi." },
+        { "s": "B", "de": "Das ist sehr nett, vielen Dank. Was macht das zusammen?", "en": "That's very kind, thank you. What does that come to altogether?", "ur": "Yeh bohat acha hai, shukriya. Sab milaakar kitna bana?" },
+        { "s": "A", "de": "Zusammen sind das dreizehn Euro achtzig.", "en": "Altogether that's thirteen euros eighty.", "ur": "Sab milaakar terah euro assi cent bante hain." },
+        { "s": "B", "de": "Haben Sie es auch klein? Ich habe nur einen großen Schein.", "en": "Do you have change? I only have a large banknote.", "ur": "Kya aap ke paas chhota note hai? Mere paas sirf bara note hai." },
+        { "s": "A", "de": "Kein Problem, ich habe genug Wechselgeld.", "en": "No problem, I have enough change.", "ur": "Koi masla nahi, mere paas kaafi baaqi paise hain." },
+        { "s": "B", "de": "Wunderbar. Hier, bitte, und vielen Dank.", "en": "Wonderful. Here you go, and thank you very much.", "ur": "Bohat khoob. Yeh lijiye, aur bohat shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz! Sie kaufen heute wohl etwas mehr als sonst?", "en": "Hello, Mrs Yilmaz! Are you buying a bit more than usual today?", "ur": "Salam, Frau Yilmaz! Aaj shayad aap arsen se zyada khareed rahi hain?" },
+        { "s": "B", "de": "Guten Tag, Herr Brandt! Ja, wir haben am Wochenende Gäste, deshalb brauche ich etwas mehr Gemüse.", "en": "Hello, Mr Brandt! Yes, we have guests this weekend, so I need a bit more vegetables.", "ur": "Salam, Herr Brandt! Ji haan, weekend par hamare paas mehmaan hain, isi liye mujhe thori zyada sabzi chahiye." },
+        { "s": "A", "de": "Wie viele Personen werden es denn sein?", "en": "How many people will it be, then?", "ur": "To kitne log honge?" },
+        { "s": "B", "de": "Ungefähr zehn, deshalb wollte ich fragen, welche Tomaten Sie für einen großen Salat empfehlen würden.", "en": "About ten, so I wanted to ask which tomatoes you would recommend for a big salad.", "ur": "Taqreeban das, isi liye poochna chahti thi ke bare salad ke liye aap kaun se tamatar tajweez karenge." },
+        { "s": "A", "de": "Diese Sorte hier würde ich nehmen, sie schmeckt kräftiger als die kleineren.", "en": "I would take this variety here, it tastes stronger than the smaller ones.", "ur": "Main yeh qisam loonga, iska zaiqa chhoton se zyada tez hai." },
+        { "s": "B", "de": "Das klingt gut. Reicht ein Kilo für zehn Personen als Beilage?", "en": "That sounds good. Is a kilo enough for ten people as a side dish?", "ur": "Yeh acha lagta hai. Kya das logon ke liye side dish mein ek kilo kaafi hai?" },
+        { "s": "A", "de": "Wenn es noch andere Beilagen gibt, würde ich eher mit anderthalb Kilo rechnen.", "en": "If there are other side dishes too, I'd rather plan with one and a half kilos.", "ur": "Agar aur bhi side dishes hain to main derh kilo ka andaza lagaonga." },
+        { "s": "B", "de": "Gut, dann nehme ich anderthalb Kilo, und dazu die Kartoffeln, die Sie mir letztes Mal empfohlen haben.", "en": "Good, then I'll take one and a half kilos, and along with that the potatoes you recommended to me last time.", "ur": "Theek hai, to main derh kilo lay leti hoon, aur saath woh aloo jo aap ne pichli baar tajweez kiye thay." },
+        { "s": "A", "de": "Die mit der dünnen Schale? Die sind gerade wieder da und lassen sich schnell schälen.", "en": "The ones with the thin skin? Those are in again right now and peel quickly.", "ur": "Jin ka chilka patla hai? Woh abhi dobara aaye hain aur jaldi chhilte hain." },
+        { "s": "B", "de": "Genau die. Wie viel bräuchte ich davon für zehn Personen?", "en": "Exactly those. How much would I need of that for ten people?", "ur": "Bilkul wohi. Das logon ke liye mujhe kitna chahiye hoga?" },
+        { "s": "A", "de": "Bei einer Beilage würde ich mit drei Kilo planen, das ist meistens genug.", "en": "As a side dish I would plan with three kilos, that's usually enough.", "ur": "Side dish ke tor par main teen kilo ka mansooba banaonga, aksar itna kaafi hota hai." },
+        { "s": "B", "de": "In Ordnung, dann nehme ich drei Kilo Kartoffeln und anderthalb Kilo Tomaten.", "en": "All right, then I'll take three kilos of potatoes and one and a half kilos of tomatoes.", "ur": "Theek hai, to main teen kilo aloo aur derh kilo tamatar lay leti hoon." },
+        { "s": "A", "de": "Möchten Sie dazu noch eine Zwiebel für den Salat?", "en": "Would you like an onion for the salad as well?", "ur": "Kya salad ke liye ek pyaz bhi chahiye?" },
+        { "s": "B", "de": "Ja, gerne, eine Zwiebel würde gut passen. Was macht das zusammen?", "en": "Yes, gladly, an onion would go well. What does that come to altogether?", "ur": "Ji, zaroor, pyaz achi tarah milega. Sab milaakar kitna bana?" },
+        { "s": "A", "de": "Einen Moment, ich rechne kurz nach … das wären insgesamt vierzehn Euro fünfzig.", "en": "One moment, let me just recalculate … that would be fourteen euros fifty in total.", "ur": "Ek minute, zara hisaab lagata hoon … kul milaakar chaudah euro pachaas cent banenge." },
+        { "s": "B", "de": "Das ist fair. Ich bezahle bar, wenn das in Ordnung ist.", "en": "That's fair. I'll pay cash, if that's all right.", "ur": "Yeh munasib hai. Main cash de deti hoon, agar theek hai." },
+        { "s": "A", "de": "Selbstverständlich. Vielen Dank für den großen Einkauf, Frau Yilmaz.", "en": "Of course. Thank you very much for the big purchase, Mrs Yilmaz.", "ur": "Bilkul. Itni bari khareedari ka bohat shukriya, Frau Yilmaz." },
+        { "s": "B", "de": "Ich danke Ihnen für die gute Beratung. Bis zum nächsten Mal!", "en": "Thank you for the good advice. Until next time!", "ur": "Aap ki achi rehnumai ka shukriya. Agli baar tak!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie sind am Marktstand von Herrn Brandt. Sie möchten ein Kilo Tomaten, fünf Äpfel und etwas Gemüse kaufen.",
+        "en": "You're at Herr Brandt's market stall. You want to buy a kilo of tomatoes, five apples and some vegetables.",
+        "ur": "Aap Herr Brandt ke market stall par hain. Aap ek kilo tamatar, paanch seb aur kuch sabzi khareedna chahte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was darf es sein?",
+          "goal": { "en": "Greet and say you'd like a kilo of tomatoes.", "ur": "Salam karein aur kahein ke ek kilo tamatar chahiye." },
+          "options": ["Guten Tag. Ich möchte ein Kilo Tomaten.", "Guten Tag, ich hätte gern ein Kilo Tomaten."],
+          "fallback": "Entschuldigung, was möchten Sie?",
+          "accept": [{ "kw": ["kilo", "tomaten"], "next": "n2" }, { "kw": ["tomaten"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gerne, kommt sofort. Sonst noch etwas?",
+          "goal": { "en": "Say yes, you'd also like apples.", "ur": "Kahein: haan, seb bhi chahiye." },
+          "options": ["Ja, ich möchte auch Äpfel.", "Ja, ich hätte gern Äpfel."],
+          "fallback": "Möchten Sie noch etwas?",
+          "accept": [{ "kw": ["ja", "äpfel"], "next": "n3" }, { "kw": ["äpfel"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Wie viele möchten Sie?",
+          "goal": { "en": "Say five pieces, please.", "ur": "Kahein: paanch daane, please." },
+          "options": ["Fünf Stück, bitte.", "Fünf Äpfel, bitte."],
+          "fallback": "Wie viele Äpfel soll ich Ihnen geben?",
+          "accept": [{ "kw": ["fünf", "stück"], "next": "n4" }, { "kw": ["fünf"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Und sonst noch etwas?",
+          "goal": { "en": "Ask for two potatoes and a cucumber.", "ur": "Do aloo aur ek kheera maangein." },
+          "options": ["Zwei Kartoffeln und eine Gurke, bitte.", "Ich hätte gern zwei Kartoffeln und eine Gurke."],
+          "fallback": "Brauchen Sie noch Gemüse?",
+          "accept": [{ "kw": ["kartoffeln", "gurke"], "next": "n5" }, { "kw": ["kartoffeln"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gut. Das macht neun Euro.",
+          "goal": { "en": "Hand over the money.", "ur": "Paise dein." },
+          "options": ["Bitte schön.", "Hier, bitte."],
+          "fallback": "Haben Sie das Geld?",
+          "accept": [{ "kw": ["bitte"], "next": "n6" }, { "kw": ["hier"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Vielen Dank. Schönen Tag noch!",
+          "goal": { "en": "Thank him and say goodbye.", "ur": "Shukriya kahein aur khuda hafiz." },
+          "options": ["Danke, Ihnen auch! Auf Wiedersehen.", "Vielen Dank, auf Wiedersehen!"],
+          "fallback": "War das alles?",
+          "accept": [
+            { "kw": ["danke", "wiedersehen"], "reply": "Ihnen auch, auf Wiedersehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Ihnen auch, auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie möchten nur eine kleine Menge Tomaten, fragen nach dem Kilopreis der Kartoffeln und nach frischen Gurken.",
+        "en": "You want only a small amount of tomatoes, ask about the price per kilo for potatoes, and about fresh cucumbers.",
+        "ur": "Aap sirf thore tamatar chahte hain, aloo ki fi kilo qeemat poochte hain, aur taaza kheeron ke baare mein bhi."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen! Womit kann ich Ihnen helfen?",
+          "goal": { "en": "Say you'd like tomatoes, but not too many.", "ur": "Kahein ke tamatar chahiye, lekin zyada nahi." },
+          "options": ["Ich hätte gern Tomaten, aber nicht zu viele.", "Ich möchte Tomaten, aber nur wenige."],
+          "fallback": "Was brauchen Sie genau?",
+          "accept": [{ "kw": ["tomaten"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wie wäre es mit einer Handvoll? Das reicht meistens für zwei Tage.",
+          "goal": { "en": "Agree that a handful of tomatoes is fine.", "ur": "Kahein ke ek mutthi tamatar theek hai." },
+          "options": ["Gut, eine Handvoll Tomaten, bitte.", "Ja, eine Handvoll reicht."],
+          "fallback": "Ist eine Handvoll genug für Sie?",
+          "accept": [{ "kw": ["handvoll"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Sonst noch etwas für Sie?",
+          "goal": { "en": "Ask what the potatoes cost per kilo.", "ur": "Poochein ke aloo fi kilo kitne ke hain." },
+          "options": ["Was kosten die Kartoffeln pro Kilo?", "Wie viel kosten die Kartoffeln pro Kilo?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["kartoffeln", "kosten"], "next": "n4" }, { "kw": ["kartoffeln"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Zwei Euro fünfzig das Kilo.",
+          "goal": { "en": "Order three kilos of potatoes.", "ur": "Teen kilo aloo mangwayein." },
+          "options": ["Dann nehme ich drei Kilo Kartoffeln.", "Ich nehme drei Kilo davon."],
+          "fallback": "Wie viel möchten Sie davon?",
+          "accept": [{ "kw": ["drei", "kilo"], "next": "n5" }, { "kw": ["drei"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Kein Problem. Sonst noch ein Wunsch?",
+          "goal": { "en": "Ask if the cucumbers are fresh.", "ur": "Poochein ke kheere taaza hain ya nahi." },
+          "options": ["Sind die Gurken frisch?", "Haben Sie auch frische Gurken?"],
+          "fallback": "Möchten Sie noch etwas anderes?",
+          "accept": [{ "kw": ["gurken", "frisch"], "next": "n6" }, { "kw": ["gurken"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, die sind heute ganz frisch. Möchten Sie welche?",
+          "goal": { "en": "Say yes, two pieces please, thank him and say goodbye.", "ur": "Kahein: haan, do daane please, shukriya aur khuda hafiz." },
+          "options": ["Ja, zwei Stück, bitte. Vielen Dank.", "Ja, zwei Stück, bitte. Danke schön."],
+          "fallback": "Wie viele Gurken möchten Sie?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gern geschehen, bis bald!", "next": "END" },
+            { "kw": ["zwei", "stück"], "reply": "Gern geschehen, bis bald!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "restposten",
+  "order": 5,
+  "icon": "🧺",
+  "title": { "de": "Restposten am Ende des Markttages", "en": "Leftover bargains at the end of market day", "ur": "Bazar band hone se pehle sasta maal" },
+  "angle": "Getting a bundle deal on end-of-day leftovers · Din ke aakhir mein bache huay maal par deal lena",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["restposten", "übrig", "rabatt", "feierabend", "gemischt", "kiste", "verschenken", "spontan", "sparen"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Es ist bald Feierabend, ich habe noch Restposten.", "en": "Hello! It's almost closing time, I still have some leftovers.", "ur": "Salam! Bandh hone ka waqt hai, mere paas kuch bacha hua maal hai." },
+        { "s": "B", "de": "Guten Tag. Was haben Sie denn übrig?", "en": "Hello. What do you have left over, then?", "ur": "Salam. Aap ke paas kya bacha hai?" },
+        { "s": "A", "de": "Tomaten, Äpfel und ein paar Kartoffeln.", "en": "Tomatoes, apples and a few potatoes.", "ur": "Tamatar, seb aur thore aloo." },
+        { "s": "B", "de": "Wie viel kostet das zusammen?", "en": "How much does that cost altogether?", "ur": "Yeh sab milaakar kitne ka hai?" },
+        { "s": "A", "de": "Für die ganze Kiste nur fünf Euro.", "en": "Only five euros for the whole box.", "ur": "Poori peti sirf paanch euro ki." },
+        { "s": "B", "de": "Das ist wirklich günstig!", "en": "That's really cheap!", "ur": "Yeh waqai sasta hai!" },
+        { "s": "A", "de": "Ja, heute gibt es extra Rabatt.", "en": "Yes, today there's an extra discount.", "ur": "Ji, aaj extra chhoot hai." },
+        { "s": "B", "de": "Gut, dann nehme ich die Kiste.", "en": "Good, then I'll take the box.", "ur": "Theek hai, to peti lay leti hoon." },
+        { "s": "A", "de": "Möchten Sie noch mehr? Ich verschenke auch ein paar Zwiebeln.", "en": "Would you like more? I'm also giving away a few onions.", "ur": "Kuch aur chahiye? Kuch pyaz bhi muft de raha hoon." },
+        { "s": "B", "de": "Ja, gerne, vielen Dank!", "en": "Yes, gladly, thank you very much!", "ur": "Ji, zaroor, bohat shukriya!" },
+        { "s": "A", "de": "Bitte schön, hier ist alles gemischt drin.", "en": "Here you are, it's all mixed together in here.", "ur": "Yeh lijiye, is mein sab kuch mila hua hai." },
+        { "s": "B", "de": "Perfekt, so spare ich heute viel Geld.", "en": "Perfect, that way I save a lot of money today.", "ur": "Bilkul theek, is tarah aaj bohat paise bachte hain." },
+        { "s": "A", "de": "Kommen Sie morgen wieder, dann gibt es Neues!", "en": "Come again tomorrow, then there will be something new!", "ur": "Kal phir aayein, tab kuch naya hoga!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Abend! Ich mache gleich Feierabend, möchten Sie noch etwas?", "en": "Good evening! I'm about to close up, would you like anything?", "ur": "Shaam bakhair! Main abhi bandh kar raha hoon, kuch chahiye?" },
+        { "s": "B", "de": "Guten Abend. Haben Sie noch Restposten übrig?", "en": "Good evening. Do you still have leftovers?", "ur": "Shaam bakhair. Kya kuch bacha hua maal hai?" },
+        { "s": "A", "de": "Ja, eine Kiste mit gemischtem Obst und Gemüse.", "en": "Yes, a box with mixed fruit and vegetables.", "ur": "Ji, phal aur sabzi mile jule peti mein hain." },
+        { "s": "B", "de": "Was ist denn alles drin?", "en": "What's all in it, then?", "ur": "Isme kya kya hai?" },
+        { "s": "A", "de": "Tomaten, Gurken, ein paar Äpfel und etwas Salat.", "en": "Tomatoes, cucumbers, a few apples and some lettuce.", "ur": "Tamatar, kheera, thore seb aur kuch salad." },
+        { "s": "B", "de": "Klingt gut. Was kostet die Kiste?", "en": "Sounds good. What does the box cost?", "ur": "Acha lagta hai. Peti ki qeemat kya hai?" },
+        { "s": "A", "de": "Normalerweise zwölf Euro, aber jetzt gebe ich Ihnen fünfzig Prozent Rabatt.", "en": "Normally twelve euros, but now I'll give you fifty percent discount.", "ur": "Aam tor par barah euro, lekin ab pachaas percent chhoot deta hoon." },
+        { "s": "B", "de": "Also sechs Euro für alles?", "en": "So six euros for everything?", "ur": "To sab kuch chhe euro ka?" },
+        { "s": "A", "de": "Genau, weil ich es sonst wegwerfen müsste.", "en": "Exactly, because otherwise I'd have to throw it away.", "ur": "Bilkul, kyunke warna mujhe yeh phenkna parega." },
+        { "s": "B", "de": "Das wäre wirklich schade. Ich nehme die Kiste spontan mit.", "en": "That would really be a shame. I'll take the box on a whim.", "ur": "Yeh waqai afsos ki baat hogi. Main foran peti le leti hoon." },
+        { "s": "A", "de": "Gute Entscheidung, so sparen wir beide.", "en": "Good decision, this way we both save.", "ur": "Achi tajweez, is tarah hum dono bachate hain." },
+        { "s": "B", "de": "Stimmt, ich spare Geld und Sie müssen nichts wegwerfen.", "en": "True, I save money and you don't have to throw anything away.", "ur": "Sahi kaha, mere paise bachte hain aur aap ko kuch phenkna nahi parta." },
+        { "s": "A", "de": "Genau. Möchten Sie noch eine zweite Kiste zum halben Preis?", "en": "Exactly. Would you like a second box at half price?", "ur": "Bilkul. Kya doosri peti aadhi qeemat par chahiye?" },
+        { "s": "B", "de": "Nein, eine reicht mir für heute.", "en": "No, one is enough for me today.", "ur": "Nahi, aaj ke liye ek kaafi hai." },
+        { "s": "A", "de": "Verstehe. Vielen Dank für Ihren spontanen Einkauf!", "en": "I understand. Thank you very much for your spontaneous purchase!", "ur": "Samajh gaya. Aap ki achanak khareedari ka bohat shukriya!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, wir machen bald Feierabend, deshalb gibt es jetzt Restposten.", "en": "Hello, we're closing up soon, so now there are leftovers.", "ur": "Salam, hum jald bandh kar rahe hain, isi liye ab bacha hua maal hai." },
+        { "s": "B", "de": "Guten Tag. Was für Restposten haben Sie denn heute?", "en": "Hello. What kind of leftovers do you have today, then?", "ur": "Salam. Aaj aap ke paas kya bacha hua maal hai?" },
+        { "s": "A", "de": "Vor allem Obst und Gemüse, das wir bis morgen nicht mehr frisch halten können.", "en": "Mainly fruit and vegetables that we can't keep fresh until tomorrow anymore.", "ur": "Zyada tar phal aur sabzi jo hum kal tak taaza nahi rakh sakte." },
+        { "s": "B", "de": "Ist daran denn etwas nicht in Ordnung?", "en": "Is there something wrong with it, then?", "ur": "Kya usme koi masla hai?" },
+        { "s": "A", "de": "Nein, gar nicht, es ist nur etwas reifer als das, was wir am Morgen verkaufen.", "en": "No, not at all, it's just a bit riper than what we sell in the morning.", "ur": "Nahi, bilkul nahi, yeh sirf subh bikne wale se thora zyada pakka hai." },
+        { "s": "B", "de": "Das stört mich überhaupt nicht, im Gegenteil, so schmeckt es meistens noch süßer.", "en": "That doesn't bother me at all, on the contrary, it usually tastes even sweeter that way.", "ur": "Yeh mujhe bilkul pareshan nahi karta, ulta, is tarah zaiqa aur bhi meetha hota hai." },
+        { "s": "A", "de": "Genau, und deshalb gebe ich am Ende des Tages immer einen großen Rabatt darauf.", "en": "Exactly, and that's why I always give a big discount on it at the end of the day.", "ur": "Bilkul, isi liye din ke aakhir mein hamesha bari chhoot deta hoon." },
+        { "s": "B", "de": "Wie viel würde denn eine gemischte Kiste heute kosten?", "en": "How much would a mixed box cost today, then?", "ur": "To aaj mili juli peti ki qeemat kya hogi?" },
+        { "s": "A", "de": "Normalerweise wäre das für zwanzig Euro Ware, heute mache ich Ihnen das für zehn.", "en": "Normally that would be twenty euros' worth, today I'll do it for you for ten.", "ur": "Aam tor par yeh bees euro ka maal hai, aaj main dus euro mein de deta hoon." },
+        { "s": "B", "de": "Das ist wirklich ein fairer Preis, den nehme ich gern spontan mit.", "en": "That's really a fair price, I'll happily take that on a whim.", "ur": "Yeh waqai munasib qeemat hai, main foran le leti hoon." },
+        { "s": "A", "de": "Soll ich Ihnen noch ein paar Kräuter dazugeben? Die werden sonst auch nicht mehr verkauft.", "en": "Shall I add a few herbs for you? They won't be sold anymore either otherwise.", "ur": "Kya kuch jari-booti bhi saath de doon? Warna yeh bhi nahi bikengi." },
+        { "s": "B", "de": "Ja, sehr gerne, dann verschenken Sie mir die einfach dazu.", "en": "Yes, very gladly, then just give those to me for free as well.", "ur": "Ji, bohat zaroor, to yeh bhi mujhe muft de dein." },
+        { "s": "A", "de": "Mache ich. So landet wenigstens nichts im Müll.", "en": "I'll do that. This way at least nothing ends up in the trash.", "ur": "Zaroor. Is tarah kam az kam kuch bhi kooray mein nahi jayega." },
+        { "s": "B", "de": "Das finde ich wirklich gut, ich mag es gar nicht, wenn Lebensmittel verschwendet werden.", "en": "I think that's really good, I really don't like it when food is wasted.", "ur": "Mujhe yeh waqai acha lagta hai, mujhe bilkul pasand nahi jab khane ki cheezein zaya hoti hain." },
+        { "s": "A", "de": "Genau deshalb mache ich das jeden Tag am Ende gern.", "en": "That's exactly why I like doing this every day at the end.", "ur": "Isi liye main yeh har roz aakhir mein khushi se karta hoon." },
+        { "s": "B", "de": "Vielen Dank, das war heute wirklich fair von Ihnen.", "en": "Thank you very much, that was really fair of you today.", "ur": "Bohat shukriya, yeh aaj waqai aap ki taraf se munsifana tha." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz! Sie kommen ja oft genau zum Feierabend, das passt gut.", "en": "Hello, Mrs Yilmaz! You often come right at closing time, that works out well.", "ur": "Salam, Frau Yilmaz! Aap aksar bandh hone ke waqt hi aati hain, yeh acha rehta hai." },
+        { "s": "B", "de": "Guten Tag, Herr Brandt! Ich wollte fragen, ob heute wieder viel übrig geblieben ist.", "en": "Hello, Mr Brandt! I wanted to ask whether a lot is left over again today.", "ur": "Salam, Herr Brandt! Main poochna chahti thi ke aaj phir bohat kuch bach gaya hai kya." },
+        { "s": "A", "de": "Mehr als sonst, das Wetter war heute schlechter, deshalb kamen weniger Kunden.", "en": "More than usual, the weather was worse today, so fewer customers came.", "ur": "Arsen se zyada, aaj mausam kharab tha, isi liye kam customers aaye." },
+        { "s": "B", "de": "Das tut mir leid für Sie. Was passiert eigentlich mit dem, was nicht verkauft wird?", "en": "I'm sorry to hear that. What actually happens to what doesn't get sold?", "ur": "Mujhe afsos hai. Jo nahi bikta us ka kya hota hai?" },
+        { "s": "A", "de": "Vieles gebe ich stark reduziert ab, damit wenigstens nichts im Müll landet.", "en": "I sell a lot at a heavily reduced price, so that at least nothing ends up in the trash.", "ur": "Zyada tar cheezein bohat sasti bech deta hoon, taake kam az kam kuch kooray mein na jaye." },
+        { "s": "B", "de": "Das finde ich großartig, so wird wenigstens nichts verschwendet.", "en": "I think that's great, at least nothing gets wasted that way.", "ur": "Mujhe yeh bohat acha lagta hai, is tarah kam az kam kuch zaya nahi hota." },
+        { "s": "A", "de": "Genau das ist mir wichtig, auch wenn es finanziell nicht viel bringt.", "en": "That's exactly what matters to me, even if it doesn't bring in much financially.", "ur": "Yehi baat mere liye ahem hai, chahe maali tor par zyada faida na ho." },
+        { "s": "B", "de": "Dürfte ich Ihnen heute etwas mehr abnehmen als sonst, damit weniger übrig bleibt?", "en": "Might I take a bit more off your hands today than usual, so that less is left over?", "ur": "Kya main aaj arsen se thora zyada le loon, taake kam bache?" },
+        { "s": "A", "de": "Das wäre wunderbar, ich mache Ihnen dann einen besonders guten Preis für zwei Kisten.", "en": "That would be wonderful, then I'll give you a especially good price for two boxes.", "ur": "Yeh bohat acha hoga, to main aap ko do peti ka khaas acha rate de deta hoon." },
+        { "s": "B", "de": "Gern, was wäre denn ein fairer Preis für beide zusammen?", "en": "Gladly, what would be a fair price for both together, then?", "ur": "Zaroor, dono ke liye munasib qeemat kya hogi?" },
+        { "s": "A", "de": "Sagen wir fünfzehn Euro für beide, normalerweise wären das über vierzig.", "en": "Let's say fifteen euros for both, normally that would be over forty.", "ur": "Chaliye dono ke pandrah euro rakh lete hain, aam tor par yeh chaalees se zyada hote." },
+        { "s": "B", "de": "Das ist wirklich großzügig, vielen Dank.", "en": "That's really generous, thank you very much.", "ur": "Yeh waqai fayyazana hai, bohat shukriya." },
+        { "s": "A", "de": "Ich danke Ihnen, dass Sie regelmäßig am Ende des Tages vorbeischauen.", "en": "Thank you for regularly stopping by at the end of the day.", "ur": "Aap ka shukriya ke aap baqaidgi se din ke aakhir mein aati hain." },
+        { "s": "B", "de": "Mache ich gern, besonders wenn es dabei hilft, Lebensmittel zu retten.", "en": "I'm glad to, especially when it helps save food along the way.", "ur": "Khushi se karti hoon, khaas kar jab yeh khana bachane mein madad kare." },
+        { "s": "A", "de": "Genau darum geht es mir auch.", "en": "That's exactly what it's about for me too.", "ur": "Mere liye bhi yehi baat ahem hai." },
+        { "s": "B", "de": "Dann sehen wir uns nächste Woche wieder, wie immer kurz vor Feierabend.", "en": "Then we'll see each other again next week, as always just before closing time.", "ur": "To agle hafte phir milte hain, hamesha ki tarah bandh hone se pehle." },
+        { "s": "A", "de": "Sehr gern, bis dahin, und schönen Feierabend noch!", "en": "Very gladly, until then, and have a good end of the day!", "ur": "Bohat khushi se, tab tak, aur din acha guzray!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Es ist fast Feierabend. Sie fragen nach Restposten, kaufen eine Kiste und bekommen ein paar Zwiebeln geschenkt.",
+        "en": "It's almost closing time. You ask about leftovers, buy a box, and get some onions for free.",
+        "ur": "Bandh hone ka waqt hai. Aap bacha hua maal poochte hain, ek peti khareedte hain, aur kuch pyaz muft milte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Es ist bald Feierabend, ich habe noch Restposten.",
+          "goal": { "en": "Greet and ask what's left over.", "ur": "Salam karein aur poochein ke kya bacha hai." },
+          "options": ["Guten Tag. Was haben Sie denn übrig?", "Guten Tag, was ist noch übrig?"],
+          "fallback": "Interessiert Sie das?",
+          "accept": [{ "kw": ["übrig"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Tomaten, Äpfel und ein paar Kartoffeln.",
+          "goal": { "en": "Ask how much that costs altogether.", "ur": "Poochein sab milaakar kitne ka hai." },
+          "options": ["Wie viel kostet das zusammen?", "Was kostet das alles zusammen?"],
+          "fallback": "Möchten Sie den Preis wissen?",
+          "accept": [{ "kw": ["kostet"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Für die ganze Kiste nur fünf Euro.",
+          "goal": { "en": "Say that's really cheap.", "ur": "Kahein: yeh waqai sasta hai." },
+          "options": ["Das ist wirklich günstig!", "Das ist ja sehr günstig!"],
+          "fallback": "Finden Sie das günstig?",
+          "accept": [{ "kw": ["günstig"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Ja, heute gibt es extra Rabatt.",
+          "goal": { "en": "Say good, you'll take the box.", "ur": "Kahein: theek hai, peti le loongi." },
+          "options": ["Gut, dann nehme ich die Kiste.", "Gut, ich nehme die Kiste."],
+          "fallback": "Möchten Sie die Kiste?",
+          "accept": [{ "kw": ["kiste"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Möchten Sie noch mehr? Ich verschenke auch ein paar Zwiebeln.",
+          "goal": { "en": "Say yes gladly, thank you.", "ur": "Kahein: ji zaroor, shukriya." },
+          "options": ["Ja, gerne, vielen Dank!", "Ja, sehr gern, danke!"],
+          "fallback": "Möchten Sie die Zwiebeln?",
+          "accept": [{ "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Bitte schön, hier ist alles gemischt drin.",
+          "goal": { "en": "Say perfect, that saves you a lot of money today.", "ur": "Kahein: bilkul theek, aaj bohat paise bachte hain." },
+          "options": ["Perfekt, so spare ich heute viel Geld.", "Toll, so spare ich heute viel."],
+          "fallback": "Freut Sie das?",
+          "accept": [
+            { "kw": ["spare"], "reply": "Kommen Sie morgen wieder!", "next": "END" },
+            { "kw": ["geld"], "reply": "Kommen Sie morgen wieder!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie fragen nach den heutigen Restposten, verhandeln über eine gemischte Kiste, und bekommen Kräuter dazugeschenkt.",
+        "en": "You ask about today's leftovers, negotiate a mixed box, and get herbs thrown in for free.",
+        "ur": "Aap aaj ka bacha hua maal poochte hain, mili juli peti par baat karte hain, aur jari-booti bhi muft milti hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, wir machen bald Feierabend, deshalb gibt es jetzt Restposten.",
+          "goal": { "en": "Ask what kind of leftovers he has today.", "ur": "Poochein ke aaj kya bacha hua maal hai." },
+          "options": ["Was für Restposten haben Sie denn heute?", "Was haben Sie heute für Restposten?"],
+          "fallback": "Interessieren Sie sich für Restposten?",
+          "accept": [{ "kw": ["restposten"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Vor allem Obst und Gemüse, das wir bis morgen nicht mehr frisch halten können.",
+          "goal": { "en": "Ask if something is wrong with it.", "ur": "Poochein ke kya isme koi masla hai." },
+          "options": ["Ist daran denn etwas nicht in Ordnung?", "Ist damit etwas nicht in Ordnung?"],
+          "fallback": "Haben Sie eine Frage dazu?",
+          "accept": [{ "kw": ["ordnung"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Nein, gar nicht, es ist nur etwas reifer als das, was wir am Morgen verkaufen.",
+          "goal": { "en": "Say that doesn't bother you at all, on the contrary.", "ur": "Kahein: yeh mujhe pareshan nahi karta, ulta." },
+          "options": ["Das stört mich überhaupt nicht, im Gegenteil.", "Das stört mich gar nicht, im Gegenteil."],
+          "fallback": "Stört Sie das?",
+          "accept": [{ "kw": ["stört"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Genau, und deshalb gebe ich am Ende des Tages immer einen großen Rabatt darauf.",
+          "goal": { "en": "Ask how much a mixed box would cost today.", "ur": "Poochein ke aaj mili juli peti ki qeemat kya hai." },
+          "options": ["Wie viel würde denn eine gemischte Kiste heute kosten?", "Was würde eine gemischte Kiste heute kosten?"],
+          "fallback": "Möchten Sie eine Kiste?",
+          "accept": [{ "kw": ["kiste"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Normalerweise wäre das für zwanzig Euro Ware, heute mache ich Ihnen das für zehn.",
+          "goal": { "en": "Say that's a really fair price, you'll take it on a whim.", "ur": "Kahein: yeh waqai munasib qeemat hai, foran le leti hoon." },
+          "options": ["Das ist wirklich ein fairer Preis, den nehme ich gern spontan mit.", "Das ist ein fairer Preis, ich nehme ihn spontan mit."],
+          "fallback": "Ist das ein guter Preis für Sie?",
+          "accept": [{ "kw": ["fairer"], "next": "n6" }, { "kw": ["spontan"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Soll ich Ihnen noch ein paar Kräuter dazugeben?",
+          "goal": { "en": "Say yes gladly, and thank him.", "ur": "Kahein: ji zaroor, shukriya kahein." },
+          "options": ["Ja, sehr gerne, vielen Dank!", "Ja, gerne, danke schön!"],
+          "fallback": "Möchten Sie die Kräuter?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Mache ich. Bis morgen!", "next": "END" },
+            { "kw": ["gerne"], "reply": "Mache ich. Bis morgen!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

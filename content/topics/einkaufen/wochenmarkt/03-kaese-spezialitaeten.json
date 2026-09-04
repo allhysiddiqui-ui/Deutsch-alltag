@@ -1,0 +1,218 @@
+{
+  "id": "kaese-spezialitaeten",
+  "order": 3,
+  "icon": "🧀",
+  "title": { "de": "Käse und Spezialitäten probieren", "en": "Trying cheese and specialties", "ur": "Cheese aur khaas cheezein chakhna" },
+  "angle": "At Herr Brandt's stand, tasting cheese and olives · Herr Brandt ke stall par cheese aur zaitoon chakhna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["käse", "oliven", "probieren", "mild", "würzig", "schafskäse", "ziegenkäse", "scheibe", "eingelegt"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Möchten Sie unseren Käse probieren?", "en": "Hello! Would you like to try our cheese?", "ur": "Salam! Kya aap hamara cheese chakhna chahengi?" },
+        { "s": "B", "de": "Guten Tag, gerne. Was für Käse haben Sie?", "en": "Hello, gladly. What kind of cheese do you have?", "ur": "Salam, zaroor. Aap ke paas kaisa cheese hai?" },
+        { "s": "A", "de": "Wir haben Schafskäse und Ziegenkäse.", "en": "We have sheep's cheese and goat's cheese.", "ur": "Hamare paas bhed aur bakri ka cheese hai." },
+        { "s": "B", "de": "Ich probiere zuerst den Schafskäse.", "en": "I'll try the sheep's cheese first.", "ur": "Main pehle bhed wala cheese chakhti hoon." },
+        { "s": "A", "de": "Hier, eine kleine Scheibe für Sie.", "en": "Here, a small slice for you.", "ur": "Yeh lein, aap ke liye ek chota tukra." },
+        { "s": "B", "de": "Mmh, der ist mild und lecker.", "en": "Mmh, that's mild and delicious.", "ur": "Mmh, yeh halka aur lazeez hai." },
+        { "s": "A", "de": "Der Ziegenkäse ist etwas würziger.", "en": "The goat's cheese is a bit spicier.", "ur": "Bakri ka cheese thora tez zaiqe wala hai." },
+        { "s": "B", "de": "Den probiere ich auch gern.", "en": "I'd like to try that one too.", "ur": "Woh bhi chakhna chahoongi." },
+        { "s": "A", "de": "Bitte, hier ist ein Stück.", "en": "Here, a piece for you.", "ur": "Lijiye, yeh ek tukra hai." },
+        { "s": "B", "de": "Der ist wirklich würzig, aber auch gut.", "en": "That's really spicy, but also good.", "ur": "Yeh waqai tez hai, lekin acha bhi hai." },
+        { "s": "A", "de": "Möchten Sie auch Oliven probieren?", "en": "Would you also like to try olives?", "ur": "Kya zaitoon bhi chakhna chahengi?" },
+        { "s": "B", "de": "Ja, gerne, sind die eingelegt?", "en": "Yes, gladly, are they marinated?", "ur": "Ji, zaroor, kya yeh masaledaar hain?" },
+        { "s": "A", "de": "Ja, in Öl mit Kräutern.", "en": "Yes, in oil with herbs.", "ur": "Ji, tel aur jari-booti ke saath." }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen! Darf ich Ihnen eine Kostprobe anbieten?", "en": "Good morning! May I offer you a sample?", "ur": "Subh bakhair! Kya main aap ko chakhne ke liye kuch de sakta hoon?" },
+        { "s": "B", "de": "Guten Morgen, gerne. Was empfehlen Sie mir heute?", "en": "Good morning, gladly. What do you recommend for me today?", "ur": "Subh bakhair, zaroor. Aaj aap kya tajweez karenge?" },
+        { "s": "A", "de": "Probieren Sie den Schafskäse, er ist mild und cremig.", "en": "Try the sheep's cheese, it's mild and creamy.", "ur": "Bhed wala cheese chakhein, yeh halka aur malaidaar hai." },
+        { "s": "B", "de": "Mmh, der schmeckt wirklich gut. Was kostet er?", "en": "Mmh, that tastes really good. How much does it cost?", "ur": "Mmh, iska zaiqa waqai acha hai. Iski qeemat kya hai?" },
+        { "s": "A", "de": "Zwölf Euro das Kilo, aber Sie können auch nur eine Scheibe kaufen.", "en": "Twelve euros a kilo, but you can also just buy one slice.", "ur": "Barah euro fi kilo, lekin aap sirf ek slice bhi khareed sakti hain." },
+        { "s": "B", "de": "Gut, dann nehme ich zwei Scheiben davon.", "en": "Good, then I'll take two slices of that.", "ur": "Theek hai, to do slice lay leti hoon." },
+        { "s": "A", "de": "Möchten Sie auch den Ziegenkäse probieren? Er ist würziger.", "en": "Would you also like to try the goat's cheese? It's spicier.", "ur": "Kya bakri wala cheese bhi chakhengi? Yeh zyada tez hai." },
+        { "s": "B", "de": "Ja, gerne. Ist der auch so mild?", "en": "Yes, gladly. Is that also as mild?", "ur": "Ji, zaroor. Kya woh bhi itna halka hai?" },
+        { "s": "A", "de": "Nein, der ist deutlich würziger als der Schafskäse.", "en": "No, it's clearly spicier than the sheep's cheese.", "ur": "Nahi, yeh bhed wale se kaafi zyada tez hai." },
+        { "s": "B", "de": "Interessant, den probiere ich auch.", "en": "Interesting, I'll try that one too.", "ur": "Dilchasp, main woh bhi chakhti hoon." },
+        { "s": "A", "de": "Hier, bitte. Was sagen Sie dazu?", "en": "Here you go. What do you say to that?", "ur": "Yeh lijiye. Aap ka kya khayal hai?" },
+        { "s": "B", "de": "Der gefällt mir sogar noch besser.", "en": "I even like that one better.", "ur": "Yeh mujhe aur bhi zyada pasand hai." },
+        { "s": "A", "de": "Möchten Sie dazu auch ein paar Oliven?", "en": "Would you also like some olives with that?", "ur": "Kya saath mein kuch zaitoon bhi chahenge?" },
+        { "s": "B", "de": "Ja, gerne. Sind die eingelegt in Öl?", "en": "Yes, gladly. Are they marinated in oil?", "ur": "Ji, zaroor. Kya yeh tel mein masaledaar hain?" },
+        { "s": "A", "de": "Ja, in Öl mit frischen Kräutern.", "en": "Yes, in oil with fresh herbs.", "ur": "Ji, tel aur taaza jari-booti ke saath." }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, haben Sie unseren Käse schon probiert?", "en": "Hello, have you already tried our cheese?", "ur": "Salam, kya aap ne hamara cheese chakha hai?" },
+        { "s": "B", "de": "Noch nicht, ich wollte fragen, was Sie mir für heute Abend empfehlen würden.", "en": "Not yet, I wanted to ask what you would recommend for me for tonight.", "ur": "Abhi nahi, main poochna chahti thi ke aaj raat ke liye aap kya tajweez karenge." },
+        { "s": "A", "de": "Das kommt darauf an, ob Sie es lieber mild oder würzig mögen.", "en": "That depends on whether you prefer it mild or spicy.", "ur": "Yeh is baat par hai ke aap halka pasand karti hain ya tez." },
+        { "s": "B", "de": "Ich mag beides, aber am liebsten etwas Besonderes.", "en": "I like both, but I'd prefer something special.", "ur": "Mujhe dono pasand hain, lekin sab se zyada kuch khaas cheez." },
+        { "s": "A", "de": "Dann probieren Sie den Ziegenkäse mit Kräutern, der ist bei uns sehr beliebt.", "en": "Then try the goat's cheese with herbs, it's very popular with us.", "ur": "To jari-booti wala bakri ka cheese chakhein, yeh hamare paas bohat pasandeeda hai." },
+        { "s": "B", "de": "Gerne. Woher kommt der eigentlich?", "en": "Gladly. Where does it actually come from?", "ur": "Zaroor. Yeh asal mein kahan se aata hai?" },
+        { "s": "A", "de": "Der stammt von einem kleinen Hof nicht weit von hier.", "en": "It comes from a small farm not far from here.", "ur": "Yeh yahan se zyada door na ek chhote farm se aata hai." },
+        { "s": "B", "de": "Das schmeckt man richtig, er ist frisch und würzig zugleich.", "en": "You can really taste that, it's fresh and spicy at the same time.", "ur": "Yeh sach mein mehsoos hota hai, yeh taaza aur tez dono hai." },
+        { "s": "A", "de": "Dazu passen die eingelegten Oliven besonders gut.", "en": "The marinated olives go especially well with that.", "ur": "Iske saath masaledaar zaitoon khaas tor par acha lagta hai." },
+        { "s": "B", "de": "Stimmt, die Kombination ist wirklich lecker.", "en": "True, the combination is really delicious.", "ur": "Sahi kaha, yeh mel waqai lazeez hai." },
+        { "s": "A", "de": "Ich würde außerdem etwas milderen Schafskäse dazunehmen.", "en": "I would also add some milder sheep's cheese.", "ur": "Main iske saath thora halka bhed wala cheese bhi le loonga." },
+        { "s": "B", "de": "Gute Idee, dann habe ich einen schönen Unterschied im Geschmack.", "en": "Good idea, then I'll have a nice contrast in taste.", "ur": "Achi soch, to phir zaiqe mein acha farq hoga." },
+        { "s": "A", "de": "Wie viel möchten Sie von jeder Sorte?", "en": "How much would you like of each kind?", "ur": "Aap har qisam mein se kitna chahengi?" },
+        { "s": "B", "de": "Jeweils hundert Gramm, bitte.", "en": "One hundred grams of each, please.", "ur": "Har ek sau gram, please." },
+        { "s": "A", "de": "Kommt sofort. Möchten Sie noch etwas dazu probieren?", "en": "Coming right up. Would you like to try anything else with that?", "ur": "Abhi laata hoon. Kya saath mein kuch aur chakhna chahengi?" },
+        { "s": "B", "de": "Nein, das reicht mir, vielen Dank für die Beratung.", "en": "No, that's enough for me, thank you very much for the advice.", "ur": "Nahi, itna kaafi hai, mashware ka bohat shukriya." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Brandt (Marktstand)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz! Möchten Sie sich heute durch unseren Käse probieren?", "en": "Hello, Mrs Yilmaz! Would you like to taste your way through our cheese today?", "ur": "Salam, Frau Yilmaz! Kya aaj hamara sara cheese chakhna chahengi?" },
+        { "s": "B", "de": "Guten Tag, Herr Brandt! Gerne, ich richte heute Abend ein kleines Büfett für Freunde aus.", "en": "Hello, Mr Brandt! Gladly, I'm putting together a small buffet for friends this evening.", "ur": "Salam, Herr Brandt! Zaroor, main aaj raat doston ke liye chota sa buffet laga rahi hoon." },
+        { "s": "A", "de": "Dann mache ich Ihnen eine Mischung aus mildem und würzigem Käse.", "en": "Then I'll make you a mix of mild and spicy cheese.", "ur": "To phir main aap ko halke aur tez cheese ka mila jula selection deta hoon." },
+        { "s": "B", "de": "Das klingt gut. Wie wird der Ziegenkäse eigentlich hergestellt?", "en": "That sounds good. How is the goat's cheese actually made?", "ur": "Yeh acha lagta hai. Bakri ka cheese asal mein kaise banaya jata hai?" },
+        { "s": "A", "de": "Er reift mehrere Wochen in einem kühlen Keller, dadurch bekommt er seinen kräftigen Geschmack.", "en": "It matures for several weeks in a cool cellar, which gives it its strong flavour.", "ur": "Yeh kai hafte thandi tehkhane mein pakta hai, isi se iska tez zaiqa aata hai." },
+        { "s": "B", "de": "Interessant. Passt dazu eher Brot oder etwas Süßes?", "en": "Interesting. Does bread or something sweet go better with it?", "ur": "Dilchasp. Iske saath bread acha lagta hai ya koi meethi cheez?" },
+        { "s": "A", "de": "Am besten ein einfaches Brot, damit man den Käse selbst gut schmeckt.", "en": "Best is a simple bread, so that you can really taste the cheese itself.", "ur": "Sab se acha sada bread hai, taake cheese ka apna zaiqa acha mehsoos ho." },
+        { "s": "B", "de": "Gut zu wissen. Und die Oliven, sind die aus der Region?", "en": "Good to know. And the olives, are they from the region?", "ur": "Yeh jaan kar acha laga. Aur zaitoon, kya yeh isi ilaqe ke hain?" },
+        { "s": "A", "de": "Nein, die kommen aus dem Süden, aber eingelegt werden sie erst hier bei uns.", "en": "No, they come from the south, but they're only marinated here with us.", "ur": "Nahi, yeh junoob se aate hain, lekin masaledaar sirf yahan hamare paas kiye jate hain." },
+        { "s": "B", "de": "Das erklärt den besonderen Geschmack. Womit wurden sie eingelegt?", "en": "That explains the special taste. What were they marinated with?", "ur": "Isi liye zaiqa khaas hai. Yeh kis cheez mein masaledaar kiye gaye hain?" },
+        { "s": "A", "de": "Mit Öl, Kräutern und ein wenig Knoblauch.", "en": "With oil, herbs and a little garlic.", "ur": "Tel, jari-booti aur thori si lehsan ke saath." },
+        { "s": "B", "de": "Perfekt, das passt bestimmt hervorragend zum Käse.", "en": "Perfect, that surely goes excellently with the cheese.", "ur": "Bilkul theek, yeh zaroor cheese ke saath khoob lagega." },
+        { "s": "A", "de": "Für wie viele Personen planen Sie das Büfett denn?", "en": "For how many people are you planning the buffet, then?", "ur": "To buffet kitne logon ke liye ban raha hai?" },
+        { "s": "B", "de": "Für ungefähr acht, deshalb wollte ich von jeder Sorte etwas mehr nehmen.", "en": "For about eight, so I wanted to take a bit more of each kind.", "ur": "Taqreeban aath ke liye, isi liye har qisam mein se thora zyada lena chahti hoon." },
+        { "s": "A", "de": "Dann packe ich Ihnen ein kleines Paket mit allem zusammen.", "en": "Then I'll pack you a little parcel with everything together.", "ur": "To phir main aap ko sab kuch mila kar ek chota paket bana deta hoon." },
+        { "s": "B", "de": "Wunderbar. Was würde das insgesamt kosten?", "en": "Wonderful. What would that cost altogether?", "ur": "Bohat khoob. Sab milaakar kitna bane ga?" },
+        { "s": "A", "de": "Zusammen wären das etwa zwanzig Euro.", "en": "Altogether that would be about twenty euros.", "ur": "Sab milaakar taqreeban bees euro banenge." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Herr Brandt bietet Ihnen eine Kostprobe seines Käses an. Sie probieren Schafskäse, Ziegenkäse und Oliven.",
+        "en": "Herr Brandt offers you a sample of his cheese. You try sheep's cheese, goat's cheese and olives.",
+        "ur": "Herr Brandt aap ko apna cheese chakhne ko deta hai. Aap bhed, bakri ka cheese aur zaitoon chakhte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Möchten Sie unseren Käse probieren?",
+          "goal": { "en": "Greet, say yes gladly, and ask what kind of cheese there is.", "ur": "Salam karein, kahein zaroor, aur poochein kaisa cheese hai." },
+          "options": ["Guten Tag, gerne. Was für Käse haben Sie?", "Guten Tag. Ja gerne, was für Käse gibt es?"],
+          "fallback": "Möchten Sie probieren?",
+          "accept": [{ "kw": ["käse"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Wir haben Schafskäse und Ziegenkäse.",
+          "goal": { "en": "Say you'll try the sheep's cheese first.", "ur": "Kahein: pehle bhed wala cheese chakhoongi." },
+          "options": ["Ich probiere zuerst den Schafskäse.", "Ich möchte zuerst den Schafskäse probieren."],
+          "fallback": "Welchen möchten Sie zuerst?",
+          "accept": [{ "kw": ["schafskäse"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Hier, eine kleine Scheibe für Sie.",
+          "goal": { "en": "Say it's mild and delicious.", "ur": "Kahein: yeh halka aur lazeez hai." },
+          "options": ["Mmh, der ist mild und lecker.", "Der schmeckt mild und lecker."],
+          "fallback": "Wie schmeckt er Ihnen?",
+          "accept": [{ "kw": ["mild"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Der Ziegenkäse ist etwas würziger.",
+          "goal": { "en": "Say you'd like to try that one too.", "ur": "Kahein: woh bhi chakhna chahoongi." },
+          "options": ["Den probiere ich auch gern.", "Den möchte ich auch probieren."],
+          "fallback": "Möchten Sie den auch probieren?",
+          "accept": [{ "kw": ["probiere"], "next": "n5" }, { "kw": ["probieren"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Bitte, hier ist ein Stück.",
+          "goal": { "en": "Say it's really spicy, but also good.", "ur": "Kahein: yeh waqai tez hai, lekin acha bhi hai." },
+          "options": ["Der ist wirklich würzig, aber auch gut.", "Der schmeckt würzig, aber sehr gut."],
+          "fallback": "Wie finden Sie den?",
+          "accept": [{ "kw": ["würzig"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Möchten Sie auch Oliven probieren?",
+          "goal": { "en": "Say yes gladly, and thank him.", "ur": "Kahein: ji zaroor, aur shukriya kahein." },
+          "options": ["Ja, gerne, vielen Dank.", "Ja, sehr gern, danke schön."],
+          "fallback": "Interessieren Sie sich für Oliven?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne, kommen Sie wieder!", "next": "END" },
+            { "kw": ["ja"], "reply": "Gerne, kommen Sie wieder!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Brandt, Marktstand",
+      "you": "Kundin / Kunde",
+      "scene": {
+        "de": "Sie fragen nach einer Empfehlung für heute Abend, nach der Herkunft des Ziegenkäses, und bestellen jeweils hundert Gramm.",
+        "en": "You ask for a recommendation for tonight, about the origin of the goat's cheese, and order a hundred grams of each.",
+        "ur": "Aap aaj raat ke liye tajweez maangte hain, bakri ke cheese ki asal ke baare mein poochte hain, aur har qisam mein sau gram order karte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, haben Sie unseren Käse schon probiert?",
+          "goal": { "en": "Say not yet, and ask what he'd recommend for tonight.", "ur": "Kahein: abhi nahi, aur poochein aaj raat ke liye kya tajweez hai." },
+          "options": ["Noch nicht, was würden Sie mir für heute Abend empfehlen?", "Noch nicht. Was empfehlen Sie für heute Abend?"],
+          "fallback": "Kennen Sie unseren Käse schon?",
+          "accept": [{ "kw": ["empfehlen"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das kommt darauf an, ob Sie es lieber mild oder würzig mögen.",
+          "goal": { "en": "Say you like both, but prefer something special.", "ur": "Kahein: dono pasand hain, lekin kuch khaas cheez behtar hai." },
+          "options": ["Ich mag beides, aber am liebsten etwas Besonderes.", "Beides mag ich, aber lieber etwas Besonderes."],
+          "fallback": "Was mögen Sie lieber?",
+          "accept": [{ "kw": ["besonderes"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Dann probieren Sie den Ziegenkäse mit Kräutern, der ist bei uns sehr beliebt.",
+          "goal": { "en": "Ask where it comes from.", "ur": "Poochein ke yeh kahan se aata hai." },
+          "options": ["Woher kommt der eigentlich?", "Woher stammt der Käse?"],
+          "fallback": "Möchten Sie mehr darüber wissen?",
+          "accept": [{ "kw": ["woher"], "next": "n4" }, { "kw": ["stammt"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Der stammt von einem kleinen Hof nicht weit von hier.",
+          "goal": { "en": "Say you can really taste that, it's fresh and spicy.", "ur": "Kahein: yeh mehsoos hota hai, yeh taaza aur tez hai." },
+          "options": ["Das schmeckt man richtig, er ist frisch und würzig.", "Man schmeckt das, er ist frisch und würzig."],
+          "fallback": "Schmeckt man das?",
+          "accept": [{ "kw": ["schmeckt"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Dazu passen die eingelegten Oliven besonders gut. Möchten Sie beides zusammen probieren?",
+          "goal": { "en": "Say yes, and ask for a hundred grams of each.", "ur": "Kahein: ji, aur har qisam mein sau gram maangein." },
+          "options": ["Ja, gerne. Jeweils hundert Gramm, bitte.", "Ja bitte, von jedem hundert Gramm."],
+          "fallback": "Wie viel möchten Sie davon?",
+          "accept": [{ "kw": ["hundert"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Kommt sofort. Sonst noch etwas?",
+          "goal": { "en": "Say no, that's enough, and thank him for the advice.", "ur": "Kahein: nahi, itna kaafi hai, mashware ka shukriya." },
+          "options": ["Nein, das reicht, vielen Dank für die Beratung.", "Nein danke, das ist alles."],
+          "fallback": "Ist das alles?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Gerne, bis zum nächsten Mal!", "next": "END" },
+            { "kw": ["reicht"], "reply": "Gerne, bis zum nächsten Mal!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "id": "allergien",
+  "order": 3,
+  "icon": "🥜",
+  "title": { "de": "Allergien und Unverträglichkeiten", "en": "Allergies and intolerances", "ur": "Allergies aur intolerances" },
+  "angle": "Asking about nuts, gluten and lactose in bakery products · Bakery items mein allergens ke baare mein poochna",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["nuss", "laktose", "gluten", "zutaten", "weizen", "glutenfrei", "laktosefrei", "nussfrei", "vertragen", "unverträglich"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was darf es sein?", "en": "Hello! What can I get you?", "ur": "Salam! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag. Ich habe eine Frage zu den Zutaten.", "en": "Hello. I have a question about the ingredients.", "ur": "Salam. Mujhe zutaten ke baare mein ek sawal hai." },
+        { "s": "A", "de": "Natürlich, fragen Sie gern.", "en": "Of course, feel free to ask.", "ur": "Zaroor, poochein." },
+        { "s": "B", "de": "Sind Nüsse in den Mehrkornbrötchen?", "en": "Are there nuts in the multigrain rolls?", "ur": "Kya mehrkorn Brötchen mein nuss hain?" },
+        { "s": "A", "de": "Nein, in den Mehrkornbrötchen sind keine Nüsse.", "en": "No, there are no nuts in the multigrain rolls.", "ur": "Nahi, mehrkorn Brötchen mein koi nuss nahi hain." },
+        { "s": "B", "de": "Gut, meine Tochter verträgt keine Nüsse.", "en": "Good, my daughter can't tolerate nuts.", "ur": "Acha, meri beti ko nuss se allergy hai." },
+        { "s": "A", "de": "Das ist wichtig zu wissen. Ich achte immer auf die Zutaten.", "en": "That's important to know. I always pay attention to the ingredients.", "ur": "Yeh jaan-na zaroori hai. Main hamesha zutaten ka khayal rakhti hoon." },
+        { "s": "B", "de": "Und ist die Sahnetorte glutenfrei?", "en": "And is the cream cake gluten-free?", "ur": "Aur kya Sahnetorte glutenfrei hai?" },
+        { "s": "A", "de": "Nein, die Sahnetorte hat Weizenmehl, also Gluten.", "en": "No, the cream cake has wheat flour, so gluten.", "ur": "Nahi, Sahnetorte mein weizenmehl hai, matlab gluten." },
+        { "s": "B", "de": "Verstanden, dann nehme ich lieber die Mehrkornbrötchen.", "en": "Understood, then I'll rather take the multigrain rolls.", "ur": "Samajh gayi, to main mehrkorn Brötchen le loongi." },
+        { "s": "A", "de": "Gute Wahl, die sind auch ohne Nüsse und ohne Gluten.", "en": "Good choice, they're also without nuts and without gluten.", "ur": "Acha intekhab, woh bhi bina nuss aur bina gluten ke hain." },
+        { "s": "B", "de": "Perfekt, dann nehme ich vier Mehrkornbrötchen, bitte.", "en": "Perfect, then I'll take four multigrain rolls, please.", "ur": "Bohat acha, to main chaar mehrkorn Brötchen loongi, please." },
+        { "s": "A", "de": "Gerne, das mache ich sofort.", "en": "Sure, I'll do that right away.", "ur": "Zaroor, main abhi karti hoon." },
+        { "s": "B", "de": "Vielen Dank für Ihre Hilfe!", "en": "Thank you very much for your help!", "ur": "Aap ki madad ka bohat shukriya!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Tag. Ich möchte etwas über die Zutaten in Ihren Broten wissen.", "en": "Hello. I'd like to know something about the ingredients in your breads.", "ur": "Salam. Main aap ki bread ke zutaten ke baare mein jan-na chahti hoon." },
+        { "s": "A", "de": "Gerne, was möchten Sie denn wissen?", "en": "Sure, what would you like to know?", "ur": "Zaroor, aap kya jan-na chahti hain?" },
+        { "s": "B", "de": "Meine Tochter verträgt keine Nüsse und keine Laktose. Welches Brot ist sicher für sie?", "en": "My daughter can't tolerate nuts or lactose. Which bread is safe for her?", "ur": "Meri beti ko nuss aur laktose se masla hai. Us ke liye kaun si bread theek hai?" },
+        { "s": "A", "de": "Das Vollkornbrot ist komplett ohne Nüsse und ohne Milchprodukte.", "en": "The wholegrain loaf is completely without nuts and without dairy products.", "ur": "Vollkornbrot mein bilkul koi nuss aur doodh ki cheezein nahi hain." },
+        { "s": "B", "de": "Das klingt gut. Und die Brötchen, sind die auch laktosefrei?", "en": "That sounds good. And the rolls, are they lactose-free too?", "ur": "Yeh acha lagta hai. Aur Brötchen, kya woh bhi laktosefrei hain?" },
+        { "s": "A", "de": "Die Weißbrötchen enthalten etwas Milch, aber die Mehrkornbrötchen sind laktosefrei.", "en": "The white rolls contain some milk, but the multigrain rolls are lactose-free.", "ur": "White Brötchen mein thora doodh hai, lekin mehrkorn Brötchen laktosefrei hain." },
+        { "s": "B", "de": "Perfekt, dann nehme ich das Vollkornbrot und die Mehrkornbrötchen.", "en": "Perfect, then I'll take the wholegrain loaf and the multigrain rolls.", "ur": "Bohat acha, to main Vollkornbrot aur mehrkorn Brötchen loongi." },
+        { "s": "A", "de": "Eine gute Wahl. Möchten Sie auch wissen, ob etwas Gluten enthält?", "en": "A good choice. Would you also like to know if something contains gluten?", "ur": "Acha intekhab. Kya aap yeh bhi jan-na chahti hain ke kis mein gluten hai?" },
+        { "s": "B", "de": "Ja, bitte, das wäre hilfreich.", "en": "Yes, please, that would be helpful.", "ur": "Ji haan, please, yeh madadgar hoga." },
+        { "s": "A", "de": "Alle unsere Vollkorn- und Mehrkornprodukte enthalten Weizen, also Gluten.", "en": "All our wholegrain and multigrain products contain wheat, so gluten.", "ur": "Hamare tamam vollkorn aur mehrkorn products mein weizen, yani gluten hai." },
+        { "s": "B", "de": "Kein Problem, meine Tochter hat keine Glutenunverträglichkeit.", "en": "No problem, my daughter doesn't have a gluten intolerance.", "ur": "Koi masla nahi, meri beti ko gluten se koi masla nahi." },
+        { "s": "A", "de": "Dann ist das kein Problem für sie.", "en": "Then that's no problem for her.", "ur": "To phir us ke liye yeh koi masla nahi." },
+        { "s": "B", "de": "Vielen Dank, das hilft mir sehr.", "en": "Thank you very much, that helps me a lot.", "ur": "Bohat shukriya, isse mujhe bohat madad milti hai." },
+        { "s": "A", "de": "Gern geschehen. Soll ich Ihnen alles einpacken?", "en": "You're welcome. Shall I pack everything for you?", "ur": "Koi baat nahi. Kya main sab pack kar doon?" },
+        { "s": "B", "de": "Ja, bitte, und vielen Dank für die ausführliche Auskunft!", "en": "Yes, please, and thank you very much for the detailed information!", "ur": "Ji haan, please, aur tafseeli maloomat ka bohat shukriya!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Wie kann ich Ihnen heute helfen?", "en": "Good morning, Mrs Yilmaz. How can I help you today?", "ur": "Subh bakhair, Frau Yilmaz. Aaj main aap ki kya madad karoon?" },
+        { "s": "B", "de": "Guten Morgen. Ich habe eine wichtige Frage zu den Allergenen in Ihren Produkten.", "en": "Good morning. I have an important question about the allergens in your products.", "ur": "Subh bakhair. Mujhe aap ke products ke allergens ke baare mein ek zaroori sawal hai." },
+        { "s": "A", "de": "Natürlich, das nehme ich sehr ernst. Worum geht es genau?", "en": "Of course, I take that very seriously. What exactly is it about?", "ur": "Zaroor, main isay bohat seriously leti hoon. Baat asal mein kya hai?" },
+        { "s": "B", "de": "Meine Tochter ist allergisch gegen Nüsse, und ich mache mir manchmal Sorgen wegen Spuren von Nüssen.", "en": "My daughter is allergic to nuts, and I sometimes worry about traces of nuts.", "ur": "Meri beti ko nuss se allergy hai, aur mujhe kabhi kabhi nuss ke asaar ki fikar hoti hai." },
+        { "s": "A", "de": "Das verstehe ich gut. Kuchen mit Nüssen backen wir in einem separaten Ofen, damit nichts vermischt wird.", "en": "I understand that well. We bake cakes with nuts in a separate oven, so that nothing gets mixed up.", "ur": "Main yeh achi tarah samajhti hoon. Nuss wale cake hum alag oven mein bakete hain, taake kuch mix na ho." },
+        { "s": "B", "de": "Das beruhigt mich wirklich. Und wie sieht es mit den Brötchen aus?", "en": "That really reassures me. And what about the rolls?", "ur": "Isse mujhe waqai sukoon milta hai. Aur Brötchen ka kya haal hai?" },
+        { "s": "A", "de": "Die Brötchen werden in einem ganz anderen Bereich der Backstube zubereitet, ohne dass sie Nüsse berühren.", "en": "The rolls are prepared in a completely different area of the bakery workshop, without ever touching nuts.", "ur": "Brötchen backstube ke bilkul alag hisse mein banaye jate hain, jahan nuss ko haath tak nahi lagta." },
+        { "s": "B", "de": "Perfekt. Sind sie auch sicher für jemanden, der kein Gluten verträgt?", "en": "Perfect. Are they also safe for someone who can't tolerate gluten?", "ur": "Bohat acha. Kya woh us ke liye bhi theek hain jisay gluten se masla ho?" },
+        { "s": "A", "de": "Leider nicht, unsere normalen Brötchen enthalten alle Weizenmehl und damit Gluten.", "en": "Unfortunately not, all our normal rolls contain wheat flour and therefore gluten.", "ur": "Afsos, hamare aam Brötchen mein weizenmehl aur is wajah se gluten hota hai." },
+        { "s": "B", "de": "Kein Problem, das betrifft uns nicht. Aber gibt es laktosefreie Optionen für Torten?", "en": "No problem, that doesn't concern us. But are there lactose-free options for cakes?", "ur": "Koi masla nahi, humein is se farq nahi parta. Lekin kya torte ke laktosefrei options hain?" },
+        { "s": "A", "de": "Ja, wir können eine Torte mit pflanzlicher Sahne statt normaler Sahne backen.", "en": "Yes, we can bake a cake with plant-based cream instead of normal cream.", "ur": "Ji haan, hum normal cream ki jagah pflanzlicher cream se torte bana sakte hain." },
+        { "s": "B", "de": "Das wäre großartig für den nächsten Geburtstag.", "en": "That would be great for the next birthday.", "ur": "Yeh agle janamdin ke liye bohat acha hoga." },
+        { "s": "A", "de": "Sagen Sie mir das einfach vorher, dann kann ich mich darauf einstellen.", "en": "Just tell me that beforehand, then I can prepare for it.", "ur": "Bas mujhe pehle bata dein, phir main us ke mutabiq tayyari kar loongi." },
+        { "s": "B", "de": "Mache ich. Für heute nehme ich einfach vier Mehrkornbrötchen.", "en": "I will. For today I'll just take four multigrain rolls.", "ur": "Zaroor. Aaj ke liye main sirf chaar mehrkorn Brötchen loongi." },
+        { "s": "A", "de": "Sehr gern. Die sind wie gesagt komplett ohne Nüsse.", "en": "Gladly. Those are, as I said, completely without nuts.", "ur": "Khushi se. Jaisa maine bataya, un mein bilkul koi nuss nahi." },
+        { "s": "B", "de": "Vielen Dank für die ausführliche Auskunft, Frau Ostermann.", "en": "Thank you very much for the detailed information, Mrs Ostermann.", "ur": "Tafseeli maloomat ka bohat shukriya, Frau Ostermann." }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Sie wirken heute besorgt, ist alles in Ordnung?", "en": "Hello, Mrs Yilmaz. You seem worried today, is everything all right?", "ur": "Salam, Frau Yilmaz. Aap aaj pareshan lag rahi hain, sab theek hai?" },
+        { "s": "B", "de": "Ja, alles gut, ich wollte nur ausführlich mit Ihnen über Allergene sprechen, bevor ich für Elifs Kindergeburtstag bestelle.", "en": "Yes, all good, I just wanted to talk to you in detail about allergens before I order for Elif's children's birthday.", "ur": "Ji haan, sab theek hai, bas main Elif ke birthday se pehle allergens par tafseel se baat karna chahti thi." },
+        { "s": "A", "de": "Das verstehe ich vollkommen, gerade bei Kindern sollte man vorsichtig sein.", "en": "I completely understand that, especially with children one should be careful.", "ur": "Main yeh bilkul samajhti hoon, khaas kar bachon ke maamle mein ehtiyat zaroori hai." },
+        { "s": "B", "de": "Genau. Sie ist allergisch gegen Nüsse, und unter den Gästen könnte auch ein Kind mit Zöliakie sein.", "en": "Exactly. She's allergic to nuts, and among the guests there might also be a child with coeliac disease.", "ur": "Bilkul. Usay nuss se allergy hai, aur mehmanon mein Zöliakie wala bacha bhi ho sakta hai." },
+        { "s": "A", "de": "Für Zöliakie brauchen Sie ein wirklich glutenfreies Gebäck, kein Produkt, das nur wenig Gluten enthält.", "en": "For coeliac disease you need a really gluten-free baked good, not a product that only contains little gluten.", "ur": "Zöliakie ke liye aap ko waqai glutenfrei gebäck chahiye, na ke aisi cheez jis mein thora sa gluten ho." },
+        { "s": "B", "de": "Richtig, selbst Spuren könnten für ein Kind mit Zöliakie ein Problem sein.", "en": "Right, even traces could be a problem for a child with coeliac disease.", "ur": "Bilkul theek, Zöliakie wale bache ke liye thore se asaar bhi masla ho sakte hain." },
+        { "s": "A", "de": "Verstanden. In diesem Fall würde ich Ihnen eher raten, spezielles glutenfreies Gebäck bei einem Fachgeschäft zu bestellen.", "en": "Understood. In this case I would rather advise you to order special gluten-free baked goods from a specialty shop.", "ur": "Samajh gayi. Is soorat mein main aap ko mashwara doongi ke khaas glutenfrei gebäck kisi fachgeschäft se order karein." },
+        { "s": "B", "de": "Das ist ein guter Hinweis, das hatte ich nicht bedacht.", "en": "That's good advice, I hadn't thought of that.", "ur": "Yeh acha mashwara hai, mujhe yeh khayal nahi aaya tha." },
+        { "s": "A", "de": "Für die Nussallergie kann ich Ihnen aber problemlos helfen, unsere Erdbeertorten enthalten grundsätzlich keine Nüsse.", "en": "For the nut allergy, however, I can help you without any problem, our strawberry cakes basically never contain nuts.", "ur": "Lekin nuss allergy ke liye main be-masla madad kar sakti hoon, hamari Erdbeertorten mein bunyadi tor par koi nuss nahi hoti." },
+        { "s": "B", "de": "Das erleichtert mich sehr. Können Sie mir eine vollständige Liste der Zutaten für die Torte mitgeben?", "en": "That relieves me a lot. Can you give me a complete list of the ingredients for the cake?", "ur": "Isse mujhe bohat sukoon milta hai. Kya aap torte ke zutaten ki poori list de sakti hain?" },
+        { "s": "A", "de": "Selbstverständlich, ich drucke Ihnen die Liste aus, damit Sie sie den Eltern der anderen Kinder zeigen können.", "en": "Of course, I'll print out the list for you, so you can show it to the other children's parents.", "ur": "Zaroor, main aap ke liye list print kar deti hoon, taake aap doosre bachon ke walidain ko dikha sakein." },
+        { "s": "B", "de": "Das wäre wirklich hilfreich, vielen Dank für Ihre Sorgfalt.", "en": "That would really be helpful, thank you very much for your care.", "ur": "Yeh waqai madadgar hoga, aap ki ehtiyat ka bohat shukriya." },
+        { "s": "A", "de": "Kein Problem, solche Anfragen bekomme ich öfter und nehme sie sehr ernst.", "en": "No problem, I get such inquiries often and take them very seriously.", "ur": "Koi masla nahi, aisi requests mujhe aksar milti hain aur main unhein seriously leti hoon." },
+        { "s": "B", "de": "Gibt es außerdem etwas, das laktosefrei und trotzdem für ein Kind geeignet ist?", "en": "Is there also something that is lactose-free and still suitable for a child?", "ur": "Kya kuch aisa bhi hai jo laktosefrei ho aur phir bhi bache ke liye theek ho?" },
+        { "s": "A", "de": "Ja, unsere Vanilletorte kann ich auch mit pflanzlicher Sahne zubereiten, das schmeckt fast genauso.", "en": "Yes, I can also prepare our vanilla cake with plant-based cream, it tastes almost the same.", "ur": "Ji haan, main Vanilletorte bhi pflanzlicher cream se bana sakti hoon, iska swaad taqreeban wesa hi hota hai." },
+        { "s": "B", "de": "Wunderbar, dann bestelle ich die Vanilletorte mit pflanzlicher Sahne und ohne Nüsse.", "en": "Wonderful, then I'll order the vanilla cake with plant-based cream and without nuts.", "ur": "Bohat acha, to main Vanilletorte pflanzlicher cream ke saath aur bina nuss ke order karti hoon." },
+        { "s": "A", "de": "Notiere ich mir. Ich gebe Ihnen die Zutatenliste am Tag der Abholung gleich mit dazu.", "en": "I'll note that down. I'll give you the ingredients list right along with it on the day of pickup.", "ur": "Likh leti hoon. Pickup ke din main aap ko zutaten ki list bhi de doongi." },
+        { "s": "B", "de": "Vielen Dank, das gibt mir ein gutes Gefühl für die Feier.", "en": "Thank you very much, that gives me a good feeling for the party.", "ur": "Bohat shukriya, isse mujhe party ke liye acha ehsaas ho raha hai." }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie fragen, ob Nüsse in den Mehrkornbrötchen sind und ob die Sahnetorte glutenfrei ist.",
+        "en": "You ask whether there are nuts in the multigrain rolls and whether the cream cake is gluten-free.",
+        "ur": "Aap poochte hain ke mehrkorn Brötchen mein nuss hain aur kya Sahnetorte glutenfrei hai."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was darf es sein?",
+          "goal": { "en": "Greet and say you have a question about the ingredients.", "ur": "Salam karein aur kahein ke zutaten ke baare mein sawal hai." },
+          "options": ["Guten Tag. Ich habe eine Frage zu den Zutaten.", "Guten Tag, ich hätte eine Frage zu den Zutaten."],
+          "fallback": "Wie kann ich Ihnen helfen?",
+          "accept": [{ "kw": ["frage", "zutaten"], "next": "n2" }, { "kw": ["zutaten"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Natürlich, fragen Sie gern.",
+          "goal": { "en": "Ask if there are nuts in the multigrain rolls.", "ur": "Poochein: kya mehrkorn Brötchen mein nuss hain." },
+          "options": ["Sind Nüsse in den Mehrkornbrötchen?", "Sind in den Mehrkornbrötchen Nüsse?"],
+          "fallback": "Was möchten Sie wissen?",
+          "accept": [{ "kw": ["nüsse", "mehrkornbrötchen"], "next": "n3" }, { "kw": ["nüsse"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Nein, in den Mehrkornbrötchen sind keine Nüsse.",
+          "goal": { "en": "Say good, your daughter can't tolerate nuts.", "ur": "Kahein: acha, beti ko nuss se masla hai." },
+          "options": ["Gut, meine Tochter verträgt keine Nüsse.", "Gut, meine Tochter ist allergisch gegen Nüsse."],
+          "fallback": "Ist das wichtig für Sie?",
+          "accept": [{ "kw": ["tochter", "nüsse"], "next": "n4" }, { "kw": ["tochter"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Das ist wichtig zu wissen. Ich achte immer auf die Zutaten.",
+          "goal": { "en": "Ask if the cream cake is gluten-free.", "ur": "Poochein: kya Sahnetorte glutenfrei hai." },
+          "options": ["Und ist die Sahnetorte glutenfrei?", "Ist die Sahnetorte auch glutenfrei?"],
+          "fallback": "Möchten Sie noch etwas fragen?",
+          "accept": [{ "kw": ["sahnetorte", "glutenfrei"], "next": "n5" }, { "kw": ["glutenfrei"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nein, die Sahnetorte hat Weizenmehl, also Gluten.",
+          "goal": { "en": "Say understood, you'll take the multigrain rolls instead.", "ur": "Kahein: samajh gayi, mehrkorn Brötchen le loongi." },
+          "options": ["Verstanden, dann nehme ich lieber die Mehrkornbrötchen.", "Gut zu wissen, ich nehme die Mehrkornbrötchen."],
+          "fallback": "Was möchten Sie stattdessen?",
+          "accept": [{ "kw": ["mehrkornbrötchen"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gute Wahl, die sind auch ohne Nüsse und ohne Gluten.",
+          "goal": { "en": "Thank her for the help.", "ur": "Madad ka shukriya kahein." },
+          "options": ["Vielen Dank für Ihre Hilfe!", "Danke schön für die Hilfe!"],
+          "fallback": "Kann ich sonst noch helfen?",
+          "accept": [
+            { "kw": ["danke", "hilfe"], "reply": "Gern geschehen!", "next": "END" },
+            { "kw": ["danke"], "reply": "Immer gern!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie fragen ausführlich nach Allergenen, weil Ihre Tochter allergisch gegen Nüsse ist, und erkundigen sich auch nach glutenfreien und laktosefreien Optionen.",
+        "en": "You ask in detail about allergens because your daughter is allergic to nuts, and also ask about gluten-free and lactose-free options.",
+        "ur": "Aap allergens ke baare mein tafseel se poochte hain kyunke aap ki beti ko nuss se allergy hai, aur glutenfrei aur laktosefrei options bhi poochte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz. Wie kann ich Ihnen heute helfen?",
+          "goal": { "en": "Say you have an important question about the allergens in the products.", "ur": "Kahein: allergens ke baare mein zaroori sawal hai." },
+          "options": ["Ich habe eine wichtige Frage zu den Allergenen in Ihren Produkten.", "Ich hätte eine wichtige Frage zu den Allergenen."],
+          "fallback": "Worum geht es denn?",
+          "accept": [{ "kw": ["allergenen"], "next": "n2" }, { "kw": ["allergene"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Natürlich, das nehme ich sehr ernst. Worum geht es genau?",
+          "goal": { "en": "Say your daughter is allergic to nuts and you worry about traces.", "ur": "Kahein: beti ko nuss se allergy hai aur asaar ki fikar hai." },
+          "options": ["Meine Tochter ist allergisch gegen Nüsse, und ich mache mir Sorgen wegen Spuren von Nüssen.", "Meine Tochter ist allergisch gegen Nüsse und ich habe Angst vor Spuren."],
+          "fallback": "Was genau ist das Problem?",
+          "accept": [{ "kw": ["allergisch", "nüsse"], "next": "n3" }, { "kw": ["spuren"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Das verstehe ich gut. Kuchen mit Nüssen backen wir in einem separaten Ofen, damit nichts vermischt wird.",
+          "goal": { "en": "Ask how it is with the rolls.", "ur": "Poochein: Brötchen ka kya haal hai." },
+          "options": ["Und wie sieht es mit den Brötchen aus?", "Und wie ist das bei den Brötchen?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["brötchen"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Die Brötchen werden in einem ganz anderen Bereich der Backstube zubereitet, ohne dass sie Nüsse berühren.",
+          "goal": { "en": "Ask if they're also safe for someone who can't tolerate gluten.", "ur": "Poochein: kya woh gluten wale ke liye bhi theek hain." },
+          "options": ["Sind sie auch sicher für jemanden, der kein Gluten verträgt?", "Sind die Brötchen auch glutenfrei?"],
+          "fallback": "Möchten Sie noch etwas wissen?",
+          "accept": [{ "kw": ["gluten"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Leider nicht, unsere normalen Brötchen enthalten alle Weizenmehl und damit Gluten.",
+          "goal": { "en": "Say no problem, that doesn't concern you, but ask about lactose-free options for cakes.", "ur": "Kahein: koi masla nahi, lekin torte ke laktosefrei options poochein." },
+          "options": ["Kein Problem, das betrifft uns nicht. Aber gibt es laktosefreie Optionen für Torten?", "Das ist kein Problem für uns. Gibt es laktosefreie Torten?"],
+          "fallback": "Ist das ein Problem für Sie?",
+          "accept": [{ "kw": ["laktosefreie"], "next": "n6" }, { "kw": ["laktosefrei"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Ja, wir können eine Torte mit pflanzlicher Sahne statt normaler Sahne backen.",
+          "goal": { "en": "Thank her for the detailed information.", "ur": "Tafseeli maloomat ka shukriya kahein." },
+          "options": ["Vielen Dank für die ausführliche Auskunft, Frau Ostermann.", "Danke für die ausführliche Auskunft!"],
+          "fallback": "War das hilfreich für Sie?",
+          "accept": [
+            { "kw": ["danke", "auskunft"], "reply": "Sehr gern, Frau Yilmaz!", "next": "END" },
+            { "kw": ["danke"], "reply": "Immer gern!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

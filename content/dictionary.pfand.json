@@ -1,0 +1,4387 @@
+{
+  "pfandautomat": {
+    "lemma": "Pfandautomat",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Pfandautomaten",
+    "forms": [
+      "pfandautomaten"
+    ],
+    "en": "deposit-return machine (for bottles and cans)",
+    "ur": "bottle wapis karne wali machine",
+    "ex": {
+      "de": "Brauchen Sie Hilfe am Pfandautomaten?",
+      "en": "Do you need help at the deposit machine?",
+      "ur": "Kya aap ko Pfandautomat par madad chahiye?"
+    }
+  },
+  "automat": {
+    "lemma": "Automat",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Automaten",
+    "forms": [
+      "automaten"
+    ],
+    "en": "machine / automatic dispenser (here: short for Pfandautomat)",
+    "ur": "machine",
+    "ex": {
+      "de": "Der Automat nimmt meine Flasche nicht.",
+      "en": "The machine won't take my bottle.",
+      "ur": "Machine meri bottle nahi le rahi."
+    }
+  },
+  "bon": {
+    "lemma": "Bon",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Bons",
+    "en": "receipt / voucher (here: the deposit receipt)",
+    "ur": "receipt / voucher (yahan: Pfand ki receipt)",
+    "ex": {
+      "de": "Wo bekomme ich den Bon?",
+      "en": "Where do I get the receipt?",
+      "ur": "Receipt mujhe kahan milegi?"
+    }
+  },
+  "pfandbon": {
+    "lemma": "Pfandbon",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Pfandbons",
+    "forms": [
+      "pfandbons"
+    ],
+    "en": "deposit receipt (printed by the deposit machine)",
+    "ur": "Pfand ki receipt",
+    "ex": {
+      "de": "Ich habe auch einen Pfandbon.",
+      "en": "I also have a deposit receipt.",
+      "ur": "Mere paas Pfandbon bhi hai."
+    }
+  },
+  "quittung": {
+    "lemma": "Quittung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Quittungen",
+    "en": "receipt",
+    "ur": "receipt / rasid",
+    "ex": {
+      "de": "Drücken Sie die Taste für die Quittung.",
+      "en": "Press the button for the receipt.",
+      "ur": "Receipt ke liye button dabayein."
+    }
+  },
+  "taste": {
+    "lemma": "Taste",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Tasten",
+    "en": "button / key",
+    "ur": "button",
+    "ex": {
+      "de": "Drücken Sie die grüne Taste.",
+      "en": "Press the green button.",
+      "ur": "Sabz button dabayein."
+    }
+  },
+  "leergut": {
+    "lemma": "Leergut",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "empties (empty bottles/cans/crates to be returned)",
+    "ur": "khaali bottles jo wapis ki jayein",
+    "ex": {
+      "de": "Haben Sie Leergut dabei?",
+      "en": "Do you have empties with you?",
+      "ur": "Kya aap ke paas khaali bottles hain?"
+    }
+  },
+  "öffnung": {
+    "lemma": "Öffnung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Öffnungen",
+    "en": "opening / slot",
+    "ur": "khuli jagah / slot",
+    "ex": {
+      "de": "Stellen Sie die Flasche in die Öffnung.",
+      "en": "Put the bottle into the opening.",
+      "ur": "Bottle ko is khuli jagah mein rakhein."
+    }
+  },
+  "geräusch": {
+    "lemma": "Geräusch",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Geräusche",
+    "en": "noise / sound",
+    "ur": "awaz",
+    "ex": {
+      "de": "Der Automat macht ein Geräusch.",
+      "en": "The machine is making a noise.",
+      "ur": "Machine se awaz aa rahi hai."
+    }
+  },
+  "strichcode": {
+    "lemma": "Strichcode",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Strichcodes",
+    "en": "barcode",
+    "ur": "barcode",
+    "ex": {
+      "de": "Der Automat erkennt den Strichcode.",
+      "en": "The machine recognises the barcode.",
+      "ur": "Machine barcode pehchan leti hai."
+    }
+  },
+  "sensor": {
+    "lemma": "Sensor",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Sensoren",
+    "forms": [
+      "sensors"
+    ],
+    "en": "sensor",
+    "ur": "sensor",
+    "ex": {
+      "de": "Der Sensor erkennt das Etikett nicht.",
+      "en": "The sensor doesn't recognise the label.",
+      "ur": "Sensor label ko nahi pehchanta."
+    }
+  },
+  "schacht": {
+    "lemma": "Schacht",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Schächte",
+    "en": "shaft / slot",
+    "ur": "slot",
+    "ex": {
+      "de": "Stellen Sie den Kasten in den Schacht.",
+      "en": "Put the crate into the slot.",
+      "ur": "Kasten slot mein rakhein."
+    }
+  },
+  "kastenschacht": {
+    "lemma": "Kastenschacht",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kastenschächte",
+    "en": "crate slot (of the deposit machine)",
+    "ur": "kasten daalne ki jagah",
+    "ex": {
+      "de": "Stellen Sie den Kasten in den Kastenschacht.",
+      "en": "Put the crate into the crate slot.",
+      "ur": "Kasten ko is slot mein rakhein."
+    }
+  },
+  "einschub": {
+    "lemma": "Einschub",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einschübe",
+    "en": "slot / insertion point",
+    "ur": "slot",
+    "ex": {
+      "de": "Eine Flasche hängt quer im Einschub.",
+      "en": "A bottle is stuck sideways in the slot.",
+      "ur": "Ek bottle terhi ho kar slot mein phans gayi."
+    }
+  },
+  "kasten": {
+    "lemma": "Kasten",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kästen",
+    "forms": [
+      "kastens"
+    ],
+    "en": "crate (of bottles)",
+    "ur": "bottles ka kasten / crate",
+    "ex": {
+      "de": "Ich habe einen vollen Kasten dabei.",
+      "en": "I have a full crate with me.",
+      "ur": "Mere paas ek bhara kasten hai."
+    }
+  },
+  "kastenpfand": {
+    "lemma": "Kastenpfand",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "crate deposit (separate deposit paid on the crate itself)",
+    "ur": "kasten par alag se Pfand",
+    "ex": {
+      "de": "Für den Kasten gibt es zusätzlich Kastenpfand.",
+      "en": "For the crate there's additional crate deposit.",
+      "ur": "Kasten par extra Kastenpfand milta hai."
+    }
+  },
+  "kastengröße": {
+    "lemma": "Kastengröße",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kastengrößen",
+    "en": "crate size",
+    "ur": "kasten ka size",
+    "ex": {
+      "de": "Es gleicht das Muster mit der Kastengröße ab.",
+      "en": "It compares the pattern with the crate size.",
+      "ur": "Yeh pattern ko kasten ke size se milata hai."
+    }
+  },
+  "kiste": {
+    "lemma": "Kiste",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kisten",
+    "en": "crate / box",
+    "ur": "crate / dabba",
+    "ex": {
+      "de": "Hier sind fünf Flaschen und eine Kiste.",
+      "en": "Here are five bottles and one crate.",
+      "ur": "Yahan paanch bottles aur ek crate hai."
+    }
+  },
+  "getränkekasten": {
+    "lemma": "Getränkekasten",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Getränkekästen",
+    "forms": [
+      "getränkekästen"
+    ],
+    "en": "beverage crate",
+    "ur": "drinks ka kasten",
+    "ex": {
+      "de": "Sie haben drei Getränkekästen mitgebracht.",
+      "en": "You brought three beverage crates.",
+      "ur": "Aap teen drinks ke kasten laayi hain."
+    }
+  },
+  "unterschied": {
+    "lemma": "Unterschied",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Unterschiede",
+    "en": "difference",
+    "ur": "farq",
+    "ex": {
+      "de": "Warum ist das so unterschiedlich?",
+      "en": "Why is that so different?",
+      "ur": "Yeh itna farq kyun hai?"
+    }
+  },
+  "kunststoff": {
+    "lemma": "Kunststoff",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kunststoffe",
+    "en": "plastic (material)",
+    "ur": "plastic (material)",
+    "ex": {
+      "de": "Ist Einweg aus Kunststoff?",
+      "en": "Is single-use made of plastic?",
+      "ur": "Kya Einweg plastic ki hoti hai?"
+    }
+  },
+  "kunststofffaser": {
+    "lemma": "Kunststofffaser",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kunststofffasern",
+    "forms": [
+      "kunststofffasern"
+    ],
+    "en": "plastic fibre",
+    "ur": "plastic ka resha",
+    "ex": {
+      "de": "Die Kunststofffasern werden kürzer.",
+      "en": "The plastic fibres get shorter.",
+      "ur": "Plastic ke resey chhote ho jate hain."
+    }
+  },
+  "plastik": {
+    "lemma": "Plastik",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "plastic (colloquial)",
+    "ur": "plastic",
+    "ex": {
+      "de": "Der Kasten hat einen Sprung im Plastik.",
+      "en": "The crate has a crack in the plastic.",
+      "ur": "Kasten mein plastic ki dararh hai."
+    }
+  },
+  "glasflasche": {
+    "lemma": "Glasflasche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Glasflaschen",
+    "en": "glass bottle",
+    "ur": "glass ki bottle",
+    "ex": {
+      "de": "Und diese Glasflasche hier?",
+      "en": "And this glass bottle here?",
+      "ur": "Aur yeh glass ki bottle?"
+    }
+  },
+  "glas": {
+    "lemma": "Glas",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "glass (material)",
+    "ur": "glass (material)",
+    "ex": {
+      "de": "Glas hält viele Jahre.",
+      "en": "Glass lasts many years.",
+      "ur": "Glass kai saal chalta hai."
+    }
+  },
+  "plastikflasche": {
+    "lemma": "Plastikflasche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Plastikflaschen",
+    "en": "plastic bottle",
+    "ur": "plastic ki bottle",
+    "ex": {
+      "de": "Das ist eine Plastikflasche.",
+      "en": "That's a plastic bottle.",
+      "ur": "Yeh plastic ki bottle hai."
+    }
+  },
+  "einwegflasche": {
+    "lemma": "Einwegflasche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Einwegflaschen",
+    "forms": [
+      "einwegflaschen"
+    ],
+    "en": "single-use bottle",
+    "ur": "Einweg bottle",
+    "ex": {
+      "de": "Die Einwegflasche wird recycelt.",
+      "en": "The single-use bottle gets recycled.",
+      "ur": "Einweg bottle recycle hoti hai."
+    }
+  },
+  "mehrwegflasche": {
+    "lemma": "Mehrwegflasche",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Mehrwegflaschen",
+    "forms": [
+      "mehrwegflaschen"
+    ],
+    "en": "reusable bottle",
+    "ur": "Mehrweg bottle",
+    "ex": {
+      "de": "Zwei meiner Flaschen sind Mehrwegflaschen.",
+      "en": "Two of my bottles are reusable bottles.",
+      "ur": "Meri do bottles Mehrweg hain."
+    }
+  },
+  "flaschentyp": {
+    "lemma": "Flaschentyp",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Flaschentypen",
+    "forms": [
+      "flaschentypen"
+    ],
+    "en": "bottle type",
+    "ur": "bottle ki qisam",
+    "ex": {
+      "de": "Das liegt am Flaschentyp.",
+      "en": "That's because of the bottle type.",
+      "ur": "Yeh bottle ki qisam par munhasir hai."
+    }
+  },
+  "mehrweg": {
+    "lemma": "Mehrweg",
+    "pos": "Nomen / Adjektiv",
+    "en": "reusable (refillable packaging system)",
+    "ur": "dobara istemal hone wala nizaam",
+    "ex": {
+      "de": "Diese Flasche ist Mehrweg.",
+      "en": "This bottle is reusable.",
+      "ur": "Yeh bottle Mehrweg hai."
+    }
+  },
+  "einweg": {
+    "lemma": "Einweg",
+    "pos": "Nomen / Adjektiv",
+    "en": "single-use / disposable",
+    "ur": "sirf ek baar istemal hone wala",
+    "ex": {
+      "de": "Das ist Einweg.",
+      "en": "That's single-use.",
+      "ur": "Yeh Einweg hai."
+    }
+  },
+  "mehrwegsystem": {
+    "lemma": "Mehrwegsystem",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "reusable-packaging system",
+    "ur": "Mehrweg nizaam",
+    "ex": {
+      "de": "Diese Flasche hat ein Mehrwegsystem.",
+      "en": "This bottle has a reusable system.",
+      "ur": "Is bottle ka Mehrweg nizaam hai."
+    }
+  },
+  "mehrwegsymbol": {
+    "lemma": "Mehrwegsymbol",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "reusable symbol (label mark)",
+    "ur": "Mehrweg ka nishan",
+    "ex": {
+      "de": "Achten Sie auf das Mehrwegsymbol.",
+      "en": "Pay attention to the reusable symbol.",
+      "ur": "Mehrweg symbol par dhyan dein."
+    }
+  },
+  "mehrwegquote": {
+    "lemma": "Mehrwegquote",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Mehrwegquoten",
+    "forms": [
+      "mehrwegquoten"
+    ],
+    "en": "reusable-packaging quota (statutory minimum share of reusable bottles)",
+    "ur": "sarkari Mehrweg quota",
+    "ex": {
+      "de": "Es gibt gesetzliche Mehrwegquoten.",
+      "en": "There are statutory reusable quotas.",
+      "ur": "Sarkari Mehrweg quotas hain."
+    }
+  },
+  "mehrwegangebot": {
+    "lemma": "Mehrwegangebot",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Mehrwegangebote",
+    "forms": [
+      "mehrwegangebote"
+    ],
+    "en": "reusable-packaging offering",
+    "ur": "Mehrweg ki pesh kash",
+    "ex": {
+      "de": "Ketten setzen auf Mehrwegangebote.",
+      "en": "Chains focus on reusable offerings.",
+      "ur": "Chains Mehrweg ki taraf ja rahi hain."
+    }
+  },
+  "symbol": {
+    "lemma": "Symbol",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Symbole",
+    "en": "symbol",
+    "ur": "symbol / nishan",
+    "ex": {
+      "de": "Am Symbol auf dem Etikett erkennen Sie es.",
+      "en": "You recognise it by the symbol on the label.",
+      "ur": "Label par lage symbol se pehchan lein."
+    }
+  },
+  "brauerei": {
+    "lemma": "Brauerei",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Brauereien",
+    "en": "brewery",
+    "ur": "brewery",
+    "ex": {
+      "de": "Die Brauerei holt die leeren Flaschen ab.",
+      "en": "The brewery collects the empty bottles.",
+      "ur": "Brewery khaali bottles le jati hai."
+    }
+  },
+  "werk": {
+    "lemma": "Werk",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Werke",
+    "en": "plant / factory",
+    "ur": "factory",
+    "ex": {
+      "de": "Sie reinigt die Flaschen im Werk.",
+      "en": "It cleans the bottles at the plant.",
+      "ur": "Woh bottles factory mein saaf karti hai."
+    }
+  },
+  "anreiz": {
+    "lemma": "Anreiz",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Anreize",
+    "en": "incentive",
+    "ur": "prerna / hallashairi",
+    "ex": {
+      "de": "Das hohe Pfand ist ein Anreiz.",
+      "en": "The high deposit is an incentive.",
+      "ur": "Zyada Pfand ek prerna hai."
+    }
+  },
+  "plastikmüll": {
+    "lemma": "Plastikmüll",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "plastic waste",
+    "ur": "plastic kachra",
+    "ex": {
+      "de": "Sie vermeiden unnötigen Plastikmüll.",
+      "en": "You avoid unnecessary plastic waste.",
+      "ur": "Aap fuzool plastic kachra bachati hain."
+    }
+  },
+  "kette": {
+    "lemma": "Kette",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Ketten",
+    "en": "chain (of stores); also: chain (object)",
+    "ur": "stores ki chain",
+    "ex": {
+      "de": "Größere Ketten setzen auf Mehrweg.",
+      "en": "Larger chains focus on reusable.",
+      "ur": "Bari chains Mehrweg par zor deti hain."
+    }
+  },
+  "fremdkörper": {
+    "lemma": "Fremdkörper",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Fremdkörper",
+    "en": "foreign object",
+    "ur": "baahar ki cheez",
+    "ex": {
+      "de": "Ein Fremdkörper hat sich verklemmt.",
+      "en": "A foreign object has jammed.",
+      "ur": "Koi cheez phans gayi hai."
+    }
+  },
+  "wartungsklappe": {
+    "lemma": "Wartungsklappe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Wartungsklappen",
+    "en": "maintenance flap / hatch",
+    "ur": "maintenance ka darwaza",
+    "ex": {
+      "de": "Ich öffne die Wartungsklappe.",
+      "en": "I'll open the maintenance flap.",
+      "ur": "Main maintenance flap kholta hoon."
+    }
+  },
+  "klappe": {
+    "lemma": "Klappe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Klappen",
+    "en": "flap / hatch",
+    "ur": "darwaza / flap",
+    "ex": {
+      "de": "Ich habe einen Schlüssel für die Klappe.",
+      "en": "I have a key for the flap.",
+      "ur": "Mere paas flap ki chaabi hai."
+    }
+  },
+  "förderband": {
+    "lemma": "Förderband",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Förderbänder",
+    "en": "conveyor belt",
+    "ur": "conveyor belt",
+    "ex": {
+      "de": "Das Förderband hat sich verkeilt.",
+      "en": "The conveyor belt has jammed.",
+      "ur": "Conveyor belt phans gaya hai."
+    }
+  },
+  "band": {
+    "lemma": "Band",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Bänder",
+    "en": "belt (here: conveyor belt)",
+    "ur": "belt",
+    "ex": {
+      "de": "Das Band bewegt sich und zieht die Flasche hinein.",
+      "en": "The belt is moving and pulling the bottle in.",
+      "ur": "Band chal raha hai aur bottle ko andar khainch raha hai."
+    }
+  },
+  "verunreinigung": {
+    "lemma": "Verunreinigung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Verunreinigungen",
+    "en": "contamination / soiling",
+    "ur": "gandagi",
+    "ex": {
+      "de": "Gelegentlich entstehen Verunreinigungen.",
+      "en": "Occasional contamination occurs.",
+      "ur": "Kabhi kabhi gandagi ho jati hai."
+    }
+  },
+  "fehlermeldung": {
+    "lemma": "Fehlermeldung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Fehlermeldungen",
+    "en": "error message",
+    "ur": "error message",
+    "ex": {
+      "de": "Am Automaten leuchtet eine Fehlermeldung.",
+      "en": "An error message is lit up on the machine.",
+      "ur": "Machine par error message chamak raha hai."
+    }
+  },
+  "störung": {
+    "lemma": "Störung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Störungen",
+    "forms": [
+      "störungen"
+    ],
+    "en": "malfunction / disturbance",
+    "ur": "kharabi",
+    "ex": {
+      "de": "Vermeiden Sie künftig solche Störungen.",
+      "en": "Avoid such malfunctions in future.",
+      "ur": "Aainda aisi kharabi se bachein."
+    }
+  },
+  "schlüssel": {
+    "lemma": "Schlüssel",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Schlüssel",
+    "en": "key",
+    "ur": "chaabi",
+    "ex": {
+      "de": "Ich habe einen Schlüssel für die Klappe.",
+      "en": "I have a key for the flap.",
+      "ur": "Mere paas flap ki chaabi hai."
+    }
+  },
+  "verbeult": {
+    "lemma": "verbeult",
+    "pos": "Adjektiv",
+    "en": "dented",
+    "ur": "toota-mora / dab gaya",
+    "ex": {
+      "de": "Die Flasche war ein bisschen verbeult.",
+      "en": "The bottle was a little dented.",
+      "ur": "Bottle thori dab gayi thi."
+    }
+  },
+  "mechanismus": {
+    "lemma": "Mechanismus",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Mechanismen",
+    "en": "mechanism",
+    "ur": "mechanism",
+    "ex": {
+      "de": "Das blockierte den restlichen Mechanismus.",
+      "en": "That blocked the rest of the mechanism.",
+      "ur": "Isse baqi mechanism block ho gaya."
+    }
+  },
+  "kassenbon": {
+    "lemma": "Kassenbon",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Kassenbons",
+    "en": "till receipt",
+    "ur": "kaunter ki receipt",
+    "ex": {
+      "de": "Können Sie mir einen extra Kassenbon ausdrucken?",
+      "en": "Can you print me an extra till receipt?",
+      "ur": "Kya aap mujhe extra receipt de sakti hain?"
+    }
+  },
+  "kassiererin": {
+    "lemma": "Kassiererin",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Kassiererinnen",
+    "en": "female cashier",
+    "ur": "cashier (aurat)",
+    "ex": {
+      "de": "Die Kassiererin scannt den Bon.",
+      "en": "The cashier scans the receipt.",
+      "ur": "Cashier bon scan karti hai."
+    }
+  },
+  "supermarktkasse": {
+    "lemma": "Supermarktkasse",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Supermarktkassen",
+    "en": "supermarket checkout / till",
+    "ur": "supermarket ka kaunter",
+    "ex": {
+      "de": "An der Supermarktkasse lösen Sie den Bon ein.",
+      "en": "At the supermarket checkout you redeem the receipt.",
+      "ur": "Supermarket kaunter par receipt bhunayein."
+    }
+  },
+  "gesamtbetrag": {
+    "lemma": "Gesamtbetrag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Gesamtbeträge",
+    "en": "total amount",
+    "ur": "kul raqam",
+    "ex": {
+      "de": "Der neue Gesamtbetrag ist zwölf Euro.",
+      "en": "The new total is twelve euros.",
+      "ur": "Naya total baarah euro hai."
+    }
+  },
+  "einkaufswagen": {
+    "lemma": "Einkaufswagen",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einkaufswagen",
+    "en": "shopping cart / trolley",
+    "ur": "khareedari ki trolley",
+    "ex": {
+      "de": "Ich habe meinen Einkaufswagen voll gepackt.",
+      "en": "I've packed my shopping cart full.",
+      "ur": "Maine apni trolley bhar li."
+    }
+  },
+  "einkaufssumme": {
+    "lemma": "Einkaufssumme",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "total shopping amount",
+    "ur": "khareedari ki total raqam",
+    "ex": {
+      "de": "Der Betrag wird von Ihrer Einkaufssumme abgezogen.",
+      "en": "The amount is deducted from your total purchase.",
+      "ur": "Raqam total khareedari se minus ho jati hai."
+    }
+  },
+  "einkaufswert": {
+    "lemma": "Einkaufswert",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "purchase value",
+    "ur": "khareedari ki qeemat",
+    "ex": {
+      "de": "Sollte der Pfandbetrag den Einkaufswert übersteigen.",
+      "en": "Should the deposit amount exceed the purchase value.",
+      "ur": "Agar Pfand raqam khareedari se zyada ho."
+    }
+  },
+  "gesamteinkauf": {
+    "lemma": "Gesamteinkauf",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "total purchase",
+    "ur": "total khareedari",
+    "ex": {
+      "de": "Kann das mit dem Gesamteinkauf verrechnet werden?",
+      "en": "Can that be offset against the total purchase?",
+      "ur": "Kya isay total khareedari se hisaab mein le sakti hain?"
+    }
+  },
+  "wocheneinkauf": {
+    "lemma": "Wocheneinkauf",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "weekly shopping",
+    "ur": "hafta-waar khareedari",
+    "ex": {
+      "de": "Neben Ihrem üblichen Wocheneinkauf.",
+      "en": "Besides your usual weekly shopping.",
+      "ur": "Aap ki hafta-waar khareedari ke ilawa."
+    }
+  },
+  "kauf": {
+    "lemma": "Kauf",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Käufe",
+    "en": "purchase",
+    "ur": "khareedari",
+    "ex": {
+      "de": "Achten Sie beim Kauf auf das Symbol.",
+      "en": "Pay attention to the symbol when buying.",
+      "ur": "Khareedte waqt symbol ka khayal rakhein."
+    }
+  },
+  "summe": {
+    "lemma": "Summe",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Summen",
+    "en": "sum / total",
+    "ur": "total raqam",
+    "ex": {
+      "de": "Das zieht die Kasse von Ihrer Summe ab.",
+      "en": "The register deducts that from your total.",
+      "ur": "Kaunter yeh total se nikaal deta hai."
+    }
+  },
+  "restbetrag": {
+    "lemma": "Restbetrag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Restbeträge",
+    "en": "remaining amount",
+    "ur": "baqi raqam",
+    "ex": {
+      "de": "Ich hätte gern den Restbetrag ausgezahlt.",
+      "en": "I'd like the remaining amount paid out.",
+      "ur": "Mujhe baqi raqam cash mein chahiye."
+    }
+  },
+  "pfandbetrag": {
+    "lemma": "Pfandbetrag",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Pfandbeträge",
+    "forms": [
+      "pfandbeträge",
+      "pfandbeträgen"
+    ],
+    "en": "deposit amount",
+    "ur": "Pfand ki raqam",
+    "ex": {
+      "de": "Und mit dem abgezogenen Pfandbetrag?",
+      "en": "And with the deposit amount deducted?",
+      "ur": "Aur Pfand raqam minus karne ke baad?"
+    }
+  },
+  "pfandwert": {
+    "lemma": "Pfandwert",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "deposit value",
+    "ur": "Pfand ki qeemat",
+    "ex": {
+      "de": "Er zeigt Ihnen den Pfandwert an.",
+      "en": "It shows you the deposit value.",
+      "ur": "Yeh aap ko Pfand ki qeemat dikhata hai."
+    }
+  },
+  "pfandklasse": {
+    "lemma": "Pfandklasse",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Pfandklassen",
+    "en": "deposit category",
+    "ur": "Pfand ki category",
+    "ex": {
+      "de": "Der Automat ordnet die Flasche der richtigen Pfandklasse zu.",
+      "en": "The machine assigns the bottle to the correct deposit category.",
+      "ur": "Machine bottle ko sahi Pfand category mein daal deti hai."
+    }
+  },
+  "wechselgeld": {
+    "lemma": "Wechselgeld",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "change (money)",
+    "ur": "baaqi paisa",
+    "ex": {
+      "de": "Hier ist Ihr Wechselgeld.",
+      "en": "Here's your change.",
+      "ur": "Yeh lein aap ka baaqi paisa."
+    }
+  },
+  "lesegerät": {
+    "lemma": "Lesegerät",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Lesegeräte",
+    "en": "card reader",
+    "ur": "card reader",
+    "ex": {
+      "de": "Halten Sie die Karte an das Lesegerät.",
+      "en": "Hold the card against the reader.",
+      "ur": "Card ko reader ke qareeb rakhein."
+    }
+  },
+  "terminal": {
+    "lemma": "Terminal",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Terminals",
+    "en": "payment terminal",
+    "ur": "payment terminal",
+    "ex": {
+      "de": "Halten Sie die Karte an das Terminal.",
+      "en": "Hold the card against the terminal.",
+      "ur": "Card ko terminal ke qareeb rakhein."
+    }
+  },
+  "buchhaltung": {
+    "lemma": "Buchhaltung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "accounting / bookkeeping",
+    "ur": "accounting",
+    "ex": {
+      "de": "Ein Exemplar ist für die Buchhaltung.",
+      "en": "One copy is for the accounting.",
+      "ur": "Ek copy accounting ke liye hai."
+    }
+  },
+  "abrechnung": {
+    "lemma": "Abrechnung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "billing / settlement",
+    "ur": "hisaab kitaab",
+    "ex": {
+      "de": "Vielen Dank für die sorgfältige Abrechnung.",
+      "en": "Thank you for the careful accounting.",
+      "ur": "Ghaur se hisaab karne ka shukriya."
+    }
+  },
+  "abwicklung": {
+    "lemma": "Abwicklung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "handling / processing",
+    "ur": "nimtaana / karwai",
+    "ex": {
+      "de": "Vielen Dank für die schnelle Abwicklung.",
+      "en": "Thank you for the quick handling.",
+      "ur": "Jaldi kaam nimtane ka shukriya."
+    }
+  },
+  "abzug": {
+    "lemma": "Abzug",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Abzüge",
+    "en": "deduction",
+    "ur": "kami / minus",
+    "ex": {
+      "de": "Vor Abzug des Pfands.",
+      "en": "Before deducting the deposit.",
+      "ur": "Pfand minus hone se pehle."
+    }
+  },
+  "barauszahlung": {
+    "lemma": "Barauszahlung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "cash payout",
+    "ur": "cash payment",
+    "ex": {
+      "de": "Bevorzugen Sie eine Barauszahlung?",
+      "en": "Do you prefer a cash payout?",
+      "ur": "Kya aap cash chahti hain?"
+    }
+  },
+  "beleg": {
+    "lemma": "Beleg",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Belege",
+    "en": "receipt / proof of purchase",
+    "ur": "receipt",
+    "ex": {
+      "de": "Dann habe ich alles auf einem Beleg.",
+      "en": "Then I have everything on one receipt.",
+      "ur": "Phir sab ek hi receipt par hoga."
+    }
+  },
+  "exemplar": {
+    "lemma": "Exemplar",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Exemplare",
+    "forms": [
+      "exemplare"
+    ],
+    "en": "copy",
+    "ur": "copy",
+    "ex": {
+      "de": "Ich drucke Ihnen zwei Exemplare.",
+      "en": "I'll print you two copies.",
+      "ur": "Main aap ko do copies deti hoon."
+    }
+  },
+  "bequemlichkeit": {
+    "lemma": "Bequemlichkeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "convenience",
+    "ur": "asaani",
+    "ex": {
+      "de": "Viele Leute nehmen Karte wegen der Bequemlichkeit.",
+      "en": "Many people use card because of the convenience.",
+      "ur": "Bohat log asaani ki wajah se card istemal karte hain."
+    }
+  },
+  "ersparnis": {
+    "lemma": "Ersparnis",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Ersparnisse",
+    "en": "saving",
+    "ur": "bachat",
+    "ex": {
+      "de": "Eine deutliche Ersparnis.",
+      "en": "A significant saving.",
+      "ur": "Kaafi bachat."
+    }
+  },
+  "familienfeier": {
+    "lemma": "Familienfeier",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Familienfeiern",
+    "en": "family celebration",
+    "ur": "family function",
+    "ex": {
+      "de": "Wir hatten letzte Woche eine Familienfeier.",
+      "en": "We had a family celebration last week.",
+      "ur": "Pichle hafte hamari family function thi."
+    }
+  },
+  "transport": {
+    "lemma": "Transport",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Transporte",
+    "en": "transport",
+    "ur": "transport",
+    "ex": {
+      "de": "Der Transport allein hat mich abgeschreckt.",
+      "en": "The transport alone put me off.",
+      "ur": "Akele transport mujhe rok deta tha."
+    }
+  },
+  "sprung": {
+    "lemma": "Sprung",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Sprünge",
+    "en": "crack (here); also: jump",
+    "ur": "dararh",
+    "ex": {
+      "de": "Er hat einen kleinen Sprung im Plastik.",
+      "en": "It has a small crack in the plastic.",
+      "ur": "Ismein plastic mein choti dararh hai."
+    }
+  },
+  "herausforderung": {
+    "lemma": "Herausforderung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Herausforderungen",
+    "en": "challenge",
+    "ur": "chunauti",
+    "ex": {
+      "de": "Das stellt keinerlei Herausforderung dar.",
+      "en": "That poses no challenge whatsoever.",
+      "ur": "Ismein koi chunauti nahi."
+    }
+  },
+  "anlass": {
+    "lemma": "Anlass",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Anlässe",
+    "en": "occasion",
+    "ur": "mauqa / wajah",
+    "ex": {
+      "de": "Was ist der Anlass für so viel Leergut?",
+      "en": "What is the occasion for so much empties?",
+      "ur": "Itni khaali bottles ki kya wajah hai?"
+    }
+  },
+  "anzahl": {
+    "lemma": "Anzahl",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "number / quantity",
+    "ur": "tadaad",
+    "ex": {
+      "de": "Der Scanner zählt die Anzahl der Flaschen.",
+      "en": "The scanner counts the number of bottles.",
+      "ur": "Scanner bottles ki tadaad ginta hai."
+    }
+  },
+  "muster": {
+    "lemma": "Muster",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "pattern (here, in this context)",
+    "ur": "pattern",
+    "ex": {
+      "de": "Ein Sensor erkennt das Muster der Flaschenhälse.",
+      "en": "A sensor recognises the pattern of the bottle necks.",
+      "ur": "Sensor bottle ki gardanon ka pattern pehchanta hai."
+    }
+  },
+  "flaschenhals": {
+    "lemma": "Flaschenhals",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Flaschenhälse",
+    "forms": [
+      "flaschenhälse"
+    ],
+    "en": "bottle neck",
+    "ur": "bottle ki gardan",
+    "ex": {
+      "de": "Er erkennt das Muster der Flaschenhälse.",
+      "en": "It recognises the pattern of the bottle necks.",
+      "ur": "Woh bottle ki gardanon ka pattern pehchanta hai."
+    }
+  },
+  "form": {
+    "lemma": "Form",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Formen",
+    "en": "shape / form",
+    "ur": "shakal",
+    "ex": {
+      "de": "Erkennbar an der stabileren Form.",
+      "en": "Recognisable by the sturdier shape.",
+      "ur": "Mazboot shakal se pehchani jati hai."
+    }
+  },
+  "material": {
+    "lemma": "Material",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Materialien",
+    "forms": [
+      "materialien"
+    ],
+    "en": "material",
+    "ur": "material",
+    "ex": {
+      "de": "Das Material wird weiterverwertet.",
+      "en": "The material gets recycled.",
+      "ur": "Material dobara istemal hota hai."
+    }
+  },
+  "textil": {
+    "lemma": "Textil",
+    "pos": "Nomen",
+    "gender": "das",
+    "plural": "Textilien",
+    "forms": [
+      "textilien"
+    ],
+    "en": "textile",
+    "ur": "kapra",
+    "ex": {
+      "de": "Das Material wird für Textilien genutzt.",
+      "en": "The material is used for textiles.",
+      "ur": "Material kapron ke liye istemal hota hai."
+    }
+  },
+  "recycling": {
+    "lemma": "Recycling",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "recycling",
+    "ur": "recycling",
+    "ex": {
+      "de": "Wie unterscheidet sich das Recycling?",
+      "en": "How does the recycling differ?",
+      "ur": "Recycling mein farq kya hai?"
+    }
+  },
+  "recyclingprozess": {
+    "lemma": "Recyclingprozess",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "recycling process",
+    "ur": "recycling ka amal",
+    "ex": {
+      "de": "Bei jedem Recyclingprozess werden sie kürzer.",
+      "en": "With each recycling process they get shorter.",
+      "ur": "Har recycling process mein woh chhote ho jate hain."
+    }
+  },
+  "logistik": {
+    "lemma": "Logistik",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "logistics",
+    "ur": "logistics",
+    "ex": {
+      "de": "Oft wegen der Logistik.",
+      "en": "Often because of logistics.",
+      "ur": "Aksar logistics ki wajah se."
+    }
+  },
+  "vorgang": {
+    "lemma": "Vorgang",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Vorgänge",
+    "en": "process",
+    "ur": "amal",
+    "ex": {
+      "de": "Wie lange dauert der ganze Vorgang?",
+      "en": "How long does the whole process take?",
+      "ur": "Pura amal kitna waqt leta hai?"
+    }
+  },
+  "möglichkeit": {
+    "lemma": "Möglichkeit",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Möglichkeiten",
+    "en": "possibility",
+    "ur": "tareeqa / mumkin surat",
+    "ex": {
+      "de": "Gibt es eine Möglichkeit?",
+      "en": "Is there a possibility?",
+      "ur": "Kya koi tareeqa hai?"
+    }
+  },
+  "vermutung": {
+    "lemma": "Vermutung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Vermutungen",
+    "en": "suspicion / assumption",
+    "ur": "guman / khayal",
+    "ex": {
+      "de": "Das bestätigt meine Vermutung.",
+      "en": "That confirms my suspicion.",
+      "ur": "Yeh mera khayal sahi sabit karta hai."
+    }
+  },
+  "eindruck": {
+    "lemma": "Eindruck",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Eindrücke",
+    "en": "impression",
+    "ur": "tassur",
+    "ex": {
+      "de": "Ich hatte den Eindruck, dass etwas verrutscht ist.",
+      "en": "I had the impression something had shifted.",
+      "ur": "Mujhe laga kuch apni jagah se hat gaya."
+    }
+  },
+  "wartung": {
+    "lemma": "Wartung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "maintenance",
+    "ur": "maintenance",
+    "ex": {
+      "de": "Wir warten die Geräte regelmäßig.",
+      "en": "We service the machines regularly.",
+      "ur": "Hum machines ko baqaida service karte hain."
+    }
+  },
+  "belastung": {
+    "lemma": "Belastung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "strain / burden",
+    "ur": "bojh",
+    "ex": {
+      "de": "Das reduziert die Belastung des Sensors.",
+      "en": "That reduces the strain on the sensor.",
+      "ur": "Isse sensor par bojh kam hota hai."
+    }
+  },
+  "vergnügen": {
+    "lemma": "Vergnügen",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "pleasure",
+    "ur": "khushi",
+    "ex": {
+      "de": "Es ist mir stets ein Vergnügen.",
+      "en": "It's always a pleasure.",
+      "ur": "Yeh hamesha meri khushi hai."
+    }
+  },
+  "lage": {
+    "lemma": "Lage",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Lagen",
+    "en": "situation",
+    "ur": "soorat-e-haal",
+    "ex": {
+      "de": "Ist die Lage ernst?",
+      "en": "Is the situation serious?",
+      "ur": "Kya soorat-e-haal sangeen hai?"
+    }
+  },
+  "sinn": {
+    "lemma": "Sinn",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "sense (das macht Sinn = that makes sense)",
+    "ur": "mafhoom / matlab",
+    "ex": {
+      "de": "Das macht Sinn.",
+      "en": "That makes sense.",
+      "ur": "Iska matlab samajh aata hai."
+    }
+  },
+  "besuch": {
+    "lemma": "Besuch",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Besuche",
+    "en": "visit",
+    "ur": "dora / mulaqat",
+    "ex": {
+      "de": "Ist das Ihr erster Besuch hier?",
+      "en": "Is this your first visit here?",
+      "ur": "Kya yeh aap ka pehla dora hai?"
+    }
+  },
+  "glück": {
+    "lemma": "Glück",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "luck",
+    "ur": "khushqismati",
+    "ex": {
+      "de": "Der Vorgang ist zum Glück selbsterklärend.",
+      "en": "The process is fortunately self-explanatory.",
+      "ur": "Amal khushqismati se khud-wazeh hai."
+    }
+  },
+  "dreh": {
+    "lemma": "Dreh",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "knack (den Dreh raushaben = to have the hang of it)",
+    "ur": "tarika / gur",
+    "ex": {
+      "de": "Sobald man den Dreh raus hat.",
+      "en": "Once you get the hang of it.",
+      "ur": "Jab tarika samajh aa jaye."
+    }
+  },
+  "typ": {
+    "lemma": "Typ",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Typen",
+    "en": "type",
+    "ur": "qisam",
+    "ex": {
+      "de": "Der Automat erkennt den Typ selbstständig.",
+      "en": "The machine recognises the type automatically.",
+      "ur": "Machine type khud pehchan leti hai."
+    }
+  },
+  "nähe": {
+    "lemma": "Nähe",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "vicinity / nearby area",
+    "ur": "qareeb ki jagah",
+    "ex": {
+      "de": "Ich stehe meistens hier in der Nähe.",
+      "en": "I'm usually here nearby.",
+      "ur": "Main aksar yahan qareeb hota hoon."
+    }
+  },
+  "ladung": {
+    "lemma": "Ladung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Ladungen",
+    "en": "load",
+    "ur": "bhaari saaman",
+    "ex": {
+      "de": "Das ist eine ganze Ladung Leergut.",
+      "en": "That's a whole load of empties.",
+      "ur": "Yeh khaali bottles ka pura dher hai."
+    }
+  },
+  "boden": {
+    "lemma": "Boden",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Böden",
+    "en": "floor / bottom (of a bottle)",
+    "ur": "neechla hissa",
+    "ex": {
+      "de": "Halte ich die Flasche mit dem Boden nach unten?",
+      "en": "Do I hold the bottle with the bottom facing down?",
+      "ur": "Kya bottle ka neechla hissa neeche rakhoon?"
+    }
+  },
+  "reihenfolge": {
+    "lemma": "Reihenfolge",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "order / sequence",
+    "ur": "tarteeb",
+    "ex": {
+      "de": "In welcher Reihenfolge soll ich vorgehen?",
+      "en": "In what order should I proceed?",
+      "ur": "Kis tarteeb se karoon?"
+    }
+  },
+  "anfang": {
+    "lemma": "Anfang",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Anfänge",
+    "en": "beginning",
+    "ur": "shuruaat",
+    "ex": {
+      "de": "Das verwirrt viele am Anfang.",
+      "en": "That confuses many at the beginning.",
+      "ur": "Shuru mein bohat logon ko uljhan hoti hai."
+    }
+  },
+  "reihenfolge2": {
+    "lemma": "placeholder",
+    "pos": "unused",
+    "en": "unused",
+    "ur": "unused",
+    "ex": {
+      "de": "x",
+      "en": "x",
+      "ur": "x"
+    }
+  },
+  "wagen": {
+    "lemma": "Wagen",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Wagen",
+    "en": "cart / trolley",
+    "ur": "trolley",
+    "ex": {
+      "de": "Wir haben hinten einen Wagen.",
+      "en": "We have a cart in the back.",
+      "ur": "Peeche hamare paas trolley hai."
+    }
+  },
+  "einwerfen": {
+    "lemma": "einwerfen",
+    "pos": "Verb",
+    "aux": "wirft ein / hat eingeworfen",
+    "forms": [
+      "wirft",
+      "eingeworfen",
+      "werfen"
+    ],
+    "en": "to put in / insert (into a slot)",
+    "ur": "andar daalna",
+    "ex": {
+      "de": "Werfen Sie die Flasche einzeln ein.",
+      "en": "Put the bottle in one at a time.",
+      "ur": "Bottle ek ek kar ke andar daalein."
+    }
+  },
+  "scannen": {
+    "lemma": "scannen",
+    "pos": "Verb",
+    "forms": [
+      "scannt",
+      "gescannt",
+      "scanne"
+    ],
+    "en": "to scan",
+    "ur": "scan karna",
+    "ex": {
+      "de": "Der Automat scannt den Strichcode.",
+      "en": "The machine scans the barcode.",
+      "ur": "Machine barcode scan karti hai."
+    }
+  },
+  "einlösen": {
+    "lemma": "einlösen",
+    "pos": "Verb",
+    "aux": "löst ein / hat eingelöst",
+    "forms": [
+      "löst",
+      "eingelöst",
+      "einzulösen"
+    ],
+    "en": "to redeem (a receipt/voucher)",
+    "ur": "bhunana",
+    "ex": {
+      "de": "Sie lösen den Bon an der Kasse ein.",
+      "en": "You redeem the receipt at the checkout.",
+      "ur": "Aap receipt kaunter par bhunati hain."
+    }
+  },
+  "abziehen": {
+    "lemma": "abziehen",
+    "pos": "Verb",
+    "aux": "zieht ab / hat abgezogen",
+    "forms": [
+      "zieht",
+      "abgezogen",
+      "abgezogenen"
+    ],
+    "en": "to deduct",
+    "ur": "minus karna",
+    "ex": {
+      "de": "Können Sie das vom Einkauf abziehen?",
+      "en": "Can you deduct that from the purchase?",
+      "ur": "Kya khareedari mein se yeh minus kar sakti hain?"
+    }
+  },
+  "zurückgeben": {
+    "lemma": "zurückgeben",
+    "pos": "Verb",
+    "aux": "gibt zurück / hat zurückgegeben",
+    "forms": [
+      "gibt",
+      "zurückgegeben",
+      "zurückgibt"
+    ],
+    "en": "to give back / return",
+    "ur": "wapis karna",
+    "ex": {
+      "de": "Ich möchte den Kasten zurückgeben.",
+      "en": "I'd like to return the crate.",
+      "ur": "Main kasten wapis karna chahti hoon."
+    }
+  },
+  "transportieren": {
+    "lemma": "transportieren",
+    "pos": "Verb",
+    "forms": [
+      "transportiert",
+      "transportiere"
+    ],
+    "en": "to transport",
+    "ur": "le jana",
+    "ex": {
+      "de": "Einwegflaschen sind leichter zu transportieren.",
+      "en": "Single-use bottles are easier to transport.",
+      "ur": "Einweg bottles le jana asaan hai."
+    }
+  },
+  "zählen": {
+    "lemma": "zählen",
+    "pos": "Verb",
+    "forms": [
+      "zählt",
+      "gezählt"
+    ],
+    "en": "to count",
+    "ur": "ginna",
+    "ex": {
+      "de": "Der Automat zählt die Flaschen.",
+      "en": "The machine counts the bottles.",
+      "ur": "Machine bottles ginti hai."
+    }
+  },
+  "wiederverwenden": {
+    "lemma": "wiederverwenden",
+    "pos": "Verb",
+    "aux": "verwendet wieder / hat wiederverwendet",
+    "forms": [
+      "wiederverwendet",
+      "wiederverwenden"
+    ],
+    "en": "to reuse",
+    "ur": "dobara istemal karna",
+    "ex": {
+      "de": "Sie wird gereinigt und wiederverwendet.",
+      "en": "It gets cleaned and reused.",
+      "ur": "Yeh saaf ki jati hai aur dobara istemal hoti hai."
+    }
+  },
+  "wiederverwerten": {
+    "lemma": "wiederverwerten",
+    "pos": "Verb",
+    "forms": [
+      "wiederverwertet"
+    ],
+    "en": "to recycle (again)",
+    "ur": "dobara istemal mein laana",
+    "ex": {
+      "de": "Glas lässt sich fast unbegrenzt wiederverwerten.",
+      "en": "Glass can be recycled almost indefinitely.",
+      "ur": "Glass taqreeban be-hisab dafa dobara istemal ho sakta hai."
+    }
+  },
+  "schieben": {
+    "lemma": "schieben",
+    "pos": "Verb",
+    "forms": [
+      "schiebt",
+      "geschoben"
+    ],
+    "en": "to push",
+    "ur": "dhakkelna",
+    "ex": {
+      "de": "Schieben Sie sie langsam in die Öffnung.",
+      "en": "Push it slowly into the opening.",
+      "ur": "Usay aahista se andar daal dein."
+    }
+  },
+  "reinigen": {
+    "lemma": "reinigen",
+    "pos": "Verb",
+    "forms": [
+      "reinigt",
+      "gereinigt"
+    ],
+    "en": "to clean",
+    "ur": "saaf karna",
+    "ex": {
+      "de": "Die Brauerei reinigt die Flaschen.",
+      "en": "The brewery cleans the bottles.",
+      "ur": "Brewery bottles saaf karti hai."
+    }
+  },
+  "wiederbefüllen": {
+    "lemma": "wiederbefüllen",
+    "pos": "Verb",
+    "forms": [
+      "wiederbefüllt"
+    ],
+    "en": "to refill (again)",
+    "ur": "dobara bharna",
+    "ex": {
+      "de": "Die Flasche wird bis zu fünfzig Mal wiederbefüllt.",
+      "en": "The bottle is refilled up to fifty times.",
+      "ur": "Bottle pachaas martaba tak dobara bhari jati hai."
+    }
+  },
+  "befüllen": {
+    "lemma": "befüllen",
+    "pos": "Verb",
+    "forms": [
+      "befüllt"
+    ],
+    "en": "to fill",
+    "ur": "bharna",
+    "ex": {
+      "de": "Sie werden erneut befüllt.",
+      "en": "They get filled again.",
+      "ur": "Woh dobara bhari jati hain."
+    }
+  },
+  "zerkleinern": {
+    "lemma": "zerkleinern",
+    "pos": "Verb",
+    "forms": [
+      "zerkleinert"
+    ],
+    "en": "to shred / crush into small pieces",
+    "ur": "chhota chhota karna",
+    "ex": {
+      "de": "Sie wird zerkleinert und recycelt.",
+      "en": "It gets shredded and recycled.",
+      "ur": "Yeh chhoti ki jati hai aur recycle hoti hai."
+    }
+  },
+  "recyceln": {
+    "lemma": "recyceln",
+    "pos": "Verb",
+    "forms": [
+      "recycelt"
+    ],
+    "en": "to recycle",
+    "ur": "recycle karna",
+    "ex": {
+      "de": "Sie wird zerkleinert und recycelt.",
+      "en": "It gets shredded and recycled.",
+      "ur": "Yeh chhoti ki jati hai aur recycle hoti hai."
+    }
+  },
+  "verwerten": {
+    "lemma": "verwerten",
+    "pos": "Verb",
+    "forms": [
+      "verwertet",
+      "weiterverwertet"
+    ],
+    "en": "to utilise / recycle (material)",
+    "ur": "dobara istemal karna",
+    "ex": {
+      "de": "Das Material wird weiterverwertet.",
+      "en": "The material gets recycled.",
+      "ur": "Material dobara istemal hota hai."
+    }
+  },
+  "klemmen": {
+    "lemma": "klemmen",
+    "pos": "Verb",
+    "forms": [
+      "klemmt",
+      "geklemmt"
+    ],
+    "en": "to jam / stick",
+    "ur": "phansna",
+    "ex": {
+      "de": "Etwas hat sich verklemmt.",
+      "en": "Something has jammed.",
+      "ur": "Kuch phans gaya hai."
+    }
+  },
+  "verklemmen": {
+    "lemma": "verklemmen",
+    "pos": "Verb",
+    "forms": [
+      "verklemmt",
+      "verklemmte",
+      "verklemmten"
+    ],
+    "en": "to jam / wedge (something) in",
+    "ur": "phans jana",
+    "ex": {
+      "de": "Ein Fremdkörper hat sich verklemmt.",
+      "en": "A foreign object has jammed.",
+      "ur": "Koi cheez phans gayi."
+    }
+  },
+  "verkeilen": {
+    "lemma": "verkeilen",
+    "pos": "Verb",
+    "forms": [
+      "verkeilt"
+    ],
+    "en": "to wedge / jam tight",
+    "ur": "phans jana",
+    "ex": {
+      "de": "Das Förderband hat sich verkeilt.",
+      "en": "The conveyor belt has jammed.",
+      "ur": "Conveyor belt phans gaya hai."
+    }
+  },
+  "verkanten": {
+    "lemma": "verkanten",
+    "pos": "Verb",
+    "forms": [
+      "verkantet"
+    ],
+    "en": "to tilt / get wedged at an angle",
+    "ur": "terha ho kar phansna",
+    "ex": {
+      "de": "Sie war nur leicht verkantet.",
+      "en": "It was only slightly tilted.",
+      "ur": "Woh sirf thori terhi thi."
+    }
+  },
+  "blockieren": {
+    "lemma": "blockieren",
+    "pos": "Verb",
+    "forms": [
+      "blockiert",
+      "blockierte"
+    ],
+    "en": "to block",
+    "ur": "rok dena",
+    "ex": {
+      "de": "Der ganze Automat ist blockiert.",
+      "en": "The whole machine is blocked.",
+      "ur": "Poori machine block ho gayi hai."
+    }
+  },
+  "rutschen": {
+    "lemma": "rutschen",
+    "pos": "Verb",
+    "forms": [
+      "rutscht",
+      "gerutscht",
+      "hineinrutschen"
+    ],
+    "en": "to slide",
+    "ur": "phislna",
+    "ex": {
+      "de": "Zwei Flaschen rutschen gleichzeitig hinein.",
+      "en": "Two bottles slide in at the same time.",
+      "ur": "Do bottles ek saath andar chali jati hain."
+    }
+  },
+  "verschmutzen": {
+    "lemma": "verschmutzt",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "verschmutzt",
+      "verschmutzte"
+    ],
+    "en": "dirty / soiled (verschmutzen = to get dirty)",
+    "ur": "ganda",
+    "ex": {
+      "de": "Der Sensor ist verschmutzt.",
+      "en": "The sensor is dirty.",
+      "ur": "Sensor ganda hai."
+    }
+  },
+  "spülen": {
+    "lemma": "spülen",
+    "pos": "Verb",
+    "forms": [
+      "spülen",
+      "ausspülen"
+    ],
+    "en": "to rinse",
+    "ur": "dhona",
+    "ex": {
+      "de": "Spülen Sie stark verschmutzte Flaschen kurz aus.",
+      "en": "Briefly rinse out heavily soiled bottles.",
+      "ur": "Bohat gandi bottles thora dho lein."
+    }
+  },
+  "reduzieren": {
+    "lemma": "reduzieren",
+    "pos": "Verb",
+    "forms": [
+      "reduziert",
+      "reduzierten"
+    ],
+    "en": "to reduce",
+    "ur": "kam karna",
+    "ex": {
+      "de": "Das reduziert Ihren Einkauf ordentlich.",
+      "en": "That reduces your purchase quite a bit.",
+      "ur": "Isse khareedari kaafi kam ho jati hai."
+    }
+  },
+  "übersteigen": {
+    "lemma": "übersteigen",
+    "pos": "Verb",
+    "forms": [
+      "übersteigt"
+    ],
+    "en": "to exceed",
+    "ur": "se zyada hona",
+    "ex": {
+      "de": "Sollte der Pfandbetrag den Einkaufswert übersteigen.",
+      "en": "Should the deposit amount exceed the purchase value.",
+      "ur": "Agar Pfand raqam khareedari se zyada ho."
+    }
+  },
+  "verrechnen": {
+    "lemma": "verrechnen",
+    "pos": "Verb",
+    "forms": [
+      "verrechnet"
+    ],
+    "en": "to offset / settle (against something)",
+    "ur": "hisaab mein lena",
+    "ex": {
+      "de": "Möchten Sie den Bon verrechnen lassen?",
+      "en": "Would you like to have the receipt offset?",
+      "ur": "Kya aap bon hisaab mein lena chahti hain?"
+    }
+  },
+  "auszahlen": {
+    "lemma": "auszahlen",
+    "pos": "Verb",
+    "forms": [
+      "ausgezahlt",
+      "zahlt"
+    ],
+    "en": "to pay out",
+    "ur": "cash dena",
+    "ex": {
+      "de": "Ich lasse mir das Pfand bar auszahlen.",
+      "en": "I'll have the deposit paid out in cash.",
+      "ur": "Main Pfand cash mein le loongi."
+    }
+  },
+  "summieren": {
+    "lemma": "summieren",
+    "pos": "Verb",
+    "forms": [
+      "summiert"
+    ],
+    "en": "to add up (sich summieren = to accumulate)",
+    "ur": "jama hona",
+    "ex": {
+      "de": "Der Betrag summiert sich auf neun Euro.",
+      "en": "The amount adds up to nine euros.",
+      "ur": "Raqam nau euro tak jama ho jati hai."
+    }
+  },
+  "beheben": {
+    "lemma": "beheben",
+    "pos": "Verb",
+    "forms": [
+      "behoben"
+    ],
+    "en": "to fix / resolve",
+    "ur": "theek karna",
+    "ex": {
+      "de": "Der Stau sollte behoben sein.",
+      "en": "The jam should be resolved.",
+      "ur": "Rukawat theek ho gayi hogi."
+    }
+  },
+  "deuten": {
+    "lemma": "deuten",
+    "pos": "Verb",
+    "forms": [
+      "deutet"
+    ],
+    "en": "to indicate (auf = to)",
+    "ur": "ishara karna",
+    "ex": {
+      "de": "Das deutet auf den Sensor hin.",
+      "en": "That indicates the sensor.",
+      "ur": "Yeh sensor ki taraf ishara karta hai."
+    }
+  },
+  "verrutschen": {
+    "lemma": "verrutschen",
+    "pos": "Verb",
+    "forms": [
+      "verrutscht"
+    ],
+    "en": "to shift / slip out of place",
+    "ur": "jagah se hatna",
+    "ex": {
+      "de": "Etwas ist verrutscht.",
+      "en": "Something has shifted.",
+      "ur": "Kuch apni jagah se hat gaya."
+    }
+  },
+  "abschrecken": {
+    "lemma": "abschrecken",
+    "pos": "Verb",
+    "forms": [
+      "schreckt",
+      "abgeschreckt"
+    ],
+    "en": "to deter / put off",
+    "ur": "rok dena / hosla pust karna",
+    "ex": {
+      "de": "Der Transport hat mich immer abgeschreckt.",
+      "en": "The transport always put me off.",
+      "ur": "Transport mujhe hamesha rok deta tha."
+    }
+  },
+  "heranfahren": {
+    "lemma": "heranfahren",
+    "pos": "Verb",
+    "forms": [
+      "fahren",
+      "herangefahren"
+    ],
+    "en": "to bring up (with a vehicle/cart)",
+    "ur": "laana (gaari/trolley se)",
+    "ex": {
+      "de": "Sie können alle Kästen heranfahren.",
+      "en": "You can bring up all the crates.",
+      "ur": "Aap sab kasten laa sakti hain."
+    }
+  },
+  "absprechen": {
+    "lemma": "absprechen",
+    "pos": "Verb",
+    "forms": [
+      "abzusprechen",
+      "abgesprochen"
+    ],
+    "en": "to arrange / clear (with someone)",
+    "ur": "baat kar lena",
+    "ex": {
+      "de": "Sprechen Sie das mit der Marktleitung ab.",
+      "en": "Clear that with the store management.",
+      "ur": "Yeh management se baat kar lein."
+    }
+  },
+  "legen": {
+    "lemma": "legen",
+    "pos": "Verb",
+    "forms": [
+      "legt",
+      "gelegt"
+    ],
+    "en": "to lay / put down",
+    "ur": "rakhna",
+    "ex": {
+      "de": "Legen Sie eine Flasche nach der anderen hinein.",
+      "en": "Put one bottle in after another.",
+      "ur": "Aram se ek ke baad ek bottle daaltay jayein."
+    }
+  },
+  "drehen": {
+    "lemma": "drehen",
+    "pos": "Verb",
+    "forms": [
+      "dreht",
+      "gedreht"
+    ],
+    "en": "to turn",
+    "ur": "ghumana",
+    "ex": {
+      "de": "Drehen Sie die Flasche ein bisschen.",
+      "en": "Turn the bottle a bit.",
+      "ur": "Bottle ko thora ghumayein."
+    }
+  },
+  "sortieren": {
+    "lemma": "sortieren",
+    "pos": "Verb",
+    "forms": [
+      "sortiert"
+    ],
+    "en": "to sort",
+    "ur": "chhaantna",
+    "ex": {
+      "de": "Warum sortieren Sie die Flaschen so genau?",
+      "en": "Why are you sorting the bottles so carefully?",
+      "ur": "Bottles itni ghaur se kyun chhant rahi hain?"
+    }
+  },
+  "einschmelzen": {
+    "lemma": "einschmelzen",
+    "pos": "Verb",
+    "forms": [
+      "eingeschmolzen",
+      "schmilzt"
+    ],
+    "en": "to melt down",
+    "ur": "pighlaana",
+    "ex": {
+      "de": "Glas wird eingeschmolzen.",
+      "en": "Glass is melted down.",
+      "ur": "Glass pighlaya jata hai."
+    }
+  },
+  "liegen": {
+    "lemma": "liegen",
+    "pos": "Verb",
+    "forms": [
+      "liegt",
+      "gelegen",
+      "lagen"
+    ],
+    "en": "to lie",
+    "ur": "parhna / pari hona",
+    "ex": {
+      "de": "Sie lagen lange im Auto.",
+      "en": "They lay in the car for a long time.",
+      "ur": "Woh gaari mein kaafi der padi rahin."
+    }
+  },
+  "schreddern": {
+    "lemma": "schreddern",
+    "pos": "Verb",
+    "forms": [
+      "geschreddert"
+    ],
+    "en": "to shred",
+    "ur": "kaatna / toorna",
+    "ex": {
+      "de": "Wird sie eingeschmolzen oder geschreddert?",
+      "en": "Is it melted down or shredded?",
+      "ur": "Kya isay pighlaya jata hai ya kaata jata hai?"
+    }
+  },
+  "ausmustern": {
+    "lemma": "ausmustern",
+    "pos": "Verb",
+    "forms": [
+      "ausgemustert"
+    ],
+    "en": "to retire / take out of service",
+    "ur": "riyaayer karna",
+    "ex": {
+      "de": "Bevor sie ausgemustert wird.",
+      "en": "Before it's retired.",
+      "ur": "Riyaayer hone se pehle."
+    }
+  },
+  "unterscheiden": {
+    "lemma": "unterscheiden",
+    "pos": "Verb",
+    "forms": [
+      "unterscheidet",
+      "unterschieden"
+    ],
+    "en": "to differ / distinguish",
+    "ur": "farq hona",
+    "ex": {
+      "de": "Wie unterscheiden sich die Systeme?",
+      "en": "How do the systems differ?",
+      "ur": "Systems mein farq kya hai?"
+    }
+  },
+  "unterschiedlich": {
+    "lemma": "unterschiedlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "unterschiedliche",
+      "unterschiedlichen"
+    ],
+    "en": "different / varying",
+    "ur": "mukhtalif",
+    "ex": {
+      "de": "Warum ist das Pfand so unterschiedlich?",
+      "en": "Why is the deposit so different?",
+      "ur": "Pfand itna mukhtalif kyun hai?"
+    }
+  },
+  "verschieden": {
+    "lemma": "verschieden",
+    "pos": "Adjektiv",
+    "forms": [
+      "verschiedene"
+    ],
+    "en": "different / various",
+    "ur": "mukhtalif",
+    "ex": {
+      "de": "Sie haben ganz verschiedene Flaschen dabei.",
+      "en": "You have quite different bottles with you.",
+      "ur": "Aap ke paas kaafi mukhtalif bottles hain."
+    }
+  },
+  "rückgabe": {
+    "lemma": "Rückgabe",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "return (of an item)",
+    "ur": "wapsi",
+    "ex": {
+      "de": "Nach der Rückgabe wird sie zerkleinert.",
+      "en": "After return it gets shredded.",
+      "ur": "Wapis milne ke baad chhoti ki jati hai."
+    }
+  },
+  "zurückbringen": {
+    "lemma": "zurückbringen",
+    "pos": "Verb",
+    "forms": [
+      "bringt",
+      "zurückgebracht",
+      "zurückzubringen"
+    ],
+    "en": "to bring back",
+    "ur": "wapis lana",
+    "ex": {
+      "de": "Damit die Leute sie zurückbringen.",
+      "en": "So that people bring it back.",
+      "ur": "Taake log usay wapis lein."
+    }
+  },
+  "wegwerfen": {
+    "lemma": "wegwerfen",
+    "pos": "Verb",
+    "aux": "wirft weg / hat weggeworfen",
+    "forms": [
+      "wirft weg",
+      "weggeworfen"
+    ],
+    "en": "to throw away",
+    "ur": "phenk dena",
+    "ex": {
+      "de": "Und nicht einfach wegwerfen.",
+      "en": "And not just throw it away.",
+      "ur": "Aur yun hi na phenk dein."
+    }
+  },
+  "wegbringen": {
+    "lemma": "wegbringen",
+    "pos": "Verb",
+    "forms": [
+      "bringt weg",
+      "weggebracht",
+      "wegzubringen"
+    ],
+    "en": "to take away",
+    "ur": "le jana",
+    "ex": {
+      "de": "Ich hatte keine Zeit, das Leergut wegzubringen.",
+      "en": "I had no time to take the empties away.",
+      "ur": "Mujhe khaali bottles le jane ka waqt nahi mila."
+    }
+  },
+  "beherzigen": {
+    "lemma": "beherzigen",
+    "pos": "Verb",
+    "forms": [
+      "beherzigt"
+    ],
+    "en": "to take to heart",
+    "ur": "yaad rakhna",
+    "ex": {
+      "de": "Das werde ich künftig beherzigen.",
+      "en": "I'll take that to heart in future.",
+      "ur": "Main aainda yeh yaad rakhoongi."
+    }
+  },
+  "entstehen": {
+    "lemma": "entstehen",
+    "pos": "Verb",
+    "forms": [
+      "entsteht",
+      "entstanden"
+    ],
+    "en": "to arise / occur",
+    "ur": "paida hona",
+    "ex": {
+      "de": "Gelegentlich entstehen Verunreinigungen.",
+      "en": "Occasional contamination occurs.",
+      "ur": "Kabhi kabhi gandagi paida ho jati hai."
+    }
+  },
+  "gebrauchen": {
+    "lemma": "gebrauchen",
+    "pos": "Verb",
+    "forms": [
+      "gebraucht"
+    ],
+    "en": "to use",
+    "ur": "istemal karna",
+    "ex": {
+      "de": "Ist die Flasche danach noch zu gebrauchen?",
+      "en": "Is the bottle still usable afterwards?",
+      "ur": "Kya bottle iske baad istemal ho sakti hai?"
+    }
+  },
+  "benutzung": {
+    "lemma": "Benutzung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "use / usage",
+    "ur": "istemal",
+    "ex": {
+      "de": "Nach einer einzigen Benutzung.",
+      "en": "After a single use.",
+      "ur": "Sirf ek istemal ke baad."
+    }
+  },
+  "erkundigen": {
+    "lemma": "erkundigen",
+    "pos": "Verb",
+    "forms": [
+      "erkundigt"
+    ],
+    "en": "sich erkundigen = to inquire",
+    "ur": "maloom karna",
+    "ex": {
+      "de": "Ich wollte mich erkundigen.",
+      "en": "I wanted to inquire.",
+      "ur": "Main maloom karna chahti thi."
+    }
+  },
+  "verarbeiten": {
+    "lemma": "verarbeiten",
+    "pos": "Verb",
+    "forms": [
+      "verarbeitet"
+    ],
+    "en": "to process",
+    "ur": "process karna",
+    "ex": {
+      "de": "Der Automat verarbeitet die Kästen nacheinander.",
+      "en": "The machine processes the crates one after another.",
+      "ur": "Machine kasten ek ek karke process karti hai."
+    }
+  },
+  "akzeptieren": {
+    "lemma": "akzeptieren",
+    "pos": "Verb",
+    "forms": [
+      "akzeptiert"
+    ],
+    "en": "to accept",
+    "ur": "qabool karna",
+    "ex": {
+      "de": "Wie viele Kästen akzeptiert der Automat?",
+      "en": "How many crates does the machine accept?",
+      "ur": "Machine kitne kasten qabool karti hai?"
+    }
+  },
+  "einhalten": {
+    "lemma": "einhalten",
+    "pos": "Verb",
+    "forms": [
+      "hält ein",
+      "eingehalten"
+    ],
+    "en": "to comply with / adhere to",
+    "ur": "poora karna",
+    "ex": {
+      "de": "Quoten, die Supermärkte einhalten müssen.",
+      "en": "Quotas that supermarkets have to comply with.",
+      "ur": "Quotas jo supermarkets ko poore karne hote hain."
+    }
+  },
+  "erreichen": {
+    "lemma": "erreichen",
+    "pos": "Verb",
+    "forms": [
+      "erreicht"
+    ],
+    "en": "to reach / achieve",
+    "ur": "pohanchna",
+    "ex": {
+      "de": "Diese werden oft nur knapp erreicht.",
+      "en": "These are often only just barely met.",
+      "ur": "Yeh aksar mushkil se poore hote hain."
+    }
+  },
+  "anbieten": {
+    "lemma": "anbieten",
+    "pos": "Verb",
+    "forms": [
+      "bietet an",
+      "angeboten"
+    ],
+    "en": "to offer",
+    "ur": "pesh karna",
+    "ex": {
+      "de": "Welche Flaschen hier angeboten werden.",
+      "en": "Which bottles are offered here.",
+      "ur": "Yahan kaunsi bottles milti hain."
+    }
+  },
+  "weiterverwenden": {
+    "lemma": "weiterverwenden",
+    "pos": "Verb",
+    "forms": [
+      "weiterverwendet"
+    ],
+    "en": "to continue using / make use of",
+    "ur": "aage istemal karna",
+    "ex": {
+      "de": "Wie lässt sich der Bon weiterverwenden?",
+      "en": "How can the receipt be used further?",
+      "ur": "Receipt ko aage kaise istemal karein?"
+    }
+  },
+  "weiterentwickeln": {
+    "lemma": "weiterentwickeln",
+    "pos": "Verb",
+    "forms": [
+      "weiterentwickelt"
+    ],
+    "en": "to develop further",
+    "ur": "aage barhna (technology)",
+    "ex": {
+      "de": "Die Technik hat sich weiterentwickelt.",
+      "en": "The technology has developed further.",
+      "ur": "Technology aage barh gayi hai."
+    }
+  },
+  "ansammeln": {
+    "lemma": "ansammeln",
+    "pos": "Verb",
+    "forms": [
+      "angesammelt",
+      "sammelt"
+    ],
+    "en": "to accumulate / pile up",
+    "ur": "jama hona",
+    "ex": {
+      "de": "Es hat sich einiges angesammelt.",
+      "en": "Quite a bit has piled up.",
+      "ur": "Kaafi jama ho gaya."
+    }
+  },
+  "mitrechnen": {
+    "lemma": "mitrechnen",
+    "pos": "Verb",
+    "forms": [
+      "mitgerechnet",
+      "rechnet"
+    ],
+    "en": "to include in the calculation",
+    "ur": "hisaab mein shamil karna",
+    "ex": {
+      "de": "Das wird automatisch mitgerechnet.",
+      "en": "That's automatically included.",
+      "ur": "Yeh khud hi shamil ho jata hai."
+    }
+  },
+  "anfangen": {
+    "lemma": "anfangen",
+    "pos": "Verb",
+    "forms": [
+      "fängt",
+      "angefangen",
+      "fange",
+      "anzufangen"
+    ],
+    "en": "to begin / start",
+    "ur": "shuru karna",
+    "ex": {
+      "de": "Ich fange mit der ersten Flasche an.",
+      "en": "I'll start with the first bottle.",
+      "ur": "Main pehli bottle se shuru karti hoon."
+    }
+  },
+  "bewegen": {
+    "lemma": "bewegen",
+    "pos": "Verb",
+    "forms": [
+      "bewegt",
+      "bewegte"
+    ],
+    "en": "to move",
+    "ur": "harkat karna",
+    "ex": {
+      "de": "Das Band bewegt sich.",
+      "en": "The belt is moving.",
+      "ur": "Band chal raha hai."
+    }
+  },
+  "klappen": {
+    "lemma": "klappen",
+    "pos": "Verb",
+    "forms": [
+      "klappt",
+      "geklappt"
+    ],
+    "en": "to work out (colloquial)",
+    "ur": "kaamyaab hona",
+    "ex": {
+      "de": "Diesmal hat es geklappt.",
+      "en": "This time it worked.",
+      "ur": "Is baar ho gaya."
+    }
+  },
+  "abschließen": {
+    "lemma": "abschließen",
+    "pos": "Verb",
+    "forms": [
+      "schließt",
+      "abgeschlossen"
+    ],
+    "en": "to complete / conclude",
+    "ur": "mukammal hona",
+    "ex": {
+      "de": "Bis der Vorgang abgeschlossen ist.",
+      "en": "Until the process is completed.",
+      "ur": "Jab tak amal mukammal ho."
+    }
+  },
+  "ausgeben": {
+    "lemma": "ausgeben",
+    "pos": "Verb",
+    "forms": [
+      "gibt aus",
+      "ausgegeben",
+      "ausgegebene"
+    ],
+    "en": "to issue",
+    "ur": "jaari karna",
+    "ex": {
+      "de": "Der ausgegebene Bon.",
+      "en": "The issued receipt.",
+      "ur": "Jaari ki gayi receipt."
+    }
+  },
+  "ausschließlich": {
+    "lemma": "ausschließlich",
+    "pos": "Adverb",
+    "en": "exclusively",
+    "ur": "sirf",
+    "ex": {
+      "de": "Das entscheiden ausschließlich Sie.",
+      "en": "That's entirely up to you.",
+      "ur": "Yeh sirf aap tay karti hain."
+    }
+  },
+  "winken": {
+    "lemma": "winken",
+    "pos": "Verb",
+    "forms": [
+      "winkt",
+      "gewinkt"
+    ],
+    "en": "to wave",
+    "ur": "ishara karna (haath se)",
+    "ex": {
+      "de": "Winken Sie mir kurz zu.",
+      "en": "Wave me over briefly.",
+      "ur": "Mujhe ishara kar dein."
+    }
+  },
+  "belaufen": {
+    "lemma": "belaufen",
+    "pos": "Verb",
+    "forms": [
+      "beläuft"
+    ],
+    "en": "sich belaufen auf = to amount to",
+    "ur": "barabar hona",
+    "ex": {
+      "de": "Der Gesamtbetrag beläuft sich auf achtundvierzig Euro.",
+      "en": "The total comes to forty-eight euros.",
+      "ur": "Total araghan euro banta hai."
+    }
+  },
+  "betragen": {
+    "lemma": "betragen",
+    "pos": "Verb",
+    "forms": [
+      "beträgt"
+    ],
+    "en": "to amount to",
+    "ur": "barabar hona",
+    "ex": {
+      "de": "Der Bon beträgt vier Euro fünfundsechzig.",
+      "en": "The receipt is worth four euros sixty-five.",
+      "ur": "Bon chaar euro pisttalis cent ka hai."
+    }
+  },
+  "verringern": {
+    "lemma": "verringern",
+    "pos": "Verb",
+    "forms": [
+      "verringert"
+    ],
+    "en": "to reduce",
+    "ur": "kam karna",
+    "ex": {
+      "de": "Es verringert direkt Ihre Summe.",
+      "en": "It directly reduces your total.",
+      "ur": "Yeh foran aap ki total kam kar deta hai."
+    }
+  },
+  "begleichen": {
+    "lemma": "begleichen",
+    "pos": "Verb",
+    "forms": [
+      "begleicht",
+      "beglichen"
+    ],
+    "en": "to settle / pay off",
+    "ur": "ada karna",
+    "ex": {
+      "de": "Die Sie noch begleichen müssten.",
+      "en": "Which you'd still need to settle.",
+      "ur": "Jo aap ko ada karni hai."
+    }
+  },
+  "bevorzugen": {
+    "lemma": "bevorzugen",
+    "pos": "Verb",
+    "forms": [
+      "bevorzugt"
+    ],
+    "en": "to prefer",
+    "ur": "tarjeeh dena",
+    "ex": {
+      "de": "Ich bezahle das am liebsten kontaktlos.",
+      "en": "I'd prefer to pay contactlessly.",
+      "ur": "Main tarjeehan kontaktlos deti hoon."
+    }
+  },
+  "hängen": {
+    "lemma": "hängen",
+    "pos": "Verb",
+    "forms": [
+      "hängt",
+      "gehangen"
+    ],
+    "en": "to hang / be stuck",
+    "ur": "latakna / phansna",
+    "ex": {
+      "de": "Eine Flasche hängt quer im Einschub.",
+      "en": "A bottle is stuck sideways in the slot.",
+      "ur": "Ek bottle terhi ho kar slot mein phans gayi."
+    }
+  },
+  "gleichen": {
+    "lemma": "gleichen",
+    "pos": "Verb",
+    "forms": [
+      "gleicht",
+      "geglichen"
+    ],
+    "en": "to match / compare",
+    "ur": "milaana",
+    "ex": {
+      "de": "Er gleicht es mit der Kastengröße ab.",
+      "en": "It compares it with the crate size.",
+      "ur": "Yeh usay kasten ke size se milata hai."
+    }
+  },
+  "stoßen": {
+    "lemma": "stoßen",
+    "pos": "Verb",
+    "forms": [
+      "stößt",
+      "gestoßen"
+    ],
+    "en": "to hit / encounter (auf = come across)",
+    "ur": "takrana / paish aana",
+    "ex": {
+      "de": "Sie sind auf ein Problem gestoßen.",
+      "en": "You've run into a problem.",
+      "ur": "Aap ko masla pesh aa gaya."
+    }
+  },
+  "überprüfen": {
+    "lemma": "überprüfen",
+    "pos": "Verb",
+    "forms": [
+      "überprüft",
+      "überprüfe"
+    ],
+    "en": "to check",
+    "ur": "jaanchna",
+    "ex": {
+      "de": "Ich überprüfe, ob das Band verkeilt ist.",
+      "en": "I'll check whether the belt has jammed.",
+      "ur": "Main dekhta hoon ke band phans gaya hai."
+    }
+  },
+  "herausnehmen": {
+    "lemma": "herausnehmen",
+    "pos": "Verb",
+    "forms": [
+      "nimmt heraus",
+      "herausgenommen"
+    ],
+    "en": "to take out",
+    "ur": "nikaalna",
+    "ex": {
+      "de": "Muss ich die Flaschen einzeln herausnehmen?",
+      "en": "Do I need to take the bottles out individually?",
+      "ur": "Kya mujhe bottles alag nikaalni hain?"
+    }
+  },
+  "dabeihaben": {
+    "lemma": "dabeihaben",
+    "pos": "Verb",
+    "en": "to have with you",
+    "ur": "saath laana",
+    "ex": {
+      "de": "Sie haben einen Pfandbon dabeihaben.",
+      "en": "You have a deposit receipt with you.",
+      "ur": "Aap ke paas Pfandbon hai."
+    }
+  },
+  "darstellen": {
+    "lemma": "darstellen",
+    "pos": "Verb",
+    "forms": [
+      "stellt dar",
+      "dargestellt",
+      "dar"
+    ],
+    "en": "to pose / represent (here: darstellen = to pose a challenge)",
+    "ur": "pesh karna",
+    "ex": {
+      "de": "Das stellt keine Herausforderung dar.",
+      "en": "That poses no challenge.",
+      "ur": "Ismein koi masla nahi."
+    }
+  },
+  "ratlos": {
+    "lemma": "ratlos",
+    "pos": "Adjektiv",
+    "en": "clueless / at a loss",
+    "ur": "pareshan / uljhan mein",
+    "ex": {
+      "de": "Sie sehen etwas ratlos aus.",
+      "en": "You look a bit lost.",
+      "ur": "Aap thori pareshan lag rahi hain."
+    }
+  },
+  "sperrig": {
+    "lemma": "sperrig",
+    "pos": "Adjektiv",
+    "en": "bulky",
+    "ur": "bohat bara aur mushkil se uthaya jaye",
+    "ex": {
+      "de": "Er ist ziemlich sperrig für mich allein.",
+      "en": "It's quite bulky for me alone.",
+      "ur": "Akele ke liye yeh kaafi bara aur mushkil hai."
+    }
+  },
+  "unhandlich": {
+    "lemma": "unhandlich",
+    "pos": "Adjektiv",
+    "en": "unwieldy",
+    "ur": "sambhalna mushkil",
+    "ex": {
+      "de": "Volle Kästen sind unhandlich.",
+      "en": "Full crates are unwieldy.",
+      "ur": "Bharay kasten sambhalna mushkil hote hain."
+    }
+  },
+  "faszinierend": {
+    "lemma": "faszinierend",
+    "pos": "Adjektiv",
+    "en": "fascinating",
+    "ur": "dilchasp",
+    "ex": {
+      "de": "Faszinierend, wie präzise das funktioniert.",
+      "en": "Fascinating how precisely that works.",
+      "ur": "Dilchasp hai yeh kitni sahi tarah kaam karta hai."
+    }
+  },
+  "beeindruckend": {
+    "lemma": "beeindruckend",
+    "pos": "Adjektiv",
+    "en": "impressive",
+    "ur": "mutassir karne wala",
+    "ex": {
+      "de": "Sehr beeindruckend.",
+      "en": "Very impressive.",
+      "ur": "Kaafi mutassir karne wala."
+    }
+  },
+  "kontaktlos": {
+    "lemma": "kontaktlos",
+    "pos": "Adjektiv",
+    "en": "contactless",
+    "ur": "kontaktlos (bina choo)",
+    "ex": {
+      "de": "Ich zahle kontaktlos mit Karte.",
+      "en": "I pay contactlessly with card.",
+      "ur": "Main card se kontaktlos deti hoon."
+    }
+  },
+  "sorgfältig": {
+    "lemma": "sorgfältig",
+    "pos": "Adjektiv",
+    "forms": [
+      "sorgfältige"
+    ],
+    "en": "careful / thorough",
+    "ur": "ghaur se",
+    "ex": {
+      "de": "Vielen Dank für die sorgfältige Abrechnung.",
+      "en": "Thank you for the careful accounting.",
+      "ur": "Ghaur se hisaab karne ka shukriya."
+    }
+  },
+  "umfassend": {
+    "lemma": "umfassend",
+    "pos": "Adjektiv",
+    "forms": [
+      "umfassende"
+    ],
+    "en": "comprehensive",
+    "ur": "mukammal",
+    "ex": {
+      "de": "Vielen Dank für Ihre umfassende Unterstützung.",
+      "en": "Thank you for your comprehensive support.",
+      "ur": "Aap ki mukammal madad ka shukriya."
+    }
+  },
+  "aufmerksam": {
+    "lemma": "aufmerksam",
+    "pos": "Adjektiv",
+    "en": "attentive / thoughtful",
+    "ur": "khayaal rakhne wala",
+    "ex": {
+      "de": "Sehr aufmerksam von Ihnen.",
+      "en": "Very thoughtful of you.",
+      "ur": "Aap ki bohat khayaal rakhne wali baat."
+    }
+  },
+  "einzeln": {
+    "lemma": "einzeln",
+    "pos": "Adverb / Adjektiv",
+    "en": "individually / one at a time",
+    "ur": "ek ek kar ke",
+    "ex": {
+      "de": "Werfen Sie sie einfach einzeln ein.",
+      "en": "Just put them in one at a time.",
+      "ur": "Bas unhein ek ek kar ke daal dein."
+    }
+  },
+  "verwirrt": {
+    "lemma": "verwirrt",
+    "pos": "Adjektiv / Partizip",
+    "en": "confused",
+    "ur": "uljha hua / pareshan",
+    "ex": {
+      "de": "Das verwirrt viele am Anfang.",
+      "en": "That confuses many at the beginning.",
+      "ur": "Shuru mein bohat logon ko uljhan hoti hai."
+    }
+  },
+  "beschädigt": {
+    "lemma": "beschädigt",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "beschädigte",
+      "beschädigten"
+    ],
+    "en": "damaged",
+    "ur": "kharab / toota",
+    "ex": {
+      "de": "Wenn das Etikett leicht beschädigt ist.",
+      "en": "If the label is slightly damaged.",
+      "ur": "Agar label thora kharab ho."
+    }
+  },
+  "interessant": {
+    "lemma": "interessant",
+    "pos": "Adjektiv",
+    "en": "interesting",
+    "ur": "dilchasp",
+    "ex": {
+      "de": "Interessant, das wusste ich noch nicht.",
+      "en": "Interesting, I didn't know that yet.",
+      "ur": "Dilchasp, mujhe yeh pata nahi tha."
+    }
+  },
+  "interessiert": {
+    "lemma": "interessiert",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "interessierte"
+    ],
+    "en": "interested",
+    "ur": "dilchaspi rakhne wala",
+    "ex": {
+      "de": "Ich freue mich über interessierte Kundinnen.",
+      "en": "I enjoy interested customers.",
+      "ur": "Mujhe dilchaspi rakhne wali customers se khushi hoti hai."
+    }
+  },
+  "ohnehin": {
+    "lemma": "ohnehin",
+    "pos": "Adverb",
+    "en": "anyway",
+    "ur": "waise bhi",
+    "ex": {
+      "de": "Der Automat erledigt das ohnehin automatisch.",
+      "en": "The machine handles that automatically anyway.",
+      "ur": "Machine yeh waise bhi khud kar leti hai."
+    }
+  },
+  "künftig": {
+    "lemma": "künftig",
+    "pos": "Adjektiv / Adverb",
+    "en": "future / in future",
+    "ur": "aainda",
+    "ex": {
+      "de": "Ich versuche künftig, bewusst zu kaufen.",
+      "en": "I'll try to buy consciously in future.",
+      "ur": "Main aainda samajhdari se khareedoongi."
+    }
+  },
+  "kaputt": {
+    "lemma": "kaputt",
+    "pos": "Adjektiv",
+    "en": "broken",
+    "ur": "kharab / toota hua",
+    "ex": {
+      "de": "Das Etikett ist kaputt.",
+      "en": "The label is broken.",
+      "ur": "Label kharab hai."
+    }
+  },
+  "anderthalb": {
+    "lemma": "anderthalb",
+    "pos": "Zahl",
+    "en": "one and a half",
+    "ur": "dedh",
+    "ex": {
+      "de": "Für den Kasten gibt es anderthalb Euro.",
+      "en": "For the crate there's one euro fifty.",
+      "ur": "Kasten par dedh euro milta hai."
+    }
+  },
+  "ordentlich": {
+    "lemma": "ordentlich",
+    "pos": "Adjektiv / Adverb",
+    "forms": [
+      "ordentliche",
+      "ordentlicher"
+    ],
+    "en": "decent / considerable; also: properly",
+    "ur": "kaafi acha / munazzam",
+    "ex": {
+      "de": "Das ist ein ordentlicher Betrag.",
+      "en": "That's a decent amount.",
+      "ur": "Yeh kaafi acchi raqam hai."
+    }
+  },
+  "nacheinander": {
+    "lemma": "nacheinander",
+    "pos": "Adverb",
+    "en": "one after another",
+    "ur": "ek ke baad ek",
+    "ex": {
+      "de": "Sie geben mehrere Kästen nacheinander zurück.",
+      "en": "You return several crates one after another.",
+      "ur": "Kai kasten ek ke baad ek wapis karte hain."
+    }
+  },
+  "geduldig": {
+    "lemma": "geduldig",
+    "pos": "Adjektiv",
+    "forms": [
+      "geduldige"
+    ],
+    "en": "patient",
+    "ur": "sabar wala",
+    "ex": {
+      "de": "Vielen Dank für die geduldige Erklärung.",
+      "en": "Thank you for the patient explanation.",
+      "ur": "Sabar se samjhane ka shukriya."
+    }
+  },
+  "selbstständig": {
+    "lemma": "selbstständig",
+    "pos": "Adjektiv / Adverb",
+    "en": "independently / automatically",
+    "ur": "khud-mukhtaar / khud hi",
+    "ex": {
+      "de": "Der Automat erkennt den Typ selbstständig.",
+      "en": "The machine recognises the type automatically.",
+      "ur": "Machine type khud hi pehchan leti hai."
+    }
+  },
+  "jederzeit": {
+    "lemma": "jederzeit",
+    "pos": "Adverb",
+    "en": "at any time",
+    "ur": "kabhi bhi",
+    "ex": {
+      "de": "Sie können jederzeit abbrechen.",
+      "en": "You can stop at any time.",
+      "ur": "Aap jab chaahen ruk sakti hain."
+    }
+  },
+  "entweder": {
+    "lemma": "entweder",
+    "pos": "Konjunktion",
+    "en": "either (entweder...oder = either...or)",
+    "ur": "ya to",
+    "ex": {
+      "de": "Entweder bar oder gegen Ihren Einkauf.",
+      "en": "Either for cash or against your purchase.",
+      "ur": "Ya to cash ke liye ya khareedari ke liye."
+    }
+  },
+  "leute": {
+    "lemma": "Leute",
+    "pos": "Nomen",
+    "en": "people (plural only)",
+    "ur": "log",
+    "ex": {
+      "de": "Damit die Leute sie zurückbringen.",
+      "en": "So that people bring it back.",
+      "ur": "Taake log usay wapis lein."
+    }
+  },
+  "bewusst": {
+    "lemma": "bewusst",
+    "pos": "Adjektiv / Adverb",
+    "forms": [
+      "bewusster",
+      "bewusste"
+    ],
+    "en": "conscious(ly) / deliberate(ly)",
+    "ur": "samajhdari se",
+    "ex": {
+      "de": "Ich kaufe ab jetzt bewusster Mehrweg.",
+      "en": "I'll buy reusable more consciously from now on.",
+      "ur": "Ab main zyada samajhdari se Mehrweg khareedoongi."
+    }
+  },
+  "erkennbar": {
+    "lemma": "erkennbar",
+    "pos": "Adjektiv",
+    "en": "recognisable",
+    "ur": "pehchanay jaane wala",
+    "ex": {
+      "de": "Erkennbar an der stabileren Form.",
+      "en": "Recognisable by the sturdier shape.",
+      "ur": "Mazboot shakal se pehchani jati hai."
+    }
+  },
+  "nahezu": {
+    "lemma": "nahezu",
+    "pos": "Adverb",
+    "en": "almost",
+    "ur": "taqreeban",
+    "ex": {
+      "de": "Nahezu unbegrenzt oft.",
+      "en": "Almost indefinitely often.",
+      "ur": "Taqreeban be-hisab dafa."
+    }
+  },
+  "politisch": {
+    "lemma": "politisch",
+    "pos": "Adjektiv",
+    "forms": [
+      "politische"
+    ],
+    "en": "political",
+    "ur": "siyasi",
+    "ex": {
+      "de": "Gibt es politische Bestrebungen?",
+      "en": "Are there political efforts?",
+      "ur": "Kya siyasi koshishein hain?"
+    }
+  },
+  "bestrebung": {
+    "lemma": "Bestrebung",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Bestrebungen",
+    "forms": [
+      "bestrebungen"
+    ],
+    "en": "effort / endeavour",
+    "ur": "koshish",
+    "ex": {
+      "de": "Politische Bestrebungen zugunsten von Mehrweg.",
+      "en": "Political efforts in favour of reusable.",
+      "ur": "Mehrweg ke haq mein siyasi koshishein."
+    }
+  },
+  "zugunsten": {
+    "lemma": "zugunsten",
+    "pos": "Präposition",
+    "en": "in favour of",
+    "ur": "ke haq mein",
+    "ex": {
+      "de": "Zugunsten von Mehrweg.",
+      "en": "In favour of reusable.",
+      "ur": "Mehrweg ke haq mein."
+    }
+  },
+  "durchaus": {
+    "lemma": "durchaus",
+    "pos": "Adverb",
+    "en": "definitely / quite",
+    "ur": "zaroor / bilkul",
+    "ex": {
+      "de": "Durchaus, größere Ketten setzen darauf.",
+      "en": "Definitely, larger chains focus on it.",
+      "ur": "Zaroor, bari chains isi par zor deti hain."
+    }
+  },
+  "zunehmend": {
+    "lemma": "zunehmend",
+    "pos": "Adjektiv / Adverb",
+    "en": "increasingly",
+    "ur": "barhtay hue",
+    "ex": {
+      "de": "Ketten setzen zunehmend auf Mehrweg.",
+      "en": "Chains are increasingly focusing on reusable.",
+      "ur": "Chains zyada tar Mehrweg ki taraf ja rahi hain."
+    }
+  },
+  "druck": {
+    "lemma": "Druck",
+    "pos": "Nomen",
+    "gender": "der",
+    "forms": [
+      "drucks"
+    ],
+    "en": "pressure",
+    "ur": "dabao",
+    "ex": {
+      "de": "Wegen des Drucks von Kunden.",
+      "en": "Because of pressure from customers.",
+      "ur": "Customers ke dabao ki wajah se."
+    }
+  },
+  "umweltbewusst": {
+    "lemma": "umweltbewusst",
+    "pos": "Adjektiv",
+    "forms": [
+      "umweltbewussten",
+      "umweltbewusste"
+    ],
+    "en": "environmentally conscious",
+    "ur": "maahol-shanaas",
+    "ex": {
+      "de": "Umweltbewusste Kunden wie Sie.",
+      "en": "Environmentally conscious customers like you.",
+      "ur": "Aap jaise maahol-shanaas customers."
+    }
+  },
+  "umweltfreundlich": {
+    "lemma": "umweltfreundlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "umweltfreundlicher",
+      "umweltfreundlichere"
+    ],
+    "en": "environmentally friendly",
+    "ur": "maahol dost",
+    "ex": {
+      "de": "Mehrweg ist umweltfreundlicher.",
+      "en": "Reusable is more environmentally friendly.",
+      "ur": "Mehrweg zyada maahol dost hai."
+    }
+  },
+  "wirksam": {
+    "lemma": "wirksam",
+    "pos": "Adjektiv",
+    "forms": [
+      "wirksame"
+    ],
+    "en": "effective",
+    "ur": "asardaar",
+    "ex": {
+      "de": "Eine kleine, aber wirksame Entscheidung.",
+      "en": "A small but effective decision.",
+      "ur": "Ek chhota lekin asardaar faisla."
+    }
+  },
+  "aufschlussreich": {
+    "lemma": "aufschlussreich",
+    "pos": "Adjektiv",
+    "forms": [
+      "aufschlussreichen"
+    ],
+    "en": "enlightening",
+    "ur": "roshan khayaal",
+    "ex": {
+      "de": "Danke für diesen aufschlussreichen Einblick.",
+      "en": "Thank you for this enlightening insight.",
+      "ur": "Is roshan khayaal maloomat ka shukriya."
+    }
+  },
+  "einblick": {
+    "lemma": "Einblick",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Einblicke",
+    "en": "insight",
+    "ur": "andaruni maloomat",
+    "ex": {
+      "de": "Danke für diesen Einblick.",
+      "en": "Thank you for this insight.",
+      "ur": "Is maloomat ka shukriya."
+    }
+  },
+  "woraus": {
+    "lemma": "woraus",
+    "pos": "Adverb",
+    "en": "from what / out of what",
+    "ur": "kis se",
+    "ex": {
+      "de": "Wissen Sie, woraus Einweg besteht?",
+      "en": "Do you know what single-use is made of?",
+      "ur": "Kya aap ko pata hai Einweg kis se banti hai?"
+    }
+  },
+  "kompliziert": {
+    "lemma": "kompliziert",
+    "pos": "Adjektiv",
+    "en": "complicated",
+    "ur": "mushkil / pechida",
+    "ex": {
+      "de": "Das sieht kompliziert aus.",
+      "en": "That looks complicated.",
+      "ur": "Yeh mushkil lag raha hai."
+    }
+  },
+  "geschult": {
+    "lemma": "geschult",
+    "pos": "Adjektiv / Partizip",
+    "en": "trained (schulen = to train)",
+    "ur": "tarbiyat yaafta",
+    "ex": {
+      "de": "Muss man dafür geschult sein?",
+      "en": "Do you need to be trained for that?",
+      "ur": "Kya iske liye training chahiye?"
+    }
+  },
+  "vorhin": {
+    "lemma": "vorhin",
+    "pos": "Adverb",
+    "en": "a short while ago / earlier",
+    "ur": "thori der pehle",
+    "ex": {
+      "de": "Eine Flasche ist vorhin hängen geblieben.",
+      "en": "A bottle got stuck earlier.",
+      "ur": "Ek bottle thori der pehle phans gayi thi."
+    }
+  },
+  "einwandfrei": {
+    "lemma": "einwandfrei",
+    "pos": "Adjektiv / Adverb",
+    "en": "flawless(ly)",
+    "ur": "bilkul theek",
+    "ex": {
+      "de": "Es funktioniert wieder einwandfrei.",
+      "en": "It's working flawlessly again.",
+      "ur": "Ab bilkul theek chal raha hai."
+    }
+  },
+  "weit": {
+    "lemma": "weit",
+    "pos": "Adjektiv",
+    "forms": [
+      "weitem",
+      "weiter",
+      "weite"
+    ],
+    "en": "far; von Weitem = from a distance",
+    "ur": "door; von Weitem = door se",
+    "ex": {
+      "de": "Ich bemerke es von Weitem.",
+      "en": "I notice it from a distance.",
+      "ur": "Mujhe door se nazar aata hai."
+    }
+  },
+  "technisch": {
+    "lemma": "technisch",
+    "pos": "Adjektiv",
+    "forms": [
+      "technisches",
+      "technische"
+    ],
+    "en": "technical",
+    "ur": "technical",
+    "ex": {
+      "de": "Ein technisches Problem.",
+      "en": "A technical problem.",
+      "ur": "Technical masla."
+    }
+  },
+  "sämtlich": {
+    "lemma": "sämtlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "sämtliche"
+    ],
+    "en": "all / entire",
+    "ur": "tamaam",
+    "ex": {
+      "de": "Der Automat lehnt sämtliche Flaschen ab.",
+      "en": "The machine rejects all bottles.",
+      "ur": "Machine tamaam bottles mana kar rahi hai."
+    }
+  },
+  "kategorisch": {
+    "lemma": "kategorisch",
+    "pos": "Adjektiv / Adverb",
+    "en": "categorical(ly)",
+    "ur": "qatai tor par",
+    "ex": {
+      "de": "Er lehnt sie kategorisch ab.",
+      "en": "It rejects them categorically.",
+      "ur": "Yeh unhein qatai tor par mana karta hai."
+    }
+  },
+  "augenscheinlich": {
+    "lemma": "augenscheinlich",
+    "pos": "Adverb",
+    "en": "apparently",
+    "ur": "zaahiri tor par",
+    "ex": {
+      "de": "Obwohl sie augenscheinlich intakt sind.",
+      "en": "Even though they're apparently intact.",
+      "ur": "Halan ke woh zaahiri tor par theek hain."
+    }
+  },
+  "intakt": {
+    "lemma": "intakt",
+    "pos": "Adjektiv",
+    "en": "intact",
+    "ur": "theek thaak",
+    "ex": {
+      "de": "Sie sind augenscheinlich intakt.",
+      "en": "They're apparently intact.",
+      "ur": "Woh zaahiri tor par theek nazar aati hain."
+    }
+  },
+  "irgendwo": {
+    "lemma": "irgendwo",
+    "pos": "Adverb",
+    "en": "somewhere",
+    "ur": "kahin",
+    "ex": {
+      "de": "Irgendwo im Innern hat sich etwas verklemmt.",
+      "en": "Something has jammed somewhere inside.",
+      "ur": "Andar kahin kuch phans gaya hai."
+    }
+  },
+  "innere": {
+    "lemma": "Innere",
+    "pos": "Nomen",
+    "gender": "das",
+    "forms": [
+      "innern"
+    ],
+    "en": "inside / interior (im Innern = inside)",
+    "ur": "andar ka hissa",
+    "ex": {
+      "de": "Im Innern hat sich etwas verklemmt.",
+      "en": "Something has jammed inside.",
+      "ur": "Andar kuch phans gaya hai."
+    }
+  },
+  "klappern": {
+    "lemma": "Klappern",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "rattling (sound)",
+    "ur": "khadkhadahat",
+    "ex": {
+      "de": "Es gab ein ungewöhnliches Klappern.",
+      "en": "There was an unusual rattling.",
+      "ur": "Ajeeb khadkhadahat hui."
+    }
+  },
+  "mangelnd": {
+    "lemma": "mangelnd",
+    "pos": "Adjektiv / Partizip",
+    "forms": [
+      "mangelnder",
+      "mangelnde"
+    ],
+    "en": "lacking / insufficient",
+    "ur": "kami wala",
+    "ex": {
+      "de": "Liegt es an mangelnder Wartung?",
+      "en": "Is it due to lack of maintenance?",
+      "ur": "Kya yeh maintenance ki kami se hai?"
+    }
+  },
+  "soeben": {
+    "lemma": "soeben",
+    "pos": "Adverb",
+    "en": "just now",
+    "ur": "abhi abhi",
+    "ex": {
+      "de": "Ich habe sie soeben entfernt.",
+      "en": "I've just removed it.",
+      "ur": "Maine abhi woh hatai."
+    }
+  },
+  "dadurch": {
+    "lemma": "dadurch",
+    "pos": "Adverb",
+    "en": "thereby / as a result",
+    "ur": "is wajah se",
+    "ex": {
+      "de": "Sie blockierte dadurch den Mechanismus.",
+      "en": "It thereby blocked the mechanism.",
+      "ur": "Isi wajah se mechanism block ho gaya."
+    }
+  },
+  "ausgezeichnet": {
+    "lemma": "ausgezeichnet",
+    "pos": "Adjektiv",
+    "en": "excellent",
+    "ur": "behtareen",
+    "ex": {
+      "de": "Ausgezeichnet.",
+      "en": "Excellent.",
+      "ur": "Behtareen."
+    }
+  },
+  "fortfahren": {
+    "lemma": "fortfahren",
+    "pos": "Verb",
+    "forms": [
+      "fährt fort",
+      "fortgefahren",
+      "fort"
+    ],
+    "en": "to continue",
+    "ur": "jaari rakhna",
+    "ex": {
+      "de": "Fahren Sie ruhig fort.",
+      "en": "Feel free to continue.",
+      "ur": "Bas jaari rakhein."
+    }
+  },
+  "bisherig": {
+    "lemma": "bisherig",
+    "pos": "Adjektiv",
+    "forms": [
+      "bisherigen",
+      "bisherige"
+    ],
+    "en": "previous / so far",
+    "ur": "ab tak ka",
+    "ex": {
+      "de": "Alle bisherigen Flaschen.",
+      "en": "All the previous bottles.",
+      "ur": "Ab tak ki sab bottles."
+    }
+  },
+  "fachkundig": {
+    "lemma": "fachkundig",
+    "pos": "Adjektiv",
+    "forms": [
+      "fachkundige"
+    ],
+    "en": "expert / knowledgeable",
+    "ur": "mahir",
+    "ex": {
+      "de": "Ihre fachkundige Unterstützung.",
+      "en": "Your expert support.",
+      "ur": "Aap ki mahir madad."
+    }
+  },
+  "stets": {
+    "lemma": "stets",
+    "pos": "Adverb",
+    "en": "always",
+    "ur": "hamesha",
+    "ex": {
+      "de": "Es ist mir stets ein Vergnügen.",
+      "en": "It's always a pleasure.",
+      "ur": "Yeh hamesha meri khushi hai."
+    }
+  },
+  "außen": {
+    "lemma": "außen",
+    "pos": "Adverb",
+    "en": "outside / from the outside",
+    "ur": "bahar se",
+    "ex": {
+      "de": "Der Scanner zählt von außen.",
+      "en": "The scanner counts from the outside.",
+      "ur": "Scanner bahar se ginta hai."
+    }
+  },
+  "offiziell": {
+    "lemma": "offiziell",
+    "pos": "Adjektiv / Adverb",
+    "en": "official(ly)",
+    "ur": "sarkari tor par",
+    "ex": {
+      "de": "Offiziell nicht.",
+      "en": "Officially not.",
+      "ur": "Sarkari taur par nahi."
+    }
+  },
+  "unproblematisch": {
+    "lemma": "unproblematisch",
+    "pos": "Adjektiv",
+    "en": "unproblematic",
+    "ur": "be-masla",
+    "ex": {
+      "de": "Das sollte unproblematisch sein.",
+      "en": "That should be unproblematic.",
+      "ur": "Yeh be-masla hona chahiye."
+    }
+  },
+  "absolut": {
+    "lemma": "absolut",
+    "pos": "Adverb",
+    "en": "absolutely",
+    "ur": "bilkul",
+    "ex": {
+      "de": "Absolut, drei Kästen sind normal.",
+      "en": "Absolutely, three crates are normal.",
+      "ur": "Bilkul, teen kasten normal hain."
+    }
+  },
+  "keinerlei": {
+    "lemma": "keinerlei",
+    "pos": "Adjektiv / Pronomen",
+    "en": "no ... whatsoever",
+    "ur": "koi bhi nahi",
+    "ex": {
+      "de": "Das stellt keinerlei Herausforderung dar.",
+      "en": "That poses no challenge whatsoever.",
+      "ur": "Ismein koi masla hi nahi."
+    }
+  },
+  "optisch": {
+    "lemma": "optisch",
+    "pos": "Adjektiv",
+    "forms": [
+      "optischer",
+      "optische"
+    ],
+    "en": "optical",
+    "ur": "optical",
+    "ex": {
+      "de": "Ein optischer Sensor erkennt das Muster.",
+      "en": "An optical sensor recognises the pattern.",
+      "ur": "Optical sensor pattern pehchanta hai."
+    }
+  },
+  "beachtlich": {
+    "lemma": "beachtlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "beachtliche"
+    ],
+    "en": "considerable",
+    "ur": "khaasa zyada",
+    "ex": {
+      "de": "Der Betrag summiert sich auf beachtliche neun Euro.",
+      "en": "The amount adds up to a considerable nine euros.",
+      "ur": "Raqam khaasi zyada nau euro banti hai."
+    }
+  },
+  "umfangreich": {
+    "lemma": "umfangreich",
+    "pos": "Adjektiv",
+    "forms": [
+      "umfangreichen",
+      "umfangreiche"
+    ],
+    "en": "extensive",
+    "ur": "tafseeli / bara",
+    "ex": {
+      "de": "Ein recht umfangreicher Pfandbon.",
+      "en": "A fairly substantial deposit receipt.",
+      "ur": "Ek kaafi bara Pfandbon."
+    }
+  },
+  "heutig": {
+    "lemma": "heutig",
+    "pos": "Adjektiv",
+    "forms": [
+      "heutigen",
+      "heutige"
+    ],
+    "en": "today's",
+    "ur": "aaj ka",
+    "ex": {
+      "de": "Mit Ihrem heutigen Einkauf.",
+      "en": "With your shopping today.",
+      "ur": "Aaj ki khareedari ke saath."
+    }
+  },
+  "ausfallen": {
+    "lemma": "ausfallen",
+    "pos": "Verb",
+    "forms": [
+      "ausgefallen",
+      "fällt aus",
+      "ausfällt"
+    ],
+    "en": "to turn out (a certain way)",
+    "ur": "nikalna (natija)",
+    "ex": {
+      "de": "Er ist etwas teurer ausgefallen.",
+      "en": "It turned out a bit more expensive.",
+      "ur": "Yeh thora mehnga nikla."
+    }
+  },
+  "jeweilig": {
+    "lemma": "jeweilig",
+    "pos": "Adjektiv",
+    "forms": [
+      "jeweiligen",
+      "jeweilige"
+    ],
+    "en": "respective",
+    "ur": "apni apni",
+    "ex": {
+      "de": "Ihrem jeweiligen Pfandwert.",
+      "en": "Their respective deposit value.",
+      "ur": "Apni apni Pfand qeemat."
+    }
+  },
+  "manuell": {
+    "lemma": "manuell",
+    "pos": "Adjektiv / Adverb",
+    "en": "manual(ly)",
+    "ur": "khud se",
+    "ex": {
+      "de": "Dann rechne ich sie manuell ab.",
+      "en": "Then I'll settle them manually.",
+      "ur": "Phir main khud hisaab kar doonga."
+    }
+  },
+  "eventuell": {
+    "lemma": "eventuell",
+    "pos": "Adverb",
+    "en": "possibly",
+    "ur": "mumkin hai",
+    "ex": {
+      "de": "Sonst wird sie eventuell abgelehnt.",
+      "en": "Otherwise it may be rejected.",
+      "ur": "Warna yeh mumkin hai mana ho jaye."
+    }
+  },
+  "selbsterklärend": {
+    "lemma": "selbsterklärend",
+    "pos": "Adjektiv",
+    "en": "self-explanatory",
+    "ur": "khud-wazeh",
+    "ex": {
+      "de": "Der Vorgang ist selbsterklärend.",
+      "en": "The process is self-explanatory.",
+      "ur": "Amal khud-wazeh hai."
+    }
+  },
+  "schnell": {
+    "lemma": "schnell",
+    "pos": "Adjektiv / Adverb",
+    "forms": [
+      "schneller",
+      "schnelle",
+      "schnellsten"
+    ],
+    "en": "fast / quick",
+    "ur": "jaldi / tez",
+    "ex": {
+      "de": "Wie lässt sich der Bon am schnellsten weiterverwenden?",
+      "en": "What's the quickest way to use the receipt?",
+      "ur": "Receipt ko sab se jaldi kaise istemal karein?"
+    }
+  },
+  "quer": {
+    "lemma": "quer",
+    "pos": "Adjektiv / Adverb",
+    "en": "sideways / crosswise",
+    "ur": "terha",
+    "ex": {
+      "de": "Eine Flasche hängt quer im Einschub.",
+      "en": "A bottle is stuck sideways in the slot.",
+      "ur": "Ek bottle terhi ho kar phans gayi."
+    }
+  },
+  "heraus": {
+    "lemma": "heraus",
+    "pos": "Adverb",
+    "en": "out",
+    "ur": "bahar",
+    "ex": {
+      "de": "Ich hole sie kurz heraus.",
+      "en": "I'll pull it out briefly.",
+      "ur": "Main usay abhi bahar nikaal leta hoon."
+    }
+  },
+  "raus": {
+    "lemma": "raus",
+    "pos": "Adverb",
+    "en": "out (colloquial short for heraus)",
+    "ur": "bahar (bol chaal)",
+    "ex": {
+      "de": "Sobald man den Dreh raus hat.",
+      "en": "Once you get the hang of it.",
+      "ur": "Jab tarika samajh aa jaye."
+    }
+  },
+  "erneut": {
+    "lemma": "erneut",
+    "pos": "Adverb",
+    "en": "again / once more",
+    "ur": "dobara",
+    "ex": {
+      "de": "Schieben Sie sie erneut hinein.",
+      "en": "Push it in again.",
+      "ur": "Usay dobara andar daal dein."
+    }
+  },
+  "nochmal": {
+    "lemma": "nochmal",
+    "pos": "Adverb",
+    "forms": [
+      "nochmals"
+    ],
+    "en": "again (colloquial for noch einmal)",
+    "ur": "dobara (bol chaal)",
+    "ex": {
+      "de": "Probieren Sie es einfach nochmal.",
+      "en": "Just try it again.",
+      "ur": "Bas dobara koshish karein."
+    }
+  },
+  "hinein": {
+    "lemma": "hinein",
+    "pos": "Adverb",
+    "en": "into it / inside",
+    "ur": "andar ki taraf",
+    "ex": {
+      "de": "Das Band zieht die Flasche hinein.",
+      "en": "The belt pulls the bottle in.",
+      "ur": "Band bottle ko andar khainchta hai."
+    }
+  },
+  "anhand": {
+    "lemma": "anhand",
+    "pos": "Präposition",
+    "en": "on the basis of",
+    "ur": "ke zariye",
+    "ex": {
+      "de": "Anhand des Strichcodes.",
+      "en": "Based on the barcode.",
+      "ur": "Barcode ke zariye."
+    }
+  },
+  "aufs": {
+    "lemma": "aufs",
+    "pos": "Kontraktion",
+    "en": "contraction of auf + das (onto the)",
+    "ur": "'auf das' ka mukhtasar",
+    "ex": {
+      "de": "Legen Sie Ihre Sachen aufs Band.",
+      "en": "Put your things on the belt.",
+      "ur": "Apna saaman band par rakh dein."
+    }
+  },
+  "wow": {
+    "lemma": "wow",
+    "pos": "Interjektion",
+    "en": "wow",
+    "ur": "wah",
+    "ex": {
+      "de": "Wow, das geht schnell.",
+      "en": "Wow, that's quick.",
+      "ur": "Wah, yeh jaldi ho gaya."
+    }
+  },
+  "ach": {
+    "lemma": "ach",
+    "pos": "Interjektion",
+    "en": "oh",
+    "ur": "acha",
+    "ex": {
+      "de": "Ach so, das wusste ich nicht.",
+      "en": "Oh, I didn't know that.",
+      "ur": "Acha, mujhe yeh pata nahi tha."
+    }
+  },
+  "sodass": {
+    "lemma": "sodass",
+    "pos": "Konjunktion",
+    "en": "so that / with the result that",
+    "ur": "is tarah ke",
+    "ex": {
+      "de": "Sodass die Qualität abnimmt.",
+      "en": "So that the quality decreases.",
+      "ur": "Is tarah quality kam hoti hai."
+    }
+  },
+  "ziehe": {
+    "lemma": "ziehe",
+    "pos": "Form von ziehen",
+    "en": "I pull (ich ziehe = I pull)",
+    "ur": "main khaenchta hoon",
+    "ex": {
+      "de": "Ich ziehe die Flasche einfach heraus.",
+      "en": "I'll just pull the bottle out.",
+      "ur": "Main bottle bas bahar khainch leta hoon."
+    }
+  },
+  "drücke": {
+    "lemma": "drücke",
+    "pos": "Form von drücken",
+    "en": "I press (ich drücke = I press)",
+    "ur": "main dabata hoon",
+    "ex": {
+      "de": "Muss ich noch etwas drücken?",
+      "en": "Do I need to press anything?",
+      "ur": "Kya mujhe kuch dabana hai?"
+    }
+  },
+  "ablehnt": {
+    "lemma": "ablehnt",
+    "pos": "Form von ablehnen",
+    "en": "rejects (er/sie lehnt ab = it rejects, written together in a subordinate clause)",
+    "ur": "mana karta hai",
+    "ex": {
+      "de": "Der Automat, der jede Flasche ablehnt.",
+      "en": "The machine that rejects every bottle.",
+      "ur": "Machine jo har bottle mana karti hai."
+    }
+  },
+  "zurückgibt": {
+    "lemma": "zurückgibt",
+    "pos": "Form von zurückgeben",
+    "en": "gives back (er/sie gibt zurück, written together in a subordinate clause)",
+    "ur": "wapis karta hai",
+    "ex": {
+      "de": "Jemand, der einen Kasten zurückgibt.",
+      "en": "Someone who returns a crate.",
+      "ur": "Koi jo kasten wapis karta hai."
+    }
+  },
+  "getragen": {
+    "lemma": "getragen",
+    "pos": "Partizip von tragen",
+    "en": "carried",
+    "ur": "uthaya hua",
+    "ex": {
+      "de": "Ich habe ihn vom Auto getragen.",
+      "en": "I carried it from the car.",
+      "ur": "Main isay gaari se layi."
+    }
+  },
+  "zweiundzwanzig": {
+    "lemma": "zweiundzwanzig",
+    "pos": "Zahl",
+    "en": "twenty-two",
+    "ur": "bais",
+    "ex": {
+      "de": "Das sind zweiundzwanzig Euro dreißig.",
+      "en": "That's twenty-two euros thirty.",
+      "ur": "Yeh bais euro tees cent hain."
+    }
+  },
+  "fünfundzwanzig": {
+    "lemma": "fünfundzwanzig",
+    "pos": "Zahl",
+    "en": "twenty-five",
+    "ur": "pachees",
+    "ex": {
+      "de": "Diese hier hat fünfundzwanzig Cent Pfand.",
+      "en": "This one has twenty-five cents deposit.",
+      "ur": "Is par pachees cent Pfand hai."
+    }
+  },
+  "sechsundzwanzig": {
+    "lemma": "sechsundzwanzig",
+    "pos": "Zahl",
+    "en": "twenty-six",
+    "ur": "chhabees",
+    "ex": {
+      "de": "Dann zahlen Sie noch sechsundzwanzig Euro.",
+      "en": "Then you still pay twenty-six euros.",
+      "ur": "Phir chhabees euro dene hain."
+    }
+  },
+  "einunddreißig": {
+    "lemma": "einunddreißig",
+    "pos": "Zahl",
+    "en": "thirty-one",
+    "ur": "ikattees",
+    "ex": {
+      "de": "Der Gesamtbetrag liegt bei einunddreißig Euro.",
+      "en": "The total is thirty-one euros.",
+      "ur": "Total ikattees euro hai."
+    }
+  },
+  "achtundvierzig": {
+    "lemma": "achtundvierzig",
+    "pos": "Zahl",
+    "en": "forty-eight",
+    "ur": "araghan",
+    "ex": {
+      "de": "Der Gesamtbetrag beläuft sich auf achtundvierzig Euro.",
+      "en": "The total comes to forty-eight euros.",
+      "ur": "Total araghan euro banta hai."
+    }
+  },
+  "fünfundsechzig": {
+    "lemma": "fünfundsechzig",
+    "pos": "Zahl",
+    "en": "sixty-five",
+    "ur": "pisttalis",
+    "ex": {
+      "de": "Vier Euro fünfundsechzig.",
+      "en": "Four euros sixty-five.",
+      "ur": "Chaar euro pisttalis cent."
+    }
+  },
+  "fünfundachtzig": {
+    "lemma": "fünfundachtzig",
+    "pos": "Zahl",
+    "en": "eighty-five",
+    "ur": "pichaasi",
+    "ex": {
+      "de": "Achtunddreißig Euro fünfundachtzig.",
+      "en": "Thirty-eight euros eighty-five.",
+      "ur": "Aatthtees euro pichaasi cent."
+    }
+  },
+  "cent": {
+    "lemma": "Cent",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Cent",
+    "en": "cent",
+    "ur": "cent",
+    "ex": {
+      "de": "Die Flasche bringt fünfzehn Cent.",
+      "en": "The bottle is worth fifteen cents.",
+      "ur": "Bottle par pandrah cent milte hain."
+    }
+  },
+  "stau": {
+    "lemma": "Stau",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Staus",
+    "en": "jam / backup (of bottles in the machine)",
+    "ur": "jaam / rukawat",
+    "ex": {
+      "de": "Im Automaten ist ein Stau.",
+      "en": "There is a jam in the machine.",
+      "ur": "Machine mein rukawat hai."
+    }
+  },
+  "volle": {
+    "lemma": "voll",
+    "pos": "Adjektiv",
+    "en": "full (inflected)",
+    "ur": "bhara hua",
+    "ex": {
+      "de": "Bringen Sie die volle Kiste zurück.",
+      "en": "Bring back the full crate.",
+      "ur": "Bhari hui kiste wapis layein."
+    }
+  },
+  "benutzt": {
+    "lemma": "benutzen",
+    "pos": "Verb",
+    "forms": [
+      "benutze",
+      "benutzen"
+    ],
+    "en": "used / uses",
+    "ur": "istemal karta/karti hai",
+    "ex": {
+      "de": "Wie benutzt man den Automaten?",
+      "en": "How does one use the machine?",
+      "ur": "Machine kaise istemal karte hain?"
+    }
+  },
+  "herauszufinden": {
+    "lemma": "herausfinden",
+    "pos": "Verb",
+    "en": "to find out (zu-infinitive)",
+    "ur": "pata lagana",
+    "ex": {
+      "de": "Ich versuche herauszufinden, warum es nicht geht.",
+      "en": "I'm trying to find out why it isn't working.",
+      "ur": "Main pata lagane ki koshish kar rahi hoon ke kyun nahi chal raha."
+    }
+  },
+  "schnitt": {
+    "lemma": "Schnitt",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "cut (as in barcode/label scan)",
+    "ur": "cut / scan",
+    "ex": {
+      "de": "Der Scanner hat einen guten Schnitt.",
+      "en": "The scanner does a clean scan.",
+      "ur": "Scanner sahi scan karta hai."
+    }
+  },
+  "blinkt": {
+    "lemma": "blinken",
+    "pos": "Verb",
+    "en": "blinks / flashes",
+    "ur": "jhilmilata hai",
+    "ex": {
+      "de": "Die Anzeige blinkt rot.",
+      "en": "The display is flashing red.",
+      "ur": "Display laal jhilmila raha hai."
+    }
+  },
+  "scanner": {
+    "lemma": "Scanner",
+    "pos": "Nomen",
+    "gender": "der",
+    "plural": "Scanner",
+    "en": "scanner",
+    "ur": "scanner",
+    "ex": {
+      "de": "Der Scanner erkennt die Flasche nicht.",
+      "en": "The scanner doesn't recognize the bottle.",
+      "ur": "Scanner bottle ko pehchan nahi raha."
+    }
+  },
+  "restlichen": {
+    "lemma": "restlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "restliches"
+    ],
+    "en": "remaining (inflected)",
+    "ur": "baqi",
+    "ex": {
+      "de": "Geben Sie mir die restlichen Flaschen.",
+      "en": "Give me the remaining bottles.",
+      "ur": "Baqi bottles mujhe dein."
+    }
+  },
+  "praktischer": {
+    "lemma": "praktisch",
+    "pos": "Adjektiv",
+    "en": "more practical",
+    "ur": "zyada practical",
+    "ex": {
+      "de": "Der Bon ist praktischer als Kleingeld.",
+      "en": "The receipt is more practical than change.",
+      "ur": "Receipt chhutte paison se zyada practical hai."
+    }
+  },
+  "fange": {
+    "lemma": "anfangen",
+    "pos": "Verb",
+    "en": "begin (ich-form)",
+    "ur": "shuru karta/karti hoon",
+    "ex": {
+      "de": "Ich fange mit den Flaschen an.",
+      "en": "I'll start with the bottles.",
+      "ur": "Main bottles se shuru karti hoon."
+    }
+  },
+  "technik": {
+    "lemma": "Technik",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "technology / technique",
+    "ur": "technique",
+    "ex": {
+      "de": "Die Technik des Automaten ist einfach.",
+      "en": "The technology of the machine is simple.",
+      "ur": "Machine ki technique aasan hai."
+    }
+  },
+  "kenne": {
+    "lemma": "kennen",
+    "pos": "Verb",
+    "en": "know (ich-form)",
+    "ur": "jaanta/jaanti hoon",
+    "ex": {
+      "de": "Ich kenne diesen Automaten gut.",
+      "en": "I know this machine well.",
+      "ur": "Main is machine ko acha jaanti hoon."
+    }
+  },
+  "richtigen": {
+    "lemma": "richtig",
+    "pos": "Adjektiv",
+    "en": "correct/right (inflected)",
+    "ur": "sahi",
+    "ex": {
+      "de": "Drücken Sie den richtigen Knopf.",
+      "en": "Press the correct button.",
+      "ur": "Sahi button dabayein."
+    }
+  },
+  "beginne": {
+    "lemma": "beginnen",
+    "pos": "Verb",
+    "en": "begin (ich-form)",
+    "ur": "shuru karta/karti hoon",
+    "ex": {
+      "de": "Ich beginne mit den großen Flaschen.",
+      "en": "I begin with the large bottles.",
+      "ur": "Main badi bottles se shuru karti hoon."
+    }
+  },
+  "unterschiedliche": {
+    "lemma": "unterschiedlich",
+    "pos": "Adjektiv",
+    "forms": [
+      "unterschiedlichen"
+    ],
+    "en": "different / various (inflected)",
+    "ur": "mukhtalif",
+    "ex": {
+      "de": "Es gibt unterschiedliche Pfandbeträge.",
+      "en": "There are different deposit amounts.",
+      "ur": "Mukhtalif deposit raqmein hain."
+    }
+  },
+  "anzeige": {
+    "lemma": "Anzeige",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Anzeigen",
+    "en": "display (screen)",
+    "ur": "display",
+    "ex": {
+      "de": "Auf der Anzeige steht eine Fehlermeldung.",
+      "en": "The display shows an error message.",
+      "ur": "Display par error message hai."
+    }
+  },
+  "unterschiedlichen": {
+    "lemma": "unterschiedlich",
+    "pos": "Adjektiv",
+    "en": "different (dative/accusative inflected)",
+    "ur": "mukhtalif",
+    "ex": {
+      "de": "Bei unterschiedlichen Flaschen gilt ein anderer Betrag.",
+      "en": "A different amount applies for different bottles.",
+      "ur": "Mukhtalif bottles par alag raqam lagti hai."
+    }
+  },
+  "stabileren": {
+    "lemma": "stabil",
+    "pos": "Adjektiv",
+    "en": "more stable (inflected)",
+    "ur": "zyada mazboot",
+    "ex": {
+      "de": "Ich brauche einen stabileren Karton.",
+      "en": "I need a sturdier box.",
+      "ur": "Mujhe zyada mazboot box chahiye."
+    }
+  },
+  "abnimmt": {
+    "lemma": "abnehmen",
+    "pos": "Verb",
+    "en": "takes back / accepts (er/sie-form)",
+    "ur": "wapis leta/leti hai",
+    "ex": {
+      "de": "Der Automat nimmt die Flasche nicht ab.",
+      "en": "The machine doesn't accept the bottle.",
+      "ur": "Machine bottle wapis nahi le rahi."
+    }
+  },
+  "drucks": {
+    "lemma": "Druck",
+    "pos": "Nomen",
+    "gender": "der",
+    "en": "print / press (genitive)",
+    "ur": "print",
+    "ex": {
+      "de": "Nach dem Drucks des Bons ist es fertig.",
+      "en": "After the printing of the receipt it's done.",
+      "ur": "Receipt print hone ke baad khatam."
+    }
+  },
+  "einlege": {
+    "lemma": "einlegen",
+    "pos": "Verb",
+    "en": "insert (ich-form)",
+    "ur": "daalta/daalti hoon",
+    "ex": {
+      "de": "Ich lege die Flasche vorsichtig ein.",
+      "en": "I insert the bottle carefully.",
+      "ur": "Main bottle aahista se daalti hoon."
+    }
+  },
+  "ernsteres": {
+    "lemma": "ernst",
+    "pos": "Adjektiv",
+    "en": "more serious (inflected)",
+    "ur": "zyada sangeen",
+    "ex": {
+      "de": "Das ist ein ernsteres Problem.",
+      "en": "That is a more serious problem.",
+      "ur": "Yeh zyada sangeen masla hai."
+    }
+  },
+  "restliches": {
+    "lemma": "restlich",
+    "pos": "Adjektiv",
+    "en": "remaining (inflected)",
+    "ur": "baqi",
+    "ex": {
+      "de": "Ich habe noch restliches Pfandgeld.",
+      "en": "I still have remaining deposit money.",
+      "ur": "Mere paas ab bhi baqi deposit paise hain."
+    }
+  },
+  "verliere": {
+    "lemma": "verlieren",
+    "pos": "Verb",
+    "en": "lose (ich-form)",
+    "ur": "kho deta/deti hoon",
+    "ex": {
+      "de": "Ich verliere sonst den Überblick.",
+      "en": "Otherwise I lose track.",
+      "ur": "Warna mera hisaab kho jata hai."
+    }
+  },
+  "weitem": {
+    "lemma": "weit",
+    "pos": "Adjektiv",
+    "en": "far (dative, idiom bei weitem = by far)",
+    "ur": "door / kaafi",
+    "ex": {
+      "de": "Das ist bei weitem die schnellste Methode.",
+      "en": "That is by far the fastest method.",
+      "ur": "Yeh sab se tez tareeqa hai."
+    }
+  },
+  "geraumer": {
+    "lemma": "geraum",
+    "pos": "Adjektiv",
+    "en": "considerable (time), as in seit geraumer Zeit",
+    "ur": "kaafi (waqt)",
+    "ex": {
+      "de": "Seit geraumer Zeit funktioniert er nicht.",
+      "en": "It hasn't worked for quite some time.",
+      "ur": "Kaafi arse se yeh nahi chal raha."
+    }
+  },
+  "ungewöhnliches": {
+    "lemma": "ungewöhnlich",
+    "pos": "Adjektiv",
+    "en": "unusual (inflected)",
+    "ur": "ghair maamuli",
+    "ex": {
+      "de": "Das ist nichts Ungewöhnliches.",
+      "en": "That's nothing unusual.",
+      "ur": "Yeh koi ghair maamuli baat nahi."
+    }
+  },
+  "öffne": {
+    "lemma": "öffnen",
+    "pos": "Verb",
+    "en": "open (ich-form)",
+    "ur": "kholta/kholti hoon",
+    "ex": {
+      "de": "Ich öffne die Klappe des Automaten.",
+      "en": "I open the flap of the machine.",
+      "ur": "Main machine ka darwaza kholti hoon."
+    }
+  },
+  "hunderte": {
+    "lemma": "Hundert",
+    "pos": "Nomen",
+    "en": "hundreds",
+    "ur": "saikron",
+    "ex": {
+      "de": "Hunderte Flaschen werden hier täglich zurückgegeben.",
+      "en": "Hundreds of bottles are returned here daily.",
+      "ur": "Yahan roz saikron bottles wapis hoti hain."
+    }
+  },
+  "aufgefallen": {
+    "lemma": "auffallen",
+    "pos": "Verb",
+    "en": "noticed / stood out (past participle)",
+    "ur": "nazar aaya",
+    "ex": {
+      "de": "Ist Ihnen etwas Ungewöhnliches aufgefallen?",
+      "en": "Did you notice anything unusual?",
+      "ur": "Kya aap ko kuch ajeeb nazar aaya?"
+    }
+  },
+  "kleinere": {
+    "lemma": "klein",
+    "pos": "Adjektiv",
+    "en": "smaller (inflected)",
+    "ur": "chhota",
+    "ex": {
+      "de": "Nehmen Sie eine kleinere Kiste.",
+      "en": "Take a smaller crate.",
+      "ur": "Chhoti kiste le lein."
+    }
+  },
+  "ausdrucken": {
+    "lemma": "ausdrucken",
+    "pos": "Verb",
+    "en": "to print out",
+    "ur": "print nikalna",
+    "ex": {
+      "de": "Der Automat druckt den Bon automatisch aus.",
+      "en": "The machine prints out the receipt automatically.",
+      "ur": "Machine khud receipt print karti hai."
+    }
+  },
+  "pfands": {
+    "lemma": "Pfand",
+    "pos": "Nomen",
+    "gender": "das",
+    "en": "deposit (genitive)",
+    "ur": "deposit ka",
+    "ex": {
+      "de": "Der Wert des Pfands steht auf der Flasche.",
+      "en": "The value of the deposit is on the bottle.",
+      "ur": "Deposit ki qeemat bottle par likhi hai."
+    }
+  },
+  "angenehmen": {
+    "lemma": "angenehm",
+    "pos": "Adjektiv",
+    "en": "pleasant (inflected)",
+    "ur": "khushgawar",
+    "ex": {
+      "de": "Ich wünsche Ihnen einen angenehmen Tag.",
+      "en": "I wish you a pleasant day.",
+      "ur": "Aap ka din khushgawar guzray."
+    }
+  },
+  "mehreren": {
+    "lemma": "mehrere",
+    "pos": "Adjektiv",
+    "en": "several (dative)",
+    "ur": "kai",
+    "ex": {
+      "de": "Das kam bei mehreren Kunden vor.",
+      "en": "That happened with several customers.",
+      "ur": "Yeh kai customers ke sath hua."
+    }
+  },
+  "bleibe": {
+    "lemma": "bleiben",
+    "pos": "Verb",
+    "en": "stay/remain (ich-form)",
+    "ur": "rehta/rehti hoon",
+    "ex": {
+      "de": "Ich bleibe geduldig.",
+      "en": "I remain patient.",
+      "ur": "Main sabar se rehti hoon."
+    }
+  },
+  "effizienter": {
+    "lemma": "effizient",
+    "pos": "Adjektiv",
+    "en": "more efficient",
+    "ur": "zyada behtar",
+    "ex": {
+      "de": "Das neue System ist effizienter.",
+      "en": "The new system is more efficient.",
+      "ur": "Naya system zyada behtar hai."
+    }
+  },
+  "abzugeben": {
+    "lemma": "abgeben",
+    "pos": "Verb",
+    "en": "to hand in / return (zu-infinitive)",
+    "ur": "jama karana",
+    "ex": {
+      "de": "Sie brauchen den Bon, um das Geld abzuholen.",
+      "en": "You need the receipt to collect the money.",
+      "ur": "Paise lene ke liye receipt chahiye."
+    }
+  },
+  "obergrenze": {
+    "lemma": "Obergrenze",
+    "pos": "Nomen",
+    "gender": "die",
+    "plural": "Obergrenzen",
+    "en": "upper limit",
+    "ur": "zyada se zyada had",
+    "ex": {
+      "de": "Es gibt eine Obergrenze pro Bon.",
+      "en": "There is an upper limit per receipt.",
+      "ur": "Har receipt ki ek had hoti hai."
+    }
+  },
+  "marktleitung": {
+    "lemma": "Marktleitung",
+    "pos": "Nomen",
+    "gender": "die",
+    "en": "store management",
+    "ur": "store management",
+    "ex": {
+      "de": "Die Marktleitung kann Ihnen weiterhelfen.",
+      "en": "The store management can help you further.",
+      "ur": "Store management aap ki madad kar sakti hai."
+    }
+  },
+  "anzufangen": {
+    "lemma": "anfangen",
+    "pos": "Verb",
+    "en": "to begin (zu-infinitive)",
+    "ur": "shuru karna",
+    "ex": {
+      "de": "Es lohnt sich, von vorne anzufangen.",
+      "en": "It's worth starting over.",
+      "ur": "Dobara shuru karna faida mand hai."
+    }
+  }
+}

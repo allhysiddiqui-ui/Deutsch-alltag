@@ -1,0 +1,37 @@
+{
+  "id": "wochenmarkt",
+  "order": 2,
+  "icon": "🥕",
+  "title": {
+    "de": "Wochenmarkt",
+    "en": "At the farmers' market",
+    "ur": "Hafte wale bazaar mein"
+  },
+  "intro": "Obst und Gemüse kaufen, nach Frische und Herkunft fragen, Spezialitäten probieren — alles für den Wochenmarkt.",
+  "test": {
+    "items": [
+      { "type": "mc", "q": "das Kilo", "opts": ["kilogram", "piece", "handful", "slice"], "a": 0, "ur": "kilo", "word": "kilo" },
+      { "type": "mc", "q": "reif", "opts": ["ripe", "fresh", "sweet", "cheap"], "a": 0, "ur": "paka hua", "word": "reif" },
+      { "type": "mc", "q": "die Erdbeere", "opts": ["strawberry", "peach", "apple", "cucumber"], "a": 0, "ur": "strawberry", "word": "erdbeere" },
+      { "type": "mc", "q": "probieren", "opts": ["to try / taste", "to buy", "to weigh", "to pay"], "a": 0, "ur": "chakhna", "word": "probieren" },
+      { "type": "mc", "q": "die Herkunft", "opts": ["origin", "certificate", "flavour", "discount"], "a": 0, "ur": "asal maqam", "word": "herkunft" },
+      { "type": "mc", "q": "der Bauernhof", "opts": ["farm", "market stall", "orchard", "greenhouse"], "a": 0, "ur": "farm", "word": "bauernhof" },
+      { "type": "mc", "q": "der Restposten", "opts": ["leftover stock", "receipt", "special order", "sample"], "a": 0, "ur": "bacha hua saman", "word": "restposten" },
+      { "type": "mc", "q": "übrig", "opts": ["left over", "fresh", "expensive", "organic"], "a": 0, "ur": "bacha hua", "word": "übrig" },
+      { "type": "gap", "de": "Ich möchte ein ___ Tomaten, bitte.", "a": "Kilo", "hint": "kilogram", "en": "I would like a kilo of tomatoes, please.", "word": "kilo" },
+      { "type": "gap", "de": "Sind die Pfirsiche schon ___?", "a": "reif", "hint": "ripe", "en": "Are the peaches ripe already?", "word": "reif" },
+      { "type": "gap", "de": "Woher kommt der Käse, aus welcher ___?", "a": "Region", "hint": "region / area", "en": "Where does the cheese come from, which region?", "word": "region" },
+      { "type": "gap", "de": "Am Feierabend gibt es oft ___ mit Rabatt.", "a": "Restposten", "hint": "leftover stock", "en": "At closing time there's often leftover stock at a discount.", "word": "restposten" },
+      { "type": "order", "a": "Ich möchte ein Kilo Tomaten", "en": "I would like a kilo of tomatoes." },
+      { "type": "order", "a": "Darf ich das probieren", "en": "May I try that?" },
+      { "type": "order", "a": "Ist das Gemüse aus der Region", "en": "Is the vegetable from the region?" },
+      { "type": "listen", "a": "Die Erdbeeren duften wirklich sehr gut.", "en": "The strawberries really smell very good." },
+      { "type": "listen", "a": "Ist das Gemüse aus biologischem Anbau?", "en": "Is the vegetable organically grown?" },
+      { "type": "listen", "a": "Am Ende des Tages gebe ich Ihnen einen Rabatt.", "en": "At the end of the day I'll give you a discount." },
+      { "type": "prod", "en": "I would like a kilo of apples, please.", "ur": "Mujhe ek kilo seb chahiye, please.", "a": "Ich möchte ein Kilo Äpfel, bitte." },
+      { "type": "prod", "en": "May I try that?", "ur": "Kya main yeh chakh sakti hoon?", "a": "Darf ich das probieren?" },
+      { "type": "prod", "en": "Where is it from?", "ur": "Yeh kahan se hai?", "a": "Woher kommt das?" },
+      { "type": "prod", "en": "Is there a discount today?", "ur": "Kya aaj discount hai?", "a": "Gibt es heute einen Rabatt?" }
+    ]
+  }
+}

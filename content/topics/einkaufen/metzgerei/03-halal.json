@@ -1,0 +1,219 @@
+{
+  "id": "halal",
+  "order": 3,
+  "icon": "✅",
+  "title": { "de": "Ist das Fleisch halal?", "en": "Is the meat halal?", "ur": "Kya yeh gosht halal hai?" },
+  "angle": "Asking respectfully about halal certification and where the meat comes from · Halal certification aur sourcing ke baare mein izzat se poochna",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["halal", "zertifikat", "zertifiziert", "herkunft", "bauernhof", "lieferanten", "schweinefleisch", "vertrauen", "erklären", "einpacken"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Was darf es sein?", "en": "Hello! What can I get you?", "ur": "Salam! Aap ko kya chahiye?" },
+        { "s": "B", "de": "Guten Tag. Ist Ihr Fleisch halal?", "en": "Hello. Is your meat halal?", "ur": "Salam. Kya aap ka gosht halal hai?" },
+        { "s": "A", "de": "Ja, wir haben eine große Auswahl an halal Fleisch.", "en": "Yes, we have a large selection of halal meat.", "ur": "Ji haan, hamare paas halal gosht ki bari selection hai." },
+        { "s": "B", "de": "Das freut mich. Ist es auch zertifiziert?", "en": "That's good to hear. Is it also certified?", "ur": "Yeh sun kar khushi hui. Kya yeh certified bhi hai?" },
+        { "s": "A", "de": "Ja, mit einem offiziellen Zertifikat.", "en": "Yes, with an official certificate.", "ur": "Ji haan, ek official certificate ke saath." },
+        { "s": "B", "de": "Sehr gut. Woher kommt das Hähnchen?", "en": "Very good. Where does the chicken come from?", "ur": "Bohat acha. Yeh murghi kahan se aati hai?" },
+        { "s": "A", "de": "Von einem Bauernhof in der Region.", "en": "From a farm in the region.", "ur": "Ilaqe ke ek bauernhof se." },
+        { "s": "B", "de": "Perfekt, dann nehme ich ein Kilo Hähnchenbrust.", "en": "Perfect, then I'll take a kilo of chicken breast.", "ur": "Behtareen, to main ek kilo hähnchenbrust loongi." },
+        { "s": "A", "de": "Gern. Sonst noch etwas?", "en": "Sure. Anything else?", "ur": "Zaroor. Aur kuch chahiye?" },
+        { "s": "B", "de": "Nein, das ist alles, danke.", "en": "No, that's all, thanks.", "ur": "Nahi, bas itna hi, shukriya." },
+        { "s": "A", "de": "Das macht neun Euro.", "en": "That comes to nine euros.", "ur": "Yeh nau euro hua." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Vielen Dank. Auf Wiedersehen!", "en": "Thank you very much. Goodbye!", "ur": "Bohat shukriya. Khuda hafiz!" },
+        { "s": "B", "de": "Auf Wiedersehen!", "en": "Goodbye!", "ur": "Khuda hafiz!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, was kann ich für Sie tun?", "en": "Hello, what can I do for you?", "ur": "Salam, main aap ke liye kya kar sakta hoon?" },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Ich habe eine Frage, bevor ich einkaufe: Ist Ihr Fleisch halal?", "en": "Hello, Mr Krause. I have a question before I shop: Is your meat halal?", "ur": "Salam, Herr Krause. Khareedari se pehle ek sawal hai: kya aap ka gosht halal hai?" },
+        { "s": "A", "de": "Natürlich, gerne erkläre ich es Ihnen. Wir führen ein eigenes halal Sortiment.", "en": "Of course, I'll gladly explain. We carry our own halal range.", "ur": "Zaroor, main khushi se bata deta hoon. Hamare paas apna halal range hai." },
+        { "s": "B", "de": "Das ist schön zu hören. Woran erkenne ich die halal Produkte?", "en": "That's nice to hear. How do I recognise the halal products?", "ur": "Yeh sun kar acha laga. Halal products kaise pehchanoon?" },
+        { "s": "A", "de": "Sie sind extra gekennzeichnet und stehen in dieser Kühltheke hier links.", "en": "They're specially labelled and are in this cold counter here on the left.", "ur": "Yeh khaas tor par nishaan zada hain aur is theke mein bayen taraf hain." },
+        { "s": "B", "de": "Verstehe. Und wie kann ich sicher sein, dass wirklich kein Schweinefleisch dabei ist?", "en": "I see. And how can I be sure that there's really no pork with it?", "ur": "Samajh gayi. Aur main kaise yaqeen karoon ke sach mein koi sooar ka gosht nahi?" },
+        { "s": "A", "de": "Wir schneiden und lagern die halal Produkte komplett getrennt vom übrigen Fleisch.", "en": "We cut and store the halal products completely separately from the other meat.", "ur": "Hum halal products ko baqi gosht se bilkul alag kaatte aur rakhte hain." },
+        { "s": "B", "de": "Das beruhigt mich sehr. Woher beziehen Sie das Fleisch?", "en": "That reassures me a lot. Where do you get the meat from?", "ur": "Isse mujhe bohat itminan mila. Aap gosht kahan se lete hain?" },
+        { "s": "A", "de": "Von einem zertifizierten Lieferanten, der nach islamischen Richtlinien schlachtet.", "en": "From a certified supplier who slaughters according to Islamic guidelines.", "ur": "Ek certified supplier se jo islami usoolon ke mutabiq zibah karta hai." },
+        { "s": "B", "de": "Vielen Dank für die ausführliche Erklärung, das schafft Vertrauen.", "en": "Thank you very much for the detailed explanation, that builds trust.", "ur": "Tafseeli wazahat ka bohat shukriya, is se bharosa banta hai." },
+        { "s": "A", "de": "Gern. Was darf ich Ihnen denn heute einpacken?", "en": "You're welcome. So what can I pack up for you today?", "ur": "Khushi hui. To aaj aap ke liye kya pack karoon?" },
+        { "s": "B", "de": "Ein Kilo Hähnchenbrust und fünfhundert Gramm Rinderhack, bitte.", "en": "One kilo of chicken breast and five hundred grams of minced beef, please.", "ur": "Ek kilo hähnchenbrust aur paanch sau gram rinderhack, please." },
+        { "s": "A", "de": "Kommt sofort. Das macht zusammen sechzehn Euro.", "en": "Coming right up. That comes to sixteen euros altogether.", "ur": "Abhi lo. Yeh sab mila kar solah euro hua." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lijiye." },
+        { "s": "A", "de": "Vielen Dank, und schönen Tag noch!", "en": "Thank you very much, and have a nice day!", "ur": "Bohat shukriya, aur din acha guzre!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Schön, dass Sie wieder da sind.", "en": "Hello, Mrs Yilmaz. Nice that you're here again.", "ur": "Salam, Frau Yilmaz. Acha laga aap phir aayin." },
+        { "s": "B", "de": "Guten Tag, Herr Krause. Ich wollte mich noch einmal genauer erkundigen, wer Ihr Fleisch zertifiziert.", "en": "Hello, Mr Krause. I wanted to ask once more in detail who certifies your meat.", "ur": "Salam, Herr Krause. Main dobara tafseel se poochna chahti thi ke aap ka gosht kaun certify karta hai." },
+        { "s": "A", "de": "Das mache ich gern. Unser Lieferant wird regelmäßig von einem anerkannten halal Institut geprüft.", "en": "I'll gladly tell you. Our supplier is regularly checked by a recognised halal institute.", "ur": "Khushi se bataata hoon. Hamara supplier baaqaida ek tasleem shuda halal institute se check hota hai." },
+        { "s": "B", "de": "Das klingt vertrauenswürdig. Wird das Geflügel vor Ort geschlachtet oder wird es fertig geliefert?", "en": "That sounds trustworthy. Is the poultry slaughtered on site or is it delivered ready?", "ur": "Yeh qabil-e-aitbaar lagta hai. Kya murghi wahin zibah hoti hai ya taiyaar aati hai?" },
+        { "s": "A", "de": "Es wird bereits fertig geschlachtet geliefert, mit Zertifikat für jede Charge.", "en": "It's already delivered ready-slaughtered, with a certificate for every batch.", "ur": "Yeh pehle se zibah shuda hi aata hai, har batch ke liye certificate ke saath." },
+        { "s": "B", "de": "Verstehe. Und in der Metzgerei selbst wird nichts vermischt?", "en": "I see. And nothing gets mixed up here in the shop itself?", "ur": "Samajh gayi. Aur khud shop mein kuch mila to nahi jata?" },
+        { "s": "A", "de": "Nein, wir haben getrennte Messer, Bretter und sogar eine eigene Kühlvitrine für halal Ware.", "en": "No, we have separate knives, boards and even our own display case for halal goods.", "ur": "Nahi, hamare paas alag chaqoo, board aur halal maal ke liye alag display bhi hai." },
+        { "s": "B", "de": "Das beruhigt mich wirklich. Darf ich das Zertifikat einmal sehen?", "en": "That really reassures me. May I see the certificate once?", "ur": "Isse waqai itminan mila. Kya main certificate dekh sakti hoon?" },
+        { "s": "A", "de": "Selbstverständlich, es hängt dort an der Wand, Sie können es sich gern ansehen.", "en": "Of course, it hangs there on the wall, you're welcome to look at it.", "ur": "Zaroor, woh wahan deewar par laga hai, aap khushi se dekh sakti hain." },
+        { "s": "B", "de": "Danke, das schätze ich sehr. Dann nehme ich heute zwei Kilo Hähnchenschenkel.", "en": "Thanks, I really appreciate that. Then I'll take two kilos of chicken legs today.", "ur": "Shukriya, main is ki bohat qadar karti hoon. To aaj do kilo hähnchenschenkel loongi." },
+        { "s": "A", "de": "Gute Wahl, die sind besonders saftig. Sonst noch etwas?", "en": "Good choice, they're especially juicy. Anything else?", "ur": "Acha intekhab, yeh khaas tor par raseeli hain. Aur kuch chahiye?" },
+        { "s": "B", "de": "Ja, noch ein Kilo Rinderhack für Köfte.", "en": "Yes, also one kilo of minced beef for kofta.", "ur": "Ji haan, köfte ke liye ek kilo rinderhack bhi." },
+        { "s": "A", "de": "Kommt sofort. Das macht zusammen einundzwanzig Euro.", "en": "Coming right up. That comes to twenty-one euros altogether.", "ur": "Abhi lo. Yeh sab mila kar ikkees euro hua." },
+        { "s": "B", "de": "Hier, bitte. Ich komme jetzt sicher noch öfter vorbei.", "en": "Here you go. I'll definitely come by more often now.", "ur": "Yeh lijiye. Ab main zaroor aksar aaoongi." },
+        { "s": "A", "de": "Das freut mich sehr. Ihr Vertrauen bedeutet mir viel.", "en": "That makes me very happy. Your trust means a lot to me.", "ur": "Yeh sun kar bohat khushi hui. Aap ka bharosa mere liye bohat maayne rakhta hai." },
+        { "s": "B", "de": "Vielen Dank für Ihre Offenheit, Herr Krause. Bis bald!", "en": "Thank you very much for your openness, Mr Krause. See you soon!", "ur": "Aap ki safaai ka bohat shukriya, Herr Krause. Jald milte hain!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Krause (Metzger)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Sie wirken heute besonders nachdenklich.", "en": "Hello, Mrs Yilmaz. You seem especially thoughtful today.", "ur": "Salam, Frau Yilmaz. Aap aaj khaas tor par sochti hui lag rahi hain." },
+        { "s": "B", "de": "Guten Tag. Ehrlich gesagt beschäftigt mich schon länger eine Frage zur Herkunft Ihres Fleisches.", "en": "Hello. To be honest, a question about the origin of your meat has been on my mind for a while.", "ur": "Salam. Sach kahoon to kaafi arse se aap ke gosht ki asal ke baare mein ek sawal zehan mein hai." },
+        { "s": "A", "de": "Dann lassen Sie uns das in Ruhe klären. Was möchten Sie wissen?", "en": "Then let's clarify that calmly. What would you like to know?", "ur": "To chalein isay itminan se tay karte hain. Aap kya jan-na chahti hain?" },
+        { "s": "B", "de": "Reicht es, wenn ein Siegel auf der Verpackung klebt, oder sollte man genauer nachfragen?", "en": "Is it enough if a seal is stuck on the packaging, or should one ask in more detail?", "ur": "Kya bas itna kaafi hai ke packaging par ek seal lagi ho, ya zyada tafseel se poochna chahiye?" },
+        { "s": "A", "de": "Ein gutes Siegel ist ein Anfang, aber Sie dürfen ruhig nachfragen, woher es stammt.", "en": "A good seal is a start, but you should feel free to ask where it comes from.", "ur": "Achi seal ek shuruaat hai, lekin aap be-jhijak pooch sakti hain ke yeh kahan se aata hai." },
+        { "s": "B", "de": "Genau das schätze ich an Ihnen. Wie oft wird Ihr Lieferant kontrolliert?", "en": "That's exactly what I appreciate about you. How often is your supplier checked?", "ur": "Yehi baat mujhe aap mein pasand hai. Aap ka supplier kitni baar check hota hai?" },
+        { "s": "A", "de": "Ein unabhängiger Prüfer besucht den Betrieb mehrmals im Jahr, auch unangekündigt.", "en": "An independent inspector visits the facility several times a year, including unannounced.", "ur": "Ek azaad inspector saal mein kai baar facility ka daura karta hai, kabhi bina bataye bhi." },
+        { "s": "B", "de": "Das beruhigt mich sehr, denn Vertrauen entsteht nicht allein durch ein Etikett.", "en": "That reassures me a lot, because trust doesn't come from a label alone.", "ur": "Isse mujhe bohat itminan hota hai, kyunke bharosa sirf ek label se nahi banta." },
+        { "s": "A", "de": "Genauso sehe ich das auch. Deshalb bewahre ich alle Lieferpapiere hier auf.", "en": "I see it exactly the same way. That's why I keep all the supplier documents here.", "ur": "Main bhi bilkul yehi sochta hoon. Isi liye main tamam supplier documents yahan rakhta hoon." },
+        { "s": "B", "de": "Darf ich die bei Bedarf einmal einsehen?", "en": "May I take a look at them if needed?", "ur": "Kya zaroorat par main unhein dekh sakti hoon?" },
+        { "s": "A", "de": "Selbstverständlich, sprechen Sie mich einfach an.", "en": "Of course, just come and ask me.", "ur": "Zaroor, bas mujh se baat kar lein." },
+        { "s": "B", "de": "Das glaube ich Ihnen gern und gebe es so an meine Familie weiter.", "en": "I gladly believe you and will pass that on to my family this way.", "ur": "Main aap ki baat khushi se maanti hoon aur apne khandan ko bhi bataoongi." },
+        { "s": "A", "de": "Das freut mich sehr. Was darf ich Ihnen heute einpacken?", "en": "That makes me very happy. What can I pack up for you today?", "ur": "Yeh sun kar bohat khushi hui. Aaj aap ke liye kya pack karoon?" },
+        { "s": "B", "de": "Zwei Kilo Hähnchenschenkel und eineinhalb Kilo Rinderhack, bitte, für ein größeres Familienessen.", "en": "Two kilos of chicken legs and one and a half kilos of minced beef, please, for a bigger family meal.", "ur": "Do kilo hähnchenschenkel aur derh kilo rinderhack, please, ek bare family khane ke liye." },
+        { "s": "A", "de": "Kommt sofort, das wird eine stattliche Menge. Zusammen macht das neunundzwanzig Euro.", "en": "Coming right up, that'll be quite a substantial amount. Altogether that comes to twenty-nine euros.", "ur": "Abhi lo, yeh kaafi bari miqdar hogi. Sab mila kar unatees euro hua." },
+        { "s": "B", "de": "Hier, bitte. Es tut gut, einem Metzger zu vertrauen, dem man glauben kann.", "en": "Here you go. It feels good to trust a butcher one can believe.", "ur": "Yeh lijiye. Aise metzger par bharosa karna acha lagta hai jis ki baat par yaqeen ho." },
+        { "s": "A", "de": "Dieses Vertrauen erwidere ich gern, Frau Yilmaz. Bis zum nächsten Mal!", "en": "I gladly return that trust, Mrs Yilmaz. Until next time!", "ur": "Yeh bharosa main bhi khushi se lautata hoon, Frau Yilmaz. Agli baar tak!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie kaufen zum ersten Mal in dieser Metzgerei ein und möchten wissen, ob das Fleisch halal ist.",
+        "en": "You're shopping at this butcher shop for the first time and want to know if the meat is halal.",
+        "ur": "Aap pehli baar is metzgerei mein khareedari kar rahe hain aur jan-na chahte hain ke gosht halal hai ya nahi."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Was darf es sein?",
+          "goal": { "en": "Ask if the meat is halal.", "ur": "Poochein ke kya gosht halal hai." },
+          "options": ["Guten Tag. Ist Ihr Fleisch halal?", "Guten Tag, ich habe eine Frage: Ist das Fleisch halal?"],
+          "fallback": "Was möchten Sie wissen?",
+          "accept": [{ "kw": ["halal"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Ja, wir haben eine große Auswahl an halal Fleisch.",
+          "goal": { "en": "Ask if it is also certified.", "ur": "Poochein ke kya yeh certified bhi hai." },
+          "options": ["Ist es auch zertifiziert?", "Haben Sie ein Zertifikat dafür?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["zertifiziert"], "next": "n3" }, { "kw": ["zertifikat"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Ja, mit einem offiziellen Zertifikat.",
+          "goal": { "en": "Ask where the chicken comes from.", "ur": "Poochein ke murghi kahan se aati hai." },
+          "options": ["Woher kommt das Hähnchen?", "Woher kommt das Fleisch?"],
+          "fallback": "Möchten Sie das sehen?",
+          "accept": [{ "kw": ["woher"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Von einem Bauernhof in der Region.",
+          "goal": { "en": "Order one kilo of chicken breast.", "ur": "Ek kilo hähnchenbrust order karein." },
+          "options": ["Perfekt, dann nehme ich ein Kilo Hähnchenbrust.", "Gut, ich nehme ein Kilo Hähnchenbrust."],
+          "fallback": "Was möchten Sie kaufen?",
+          "accept": [{ "kw": ["hähnchenbrust"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gern. Sonst noch etwas?",
+          "goal": { "en": "Say no, that's all.", "ur": "Kahein nahi, bas itna hi." },
+          "options": ["Nein, das ist alles, danke.", "Nein danke, das war's."],
+          "fallback": "Möchten Sie noch etwas?",
+          "accept": [{ "kw": ["nein"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Das macht neun Euro.",
+          "goal": { "en": "Pay, thank him, and say goodbye.", "ur": "Paise dein, shukriya kahein, khuda hafiz kahein." },
+          "options": ["Hier, bitte. Vielen Dank.", "Bitte schön, danke."],
+          "fallback": "Möchten Sie bezahlen?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Vielen Dank, auf Wiedersehen!", "next": "END" },
+            { "kw": ["bitte"], "reply": "Auf Wiedersehen!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Krause, Metzger",
+      "you": "Kunde / Kundin",
+      "scene": {
+        "de": "Sie möchten genauer wissen, wie die Metzgerei sicherstellt, dass kein Schweinefleisch mit dem halal Fleisch in Berührung kommt.",
+        "en": "You want to know in more detail how the butcher shop makes sure no pork comes into contact with the halal meat.",
+        "ur": "Aap tafseel se jan-na chahte hain ke metzgerei kaise yaqeeni banati hai ke sooar ka gosht halal gosht se na milay."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag, was kann ich für Sie tun?",
+          "goal": { "en": "Ask if the meat is halal before you decide to shop.", "ur": "Khareedari se pehle poochein ke gosht halal hai ya nahi." },
+          "options": ["Guten Tag. Bevor ich einkaufe: Ist Ihr Fleisch halal?", "Guten Tag, ich möchte zuerst fragen, ob Ihr Fleisch halal ist."],
+          "fallback": "Was ist Ihre Frage?",
+          "accept": [{ "kw": ["halal"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Natürlich, wir führen ein eigenes halal Sortiment.",
+          "goal": { "en": "Ask how to recognise the halal products.", "ur": "Poochein ke halal products kaise pehchanein." },
+          "options": ["Woran erkenne ich die halal Produkte?", "Wie erkenne ich die halal Produkte?"],
+          "fallback": "Möchten Sie mehr wissen?",
+          "accept": [{ "kw": ["erkenne"], "next": "n3" }, { "kw": ["woran"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Sie sind extra gekennzeichnet und liegen in dieser Kühltheke.",
+          "goal": { "en": "Ask if it's really separated from pork.", "ur": "Poochein ke kya yeh sach mein sooar ke gosht se alag hai." },
+          "options": ["Ist das wirklich getrennt vom Schweinefleisch?", "Kommt das nie mit Schweinefleisch in Berührung?"],
+          "fallback": "Haben Sie noch eine Frage?",
+          "accept": [{ "kw": ["getrennt"], "next": "n4" }, { "kw": ["schweinefleisch"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Wir schneiden und lagern die halal Produkte komplett getrennt.",
+          "goal": { "en": "Ask where they source the meat from.", "ur": "Poochein ke gosht kahan se lete hain." },
+          "options": ["Woher beziehen Sie das Fleisch?", "Von welchem Lieferanten kommt das Fleisch?"],
+          "fallback": "Möchten Sie das wissen?",
+          "accept": [{ "kw": ["woher"], "next": "n5" }, { "kw": ["lieferanten"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Von einem zertifizierten Lieferanten, der nach islamischen Richtlinien schlachtet.",
+          "goal": { "en": "Say that builds trust, and order chicken breast.", "ur": "Kahein isse bharosa banta hai, aur hähnchenbrust order karein." },
+          "options": ["Das schafft Vertrauen. Ich nehme ein Kilo Hähnchenbrust.", "Vielen Dank, das beruhigt mich. Ein Kilo Hähnchenbrust, bitte."],
+          "fallback": "Was möchten Sie kaufen?",
+          "accept": [{ "kw": ["vertrauen"], "next": "n6" }, { "kw": ["hähnchenbrust"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Kommt sofort. Das macht neun Euro.",
+          "goal": { "en": "Pay and say you'll come back soon.", "ur": "Paise dein aur kahein ke jald wapas aayenge." },
+          "options": ["Hier, bitte. Bis bald!", "Bitte schön. Ich komme sicher wieder."],
+          "fallback": "Möchten Sie bezahlen?",
+          "accept": [
+            { "kw": ["bald"], "reply": "Bis bald, Frau Yilmaz!", "next": "END" },
+            { "kw": ["wieder"], "reply": "Das freut mich! Auf Wiedersehen.", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

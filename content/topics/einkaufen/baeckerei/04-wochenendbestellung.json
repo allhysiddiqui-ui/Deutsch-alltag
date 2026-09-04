@@ -1,0 +1,220 @@
+{
+  "id": "wochenendbestellung",
+  "order": 4,
+  "icon": "📅",
+  "title": { "de": "Eine Wochenendbestellung einrichten", "en": "Setting up a weekend order", "ur": "Weekend ke liye order set karna" },
+  "angle": "Arranging a standing Saturday order for rolls, regular-customer small talk · Har hafte ke Brötchen order aur stammkundin ki baatein",
+  "voices": { "A": "Kore", "B": "Aoede" },
+  "words": ["samstags", "wochenendbestellung", "stammkunde", "wöchentlich", "bestellung", "regelmäßig", "abholzeit", "dutzend", "brötchen", "übrigens"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz!", "en": "Good morning, Mrs Yilmaz!", "ur": "Subh bakhair, Frau Yilmaz!" },
+        { "s": "B", "de": "Guten Morgen, Frau Ostermann. Ich möchte eine Wochenendbestellung machen.", "en": "Good morning, Mrs Ostermann. I'd like to set up a weekend order.", "ur": "Subh bakhair, Frau Ostermann. Mujhe weekend order set karna hai." },
+        { "s": "A", "de": "Gerne! Was möchten Sie denn regelmäßig bestellen?", "en": "Sure! What would you like to order regularly?", "ur": "Zaroor! Aap regularly kya order karna chahti hain?" },
+        { "s": "B", "de": "Jeden Samstag zehn Brötchen, bitte.", "en": "Ten rolls every Saturday, please.", "ur": "Har hafte das Brötchen, please." },
+        { "s": "A", "de": "Vollkornbrötchen oder eine Mischung?", "en": "Wholegrain rolls or a mix?", "ur": "Vollkorn Brötchen ya mixture?" },
+        { "s": "B", "de": "Eine Mischung, bitte, wie letztes Mal.", "en": "A mix, please, like last time.", "ur": "Mixture, please, pichli baar ki tarah." },
+        { "s": "A", "de": "Kein Problem. Um wie viel Uhr möchten Sie abholen?", "en": "No problem. What time would you like to pick up?", "ur": "Koi masla nahi. Aap kis waqt lene aayengi?" },
+        { "s": "B", "de": "Immer um neun Uhr, bitte.", "en": "Always at nine o'clock, please.", "ur": "Hamesha nau baje, please." },
+        { "s": "A", "de": "Gut, ich notiere das für jeden Samstag.", "en": "Good, I'll note that for every Saturday.", "ur": "Acha, main har hafte ke liye likh leti hoon." },
+        { "s": "B", "de": "Vielen Dank, das ist sehr praktisch für uns.", "en": "Thank you very much, that's very practical for us.", "ur": "Bohat shukriya, yeh hamare liye bohat aasan hai." },
+        { "s": "A", "de": "Gern. Sie sind schon lange unsere Stammkundin.", "en": "You're welcome. You've been our regular customer for a long time.", "ur": "Koi baat nahi. Aap kaafi arse se hamari stammkundin hain." },
+        { "s": "B", "de": "Ja, wir kommen fast jede Woche hierher.", "en": "Yes, we come here almost every week.", "ur": "Ji haan, hum taqreeban har hafte yahan aate hain." },
+        { "s": "A", "de": "Dann bis diesen Samstag!", "en": "See you this Saturday then!", "ur": "To phir is hafte milte hain!" },
+        { "s": "B", "de": "Bis Samstag, Frau Ostermann!", "en": "See you Saturday, Mrs Ostermann!", "ur": "Hafte ko milte hain, Frau Ostermann!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz. Schön, dass Sie da sind.", "en": "Good morning, Mrs Yilmaz. Nice that you're here.", "ur": "Subh bakhair, Frau Yilmaz. Acha laga aap ko dekh kar." },
+        { "s": "B", "de": "Guten Morgen. Ich wollte fragen, ob ich eine feste Wochenendbestellung einrichten kann.", "en": "Good morning. I wanted to ask if I can set up a fixed weekend order.", "ur": "Subh bakhair. Main poochna chahti thi ke kya main pakka weekend order set kar sakti hoon." },
+        { "s": "A", "de": "Ja, das machen viele unserer Stammkunden. Was möchten Sie regelmäßig bestellen?", "en": "Yes, many of our regular customers do that. What would you like to order regularly?", "ur": "Ji haan, hamare kai stammkunden aisa karte hain. Aap regularly kya order karna chahti hain?" },
+        { "s": "B", "de": "Jeden Samstag acht Brötchen und ein Mehrkornbrot.", "en": "Eight rolls and a multigrain loaf every Saturday.", "ur": "Har hafte aath Brötchen aur ek mehrkorn bread." },
+        { "s": "A", "de": "Kein Problem. Soll das wöchentlich automatisch für Sie vorbereitet werden?", "en": "No problem. Should that be prepared automatically for you every week?", "ur": "Koi masla nahi. Kya yeh har hafte automatically tayyar ho jaye?" },
+        { "s": "B", "de": "Ja, genau, dann muss ich es nicht jedes Mal neu bestellen.", "en": "Yes, exactly, then I don't have to order it new every time.", "ur": "Ji haan, bilkul, phir mujhe har baar naya order nahi karna parega." },
+        { "s": "A", "de": "Verstanden. Und was passiert, wenn Sie mal im Urlaub sind?", "en": "Understood. And what happens when you're on holiday sometimes?", "ur": "Samajh gayi. Aur jab aap kabhi chhutti par hon to kya hoga?" },
+        { "s": "B", "de": "Dann sage ich Ihnen einfach rechtzeitig Bescheid.", "en": "Then I'll just let you know in time.", "ur": "Phir main aap ko waqt par bata doongi." },
+        { "s": "A", "de": "Perfekt, dann pausiere ich die Bestellung für diese Woche.", "en": "Perfect, then I'll pause the order for that week.", "ur": "Bohat acha, to phir main us hafte order rok doongi." },
+        { "s": "B", "de": "Genau, das wäre super praktisch.", "en": "Exactly, that would be super practical.", "ur": "Bilkul, yeh bohat aasan hoga." },
+        { "s": "A", "de": "Um wie viel Uhr möchten Sie die Bestellung normalerweise abholen?", "en": "What time would you normally like to pick up the order?", "ur": "Aap order aam tor par kis waqt lene aati hain?" },
+        { "s": "B", "de": "Meistens gegen neun Uhr, aber manchmal auch etwas später.", "en": "Mostly around nine o'clock, but sometimes a bit later too.", "ur": "Aksar nau baje ke qareeb, lekin kabhi kabhi thora baad mein bhi." },
+        { "s": "A", "de": "Kein Problem, ich halte alles bis mittags für Sie bereit.", "en": "No problem, I'll keep everything ready for you until noon.", "ur": "Koi masla nahi, main dopahar tak sab aap ke liye rakh loongi." },
+        { "s": "B", "de": "Das ist wirklich ein guter Service.", "en": "That's really good service.", "ur": "Yeh waqai acha service hai." },
+        { "s": "A", "de": "Als Stammkundin bekommen Sie außerdem fünf Prozent Rabatt auf die Wochenendbestellung.", "en": "As a regular customer you also get five percent discount on the weekend order.", "ur": "Stammkundin hone ki wajah se aap ko weekend order par paanch percent discount bhi milta hai." },
+        { "s": "B", "de": "Das wusste ich gar nicht, vielen Dank!", "en": "I didn't know that at all, thank you very much!", "ur": "Mujhe yeh pata hi nahi tha, bohat shukriya!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Morgen, Frau Yilmaz! Wie besprochen, ich habe Ihre Wochenendbestellung fertig.", "en": "Good morning, Mrs Yilmaz! As discussed, I have your weekend order ready.", "ur": "Subh bakhair, Frau Yilmaz! Jaisa tay hua tha, aap ka weekend order tayyar hai." },
+        { "s": "B", "de": "Guten Morgen, Frau Ostermann. Perfekt, aber ich wollte die Bestellung diese Woche etwas ändern.", "en": "Good morning, Mrs Ostermann. Perfect, but I wanted to change the order a bit this week.", "ur": "Subh bakhair, Frau Ostermann. Bohat acha, lekin is hafte order mein thori tabdeeli chahiye thi." },
+        { "s": "A", "de": "Kein Problem, was möchten Sie denn anders haben?", "en": "No problem, what would you like different?", "ur": "Koi masla nahi, kya alag chahiye?" },
+        { "s": "B", "de": "Diese Woche brauche ich zwölf Brötchen statt acht, wir haben Besuch.", "en": "This week I need twelve rolls instead of eight, we have visitors.", "ur": "Is hafte mujhe aath ki jagah barah Brötchen chahiye, hamare mehmaan aa rahe hain." },
+        { "s": "A", "de": "Verstehe, das richte ich sofort ein. Bleibt der Rest gleich?", "en": "I see, I'll set that up right away. Does the rest stay the same?", "ur": "Samajh gayi, main abhi set kar deti hoon. Baaqi wesa hi rahega?" },
+        { "s": "B", "de": "Ja, das Mehrkornbrot bleibt wie immer.", "en": "Yes, the multigrain loaf stays as usual.", "ur": "Ji haan, mehrkorn bread hamesha ki tarah rahegi." },
+        { "s": "A", "de": "Abgemacht. Und soll das ab nächster Woche wieder bei acht Brötchen bleiben?", "en": "Deal. And should it go back to eight rolls from next week?", "ur": "Theek hai. Aur kya agle hafte se dobara aath Brötchen rahenge?" },
+        { "s": "B", "de": "Genau, nächste Woche wieder die normale Menge.", "en": "Exactly, the normal amount again next week.", "ur": "Bilkul, agle hafte dobara normal miqdar." },
+        { "s": "A", "de": "Gut, ich notiere die Änderung nur für diesen Samstag.", "en": "Good, I'll note the change only for this Saturday.", "ur": "Acha, main sirf isi hafte ke liye tabdeeli likh leti hoon." },
+        { "s": "B", "de": "Übrigens, könnten wir vielleicht auch einmal im Monat eine kleine Torte dazu bestellen?", "en": "By the way, could we perhaps also order a small cake with it once a month?", "ur": "Waise, kya hum mahine mein ek baar chhoti torte bhi order kar sakte hain?" },
+        { "s": "A", "de": "Klar, das können wir flexibel machen, Sie müssen es mir nur ein paar Tage vorher sagen.", "en": "Sure, we can do that flexibly, you just have to tell me a few days in advance.", "ur": "Zaroor, hum yeh flexible tareeqe se kar sakte hain, bas mujhe kuch din pehle bata dein." },
+        { "s": "B", "de": "Wunderbar, das würde meine Familie sehr freuen.", "en": "Wonderful, that would please my family a lot.", "ur": "Bohat acha, isse meri family ko bohat khushi hogi." },
+        { "s": "A", "de": "Gern. Als treue Kundin bekommen Sie ja sowieso den Rabatt für Stammkunden.", "en": "Gladly. As a loyal customer you get the discount for regulars anyway.", "ur": "Khushi se. Wafadar kundin hone ki wajah se aap ko waise bhi stammkunden ka discount milta hai." },
+        { "s": "B", "de": "Das schätze ich wirklich sehr, danke für Ihr Verständnis.", "en": "I really appreciate that a lot, thank you for your understanding.", "ur": "Main isay waqai bohat sarahti hoon, samajhne ka shukriya." },
+        { "s": "A", "de": "Keine Ursache. Dann bis Samstag um neun Uhr wie gewohnt.", "en": "No reason to thank me. See you Saturday at nine o'clock as usual then.", "ur": "Koi baat nahi. To phir hafte ko nau baje hamesha ki tarah milte hain." },
+        { "s": "B", "de": "Bis Samstag, Frau Ostermann!", "en": "See you Saturday, Mrs Ostermann!", "ur": "Hafte ko milte hain, Frau Ostermann!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Frau Ostermann (Bäckerin)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Ich wollte sowieso mit Ihnen über Ihre Wochenendbestellung sprechen.", "en": "Hello, Mrs Yilmaz. I wanted to talk to you about your weekend order anyway.", "ur": "Salam, Frau Yilmaz. Main waise bhi aap se weekend order ke baare mein baat karna chahti thi." },
+        { "s": "B", "de": "Guten Tag, Frau Ostermann. Das trifft sich gut, ich hatte auch ein paar Ideen.", "en": "Hello, Mrs Ostermann. That works out well, I also had a few ideas.", "ur": "Salam, Frau Ostermann. Yeh acha mauqa hai, mere paas bhi kuch ideas thay." },
+        { "s": "A", "de": "Gerne, ich höre zu. Was möchten Sie mir vorschlagen?", "en": "Sure, I'm listening. What would you like to suggest to me?", "ur": "Zaroor, sun rahi hoon. Aap kya tajweez karna chahti hain?" },
+        { "s": "B", "de": "Ich würde gern die Bestellung erweitern und auch sonntags ein frisches Brot dazu bekommen.", "en": "I'd like to extend the order and also get a fresh loaf on Sundays as well.", "ur": "Main order barhana chahti hoon aur itwar ko bhi fresh bread lena chahti hoon." },
+        { "s": "A", "de": "Das ist grundsätzlich möglich, allerdings haben wir sonntags weniger lange geöffnet.", "en": "That's basically possible, though on Sundays we're open for less time.", "ur": "Yeh bunyadi tor par mumkin hai, lekin itwar ko hum kam der ke liye khule hote hain." },
+        { "s": "B", "de": "Das wäre kein Problem, solange ich vor elf Uhr abholen kann.", "en": "That wouldn't be a problem, as long as I can pick up before eleven o'clock.", "ur": "Yeh masla nahi hoga, agar main gyarah baje se pehle le sakoon." },
+        { "s": "A", "de": "Bis elf Uhr sind wir auf jeden Fall geöffnet, das passt also gut.", "en": "We're definitely open until eleven, so that fits well.", "ur": "Gyarah baje tak hum zaroor khule hote hain, to yeh theek rahega." },
+        { "s": "B", "de": "Wunderbar. Außerdem würde ich gern einmal im Monat eine kleine Geburtstagstorte dazubestellen, für unsere Feiern in der Familie.", "en": "Wonderful. Also I'd like to order a small birthday cake once a month, for our family celebrations.", "ur": "Bohat acha. Iske ilawa main mahine mein ek baar chhoti geburtstagstorte bhi order karna chahti hoon, family ki khushiyon ke liye." },
+        { "s": "A", "de": "Das können wir gut kombinieren, sagen Sie mir einfach eine Woche vorher Bescheid.", "en": "We can combine that well, just let me know a week in advance.", "ur": "Hum yeh acha combine kar sakte hain, bas mujhe ek hafta pehle bata dein." },
+        { "s": "B", "de": "Mache ich. Wie würden Sie die Bezahlung für eine so regelmäßige Bestellung organisieren?", "en": "I will. How would you organize the payment for such a regular order?", "ur": "Zaroor. Aap itni regular order ki payment kaise organize karengi?" },
+        { "s": "A", "de": "Am einfachsten wäre es, wenn Sie zum Monatsende die ganze Summe zahlen.", "en": "The simplest would be if you pay the whole sum at the end of the month.", "ur": "Sab se aasan yeh hoga ke aap mahine ke aakhir mein poori raqam ada karein." },
+        { "s": "B", "de": "Das klingt praktisch, dann muss ich nicht jedes Mal einzeln bezahlen.", "en": "That sounds practical, then I don't have to pay separately every time.", "ur": "Yeh aasan lagta hai, phir mujhe har baar alag se paise nahi dene honge." },
+        { "s": "A", "de": "Genau, ich schreibe Ihnen jeden Samstag den Betrag auf, und am Monatsende rechnen wir alles zusammen.", "en": "Exactly, I'll write down the amount for you every Saturday, and at the end of the month we'll add it all up.", "ur": "Bilkul, main har hafte raqam likh loongi, aur mahine ke aakhir mein sab jama kar lenge." },
+        { "s": "B", "de": "Perfekt, das ist für mich sehr einfach.", "en": "Perfect, that's very simple for me.", "ur": "Bohat acha, yeh mere liye bohat aasan hai." },
+        { "s": "A", "de": "Als langjährige Stammkundin bekommen Sie außerdem einen besonderen Rabatt von acht Prozent.", "en": "As a long-standing regular customer you also get a special discount of eight percent.", "ur": "Purani stammkundin hone ki wajah se aap ko aath percent ka khaas discount bhi milta hai." },
+        { "s": "B", "de": "Das ist wirklich großzügig, vielen Dank für Ihr Vertrauen.", "en": "That's really generous, thank you very much for your trust.", "ur": "Yeh waqai baray dil ki baat hai, aap ke etimaad ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Dann fangen wir ab diesem Samstag mit der neuen Bestellung an.", "en": "You're welcome. Then we'll start with the new order from this Saturday.", "ur": "Koi baat nahi. To phir hum isi hafte se naya order shuru karte hain." },
+        { "s": "B", "de": "Perfekt, ich freue mich schon darauf. Bis Samstag!", "en": "Perfect, I'm already looking forward to it. See you Saturday!", "ur": "Bohat acha, mujhe abhi se intezaar hai. Hafte ko milte hain!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie richten eine feste Bestellung für jeden Samstag ein: zehn Brötchen, immer um neun Uhr.",
+        "en": "You set up a fixed order for every Saturday: ten rolls, always at nine o'clock.",
+        "ur": "Aap har hafte ke liye pakka order set karte hain: das Brötchen, hamesha nau baje."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz!",
+          "goal": { "en": "Greet and say you'd like to set up a weekend order.", "ur": "Salam karein aur kahein ke weekend order set karna hai." },
+          "options": ["Guten Morgen. Ich möchte eine Wochenendbestellung machen.", "Guten Morgen, ich hätte gern eine Wochenendbestellung."],
+          "fallback": "Was kann ich für Sie tun?",
+          "accept": [{ "kw": ["wochenendbestellung"], "next": "n2" }, { "kw": ["bestellung"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Gerne! Was möchten Sie denn regelmäßig bestellen?",
+          "goal": { "en": "Say ten rolls every Saturday.", "ur": "Kahein: har hafte das Brötchen." },
+          "options": ["Jeden Samstag zehn Brötchen, bitte.", "Zehn Brötchen jeden Samstag, bitte."],
+          "fallback": "Was möchten Sie bestellen?",
+          "accept": [{ "kw": ["samstag", "zehn"], "next": "n3" }, { "kw": ["zehn"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Vollkornbrötchen oder eine Mischung?",
+          "goal": { "en": "Say a mix, like last time.", "ur": "Kahein: mixture, pichli baar ki tarah." },
+          "options": ["Eine Mischung, bitte, wie letztes Mal.", "Eine Mischung, bitte."],
+          "fallback": "Welche Sorte möchten Sie?",
+          "accept": [{ "kw": ["mischung"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Kein Problem. Um wie viel Uhr möchten Sie abholen?",
+          "goal": { "en": "Say always at nine o'clock.", "ur": "Kahein: hamesha nau baje." },
+          "options": ["Immer um neun Uhr, bitte.", "Immer um neun Uhr."],
+          "fallback": "Wann möchten Sie abholen?",
+          "accept": [{ "kw": ["neun"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Gut, ich notiere das für jeden Samstag.",
+          "goal": { "en": "Say thank you, that's very practical.", "ur": "Kahein: shukriya, yeh bohat aasan hai." },
+          "options": ["Vielen Dank, das ist sehr praktisch für uns.", "Danke, das ist wirklich praktisch."],
+          "fallback": "Passt Ihnen das so?",
+          "accept": [{ "kw": ["danke", "praktisch"], "next": "n6" }, { "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Gern. Sie sind schon lange unsere Stammkundin. Dann bis Samstag!",
+          "goal": { "en": "Say see you Saturday.", "ur": "Kahein: hafte ko milte hain." },
+          "options": ["Bis Samstag, Frau Ostermann!", "Bis dann, Frau Ostermann!"],
+          "fallback": "Passt Ihnen Samstag?",
+          "accept": [
+            { "kw": ["samstag"], "reply": "Bis Samstag!", "next": "END" },
+            { "kw": ["dann"], "reply": "Bis dann!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Frau Ostermann, Bäckerin",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie möchten Ihre Wochenendbestellung diese Woche auf zwölf Brötchen erhöhen und fragen nach einer monatlichen Torte.",
+        "en": "You want to increase your weekend order to twelve rolls this week and ask about a monthly cake.",
+        "ur": "Aap is hafte apna order barha kar barah Brötchen karna chahte hain aur mahwaar torte ke baare mein poochte hain."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Morgen, Frau Yilmaz! Wie besprochen, ich habe Ihre Wochenendbestellung fertig.",
+          "goal": { "en": "Say perfect, but you'd like to change the order this week.", "ur": "Kahein: bohat acha, lekin is hafte tabdeeli chahiye." },
+          "options": ["Perfekt, aber ich wollte die Bestellung diese Woche etwas ändern.", "Danke, aber ich möchte diese Woche etwas ändern."],
+          "fallback": "Ist alles wie gewohnt?",
+          "accept": [{ "kw": ["ändern"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Kein Problem, was möchten Sie denn anders haben?",
+          "goal": { "en": "Say you need twelve rolls instead of eight, you have visitors.", "ur": "Kahein: aath ki jagah barah Brötchen chahiye, mehmaan aa rahe hain." },
+          "options": ["Diese Woche brauche ich zwölf Brötchen statt acht, wir haben Besuch.", "Ich brauche zwölf Brötchen statt acht, wir haben Gäste."],
+          "fallback": "Was möchten Sie anders haben?",
+          "accept": [{ "kw": ["zwölf"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Verstehe, das richte ich sofort ein. Bleibt der Rest gleich?",
+          "goal": { "en": "Say yes, the multigrain loaf stays as usual.", "ur": "Kahein: haan, mehrkorn bread hamesha ki tarah rahegi." },
+          "options": ["Ja, das Mehrkornbrot bleibt wie immer.", "Ja, alles andere bleibt gleich."],
+          "fallback": "Soll der Rest gleich bleiben?",
+          "accept": [{ "kw": ["mehrkornbrot"], "next": "n4" }, { "kw": ["gleich"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Abgemacht. Übrigens, könnten wir vielleicht auch einmal im Monat eine kleine Torte dazu bestellen?",
+          "goal": { "en": "Say that would be wonderful, your family would be very happy.", "ur": "Kahein: yeh bohat acha hoga, family khush hogi." },
+          "options": ["Wunderbar, das würde meine Familie sehr freuen.", "Das wäre toll, meine Familie würde sich freuen."],
+          "fallback": "Interessiert Sie das?",
+          "accept": [{ "kw": ["wunderbar", "familie"], "next": "n5" }, { "kw": ["familie"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Klar, das können wir flexibel machen. Als treue Kundin bekommen Sie ja sowieso den Rabatt für Stammkunden.",
+          "goal": { "en": "Say you really appreciate that, thank her for her understanding.", "ur": "Kahein: main bohat sarahti hoon, samajhne ka shukriya." },
+          "options": ["Das schätze ich wirklich sehr, danke für Ihr Verständnis.", "Vielen Dank, das schätze ich sehr."],
+          "fallback": "Freut Sie das?",
+          "accept": [{ "kw": ["schätze"], "next": "n6" }, { "kw": ["danke"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Keine Ursache. Dann bis Samstag um neun Uhr wie gewohnt.",
+          "goal": { "en": "Say see you Saturday.", "ur": "Kahein: hafte ko milte hain." },
+          "options": ["Bis Samstag, Frau Ostermann!", "Bis Samstag!"],
+          "fallback": "Passt Ihnen das?",
+          "accept": [
+            { "kw": ["samstag"], "reply": "Bis Samstag!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}

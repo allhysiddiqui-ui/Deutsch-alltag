@@ -1,0 +1,222 @@
+{
+  "id": "kasse",
+  "order": 2,
+  "icon": "💳",
+  "title": { "de": "An der Kasse", "en": "At the checkout", "ur": "Kasse par" },
+  "angle": "Paying at the checkout: card or cash, a bag, and the loyalty card · Kasse par payment: card ya cash, thaili aur loyalty card",
+  "voices": { "A": "Puck", "B": "Aoede" },
+  "words": ["tüte", "bargeld", "kartenzahlung", "kundenkarte", "pin", "eingeben", "kassenzettel", "wechselgeld", "sammeln"],
+
+  "dialogues": {
+    "A1": {
+      "speakers": { "A": "Herr Petersen (Kassierer)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag! Haben Sie alles gefunden?", "en": "Hello! Did you find everything?", "ur": "Salam! Kya aap ko sab kuch mil gaya?" },
+        { "s": "B", "de": "Ja, danke. Das wäre alles.", "en": "Yes, thanks. That would be everything.", "ur": "Ji haan, shukriya. Bas itna hi hai." },
+        { "s": "A", "de": "Zahlen Sie mit Karte oder Bargeld?", "en": "Are you paying by card or cash?", "ur": "Aap card se ada karengi ya nagad?" },
+        { "s": "B", "de": "Mit Karte, bitte.", "en": "By card, please.", "ur": "Card se, please." },
+        { "s": "A", "de": "Halten Sie die Karte bitte an das Gerät.", "en": "Please hold your card to the device.", "ur": "Meherbani kar ke card device par lagayein." },
+        { "s": "B", "de": "Brauchen Sie meine Kundenkarte auch?", "en": "Do you need my loyalty card too?", "ur": "Kya aap ko mera loyalty card bhi chahiye?" },
+        { "s": "A", "de": "Ja, gern. Damit sammeln Sie Punkte.", "en": "Yes, gladly. With that you collect points.", "ur": "Ji haan, zaroor. Is se aap points jama karti hain." },
+        { "s": "B", "de": "Hier, bitte.", "en": "Here you go.", "ur": "Yeh lein." },
+        { "s": "A", "de": "Können Sie bitte Ihre PIN eingeben?", "en": "Could you please enter your PIN?", "ur": "Meherbani kar ke apna PIN daalein?" },
+        { "s": "B", "de": "Natürlich.", "en": "Of course.", "ur": "Zaroor." },
+        { "s": "A", "de": "Brauchen Sie eine Tüte?", "en": "Do you need a bag?", "ur": "Kya aap ko thaili chahiye?" },
+        { "s": "B", "de": "Ja, eine Tüte bitte.", "en": "Yes, a bag please.", "ur": "Ji haan, ek thaili please." },
+        { "s": "A", "de": "Hier ist Ihr Kassenzettel. Einen schönen Tag noch!", "en": "Here is your receipt. Have a nice day!", "ur": "Yeh raha aap ka receipt. Acha din guzray!" },
+        { "s": "B", "de": "Danke, Ihnen auch!", "en": "Thanks, you too!", "ur": "Shukriya, aap ko bhi!" }
+      ]
+    },
+
+    "A2": {
+      "speakers": { "A": "Herr Petersen (Kassierer)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Ist das schon alles für heute?", "en": "Hello. Is that everything for today?", "ur": "Salam. Kya bas itna hi hai aaj ke liye?" },
+        { "s": "B", "de": "Ja, das ist alles. Wie viel macht das zusammen?", "en": "Yes, that's everything. How much does that come to altogether?", "ur": "Ji haan, bas itna hi. Ye sab mila kar kitna hua?" },
+        { "s": "A", "de": "Das macht zusammen zehn Euro.", "en": "That comes to ten euros altogether.", "ur": "Ye sab mila kar das euro hue." },
+        { "s": "B", "de": "Ich zahle mit Bargeld. Hier sind zwanzig Euro.", "en": "I'll pay in cash. Here's twenty euros.", "ur": "Main nagad ada karti hoon. Yeh bees euro hain." },
+        { "s": "A", "de": "Danke. Hier ist Ihr Wechselgeld, zehn Euro.", "en": "Thanks. Here is your change, ten euros.", "ur": "Shukriya. Yeh raha aap ka baqaya, das euro." },
+        { "s": "B", "de": "Vielen Dank. Verkaufen Sie auch Tüten?", "en": "Thank you very much. Do you also sell bags?", "ur": "Bohat shukriya. Kya aap thailiyan bhi bechte hain?" },
+        { "s": "A", "de": "Ja, eine Tüte kostet einen Euro.", "en": "Yes, a bag costs one euro.", "ur": "Ji haan, ek thaili ek euro ki hai." },
+        { "s": "B", "de": "Dann nehme ich eine, bitte.", "en": "Then I'll take one, please.", "ur": "To phir main ek le loongi, please." },
+        { "s": "A", "de": "Gut, ich rechne das noch dazu.", "en": "Good, I'll add that on.", "ur": "Acha, main yeh bhi jorr deta hoon." },
+        { "s": "B", "de": "Hier, bitte. Und kann ich mit der Kundenkarte noch Punkte sammeln?", "en": "Here you go. And can I still collect points with the loyalty card?", "ur": "Yeh lein. Aur kya main loyalty card se points bhi jama kar sakti hoon?" },
+        { "s": "A", "de": "Natürlich, ich scanne sie schnell noch dazu.", "en": "Of course, I'll quickly scan it in as well.", "ur": "Zaroor, main isay bhi jaldi se scan kar deta hoon." },
+        { "s": "B", "de": "Super, danke. Brauche ich den Kassenzettel für die Punkte?", "en": "Great, thanks. Do I need the receipt for the points?", "ur": "Bohat acha, shukriya. Kya points ke liye receipt chahiye?" },
+        { "s": "A", "de": "Nein, die Punkte werden automatisch auf Ihrer Karte gespeichert.", "en": "No, the points are saved automatically on your card.", "ur": "Nahi, points automatic tor par aap ke card par save ho jate hain." },
+        { "s": "B", "de": "Alles klar, vielen Dank für die Hilfe.", "en": "All right, thank you very much for the help.", "ur": "Theek hai, madad ka bohat shukriya." },
+        { "s": "A", "de": "Gern geschehen. Schönen Tag noch!", "en": "You're welcome. Have a nice day!", "ur": "Koi baat nahi. Acha din guzray!" },
+        { "s": "B", "de": "Ihnen auch, auf Wiedersehen!", "en": "You too, goodbye!", "ur": "Aap ko bhi, khuda hafiz!" }
+      ]
+    },
+
+    "B1": {
+      "speakers": { "A": "Herr Petersen (Kassierer)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag. Haben Sie alles zusammen?", "en": "Hello. Do you have everything together?", "ur": "Salam. Kya aap ke paas sab kuch hai?" },
+        { "s": "B", "de": "Ja, das ist alles für heute.", "en": "Yes, that's everything for today.", "ur": "Ji haan, bas itna hi hai aaj ke liye." },
+        { "s": "A", "de": "Das macht insgesamt zwölf Euro. Zahlen Sie mit Karte?", "en": "That comes to twelve euros in total. Are you paying by card?", "ur": "Ye mila kar barah euro hue. Card se ada karengi?" },
+        { "s": "B", "de": "Ja, mit Karte, bitte.", "en": "Yes, by card, please.", "ur": "Ji haan, card se, please." },
+        { "s": "A", "de": "Halten Sie die Karte bitte an das Gerät.", "en": "Please hold your card to the device.", "ur": "Meherbani kar ke card device par lagayein." },
+        { "s": "B", "de": "Es tut mir leid, es klappt nicht.", "en": "I'm sorry, it's not working.", "ur": "Maazrat, yeh kaam nahi kar raha." },
+        { "s": "A", "de": "Kein Problem, versuchen Sie es bitte noch einmal.", "en": "No problem, please try again.", "ur": "Koi baat nahi, meherbani kar ke dobara koshish karein." },
+        { "s": "B", "de": "Jetzt geht es. Muss ich noch die PIN eingeben?", "en": "Now it works. Do I still need to enter the PIN?", "ur": "Ab ho gaya. Kya mujhe abhi bhi PIN daalna hoga?" },
+        { "s": "A", "de": "Nein, bei diesem Preis reicht es ohne PIN.", "en": "No, for this price it's fine without a PIN.", "ur": "Nahi, is qeemat ke liye PIN ke baghair bhi chal jata hai." },
+        { "s": "B", "de": "Gut zu wissen. Kann ich trotzdem meine Kundenkarte zeigen?", "en": "Good to know. Can I still show my loyalty card?", "ur": "Acha maloom hua. Kya main phir bhi apna loyalty card dikha sakti hoon?" },
+        { "s": "A", "de": "Ja, natürlich. Damit sammeln Sie wie immer Punkte.", "en": "Yes, of course. With that you collect points as always.", "ur": "Ji haan, zaroor. Is se aap hamesha ki tarah points jama karti hain." },
+        { "s": "B", "de": "Perfekt. Und bekomme ich auch einen Kassenzettel?", "en": "Perfect. And do I also get a receipt?", "ur": "Bohat acha. Aur kya mujhe receipt bhi milega?" },
+        { "s": "A", "de": "Wenn Sie möchten, drucke ich gerne einen Kassenzettel für Sie aus.", "en": "If you'd like, I'll gladly print out a receipt for you.", "ur": "Agar aap chahein to main khushi se aap ke liye receipt print kar deta hoon." },
+        { "s": "B", "de": "Ja, bitte. Und eine Tüte hätte ich auch gern.", "en": "Yes, please. And I'd also like a bag.", "ur": "Ji, please. Aur mujhe ek thaili bhi chahiye." },
+        { "s": "A", "de": "Hier bitte, Kassenzettel und Tüte. Einen schönen Tag noch!", "en": "Here you go, receipt and bag. Have a nice day!", "ur": "Yeh lein, receipt aur thaili. Acha din guzray!" },
+        { "s": "B", "de": "Danke, Ihnen auch einen schönen Tag!", "en": "Thanks, you too, have a nice day!", "ur": "Shukriya, aap ka bhi din acha guzray!" }
+      ]
+    },
+
+    "B2": {
+      "speakers": { "A": "Herr Petersen (Kassierer)", "B": "Frau Yilmaz (Kundin)" },
+      "right": "B",
+      "lines": [
+        { "s": "A", "de": "Guten Tag, Frau Yilmaz. Haben Sie heute etwas mehr eingekauft als sonst?", "en": "Hello, Mrs Yilmaz. Have you bought a bit more than usual today?", "ur": "Salam, Frau Yilmaz. Kya aaj aap ne aam se thora zyada khareedari ki hai?" },
+        { "s": "B", "de": "Ja, wirklich etwas mehr, weil ich für das ganze Wochenende einkaufen wollte.", "en": "Yes, really a bit more, because I wanted to shop for the whole weekend.", "ur": "Ji haan, waqai kuch zyada, kyun ke main poore weekend ke liye khareedari karna chahti thi." },
+        { "s": "A", "de": "Das macht dann zusammen zwölf Euro. Möchten Sie wie gewohnt mit Karte bezahlen?", "en": "That comes to twelve euros altogether. Would you like to pay by card as usual?", "ur": "To ye mila kar barah euro hue. Kya aap hamesha ki tarah card se ada karengi?" },
+        { "s": "B", "de": "Eigentlich würde ich diesmal gern einen Teil bar bezahlen und den Rest mit Karte, wenn das möglich ist.", "en": "Actually I'd like to pay part in cash this time and the rest by card, if that's possible.", "ur": "Asal mein is baar main thora hissa nagad ada karna chahti hoon aur baqi card se, agar mumkin ho." },
+        { "s": "A", "de": "Das ist überhaupt kein Problem. Wie viel möchten Sie denn bar bezahlen?", "en": "That's not a problem at all. How much would you like to pay in cash?", "ur": "Yeh koi masla nahi. Aap kitna nagad ada karna chahengi?" },
+        { "s": "B", "de": "Sagen wir zehn Euro bar, den Rest bitte mit der Karte.", "en": "Let's say ten euros in cash, the rest by card please.", "ur": "Maan lein das euro nagad, baqi card se please." },
+        { "s": "A", "de": "Gut, dann sind das noch zwei Euro über die Karte. Halten Sie die Karte bitte an das Gerät.", "en": "Good, then that's another two euros by card. Please hold your card to the device.", "ur": "Acha, to card se aur do euro reh gaye. Meherbani kar ke card device par lagayein." },
+        { "s": "B", "de": "Muss ich dafür auch die PIN eingeben, obwohl der Betrag so klein ist?", "en": "Do I need to enter the PIN for that too, even though the amount is so small?", "ur": "Kya mujhe is ke liye bhi PIN daalna hoga, halan ke raqam itni chhoti hai?" },
+        { "s": "A", "de": "Nein, bei so einem kleinen Betrag reicht es normalerweise ohne PIN.", "en": "No, for such a small amount it's usually fine without a PIN.", "ur": "Nahi, itni chhoti raqam ke liye aam tor par PIN ke baghair chal jata hai." },
+        { "s": "B", "de": "Verstanden. Und kann ich meine Kundenkarte trotzdem noch zeigen, damit ich weiter Punkte sammeln kann?", "en": "Understood. And can I still show my loyalty card, so I can keep collecting points?", "ur": "Samajh gayi. Aur kya main phir bhi apna loyalty card dikha sakti hoon, taake points jama karti rahoon?" },
+        { "s": "A", "de": "Selbstverständlich, das mache ich sofort, während die Zahlung noch läuft.", "en": "Of course, I'll do that right away while the payment is still processing.", "ur": "Bilkul, main yeh abhi kar deta hoon jab tak payment ho rahi hai." },
+        { "s": "B", "de": "Wissen Sie vielleicht, wie viele Punkte ich schon insgesamt gesammelt habe?", "en": "Do you happen to know how many points I've already collected in total?", "ur": "Kya aap ko pata hai ke maine ab tak kitne points jama kiye hain?" },
+        { "s": "A", "de": "Das kann ich Ihnen leider nicht direkt sagen, aber auf dem Kassenzettel steht es meistens.", "en": "I unfortunately can't tell you that directly, but it's usually printed on the receipt.", "ur": "Yeh main foran nahi bata sakta, lekin aksar receipt par likha hota hai." },
+        { "s": "B", "de": "Dann drucken Sie mir den Kassenzettel bitte trotzdem aus, auch wenn ich sonst darauf verzichte.", "en": "Then please print me the receipt anyway, even though I usually skip it.", "ur": "To phir meherbani kar ke receipt print kar dein, warna main aam tor par nahi leti." },
+        { "s": "A", "de": "Mache ich gerne. Möchten Sie außerdem noch eine Tüte für die schweren Sachen?", "en": "Gladly. Would you also like a bag for the heavy items?", "ur": "Zaroor. Kya aap ko bhaari samaan ke liye thaili bhi chahiye?" },
+        { "s": "B", "de": "Ja, eine Tüte wäre gut, danke. Sie haben mir wirklich geholfen.", "en": "Yes, a bag would be good, thanks. You've really helped me.", "ur": "Ji haan, thaili acha rahega, shukriya. Aap ne meri sach mein madad ki." },
+        { "s": "A", "de": "Gern geschehen, Frau Yilmaz. Einen schönen Rest vom Tag noch!", "en": "You're welcome, Mrs Yilmaz. Have a nice rest of your day!", "ur": "Koi baat nahi, Frau Yilmaz. Din ka baqi hissa acha guzray!" }
+      ]
+    }
+  },
+
+  "roleplay": {
+    "easy": {
+      "role": "Herr Petersen, Kassierer",
+      "you": "Kundin",
+      "scene": {
+        "de": "Sie sind an der Kasse. Sie möchten mit Karte zahlen und brauchen eine Tüte.",
+        "en": "You're at the checkout. You want to pay by card and need a bag.",
+        "ur": "Aap kasse par hain. Card se ada karna hai aur thaili chahiye."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag! Haben Sie alles gefunden?",
+          "goal": { "en": "Greet and say yes, that's everything.", "ur": "Salam karein aur kahein haan, bas itna hi hai." },
+          "options": ["Ja, danke. Das wäre alles.", "Ja, das ist alles, danke."],
+          "fallback": "Ist das schon alles?",
+          "accept": [{ "kw": ["ja", "alles"], "next": "n2" }, { "kw": ["alles"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Zahlen Sie mit Karte oder Bargeld?",
+          "goal": { "en": "Say you're paying by card.", "ur": "Kahein card se ada karengi." },
+          "options": ["Mit Karte, bitte.", "Ich zahle mit Karte."],
+          "fallback": "Karte oder Bargeld?",
+          "accept": [{ "kw": ["karte"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Halten Sie die Karte bitte an das Gerät.",
+          "goal": { "en": "Say of course / all right.", "ur": "Kahein zaroor / theek hai." },
+          "options": ["Natürlich.", "Mache ich."],
+          "fallback": "Alles in Ordnung?",
+          "accept": [{ "kw": ["natürlich"], "next": "n4" }, { "kw": ["mache"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Brauchen Sie eine Tüte?",
+          "goal": { "en": "Say yes, a bag please.", "ur": "Kahein haan, ek thaili please." },
+          "options": ["Ja, eine Tüte bitte.", "Ja, bitte eine Tüte."],
+          "fallback": "Möchten Sie eine Tüte?",
+          "accept": [{ "kw": ["ja", "tüte"], "next": "n5" }, { "kw": ["tüte"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Hier ist Ihr Kassenzettel. Einen schönen Tag noch!",
+          "goal": { "en": "Thank him and wish him a nice day too.", "ur": "Shukriya adaa karein aur unhein bhi acha din kahein." },
+          "options": ["Danke, Ihnen auch einen schönen Tag!", "Danke schön, Ihnen auch!"],
+          "fallback": "Kann ich noch etwas für Sie tun?",
+          "accept": [
+            { "kw": ["danke"], "reply": "Auf Wiedersehen!", "next": "n6" }
+          ]
+        },
+        "n6": {
+          "say": "Auf Wiedersehen!",
+          "goal": { "en": "Say goodbye once more to close the conversation.", "ur": "Ek baar phir khuda hafiz kahein." },
+          "options": ["Auf Wiedersehen!", "Tschüss!"],
+          "fallback": "Bis zum nächsten Mal!",
+          "accept": [
+            { "kw": ["wiedersehen"], "reply": "Bis zum nächsten Mal!", "next": "END" },
+            { "kw": ["tschüss"], "reply": "Bis zum nächsten Mal!", "next": "END" }
+          ]
+        }
+      }
+    },
+
+    "hard": {
+      "role": "Herr Petersen, Kassierer",
+      "you": "Kundin",
+      "scene": {
+        "de": "An der Kasse funktioniert Ihre Karte beim ersten Versuch nicht. Sie möchten außerdem Ihre Kundenkarte nutzen und einen Kassenzettel.",
+        "en": "At the checkout your card doesn't work on the first try. You also want to use your loyalty card and get a receipt.",
+        "ur": "Kasse par aap ka card pehli koshish mein kaam nahi karta. Aap loyalty card bhi istemal karna chahti hain aur receipt bhi."
+      },
+      "start": "n1",
+      "nodes": {
+        "n1": {
+          "say": "Guten Tag. Haben Sie alles zusammen?",
+          "goal": { "en": "Say yes, that's everything for today.", "ur": "Kahein haan, aaj ke liye bas itna hi hai." },
+          "options": ["Ja, das ist alles für heute.", "Ja, das wäre alles."],
+          "fallback": "Fehlt Ihnen noch etwas?",
+          "accept": [{ "kw": ["ja"], "next": "n2" }]
+        },
+        "n2": {
+          "say": "Das macht insgesamt zwölf Euro. Zahlen Sie mit Karte?",
+          "goal": { "en": "Say yes, by card please.", "ur": "Kahein haan, card se please." },
+          "options": ["Ja, mit Karte, bitte.", "Ja, ich zahle mit Karte."],
+          "fallback": "Wie möchten Sie zahlen?",
+          "accept": [{ "kw": ["karte"], "next": "n3" }]
+        },
+        "n3": {
+          "say": "Halten Sie die Karte bitte an das Gerät.",
+          "goal": { "en": "Say sorry, it's not working.", "ur": "Kahein maazrat, kaam nahi kar raha." },
+          "options": ["Es tut mir leid, es klappt nicht.", "Entschuldigung, es funktioniert nicht."],
+          "fallback": "Klappt es?",
+          "accept": [{ "kw": ["klappt"], "next": "n4" }, { "kw": ["funktioniert"], "next": "n4" }]
+        },
+        "n4": {
+          "say": "Kein Problem, versuchen Sie es bitte noch einmal.",
+          "goal": { "en": "Say now it works and ask whether you still need to enter the PIN.", "ur": "Kahein ab ho gaya aur poochein kya PIN daalna hoga." },
+          "options": ["Jetzt geht es. Muss ich die PIN eingeben?", "Jetzt klappt es. Brauche ich die PIN?"],
+          "fallback": "Geht es jetzt?",
+          "accept": [{ "kw": ["pin"], "next": "n5" }]
+        },
+        "n5": {
+          "say": "Nein, bei diesem Betrag reicht es ohne PIN.",
+          "goal": { "en": "Ask whether you can also show your loyalty card.", "ur": "Poochein kya loyalty card bhi dikha sakti hain." },
+          "options": ["Gut. Kann ich auch meine Kundenkarte zeigen?", "Kann ich zusätzlich meine Kundenkarte zeigen?"],
+          "fallback": "Haben Sie sonst noch eine Frage?",
+          "accept": [{ "kw": ["kundenkarte"], "next": "n6" }]
+        },
+        "n6": {
+          "say": "Natürlich, damit sammeln Sie Punkte.",
+          "goal": { "en": "Thank him and ask for a receipt.", "ur": "Shukriya adaa karein aur receipt maangein." },
+          "options": ["Danke. Bekomme ich auch einen Kassenzettel?", "Vielen Dank. Und einen Kassenzettel, bitte?"],
+          "fallback": "Brauchen Sie noch etwas?",
+          "accept": [
+            { "kw": ["kassenzettel"], "reply": "Hier bitte, Ihr Kassenzettel. Einen schönen Tag noch!", "next": "END" },
+            { "kw": ["danke"], "reply": "Hier bitte, Ihr Kassenzettel. Einen schönen Tag noch!", "next": "END" }
+          ]
+        }
+      }
+    }
+  }
+}
